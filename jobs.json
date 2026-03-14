@@ -1,0 +1,477 @@
+[
+  {
+    "id": 1,
+    "score": 92,
+    "title": "Junior SOC Analyst",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Baltimore, MD",
+    "salary": "$60K–$65K",
+    "roleType": "SOC",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://careers.leidos.com",
+    "notes": "Security+ required · DoD 8570 IAT Level 2 · Sun–Wed 6am–4pm"
+  },
+  {
+    "id": 2,
+    "score": 85,
+    "title": "Junior System Administrator",
+    "company": "Interclypse Inc.",
+    "market": "MD",
+    "city": "Annapolis Junction, MD",
+    "salary": "$52K–$72K",
+    "roleType": "Systems Admin",
+    "certs": [
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://recruiting.paylocity.com/recruiting/jobs/Details/3132478/Interclypse-Inc/Junior-System-Administrator",
+    "notes": "Mentorship from Director of IT · DevOps growth path · Federal contractor"
+  },
+  {
+    "id": 3,
+    "score": 80,
+    "title": "Cloud Support Engineer (Entry)",
+    "company": "Amazon Web Services",
+    "market": "MD",
+    "city": "Baltimore, MD",
+    "salary": "$55K–$96K",
+    "roleType": "Cloud",
+    "certs": [
+      "cloud"
+    ],
+    "priority": "High",
+    "url": "https://amazon.jobs/content/en/locations/united-states/maryland/baltimore",
+    "notes": "Cloud+ directly applicable · 220+ AWS jobs in Baltimore area"
+  },
+  {
+    "id": 4,
+    "score": 78,
+    "title": "SOC Analyst Level 1",
+    "company": "Competitive Range Solutions",
+    "market": "MD",
+    "city": "Fort Meade, MD",
+    "salary": "$55K–$70K",
+    "roleType": "SOC",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.simplyhired.com",
+    "notes": "Near NSA/Cyber Command · Security+ valued · DoD contractor"
+  },
+  {
+    "id": 5,
+    "score": 75,
+    "title": "Entry-Level Cybersecurity Analyst",
+    "company": "Edgewater Federal Solutions",
+    "market": "MD",
+    "city": "Bethesda, MD",
+    "salary": "$55K–$70K",
+    "roleType": "SOC",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://edgewaterit.com/careers/",
+    "notes": "Mid-size gov't contractor · Security+ beneficial · DoD compliance"
+  },
+  {
+    "id": 6,
+    "score": 72,
+    "title": "Help Desk Technician",
+    "company": "XPERTECHS",
+    "market": "MD",
+    "city": "Columbia, MD",
+    "salary": "$45K–$55K",
+    "roleType": "Help Desk",
+    "certs": [
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://xpertechs.com/it-careers",
+    "notes": "Training culture · Vendor certs (MS, Cisco, AWS) · Gov't contracting focus"
+  },
+  {
+    "id": 7,
+    "score": 68,
+    "title": "IT Helpdesk Specialist",
+    "company": "Johns Hopkins Medicine",
+    "market": "MD",
+    "city": "Baltimore, MD",
+    "salary": "$31K–$41K",
+    "roleType": "Help Desk",
+    "certs": [],
+    "priority": "Medium",
+    "url": "https://jobs.hopkinsmedicine.org",
+    "notes": "Healthcare system · Hybrid/remote · No experience required · Steady growth path"
+  },
+  {
+    "id": 8,
+    "score": 65,
+    "title": "Desktop Support Technician",
+    "company": "Multiple (Columbia/Annapolis)",
+    "market": "MD",
+    "city": "Columbia, MD",
+    "salary": "$61K–$75K",
+    "roleType": "Desktop Support",
+    "certs": [],
+    "priority": "Medium",
+    "url": "https://www.indeed.com/q-Desktop-Support-Technician-l-Maryland-jobs.html",
+    "notes": "$75K+ in Columbia · Lower barrier to entry · CompTIA A+ preferred"
+  },
+  {
+    "id": 9,
+    "score": 62,
+    "title": "IT Technical Support Trainee",
+    "company": "State of Maryland",
+    "market": "MD",
+    "city": "Statewide, MD",
+    "salary": "~$51K",
+    "roleType": "Help Desk",
+    "certs": [
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://www.jobapscloud.com/MD/",
+    "notes": "Government employer · Training position · Stable career path · Benefits"
+  },
+  {
+    "id": 10,
+    "score": 58,
+    "title": "IT Support Specialist (Entry-Level)",
+    "company": "Various (341 openings)",
+    "market": "MD",
+    "city": "Baltimore, MD",
+    "salary": "$51K–$89K",
+    "roleType": "Help Desk",
+    "certs": [],
+    "priority": "Medium",
+    "url": "https://www.indeed.com/q-it-support-specialist-l-baltimore,-md-jobs.html",
+    "notes": "Active Directory match · 341 positions on Indeed · High volume market"
+  },
+  {
+    "id": 11,
+    "score": 55,
+    "title": "Entry-Level IT Technician (Apprenticeship)",
+    "company": "Catalyte",
+    "market": "MD",
+    "city": "Ellicott City, MD",
+    "salary": "$37K–$46K",
+    "roleType": "Help Desk",
+    "certs": [],
+    "priority": "Medium",
+    "url": "https://www.career.com/job/catalyte/entry-level-helpdesk-it-support/j202308260059086848191",
+    "notes": "6-18 month structured program · Paid training · Good for recent grads"
+  },
+  {
+    "id": 12,
+    "score": 50,
+    "title": "Junior Cloud Engineer (Multiple Openings)",
+    "company": "AWS Partners / Gov't Cloud",
+    "market": "MD",
+    "city": "Odenton / Severn, MD",
+    "salary": "$108K–$144K",
+    "roleType": "Cloud",
+    "certs": [
+      "cloud",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.ziprecruiter.com/Jobs/Entry-Level-Aws-Cloud-Engineer/--in-Maryland",
+    "notes": "Fort Meade area · Cloud+ directly applicable · Requires more cloud depth"
+  },
+  {
+    "id": 13,
+    "score": 95,
+    "title": "IT Support Specialist (DoD Contractor)",
+    "company": "GDIT",
+    "market": "VA",
+    "city": "Falls Church, VA",
+    "salary": "$55K–$75K",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.gdit.com/careers/",
+    "notes": "Security+ likely required · DoD 8570 · Top federal contractor · Career growth"
+  },
+  {
+    "id": 14,
+    "score": 93,
+    "title": "Junior SOC Analyst",
+    "company": "Leidos",
+    "market": "VA",
+    "city": "Reston, VA",
+    "salary": "$60K–$75K",
+    "roleType": "SOC",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://careers.leidos.com/search/jobs/in/va-virginia",
+    "notes": "Security+ required · DoD 8570 IAT Level 2 · Strong growth trajectory"
+  },
+  {
+    "id": 15,
+    "score": 90,
+    "title": "Entry-Level STEM Pipeline (Spring/Summer 2026)",
+    "company": "Peraton",
+    "market": "VA",
+    "city": "Reston, VA",
+    "salary": "$55K–$70K",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.careers.peraton.com/jobs/spring-summer-2026-university-entry-level-stem-pipeline-reston-virginia-158531-jobs--engineering--",
+    "notes": "University entry-level program · Security+ valued · Government contractor · Apply ASAP"
+  },
+  {
+    "id": 16,
+    "score": 87,
+    "title": "Entry-Level IT Help Desk Support",
+    "company": "ActioNet",
+    "market": "VA",
+    "city": "Arlington, VA",
+    "salary": "$45K–$60K",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://virginiaprofessionalgroup.com/careers/entry-level-it-helpdesk-support-assistant-arlington/",
+    "notes": "404 similar jobs in Arlington · Federal focus · Security+ valued"
+  },
+  {
+    "id": 17,
+    "score": 85,
+    "title": "Entry-Level Cybersecurity Analyst",
+    "company": "NexTech Solutions / CGI Group",
+    "market": "VA",
+    "city": "Fairfax, VA",
+    "salary": "$56K–$85K",
+    "roleType": "SOC",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.glassdoor.com/Job/fairfax-entry-level-information-technology-jobs-SRCH_IL.0,7_IC1130359_KO8,42.htm",
+    "notes": "428 IT entry-level jobs in Fairfax (March 2026) · Security+ in demand"
+  },
+  {
+    "id": 18,
+    "score": 83,
+    "title": "Cloud Support Engineer (Entry)",
+    "company": "Amazon / AWS",
+    "market": "VA",
+    "city": "Herndon, VA",
+    "salary": "$60K–$95K",
+    "roleType": "Cloud",
+    "certs": [
+      "cloud"
+    ],
+    "priority": "High",
+    "url": "https://www.indeed.com/q-Entry-Level-Cloud-Engineer-Aws-l-Virginia-jobs.html",
+    "notes": "Cloud+ directly applicable · AWS hiring hub in Herndon · Tech corridor"
+  },
+  {
+    "id": 19,
+    "score": 78,
+    "title": "IT Support Specialist (Entry-Level)",
+    "company": "Multiple Contractors",
+    "market": "VA",
+    "city": "McLean / Tysons, VA",
+    "salary": "$55K–$75K",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.clearancejobs.com/",
+    "notes": "Clearance eligible status is leverage · Apply via ClearanceJobs.com"
+  },
+  {
+    "id": 20,
+    "score": 72,
+    "title": "Junior Systems Administrator",
+    "company": "Multiple (NoVA)",
+    "market": "VA",
+    "city": "Fairfax / Vienna, VA",
+    "salary": "$52K–$72K",
+    "roleType": "Systems Admin",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.indeed.com/q-junior-system-administrator-l-fairfax,-va-jobs.html",
+    "notes": "Active Directory experience is a direct match · 361 positions in Dallas + VA"
+  },
+  {
+    "id": 21,
+    "score": 68,
+    "title": "IT Support Specialist (GS-7)",
+    "company": "Federal Government (USAJobs)",
+    "market": "VA",
+    "city": "Pentagon / Arlington, VA",
+    "salary": "$52K–$68K + fed benefits",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://www.usajobs.gov",
+    "notes": "Federal benefits worth 30-40% of base · Security+ often required · Clearance path"
+  },
+  {
+    "id": 22,
+    "score": 62,
+    "title": "Desktop Support Technician (Entry)",
+    "company": "Various NoVA Employers",
+    "market": "VA",
+    "city": "Alexandria / Arlington, VA",
+    "salary": "$45K–$65K",
+    "roleType": "Desktop Support",
+    "certs": [],
+    "priority": "Medium",
+    "url": "https://www.ziprecruiter.com/Jobs/Entry-Level-It-Help-Desk/-in-Alexandria,VA",
+    "notes": "1000+ help desk jobs in Virginia total · Active Directory experience valued"
+  },
+  {
+    "id": 23,
+    "score": 58,
+    "title": "SOC Analyst (Entry-Level)",
+    "company": "Various (Reston/Fairfax)",
+    "market": "VA",
+    "city": "Reston, VA",
+    "salary": "$56K–$75K",
+    "roleType": "SOC",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/jobs/q-soc+analyst-l-reston,+va-jobs",
+    "notes": "23-29 entry-level positions per location · Security+ valued"
+  },
+  {
+    "id": 24,
+    "score": 88,
+    "title": "New Grad Cybersecurity Development Program",
+    "company": "Texas Instruments",
+    "market": "TX",
+    "city": "Dallas, TX",
+    "salary": "$125K–$185K",
+    "roleType": "SOC",
+    "certs": [
+      "sec",
+      "cloud"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.glassdoor.com/job-listing/new-college-graduate-cybersecurity-development-program-texas-instruments-JV_IC1139977_KO0,54_KE55,72.htm",
+    "notes": "Career Accelerator Program (CAP) · Mentorship · Uses both Security+ & Cloud+ · High comp for new grad"
+  },
+  {
+    "id": 25,
+    "score": 82,
+    "title": "Help Desk Technician (Entry-Level)",
+    "company": "Multiple (Dallas Metro)",
+    "market": "TX",
+    "city": "Dallas, TX",
+    "salary": "$53K–$80K",
+    "roleType": "Help Desk",
+    "certs": [],
+    "priority": "High",
+    "url": "https://www.indeed.com/q-help-desk-l-dallas,-tx-jobs.html",
+    "notes": "356+ help desk jobs in Dallas · Active Directory match · Avg $64K · Robert Half also placing"
+  },
+  {
+    "id": 26,
+    "score": 80,
+    "title": "Junior Systems Administrator",
+    "company": "Multiple (Plano/Frisco)",
+    "market": "TX",
+    "city": "Plano, TX",
+    "salary": "$49K–$123K",
+    "roleType": "Systems Admin",
+    "certs": [],
+    "priority": "High",
+    "url": "https://www.glassdoor.com/Job/dallas-junior-systems-administrator-jobs-SRCH_IL.0,6_IC1139977_KO7,35.htm",
+    "notes": "Active Directory direct match · 361 positions · Plano is major tech hub"
+  },
+  {
+    "id": 27,
+    "score": 77,
+    "title": "Junior SOC Analyst",
+    "company": "Various (Dallas)",
+    "market": "TX",
+    "city": "Dallas / Irving, TX",
+    "salary": "$71K–$155K",
+    "roleType": "SOC",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.ziprecruiter.com/Jobs/Junior-Soc-Analyst/-in-Dallas,TX",
+    "notes": "118 SOC analyst jobs in Dallas · Security+ valued · 35+ junior-level positions"
+  },
+  {
+    "id": 28,
+    "score": 73,
+    "title": "IT Support Specialist (Entry-Level)",
+    "company": "AT&T / Technology Roles",
+    "market": "TX",
+    "city": "Dallas, TX",
+    "salary": "$55K–$75K",
+    "roleType": "Help Desk",
+    "certs": [],
+    "priority": "Medium",
+    "url": "https://www.att.jobs/employment/dallas-texas-united-states-technology-jobs/117/36864/6252001-4736286-4684904-4684888/4",
+    "notes": "AT&T HQ in Dallas · 132+ jobs · Network + IT support roles · Large employer benefits"
+  },
+  {
+    "id": 29,
+    "score": 68,
+    "title": "Cloud Support Engineer (Entry)",
+    "company": "Cloud Providers / Partners",
+    "market": "TX",
+    "city": "Dallas / Plano, TX",
+    "salary": "$62K–$125K",
+    "roleType": "Cloud",
+    "certs": [
+      "cloud"
+    ],
+    "priority": "Medium",
+    "url": "https://www.glassdoor.com/Job/dallas-entry-level-cyber-security-jobs-SRCH_IL.0,6_IC1139977_KO7,33.htm",
+    "notes": "Cloud+ applicable · 85+ cloud security positions · AWS/Azure/GCP stack"
+  },
+  {
+    "id": 30,
+    "score": 60,
+    "title": "Technology Associate Program",
+    "company": "Capital One",
+    "market": "TX",
+    "city": "Plano, TX",
+    "salary": "$60K–$80K",
+    "roleType": "Systems Admin",
+    "certs": [],
+    "priority": "Medium",
+    "url": "https://www.capitalonecareers.com/employment/plano-texas-united-states-technology-jobs/234/4412/6252001-4736286-4682500-4719457/4",
+    "notes": "Capital One Plano campus · Early-career tech program · Strong benefits + relocation"
+  }
+]
