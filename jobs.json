@@ -6,7 +6,7 @@
     "company": "Leidos",
     "market": "MD",
     "city": "Baltimore, MD",
-    "salary": "$60Kâ$65K",
+    "salary": "$60K-$65K",
     "roleType": "SOC",
     "certs": [
       "sec",
@@ -14,7 +14,7 @@
     ],
     "priority": "High",
     "url": "https://careers.leidos.com",
-    "notes": "Security+ required Â· DoD 8570 IAT Level 2 Â· SunâWed 6amâ4pm"
+    "notes": "Security+ required Â· DoD 8570 IAT Level 2 Â· Sun-Wed 6am-4pm"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
     "company": "Interclypse Inc.",
     "market": "MD",
     "city": "Annapolis Junction, MD",
-    "salary": "$52Kâ$72K",
+    "salary": "$52K-$72K",
     "roleType": "Systems Admin",
     "certs": [
       "fed"
@@ -39,7 +39,7 @@
     "company": "Amazon Web Services",
     "market": "MD",
     "city": "Baltimore, MD",
-    "salary": "$55Kâ$96K",
+    "salary": "$55K-$96K",
     "roleType": "Cloud",
     "certs": [
       "cloud"
@@ -55,7 +55,7 @@
     "company": "Competitive Range Solutions",
     "market": "MD",
     "city": "Fort Meade, MD",
-    "salary": "$55Kâ$70K",
+    "salary": "$55K-$70K",
     "roleType": "SOC",
     "certs": [
       "sec",
@@ -72,7 +72,7 @@
     "company": "Edgewater Federal Solutions",
     "market": "MD",
     "city": "Bethesda, MD",
-    "salary": "$55Kâ$70K",
+    "salary": "$55K-$70K",
     "roleType": "SOC",
     "certs": [
       "sec",
@@ -89,7 +89,7 @@
     "company": "XPERTECHS",
     "market": "MD",
     "city": "Columbia, MD",
-    "salary": "$45Kâ$55K",
+    "salary": "$45K-$55K",
     "roleType": "Help Desk",
     "certs": [
       "fed"
@@ -105,7 +105,7 @@
     "company": "Johns Hopkins Medicine",
     "market": "MD",
     "city": "Baltimore, MD",
-    "salary": "$31Kâ$41K",
+    "salary": "$31K-$41K",
     "roleType": "Help Desk",
     "certs": [],
     "priority": "Medium",
@@ -119,7 +119,7 @@
     "company": "Multiple (Columbia/Annapolis)",
     "market": "MD",
     "city": "Columbia, MD",
-    "salary": "$61Kâ$75K",
+    "salary": "$61K-$75K",
     "roleType": "Desktop Support",
     "certs": [],
     "priority": "Medium",
@@ -149,7 +149,7 @@
     "company": "Various (341 openings)",
     "market": "MD",
     "city": "Baltimore, MD",
-    "salary": "$51Kâ$89K",
+    "salary": "$51K-$89K",
     "roleType": "Help Desk",
     "certs": [],
     "priority": "Medium",
@@ -163,7 +163,7 @@
     "company": "Catalyte",
     "market": "MD",
     "city": "Ellicott City, MD",
-    "salary": "$37Kâ$46K",
+    "salary": "$37K-$46K",
     "roleType": "Help Desk",
     "certs": [],
     "priority": "Medium",
@@ -177,7 +177,7 @@
     "company": "AWS Partners / Gov't Cloud",
     "market": "MD",
     "city": "Odenton / Severn, MD",
-    "salary": "$108Kâ$144K",
+    "salary": "$108K-$144K",
     "roleType": "Cloud",
     "certs": [
       "cloud",
@@ -194,7 +194,7 @@
     "company": "GDIT",
     "market": "VA",
     "city": "Falls Church, VA",
-    "salary": "$55Kâ$75K",
+    "salary": "$55K-$75K",
     "roleType": "Help Desk",
     "certs": [
       "sec",
@@ -211,7 +211,7 @@
     "company": "Leidos",
     "market": "VA",
     "city": "Reston, VA",
-    "salary": "$60Kâ$75K",
+    "salary": "$60K-$75K",
     "roleType": "SOC",
     "certs": [
       "sec",
@@ -228,7 +228,7 @@
     "company": "Peraton",
     "market": "VA",
     "city": "Reston, VA",
-    "salary": "$55Kâ$70K",
+    "salary": "$55K-$70K",
     "roleType": "Help Desk",
     "certs": [
       "sec",
@@ -245,7 +245,7 @@
     "company": "ActioNet",
     "market": "VA",
     "city": "Arlington, VA",
-    "salary": "$45Kâ$60K",
+    "salary": "$45K-$60K",
     "roleType": "Help Desk",
     "certs": [
       "sec",
@@ -262,7 +262,7 @@
     "company": "NexTech Solutions / CGI Group",
     "market": "VA",
     "city": "Fairfax, VA",
-    "salary": "$56Kâ$85K",
+    "salary": "$56K-$85K",
     "roleType": "SOC",
     "certs": [
       "sec",
@@ -279,7 +279,7 @@
     "company": "Amazon / AWS",
     "market": "VA",
     "city": "Herndon, VA",
-    "salary": "$60Kâ$95K",
+    "salary": "$60K-$95K",
     "roleType": "Cloud",
     "certs": [
       "cloud"
@@ -295,7 +295,7 @@
     "company": "Multiple Contractors",
     "market": "VA",
     "city": "McLean / Tysons, VA",
-    "salary": "$55Kâ$75K",
+    "salary": "$55K-$75K",
     "roleType": "Help Desk",
     "certs": [
       "sec",
@@ -312,7 +312,7 @@
     "company": "Multiple (NoVA)",
     "market": "VA",
     "city": "Fairfax / Vienna, VA",
-    "salary": "$52Kâ$72K",
+    "salary": "$52K-$72K",
     "roleType": "Systems Admin",
     "certs": [
       "sec"
@@ -328,7 +328,7 @@
     "company": "Federal Government (USAJobs)",
     "market": "VA",
     "city": "Pentagon / Arlington, VA",
-    "salary": "$52Kâ$68K + fed benefits",
+    "salary": "$52K-$68K + fed benefits",
     "roleType": "Help Desk",
     "certs": [
       "sec",
@@ -345,7 +345,7 @@
     "company": "Various NoVA Employers",
     "market": "VA",
     "city": "Alexandria / Arlington, VA",
-    "salary": "$45Kâ$65K",
+    "salary": "$45K-$65K",
     "roleType": "Desktop Support",
     "certs": [],
     "priority": "Medium",
@@ -359,7 +359,7 @@
     "company": "Various (Reston/Fairfax)",
     "market": "VA",
     "city": "Reston, VA",
-    "salary": "$56Kâ$75K",
+    "salary": "$56K-$75K",
     "roleType": "SOC",
     "certs": [
       "sec",
@@ -376,7 +376,7 @@
     "company": "Texas Instruments",
     "market": "TX",
     "city": "Dallas, TX",
-    "salary": "$125Kâ$185K",
+    "salary": "$125K-$185K",
     "roleType": "SOC",
     "certs": [
       "sec",
@@ -393,7 +393,7 @@
     "company": "Multiple (Dallas Metro)",
     "market": "TX",
     "city": "Dallas, TX",
-    "salary": "$53Kâ$80K",
+    "salary": "$53K-$80K",
     "roleType": "Help Desk",
     "certs": [],
     "priority": "High",
@@ -407,7 +407,7 @@
     "company": "Multiple (Plano/Frisco)",
     "market": "TX",
     "city": "Plano, TX",
-    "salary": "$49Kâ$123K",
+    "salary": "$49K-$123K",
     "roleType": "Systems Admin",
     "certs": [],
     "priority": "High",
@@ -421,7 +421,7 @@
     "company": "Various (Dallas)",
     "market": "TX",
     "city": "Dallas / Irving, TX",
-    "salary": "$71Kâ$155K",
+    "salary": "$71K-$155K",
     "roleType": "SOC",
     "certs": [
       "sec"
@@ -437,7 +437,7 @@
     "company": "AT&T / Technology Roles",
     "market": "TX",
     "city": "Dallas, TX",
-    "salary": "$55Kâ$75K",
+    "salary": "$55K-$75K",
     "roleType": "Help Desk",
     "certs": [],
     "priority": "Medium",
@@ -451,7 +451,7 @@
     "company": "Cloud Providers / Partners",
     "market": "TX",
     "city": "Dallas / Plano, TX",
-    "salary": "$62Kâ$125K",
+    "salary": "$62K-$125K",
     "roleType": "Cloud",
     "certs": [
       "cloud"
@@ -467,7 +467,7 @@
     "company": "Capital One",
     "market": "TX",
     "city": "Plano, TX",
-    "salary": "$60Kâ$80K",
+    "salary": "$60K-$80K",
     "roleType": "Systems Admin",
     "certs": [],
     "priority": "Medium",
@@ -479,7 +479,7 @@
     "company": "AHU Technologies Inc",
     "location": "Washington, DC",
     "type": "Full-time",
-    "salary": "$21–$24/hr (~$44K–$50K)",
+    "salary": "$21-$24/hr (~$44K-$50K)",
     "posted": "2026-03-01",
     "deadline": "2026-04-30",
     "status": "Open",
