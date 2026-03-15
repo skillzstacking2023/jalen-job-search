@@ -177,7 +177,7 @@
     </div>
     <div class="last-updated">
       <span>Dashboard Generated</span>
-      March 13, 2026
+      <span id="gen-date"></span>
     </div>
   </div>
 </div>
@@ -476,5 +476,9 @@ function closeModal() { document.getElementById('resume-modal').classList.remove
     <div class="resume" id="resume-content"></div>
   </div>
 </div>
+
+  <script>
+    document.getElementById('gen-date').textContent = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+  </script>
 </body>
 </html>
