@@ -1,354 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jalen Batiste — IT Job Search Dashboard</title>
-<style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f1117; color: #e2e8f0; min-height: 100vh; }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jalen Batiste — IT Job Search Dashboard</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --bg:#080d1a;--surface:#0f1629;--surface2:#162040;
+      --border:rgba(148,163,184,.1);--border2:rgba(148,163,184,.18);
+      --text:#e2e8f0;--muted:#64748b;--dim:#94a3b8;
+      --green:#10b981;--amber:#f59e0b;--orange:#f97316;--blue:#3b82f6;--purple:#8b5cf6;
+    }
+    body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:14px;line-height:1.5;min-height:100vh}
 
-  /* Header */
-  .header { background: linear-gradient(135deg, #1a1f2e 0%, #16213e 100%); border-bottom: 1px solid #2d3748; padding: 24px 32px; }
-  .header-top { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px; }
-  .candidate-info h1 { font-size: 1.8rem; font-weight: 700; color: #fff; }
-  .candidate-info p { color: #94a3b8; font-size: 0.9rem; margin-top: 4px; }
-  .certs { display: flex; gap: 8px; margin-top: 10px; }
-  .cert-badge { background: #1e3a5f; border: 1px solid #3b82f6; color: #60a5fa; padding: 4px 12px; border-radius: 20px; font-size: 0.78rem; font-weight: 600; }
-  .cert-badge.cloud { background: #1e3e2f; border-color: #10b981; color: #34d399; }
-  .last-updated { color: #64748b; font-size: 0.8rem; text-align: right; }
-  .last-updated span { display: block; color: #94a3b8; font-weight: 500; }
+    /* ── HEADER ── */
+    .header{background:linear-gradient(135deg,#0d1b38 0%,#080d1a 100%);border-bottom:1px solid var(--border);padding:24px 32px;display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+    .profile-name{font-size:1.55rem;font-weight:700;letter-spacing:-.025em;color:#f8fafc}
+    .profile-chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+    .chip{display:inline-flex;align-items:center;gap:4px;padding:3px 10px;border-radius:20px;font-size:.7rem;font-weight:500;letter-spacing:.02em;border:1px solid transparent}
+    .chip-loc{background:rgba(59,130,246,.1);border-color:rgba(59,130,246,.25);color:#93c5fd}
+    .chip-edu{background:rgba(139,92,246,.1);border-color:rgba(139,92,246,.25);color:#c4b5fd}
+    .chip-clr{background:rgba(245,158,11,.1);border-color:rgba(245,158,11,.25);color:#fcd34d}
+    .chip-sec{background:rgba(239,68,68,.1);border-color:rgba(239,68,68,.25);color:#fca5a5}
+    .chip-cld{background:rgba(16,185,129,.1);border-color:rgba(16,185,129,.25);color:#6ee7b7}
+    .last-updated{font-size:.7rem;color:var(--muted);text-align:right;white-space:nowrap;padding-top:4px}
+    .last-updated span:first-child{display:block;text-transform:uppercase;letter-spacing:.06em;margin-bottom:3px}
 
-  /* Stats bar */
-  .stats-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: #2d3748; border-bottom: 1px solid #2d3748; }
-  .stat { background: #1a1f2e; padding: 18px 24px; text-align: center; }
-  .stat-number { font-size: 2rem; font-weight: 700; color: #fff; }
-  .stat-label { font-size: 0.75rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 2px; }
-  .stat-number.blue { color: #60a5fa; }
-  .stat-number.green { color: #34d399; }
-  .stat-number.purple { color: #a78bfa; }
-  .stat-number.orange { color: #fb923c; }
+    /* ── STATS ── */
+    .stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:16px 32px;background:var(--surface);border-bottom:1px solid var(--border)}
+    .stat-card{background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:14px 16px;display:flex;align-items:center;gap:12px}
+    .stat-icon{width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0}
+    .si-blue{background:rgba(59,130,246,.15)}.si-green{background:rgba(16,185,129,.15)}.si-amber{background:rgba(245,158,11,.15)}.si-purple{background:rgba(139,92,246,.15)}
+    .stat-num{font-size:1.45rem;font-weight:700;line-height:1;color:#f8fafc}
+    .stat-lbl{font-size:.65rem;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin-top:2px}
 
-  /* Main layout */
-  .main { padding: 24px 32px; max-width: 1600px; margin: 0 auto; }
+    /* ── FILTERS ── */
+    .filters-bar{padding:13px 32px;background:var(--surface);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+    .flbl{font-size:.65rem;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;white-space:nowrap}
+    .filter-btn{padding:5px 13px;border-radius:6px;border:1px solid var(--border2);background:transparent;color:var(--dim);font-size:.75rem;font-weight:500;cursor:pointer;transition:all .15s}
+    .filter-btn:hover{background:var(--surface2);color:var(--text)}
+    .filter-btn.active{background:rgba(59,130,246,.15);border-color:rgba(59,130,246,.4);color:#93c5fd}
+    .fsel{padding:5px 9px;border-radius:6px;border:1px solid var(--border2);background:var(--surface2);color:var(--text);font-size:.75rem;cursor:pointer;outline:none}
+    .fsel:focus{border-color:rgba(59,130,246,.5)}
+    .search-input{flex:1;min-width:160px;max-width:260px;padding:5px 11px 5px 30px;border-radius:6px;border:1px solid var(--border2);background:var(--surface2);color:var(--text);font-size:.75rem;outline:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2.5'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='m21 21-4.35-4.35'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:9px center}
+    .search-input:focus{border-color:rgba(59,130,246,.5)}
+    .search-input::placeholder{color:var(--muted)}
+    .fdivider{width:1px;height:22px;background:var(--border);flex-shrink:0}
 
-  /* Alert banner */
-  .alert { background: #2d1b00; border: 1px solid #d97706; border-radius: 8px; padding: 12px 16px; margin-bottom: 24px; display: flex; align-items: center; gap: 10px; font-size: 0.88rem; color: #fbbf24; }
-  .alert strong { color: #f59e0b; }
+    /* ── RESULT BAR ── */
+    .result-bar{padding:8px 32px;background:var(--bg);border-bottom:1px solid var(--border);display:flex;align-items:center}
+    #result-count{font-size:.72rem;color:var(--muted)}
 
-  /* Controls */
-  .controls { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 20px; align-items: center; }
-  .filter-group { display: flex; gap: 8px; flex-wrap: wrap; }
-  .filter-btn { background: #1e2533; border: 1px solid #374151; color: #94a3b8; padding: 7px 16px; border-radius: 6px; cursor: pointer; font-size: 0.83rem; transition: all 0.15s; }
-  .filter-btn:hover { border-color: #60a5fa; color: #60a5fa; }
-  .filter-btn.active { background: #1e3a5f; border-color: #3b82f6; color: #60a5fa; font-weight: 600; }
-  .filter-btn.md.active { background: #1e2f3e; border-color: #0ea5e9; color: #38bdf8; }
-  .filter-btn.va.active { background: #1e3a2f; border-color: #10b981; color: #34d399; }
-  .filter-btn.tx.active { background: #2d1f3e; border-color: #a78bfa; color: #c4b5fd; }
-  select { background: #1e2533; border: 1px solid #374151; color: #e2e8f0; padding: 7px 12px; border-radius: 6px; font-size: 0.83rem; cursor: pointer; }
-  .search-box { flex: 1; min-width: 200px; background: #1e2533; border: 1px solid #374151; color: #e2e8f0; padding: 7px 14px; border-radius: 6px; font-size: 0.83rem; }
-  .search-box:focus { outline: none; border-color: #60a5fa; }
-  .search-box::placeholder { color: #4b5563; }
-  .result-count { color: #64748b; font-size: 0.83rem; margin-left: auto; }
+    /* ── TABLE ── */
+    .table-wrap{overflow-x:auto;padding:0 32px 40px;background:var(--bg)}
+    table{width:100%;border-collapse:collapse}
+    thead{position:sticky;top:0;z-index:10}
+    th{padding:9px 11px;text-align:left;font-size:.65rem;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);background:var(--bg);border-bottom:1px solid var(--border2);white-space:nowrap;cursor:pointer;user-select:none;transition:color .15s}
+    th:hover{color:var(--text)}
+    th.sorted{color:#93c5fd !important}
+    th.sorted .sort-icon{font-weight:bold}
+    th:not([onclick]){cursor:default}
+    td{padding:10px 11px;border-bottom:1px solid var(--border);vertical-align:middle}
+    tr:hover td{background:rgba(255,255,255,.018)}
+    tr.row-status-applied td{background:rgba(16,185,129,.04)}
+    tr.row-status-applied:hover td{background:rgba(16,185,129,.07)}
+    tr.row-status-screening td{background:rgba(245,158,11,.04)}
+    tr.row-status-screening:hover td{background:rgba(245,158,11,.07)}
+    tr.row-status-interview td{background:rgba(59,130,246,.05)}
+    tr.row-status-interview:hover td{background:rgba(59,130,246,.08)}
+    tr.row-status-offer td{background:rgba(16,185,129,.09);border-left:2px solid var(--green)}
 
-  /* Job table */
-  .table-wrapper { background: #1a1f2e; border: 1px solid #2d3748; border-radius: 10px; overflow: hidden; }
-  table { width: 100%; border-collapse: collapse; }
-  thead { background: #16213e; }
-  th { padding: 12px 16px; text-align: left; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748b; font-weight: 600; cursor: pointer; user-select: none; white-space: nowrap; }
-  th:hover { color: #94a3b8; }
-  th .sort-icon { margin-left: 4px; opacity: 0.4; }
-  th.sorted .sort-icon { opacity: 1; color: #60a5fa; }
-  tbody tr { border-top: 1px solid #1e2533; transition: background 0.1s; }
-  tbody tr:hover { background: #1e2533; }
-  td { padding: 14px 16px; font-size: 0.87rem; vertical-align: middle; }
+    /* ── SCORE ── */
+    .score{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;font-size:.8rem;font-weight:700;border:2px solid}
+    .score-high{color:#10b981;border-color:rgba(16,185,129,.5);background:rgba(16,185,129,.1)}
+    .score-med{color:#f59e0b;border-color:rgba(245,158,11,.5);background:rgba(245,158,11,.1)}
+    .score-low{color:#f97316;border-color:rgba(249,115,22,.5);background:rgba(249,115,22,.1)}
 
-  /* Score badge */
-  .score { display: inline-block; padding: 3px 10px; border-radius: 12px; font-weight: 700; font-size: 0.78rem; }
-  .score-high { background: #064e3b; color: #34d399; }
-  .score-med { background: #1e3a5f; color: #60a5fa; }
-  .score-low { background: #2d2e3e; color: #94a3b8; }
+    /* ── JOB CELL ── */
+    .job-title{font-weight:600;font-size:.84rem;color:#e2e8f0}
+    .company-name{font-size:.76rem;color:#93c5fd;margin-top:2px}
+    .location-text{font-size:.7rem;color:var(--muted);margin-top:1px}
+    .job-notes{font-size:.68rem;color:var(--dim);margin-top:4px;line-height:1.4}
 
-  /* Market badge */
-  .market { display: inline-block; padding: 3px 10px; border-radius: 4px; font-size: 0.75rem; font-weight: 600; }
-  .market-md { background: #0c2a3f; color: #38bdf8; }
-  .market-va { background: #0c2e20; color: #34d399; }
-  .market-tx { background: #1e1040; color: #c4b5fd; }
+    /* ── BADGES ── */
+    .market{display:inline-block;padding:3px 8px;border-radius:4px;font-size:.68rem;font-weight:600;letter-spacing:.03em}
+    .market-md{background:rgba(59,130,246,.12);color:#93c5fd;border:1px solid rgba(59,130,246,.2)}
+    .market-va{background:rgba(139,92,246,.12);color:#c4b5fd;border:1px solid rgba(139,92,246,.2)}
+    .market-tx{background:rgba(245,158,11,.12);color:#fcd34d;border:1px solid rgba(245,158,11,.2)}
+    .salary{font-size:.76rem;color:#e2e8f0;white-space:nowrap}
+    .cert-tag{display:inline-block;padding:2px 7px;border-radius:4px;font-size:.66rem;font-weight:600;margin:1px 2px 1px 0;letter-spacing:.02em}
+    .tag-sec{background:rgba(239,68,68,.12);color:#fca5a5;border:1px solid rgba(239,68,68,.2)}
+    .tag-cloud{background:rgba(16,185,129,.12);color:#6ee7b7;border:1px solid rgba(16,185,129,.2)}
+    .tag-fed{background:rgba(245,158,11,.12);color:#fcd34d;border:1px solid rgba(245,158,11,.2)}
+    .priority{display:inline-block;padding:3px 9px;border-radius:12px;font-size:.68rem;font-weight:600}
+    .p-high{background:rgba(16,185,129,.12);color:#6ee7b7;border:1px solid rgba(16,185,129,.25)}
+    .p-med{background:rgba(245,158,11,.12);color:#fcd34d;border:1px solid rgba(245,158,11,.25)}
+    .p-stretch{background:rgba(249,115,22,.12);color:#fdba74;border:1px solid rgba(249,115,22,.25)}
 
-  /* Priority */
-  .priority { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.73rem; font-weight: 600; }
-  .p-high { background: #3d1515; color: #f87171; }
-  .p-med { background: #1e2e10; color: #86efac; }
-  .p-stretch { background: #1e1a0e; color: #fcd34d; }
+    /* ── STATUS ── */
+    .status-select{padding:5px 8px;border-radius:6px;border:1px solid var(--border2);background:var(--surface2);color:var(--dim);font-size:.71rem;cursor:pointer;outline:none;width:118px}
+    .status-select.applied{border-color:rgba(16,185,129,.4);color:#6ee7b7;background:rgba(16,185,129,.08)}
+    .status-select.screening{border-color:rgba(245,158,11,.4);color:#fcd34d;background:rgba(245,158,11,.08)}
+    .status-select.interview{border-color:rgba(59,130,246,.4);color:#93c5fd;background:rgba(59,130,246,.08)}
+    .status-select.offer{border-color:rgba(16,185,129,.6);color:#34d399;background:rgba(16,185,129,.15);font-weight:700}
 
-  /* Cert tags */
-  .cert-tag { display: inline-block; padding: 2px 6px; border-radius: 3px; font-size: 0.7rem; font-weight: 600; margin-right: 3px; }
-  .tag-sec { background: #1e3a5f; color: #60a5fa; }
-  .tag-cloud { background: #1e3e2f; color: #34d399; }
-  .tag-fed { background: #2d1a0e; color: #fb923c; }
+    /* ── BUTTONS ── */
+    .btn-apply,.btn-tailor{display:inline-block;padding:5px 11px;border-radius:6px;font-size:.71rem;font-weight:600;text-decoration:none;border:1px solid;cursor:pointer;white-space:nowrap;transition:all .15s}
+    .btn-apply{background:rgba(59,130,246,.1);border-color:rgba(59,130,246,.3);color:#93c5fd}
+    .btn-apply:hover{background:rgba(59,130,246,.2)}
+    .btn-tailor{background:rgba(16,185,129,.1);border-color:rgba(16,185,129,.3);color:#6ee7b7;margin-left:5px}
+    .btn-tailor:hover{background:rgba(16,185,129,.2)}
 
-  /* Status dropdown */
-  .status-select { background: #0f1117; border: 1px solid #374151; color: #e2e8f0; padding: 4px 8px; border-radius: 5px; font-size: 0.78rem; cursor: pointer; }
-  .status-select.applied { border-color: #10b981; color: #34d399; }
-  .status-select.screening { border-color: #f59e0b; color: #fbbf24; }
-  .status-select.interview { border-color: #8b5cf6; color: #a78bfa; }
-  .status-select.offer { border-color: #ef4444; color: #f87171; }
+    /* ── NO RESULTS ── */
+    #no-results{display:none;padding:56px 32px;text-align:center;color:var(--muted);font-size:.9rem}
 
-  /* Company name */
-  .company-name { font-weight: 600; color: #e2e8f0; }
-  .job-title { color: #60a5fa; font-weight: 500; }
-  .salary { color: #86efac; font-size: 0.82rem; }
-  .location-text { color: #94a3b8; font-size: 0.82rem; }
+    /* ── FOOTER ── */
+    .footer{background:var(--surface);border-top:1px solid var(--border);padding:28px 32px}
+    .footer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:20px}
+    .footer-card{background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:16px 18px}
+    .footer-title{font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:12px}
+    .mbar{display:flex;align-items:center;gap:9px;margin-bottom:7px}
+    .mbar-lbl{font-size:.75rem;color:var(--dim);width:100px;flex-shrink:0}
+    .mbar-track{flex:1;height:5px;background:var(--border2);border-radius:3px;overflow:hidden}
+    .mbar-fill{height:100%;border-radius:3px}
+    .mbar-fill.md{background:#3b82f6}.mbar-fill.va{background:#8b5cf6}.mbar-fill.tx{background:#f59e0b}
+    .mbar-n{font-size:.72rem;font-weight:600;color:var(--dim);width:18px;text-align:right;flex-shrink:0}
+    .sal-row{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px}
+    .sal-role{font-size:.75rem;color:var(--dim)}
+    .sal-range{font-size:.72rem;color:#10b981;font-weight:500}
+    .tip{display:flex;gap:7px;margin-bottom:8px;font-size:.75rem;color:var(--dim);line-height:1.5}
+    .tip-ico{flex-shrink:0}
+    .footer-meta{text-align:center;font-size:.68rem;color:var(--muted);line-height:1.9}
+    .footer-links{display:flex;gap:12px;justify-content:center;margin-top:6px;flex-wrap:wrap}
+    .footer-links a{color:#93c5fd;text-decoration:none;font-size:.7rem}
+    .footer-links a:hover{text-decoration:underline}
 
-  /* Apply button */
-  .apply-btn { background: #1e3a5f; border: 1px solid #3b82f6; color: #60a5fa; padding: 5px 12px; border-radius: 5px; text-decoration: none; font-size: 0.78rem; font-weight: 600; cursor: pointer; transition: all 0.15s; white-space: nowrap; }
-  .apply-btn:hover { background: #2d4f7c; }
+    /* ── MODAL ── */
+    .modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.8);backdrop-filter:blur(6px);z-index:1000;align-items:center;justify-content:center;padding:20px}
+    .modal-overlay.open{display:flex}
+    .modal-box{background:#0c1525;border:1px solid rgba(148,163,184,.15);border-radius:14px;width:100%;max-width:740px;max-height:88vh;overflow-y:auto;box-shadow:0 30px 70px rgba(0,0,0,.7)}
+    .modal-actions{display:flex;gap:8px;padding:14px 18px;border-bottom:1px solid rgba(148,163,184,.1);background:#080d1a;border-radius:14px 14px 0 0;position:sticky;top:0;z-index:1}
+    .btn-print{padding:6px 14px;border-radius:7px;font-size:.75rem;font-weight:600;cursor:pointer;border:1px solid rgba(148,163,184,.2);background:rgba(148,163,184,.07);color:#94a3b8;transition:all .15s}
+    .btn-print:hover{background:rgba(148,163,184,.14);color:#e2e8f0}
+    .btn-close{margin-left:auto;padding:6px 14px;border-radius:7px;font-size:.75rem;font-weight:600;cursor:pointer;border:1px solid rgba(239,68,68,.2);background:rgba(239,68,68,.08);color:#fca5a5;transition:all .15s}
+    .btn-close:hover{background:rgba(239,68,68,.15)}
+    .resume{padding:28px 32px;color:#1e293b;background:#fff;border-radius:0 0 14px 14px}
+    .resume h1{font-size:1.35rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#0f172a;margin-bottom:5px}
+    .resume .contact{font-size:.78rem;color:#475569;margin-bottom:14px}
+    .resume h2{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:#0f172a;border-bottom:2px solid #e2e8f0;padding-bottom:3px;margin:14px 0 7px}
+    .resume p{font-size:.83rem;color:#334155;margin-bottom:7px;line-height:1.6}
+    .resume .job-header{display:flex;justify-content:space-between;font-size:.8rem;font-weight:600;color:#1e293b;margin-bottom:3px}
+    .resume ul{padding-left:17px;margin-bottom:7px}
+    .resume li{font-size:.8rem;color:#334155;line-height:1.6;margin-bottom:2px}
 
-  /* Bottom charts section */
-  .charts-section { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-top: 24px; }
-  .chart-card { background: #1a1f2e; border: 1px solid #2d3748; border-radius: 10px; padding: 20px; }
-  .chart-title { font-size: 0.83rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748b; margin-bottom: 16px; font-weight: 600; }
-
-  /* Bar chart */
-  .bar-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
-  .bar-label { font-size: 0.78rem; color: #94a3b8; width: 130px; flex-shrink: 0; }
-  .bar-track { flex: 1; background: #0f1117; border-radius: 3px; height: 8px; overflow: hidden; }
-  .bar-fill { height: 100%; border-radius: 3px; transition: width 0.5s; }
-  .bar-fill.blue { background: linear-gradient(90deg, #3b82f6, #60a5fa); }
-  .bar-fill.green { background: linear-gradient(90deg, #10b981, #34d399); }
-  .bar-fill.purple { background: linear-gradient(90deg, #7c3aed, #a78bfa); }
-  .bar-fill.orange { background: linear-gradient(90deg, #d97706, #fb923c); }
-  .bar-count { font-size: 0.78rem; color: #64748b; width: 30px; text-align: right; }
-
-  /* Salary chart */
-  .salary-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid #1e2533; }
-  .salary-row:last-child { border-bottom: none; }
-  .salary-role { font-size: 0.82rem; color: #94a3b8; }
-  .salary-range { font-size: 0.82rem; color: #86efac; font-weight: 600; }
-
-  /* Tips card */
-  .tip-item { display: flex; gap: 10px; margin-bottom: 10px; font-size: 0.83rem; color: #94a3b8; }
-  .tip-icon { color: #60a5fa; flex-shrink: 0; font-size: 1rem; }
-  .tip-text strong { color: #e2e8f0; }
-
-  /* No results */
-  .no-results { text-align: center; padding: 48px; color: #4b5563; }
-  .no-results span { font-size: 2rem; display: block; margin-bottom: 8px; }
-
-  /* Footer note */
-  .footer-note { margin-top: 24px; padding: 16px; background: #1a1f2e; border: 1px solid #2d3748; border-radius: 8px; font-size: 0.8rem; color: #64748b; text-align: center; }
-  .footer-note a { color: #60a5fa; }
-
-  @media (max-width: 900px) {
-    .main { padding: 16px; }
-    .charts-section { grid-template-columns: 1fr; }
-    .header { padding: 16px; }
-  }
-
-  /* Resume Modal */
-  .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 1000; display: none; align-items: center; justify-content: center; padding: 20px; }
-  .modal-overlay.open { display: flex; }
-  .modal-box { background: #fff; color: #111; width: 100%; max-width: 780px; max-height: 90vh; overflow-y: auto; border-radius: 8px; padding: 40px; position: relative; }
-  .modal-actions { display: flex; gap: 10px; margin-bottom: 20px; }
-  .btn-print { background: #1e3a5f; border: 1px solid #3b82f6; color: #60a5fa; padding: 8px 18px; border-radius: 5px; cursor: pointer; font-size: 0.85rem; font-weight: 600; }
-  .btn-close { background: #2d3748; border: 1px solid #4b5563; color: #9ca3af; padding: 8px 18px; border-radius: 5px; cursor: pointer; font-size: 0.85rem; }
-  .resume { font-family: 'Segoe UI', Arial, sans-serif; color: #111; line-height: 1.5; }
-  .resume h1 { font-size: 1.6rem; font-weight: 700; letter-spacing: 0.1em; margin-bottom: 4px; }
-  .resume .contact { font-size: 0.85rem; color: #444; margin-bottom: 16px; border-bottom: 2px solid #111; padding-bottom: 8px; }
-  .resume h2 { font-size: 0.85rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; border-bottom: 1px solid #ccc; margin: 16px 0 8px; padding-bottom: 3px; }
-  .resume p { font-size: 0.88rem; margin-bottom: 8px; }
-  .resume .job-header { display: flex; justify-content: space-between; font-weight: 600; font-size: 0.88rem; }
-  .resume ul { margin: 4px 0 10px 18px; font-size: 0.87rem; }
-  .resume li { margin-bottom: 3px; }
-  @media print { body > *:not(.modal-overlay) { display: none !important; } .modal-overlay { position: static !important; background: none !important; padding: 0 !important; } .modal-box { max-height: none !important; box-shadow: none !important; padding: 0 !important; } .modal-actions { display: none !important; } }
-
-    /* Row status color coding */
-    tr.row-status-applied { background: rgba(134,239,172,0.07); }
-    tr.row-status-screening { background: rgba(251,191,36,0.08); }
-    tr.row-status-interview { background: rgba(147,197,253,0.10); }
-    tr.row-status-offer { background: rgba(52,211,153,0.15); border-left: 3px solid #34d399; }
-    th.sorted { color: #86efac !important; }
-    th.sorted .sort-icon { font-weight: bold; }
-
-  /* Settings Panel */
-  .settings-btn { background: #1a2a3a; border: 1px solid #4b5563; color: #94a3b8; padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 0.82rem; font-weight: 600; transition: all 0.15s; white-space: nowrap; }
-  .settings-btn:hover { background: #1e3a5f; color: #e2e8f0; border-color: #3b82f6; }
-  .settings-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 2000; display: none; align-items: flex-start; justify-content: center; padding: 40px 20px; overflow-y: auto; }
-  .settings-overlay.open { display: flex; }
-  .settings-box { background: #1a1f2e; border: 1px solid #2d3748; border-radius: 12px; width: 100%; max-width: 640px; padding: 32px; position: relative; margin: auto; }
-  .settings-h { font-size: 1.1rem; font-weight: 700; color: #e2e8f0; margin-bottom: 6px; }
-  .settings-sub { font-size: 0.82rem; color: #64748b; margin-bottom: 24px; }
-  .settings-sec { margin-bottom: 28px; }
-  .settings-lbl { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.07em; color: #64748b; font-weight: 600; margin-bottom: 12px; }
-  .s-row { display: flex; gap: 8px; margin-bottom: 10px; }
-  .s-inp { flex: 1; background: #0f1117; border: 1px solid #2d3748; color: #e2e8f0; padding: 8px 12px; border-radius: 6px; font-size: 0.85rem; outline: none; }
-  .s-inp:focus { border-color: #3b82f6; }
-  .s-add { background: #1e3a5f; border: 1px solid #3b82f6; color: #60a5fa; padding: 8px 14px; border-radius: 6px; cursor: pointer; font-size: 0.82rem; font-weight: 600; white-space: nowrap; }
-  .s-add:hover { background: #2d4f7c; }
-  .s-list { display: flex; flex-direction: column; gap: 6px; max-height: 180px; overflow-y: auto; }
-  .s-item { display: flex; align-items: center; justify-content: space-between; background: #0f1117; border: 1px solid #2d3748; border-radius: 6px; padding: 8px 12px; }
-  .s-name { font-size: 0.85rem; color: #e2e8f0; }
-  .s-url { font-size: 0.75rem; color: #60a5fa; margin-top: 2px; }
-  .s-rm { background: none; border: none; color: #ef4444; cursor: pointer; font-size: 1rem; padding: 0 2px; }
-  .s-rm:hover { color: #f87171; }
-  .s-empty { font-size: 0.82rem; color: #4b5563; font-style: italic; padding: 4px 0; }
-  .s-x { position: absolute; top: 16px; right: 16px; background: none; border: none; color: #64748b; cursor: pointer; font-size: 1.3rem; line-height: 1; }
-  .s-x:hover { color: #e2e8f0; }
-  .watchlist-bar { background: #0d1117; border: 1px solid #2d3748; border-radius: 8px; padding: 12px 16px; margin-top: 6px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; min-height: 42px; }
-  .wl-label { font-size: 0.75rem; color: #64748b; margin-right: 4px; }
-  .wl-chip { display: inline-flex; align-items: center; gap: 5px; background: #1a2a3a; border: 1px solid #2d3748; color: #94a3b8; border-radius: 20px; padding: 3px 10px; font-size: 0.78rem; }
-  .wl-chip a { color: #60a5fa; text-decoration: none; }
-  .wl-chip a:hover { text-decoration: underline; }
-  .wl-empty { font-size: 0.78rem; color: #4b5563; font-style: italic; }
-
-</style>
+    @media print{
+      .modal-overlay{position:static;background:none}
+      .modal-box{border:none;box-shadow:none;max-height:none}
+      .modal-actions{display:none}
+      .resume{border-radius:0}
+      body>*:not(.modal-overlay){display:none}
+    }
+  </style>
 </head>
 <body>
 
-<div class="header">
-  <div class="header-top">
-    <div class="candidate-info">
-      <h1>Jalen Batiste — IT Job Search</h1>
-      <p>Ellicott City, MD &nbsp;·&nbsp; BS in IT, Towson University (Dec 2025) &nbsp;·&nbsp; Clearance Eligible</p>
-      <div class="certs">
-        <span class="cert-badge">🔒 CompTIA Security+</span>
-        <span class="cert-badge cloud">☁️ CompTIA Cloud+</span>
-      </div>
+<!-- HEADER -->
+<header class="header">
+  <div>
+    <div class="profile-name">Jalen Batiste</div>
+    <div class="profile-chips">
+      <span class="chip chip-loc">📍 Ellicott City, MD</span>
+      <span class="chip chip-edu">🎓 BS in IT, Towson University (Dec 2025)</span>
+      <span class="chip chip-clr">🔒 Clearance Eligible</span>
+      <span class="chip chip-sec">✅ CompTIA Security+</span>
+      <span class="chip chip-cld">☁️ CompTIA Cloud+</span>
     </div>
-    <div class="last-updated">
-      <span>Dashboard Generated</span>
-      <span id="gen-date"></span>
+  </div>
+  <div class="last-updated">
+    <span>Dashboard Generated</span>
+    <span id="gen-date"></span>
+  </div>
+</header>
+
+<!-- STATS -->
+<div class="stats-row">
+  <div class="stat-card">
+    <div class="stat-icon si-blue">📋</div>
+    <div><div class="stat-num" id="stat-total">0</div><div class="stat-lbl">Total Opportunities</div></div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-icon si-green">🏆</div>
+    <div><div class="stat-num" id="stat-high">0</div><div class="stat-lbl">High Priority</div></div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-icon si-amber">🏛️</div>
+    <div><div class="stat-num" id="stat-fed">0</div><div class="stat-lbl">Federal / Gov't</div></div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-icon si-purple">✅</div>
+    <div><div class="stat-num" id="stat-applied">0</div><div class="stat-lbl">Applied</div></div>
+  </div>
+</div>
+
+<!-- FILTERS -->
+<div class="filters-bar">
+  <span class="flbl">Market</span>
+  <button class="filter-btn active" onclick="filterMarket('all', this)">All</button>
+  <button class="filter-btn" onclick="filterMarket('MD', this)">Maryland</button>
+  <button class="filter-btn" onclick="filterMarket('VA', this)">Virginia</button>
+  <button class="filter-btn" onclick="filterMarket('TX', this)">Dallas, TX</button>
+  <div class="fdivider"></div>
+  <span class="flbl">Role</span>
+  <select id="role-filter" class="fsel" onchange="applyFilters()">
+    <option value="all">All Types</option>
+    <option value="Help Desk">Help Desk</option>
+    <option value="Systems Admin">Systems Admin</option>
+    <option value="SOC">SOC / Security</option>
+    <option value="Cloud">Cloud</option>
+    <option value="Desktop Support">Desktop Support</option>
+  </select>
+  <div class="fdivider"></div>
+  <span class="flbl">Priority</span>
+  <select id="priority-filter" class="fsel" onchange="applyFilters()">
+    <option value="all">All</option>
+    <option value="High">High</option>
+    <option value="Medium">Medium</option>
+    <option value="Stretch">Stretch</option>
+  </select>
+  <div class="fdivider"></div>
+  <span class="flbl">Employer</span>
+  <select id="fed-filter" class="fsel" onchange="applyFilters()">
+    <option value="all">All</option>
+    <option value="yes">Federal / Gov't</option>
+    <option value="no">Private Sector</option>
+  </select>
+  <input type="text" id="search-box" class="search-input" placeholder="Search jobs..." oninput="applyFilters()">
+</div>
+
+<!-- RESULT COUNT -->
+<div class="result-bar">
+  <span id="result-count">0 results</span>
+</div>
+
+<!-- TABLE -->
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th onclick="sortBy('score')">Score <span class="sort-icon">↕</span></th>
+        <th onclick="sortBy('title')">Job Title / Company <span class="sort-icon">↕</span></th>
+        <th onclick="sortBy('market')">Market <span class="sort-icon">↕</span></th>
+        <th>Salary Range</th>
+        <th>Certs / Type</th>
+        <th onclick="sortBy('priority')">Priority <span class="sort-icon">↕</span></th>
+        <th>Status</th>
+        <th>Apply</th>
+      </tr>
+    </thead>
+    <tbody id="job-table-body"></tbody>
+  </table>
+  <div id="no-results">🔍 No jobs match your current filters.</div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="footer-grid">
+    <div class="footer-card">
+      <div class="footer-title">Opportunities by Market</div>
+      <div class="mbar"><span class="mbar-lbl">Maryland</span><div class="mbar-track"><div class="mbar-fill md" style="width:43%"></div></div><span class="mbar-n">12</span></div>
+      <div class="mbar"><span class="mbar-lbl">Virginia (NoVA)</span><div class="mbar-track"><div class="mbar-fill va" style="width:39%"></div></div><span class="mbar-n">11</span></div>
+      <div class="mbar"><span class="mbar-lbl">Dallas, TX</span><div class="mbar-track"><div class="mbar-fill tx" style="width:25%"></div></div><span class="mbar-n">7</span></div>
+    </div>
+    <div class="footer-card">
+      <div class="footer-title">Entry-Level Salary Ranges</div>
+      <div class="sal-row"><span class="sal-role">Cloud Support Engineer</span><span class="sal-range">$55K–$96K</span></div>
+      <div class="sal-row"><span class="sal-role">Junior SOC Analyst</span><span class="sal-range">$56K–$85K</span></div>
+      <div class="sal-row"><span class="sal-role">Desktop Support Tech</span><span class="sal-range">$55K–$75K</span></div>
+      <div class="sal-row"><span class="sal-role">Junior SysAdmin</span><span class="sal-range">$52K–$72K</span></div>
+      <div class="sal-row"><span class="sal-role">Help Desk / IT Support</span><span class="sal-range">$45K–$65K</span></div>
+      <div class="sal-row"><span class="sal-role">Federal GS-7 IT Specialist</span><span class="sal-range">$52K–$68K + benefits</span></div>
+    </div>
+    <div class="footer-card">
+      <div class="footer-title">Application Strategy</div>
+      <div class="tip"><span class="tip-ico">🏆</span><span>Northern VA federal contractors are highest-value — Security+ required, not just preferred.</span></div>
+      <div class="tip"><span class="tip-ico">☁️</span><span>Cloud+ is rare at entry level — lead with it in summaries for cloud and AWS roles.</span></div>
+      <div class="tip"><span class="tip-ico">🎯</span><span>Apply to 5–7 tailored roles per week. Customize the summary each time.</span></div>
+      <div class="tip"><span class="tip-ico">📍</span><span>Mention relocation willingness in cover letters for Dallas roles.</span></div>
+    </div>
+  </div>
+  <div class="footer-meta">
+    Dashboard generated by Claude · Data sourced from Indeed, LinkedIn, Glassdoor, ZipRecruiter, and company career portals
+    <div class="footer-links">
+      <a href="https://www.leidos.com/careers" target="_blank">Leidos</a>
+      <a href="https://www.gdit.com/careers" target="_blank">GDIT</a>
+      <a href="https://careers.peraton.com" target="_blank">Peraton</a>
+      <a href="https://www.usajobs.gov" target="_blank">USAJobs</a>
+      <a href="https://www.clearancejobs.com" target="_blank">ClearanceJobs</a>
     </div>
   </div>
 </div>
 
-<div class="stats-bar">
-  <div class="stat"><div class="stat-number blue" id="stat-total">30</div><div class="stat-label">Total Opportunities</div></div>
-  <div class="stat"><div class="stat-number green" id="stat-high">12</div><div class="stat-label">High Priority</div></div>
-  <div class="stat"><div class="stat-number purple" id="stat-fed">11</div><div class="stat-label">Federal/Gov't</div></div>
-  <div class="stat"><div class="stat-number orange" id="stat-applied">0</div><div class="stat-label">Applied</div></div>
-</div>
-
-<div class="main">
-
-  </div>
-
-  <div class="controls">
-    <div class="filter-group">
-      <button class="filter-btn active" onclick="filterMarket('all', this)">All Markets</button>
-      <button class="filter-btn md" onclick="filterMarket('MD', this)">Maryland</button>
-      <button class="filter-btn va" onclick="filterMarket('VA', this)">Virginia</button>
-      <button class="filter-btn tx" onclick="filterMarket('TX', this)">Dallas, TX</button>
+<!-- TAILOR RESUME MODAL -->
+<div class="modal-overlay" id="resume-modal" onclick="if(event.target===this)closeModal()">
+  <div class="modal-box">
+    <div class="modal-actions">
+      <button class="btn-print" onclick="window.print()">🖨️ Print / Save PDF</button>
+      <button class="btn-print" onclick="copyResume()" id="copy-btn" style="background:#1e3a5f;border-color:#60a5fa;color:#93c5fd">📋 Copy Text</button>
+      <button class="btn-close" onclick="closeModal()">✕ Close</button>
     </div>
-    <select id="role-filter" onchange="applyFilters()">
-      <option value="all">All Role Types</option>
-      <option value="Help Desk">Help Desk / IT Support</option>
-      <option value="Systems Admin">Systems Administrator</option>
-      <option value="SOC">SOC / Security Analyst</option>
-      <option value="Cloud">Cloud Engineer / Support</option>
-      <option value="Desktop Support">Desktop Support</option>
-    </select>
-    <select id="priority-filter" onchange="applyFilters()">
-      <option value="all">All Priorities</option>
-      <option value="High">High Priority</option>
-      <option value="Medium">Medium Priority</option>
-      <option value="Stretch">Stretch</option>
-    </select>
-    <select id="fed-filter" onchange="applyFilters()">
-      <option value="all">All Employers</option>
-      <option value="yes">Federal / Gov't Contractor</option>
-      <option value="no">Private Sector</option>
-    </select>
-    <input class="search-box" id="search-box" type="text" placeholder="Search jobs, companies, skills..." oninput="applyFilters()">
-    <span class="result-count" id="result-count">30 results</span>
-    <button class="settings-btn" onclick="openSettings()">&#9881; Customize</button>
-  </div>
-
-  <div class="table-wrapper">
-    <table>
-      <thead>
-        <tr>
-          <th onclick="sortBy('score')">Score <span class="sort-icon">↕</span></th>
-          <th onclick="sortBy('title')">Job Title / Company <span class="sort-icon">↕</span></th>
-          <th onclick="sortBy('market')">Market <span class="sort-icon">↕</span></th>
-          <th>Salary Range</th>
-          <th>Certs / Type</th>
-          <th onclick="sortBy('priority')">Priority <span class="sort-icon">↕</span></th>
-          <th>Status</th>
-          <th>Apply</th>
-        </tr>
-      </thead>
-      <tbody id="job-table-body"></tbody>
-    </table>
-    <div class="no-results" id="no-results" style="display:none">
-      <span>🔍</span>No jobs match your current filters.
-    </div>
-  </div>
-
-  <div class="charts-section">
-    <div class="chart-card">
-      <div class="chart-title">Opportunities by Market</div>
-      <div class="bar-row"><span class="bar-label">Maryland</span><div class="bar-track"><div class="bar-fill blue" style="width:40%"></div></div><span class="bar-count">12</span></div>
-      <div class="bar-row"><span class="bar-label">Virginia (NoVA)</span><div class="bar-track"><div class="bar-fill green" style="width:37%"></div></div><span class="bar-count">11</span></div>
-      <div class="bar-row"><span class="bar-label">Dallas, TX</span><div class="bar-track"><div class="bar-fill purple" style="width:23%"></div></div><span class="bar-count">7</span></div>
-    </div>
-
-    <div class="chart-card">
-      <div class="chart-title">Entry-Level Salary Ranges by Role</div>
-      <div class="salary-row"><span class="salary-role">Cloud Support Engineer</span><span class="salary-range">$55K–$96K</span></div>
-      <div class="salary-row"><span class="salary-role">Junior SOC Analyst</span><span class="salary-range">$56K–$85K</span></div>
-      <div class="salary-row"><span class="salary-role">Desktop Support Tech</span><span class="salary-range">$55K–$75K</span></div>
-      <div class="salary-row"><span class="salary-role">Junior SysAdmin</span><span class="salary-range">$52K–$72K</span></div>
-      <div class="salary-row"><span class="salary-role">Help Desk / IT Support</span><span class="salary-range">$45K–$65K</span></div>
-      <div class="salary-row"><span class="salary-role">Federal GS-7 IT Specialist</span><span class="salary-range">$52K–$68K + benefits</span></div>
-    </div>
-
-    <div class="chart-card">
-      <div class="chart-title">Application Strategy Tips</div>
-      <div class="tip-item"><span class="tip-icon">🏆</span><span class="tip-text"><strong>Northern VA federal contractors</strong> (Leidos, Booz Allen, GDIT) are the highest-value targets — Security+ is required, not just preferred.</span></div>
-      <div class="tip-item"><span class="tip-icon">☁️</span><span class="tip-text"><strong>Cloud+ is rare at entry level</strong> — lead with it in your summary for cloud and AWS support roles.</span></div>
-      <div class="tip-item"><span class="tip-icon">📋</span><span class="tip-text"><strong>Update resume graduation year</strong> to Dec 2025 immediately. Current version says 2025.</span></div>
-      <div class="tip-item"><span class="tip-icon">🎯</span><span class="tip-text"><strong>Apply to 5–7 tailored roles per week.</strong> Quality over volume — customize the summary for each.</span></div>
-      <div class="tip-item"><span class="tip-icon">📍</span><span class="tip-text"><strong>Mention relocation willingness</strong> in cover letters for Dallas roles. Large employers (TI, AT&T) typically offer packages.</span></div>
-    </div>
-  </div>
-
-  
-  <div class="watchlist-bar" id="watchlist-bar">
-    <span class="wl-label">&#128197; My Watchlist:</span>
-    <span class="wl-empty" id="wl-empty">No companies added &mdash; click &#9881; Customize to add.</span>
-  </div>
-
-  <div class="footer-note">
-    Dashboard generated by Claude · Job data sourced from Indeed, LinkedIn, Glassdoor, ZipRecruiter, and company career portals · March 2026 &nbsp;|&nbsp;
-    Direct apply links: <a href="https://careers.leidos.com" target="_blank">Leidos</a> · <a href="https://www.gdit.com/careers/" target="_blank">GDIT</a> · <a href="https://www.careers.peraton.com" target="_blank">Peraton</a> · <a href="https://www.usajobs.gov" target="_blank">USAJobs</a> · <a href="https://www.clearancejobs.com" target="_blank">ClearanceJobs</a>
+    <div class="resume" id="resume-content"></div>
   </div>
 </div>
 
-<script>
-/* ── Staleness filter injected by Claude ── */
-(function() {
-  var _origFetch = window.fetch;
-  window.fetch = function(url) {
-    var args = Array.prototype.slice.call(arguments, 1);
-    var result = _origFetch.apply(this, [url].concat(args));
-    if (typeof url === 'string' && url.indexOf('jobs.json') !== -1) {
-      return result.then(function(r) { return r.clone().json(); }).then(function(data) {
-        var today = new Date();
-        var filtered = data.filter(function(j) {
-          if (!j.postedDate) return true;
-          var age = (today - new Date(j.postedDate)) / 86400000;
-          return age <= 30;
-        });
-        var removed = data.length - filtered.length;
-        if (removed > 0) console.log('[Staleness filter] Removed ' + removed + ' expired listing(s).');
-        return new Response(JSON.stringify(filtered), { status: 200, headers: { 'Content-Type': 'application/json' } });
-      });
-    }
-    return result;
-  };
-})();
-</script>
 <script>
 let JOBS = [];
 
@@ -456,7 +420,7 @@ function applyFilters() {
         </select>
         ${dateMap[j.id] ? `<div style="font-size:0.7rem;color:#6b7280;margin-top:3px">📅 ${dateMap[j.id]}</div>` : ''}
       </td>
-      <td style="white-space:nowrap"><a class="apply-btn" href="${j.url}" target="_blank">Apply →</a><button class="apply-btn" style="margin-left:6px;cursor:pointer;border:1px solid #86efac;color:#86efac;background:#1a3320" onclick="openResume(${j.id})">Tailor Resume</button></td>
+      <td style="white-space:nowrap"><a class="btn-apply" href="${j.url}" target="_blank">Apply →</a><button class="btn-tailor" onclick="openResume(${j.id})">Tailor Resume</button></td>
     </tr>`;
   }).join('');
 }
