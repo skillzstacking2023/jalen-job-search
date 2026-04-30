@@ -326,6 +326,30 @@
 </div>
 
 <script>
+/* ── Staleness filter injected by Claude ── */
+(function() {
+  var _origFetch = window.fetch;
+  window.fetch = function(url) {
+    var args = Array.prototype.slice.call(arguments, 1);
+    var result = _origFetch.apply(this, [url].concat(args));
+    if (typeof url === 'string' && url.indexOf('jobs.json') !== -1) {
+      return result.then(function(r) { return r.clone().json(); }).then(function(data) {
+        var today = new Date();
+        var filtered = data.filter(function(j) {
+          if (!j.postedDate) return true;
+          var age = (today - new Date(j.postedDate)) / 86400000;
+          return age <= 30;
+        });
+        var removed = data.length - filtered.length;
+        if (removed > 0) console.log('[Staleness filter] Removed ' + removed + ' expired listing(s).');
+        return new Response(JSON.stringify(filtered), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      });
+    }
+    return result;
+  };
+})();
+</script>
+<script>
 let JOBS = [];
 
 let currentMarket = 'all';
