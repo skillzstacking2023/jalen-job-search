@@ -13,10 +13,26 @@
       --green:#10b981;--amber:#f59e0b;--orange:#f97316;--blue:#3b82f6;--purple:#8b5cf6;
     }
     [data-theme="light"]{
-      --bg:#f1f5f9;--surface:#ffffff;--surface2:#f8fafc;
-      --border:rgba(15,23,42,.12);--border2:rgba(15,23,42,.2);
-      --text:#0f172a;--muted:#475569;--dim:#64748b;
+      --bg:#e8edf5;--surface:#ffffff;--surface2:#f1f5f9;
+      --border:rgba(15,23,42,.16);--border2:rgba(15,23,42,.28);
+      --text:#0f172a;--muted:#334155;--dim:#475569;
     }
+    /* Light mode element overrides */
+    [data-theme="light"] .job-title{color:#0f172a;font-weight:600}
+    [data-theme="light"] .company-name{color:#1d4ed8}
+    [data-theme="light"] .location-text{color:#475569}
+    [data-theme="light"] .job-notes{color:#334155}
+    [data-theme="light"] .stat-num{color:#0f172a}
+    [data-theme="light"] .stat-lbl{color:#475569;font-weight:600}
+    [data-theme="light"] .stat-card{box-shadow:0 1px 6px rgba(15,23,42,.1);border-color:rgba(15,23,42,.15)}
+    [data-theme="light"] .table-wrap table{border-color:rgba(15,23,42,.18)}
+    [data-theme="light"] tr+tr{border-top:1px solid rgba(15,23,42,.1)}
+    [data-theme="light"] .filters-bar{border-color:rgba(15,23,42,.2);box-shadow:0 1px 4px rgba(15,23,42,.08)}
+    [data-theme="light"] .result-bar{border-color:rgba(15,23,42,.15);color:#334155}
+    [data-theme="light"] .salary{color:#0f172a;font-weight:600}
+    [data-theme="light"] .flbl{color:#334155;font-weight:600}
+    [data-theme="light"] .theme-toggle{background:#1e40af;border-color:#1e40af;color:#fff}
+    [data-theme="light"] .theme-toggle:hover{background:#1d4ed8;border-color:#1d4ed8}
     body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:14px;line-height:1.5;min-height:100vh}
 
     /* ── HEADER ── */
