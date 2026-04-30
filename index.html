@@ -169,6 +169,38 @@
     tr.row-status-offer { background: rgba(52,211,153,0.15); border-left: 3px solid #34d399; }
     th.sorted { color: #86efac !important; }
     th.sorted .sort-icon { font-weight: bold; }
+
+  /* Settings Panel */
+  .settings-btn { background: #1a2a3a; border: 1px solid #4b5563; color: #94a3b8; padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 0.82rem; font-weight: 600; transition: all 0.15s; white-space: nowrap; }
+  .settings-btn:hover { background: #1e3a5f; color: #e2e8f0; border-color: #3b82f6; }
+  .settings-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.85); z-index: 2000; display: none; align-items: flex-start; justify-content: center; padding: 40px 20px; overflow-y: auto; }
+  .settings-overlay.open { display: flex; }
+  .settings-box { background: #1a1f2e; border: 1px solid #2d3748; border-radius: 12px; width: 100%; max-width: 640px; padding: 32px; position: relative; margin: auto; }
+  .settings-h { font-size: 1.1rem; font-weight: 700; color: #e2e8f0; margin-bottom: 6px; }
+  .settings-sub { font-size: 0.82rem; color: #64748b; margin-bottom: 24px; }
+  .settings-sec { margin-bottom: 28px; }
+  .settings-lbl { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.07em; color: #64748b; font-weight: 600; margin-bottom: 12px; }
+  .s-row { display: flex; gap: 8px; margin-bottom: 10px; }
+  .s-inp { flex: 1; background: #0f1117; border: 1px solid #2d3748; color: #e2e8f0; padding: 8px 12px; border-radius: 6px; font-size: 0.85rem; outline: none; }
+  .s-inp:focus { border-color: #3b82f6; }
+  .s-add { background: #1e3a5f; border: 1px solid #3b82f6; color: #60a5fa; padding: 8px 14px; border-radius: 6px; cursor: pointer; font-size: 0.82rem; font-weight: 600; white-space: nowrap; }
+  .s-add:hover { background: #2d4f7c; }
+  .s-list { display: flex; flex-direction: column; gap: 6px; max-height: 180px; overflow-y: auto; }
+  .s-item { display: flex; align-items: center; justify-content: space-between; background: #0f1117; border: 1px solid #2d3748; border-radius: 6px; padding: 8px 12px; }
+  .s-name { font-size: 0.85rem; color: #e2e8f0; }
+  .s-url { font-size: 0.75rem; color: #60a5fa; margin-top: 2px; }
+  .s-rm { background: none; border: none; color: #ef4444; cursor: pointer; font-size: 1rem; padding: 0 2px; }
+  .s-rm:hover { color: #f87171; }
+  .s-empty { font-size: 0.82rem; color: #4b5563; font-style: italic; padding: 4px 0; }
+  .s-x { position: absolute; top: 16px; right: 16px; background: none; border: none; color: #64748b; cursor: pointer; font-size: 1.3rem; line-height: 1; }
+  .s-x:hover { color: #e2e8f0; }
+  .watchlist-bar { background: #0d1117; border: 1px solid #2d3748; border-radius: 8px; padding: 12px 16px; margin-top: 6px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; min-height: 42px; }
+  .wl-label { font-size: 0.75rem; color: #64748b; margin-right: 4px; }
+  .wl-chip { display: inline-flex; align-items: center; gap: 5px; background: #1a2a3a; border: 1px solid #2d3748; color: #94a3b8; border-radius: 20px; padding: 3px 10px; font-size: 0.78rem; }
+  .wl-chip a { color: #60a5fa; text-decoration: none; }
+  .wl-chip a:hover { text-decoration: underline; }
+  .wl-empty { font-size: 0.78rem; color: #4b5563; font-style: italic; }
+
 </style>
 </head>
 <body>
@@ -229,6 +261,7 @@
     </select>
     <input class="search-box" id="search-box" type="text" placeholder="Search jobs, companies, skills..." oninput="applyFilters()">
     <span class="result-count" id="result-count">30 results</span>
+    <button class="settings-btn" onclick="openSettings()">&#9881; Customize</button>
   </div>
 
   <div class="table-wrapper">
@@ -278,6 +311,12 @@
       <div class="tip-item"><span class="tip-icon">🎯</span><span class="tip-text"><strong>Apply to 5–7 tailored roles per week.</strong> Quality over volume — customize the summary for each.</span></div>
       <div class="tip-item"><span class="tip-icon">📍</span><span class="tip-text"><strong>Mention relocation willingness</strong> in cover letters for Dallas roles. Large employers (TI, AT&T) typically offer packages.</span></div>
     </div>
+  </div>
+
+  
+  <div class="watchlist-bar" id="watchlist-bar">
+    <span class="wl-label">&#128197; My Watchlist:</span>
+    <span class="wl-empty" id="wl-empty">No companies added &mdash; click &#9881; Customize to add.</span>
   </div>
 
   <div class="footer-note">
@@ -494,6 +533,89 @@ function closeModal() { document.getElementById('resume-modal').classList.remove
       setTimeout(() => { btn.textContent = orig; btn.style.background = '#1e3a5f'; }, 2000);
     }).catch(() => { alert('Use Ctrl+A then Ctrl+C to copy manually.'); });
   }
+
+
+// ---- Settings / Customize Panel ----
+function openSettings() {
+  document.getElementById('settings-overlay').classList.add('open');
+  renderSettings();
+}
+function closeSettings() {
+  document.getElementById('settings-overlay').classList.remove('open');
+}
+document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeSettings(); });
+
+function getCos() { try { return JSON.parse(localStorage.getItem('j_cos') || '[]'); } catch(e) { return []; } }
+function getBds() { try { return JSON.parse(localStorage.getItem('j_bds') || '[]'); } catch(e) { return []; } }
+function saveCos(a) { localStorage.setItem('j_cos', JSON.stringify(a)); }
+function saveBds(a) { localStorage.setItem('j_bds', JSON.stringify(a)); }
+
+function addCo() {
+  const el = document.getElementById('co-inp');
+  const v = el.value.trim();
+  if (!v) return;
+  const a = getCos();
+  if (!a.includes(v)) { a.push(v); saveCos(a); }
+  el.value = '';
+  renderSettings();
+}
+function removeCo(n) { saveCos(getCos().filter(function(c){return c!==n;})); renderSettings(); }
+
+function addBoard() {
+  const nEl = document.getElementById('bd-name'), uEl = document.getElementById('bd-url');
+  const name = nEl.value.trim();
+  let url = uEl.value.trim();
+  if (!name) return;
+  if (url && url.indexOf('http') !== 0) url = 'https://' + url;
+  const a = getBds();
+  if (!a.find(function(b){return b.name===name;})) { a.push({name:name,url:url}); saveBds(a); }
+  nEl.value = ''; uEl.value = '';
+  renderSettings();
+}
+function removeBd(n) { saveBds(getBds().filter(function(b){return b.name!==n;})); renderSettings(); }
+
+function renderSettings() {
+  const cos = getCos(), bds = getBds();
+  var cl = document.getElementById('co-list');
+  var bl = document.getElementById('bd-list');
+  if (cl) cl.innerHTML = cos.length
+    ? cos.map(function(c){ return '<div class="s-item"><span class="s-name">'+c+'</span><button class="s-rm" onclick="removeCo(\'' + c.replace(/\\/g,'\\\\').replace(/'/g,"\\'") + '\')">&#10005;</button></div>'; }).join('')
+    : '<div class="s-empty">No companies added yet.</div>';
+  if (bl) bl.innerHTML = bds.length
+    ? bds.map(function(b){ return '<div class="s-item"><div><div class="s-name">'+b.name+'</div>'+(b.url?'<div class="s-url"><a href="'+b.url+'" target="_blank">'+b.url+'</a></div>':'')+'</div><button class="s-rm" onclick="removeBd(\'' + b.name.replace(/\\/g,'\\\\').replace(/'/g,"\\'") + '\')">&#10005;</button></div>'; }).join('')
+    : '<div class="s-empty">No job boards added yet.</div>';
+  renderWatchlistBar();
+}
+
+function renderWatchlistBar() {
+  const cos = getCos(), bds = getBds();
+  const bar = document.getElementById('watchlist-bar');
+  const emEl = document.getElementById('wl-empty');
+  if (!bar) return;
+  // Remove old chips
+  bar.querySelectorAll('.wl-chip').forEach(function(el){el.remove();});
+  if (cos.length === 0 && bds.length === 0) {
+    if (emEl) emEl.style.display = '';
+    return;
+  }
+  if (emEl) emEl.style.display = 'none';
+  cos.forEach(function(c) {
+    var chip = document.createElement('span');
+    chip.className = 'wl-chip';
+    chip.textContent = c;
+    bar.appendChild(chip);
+  });
+  bds.forEach(function(b) {
+    var chip = document.createElement('span');
+    chip.className = 'wl-chip';
+    chip.innerHTML = b.url ? '<a href="'+b.url+'" target="_blank">'+b.name+'</a>' : b.name;
+    bar.appendChild(chip);
+  });
+}
+
+// Init watchlist bar on load
+renderWatchlistBar();
+
 </script>
 
 <div class="modal-overlay" id="resume-modal" onclick="if(event.target===this)closeModal()">
@@ -510,5 +632,32 @@ function closeModal() { document.getElementById('resume-modal').classList.remove
   <script>
     document.getElementById('gen-date').textContent = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
   </script>
+
+<div class="settings-overlay" id="settings-overlay">
+  <div class="settings-box">
+    <button class="s-x" onclick="closeSettings()" title="Close">&#10005;</button>
+    <div class="settings-h">&#9881; Customize Dashboard</div>
+    <div class="settings-sub">Add companies and job boards to track. Saved locally in your browser.</div>
+
+    <div class="settings-sec">
+      <div class="settings-lbl">Companies to Watch</div>
+      <div class="s-row">
+        <input class="s-inp" id="co-inp" type="text" placeholder="e.g. Northrop Grumman" onkeydown="if(event.key==='Enter')addCo()">
+        <button class="s-add" onclick="addCo()">+ Add</button>
+      </div>
+      <div class="s-list" id="co-list"></div>
+    </div>
+
+    <div class="settings-sec">
+      <div class="settings-lbl">Job Boards to Track</div>
+      <div class="s-row">
+        <input class="s-inp" id="bd-name" type="text" placeholder="Name (e.g. ClearanceJobs)" style="max-width:210px" onkeydown="if(event.key==='Enter')addBoard()">
+        <input class="s-inp" id="bd-url" type="text" placeholder="URL (e.g. https://clearancejobs.com)" onkeydown="if(event.key==='Enter')addBoard()">
+        <button class="s-add" onclick="addBoard()">+ Add</button>
+      </div>
+      <div class="s-list" id="bd-list"></div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
