@@ -544,8 +544,6 @@ function initTheme(){
   if(btn)btn.textContent=saved==='light'?'Dark Mode':'Light Mode';
 }
 initTheme();
-    updateJALEN();
-    updateProfileHeader();
 
 fetch('jobs.json?v=' + Date.now())
   .then(r => r.json())
@@ -840,6 +838,8 @@ function renderWatchlistBar() {
 
 // Init watchlist bar on load
 renderWatchlistBar();
+    updateJALEN();
+    updateProfileHeader();
 
 </script>
 
