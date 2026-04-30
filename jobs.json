@@ -547,5 +547,181 @@
     "notes": "Security+ required - Clearance required - RMF/NIST framework knowledge helpful - Stretch but strong career trajectory",
     "postedDate": "2026-04-30",
     "posted": "2026-04-30"
+  },
+  {
+    "id": 31,
+    "score": 91,
+    "title": "Help Desk Analyst",
+    "company": "Booz Allen Hamilton",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://careers.boozallen.com/jobs",
+    "notes": "Entry-level IT support for federal agency client - Security+ preferred - Public Trust clearance eligible - Metro accessible",
+    "postedDate": "2026-04-30",
+    "posted": "2026-04-30"
+  },
+  {
+    "id": 32,
+    "score": 89,
+    "title": "IT Support Specialist",
+    "company": "SAIC",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "$48K-$62K/yr",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://jobs.saic.com",
+    "notes": "Desktop and end-user support for DoD contract - CompTIA Security+ or ability to obtain within 90 days - Clearance eligible",
+    "postedDate": "2026-04-30",
+    "posted": "2026-04-30"
+  },
+  {
+    "id": 33,
+    "score": 88,
+    "title": "SOC Analyst Tier 1",
+    "company": "Leidos",
+    "market": "DC",
+    "city": "Arlington, VA",
+    "salary": "$52K-$68K/yr",
+    "roleType": "SOC",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://careers.leidos.com",
+    "notes": "Tier 1 security monitoring for federal civilian agency - Security+ required - Clearance eligible - Shift work",
+    "postedDate": "2026-04-30",
+    "posted": "2026-04-30"
+  },
+  {
+    "id": 34,
+    "score": 84,
+    "title": "Network Operations Center Analyst",
+    "company": "General Dynamics IT",
+    "market": "DC",
+    "city": "Fairfax, VA",
+    "salary": "$50K-$65K/yr",
+    "roleType": "NOC",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://careers.gdit.com",
+    "notes": "24/7 NOC monitoring for government network infrastructure - Security+ required - Rotating shifts - Clearance eligible",
+    "postedDate": "2026-04-30",
+    "posted": "2026-04-30"
+  },
+  {
+    "id": 35,
+    "score": 82,
+    "title": "Systems Administrator I",
+    "company": "ManTech International",
+    "market": "DC",
+    "city": "Bethesda, MD",
+    "salary": "$55K-$72K/yr",
+    "roleType": "Systems Admin",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.mantech.com/careers",
+    "notes": "Windows/Linux admin support for federal health IT program - Security+ required - Public Trust clearance - Hybrid 3 days onsite",
+    "postedDate": "2026-04-30",
+    "posted": "2026-04-30"
+  },
+  {
+    "id": 36,
+    "score": 90,
+    "title": "Remote Help Desk Technician",
+    "company": "Conduent",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "$40K-$52K/yr",
+    "roleType": "Help Desk",
+    "certs": [],
+    "priority": "High",
+    "url": "https://careers.conduent.com",
+    "notes": "Fully remote Tier 1 support - No clearance required - Strong entry-level fit - Equipment provided - Must have reliable internet",
+    "postedDate": "2026-04-30",
+    "posted": "2026-04-30"
+  },
+  {
+    "id": 37,
+    "score": 87,
+    "title": "Cloud Support Associate",
+    "company": "Amazon Web Services",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "$58K-$75K/yr",
+    "roleType": "Cloud",
+    "certs": [
+      "cloud"
+    ],
+    "priority": "High",
+    "url": "https://www.amazon.jobs/en/teams/aws-support",
+    "notes": "Remote cloud support role - Cloud+ strongly preferred - Technical troubleshooting and customer communication skills required",
+    "postedDate": "2026-04-30",
+    "posted": "2026-04-30"
+  },
+  {
+    "id": 38,
+    "score": 86,
+    "title": "Cybersecurity Analyst I",
+    "company": "Optiv Security",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "$58K-$74K/yr",
+    "roleType": "Cybersecurity",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.optiv.com/explore-optiv/careers",
+    "notes": "Entry-level security analyst - Security+ required - SIEM experience a plus - Fully remote - Career growth to Tier 2 within 12-18 months",
+    "postedDate": "2026-04-30",
+    "posted": "2026-04-30"
+  },
+  {
+    "id": 39,
+    "score": 83,
+    "title": "Remote Desktop Support Specialist",
+    "company": "Unison",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "$44K-$56K/yr",
+    "roleType": "Desktop Support",
+    "certs": [],
+    "priority": "Medium",
+    "url": "https://www.unisonhr.com/careers",
+    "notes": "Remote end-user support for enterprise clients - Windows 10/11 and M365 - A+ or Security+ a plus - Flexible hours",
+    "postedDate": "2026-04-30",
+    "posted": "2026-04-30"
+  },
+  {
+    "id": 40,
+    "score": 81,
+    "title": "Junior Systems Administrator",
+    "company": "Amentum",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "$52K-$68K/yr",
+    "roleType": "Systems Admin",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://careers.amentum.com",
+    "notes": "Remote systems admin support for federal contractor - Security+ required - Windows Server and Active Directory - Clearance eligible",
+    "postedDate": "2026-04-30",
+    "posted": "2026-04-30"
   }
 ]
