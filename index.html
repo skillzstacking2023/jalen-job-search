@@ -207,30 +207,35 @@
 .theme-toggle:hover{border-color:var(--blue);color:var(--blue)}
 .stale-wrap{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--dim);cursor:pointer;white-space:nowrap;user-select:none}
 .stale-wrap input{width:14px;height:14px;cursor:pointer;accent-color:var(--amber)}
-.profile-modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.65);backdrop-filter:blur(6px);z-index:200;display:none;align-items:center;justify-content:center}
-.profile-modal-overlay.open{display:flex}
-.profile-modal-box{background:var(--surface);border:1px solid var(--border2);border-radius:14px;padding:26px 30px;width:560px;max-width:93vw;max-height:88vh;overflow-y:auto}
-.pf-label{font-size:.7rem;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.07em;display:block;margin-bottom:5px}
-.pf-input{width:100%;box-sizing:border-box;background:var(--surface2);border:1px solid var(--border2);border-radius:8px;padding:8px 11px;color:var(--text);font-size:.85rem;outline:none;transition:border .15s}
-.pf-input:focus{border-color:var(--blue)}
-.pf-check-row{display:flex;flex-wrap:wrap;gap:8px 18px}
-.pf-check{display:flex;align-items:center;gap:7px;font-size:.84rem;color:var(--text);cursor:pointer}
-.pf-check input{accent-color:var(--blue);width:15px;height:15px}
-.prof-btn{background:none;border:1px solid var(--border2);color:var(--dim);cursor:pointer;font-size:.8rem;font-weight:600;padding:5px 13px;border-radius:99px;transition:.2s;letter-spacing:.3px;white-space:nowrap}
-.prof-btn:hover{color:var(--text);border-color:var(--dim)}
-[data-theme="light"] .prof-btn{color:#334155;border-color:rgba(15,23,42,.28)}
-[data-theme="light"] .prof-btn:hover{color:#0f172a;background:rgba(15,23,42,.06)}
-[data-theme="light"] .pf-input{color:#0f172a;border-color:rgba(15,23,42,.25)}
-[data-theme="light"] .pf-check{color:#0f172a}
-</style>
+
+    /* Profile Modal */
+    .profile-modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.65);backdrop-filter:blur(6px);z-index:200;display:none;align-items:center;justify-content:center}
+    .profile-modal-overlay.open{display:flex}
+    .profile-modal-box{background:var(--surface);border:1px solid var(--border2);border-radius:14px;padding:26px 30px;width:560px;max-width:93vw;max-height:88vh;overflow-y:auto}
+    .pf-label{font-size:.7rem;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.07em;display:block;margin-bottom:5px}
+    .pf-input{width:100%;box-sizing:border-box;background:var(--surface2);border:1px solid var(--border2);border-radius:8px;padding:8px 11px;color:var(--text);font-size:.85rem;outline:none;transition:border .15s}
+    .pf-input:focus{border-color:var(--accent)}
+    .pf-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+    .pf-full{margin-bottom:14px}
+    .pf-check-group{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+    .pf-check-label{display:flex;align-items:center;gap:5px;font-size:.8rem;color:var(--dim);cursor:pointer;background:var(--surface2);border:1px solid var(--border2);border-radius:6px;padding:4px 10px;transition:.15s}
+    .pf-check-label:hover{border-color:var(--accent)}
+    .pf-check-label input{accent-color:var(--accent)}
+    .pf-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:18px}
+    .pf-save-btn{background:var(--accent);color:#fff;border:none;border-radius:8px;padding:9px 22px;font-weight:700;font-size:.85rem;cursor:pointer}
+    .pf-reset-btn{background:none;border:1px solid var(--border2);color:var(--muted);border-radius:8px;padding:9px 18px;font-size:.85rem;cursor:pointer}
+    .prof-btn{background:none;border:1px solid var(--border2);color:var(--dim);cursor:pointer;font-size:.8rem;font-weight:600;padding:5px 13px;border-radius:99px;transition:.2s;white-space:nowrap}
+    .prof-btn:hover{border-color:var(--accent);color:var(--accent)}
+
+  </style>
 </head>
 <body>
 
 <!-- HEADER -->
 <header class="header">
   <div>
-    <div class="profile-name" id="profile-name">Jalen Batiste</div>
-    <div class="profile-chips" id="profile-chips">
+    <div class="profile-name">Jalen Batiste</div>
+    <div class="profile-chips">
       <span class="chip chip-loc">📍 Ellicott City, MD</span>
       <span class="chip chip-edu">🎓 BS in IT, Towson University (Dec 2025)</span>
       <span class="chip chip-clr">🔒 Clearance Eligible</span>
@@ -242,8 +247,7 @@
     <span>Dashboard Generated</span>
     <span id="gen-date"></span>
   </div>
-  <button class="prof-btn" onclick="openProfileModal()">&#9881; Profile</button>
-  <button id="theme-btn" style="margin-left:6px" class="theme-toggle" onclick="toggleTheme()">Light Mode</button>
+  <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()">Light Mode</button>
 </header>
 
 <!-- STATS -->
@@ -273,8 +277,8 @@
   <button class="filter-btn" onclick="filterMarket('MD', this)">Maryland</button>
   <button class="filter-btn" onclick="filterMarket('VA', this)">Virginia</button>
   <button class="filter-btn" onclick="filterMarket('TX', this)">Dallas, TX</button>
-  <button class="filter-btn" onclick="filterMarket('DC', this)">Washington, DC</button>
-  <button class="filter-btn" onclick="filterMarket('Remote', this)">Remote</button>
+          <button class="mkt-btn" data-market="DC" onclick="filterMarket(this)">Washington, DC</button>
+          <button class="mkt-btn" data-market="Remote" onclick="filterMarket(this)">Remote</button>
   <div class="fdivider"></div>
   <span class="flbl">Role</span>
   <select id="role-filter" class="fsel" onchange="applyFilters()">
@@ -540,75 +544,89 @@ function initTheme(){
   if(btn)btn.textContent=saved==='light'?'Dark Mode':'Light Mode';
 }
 initTheme();
-updateJALEN();
-updateProfileHeader();
+    updateJALEN();
+    updateProfileHeader();
 
 fetch('jobs.json?v=' + Date.now())
   .then(r => r.json())
   .then(data => { JOBS = data; applyFilters(); })
   .catch(e => console.error('Failed to load jobs.json:', e));
 
-const DEFAULT_PROFILE = {
-  name: 'Jalen Batiste', email: 'Jalenmb123@gmail.com', phone: '(443) 403-9931',
-  degree: 'BS in Information Technology, Towson University', gradYear: 'Dec 2025',
-  certs: ['sec', 'cloud'], experience: 'entry', location: 'Ellicott City, MD',
-  clearable: true, summary: ''
-};
-let ACTIVE_PROFILE = (() => { try { return JSON.parse(localStorage.getItem('jalen_active_profile')) || DEFAULT_PROFILE; } catch(e) { return DEFAULT_PROFILE; } })();
 
-function openProfileModal() {
-  const p = ACTIVE_PROFILE;
-  document.getElementById('p-name').value = p.name || '';
-  document.getElementById('p-email').value = p.email || '';
-  document.getElementById('p-phone').value = p.phone || '';
-  document.getElementById('p-degree').value = p.degree || '';
-  document.getElementById('p-gradyear').value = p.gradYear || '';
-  document.getElementById('p-location').value = p.location || '';
-  document.getElementById('p-summary').value = p.summary || '';
-  document.getElementById('p-exp').value = p.experience || 'entry';
-  ['sec','cloud','aplus','net','ccna'].forEach(c => { document.getElementById('p-'+c).checked = (p.certs||[]).includes(c); });
-  document.getElementById('p-clear').checked = p.clearable !== false;
-  document.getElementById('profile-modal-overlay').classList.add('open');
-}
-function closeProfileModal() { document.getElementById('profile-modal-overlay').classList.remove('open'); }
+    /* Active Profile System */
+    var DEFAULT_PROFILE = {
+      name: 'Jalen Batiste', email: 'Jalenmb123@gmail.com', phone: '(443) 403-9931',
+      degree: 'BS in Information Technology, Towson University', gradYear: 'Dec 2025',
+      certs: ['sec', 'cloud'], experience: 'entry', location: 'Ellicott City, MD',
+      clearable: true, summary: ''
+    };
+    var ACTIVE_PROFILE = (function() {
+      try { return JSON.parse(localStorage.getItem('jalen_active_profile')) || DEFAULT_PROFILE; }
+      catch(e) { return DEFAULT_PROFILE; }
+    })();
 
-function saveProfile() {
-  const certs = ['sec','cloud','aplus','net','ccna'].filter(c => document.getElementById('p-'+c).checked);
-  ACTIVE_PROFILE = {
-    name: document.getElementById('p-name').value.trim() || 'User',
-    email: document.getElementById('p-email').value.trim(),
-    phone: document.getElementById('p-phone').value.trim(),
-    degree: document.getElementById('p-degree').value.trim(),
-    gradYear: document.getElementById('p-gradyear').value.trim(),
-    location: document.getElementById('p-location').value.trim(),
-    summary: document.getElementById('p-summary').value.trim(),
-    experience: document.getElementById('p-exp').value,
-    clearable: document.getElementById('p-clear').checked, certs
-  };
-  localStorage.setItem('jalen_active_profile', JSON.stringify(ACTIVE_PROFILE));
-  updateJALEN(); updateProfileHeader(); closeProfileModal();
-}
+    function openProfileModal() {
+      var p = ACTIVE_PROFILE;
+      document.getElementById('pf-name').value = p.name || '';
+      document.getElementById('pf-email').value = p.email || '';
+      document.getElementById('pf-phone').value = p.phone || '';
+      document.getElementById('pf-location').value = p.location || '';
+      document.getElementById('pf-degree').value = p.degree || '';
+      document.getElementById('pf-gradyear').value = p.gradYear || '';
+      document.getElementById('pf-experience').value = p.experience || 'entry';
+      document.getElementById('pf-clearable').checked = !!p.clearable;
+      document.getElementById('pf-summary').value = p.summary || '';
+      ['sec','cloud','net','az900','sc900','awsccp','ceh','cysa'].forEach(function(c) {
+        var el = document.getElementById('pf-cert-' + c);
+        if (el) { el.checked = (p.certs || []).indexOf(c) !== -1; }
+      });
+      document.getElementById('profile-modal-overlay').classList.add('open');
+    }
 
-function resetToDefault() {
-  ACTIVE_PROFILE = DEFAULT_PROFILE;
-  localStorage.removeItem('jalen_active_profile');
-  updateJALEN(); updateProfileHeader(); closeProfileModal();
-}
+    function closeProfileModal() {
+      document.getElementById('profile-modal-overlay').classList.remove('open');
+    }
 
-function updateProfileHeader() {
-  const p = ACTIVE_PROFILE;
-  const nEl = document.getElementById('profile-name'); if (nEl) nEl.textContent = p.name;
-  const cEl = document.getElementById('profile-chips'); if (!cEl) return;
-  const CL = { sec:'CompTIA Security+', cloud:'CompTIA Cloud+', aplus:'CompTIA A+', net:'CompTIA Network+', ccna:'Cisco CCNA' };
-  const chips = [];
-  if (p.location) chips.push('<span class="chip chip-loc">📍 ' + p.location + '</span>');
-  if (p.degree) chips.push('<span class="chip chip-edu">🎓 ' + p.degree + (p.gradYear?' ('+p.gradYear+')':'')+'</span>');
-  if (p.clearable) chips.push('<span class="chip chip-clear">🔒 Clearance Eligible</span>');
-  (p.certs||[]).forEach(c => { if(CL[c]) chips.push('<span class="chip chip-cert">✅ '+CL[c]+'</span>'); });
-  cEl.innerHTML = chips.join('');
-}
+    function saveProfile() {
+      var certs = [];
+      ['sec','cloud','net','az900','sc900','awsccp','ceh','cysa'].forEach(function(c) {
+        var el = document.getElementById('pf-cert-' + c);
+        if (el && el.checked) { certs.push(c); }
+      });
+      ACTIVE_PROFILE = {
+        name: (document.getElementById('pf-name').value.trim()) || DEFAULT_PROFILE.name,
+        email: document.getElementById('pf-email').value.trim(),
+        phone: document.getElementById('pf-phone').value.trim(),
+        location: document.getElementById('pf-location').value.trim(),
+        degree: document.getElementById('pf-degree').value.trim(),
+        gradYear: document.getElementById('pf-gradyear').value.trim(),
+        experience: document.getElementById('pf-experience').value,
+        clearable: document.getElementById('pf-clearable').checked,
+        summary: document.getElementById('pf-summary').value.trim(),
+        certs: certs
+      };
+      localStorage.setItem('jalen_active_profile', JSON.stringify(ACTIVE_PROFILE));
+      updateJALEN();
+      updateProfileHeader();
+      closeProfileModal();
+    }
 
-let JALEN = {
+    function resetToDefault() {
+      ACTIVE_PROFILE = DEFAULT_PROFILE;
+      localStorage.removeItem('jalen_active_profile');
+      updateJALEN();
+      updateProfileHeader();
+      closeProfileModal();
+    }
+
+    function updateProfileHeader() {
+      var p = ACTIVE_PROFILE;
+      var nameEl = document.getElementById('profile-name');
+      if (nameEl) { nameEl.textContent = p.name || 'Jalen Batiste'; }
+    }
+
+
+    let JALEN = {
   name: 'JALEN BATISTE',
   phone: '(443) 403-9931',
   email: 'Jalenmb123@gmail.com',
@@ -638,62 +656,69 @@ let JALEN = {
     helpdesk:   ['Windows 10/11','Active Directory','Hardware Troubleshooting','Software Installation','Remote Support','BYOD Management'],
     base:       ['PC Assembly','Printers & Peripherals','iOS','Microsoft Office Suite','Basic SQL','Cisco Packet Tracer']
   }
-
-const JALEN_DEFAULT = JSON.parse(JSON.stringify(JALEN));
-
-function updateJALEN() {
-  const p = ACTIVE_PROFILE;
-  if (p.name === DEFAULT_PROFILE.name) { Object.assign(JALEN, JALEN_DEFAULT); return; }
-  const CM = {
-    sec:{name:'CompTIA Security+',date:''},
-    cloud:{name:'CompTIA Cloud+',date:''},
-    net:{name:'CompTIA Network+',date:''},
-    az900:{name:'Microsoft Azure Fundamentals (AZ-900)',date:''},
-    sc900:{name:'Microsoft Security Fundamentals (SC-900)',date:''},
-    awsccp:{name:'AWS Cloud Practitioner',date:''},
-    ceh:{name:'Certified Ethical Hacker (CEH)',date:''},
-    sscp:{name:'(ISC)² SSCP',date:''},
-    cysa:{name:'CompTIA CySA+',date:''}
-  };
-  const CL = {
-    sec:'CompTIA Security+',cloud:'CompTIA Cloud+',net:'CompTIA Network+',
-    az900:'AZ-900',sc900:'SC-900',awsccp:'AWS Cloud Practitioner',
-    ceh:'CEH',sscp:'SSCP',cysa:'CySA+'
-  };
-  const dp = (p.degree||'').split(',');
-  JALEN.name = (p.name||'').toUpperCase();
-  JALEN.phone = p.phone || '';
-  JALEN.email = p.email || '';
-  JALEN.location = p.location || '';
-  JALEN.clearance = p.clearable ? 'Clearance Eligible' : '';
-  JALEN.certs = (p.certs||[]).map(c => CM[c]||{name:c,date:''});
-  JALEN.education = { degree: dp[0]?.trim()||'IT Degree', school: dp[1]?.trim()||'', dates: p.gradYear||'' };
-}
-
-function generateSummary(job, fed) {
-  const p = ACTIVE_PROFILE;
-  const CL = {
-    sec:'CompTIA Security+',cloud:'CompTIA Cloud+',net:'CompTIA Network+',
-    az900:'AZ-900',sc900:'SC-900',awsccp:'AWS Cloud Practitioner',
-    ceh:'CEH',sscp:'SSCP',cysa:'CySA+'
-  };
-  if (p.name === DEFAULT_PROFILE.name) {
-    const rk = Object.keys(SUMMARIES).find(k => job.roleType && job.roleType.includes(k)) || 'Help Desk';
-    return SUMMARIES[rk](job, fed);
-  }
-  const expMap = {entry:'an entry-level',mid:'a mid-level',senior:'a senior'};
-  const expTxt = expMap[p.experience]||'a motivated';
-  const dp = (p.degree||'').split(',');
-  const degStr = p.degree ? ' with a ' + dp[0].trim() + (dp[1]?' from '+dp[1].trim():'') : '';
-  const certStr = (p.certs||[]).map(c=>CL[c]||c).filter(Boolean).join(', ');
-  const certTxt = certStr ? ' Certifications include ' + certStr + '.' : '';
-  const bgStr = p.summary ? ' ' + p.summary.trim() : '';
-  const clearStr = p.clearable ? ' Security clearance eligible.' : '';
-  return 'Results-driven IT professional' + degStr + ' seeking ' + expTxt + ' ' + job.title + ' role at ' + job.company + '.' + certTxt + bgStr + clearStr + ' Ready to contribute from day one.';
-}
+};
 
 
-const SUMMARIES = {
+    var JALEN_DEFAULT = JSON.parse(JSON.stringify(JALEN));
+
+    function updateJALEN() {
+      var p = ACTIVE_PROFILE;
+      if (p.name === DEFAULT_PROFILE.name) { Object.assign(JALEN, JALEN_DEFAULT); return; }
+      var CM = {
+        sec:  {name:'CompTIA Security+', date:''},
+        cloud:{name:'CompTIA Cloud+', date:''},
+        net:  {name:'CompTIA Network+', date:''},
+        az900:{name:'Microsoft Azure Fundamentals AZ-900', date:''},
+        sc900:{name:'Microsoft Security Fundamentals SC-900', date:''},
+        awsccp:{name:'AWS Cloud Practitioner', date:''},
+        ceh:  {name:'Certified Ethical Hacker CEH', date:''},
+        sscp: {name:'ISC2 SSCP', date:''},
+        cysa: {name:'CompTIA CySA+', date:''}
+      };
+      var dp = (p.degree || '').split(',');
+      JALEN.name      = (p.name || '').toUpperCase();
+      JALEN.phone     = p.phone || '';
+      JALEN.email     = p.email || '';
+      JALEN.location  = p.location || '';
+      JALEN.clearance = p.clearable ? 'Clearance Eligible' : '';
+      JALEN.certs     = (p.certs || []).map(function(c) { return CM[c] || {name: c, date: ''}; });
+      JALEN.education = {
+        degree: dp[0] ? dp[0].trim() : 'IT Degree',
+        school: dp[1] ? dp[1].trim() : '',
+        dates:  p.gradYear || ''
+      };
+    }
+
+    function generateSummary(job, fed) {
+      var p = ACTIVE_PROFILE;
+      var CL = {
+        sec:'CompTIA Security+', cloud:'CompTIA Cloud+', net:'CompTIA Network+',
+        az900:'AZ-900', sc900:'SC-900', awsccp:'AWS Cloud Practitioner',
+        ceh:'CEH', sscp:'SSCP', cysa:'CySA+'
+      };
+      if (p.name === DEFAULT_PROFILE.name) {
+        var rk = 'Help Desk';
+        var keys = Object.keys(SUMMARIES);
+        for (var ki = 0; ki < keys.length; ki++) {
+          if (job.roleType && job.roleType.indexOf(keys[ki]) !== -1) { rk = keys[ki]; break; }
+        }
+        return SUMMARIES[rk](job, fed);
+      }
+      var expMap = {entry: 'an entry-level', mid: 'a mid-level', senior: 'a senior'};
+      var expTxt  = expMap[p.experience] || 'a motivated';
+      var dp      = (p.degree || '').split(',');
+      var degStr  = p.degree ? ' with a ' + dp[0].trim() + (dp[1] ? ' from ' + dp[1].trim() : '') : '';
+      var certArr = (p.certs || []).map(function(c) { return CL[c] || c; }).filter(Boolean);
+      var certTxt = certArr.length ? ' Certifications include ' + certArr.join(', ') + '.' : '';
+      var bgStr   = p.summary ? ' ' + p.summary.trim() : '';
+      var clrStr  = p.clearable ? ' Security clearance eligible.' : '';
+      return 'Results-driven IT professional' + degStr + ' seeking ' + expTxt + ' '
+        + job.title + ' role at ' + job.company + '.' + certTxt + bgStr + clrStr
+        + ' Ready to contribute from day one.';
+    }
+
+
+    const SUMMARIES = {
   'SOC': (job, fed) => `IT graduate (Towson University, Dec 2025) with CompTIA Security+ (Oct 2024) and a self-built Linux & Cybersecurity Lab — Kali Linux tooling including Nmap for network scanning and simulated penetration testing, plus Ubuntu server administration in a multi-OS virtual environment. Real-world incident documentation and trend analysis from Tier 1 internship at ICE Tech Inc. ${fed ? 'Clearance eligible — aligns with DoD 8570 IAT Level 1/2. Ready to support SIEM monitoring and threat triage in a federal SOC from day one.' : 'Security+ backed by hands-on offensive and defensive lab experience — not just coursework.'}`,
 
   'Cloud': (job, fed) => `IT graduate (Towson University, Dec 2025) with CompTIA Cloud+ (Nov 2024) and Security+ (Oct 2024) targeting a ${job.title} role. Built and managed multi-OS virtualized environments using VirtualBox with Microsoft Server 2019, Ubuntu, and Kali Linux — hands-on with TCP/IP, DNS, and VPN configuration. ${fed ? 'Clearance eligible — ready to support government cloud migration and infrastructure operations.' : 'Cloud+ certification paired with practical multi-platform lab experience translates directly to cloud support and infrastructure roles.'}`,
@@ -859,52 +884,65 @@ renderWatchlistBar();
     </div>
   </div>
 </div>
-<div id="profile-modal-overlay" class="profile-modal-overlay" onclick="if(event.target===this)closeProfileModal()">
-  <div class="profile-modal-box">
-    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px">
-      <div style="font-size:1rem;font-weight:700;color:var(--text)">&#9881;&nbsp; My Profile</div>
-      <button onclick="closeProfileModal()" style="background:none;border:none;color:var(--dim);cursor:pointer;font-size:1.4rem;line-height:1">&times;</button>
-    </div>
-    <div style="display:grid;gap:14px">
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
-        <div><label class="pf-label">Full Name</label><input id="p-name" type="text" class="pf-input" placeholder="Your name"></div>
-        <div><label class="pf-label">Location / City</label><input id="p-location" type="text" class="pf-input" placeholder="e.g. Bethesda, MD"></div>
+
+  <div class="profile-modal-overlay" id="profile-modal-overlay" onclick="if(event.target===this)closeProfileModal()">
+    <div class="profile-modal-box">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:18px">
+        <div style="font-size:1rem;font-weight:700;color:var(--text)">&#9881; Your Profile</div>
+        <button onclick="closeProfileModal()" style="background:none;border:none;color:var(--muted);font-size:1.2rem;cursor:pointer">&#10005;</button>
       </div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
-        <div><label class="pf-label">Email</label><input id="p-email" type="email" class="pf-input" placeholder="you@email.com"></div>
-        <div><label class="pf-label">Phone</label><input id="p-phone" type="text" class="pf-input" placeholder="(555) 555-5555"></div>
+      <div class="pf-row">
+        <div><label class="pf-label">Full Name</label><input class="pf-input" id="pf-name" placeholder="Your name"></div>
+        <div><label class="pf-label">Email</label><input class="pf-input" id="pf-email" type="email" placeholder="you@email.com"></div>
       </div>
-      <div style="display:grid;grid-template-columns:1fr auto;gap:12px;align-items:end">
-        <div><label class="pf-label">Degree &amp; School</label><input id="p-degree" type="text" class="pf-input" placeholder="e.g. BS in IT, University of Maryland"></div>
-        <div><label class="pf-label">Grad Year</label><input id="p-gradyear" type="text" class="pf-input" placeholder="May 2026" style="width:120px"></div>
+      <div class="pf-row">
+        <div><label class="pf-label">Phone</label><input class="pf-input" id="pf-phone" placeholder="(555) 000-0000"></div>
+        <div><label class="pf-label">Location</label><input class="pf-input" id="pf-location" placeholder="City, State"></div>
       </div>
-      <div>
-        <label class="pf-label">Certifications</label>
-        <div class="pf-check-row">
-          <label class="pf-check"><input type="checkbox" id="p-sec"> Security+</label>
-          <label class="pf-check"><input type="checkbox" id="p-cloud"> Cloud+</label>
-          <label class="pf-check"><input type="checkbox" id="p-aplus"> A+</label>
-          <label class="pf-check"><input type="checkbox" id="p-net"> Network+</label>
-          <label class="pf-check"><input type="checkbox" id="p-ccna"> CCNA</label>
+      <div class="pf-full">
+        <label class="pf-label">Degree / Program</label>
+        <input class="pf-input" id="pf-degree" placeholder="BS in Information Technology, University Name">
+      </div>
+      <div class="pf-row">
+        <div><label class="pf-label">Grad Year</label><input class="pf-input" id="pf-gradyear" placeholder="May 2025"></div>
+        <div>
+          <label class="pf-label">Experience Level</label>
+          <select class="pf-input" id="pf-experience">
+            <option value="entry">Entry Level (0-2 yrs)</option>
+            <option value="mid">Mid Level (3-5 yrs)</option>
+            <option value="senior">Senior (6+ yrs)</option>
+          </select>
         </div>
       </div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
-        <div><label class="pf-label">Experience Level</label><select id="p-exp" class="pf-input"><option value="entry">Entry Level (0-1 yr)</option><option value="mid">Mid Level (1-3 yr)</option><option value="senior">Senior (3+ yr)</option></select></div>
-        <div style="display:flex;align-items:flex-end;padding-bottom:4px"><label class="pf-check"><input type="checkbox" id="p-clear"> Clearance Eligible</label></div>
+      <div class="pf-full">
+        <label class="pf-label">Certifications</label>
+        <div class="pf-check-group">
+          <label class="pf-check-label"><input type="checkbox" value="sec" id="pf-cert-sec"> CompTIA Security+</label>
+          <label class="pf-check-label"><input type="checkbox" value="cloud" id="pf-cert-cloud"> CompTIA Cloud+</label>
+          <label class="pf-check-label"><input type="checkbox" value="net" id="pf-cert-net"> CompTIA Network+</label>
+          <label class="pf-check-label"><input type="checkbox" value="az900" id="pf-cert-az900"> AZ-900</label>
+          <label class="pf-check-label"><input type="checkbox" value="sc900" id="pf-cert-sc900"> SC-900</label>
+          <label class="pf-check-label"><input type="checkbox" value="awsccp" id="pf-cert-awsccp"> AWS Cloud Practitioner</label>
+          <label class="pf-check-label"><input type="checkbox" value="ceh" id="pf-cert-ceh"> CEH</label>
+          <label class="pf-check-label"><input type="checkbox" value="cysa" id="pf-cert-cysa"> CySA+</label>
+        </div>
       </div>
-      <div>
-        <label class="pf-label">Brief Background <span style="font-weight:400;text-transform:none;letter-spacing:0;font-size:.69rem">(optional)</span></label>
-        <textarea id="p-summary" rows="3" class="pf-input" style="resize:vertical" placeholder="e.g. 5 years network ops, transitioning to cybersecurity..."></textarea>
+      <div class="pf-full">
+        <label class="pf-label">
+          <input type="checkbox" id="pf-clearable" style="margin-right:5px;accent-color:var(--accent)">
+          Security Clearance Eligible
+        </label>
       </div>
-    </div>
-    <div style="display:flex;gap:10px;margin-top:22px;justify-content:space-between;align-items:center">
-      <button onclick="resetToDefault()" style="background:none;border:1px solid var(--border2);color:var(--dim);border-radius:8px;padding:7px 14px;cursor:pointer;font-size:.82rem">Reset to Jalen's Profile</button>
-      <div style="display:flex;gap:8px">
-        <button onclick="closeProfileModal()" style="background:none;border:1px solid var(--border2);color:var(--dim);border-radius:8px;padding:7px 14px;cursor:pointer;font-size:.82rem">Cancel</button>
-        <button onclick="saveProfile()" style="background:var(--blue);border:none;color:#fff;border-radius:8px;padding:7px 20px;cursor:pointer;font-size:.85rem;font-weight:600">Save Profile</button>
+      <div class="pf-full">
+        <label class="pf-label">Background / Summary (optional)</label>
+        <textarea class="pf-input" id="pf-summary" rows="3" placeholder="Brief background for resume summary..."></textarea>
+      </div>
+      <div class="pf-actions">
+        <button class="pf-reset-btn" onclick="resetToDefault()">Reset to Jalen</button>
+        <button class="pf-save-btn" onclick="saveProfile()">Save Profile</button>
       </div>
     </div>
   </div>
-</div>
+
 </body>
 </html>
