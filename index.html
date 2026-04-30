@@ -12,6 +12,11 @@
       --text:#e2e8f0;--muted:#64748b;--dim:#94a3b8;
       --green:#10b981;--amber:#f59e0b;--orange:#f97316;--blue:#3b82f6;--purple:#8b5cf6;
     }
+    [data-theme="light"]{
+      --bg:#f1f5f9;--surface:#ffffff;--surface2:#f8fafc;
+      --border:rgba(15,23,42,.12);--border2:rgba(15,23,42,.2);
+      --text:#0f172a;--muted:#475569;--dim:#64748b;
+    }
     body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:14px;line-height:1.5;min-height:100vh}
 
     /* ── HEADER ── */
@@ -161,7 +166,15 @@
       .resume{border-radius:0}
       body>*:not(.modal-overlay){display:none}
     }
-  </style>
+  .age-badge{display:inline-block;font-size:10px;padding:2px 7px;border-radius:99px;font-weight:600;letter-spacing:.3px;margin-top:4px}
+.age-new{background:rgba(16,185,129,.15);color:var(--green)}
+.age-ok{background:rgba(148,163,184,.1);color:var(--dim)}
+.age-stale{background:rgba(245,158,11,.18);color:var(--amber)}
+.theme-toggle{background:var(--surface2);border:1px solid var(--border2);color:var(--dim);border-radius:99px;padding:5px 14px;font-size:12px;font-weight:600;cursor:pointer;transition:.2s;letter-spacing:.4px}
+.theme-toggle:hover{border-color:var(--blue);color:var(--blue)}
+.stale-wrap{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--dim);cursor:pointer;white-space:nowrap;user-select:none}
+.stale-wrap input{width:14px;height:14px;cursor:pointer;accent-color:var(--amber)}
+</style>
 </head>
 <body>
 
@@ -181,6 +194,7 @@
     <span>Dashboard Generated</span>
     <span id="gen-date"></span>
   </div>
+  <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()">Light Mode</button>
 </header>
 
 <!-- STATS -->
@@ -236,6 +250,8 @@
     <option value="no">Private Sector</option>
   </select>
   <input type="text" id="search-box" class="search-input" placeholder="Search jobs..." oninput="applyFilters()">
+  <div class="fdivider"></div>
+  <label class="stale-wrap"><input type="checkbox" id="hide-stale" onchange="applyFilters()"> Hide 30d+</label>
 </div>
 
 <!-- RESULT COUNT -->
@@ -344,6 +360,7 @@ function filterMarket(market, btn) {
 }
 
 function applyFilters() {
+  const hideStale = document.getElementById('hide-stale')?.checked;
   const roleFilter = document.getElementById('role-filter').value;
   const priorityFilter = document.getElementById('priority-filter').value;
   const fedFilter = document.getElementById('fed-filter').value;
@@ -355,6 +372,7 @@ function applyFilters() {
     if (priorityFilter !== 'all' && j.priority !== priorityFilter) return false;
     if (fedFilter === 'yes' && !j.certs.includes('fed')) return false;
     if (fedFilter === 'no' && j.certs.includes('fed')) return false;
+    if (hideStale && j.posted) { const d=Math.floor((Date.now()-new Date(j.posted))/86400000); if(d>30) return false; }
     if (search) {
       const haystack = `${j.title} ${j.company} ${j.city} ${j.notes} ${j.roleType}`.toLowerCase();
       if (!haystack.includes(search)) return false;
@@ -403,6 +421,7 @@ function applyFilters() {
       <td>
         <div class="job-title">${j.title}</div>
         <div class="company-name" style="margin-top:3px">${j.company}</div>
+        ${ageBadge(j.posted)}
         <div class="location-text" style="margin-top:2px">📍 ${j.city}</div>
         ${j.notes ? `<div style="font-size:0.75rem;color:#4b5563;margin-top:3px">${j.notes}</div>` : ''}
       </td>
@@ -448,6 +467,29 @@ function sortBy(col) {
 }
 
 // Load jobs from external JSON, then render
+function ageBadge(posted){
+  if(!posted)return '';
+  const d=Math.floor((Date.now()-new Date(posted))/86400000);
+  if(d<7)return '<span class="age-badge age-new">New</span>';
+  if(d<=30)return '<span class="age-badge age-ok">'+d+'d ago</span>';
+  return '<span class="age-badge age-stale">⚠ '+d+'d ago</span>';
+}
+function toggleTheme(){
+  const cur=document.documentElement.getAttribute('data-theme')||'dark';
+  const next=cur==='light'?'dark':'light';
+  document.documentElement.setAttribute('data-theme',next);
+  localStorage.setItem('jalen_theme',next);
+  const btn=document.getElementById('theme-btn');
+  if(btn)btn.textContent=next==='light'?'Dark Mode':'Light Mode';
+}
+function initTheme(){
+  const saved=localStorage.getItem('jalen_theme')||'dark';
+  document.documentElement.setAttribute('data-theme',saved);
+  const btn=document.getElementById('theme-btn');
+  if(btn)btn.textContent=saved==='light'?'Dark Mode':'Light Mode';
+}
+initTheme();
+
 fetch('jobs.json?v=' + Date.now())
   .then(r => r.json())
   .then(data => { JOBS = data; applyFilters(); })
