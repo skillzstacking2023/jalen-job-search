@@ -1,492 +1,490 @@
 [
   {
     "id": 1,
-    "score": 85,
-    "title": "Help Desk Specialist I",
-    "company": "NuAxis Innovations",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$49K-$67K/yr",
+    "score": 92,
+    "title": "Service Desk I",
+    "company": "SAIC",
+    "market": "VA",
+    "city": "Arlington, VA",
+    "salary": "$40K-$55K/yr",
     "roleType": "Help Desk",
     "certs": [
-      "sec",
-      "cloud"
+      "sec"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-i-at-nuaxis-innovations-4214052731",
-    "notes": "Security+ preferred - Public Trust clearance - Federal IT environment - Entry to mid level",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
+    "url": "https://jobs.saic.com/jobs/17636527-service-desk-i",
+    "notes": "FDIC ISS contract - Public Trust eligible - No clearance required - Security+ valued - Verified active",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
   },
   {
     "id": 2,
-    "score": 84,
-    "title": "Product Support Technician",
-    "company": "CACI International",
+    "score": 90,
+    "title": "Service Desk II",
+    "company": "SAIC",
     "market": "VA",
-    "city": "Ashburn, VA (Remote eligible)",
-    "salary": "$51,800-$106,200/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://searchcareers.caci.com/careers/job/1443148808493",
-    "notes": "No clearance required - Entry level welcome - Hybrid remote - Software product support",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
-  },
-  {
-    "id": 3,
-    "score": 83,
-    "title": "Help Desk Support Services Specialist",
-    "company": "ManTech",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$45K-$60K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://careers.mantech.com/en_US/careers/JobDetail/Help-Desk-Support-Services-Specialist/63475",
-    "notes": "Secret clearance required - Clearance eligible welcome - Remote work - Federal IT support",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
-  },
-  {
-    "id": 4,
-    "score": 82,
-    "title": "Service Desk Technician",
-    "company": "Leidos",
-    "market": "VA",
-    "city": "Reston, VA",
-    "salary": "$45K-$65K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://careers.leidos.com/jobs/service-desk-technician-15263693",
-    "notes": "Secret clearance preferred - Entry level considered - Federal government IT support",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
-  },
-  {
-    "id": 5,
-    "score": 81,
-    "title": "Junior Helpdesk Specialist",
-    "company": "Chenega MIOS",
-    "market": "VA",
-    "city": "Springfield, VA",
-    "salary": "$45K-$58K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/c69d6c16-d772-49bb-a411-b588ddda52ba",
-    "notes": "Secret clearance required - Clearance eligible welcome - On-site Springfield VA - DoD IT support",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
-  },
-  {
-    "id": 6,
-    "score": 80,
-    "title": "Customer Support Specialist (Technical)",
-    "company": "Peraton",
-    "market": "VA",
-    "city": "Sterling, VA",
-    "salary": "$51K-$82K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.careers.peraton.com/jobs/customer-support-specialist-technical-sterling-virginia-165872-jobs",
-    "notes": "Secret clearance preferred - Entry to mid level - Technical customer support - Federal program",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
-  },
-  {
-    "id": 7,
-    "score": 80,
-    "title": "Help Desk Analyst",
-    "company": "Booz Allen Hamilton",
-    "market": "VA",
-    "city": "McLean, VA",
-    "salary": "$48K-$65K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "cloud"
-    ],
-    "priority": "High",
-    "url": "https://careers.boozallen.com/jobs/businessopportunity/help-desk-analyst-mclean/73211",
-    "notes": "Public Trust clearance - Entry level IT - Federal consulting environment - Security+ a plus",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
-  },
-  {
-    "id": 8,
-    "score": 80,
-    "title": "IT Support Specialist",
-    "company": "Maximus Federal",
-    "market": "VA",
-    "city": "Reston, VA",
+    "city": "Arlington, VA",
     "salary": "$45K-$62K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.maximus.com/join-our-team/current-openings/it-support-specialist-reston-va",
-    "notes": "No clearance required - Federal contractor - Public Trust eligible - Entry level IT support",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
+    "url": "https://jobs.saic.com/jobs/17636526-service-desk-ii",
+    "notes": "FDIC ISS contract - Public Trust eligible - Tier 2 support - Security+ preferred - Verified active",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
+  },
+  {
+    "id": 3,
+    "score": 87,
+    "title": "SOC Analyst, Junior",
+    "company": "Peraton",
+    "market": "VA",
+    "city": "Herndon, VA",
+    "salary": "$52K-$72K/yr",
+    "roleType": "SOC Analyst",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.careers.peraton.com/jobs/security-operations-center-soc-analyst-junior-herndon-virginia-165283-jobs--cyber-security--",
+    "notes": "Entry-level SOC role - Security+ preferred - Clearance eligible welcome - Verified active",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
+  },
+  {
+    "id": 4,
+    "score": 85,
+    "title": "Desktop Support Technician",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Patuxent River, MD",
+    "salary": "$42K-$58K/yr",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://careers.leidos.com/jobs/17600055-desktop-support-technician",
+    "notes": "Government site support - Naval Air Station - Security+ a plus - Public Trust required",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
+  },
+  {
+    "id": 5,
+    "score": 84,
+    "title": "Help Desk Technical Support Specialist",
+    "company": "Leidos",
+    "market": "Remote",
+    "city": "Remote (MD/VA preferred)",
+    "salary": "$40K-$55K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://careers.leidos.com/jobs/17413482-help-desk-technical-support-specialist",
+    "notes": "Hybrid remote option - Federal client support - Public Trust - Security+ valued",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
+  },
+  {
+    "id": 6,
+    "score": 83,
+    "title": "Desktop Support Technician",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Indian Head, MD",
+    "salary": "$42K-$56K/yr",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://careers.leidos.com/jobs/17400337-desktop-support-technician",
+    "notes": "Naval base support - Public Trust required - Security+ a plus - Stable government contract",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
+  },
+  {
+    "id": 7,
+    "score": 82,
+    "title": "Help Desk Support Service Specialist",
+    "company": "NuAxis Innovations",
+    "market": "VA",
+    "city": "Reston, VA",
+    "salary": "$50K-$65K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://nuaxis.dejobs.org/jobs/",
+    "notes": "Federal IT company - Tier 1 phone-based support - Public Trust - CompTIA certs valued",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
+  },
+  {
+    "id": 8,
+    "score": 81,
+    "title": "Junior Service Desk Technician",
+    "company": "ActioNet",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.actionet.com/careers/",
+    "notes": "Federal IT contractor - Entry-level role - No clearance required to start - Security+ a plus",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
   },
   {
     "id": 9,
-    "score": 75,
-    "title": "Service Desk Analyst",
-    "company": "ManTech",
-    "market": "VA",
-    "city": "Herndon, VA",
-    "salary": "$48K-$65K/yr",
+    "score": 80,
+    "title": "IT Help Desk Analyst",
+    "company": "Booz Allen Hamilton",
+    "market": "MD",
+    "city": "Silver Spring, MD",
+    "salary": "$48K-$68K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
-    "priority": "Medium",
-    "url": "https://careers.mantech.com/en_US/careers/JobDetail/Service-Desk-Analyst/63022",
-    "notes": "Secret clearance preferred - Clearance eligible welcome - Federal IT service desk - Tier 1/2 support",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
+    "priority": "High",
+    "url": "https://careers.boozallen.com/careers/SearchJobs",
+    "notes": "Top-tier gov contractor - Public Trust clearance - Security+ desired - Strong career growth",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
   },
   {
     "id": 10,
-    "score": 74,
-    "title": "Service Desk Analyst Tier 2",
+    "score": 79,
+    "title": "Service Desk Analyst",
     "company": "CACI International",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$75,200-$158,100/yr",
+    "market": "MD",
+    "city": "Linthicum, MD",
+    "salary": "$48K-$72K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://searchcareers.caci.com/careers/job/1443150112645",
-    "notes": "No clearance required - Fully remote - Tier 2 escalation support - Competitive salary range",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
+    "url": "https://careers.caci.com/global/en/search-results",
+    "notes": "DHS contract - 15K+ tickets/month environment - Security+ preferred - Public Trust required",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
   },
   {
     "id": 11,
-    "score": 74,
-    "title": "IT Support Specialist",
-    "company": "Noblis",
+    "score": 78,
+    "title": "Sr. Tier 2 Helpdesk Specialist",
+    "company": "Leidos",
     "market": "VA",
-    "city": "Reston, VA",
-    "salary": "$48K-$65K/yr",
+    "city": "Fort Belvoir, VA",
+    "salary": "$55K-$75K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://noblis.org/careers/job-openings/it-support-specialist-reston-va",
-    "notes": "Public Trust clearance - Nonprofit R&D mission - Federal IT operations - Entry level friendly",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
+    "url": "https://careers.leidos.com/jobs/17466611-sr-tier-2-helpdesk-specialist",
+    "notes": "Army base support - Security+ required - IT service desk with cyber focus - Worth applying",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
   },
   {
     "id": 12,
-    "score": 73,
-    "title": "IT Help Desk Specialist",
-    "company": "ECS Federal",
-    "market": "VA",
-    "city": "Fairfax, VA",
-    "salary": "$46K-$62K/yr",
+    "score": 77,
+    "title": "Help Desk Specialist",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Edgewood, MD",
+    "salary": "$45K-$62K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://careers.ecstech.com/jobs/it-help-desk-specialist-fairfax-va",
-    "notes": "Public Trust clearance - Entry level IT support - Federal agency client - Security+ valued",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
+    "url": "https://careers.leidos.com/jobs/15901314-help-desk-specialist",
+    "notes": "Army support - Public Trust - Aberdeen Proving Ground area - Security+ valued",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
   },
   {
     "id": 13,
-    "score": 73,
-    "title": "Service Desk Analyst",
-    "company": "NTT Data Federal",
-    "market": "VA",
-    "city": "Herndon, VA",
-    "salary": "$47K-$63K/yr",
+    "score": 76,
+    "title": "Service Desk Specialists",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Gaithersburg, MD",
+    "salary": "$42K-$60K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://us.nttdata.com/en/careers/open-positions/service-desk-analyst-herndon-va",
-    "notes": "No clearance required - Federal IT services - Tier 1 support - Entry level welcome",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
+    "url": "https://careers.leidos.com/jobs/16400085-service-desk-specialists",
+    "notes": "Federal civilian agency - Tier 1/2 support - Public Trust - Near DC corridor",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
   },
   {
     "id": 14,
-    "score": 73,
-    "title": "Service Desk Analyst",
-    "company": "DXC Technology",
-    "market": "Remote",
-    "city": "Remote",
+    "score": 75,
+    "title": "Help Desk Analyst Tier 1",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Rockville, MD",
+    "salary": "$40K-$52K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://careers.leidos.com/jobs/15716098-help-desk-analyst-tier-1",
+    "notes": "Remote option available - Tier 1 phone support - Federal health agency - Public Trust",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
+  },
+  {
+    "id": 15,
+    "score": 74,
+    "title": "Junior Helpdesk Specialist",
+    "company": "Chenega MIOS",
+    "market": "VA",
+    "city": "Arlington, VA",
     "salary": "$45K-$60K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://careers.dxc.com/global/en/job/5022014/Service-Desk-Analyst",
-    "notes": "No clearance required - Fully remote - Commercial and federal clients - Entry level IT support",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
+    "url": "https://chenegamios.com/jobs/",
+    "notes": "Government support - No clearance required to start - CompTIA certs valued - Entry-level",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
   },
   {
-    "id": 15,
+    "id": 16,
     "score": 73,
-    "title": "IT Support Analyst",
-    "company": "SAIC",
-    "market": "TX",
-    "city": "San Antonio, TX",
-    "salary": "$46K-$62K/yr",
+    "title": "IT Help Desk Technician",
+    "company": "Maximus Federal",
+    "market": "VA",
+    "city": "McLean, VA",
+    "salary": "$40K-$55K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://jobs.saic.com/jobs/it-support-analyst-san-antonio-texas-14412563",
-    "notes": "Public Trust clearance preferred - Entry level IT - Federal government IT support - Security+ valued",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
-  },
-  {
-    "id": 16,
-    "score": 72,
-    "title": "Help Desk Specialist II",
-    "company": "NuAxis Innovations",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$56K-$74K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "cloud"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-ii-at-nuaxis-innovations-4214053001",
-    "notes": "Public Trust clearance - Mid-level IT support - Federal environment - 2+ years experience preferred",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
+    "url": "https://maximus.avature.net/careers/USHome",
+    "notes": "Government tech company - Public Trust - Entry-level friendly - Military-friendly employer",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
   },
   {
     "id": 17,
     "score": 72,
-    "title": "Desktop Support Technician",
-    "company": "GDIT",
+    "title": "Cybersecurity Help Desk Specialist",
+    "company": "Competitive Range Solutions",
     "market": "MD",
-    "city": "Bethesda, MD",
-    "salary": "$47K-$63K/yr",
-    "roleType": "Desktop Support",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://careers.gdit.com/careers/job/RQ193224",
-    "notes": "Public Trust clearance - On-site Bethesda MD - Federal agency desktop support - Entry level friendly",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
-  },
-  {
-    "id": 18,
-    "score": 72,
-    "title": "IT Help Desk Technician",
-    "company": "Peraton",
-    "market": "TX",
-    "city": "San Antonio, TX",
-    "salary": "$46K-$68K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.careers.peraton.com/jobs/it-help-desk-technician-san-antonio-texas-166102-jobs",
-    "notes": "Public Trust clearance preferred - Entry level IT - Federal program support - Security+ valued",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
-  },
-  {
-    "id": 19,
-    "score": 72,
-    "title": "IT Help Desk Specialist",
-    "company": "Amentum",
-    "market": "MD",
-    "city": "Greenbelt, MD",
-    "salary": "$47K-$63K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.amentum.com/careers/jobs/it-help-desk-specialist-greenbelt-md-44215",
-    "notes": "Secret clearance preferred - Clearance eligible welcome - NASA/federal IT support - Entry level",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
-  },
-  {
-    "id": 20,
-    "score": 70,
-    "title": "Momentum Helpdesk Analyst",
-    "company": "CACI International",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$63,300-$129,700/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://searchcareers.caci.com/careers/job/1443149890903",
-    "notes": "No clearance required - Remote position - Federal ERP support - Momentum financial system a plus",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
-  },
-  {
-    "id": 21,
-    "score": 68,
-    "title": "SOC Analyst Tier 1",
-    "company": "CyberLinx Solutions",
-    "market": "MD",
-    "city": "Annapolis Junction, MD",
-    "salary": "$52K-$72K/yr",
+    "city": "Fort Meade, MD",
+    "salary": "$50K-$65K/yr",
     "roleType": "SOC Analyst",
     "certs": [
       "sec"
     ],
+    "priority": "Medium",
+    "url": "https://competitive-range.com/careers/",
+    "notes": "Cyber-adjacent help desk - Security+ required - Fort Meade corridor - Cloud+ a plus",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
+  },
+  {
+    "id": 18,
+    "score": 71,
+    "title": "IT Support Specialist",
+    "company": "Amentum",
+    "market": "MD",
+    "city": "Bethesda, MD",
+    "salary": "$45K-$60K/yr",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://careers.amentum.com/jobs",
+    "notes": "Large federal contractor - IT desktop support - Public Trust - Security+ valued - Stable",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
+  },
+  {
+    "id": 19,
+    "score": 70,
+    "title": "Help Desk Technician",
+    "company": "Computer World Services",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "$42K-$58K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.cws-corp.com/careers/",
+    "notes": "Federal IT contractor - DMV area - Entry level - Public Trust - Tier 1 support focus",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
+  },
+  {
+    "id": 20,
+    "score": 69,
+    "title": "NOC/SOC Technician Level 1",
+    "company": "SkyHelm",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "$40K-$55K/yr",
+    "roleType": "NOC",
+    "certs": [
+      "sec",
+      "cloud"
+    ],
     "priority": "Stretch",
-    "url": "https://www.linkedin.com/jobs/view/soc-analyst-tier-1-at-cyberlinx-solutions-4209871034",
-    "notes": "Secret clearance required - Entry level SOC - Security monitoring - Security+ required - Career pivot",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
+    "url": "https://skyhelm.com/job-postings/network-security-operations-center-noc-soc-technician-level-1/",
+    "notes": "NOC and SOC combined role - Remote - Cloud+ and Security+ directly applicable",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
+  },
+  {
+    "id": 21,
+    "score": 68,
+    "title": "IT Help Desk Analyst",
+    "company": "Edgewater Federal Solutions",
+    "market": "MD",
+    "city": "Annapolis Junction, MD",
+    "salary": "$48K-$62K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.edgewaterfs.com/careers",
+    "notes": "Near NSA corridor - Clearance-eligible candidates preferred - Security+ a plus - Growing firm",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
   },
   {
     "id": 22,
-    "score": 65,
-    "title": "Computer Support Specialist",
-    "company": "CACI International",
+    "score": 67,
+    "title": "Service Desk Technician",
+    "company": "SkyePoint Decisions",
     "market": "MD",
-    "city": "Suitland, MD",
-    "salary": "$50,500-$101,100/yr",
+    "city": "Rockville, MD",
+    "salary": "$45K-$60K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.skyepointdecisions.com/careers/",
+    "notes": "Federal IT contractor - Clearance eligible welcome - Security+ valued - Entry-level friendly",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
+  },
+  {
+    "id": 23,
+    "score": 66,
+    "title": "IT Support Specialist",
+    "company": "Strategic Analysis",
+    "market": "VA",
+    "city": "Arlington, VA",
+    "salary": "$48K-$65K/yr",
     "roleType": "Desktop Support",
     "certs": [
       "sec"
     ],
     "priority": "Stretch",
-    "url": "https://searchcareers.caci.com/careers/job/1443148812122",
-    "notes": "TS/SCI required - On-site Suitland MD - Stretch role requiring high clearance - Strong comp if cleared",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
-  },
-  {
-    "id": 23,
-    "score": 65,
-    "title": "Help Desk Technician",
-    "company": "GDIT",
-    "market": "VA",
-    "city": "Chantilly, VA",
-    "salary": "$50K-$70K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Stretch",
-    "url": "https://careers.gdit.com/careers/job/RQ196882",
-    "notes": "TS/SCI required - On-site Chantilly VA - Intelligence community IT - Stretch requiring clearance upgrade",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
+    "url": "https://www.sainc.com/careers/",
+    "notes": "Defense analytics firm - Entry-level IT support - Security+ preferred - Clearance eligible a plus",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
   },
   {
     "id": 24,
-    "score": 64,
-    "title": "Help Desk Technician",
-    "company": "Zachary Piper Solutions",
-    "market": "MD",
-    "city": "Baltimore, MD",
-    "salary": "$42K-$55K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Stretch",
-    "url": "https://jobs.zpsconsulting.com/jobs/help-desk-technician-baltimore-md-2026",
-    "notes": "No clearance required - Staffing agency placement - Entry level IT - Good foot-in-door opportunity",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
-  },
-  {
-    "id": 25,
-    "score": 63,
-    "title": "IT Help Desk Support",
-    "company": "Yakshna Solutions",
+    "score": 65,
+    "title": "Cloud Support Analyst",
+    "company": "GovCIO",
     "market": "VA",
-    "city": "Chantilly, VA",
-    "salary": "$40K-$52K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Stretch",
-    "url": "https://www.yakshna.com/career/it-help-desk-support-chantilly-va",
-    "notes": "Public Trust clearance - Small IT firm - Entry level role - Federal client support - Good starter position",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
-  },
-  {
-    "id": 26,
-    "score": 62,
-    "title": "Cloud Support Engineer I",
-    "company": "ActioNet",
-    "market": "VA",
-    "city": "Vienna, VA",
-    "salary": "$52K-$72K/yr",
+    "city": "Fairfax, VA",
+    "salary": "$50K-$70K/yr",
     "roleType": "Cloud Support",
     "certs": [
       "cloud",
       "sec"
     ],
     "priority": "Stretch",
-    "url": "https://jobs.jobvite.com/actionet/job/oTQBufwd",
-    "notes": "Public Trust clearance - Cloud+ ideal - Entry level cloud role - Federal IT cloud support - Security+ a plus",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
+    "url": "https://govcio.com/careers/",
+    "notes": "Cloud+ directly applicable - Federal cloud migration support - Public Trust - Growing segment",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
   },
   {
-    "id": 27,
-    "score": 62,
-    "title": "Incident Management Technician",
-    "company": "ManTech",
+    "id": 25,
+    "score": 64,
+    "title": "Tier 1 Help Desk Analyst",
+    "company": "Red River Technology",
     "market": "VA",
     "city": "Chantilly, VA",
-    "salary": "$75K-$110K/yr",
+    "salary": "$40K-$55K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "Stretch",
-    "url": "https://careers.mantech.com/en_US/careers/JobDetail/Incident-Management-Technician/62988",
-    "notes": "TS/SCI Poly required - Aspirational track role - Intelligence community IT - Strong salary when cleared",
-    "postedDate": "2026-05-03",
-    "posted": "2026-05-03"
+    "url": "https://www.redriver.com/about/careers",
+    "notes": "IT solutions company - Federal clients - Entry-level - Public Trust - Chantilly tech corridor",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
+  },
+  {
+    "id": 26,
+    "score": 63,
+    "title": "IT Field Service Technician",
+    "company": "Unisys",
+    "market": "MD",
+    "city": "Baltimore, MD",
+    "salary": "$42K-$58K/yr",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.unisys.com/careers/",
+    "notes": "Field tech role - Maryland region - CompTIA certs valued - Federal and commercial clients",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
+  },
+  {
+    "id": 27,
+    "score": 62,
+    "title": "Help Desk Analyst",
+    "company": "Decisive Analytics",
+    "market": "VA",
+    "city": "Rosslyn, VA",
+    "salary": "$45K-$60K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.decisiveanalytics.com/careers/",
+    "notes": "Defense analytics company - IT support role - Security+ preferred - Entry-level position",
+    "postedDate": "2026-05-04",
+    "posted": "2026-05-04"
   }
 ]
