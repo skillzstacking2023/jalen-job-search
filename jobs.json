@@ -1,24 +1,6 @@
 [
   {
     "id": 1,
-    "score": 92,
-    "title": "Senior Service Desk Analyst (Tier 1)",
-    "company": "Leidos",
-    "market": "MD",
-    "city": "Gaithersburg, MD",
-    "salary": "$50K-$75K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://careers.leidos.com/jobs/17717699-senior-service-desk-analyst-tier-1",
-    "notes": "Hybrid remote - DoD enterprise data analytics support - Security+ preferred - Public Trust eligible",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
-  },
-  {
-    "id": 2,
     "score": 90,
     "title": "Help Desk Support Technician",
     "company": "SAIC",
@@ -31,193 +13,103 @@
     ],
     "priority": "High",
     "url": "https://jobs.saic.com/jobs/17162849-help-desk-support-technician",
-    "notes": "Federal IT support - Security+ required - Tier 1/2 ticket handling - On-site",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
+    "notes": "Federal IT support - Security+ required - Tier 1/2 ticket handling - On-site Silver Spring",
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
   },
   {
-    "id": 3,
+    "id": 2,
     "score": 88,
-    "title": "Customer Technical Technician",
+    "title": "Technical Support Technician",
     "company": "Peraton",
     "market": "VA",
-    "city": "Springfield, VA",
-    "salary": "$39K-$62K/yr",
+    "city": "Chantilly, VA",
+    "salary": "$51K-$82K/yr",
     "roleType": "Desktop Support",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.careers.peraton.com/jobs/customer-technical-technician-springfield-virginia-164081-jobs--customer-service--",
-    "notes": "Entry level (0 yrs with Bachelors) - DHS EOD clearance eligible - Hardware/software break-fix",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
+    "url": "https://www.careers.peraton.com/jobs/technical-support-technician-chantilly-virginia-166381-jobs--information-technology--",
+    "notes": "Federal customer support - Hardware/software break-fix - Security+ preferred - Clearance eligible",
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
+  },
+  {
+    "id": 3,
+    "score": 87,
+    "title": "Service Desk Technician",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Camp Springs, MD",
+    "salary": "$40K-$60K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://careers.leidos.com/jobs/16010086-service-desk-technician",
+    "notes": "On-site federal support - DoD 8570 baseline cert qualifies - Tier 1 ticket triage - Entry friendly",
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
   },
   {
     "id": 4,
-    "score": 87,
+    "score": 86,
+    "title": "SITEC Help Desk Specialist",
+    "company": "Peraton",
+    "market": "VA",
+    "city": "Virginia Beach, VA",
+    "salary": "$51K-$82K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.careers.peraton.com/jobs/sitec-help-desk-specialist-little-creek-va-virginia-beach-virginia-166535-jobs--information-technology--",
+    "notes": "Little Creek NSA - Tier 1 user support - Active Directory tickets - Security+ required - Clearance sponsorship",
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
+  },
+  {
+    "id": 5,
+    "score": 85,
     "title": "Field Service Technician",
     "company": "Peraton",
     "market": "VA",
     "city": "Arlington, VA",
-    "salary": "$45K-$70K/yr",
+    "salary": "$51K-$82K/yr",
     "roleType": "Field Tech",
     "certs": [
       "sec"
     ],
     "priority": "High",
     "url": "https://careers-peraton.icims.com/jobs/163857/field-service-technician/job",
-    "notes": "Federal customer support - Security+ preferred - On-site Arlington office",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
-  },
-  {
-    "id": 5,
-    "score": 86,
-    "title": "Field Services Technician",
-    "company": "Peraton",
-    "market": "VA",
-    "city": "Springfield, VA",
-    "salary": "$42K-$65K/yr",
-    "roleType": "Field Tech",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://careers-peraton.icims.com/jobs/163103/field-services-technician/job",
-    "notes": "Field support role - Public Trust required - Entry to mid level - Security+ preferred",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
+    "notes": "Federal customer support - Crystal Drive location - Security+ preferred - On-site Arlington",
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
   },
   {
     "id": 6,
-    "score": 85,
-    "title": "Service Desk Technician",
-    "company": "GDIT",
-    "market": "VA",
-    "city": "Virginia Beach, VA",
-    "salary": "$40K-$54K/yr",
+    "score": 84,
+    "title": "IT Help Desk Technician (Entry Level)",
+    "company": "Multiple (Indeed - MD)",
+    "market": "MD",
+    "city": "Baltimore, MD",
+    "salary": "$40K-$55K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.gd.com/careers/service-desk-technician-virginia-beach-va-us-rq208562-gdit-opportunity",
-    "notes": "Help Desk Technician I - DoD 8570 IA cert required (Security+ qualifies) - Entry level",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
+    "url": "https://www.indeed.com/q-entry-level-help-desk-l-maryland-jobs.html",
+    "notes": "Aggregated Maryland entry-level openings - 30+ active listings - Mix of commercial and federal contractors",
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
   },
   {
     "id": 7,
-    "score": 84,
-    "title": "Service Desk Technician",
-    "company": "GDIT",
-    "market": "VA",
-    "city": "Virginia Beach, VA",
-    "salary": "$40K-$54K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.gd.com/careers/service-desk-technician-virginia-beach-va-us-rq208347-gdit-opportunity",
-    "notes": "Tier 1 service desk - Active Directory - Ticket triage - Security+ required",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
-  },
-  {
-    "id": 8,
-    "score": 84,
-    "title": "Help Desk Technician I",
-    "company": "GDIT",
-    "market": "VA",
-    "city": "Northern Virginia, VA",
-    "salary": "$40K-$54K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.gdit.com/careers/job/34617daf1/help-desk-technician/",
-    "notes": "Entry level Tier 1 - $19.12-$25.88/hr - DoD 8570 cert required - Excellent benefits",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
-  },
-  {
-    "id": 9,
     "score": 83,
-    "title": "Tier 1 Help Desk Technician",
-    "company": "ManTech",
-    "market": "VA",
-    "city": "Herndon, VA",
-    "salary": "$45K-$60K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://careers.mantech.com/en_US/careers/SearchJobs/help-desk?2_104_3=80091&listFilterMode=1",
-    "notes": "Clearance sponsorship - Cert support during onboarding - Designed for early career",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
-  },
-  {
-    "id": 10,
-    "score": 82,
-    "title": "Tier 2 Service Desk Technician",
-    "company": "Peraton",
-    "market": "VA",
-    "city": "Reston, VA",
-    "salary": "$50K-$70K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://careers-peraton.icims.com/jobs/166588/tier-2-service-desk-technician/job",
-    "notes": "Tier 2 escalations - Federal customer - Security+ required - Hybrid possible",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
-  },
-  {
-    "id": 11,
-    "score": 82,
-    "title": "IT Service Desk Analyst",
-    "company": "Maximus",
-    "market": "VA",
-    "city": "Tysons Corner, VA",
-    "salary": "$42K-$58K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://maximus.com/careers",
-    "notes": "Military Friendly Employer 2026 - Federal contract support - Entry level - Clearance eligible",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
-  },
-  {
-    "id": 12,
-    "score": 81,
-    "title": "Help Desk Specialist",
-    "company": "CACI",
-    "market": "MD",
-    "city": "Hanover, MD",
-    "salary": "$60K-$85K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://careers.caci.com/global/en/entmd",
-    "notes": "Tier 1 service desk - 15K tickets/month team - Clearance preferred not required for some",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
-  },
-  {
-    "id": 13,
-    "score": 81,
     "title": "Entry Level Help Desk Technician",
     "company": "Multiple (Indeed - DC)",
     "market": "DC",
@@ -229,30 +121,84 @@
     ],
     "priority": "High",
     "url": "https://www.indeed.com/q-entry-level-help-desk-technician-l-washington-dc-jobs.html",
-    "notes": "Aggregated DC openings - CGI - GDIT - Peraton hiring - Security+ commonly required",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
+    "notes": "DC aggregated openings - CGI - GDIT - Peraton commonly hiring - Security+ frequently required",
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
   },
   {
-    "id": 14,
-    "score": 80,
-    "title": "IT Support Specialist (Entry Level)",
-    "company": "Multiple (Indeed - MD)",
-    "market": "MD",
-    "city": "Baltimore, MD",
-    "salary": "$40K-$55K/yr",
+    "id": 8,
+    "score": 82,
+    "title": "Service Desk Technician (GDIT roles)",
+    "company": "GDIT",
+    "market": "VA",
+    "city": "Northern Virginia, VA",
+    "salary": "$40K-$54K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.indeed.com/q-entry-level-help-desk-l-maryland-jobs.html",
-    "notes": "Aggregated MD entry-level openings - 30+ listings - Mix of commercial and federal",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
+    "url": "https://www.gdit.com/careers/jobs/search-results/?keyword=help%20desk&location=virginia",
+    "notes": "GDIT VA help desk search - Multiple active reqs - DoD 8570 cert required - Entry to mid level",
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
   },
   {
-    "id": 15,
+    "id": 9,
+    "score": 81,
+    "title": "Tier 1 Help Desk Technician",
+    "company": "ManTech",
+    "market": "VA",
+    "city": "Herndon, VA",
+    "salary": "$45K-$60K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://careers.mantech.com/en_US/careers/SearchJobs/help-desk?2_104_3=80091&listFilterMode=1",
+    "notes": "Clearance sponsorship - Cert support during onboarding - Early career friendly - VA-based",
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
+  },
+  {
+    "id": 10,
+    "score": 80,
+    "title": "Help Desk Specialist",
+    "company": "CACI",
+    "market": "MD",
+    "city": "Hanover, MD",
+    "salary": "$60K-$85K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://careers.caci.com/global/en/search-results?keywords=help%20desk",
+    "notes": "Tier 1 service desk - Multiple MD locations - Clearance preferred but not always required - Strong pay band",
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
+  },
+  {
+    "id": 11,
+    "score": 80,
+    "title": "IT Service Desk Analyst",
+    "company": "Maximus",
+    "market": "VA",
+    "city": "Tysons Corner, VA",
+    "salary": "$42K-$58K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://jobs.maximus.com/search-jobs?k=help+desk",
+    "notes": "Military Friendly Employer 2026 - Federal contract support - Entry level - Clearance eligible",
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
+  },
+  {
+    "id": 12,
     "score": 80,
     "title": "Cloud Support Associate",
     "company": "Multiple (Indeed)",
@@ -266,12 +212,30 @@
     ],
     "priority": "High",
     "url": "https://www.indeed.com/q-cloud-support-l-remote-jobs.html",
-    "notes": "Fully remote options - Cloud+ and Security+ valued - AWS or Azure familiarity bonus",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
+    "notes": "Fully remote options - Cloud+ and Security+ valued - AWS or Azure familiarity bonus - Entry to mid",
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
   },
   {
-    "id": 16,
+    "id": 13,
+    "score": 79,
+    "title": "Remote Help Desk / IT Support",
+    "company": "Multiple (Indeed - Remote)",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "$40K-$58K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.indeed.com/q-entry-level-remote-help-desk-jobs.html",
+    "notes": "308+ entry-level remote help desk openings - $19-26/hr range - MSP and SaaS employers - Security+ preferred",
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
+  },
+  {
+    "id": 14,
     "score": 78,
     "title": "Junior Cybersecurity Analyst (Remote)",
     "company": "Multiple (ZipRecruiter)",
@@ -285,11 +249,11 @@
     "priority": "Medium",
     "url": "https://www.ziprecruiter.com/Jobs/Remote-Cyber-Security-Help-Desk",
     "notes": "Hybrid remote MSP roles - L2 help desk + cybersecurity QA - On-call billable opportunities",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
   },
   {
-    "id": 17,
+    "id": 15,
     "score": 77,
     "title": "SOC Analyst Tier 1",
     "company": "Multiple (Indeed - VA)",
@@ -303,11 +267,29 @@
     "priority": "Medium",
     "url": "https://www.indeed.com/q-soc-analyst-tier-1-l-virginia-jobs.html",
     "notes": "Entry SOC - Alert triage - Splunk or QRadar exposure helpful - Security+ required",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
   },
   {
-    "id": 18,
+    "id": 16,
+    "score": 77,
+    "title": "Entry Level SOC Analyst",
+    "company": "Multiple (Indeed - MD)",
+    "market": "MD",
+    "city": "Baltimore, MD",
+    "salary": "$56K-$72K/yr",
+    "roleType": "SOC",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.indeed.com/q-soc-analyst-tier-1-l-maryland-jobs.html",
+    "notes": "14+ MD SOC Tier 1 openings - SIEM exposure valued - Security+ required - Avg entry $56K",
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
+  },
+  {
+    "id": 17,
     "score": 76,
     "title": "Entry Level Cyber Security Analyst",
     "company": "Multiple (Glassdoor - DC)",
@@ -320,12 +302,12 @@
     ],
     "priority": "Medium",
     "url": "https://www.glassdoor.com/Job/washington-entry-level-cybersecurity-no-clearance-jobs-SRCH_IL.0,10_IC1138213_KO11,49.htm",
-    "notes": "20+ DC openings filtered no clearance required - Commercial cyber roles - Security+ a plus",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
+    "notes": "DC openings filtered no clearance required - Commercial cyber roles - Security+ valued",
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
   },
   {
-    "id": 19,
+    "id": 18,
     "score": 75,
     "title": "Desktop Support Technician",
     "company": "Multiple (Glassdoor - DC)",
@@ -339,11 +321,11 @@
     "priority": "Medium",
     "url": "https://www.glassdoor.com/Job/washington-dc-desktop-support-administrator-jobs-SRCH_IL.0,13_IC1138213_KO14,43.htm",
     "notes": "260+ DC desktop support roles - On-site hardware/software - CGI - GDIT - Peraton among top hirers",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
   },
   {
-    "id": 20,
+    "id": 19,
     "score": 75,
     "title": "Information Technology Specialist (GS-7/9)",
     "company": "Federal Government (USAJobs)",
@@ -358,11 +340,11 @@
     "priority": "Medium",
     "url": "https://www.usajobs.gov/Search/?k=2210&l=Washington%2C%20DC&p=1",
     "notes": "Federal GS-7 or GS-9 IT Specialist - Promotion potential to GS-12 - Public Trust or Secret clearance",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
   },
   {
-    "id": 21,
+    "id": 20,
     "score": 74,
     "title": "Entry Level IT Help Desk",
     "company": "Multiple (ZipRecruiter - Dallas)",
@@ -376,11 +358,11 @@
     "priority": "Medium",
     "url": "https://www.ziprecruiter.com/Jobs/Entry-Level-It-Help-Desk/-in-Dallas,TX",
     "notes": "Dallas commercial help desk - $23/hr avg - Security+ preferred not required - Multiple openings",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
   },
   {
-    "id": 22,
+    "id": 21,
     "score": 73,
     "title": "IT Service Desk Technician",
     "company": "Multiple (Glassdoor - Houston)",
@@ -394,11 +376,11 @@
     "priority": "Medium",
     "url": "https://www.glassdoor.com/Job/houston-it-tech-support-jobs-SRCH_IL.0,7_IC1140171_KO8,23.htm",
     "notes": "230+ Houston IT tech support openings - Field tech mix - Entry to mid level",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
   },
   {
-    "id": 23,
+    "id": 22,
     "score": 72,
     "title": "IT Service Desk and Onsite Technician",
     "company": "Multiple (Dice - Austin)",
@@ -412,11 +394,11 @@
     "priority": "Medium",
     "url": "https://www.dice.com/jobs/q-entry+level+helpdesk-l-austin,+tx-jobs",
     "notes": "Austin tech corridor - Hybrid on-site - Security+ or A+ valued - Foundational security knowledge needed",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
   },
   {
-    "id": 24,
+    "id": 23,
     "score": 71,
     "title": "Systems Administrator (Entry Level)",
     "company": "Multiple (Indeed - VA)",
@@ -429,12 +411,12 @@
     ],
     "priority": "Medium",
     "url": "https://www.indeed.com/q-entry-level-systems-administrator-l-virginia-jobs.html",
-    "notes": "Sysadmin junior roles - Active Directory - Windows Server - Security+ preferred",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
+    "notes": "Junior sysadmin roles - Active Directory - Windows Server - Security+ preferred",
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
   },
   {
-    "id": 25,
+    "id": 24,
     "score": 70,
     "title": "NOC Analyst (Entry Level)",
     "company": "Multiple (Indeed)",
@@ -448,13 +430,31 @@
     "priority": "Medium",
     "url": "https://www.indeed.com/q-entry-level-noc-analyst-l-remote-jobs.html",
     "notes": "Network operations center - 24/7 shift coverage - Network+ or Security+ - Remote options available",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
+  },
+  {
+    "id": 25,
+    "score": 68,
+    "title": "Senior Service Desk Analyst (Tier 1) - WDP",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Gaithersburg, MD",
+    "salary": "$82K-$149K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Stretch",
+    "url": "https://careers.leidos.com/jobs/17717699-senior-service-desk-analyst-tier-1",
+    "notes": "Aspirational - Requires 8+ years experience plus BS - DoD Advana program - Strong learning target",
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
   },
   {
     "id": 26,
-    "score": 68,
-    "title": "Help Desk Technician (TS/SCI)",
+    "score": 67,
+    "title": "Help Desk Technician (Cleared)",
     "company": "GDIT",
     "market": "VA",
     "city": "Chantilly, VA",
@@ -465,14 +465,14 @@
       "fed"
     ],
     "priority": "Stretch",
-    "url": "https://www.gd.com/careers/help-desk-technician-ts-sci-chantilly-va-us-rq194446-gdit-opportunity",
-    "notes": "Requires active TS/SCI - 1+ yr exp - Aspirational once Jalen obtains clearance",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
+    "url": "https://www.gdit.com/careers/jobs/search-results/?keyword=help+desk%20ts%20sci&location=virginia",
+    "notes": "Aspirational - Active TS/SCI required for most - Apply once clearance obtained - Strong long-term target",
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
   },
   {
     "id": 27,
-    "score": 67,
+    "score": 66,
     "title": "Cyber Security Analyst (Entry Level)",
     "company": "Northrop Grumman",
     "market": "MD",
@@ -485,9 +485,9 @@
     ],
     "priority": "Stretch",
     "url": "https://www.northropgrumman.com/careers/students-and-entry-level-careers-start-a-career-of-purpose",
-    "notes": "Competitive - Clearance sponsorship - July-Sept 2026 start - Cyber Incident Analyst track",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
+    "notes": "Competitive - Clearance sponsorship - 2026 grad pipeline - Cyber Incident Analyst track",
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
   },
   {
     "id": 28,
@@ -504,8 +504,8 @@
     ],
     "priority": "Stretch",
     "url": "https://careers.boozallen.com/careers/SearchJobs?keyword=SOC%20Analyst",
-    "notes": "Clearance required - Higher experience bar - Strong cert and degree profile expected",
-    "postedDate": "2026-05-14",
-    "posted": "2026-05-14"
+    "notes": "Clearance required - Higher experience bar - Strong cert and degree profile expected - Apply post-clearance",
+    "postedDate": "2026-05-15",
+    "posted": "2026-05-15"
   }
 ]
