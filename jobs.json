@@ -2,533 +2,473 @@
   {
     "id": 1,
     "score": 90,
-    "title": "Help Desk Analyst (Tier 1) - NRC Program",
-    "company": "Leidos",
-    "market": "MD",
-    "city": "Rockville, MD (Remote)",
-    "salary": "$40K-$55K/yr",
-    "roleType": "Help Desk",
+    "title": "Security Operations Center (SOC) Analyst, Junior",
+    "company": "Peraton",
+    "market": "VA",
+    "city": "Herndon, VA",
+    "salary": "$70K-$85K/yr",
+    "roleType": "SOC",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
     "priority": "High",
-    "url": "https://careers.leidos.com/jobs/15716098-help-desk-analyst-tier-1",
-    "notes": "Tier 1 End User Support for NRC - Fully remote - Security+ welcomed - Public trust eligibility",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
+    "url": "https://www.careers.peraton.com/jobs/security-operations-center-soc-analyst-junior-herndon-virginia-165283-jobs--cyber-security--",
+    "notes": "Junior SOC - 0-2 yrs experience - DMV area - Army National Guard support - Security+ aligns - Clearance eligible welcome",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
   },
   {
     "id": 2,
-    "score": 89,
-    "title": "Help Desk Agent I - VITA Program",
-    "company": "SAIC",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$38K-$52K/yr",
-    "roleType": "Help Desk",
+    "score": 88,
+    "title": "Service Desk Technician",
+    "company": "Peraton",
+    "market": "MD",
+    "city": "Linthicum, MD",
+    "salary": "$48K-$60K/yr",
+    "roleType": "Service Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://jobs.saic.com/jobs/16732103-help-desk-agent-i",
-    "notes": "Fully remote supporting Virginia IT Agency - 24x7x365 single point of contact - Entry level friendly",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
+    "url": "https://www.careers.peraton.com/jobs/service-desk-technician-linthicum-maryland-166282-jobs--information-technology--",
+    "notes": "Near Fort Meade - Entry-level service desk - Strong MD market fit - Security+ a plus",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
   },
   {
     "id": 3,
     "score": 88,
-    "title": "Help Desk Agent I - VITA Program",
-    "company": "SAIC",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$38K-$52K/yr",
-    "roleType": "Help Desk",
+    "title": "Cyber Case Management / Junior Service Desk",
+    "company": "Peraton",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "$52K-$65K/yr",
+    "roleType": "Service Desk",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
     "priority": "High",
-    "url": "https://jobs.saic.com/jobs/17267689-help-desk-agent-i",
-    "notes": "Second VITA Help Desk Agent posting - Fully remote - Entry friendly - Strong Tier 1 ramp",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
+    "url": "https://www.careers.peraton.com/jobs/cyber-case-management-junior-level-service-desk-washington-d-c-166259-jobs--intel-and-threat-analysis--",
+    "notes": "Junior level - CISA 24x7 Operations Center support - Cyber + Service Desk hybrid - Great resume builder",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
   },
   {
     "id": 4,
-    "score": 88,
-    "title": "Desktop Support Technician - Onsite DC",
-    "company": "GDIT",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$45K-$60K/yr",
-    "roleType": "Desktop Support",
+    "score": 87,
+    "title": "Systems Administrator Support to PMO",
+    "company": "Peraton",
+    "market": "MD",
+    "city": "Annapolis Junction, MD",
+    "salary": "$55K-$72K/yr",
+    "roleType": "Systems Admin",
     "certs": [
       "sec",
       "fed"
     ],
     "priority": "High",
-    "url": "https://www.gdit.com/careers/job/1d4038885/desktop-support-technician-onsite-dc-eligible-for-public-trust/",
-    "notes": "Public trust eligibility required - Onsite DC - Hands-on hardware and software troubleshooting",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
+    "url": "https://www.careers.peraton.com/jobs/systems-administrator-support-to-pmo-annapolis-junction-maryland-163961-jobs--information-technology--",
+    "notes": "Prime NSA-area MD location - PMO support - Security+ fits - Clearance-eligible candidates considered",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
   },
   {
     "id": 5,
-    "score": 88,
-    "title": "Service Desk Specialists - Multiple Openings",
+    "score": 85,
+    "title": "Enterprise Help Desk (EHD) Tier 1",
     "company": "Leidos",
-    "market": "MD",
-    "city": "Gaithersburg, MD",
-    "salary": "$42K-$55K/yr",
+    "market": "VA",
+    "city": "Lorton, VA",
+    "salary": "$45K-$58K/yr",
     "roleType": "Help Desk",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
     "priority": "High",
-    "url": "https://careers.leidos.com/jobs/16400085-service-desk-specialists",
-    "notes": "Multiple openings on a single requisition - Strong entry-level fit - Security+ preferred",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
+    "url": "https://careers.leidos.com/jobs/17537179-enterprise-help-desk-ehd-tier-1",
+    "notes": "Front-line Tier 1 IT support - Enterprise environment across multiple classification levels - Strong entry role",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
   },
   {
     "id": 6,
-    "score": 87,
-    "title": "Tier 1 Service Desk Representative (Evening Shift)",
-    "company": "Peraton",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$42K-$55K/yr",
-    "roleType": "Help Desk",
+    "score": 85,
+    "title": "SMIT Service Desk Tier 1 Technician",
+    "company": "Leidos",
+    "market": "VA",
+    "city": "Norfolk, VA",
+    "salary": "$45K-$57K/yr",
+    "roleType": "Service Desk",
     "certs": [
       "sec",
       "fed"
     ],
     "priority": "High",
-    "url": "https://www.careers.peraton.com/jobs/tier-1-service-desk-representative-evening-shift-washington-d-c-158680-jobs--customer-service--",
-    "notes": "Supports U.S. Senate and 400 state offices - Public Trust eligibility - Tier 1 ramp",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
+    "url": "https://careers.leidos.com/jobs/17366187-smit-service-desk-tier-1-technician",
+    "notes": "Navy NGEN program - Tier 1 hardware/software/network triage - Excellent learning ground",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
   },
   {
     "id": 7,
-    "score": 87,
-    "title": "Tier I Help Desk Analyst",
-    "company": "SAIC",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$40K-$52K/yr",
-    "roleType": "Help Desk",
+    "score": 84,
+    "title": "SOC Operations Analyst (Public Trust)",
+    "company": "Peraton",
+    "market": "VA",
+    "city": "Warrenton, VA",
+    "salary": "$62K-$78K/yr",
+    "roleType": "SOC",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
     "priority": "High",
-    "url": "https://jobs.saic.com/jobs/16561905-tier-i-help-desk-analyst",
-    "notes": "Fully remote Tier 1 - Security+ a plus - Public trust eligibility - Strong entry-level role",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
+    "url": "https://www.careers.peraton.com/jobs/soc-operations-analyst-public-trust-warrenton-virginia-166081-jobs--information-technology--",
+    "notes": "Public Trust clearance - Achievable without active TS - SOC + IT hybrid - Strong career stepping stone",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
   },
   {
     "id": 8,
-    "score": 86,
-    "title": "Service Desk Technician",
+    "score": 82,
+    "title": "Desktop Support Technician",
     "company": "Leidos",
-    "market": "MD",
-    "city": "Camp Springs, MD",
-    "salary": "$42K-$54K/yr",
-    "roleType": "Help Desk",
+    "market": "VA",
+    "city": "Norfolk, VA",
+    "salary": "$45K-$55K/yr",
+    "roleType": "Desktop Support",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
     "priority": "High",
-    "url": "https://careers.leidos.com/jobs/16010086-service-desk-technician",
-    "notes": "Service Desk role onsite Camp Springs - Security+ welcomed - Clearance eligible preferred",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
+    "url": "https://careers.leidos.com/jobs/17723601-desktop-support-technician",
+    "notes": "NGEN Navy IT services - Hands-on hardware experience - Public Trust",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
   },
   {
     "id": 9,
-    "score": 86,
-    "title": "Service Desk Support",
-    "company": "Peraton",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$42K-$55K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.careers.peraton.com/jobs/service-desk-support-washington-d-c-158929-jobs--customer-service--",
-    "notes": "DC service desk - Public trust eligibility - Federal customer support",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
-  },
-  {
-    "id": 10,
-    "score": 85,
-    "title": "Tier 1 Service Desk Representative (Night Shift)",
-    "company": "Peraton",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$45K-$58K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.careers.peraton.com/jobs/tier-1-service-desk-representative-night-shift-washington-d-c-158681-jobs--customer-service--",
-    "notes": "Night shift differential pay - Public Trust eligibility - Tier 1 fed support",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
-  },
-  {
-    "id": 11,
-    "score": 85,
-    "title": "Help Desk Specialist",
-    "company": "Leidos",
-    "market": "MD",
-    "city": "Edgewood, MD",
-    "salary": "$42K-$56K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://careers.leidos.com/jobs/15901314-help-desk-specialist",
-    "notes": "Onsite Edgewood MD - Entry level friendly - Security+ preferred",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
-  },
-  {
-    "id": 12,
-    "score": 85,
-    "title": "Tier 1 and 2 Help Desk Support Specialist",
-    "company": "SAIC",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$45K-$58K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://jobs.saic.com/jobs/16698135-tier-1-and-2-help-desk-support-specialist",
-    "notes": "National Capital Region role - Tier 1/2 mix - Strong skill-building opportunity",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
-  },
-  {
-    "id": 13,
-    "score": 84,
-    "title": "Service Desk",
-    "company": "Leidos",
-    "market": "MD",
-    "city": "Laurel, MD",
-    "salary": "$40K-$54K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://careers.leidos.com/jobs/15064554-service-desk",
-    "notes": "Onsite Laurel MD - Service desk operations - Strong learning environment",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
-  },
-  {
-    "id": 14,
-    "score": 84,
-    "title": "Help Desk Support Technician",
-    "company": "SAIC",
-    "market": "MD",
-    "city": "Silver Spring, MD",
-    "salary": "$45K-$58K/yr",
-    "roleType": "Desktop Support",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://jobs.saic.com/jobs/17162849-help-desk-support-technician",
-    "notes": "Tier 2 Desk-Side Support - Mid-Atlantic Region - DC area travel possible",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
-  },
-  {
-    "id": 15,
-    "score": 83,
+    "score": 80,
     "title": "Customer Support Specialist (Technical)",
     "company": "Peraton",
     "market": "VA",
     "city": "Sterling, VA",
-    "salary": "$48K-$62K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.careers.peraton.com/jobs/customer-support-specialist-technical-sterling-virginia-164880-jobs--customer-service--",
-    "notes": "Flexible telework - Secret clearance preferred - Technical customer support",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
-  },
-  {
-    "id": 16,
-    "score": 83,
-    "title": "Help Desk Specialist - DOS Vanguard",
-    "company": "SAIC",
-    "market": "VA",
-    "city": "Springfield, VA",
-    "salary": "$45K-$58K/yr",
+    "salary": "$48K-$60K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://jobs.saic.com/jobs/16718171-help-desk-specialist",
-    "notes": "Dept of State Vanguard contract - ICT equipment troubleshooting - Solid federal experience",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
+    "url": "https://www.careers.peraton.com/jobs/customer-support-specialist-technical-sterling-virginia-165100-jobs--customer-service--",
+    "notes": "Service Desk first point of contact - Customer-facing technical role - Solid entry IT path",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
   },
   {
-    "id": 17,
-    "score": 82,
-    "title": "Tier 2 Deskside Support Technician",
-    "company": "Peraton",
-    "market": "MD",
-    "city": "Germantown, MD",
-    "salary": "$48K-$62K/yr",
-    "roleType": "Desktop Support",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.careers.peraton.com/jobs/tier-2-deskside-support-technician-germantown-maryland-165161-jobs--customer-service--",
-    "notes": "Tier 2 hands-on deskside - Hardware troubleshooting - Network problem resolution",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
-  },
-  {
-    "id": 18,
-    "score": 82,
-    "title": "Tier II Deskside Support",
-    "company": "Peraton",
-    "market": "MD",
-    "city": "Germantown, MD",
-    "salary": "$48K-$62K/yr",
-    "roleType": "Desktop Support",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.careers.peraton.com/jobs/tier-ii-deskside-support-germantown-maryland-164964-jobs--customer-service--",
-    "notes": "Tier II hands-on hardware and software - Germantown MD onsite - Strong Tier 1 step-up",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
-  },
-  {
-    "id": 19,
-    "score": 81,
-    "title": "Tier 2 Service Desk Technician",
-    "company": "Peraton",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$48K-$62K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.careers.peraton.com/jobs/tier-2-service-desk-technician-washington-d-c-165146-jobs--customer-service--",
-    "notes": "DC Tier 2 service desk - Public trust eligibility - Escalation support role",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
-  },
-  {
-    "id": 20,
-    "score": 81,
-    "title": "Tier 2 Deskside Support Technician",
-    "company": "Peraton",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$50K-$64K/yr",
-    "roleType": "Desktop Support",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.careers.peraton.com/jobs/tier-2-deskside-support-technician-washington-d-c-164970-jobs--customer-service--",
-    "notes": "DC deskside - Public trust eligibility - Hands-on user support",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
-  },
-  {
-    "id": 21,
-    "score": 80,
-    "title": "Tier 2 Help Desk Analyst",
-    "company": "SAIC",
-    "market": "VA",
-    "city": "Ashburn, VA",
-    "salary": "$50K-$65K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://jobs.saic.com/jobs/17728423-tier-2-help-desk-analyst",
-    "notes": "Posted May 12 2026 - Ashburn VA onsite - Tier 2 troubleshooting and escalations",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
-  },
-  {
-    "id": 22,
+    "id": 10,
     "score": 78,
-    "title": "SOC Analyst",
-    "company": "Leidos",
-    "market": "MD",
-    "city": "Odenton, MD",
-    "salary": "$58K-$78K/yr",
-    "roleType": "SOC",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://careers.leidos.com/jobs/16638333-soc-analyst",
-    "notes": "Hybrid remote - Entry-level SOC stretch - Security+ required - Strong cyber pivot path",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
-  },
-  {
-    "id": 23,
-    "score": 76,
-    "title": "Field Service Technician - Help Desk",
-    "company": "SAIC",
+    "title": "SITEC Help Desk Specialist",
+    "company": "Peraton",
     "market": "VA",
-    "city": "Northern Virginia",
-    "salary": "$48K-$62K/yr",
-    "roleType": "Field Tech",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://jobs.saic.com/jobs/16997546-field-service-technician-help-desk",
-    "notes": "Field service role - Some travel - Good Tier 1 to Tier 2 bridge",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
-  },
-  {
-    "id": 24,
-    "score": 76,
-    "title": "SOC Analyst",
-    "company": "Leidos",
-    "market": "VA",
-    "city": "Arlington, VA",
-    "salary": "$60K-$80K/yr",
-    "roleType": "SOC",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://careers.leidos.com/jobs/15560573-soc-analyst",
-    "notes": "Hybrid remote - Entry SOC stretch - Security+ required - Cyber learning path",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
-  },
-  {
-    "id": 25,
-    "score": 75,
-    "title": "Desktop Support Technician - NGEN Navy",
-    "company": "Leidos",
-    "market": "MD",
-    "city": "Patuxent River, MD",
-    "salary": "$48K-$62K/yr",
-    "roleType": "Desktop Support",
+    "city": "Virginia Beach, VA",
+    "salary": "$48K-$58K/yr",
+    "roleType": "Help Desk",
     "certs": [
       "sec",
       "fed"
     ],
     "priority": "Medium",
-    "url": "https://careers.leidos.com/jobs/17600055-desktop-support-technician",
-    "notes": "NGEN Navy IT services - SMIT contract - Onsite Patuxent River - Clearance preferred",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
+    "url": "https://www.careers.peraton.com/jobs/sitec-help-desk-specialist-little-creek-va-virginia-beach-virginia-166535-jobs--information-technology--",
+    "notes": "Little Creek base support - SITEC program - Security+ aligned - VA Beach away from DMV core",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
   },
   {
-    "id": 26,
-    "score": 74,
-    "title": "Computer Support Analyst",
-    "company": "Leidos",
-    "market": "VA",
-    "city": "Reston, VA",
-    "salary": "$50K-$65K/yr",
-    "roleType": "Desktop Support",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://careers.leidos.com/jobs/16952948-computer-support-analyst",
-    "notes": "Onsite Reston - Some experience preferred - Strong fed/contractor environment",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
-  },
-  {
-    "id": 27,
-    "score": 72,
-    "title": "Cyber Security Analyst",
-    "company": "Leidos",
-    "market": "TX",
-    "city": "San Antonio, TX",
-    "salary": "$60K-$80K/yr",
-    "roleType": "Cybersecurity",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://careers.leidos.com/jobs/16520516-cyber-security-analyst",
-    "notes": "San Antonio TX - Secondary market - Entry analyst stretch - Security+ required",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
-  },
-  {
-    "id": 28,
-    "score": 68,
-    "title": "SOC Analyst - Day Shift",
+    "id": 11,
+    "score": 77,
+    "title": "SME Service Desk Analyst Tier 1 Lead - WDP",
     "company": "Leidos",
     "market": "VA",
     "city": "Alexandria, VA",
-    "salary": "$65K-$85K/yr",
-    "roleType": "SOC",
+    "salary": "$58K-$75K/yr",
+    "roleType": "Service Desk",
     "certs": [
       "sec",
       "fed"
     ],
-    "priority": "Stretch",
-    "url": "https://careers.leidos.com/jobs/17113298-soc-analyst",
-    "notes": "Day shift SOC - Likely clearance required - Aspirational entry SOC role",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
+    "priority": "Medium",
+    "url": "https://careers.leidos.com/jobs/17703286-sme-service-desk-analyst-tier-1-lead-wdp",
+    "notes": "DoD enterprise data/analytics support - Lead title may require 1-2 yrs experience - Hybrid remote",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
   },
   {
-    "id": 29,
-    "score": 66,
-    "title": "Cyber Network Defense Analyst",
-    "company": "Leidos",
+    "id": 12,
+    "score": 76,
+    "title": "SOC Analyst, Journeyman",
+    "company": "Peraton",
+    "market": "VA",
+    "city": "Herndon, VA",
+    "salary": "$80K-$98K/yr",
+    "roleType": "SOC",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://www.careers.peraton.com/jobs/security-operations-center-soc-analyst-journeyman-herndon-virginia-165284-jobs--cyber-security--",
+    "notes": "Mid-level SOC role - 2-4 yrs typical - Worth applying as a stretch from junior",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
+  },
+  {
+    "id": 13,
+    "score": 75,
+    "title": "Customer Support Specialist (Technical)",
+    "company": "Peraton",
+    "market": "VA",
+    "city": "Sterling, VA",
+    "salary": "$48K-$60K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.careers.peraton.com/jobs/customer-support-specialist-technical-sterling-virginia-165112-jobs--customer-service--",
+    "notes": "Second open req for same role - Apply to both for higher odds",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
+  },
+  {
+    "id": 14,
+    "score": 74,
+    "title": "SOC Operations Analyst Senior (Public Trust)",
+    "company": "Peraton",
+    "market": "VA",
+    "city": "Warrenton, VA",
+    "salary": "$80K-$100K/yr",
+    "roleType": "SOC",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://www.careers.peraton.com/jobs/soc-operations-analyst-senior-public-trust-warrenton-virginia-166103-jobs--information-technology--",
+    "notes": "Senior level - Public Trust - Stretch but aspirational - SOC career path target",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
+  },
+  {
+    "id": 15,
+    "score": 68,
+    "title": "Endpoint Engineer",
+    "company": "Peraton",
+    "market": "VA",
+    "city": "Herndon, VA",
+    "salary": "$78K-$98K/yr",
+    "roleType": "Systems Admin",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.careers.peraton.com/jobs/endpoint-engineer-herndon-virginia-165084-jobs--engineering--",
+    "notes": "Endpoint security/management - Aspirational - Targets mid-level engineer experience",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
+  },
+  {
+    "id": 16,
+    "score": 67,
+    "title": "Service Desk Manager",
+    "company": "Peraton",
     "market": "DC",
     "city": "Washington, DC",
-    "salary": "$70K-$92K/yr",
+    "salary": "$95K-$120K/yr",
+    "roleType": "Service Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.careers.peraton.com/jobs/service-desk-manager-washington-d-c-166747-jobs--information-technology--",
+    "notes": "Management role - Stretch for senior career arc - Useful to track for future",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
+  },
+  {
+    "id": 17,
+    "score": 66,
+    "title": "Unified Communications Engineer",
+    "company": "Peraton",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "$85K-$110K/yr",
+    "roleType": "Systems Admin",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.careers.peraton.com/jobs/unified-communications-engineer-washington-d-c-166923-jobs--information-technology--",
+    "notes": "UC engineering - Networking/Telephony focus - Stretch for early-career",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
+  },
+  {
+    "id": 18,
+    "score": 66,
+    "title": "IT Asset Manager",
+    "company": "Peraton",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "$72K-$92K/yr",
+    "roleType": "Systems Admin",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.careers.peraton.com/jobs/it-asset-manager-washington-d-c-166894-jobs--information-technology--",
+    "notes": "IT asset lifecycle and inventory - Generally requires 2-3 yrs - Stretch but learn-friendly",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
+  },
+  {
+    "id": 19,
+    "score": 65,
+    "title": "Associate Help Desk Technician (All Shifts) - Active Top Secret",
+    "company": "GDIT",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "$50K-$65K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.gdit.com/careers/job/6b34e0219/associate-help-desk-technician-all-shifts-available-active-top-secret-required/",
+    "notes": "Associate level - Requires ACTIVE Top Secret - Stretch unless Jalen obtains clearance through new hire sponsorship",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
+  },
+  {
+    "id": 20,
+    "score": 65,
+    "title": "Junior Help Desk Technician (All Shifts) - Active Top Secret",
+    "company": "GDIT",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "$50K-$65K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.gdit.com/careers/job/8b023e174/junior-help-desk-technician-all-shifts-available-active-top-secret-required/",
+    "notes": "Junior level - Requires ACTIVE Top Secret - Apply if sponsoring contracts available - Strong stretch",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
+  },
+  {
+    "id": 21,
+    "score": 64,
+    "title": "Help Desk Technician Mid-level - Active Top Secret",
+    "company": "GDIT",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "$58K-$72K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.gdit.com/careers/job/d91883bb6/help-desk-technician-mid-level-active-top-secret-required/",
+    "notes": "Mid-level + TS clearance - High stretch - Worth tracking for after first job",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
+  },
+  {
+    "id": 22,
+    "score": 63,
+    "title": "Senior Systems Analyst",
+    "company": "Peraton",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "$90K-$115K/yr",
+    "roleType": "Systems Admin",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.careers.peraton.com/jobs/senior-systems-analyst-washington-d-c-166898-jobs--information-technology--",
+    "notes": "Senior level - Requires significant experience - Aspirational target",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
+  },
+  {
+    "id": 23,
+    "score": 62,
+    "title": "SOC Analyst, Senior",
+    "company": "Peraton",
+    "market": "VA",
+    "city": "Herndon, VA",
+    "salary": "$95K-$120K/yr",
     "roleType": "SOC",
     "certs": [
       "sec",
       "fed"
     ],
     "priority": "Stretch",
-    "url": "https://careers.leidos.com/jobs/17225644-cyber-network-defense-analyst",
-    "notes": "Onsite DC - NOSC role at TIC/PEP - Likely TS clearance required - Apply if eligible",
-    "postedDate": "2026-05-18",
-    "posted": "2026-05-18"
+    "url": "https://www.careers.peraton.com/jobs/security-operations-center-soc-analyst-senior-herndon-virginia-165282-jobs--cyber-security--",
+    "notes": "Senior SOC level - 4+ yrs experience expected - Long-term career target",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
+  },
+  {
+    "id": 24,
+    "score": 61,
+    "title": "SOC Shift Lead",
+    "company": "Peraton",
+    "market": "VA",
+    "city": "Herndon, VA",
+    "salary": "$100K-$130K/yr",
+    "roleType": "SOC",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.careers.peraton.com/jobs/soc-shift-lead-herndon-virginia-165291-jobs--cyber-security--",
+    "notes": "Shift lead - Senior SOC - Aspirational role to track",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
+  },
+  {
+    "id": 25,
+    "score": 60,
+    "title": "Incident Responder, Journeyman",
+    "company": "Peraton",
+    "market": "VA",
+    "city": "Herndon, VA",
+    "salary": "$80K-$105K/yr",
+    "roleType": "Cybersecurity",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.careers.peraton.com/jobs/incident-responder-journeyman-herndon-virginia-165137-jobs--cyber-security--",
+    "notes": "IR analyst role - Aspirational stretch from SOC starter - Watch for similar entry options",
+    "postedDate": "2026-05-19",
+    "posted": "2026-05-19"
   }
 ]
