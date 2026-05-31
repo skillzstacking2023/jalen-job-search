@@ -1,279 +1,118 @@
 [
   {
     "id": 1,
-    "score": 88,
-    "title": "Help Desk Support Analyst (Associate-Level)",
-    "company": "Link Solutions, Inc.",
+    "score": 92,
+    "title": "Cyber Customer Support",
+    "company": "Leidos",
     "market": "MD",
-    "city": "Frederick, MD",
-    "salary": "$45K-$55K/yr",
+    "city": "Camp Springs, MD",
+    "salary": "$52K-$94K/yr",
     "roleType": "Help Desk",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4418127516/",
-    "notes": "Associate level role - Security+ preferred - Federal contractor environment - Strong help desk fit",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
+    "url": "https://www.indeed.com/viewjob?jk=21377005cae01074",
+    "notes": "Ideal help desk to cybersecurity pipeline role - Security+ preferred - Federal contractor experience - Day shift",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
   },
   {
     "id": 2,
-    "score": 87,
-    "title": "Junior Service Desk Technician",
-    "company": "ActioNet, Inc.",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$48K-$58K/yr",
-    "roleType": "Help Desk",
+    "score": 91,
+    "title": "Tier I NOC Technician",
+    "company": "TekSynap",
+    "market": "MD",
+    "city": "Rockville, MD",
+    "salary": "$58K-$68K/yr",
+    "roleType": "NOC",
     "certs": [
       "sec",
       "fed"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4414643237/",
-    "notes": "Junior level - Federal contractor (ActioNet) - Security+ welcome - Clearance eligibility likely required",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
+    "url": "https://www.indeed.com/viewjob?jk=721f090b9fc762ec",
+    "notes": "Entry-level NOC tier 1 - Monitoring and front-line communications - Federal contractor - Mon-Fri 40 hrs",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
   },
   {
     "id": 3,
-    "score": 86,
-    "title": "SOC Support Specialist - Eastern Time Zone",
-    "company": "Huntress",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$55K-$70K/yr",
-    "roleType": "SOC",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4419438590/",
-    "notes": "Fully remote SOC role - Entry-level cybersecurity - Strong Security+ alignment - High-growth company",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
-  },
-  {
-    "id": 4,
-    "score": 86,
-    "title": "IT Support Help Desk Specialist (Tier 1 & 2)",
-    "company": "Index Analytics LLC",
-    "market": "MD",
-    "city": "Windsor Mill, MD",
-    "salary": "$50K-$62K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4417333924/",
-    "notes": "Tier 1 and 2 support role - Maryland based - Federal CMS work - Security+ valued",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
-  },
-  {
-    "id": 5,
-    "score": 85,
-    "title": "Service Desk Agent - Tier 1",
-    "company": "Datawiz Corporation (a GTSC Company)",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$45K-$55K/yr",
-    "roleType": "Help Desk",
+    "score": 90,
+    "title": "Desktop Support Technician",
+    "company": "Leidos",
+    "market": "VA",
+    "city": "Arlington, VA",
+    "salary": "Competitive",
+    "roleType": "Desktop Support",
     "certs": [
       "sec",
       "fed"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4411244266/",
-    "notes": "Tier 1 federal contractor role - DC based - Public Trust eligibility - Security+ a plus",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
+    "url": "https://www.indeed.com/viewjob?jk=f432677f6bea20cb",
+    "notes": "Major federal contractor in primary market - Security+ aligned - Clearance-eligible welcome",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
   },
   {
-    "id": 6,
-    "score": 85,
-    "title": "Help Desk Specialist",
-    "company": "NuAxis Innovations",
-    "market": "VA",
-    "city": "Falls Church, VA",
-    "salary": "$50K-$62K/yr",
+    "id": 4,
+    "score": 89,
+    "title": "Information Technology Support Specialist",
+    "company": "Alpha Omega Integration",
+    "market": "MD",
+    "city": "Silver Spring, MD",
+    "salary": "$46K-$67K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4412165253/",
-    "notes": "Federal contractor (NuAxis) - Falls Church VA - Security+ preferred - Clearance-friendly",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
+    "url": "https://www.indeed.com/viewjob?jk=ddb2dbd5827b9ac4",
+    "notes": "Tier 1 and Tier 2 support - NCEI security guidelines - Federal subcontractor - Strong benefits package",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
+  },
+  {
+    "id": 5,
+    "score": 88,
+    "title": "IT Helpdesk Technician",
+    "company": "Expion Health",
+    "market": "MD",
+    "city": "North Bethesda, MD",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.indeed.com/viewjob?jk=f4f7a5212ae97414",
+    "notes": "Bethesda area - Healthcare IT - Entry-level helpdesk fit - Security awareness preferred",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
+  },
+  {
+    "id": 6,
+    "score": 86,
+    "title": "IT Help Desk Tier 1",
+    "company": "Country Club of Virginia",
+    "market": "VA",
+    "city": "Richmond, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.indeed.com/viewjob?jk=cf784e879e4f1f44",
+    "notes": "True Tier 1 entry role - Private sector - No clearance required - Good runway for cert holders",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
   },
   {
     "id": 7,
     "score": 85,
-    "title": "Information Technology Support Specialist",
-    "company": "P17 Solutions, LLC",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$50K-$60K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4416052346/",
-    "notes": "Federal contractor IT support - DC based - Entry level welcome - Security+ valued",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
-  },
-  {
-    "id": 8,
-    "score": 84,
-    "title": "Helpdesk Technician",
-    "company": "Truth Initiative",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$48K-$58K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4406675932/",
-    "notes": "Non-profit (anti-tobacco) - DC based - Entry friendly - Mission-driven workplace",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
-  },
-  {
-    "id": 9,
-    "score": 84,
-    "title": "Call Center Analyst 1",
-    "company": "Iron Bow Technologies",
-    "market": "VA",
-    "city": "Woodbridge, VA",
-    "salary": "$42K-$52K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4419906484/",
-    "notes": "Tier 1 federal call center - Woodbridge VA - Security+ preferred - Be an early applicant",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
-  },
-  {
-    "id": 10,
-    "score": 83,
-    "title": "IT Help Desk Tier 1",
-    "company": "DEX Imaging",
-    "market": "TX",
-    "city": "Dallas, TX",
-    "salary": "$42K-$52K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4416271321/",
-    "notes": "Tier 1 commercial help desk - Dallas TX - Entry level welcome - Strong cert fit",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
-  },
-  {
-    "id": 11,
-    "score": 83,
-    "title": "Help Desk Technician - Tier 2 (MSP)",
-    "company": "Solvere One",
-    "market": "VA",
-    "city": "Dulles Town Center, VA",
-    "salary": "$50K-$62K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4412926477/",
-    "notes": "MSP environment - exposure to diverse tech stacks - Tier 2 stretch but accessible - VA based",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
-  },
-  {
-    "id": 12,
-    "score": 82,
-    "title": "IT Support Specialist",
-    "company": "Addison Group",
-    "market": "VA",
-    "city": "Arlington, VA",
-    "salary": "$22-$28/hr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4416329216/",
-    "notes": "Staffing agency role with benefits - Arlington VA - Medical insurance +3 benefits listed",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
-  },
-  {
-    "id": 13,
-    "score": 82,
-    "title": "Tier 1 IT Service Desk Support Specialist",
-    "company": "iWorks Corporation",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$45K-$55K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4410359145/",
-    "notes": "Fully remote Tier 1 role - Federal contractor - Security+ likely required - Clearance friendly",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
-  },
-  {
-    "id": 14,
-    "score": 82,
-    "title": "Junior IT Technician",
-    "company": "Stouffer Legal",
-    "market": "MD",
-    "city": "Towson, MD",
-    "salary": "$45K-$55K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4415350373/",
-    "notes": "Law firm IT - Towson MD - Junior level - Direct hire opportunity",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
-  },
-  {
-    "id": 15,
-    "score": 81,
-    "title": "Jr. Systems Administrator",
-    "company": "Tech-Marine Business, Inc. (TMB)",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$55K-$68K/yr",
-    "roleType": "Systems Admin",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4410844507/",
-    "notes": "Junior sysadmin growth path - DC based - Navy contractor - Security+ preferred",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
-  },
-  {
-    "id": 16,
-    "score": 81,
     "title": "Service Desk Specialist",
     "company": "Moore",
     "market": "MD",
@@ -284,264 +123,393 @@
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4419531173/",
-    "notes": "Commercial service desk - Hagerstown MD - Direct help desk fit - Recent posting",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
+    "url": "https://www.indeed.com/viewjob?jk=8d1ad54b34aebad0",
+    "notes": "Entry-level service desk - User support and separations - Good first role - Western MD",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
+  },
+  {
+    "id": 8,
+    "score": 84,
+    "title": "Deployment Technician",
+    "company": "DLH",
+    "market": "MD",
+    "city": "Rockville, MD",
+    "salary": "$51K-$57K/yr",
+    "roleType": "Field Tech",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.indeed.com/viewjob?jk=67798ce951dbb561",
+    "notes": "Federal contractor in primary market - USGCB compliance - Hardware deployment - Strong benefits",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
+  },
+  {
+    "id": 9,
+    "score": 83,
+    "title": "Client Services Specialist I",
+    "company": "Frederick County Public Schools",
+    "market": "MD",
+    "city": "Frederick, MD",
+    "salary": "$31/hr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.indeed.com/viewjob?jk=8e7ed716b8a605fe",
+    "notes": "Government K-12 IT - Stable employer - Help desk Tier 1 - Pension and benefits track",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
+  },
+  {
+    "id": 10,
+    "score": 82,
+    "title": "Learning System Support / Helpdesk Specialist",
+    "company": "Linchpin Solutions Inc",
+    "market": "VA",
+    "city": "Quantico, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.indeed.com/viewjob?jk=d575a6bbc25b011f",
+    "notes": "Quantico DoD site - LMS and helpdesk - Clearance-eligible candidates encouraged - Strong federal path",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
+  },
+  {
+    "id": 11,
+    "score": 81,
+    "title": "Endpoint Technology Support Technician",
+    "company": "Federal Contractor",
+    "market": "VA",
+    "city": "Northern Virginia",
+    "salary": "Competitive",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.indeed.com/viewjob?jk=d23b694b76d5d59a",
+    "notes": "Endpoint and desktop support - Northern VA federal market - Security+ aligned",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
+  },
+  {
+    "id": 12,
+    "score": 80,
+    "title": "Service Desk Specialist",
+    "company": "VA-based IT Services",
+    "market": "VA",
+    "city": "Virginia",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.indeed.com/viewjob?jk=1c668aaefa4b2816",
+    "notes": "Service desk specialist role in VA market - Good entry-level fit",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
+  },
+  {
+    "id": 13,
+    "score": 78,
+    "title": "SOC Analyst",
+    "company": "Abacode",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "SOC",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.indeed.com/viewjob?jk=9f25c914ed3d450f",
+    "notes": "Remote SOC analyst - Managed security service provider - Security+ valued - Good path with certs",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
+  },
+  {
+    "id": 14,
+    "score": 77,
+    "title": "Watch Operator - Junior",
+    "company": "Federal Contractor",
+    "market": "VA",
+    "city": "Northern Virginia",
+    "salary": "Competitive",
+    "roleType": "SOC",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://www.indeed.com/viewjob?jk=421cd66f7c4d0912",
+    "notes": "Junior watch floor / SOC tier 1 - 24x7 ops - Federal site - Clearance-eligible welcome",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
+  },
+  {
+    "id": 15,
+    "score": 76,
+    "title": "IT Support Technician - Night Shift",
+    "company": "Stanley Pearlman Enterprises",
+    "market": "MD",
+    "city": "Jessup, MD",
+    "salary": "$55K-$70K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.indeed.com/viewjob?jk=72dac7afa384b874",
+    "notes": "Overnight shift 8pm-4am - 2 years preferred - Strong pay for entry level - Onsite Jessup",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
+  },
+  {
+    "id": 16,
+    "score": 76,
+    "title": "Associate Cyber Threat Researcher",
+    "company": "UltraViolet Cyber",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "Cybersecurity",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.indeed.com/viewjob?jk=47ff3e23d2228f70",
+    "notes": "Associate-level cyber threat research - Remote - Security+ a plus - Strong learning role",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
   },
   {
     "id": 17,
-    "score": 81,
-    "title": "Information Technology Support Specialist",
-    "company": "ITECS",
+    "score": 75,
+    "title": "Desktop Support Specialist",
+    "company": "University of Texas at Austin",
     "market": "TX",
-    "city": "Plano, TX",
-    "salary": "$48K-$58K/yr",
-    "roleType": "Help Desk",
+    "city": "Austin, TX",
+    "salary": "Competitive",
+    "roleType": "Desktop Support",
     "certs": [
       "sec"
     ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4416839092/",
-    "notes": "MSP IT support - Plano TX - Entry friendly - Direct certifications fit",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
+    "priority": "Medium",
+    "url": "https://www.indeed.com/viewjob?jk=743f2a6656ec60ff",
+    "notes": "Higher-ed desktop support - Austin downtown - Stable employer - Benefits and tuition perks",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
   },
   {
     "id": 18,
-    "score": 80,
-    "title": "Help Desk Specialist (Salesforce) - Remote",
-    "company": "ICF",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$55K-$68K/yr",
+    "score": 75,
+    "title": "IT Support Help Desk Specialist (Tier 1 and 2)",
+    "company": "INDEX ANALYTICS LLC",
+    "market": "MD",
+    "city": "Windsor Mill, MD",
+    "salary": "$25-$31/hr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4415132389/",
-    "notes": "Federal contractor (ICF) - Fully remote - Salesforce platform support - Public Trust likely",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
+    "priority": "Medium",
+    "url": "https://www.indeed.com/viewjob?jk=335f802051d45cac",
+    "notes": "Tier 1 and 2 service desk - 2-4 years preferred so slight stretch - Federal subcontractor",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
   },
   {
     "id": 19,
-    "score": 80,
-    "title": "IT Support Specialist",
-    "company": "State Bank of Texas",
-    "market": "TX",
-    "city": "Irving, TX",
-    "salary": "$48K-$60K/yr",
-    "roleType": "Help Desk",
+    "score": 74,
+    "title": "Site Support Technician - Desktop Support",
+    "company": "Cognizant",
+    "market": "MD",
+    "city": "Frederick, MD",
+    "salary": "$37K-$72K/yr",
+    "roleType": "Desktop Support",
     "certs": [
       "sec"
     ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4416583430/",
-    "notes": "Banking IT support - Irving TX - Security+ valued for compliance - Stable industry",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
+    "priority": "Medium",
+    "url": "https://www.indeed.com/viewjob?jk=f9ab3c1663957e0d",
+    "notes": "Onsite desktop and field support - Frederick MD - Large IT services firm - Some travel possible",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
   },
   {
     "id": 20,
-    "score": 80,
-    "title": "Remote Support Technician",
-    "company": "ManTech",
-    "market": "VA",
-    "city": "McLean, VA",
-    "salary": "$50K-$62K/yr",
+    "score": 74,
+    "title": "IT Service Desk Agent",
+    "company": "TX-based Services Firm",
+    "market": "TX",
+    "city": "Texas",
+    "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
-      "sec",
-      "fed"
+      "sec"
     ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4390558474/",
-    "notes": "Federal contractor (ManTech) - McLean VA - Clearance-eligible welcomed - Strong career path",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
+    "priority": "Medium",
+    "url": "https://www.indeed.com/viewjob?jk=57d0637c2cccbbc8",
+    "notes": "Service desk agent role in TX market - Phone and ticket support - Entry-friendly",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
   },
   {
     "id": 21,
-    "score": 79,
-    "title": "IT Support Analyst",
-    "company": "Empower Brands",
-    "market": "VA",
-    "city": "Richmond, VA",
-    "salary": "$45K-$55K/yr",
-    "roleType": "Help Desk",
+    "score": 73,
+    "title": "IT Desktop Support Tech",
+    "company": "LJA Engineering",
+    "market": "TX",
+    "city": "Katy, TX",
+    "salary": "Competitive",
+    "roleType": "Desktop Support",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/4406244352/",
-    "notes": "Commercial IT analyst - Richmond VA - Out of primary market but growing company",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
+    "url": "https://www.indeed.com/viewjob?jk=9e8172a81c25d976",
+    "notes": "Engineering firm IT desktop support - Houston area - Entry to mid range - Onsite",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
   },
   {
     "id": 22,
-    "score": 79,
-    "title": "IT Support Specialist",
-    "company": "Teasdale Latin Foods",
-    "market": "TX",
-    "city": "Carrollton, TX",
-    "salary": "$45K-$55K/yr",
+    "score": 73,
+    "title": "Help Desk Specialist II - Tier 2 Support",
+    "company": "TEEMA",
+    "market": "VA",
+    "city": "Ashburn, VA (Hybrid)",
+    "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/4421226726/",
-    "notes": "Manufacturing IT support - Carrollton TX - Recent posting - Direct fit for entry level",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
+    "url": "https://www.indeed.com/viewjob?jk=f5a3f16a11ebb1b6",
+    "notes": "Tier 2 expects some experience - Hybrid Ashburn - Staffing firm placement - Solid stepping stone",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
   },
   {
     "id": 23,
-    "score": 78,
-    "title": "IT Help Desk Technician",
-    "company": "Imperial Health Plan of California",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$45K-$55K/yr",
-    "roleType": "Help Desk",
+    "score": 72,
+    "title": "Hardware Installation Technician II",
+    "company": "Amatriot Group LLC",
+    "market": "MD",
+    "city": "Bethesda, MD",
+    "salary": "$50K-$52K/yr",
+    "roleType": "Field Tech",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/4420987435/",
-    "notes": "Healthcare IT help desk - Fully remote - Recent posting (under 24 hours)",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
+    "url": "https://www.indeed.com/viewjob?jk=c941745147fa7625",
+    "notes": "Hardware install and field tech - Bethesda area - Hands-on with networking gear",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
   },
   {
     "id": 24,
-    "score": 78,
-    "title": "Junior Tier II Help Desk Agent",
-    "company": "StratasCorp Technologies",
+    "score": 72,
+    "title": "SMIT Service Desk Lead / Onsite Support",
+    "company": "Leidos",
     "market": "VA",
-    "city": "Hampton, VA",
-    "salary": "$48K-$58K/yr",
+    "city": "Norfolk, VA",
+    "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
     "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/4419071720/",
-    "notes": "Federal contractor - Hampton VA - Junior Tier 2 growth role - Be an early applicant",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
+    "url": "https://www.indeed.com/viewjob?jk=315ed839c832299d",
+    "notes": "Navy SMIT contract - Lead role wants experience but Security+ strong - Federal site",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
   },
   {
     "id": 25,
-    "score": 77,
-    "title": "Tier I Technician",
-    "company": "DMI",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$45K-$55K/yr",
+    "score": 71,
+    "title": "Service Desk Analyst",
+    "company": "TX Services Firm",
+    "market": "TX",
+    "city": "Texas",
+    "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/4420991670/",
-    "notes": "Federal contractor (DMI) - Fully remote Tier 1 - Recent posting under 24 hours",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
+    "url": "https://www.indeed.com/viewjob?jk=a2fb154c917e74e1",
+    "notes": "Service desk analyst - Phone-based ticket triage - Entry friendly with Security+",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
   },
   {
     "id": 26,
-    "score": 76,
-    "title": "IT Support Specialist",
-    "company": "Chitra",
-    "market": "VA",
-    "city": "Virginia Beach, VA",
-    "salary": "$42K-$55K/yr",
-    "roleType": "Help Desk",
+    "score": 68,
+    "title": "SOC Analyst",
+    "company": "Remote SOC Employer",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "SOC",
     "certs": [
       "sec"
     ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/4418214604/",
-    "notes": "IT support specialist - Virginia Beach VA - Out of primary market but solid fit",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
+    "priority": "Stretch",
+    "url": "https://www.indeed.com/viewjob?jk=3e28283f8b1db4d9",
+    "notes": "Mid SOC role - Likely wants 1-2 years SOC - Worth applying as stretch with Sec+",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
   },
   {
     "id": 27,
-    "score": 75,
-    "title": "IT Support Administrator",
-    "company": "GRVTY",
-    "market": "VA",
-    "city": "McLean, VA",
-    "salary": "$50K-$62K/yr",
-    "roleType": "Help Desk",
+    "score": 67,
+    "title": "IT Support Specialist",
+    "company": "DLH",
+    "market": "MD",
+    "city": "Baltimore, MD",
+    "salary": "$90K-$96K/yr",
+    "roleType": "Systems Admin",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/4413478674/",
-    "notes": "Commercial IT support admin - McLean VA - Slightly higher experience bar but accessible",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
+    "priority": "Stretch",
+    "url": "https://www.indeed.com/viewjob?jk=400e02de3ec4dec6",
+    "notes": "Higher salary suggests senior - Worth shot with Sec+ - Federal site Baltimore",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
   },
   {
     "id": 28,
-    "score": 74,
-    "title": "IT Operations Support Analyst",
-    "company": "Monoflo International",
-    "market": "VA",
-    "city": "Winchester, VA",
-    "salary": "$45K-$55K/yr",
-    "roleType": "Help Desk",
+    "score": 66,
+    "title": "Network Operations Center Help Desk Engineer 1",
+    "company": "TX-based NOC",
+    "market": "TX",
+    "city": "Texas",
+    "salary": "Competitive",
+    "roleType": "NOC",
     "certs": [
       "sec"
     ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/4422047395/",
-    "notes": "Manufacturing IT ops - Winchester VA - Fresh posting under 24 hours",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
-  },
-  {
-    "id": 29,
-    "score": 68,
-    "title": "Helpdesk Technician - Tier 1 with Security Clearance",
-    "company": "IntelliDyne, LLC",
-    "market": "VA",
-    "city": "Herndon, VA",
-    "salary": "$55K-$68K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
     "priority": "Stretch",
-    "url": "https://www.linkedin.com/jobs/view/4420944308/",
-    "notes": "Federal contractor - Herndon VA - Requires active clearance - Apply if sponsorship available",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
-  },
-  {
-    "id": 30,
-    "score": 65,
-    "title": "Help Desk Specialist with Security Clearance",
-    "company": "Kaizen Approach, Inc.",
-    "market": "MD",
-    "city": "Linthicum Heights, MD",
-    "salary": "$55K-$68K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "Stretch",
-    "url": "https://www.linkedin.com/jobs/view/4419414602/",
-    "notes": "Federal contractor (NSA area) - Linthicum MD - Active clearance required - Worth applying as stretch",
-    "postedDate": "2026-05-30",
-    "posted": "2026-05-30"
+    "url": "https://www.indeed.com/viewjob?jk=c0384f6ecc3bdf16",
+    "notes": "NOC engineer 1 - Networking exposure preferred - Stretch but valuable experience",
+    "postedDate": "2026-05-31",
+    "posted": "2026-05-31"
   }
 ]
