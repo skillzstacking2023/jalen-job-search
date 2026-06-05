@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "score": 88,
+    "score": 90,
     "title": "Help Desk Support Analyst (Associate-Level)",
-    "company": "Link Solutions Inc",
+    "company": "Link Solutions, Inc.",
     "market": "MD",
     "city": "Frederick, MD",
     "salary": "Competitive",
@@ -12,16 +12,16 @@
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.dice.com/job-detail/979ee1f8-43a2-4061-b89f-65d035246cdf",
-    "notes": "Entry-level role - MD market - Help Desk - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
+    "url": "https://www.linkedin.com/jobs/view/help-desk-support-analyst-associate-level-at-link-solutions-inc-4422181572",
+    "notes": "Associate-level help desk - Security+ relevant - MD primary market - Posted within the last week",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
   },
   {
     "id": 2,
-    "score": 88,
-    "title": "Tier I Service Desk Analyst (Help Desk Support Specialist I)",
-    "company": "MIL Corporation",
+    "score": 89,
+    "title": "Junior Service Desk Technician",
+    "company": "ActioNet, Inc.",
     "market": "DC",
     "city": "Washington, DC",
     "salary": "Competitive",
@@ -30,160 +30,52 @@
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.dice.com/job-detail/1b2bf4ad-10c3-4da3-b97f-45e7f0d77634",
-    "notes": "Entry-level role - DC market - Help Desk - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
+    "url": "https://www.linkedin.com/jobs/view/junior-service-desk-technician-at-actionet-inc-4414643237",
+    "notes": "Junior service desk - Federal contractor - Security+ relevant - Actively hiring",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
   },
   {
     "id": 3,
-    "score": 84,
-    "title": "Level 1 Help Desk Analyst- Bilingual Spanish",
-    "company": "Global IT Family",
-    "market": "Remote",
-    "city": "Remote",
+    "score": 88,
+    "title": "IT Support Help Desk Specialist (Tier 1 & 2)",
+    "company": "Index Analytics LLC",
+    "market": "MD",
+    "city": "Windsor Mill, MD",
     "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.dice.com/job-detail/80782d90-bacf-45f7-b775-62744080e8e6",
-    "notes": "Entry-level role - Fully remote - Help Desk - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
+    "url": "https://www.linkedin.com/jobs/view/it-support-help-desk-specialist-tier-1-2-at-index-analytics-llc-4417333924",
+    "notes": "Tier 1 and 2 help desk - Entry friendly - MD primary market - Security+ relevant",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
   },
   {
     "id": 4,
-    "score": 84,
-    "title": "Technical Support Associate Analyst",
-    "company": "Pyramid Consulting, Inc.",
-    "market": "Remote",
-    "city": "Remote",
+    "score": 86,
+    "title": "Help Desk Technician",
+    "company": "Planet Depos",
+    "market": "MD",
+    "city": "Rockville, MD",
     "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.dice.com/job-detail/a1c0f0fd-fa1a-43fb-9b68-0c1192d61b67",
-    "notes": "Entry-level role - Fully remote - Help Desk - Sourced Yesterday on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
+    "url": "https://www.linkedin.com/jobs/view/help-desk-technician-at-planet-depos-4415127010",
+    "notes": "Help desk technician - Rockville MD - Entry level - Security+ a plus",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
   },
   {
     "id": 5,
-    "score": 83,
-    "title": "IT Support Administrator",
-    "company": "Irvine Technology Corporation (ITC)",
-    "market": "VA",
-    "city": "Sterling, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/048e7ee6-6c66-4cf5-97e6-8a1f4d55c8e3",
-    "notes": "Solid fit - VA market - Help Desk - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
-  },
-  {
-    "id": 6,
-    "score": 83,
-    "title": "IT Services - Support Technician",
-    "company": "Electronic Consulting Services, Inc (ECS Federal)",
-    "market": "VA",
-    "city": "Fairfax, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/ef024dbc-36de-4e9d-bf44-993643fc24f5",
-    "notes": "Solid fit - VA market - Help Desk - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
-  },
-  {
-    "id": 7,
-    "score": 83,
-    "title": "Entry Level Helpdesk Support",
-    "company": "TEKsystems c/o Allegis Group",
-    "market": "TX",
-    "city": "Coppell, TX",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/cbf5c53b-125b-4ba0-b3d5-4d45bb8498cb",
-    "notes": "Entry-level role - TX market - Help Desk - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
-  },
-  {
-    "id": 8,
-    "score": 83,
-    "title": "IT Operator - Desktop Support",
-    "company": "Mitchell Martin, Inc.",
-    "market": "VA",
-    "city": "Merrifield, VA",
-    "salary": "Competitive",
-    "roleType": "Desktop Support",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/8d174737-aeb3-4ada-af15-7a64e4aad90c",
-    "notes": "Solid fit - VA market - Desktop Support - Sourced Yesterday on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
-  },
-  {
-    "id": 9,
-    "score": 83,
-    "title": "IT Desktop Support",
-    "company": "TEKsystems c/o Allegis Group",
-    "market": "VA",
-    "city": "Arlington, VA",
-    "salary": "Competitive",
-    "roleType": "Desktop Support",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/f2920df9-36fe-4a68-9e0d-1eea497a686a",
-    "notes": "Solid fit - VA market - Desktop Support - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
-  },
-  {
-    "id": 10,
-    "score": 83,
-    "title": "NCIS IT Support Specialist (Quantico, VA)",
-    "company": "Life Cycle Engineering",
-    "market": "VA",
-    "city": "Quantico, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/b7074ef4-4dfe-4437-82af-f41059e5c1dc",
-    "notes": "Solid fit - VA market - Help Desk - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
-  },
-  {
-    "id": 11,
-    "score": 83,
-    "title": "Information Technology Support Specialist",
-    "company": "Alpha Omega Integration LLC",
+    "score": 85,
+    "title": "Service Desk Analyst",
+    "company": "EagleBank",
     "market": "MD",
     "city": "Silver Spring, MD",
     "salary": "Competitive",
@@ -192,315 +84,461 @@
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.dice.com/job-detail/447b361f-0e93-4208-9e85-953e54c4c88d",
-    "notes": "Solid fit - MD market - Help Desk - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
+    "url": "https://www.linkedin.com/jobs/view/service-desk-analyst-at-eaglebank-4417983132",
+    "notes": "Service desk analyst - Strong benefits - MD primary market - Recently posted",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
+  },
+  {
+    "id": 6,
+    "score": 84,
+    "title": "IT Support Specialist",
+    "company": "Addison Group",
+    "market": "VA",
+    "city": "Arlington, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/it-support-specialist-at-addison-group-4416329216",
+    "notes": "IT support specialist - Arlington VA - Actively hiring - Security+ relevant",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
+  },
+  {
+    "id": 7,
+    "score": 84,
+    "title": "Help Desk Specialist",
+    "company": "Sev1Tech LLC",
+    "market": "MD",
+    "city": "Aberdeen, MD",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-at-sev1tech-llc-4410942225",
+    "notes": "Help desk specialist - Federal contractor - Aberdeen MD - Security+ relevant",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
+  },
+  {
+    "id": 8,
+    "score": 83,
+    "title": "Technology Support Specialist - Service Desk",
+    "company": "National Geographic Society",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/technology-support-specialist-service-desk-fixed-term-at-national-geographic-society-4383154786",
+    "notes": "Service desk support - Washington DC - Entry level - Fixed-term role",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
+  },
+  {
+    "id": 9,
+    "score": 82,
+    "title": "Desktop Support Technician",
+    "company": "Seneca Resources Company, LLC",
+    "market": "VA",
+    "city": "Vienna, VA",
+    "salary": "Competitive",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/desktop-support-technician-16920-at-seneca-resources-company-llc-4414612842",
+    "notes": "Desktop support - Vienna VA - Entry friendly - Security+ relevant",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
+  },
+  {
+    "id": 10,
+    "score": 82,
+    "title": "Service Desk Technician",
+    "company": "Marathon TS",
+    "market": "VA",
+    "city": "Herndon, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/service-desk-technician-at-marathon-ts-4417300642",
+    "notes": "Service desk technician - Federal contractor - Herndon VA - Actively hiring",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
+  },
+  {
+    "id": 11,
+    "score": 82,
+    "title": "Help Desk Specialist I - Tier 1",
+    "company": "Chenega MIOS SBU",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-i-%E2%80%93-tier-1-at-chenega-mios-sbu-4422622169",
+    "notes": "Tier 1 help desk - Fully remote - Federal contractor - Actively hiring",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
   },
   {
     "id": 12,
-    "score": 83,
-    "title": "IT Support Specialist",
-    "company": "TEKsystems c/o Allegis Group",
-    "market": "VA",
-    "city": "Sterling, VA",
+    "score": 81,
+    "title": "Helpdesk Technician",
+    "company": "Truth Initiative",
+    "market": "DC",
+    "city": "Washington, DC",
     "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.dice.com/job-detail/0cf3535b-461b-4107-bb83-7cb76de018bb",
-    "notes": "Solid fit - VA market - Help Desk - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
+    "url": "https://www.linkedin.com/jobs/view/helpdesk-technician-at-truth-initiative-4406675932",
+    "notes": "Helpdesk technician - Nonprofit - Washington DC - Entry level",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
   },
   {
     "id": 13,
-    "score": 83,
-    "title": "EUD Desktop Support Technician (Intern)",
-    "company": "NCI Information Systems, Inc.",
+    "score": 81,
+    "title": "Help Desk Specialist",
+    "company": "NuAxis Innovations",
     "market": "VA",
-    "city": "Arlington, VA",
+    "city": "Falls Church, VA",
     "salary": "Competitive",
-    "roleType": "Desktop Support",
+    "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.dice.com/job-detail/ebfe56b6-fd30-4541-84fd-02e146ff9586",
-    "notes": "Solid fit - VA market - Desktop Support - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
+    "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-at-nuaxis-innovations-4412165253",
+    "notes": "Help desk specialist - Federal contractor - Falls Church VA - Security+ relevant",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
   },
   {
     "id": 14,
-    "score": 83,
-    "title": "Deskside Support Technician",
-    "company": "Robert Half",
+    "score": 80,
+    "title": "Help Desk Technician",
+    "company": "NVR, Inc.",
+    "market": "VA",
+    "city": "Reston, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-technician-at-nvr-inc-4414911961",
+    "notes": "Help desk technician - Reston VA - Entry level - Corporate IT",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
+  },
+  {
+    "id": 15,
+    "score": 80,
+    "title": "IT Security Help Desk Analyst (Remote)",
+    "company": "Apetan Consulting LLC",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/it-security-help-desk-analyst-remote-at-apetan-consulting-llc-4423528450",
+    "notes": "IT security help desk - Fully remote - Security+ relevant - Actively hiring",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
+  },
+  {
+    "id": 16,
+    "score": 78,
+    "title": "Public Safety IT Technician (Systems Support Specialist)",
+    "company": "Anne Arundel County",
     "market": "MD",
-    "city": "Rockville, MD",
+    "city": "Anne Arundel County, MD",
     "salary": "Competitive",
     "roleType": "Desktop Support",
     "certs": [
       "sec"
     ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/c233d954-3cbb-4c8b-82ad-7b5c580950de",
-    "notes": "Solid fit - MD market - Desktop Support - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
-  },
-  {
-    "id": 15,
-    "score": 83,
-    "title": "Data Support Analyst",
-    "company": "Tecolote Research, Inc.",
-    "market": "VA",
-    "city": "Arlington, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/8e6551e5-cd6f-401a-8387-724165305961",
-    "notes": "Solid fit - VA market - Help Desk - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
-  },
-  {
-    "id": 16,
-    "score": 82,
-    "title": "IT Specialist 1/IT Support Assistant, 2",
-    "company": "Telos Corporation",
-    "market": "VA",
-    "city": "Ashburn, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/73fd81b1-4038-49fd-8dc5-6390721be2c2",
-    "notes": "Entry-level role - VA market - Help Desk - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/public-safety-information-technology-technician-information-systems-support-specialist-at-anne-arundel-county-office-of-personnel-4417334351",
+    "notes": "County government IT - Stable public sector role - MD primary market - Entry friendly",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
   },
   {
     "id": 17,
-    "score": 82,
-    "title": "IT Specialist 1/IT Support Assistant, 2 - C",
-    "company": "Telos Corporation",
-    "market": "VA",
-    "city": "Ashburn, VA",
+    "score": 78,
+    "title": "Information Technology Service Desk",
+    "company": "GTS Technology Solutions",
+    "market": "TX",
+    "city": "Dallas, TX",
     "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/ba4099a3-9872-4d80-b1a7-6de4a786a4f7",
-    "notes": "Entry-level role - VA market - Help Desk - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/information-technology-service-desk-at-gts-technology-solutions-4419079749",
+    "notes": "IT service desk - Dallas TX secondary market - Actively hiring - Entry level",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
   },
   {
     "id": 18,
-    "score": 81,
-    "title": "Associate Systems Administrator, Remote Field Services",
-    "company": "Carvana",
-    "market": "Remote",
-    "city": "Remote",
+    "score": 78,
+    "title": "IT Field Support Technician",
+    "company": "Sheehy Auto Stores",
+    "market": "VA",
+    "city": "Fairfax, VA",
+    "salary": "Competitive",
+    "roleType": "Field Tech",
+    "certs": [],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/it-field-support-technician-at-sheehy-auto-stores-4413999123",
+    "notes": "Field support technician - Fairfax VA - Hands-on hardware - Entry level",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
+  },
+  {
+    "id": 19,
+    "score": 77,
+    "title": "Jr. Systems Administrator",
+    "company": "Tech-Marine Business, Inc. (TMB)",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "Competitive",
+    "roleType": "Systems Admin",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/jr-systems-administrator-at-tech-marine-business-inc-tmb-4410844507",
+    "notes": "Junior sysadmin - Washington DC - Slight step up from help desk - Security+ relevant",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
+  },
+  {
+    "id": 20,
+    "score": 77,
+    "title": "Help Desk Technician I",
+    "company": "Insight Global",
+    "market": "TX",
+    "city": "Austin, TX",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-technician-i-at-insight-global-4419353162",
+    "notes": "Help desk tier 1 - Austin TX secondary market - Actively hiring - Entry level",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
+  },
+  {
+    "id": 21,
+    "score": 76,
+    "title": "Help Desk Analyst (Security Clearance)",
+    "company": "DCCA",
+    "market": "MD",
+    "city": "Ellicott City, MD",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-analyst-with-security-clearance-at-dcca-4423366969",
+    "notes": "Help desk analyst - Clearance preferred - MD primary market - Recently posted",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
+  },
+  {
+    "id": 22,
+    "score": 76,
+    "title": "Call Center Analyst 1",
+    "company": "Iron Bow Technologies",
+    "market": "VA",
+    "city": "Woodbridge, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/call-center-analyst-1-at-iron-bow-technologies-4408502347",
+    "notes": "Tier 1 support analyst - Federal contractor - Woodbridge VA - Entry level",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
+  },
+  {
+    "id": 23,
+    "score": 75,
+    "title": "Technical Support Specialist",
+    "company": "Freedom Technology Solutions Group",
+    "market": "MD",
+    "city": "Annapolis Junction, MD",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/technical-support-specialist-at-freedom-technology-solutions-group-llc-4420910678",
+    "notes": "Technical support - Federal contractor - Annapolis Junction MD - Security+ relevant",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
+  },
+  {
+    "id": 24,
+    "score": 75,
+    "title": "IT Field Support Technician (Entry Level)",
+    "company": "Cantex",
+    "market": "TX",
+    "city": "San Antonio, TX",
     "salary": "Competitive",
     "roleType": "Field Tech",
     "certs": [
       "sec"
     ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/92ba83ba-946d-46e8-b8be-2f7c4335a1bf",
-    "notes": "Entry-level role - Fully remote - Field Tech - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/it-field-support-technician-entry-level-22407-at-cantex-4405569157",
+    "notes": "Entry-level field tech - San Antonio TX secondary market - Actively hiring",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
   },
   {
-    "id": 19,
-    "score": 81,
-    "title": "Cybersecurity Service Desk - Experienced Associate",
-    "company": "CohnReznick",
+    "id": 25,
+    "score": 74,
+    "title": "Help Desk Specialist I",
+    "company": "D.R. Horton",
+    "market": "TX",
+    "city": "Arlington, TX",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-i-at-d-r-horton-4422140311",
+    "notes": "Help desk specialist - Arlington TX secondary market - Corporate IT - Entry level",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
+  },
+  {
+    "id": 26,
+    "score": 74,
+    "title": "Help Desk Specialist (Security Clearance)",
+    "company": "Kaizen Approach, Inc.",
+    "market": "MD",
+    "city": "Linthicum Heights, MD",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-with-security-clearance-at-kaizen-approach-inc-4419414602",
+    "notes": "Help desk specialist - Clearance preferred - MD primary market - Security+ relevant",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
+  },
+  {
+    "id": 27,
+    "score": 73,
+    "title": "Cybersecurity Support",
+    "company": "Alakaina Foundation Family of Companies",
     "market": "VA",
-    "city": "Tysons, VA",
+    "city": "Arlington, VA",
     "salary": "Competitive",
     "roleType": "Cybersecurity",
     "certs": [
       "sec"
     ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/a03c80c6-ff38-4739-a421-bf1793b1feab",
-    "notes": "Entry-level role - VA market - Cybersecurity - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
-  },
-  {
-    "id": 20,
-    "score": 79,
-    "title": "EHR Helpdesk Analyst",
-    "company": "InterBase Corporation",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
     "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/fec73a7c-501d-4742-8c5d-6387e97044f6",
-    "notes": "Solid fit - Fully remote - Help Desk - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
-  },
-  {
-    "id": 21,
-    "score": 79,
-    "title": "IT Support Specialist/rEMOTE",
-    "company": "Apetan Consulting",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/17f33467-7eb1-4f5a-ba12-bd5e5a91a05b",
-    "notes": "Solid fit - Fully remote - Help Desk - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
-  },
-  {
-    "id": 22,
-    "score": 79,
-    "title": "Help Desk Specialist (remote position)",
-    "company": "General Dynamics",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/45206dff-808b-426b-9715-1c098a694a0c",
-    "notes": "Solid fit - Fully remote - Help Desk - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
-  },
-  {
-    "id": 23,
-    "score": 79,
-    "title": "EHR Helpdesk Analyst",
-    "company": "UniMind Software Solutions,Inc",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/30aafcc0-c267-45ed-ac44-94a409ec629f",
-    "notes": "Solid fit - Fully remote - Help Desk - Sourced Yesterday on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
-  },
-  {
-    "id": 24,
-    "score": 78,
-    "title": "System Administrator I (HPC)",
-    "company": "Engineering Solutions, LLC",
-    "market": "MD",
-    "city": "Annapolis, MD",
-    "salary": "Competitive",
-    "roleType": "Systems Admin",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/c702b4a2-8cd2-4be4-8906-bdcd006120cc",
-    "notes": "Entry-level role - MD market - Systems Admin - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
-  },
-  {
-    "id": 25,
-    "score": 78,
-    "title": "System Administrator I (Infrastructure and Sustainment)",
-    "company": "Engineering Solutions, LLC",
-    "market": "MD",
-    "city": "Annapolis, MD",
-    "salary": "Competitive",
-    "roleType": "Systems Admin",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/ce40da72-9634-4511-9b64-766ffe2fff99",
-    "notes": "Entry-level role - MD market - Systems Admin - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
-  },
-  {
-    "id": 26,
-    "score": 67,
-    "title": "System Administrator II (HPC)",
-    "company": "Engineering Solutions, LLC",
-    "market": "MD",
-    "city": "Annapolis, MD",
-    "salary": "Competitive",
-    "roleType": "Systems Admin",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Stretch",
-    "url": "https://www.dice.com/job-detail/d8072aff-65b6-4e91-946b-182d4f6ec6d1",
-    "notes": "Slightly higher experience bar - MD market - Systems Admin - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
-  },
-  {
-    "id": 27,
-    "score": 62,
-    "title": "HPC Systems Administrator - TS clearance",
-    "company": "Jobot",
-    "market": "MD",
-    "city": "Aberdeen, MD",
-    "salary": "Competitive",
-    "roleType": "Systems Admin",
-    "certs": [
-      "fed"
-    ],
-    "priority": "Stretch",
-    "url": "https://www.dice.com/job-detail/1f29ed68-4ac6-449e-9863-33228a284672",
-    "notes": "Solid fit - MD market - Systems Admin - Clearance or clearance-eligibility required - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
+    "url": "https://www.linkedin.com/jobs/view/cybersecurity-support-at-alaka-ina-foundation-family-of-companies-4414092019",
+    "notes": "Cybersecurity support - Federal contractor - Arlington VA - Security+ relevant",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
   },
   {
     "id": 28,
-    "score": 60,
-    "title": "Linux Systems Administrator - TS/SCI-FSP clearance",
-    "company": "Jobot",
-    "market": "MD",
-    "city": "Fort Meade, MD",
+    "score": 69,
+    "title": "Cybersecurity Intern",
+    "company": "Leidos",
+    "market": "VA",
+    "city": "Ashburn, VA",
     "salary": "Competitive",
-    "roleType": "Systems Admin",
+    "roleType": "Cybersecurity",
     "certs": [
+      "sec"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.linkedin.com/jobs/view/cybersecurity-intern-at-leidos-4417654693",
+    "notes": "Internship - Major federal integrator - Great resume builder - Competitive",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
+  },
+  {
+    "id": 29,
+    "score": 68,
+    "title": "Help Desk Tier II Technician (Secret Cleared)",
+    "company": "Connsci",
+    "market": "MD",
+    "city": "Bethesda, MD",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
       "fed"
     ],
     "priority": "Stretch",
-    "url": "https://www.dice.com/job-detail/a0498205-fc7f-496c-9d22-125698b61dd4",
-    "notes": "Solid fit - MD market - Systems Admin - Requires TS/SCI clearance (aspirational reach) - Sourced Today on Dice",
-    "postedDate": "2026-06-03",
-    "posted": "2026-06-03"
+    "url": "https://www.linkedin.com/jobs/view/help-desk-tier-ii-technician-secret-cleared-with-security-clearance-at-connsci-4422391739",
+    "notes": "Tier II help desk - Requires active Secret clearance - Aspirational - MD market",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
+  },
+  {
+    "id": 30,
+    "score": 66,
+    "title": "SOC Analyst (Security Monitoring, Clearance)",
+    "company": "Rividium Inc",
+    "market": "VA",
+    "city": "Alexandria, VA",
+    "salary": "Competitive",
+    "roleType": "SOC",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.linkedin.com/jobs/view/soc-analyst-security-monitoring-with-security-clearance-at-rividium-inc-4419415293",
+    "notes": "SOC tier 1 monitoring - Requires clearance - Aspirational cyber role - VA market",
+    "postedDate": "2026-06-05",
+    "posted": "2026-06-05"
   }
 ]
