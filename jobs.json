@@ -14,9 +14,9 @@
     ],
     "priority": "High",
     "url": "https://www.usajobs.gov/job/870555400",
-    "notes": "Federal customer support role - Public Trust eligible - BS in IT can substitute for some experience - Security+ aligns with DoD 8570 baseline",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Federal customer support role - Public Trust eligible - Security+ maps to DoD 8570 IAT baseline - BS in IT can offset limited experience",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
     "id": 2,
@@ -33,9 +33,9 @@
     ],
     "priority": "High",
     "url": "https://www.usajobs.gov/job/871577100",
-    "notes": "Federal help desk / customer support - Public Trust - strong fit for Security+ holder - degree may offset limited experience",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Federal help desk / customer support - Public Trust - strong fit for Security+ holder - degree may offset experience gap",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
     "id": 3,
@@ -52,9 +52,9 @@
     ],
     "priority": "High",
     "url": "https://www.usajobs.gov/job/871577300",
-    "notes": "Companion DC customer support posting - Public Trust - apply alongside the related Washington DC listing",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Federal customer support - Public Trust - Security+ aligned - good entry point for a new IT grad",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
     "id": 4,
@@ -71,9 +71,9 @@
     ],
     "priority": "Medium",
     "url": "https://www.usajobs.gov/job/853146400",
-    "notes": "Blended sysadmin and customer support - help desk ticketing and hardware troubleshooting - 1 yr specialized experience or degree substitution",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Blended sysadmin and customer support - Public Trust - Security+ and Cloud+ both relevant - apply early",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
     "id": 5,
@@ -90,9 +90,9 @@
     ],
     "priority": "Medium",
     "url": "https://www.usajobs.gov/job/871102900",
-    "notes": "Customer support plus INFOSEC duties - Security+ meets DoD 8570 IAT II - good bridge from help desk into security",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Cyber customer support - Security+ maps to 8570 IAT II - Public Trust - some InfoSec exposure preferred",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
     "id": 6,
@@ -109,12 +109,31 @@
     ],
     "priority": "Medium",
     "url": "https://www.usajobs.gov/job/871497200",
-    "notes": "Texas federal customer support role - Public Trust - solid secondary-market option with Security+",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Customer support with systems analysis - Public Trust - Security+ aligned - location negotiable after selection",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
     "id": 7,
+    "score": 76,
+    "title": "Information Technology Specialist (INFOSEC)",
+    "company": "U.S. Federal Government (USAJOBS)",
+    "market": "VA",
+    "city": "Multiple Locations",
+    "salary": "$52K-$83K/yr",
+    "roleType": "Cybersecurity",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://www.usajobs.gov/job/852981200",
+    "notes": "Entry GS-9 federal InfoSec role - Security+ maps to DoD 8570 IAT II - Public Trust - open application window through Dec 2026 - degree can substitute for experience",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
+  },
+  {
+    "id": 8,
     "score": 75,
     "title": "IT Specialist (Customer Support)",
     "company": "U.S. Federal Government (USAJOBS)",
@@ -128,12 +147,31 @@
     ],
     "priority": "Medium",
     "url": "https://www.usajobs.gov/job/871603500",
-    "notes": "Telework eligible - based New Castle DE but remote-friendly - confirmed salary $68,013-$88,421 - Public Trust",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Remote-eligible federal customer support - Public Trust - Security+ aligned - rare fully remote entry role",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
-    "id": 8,
+    "id": 9,
+    "score": 75,
+    "title": "IT Specialist (Customer Support)",
+    "company": "U.S. Federal Government (USAJOBS)",
+    "market": "MD",
+    "city": "Multiple Locations",
+    "salary": "$55K-$88K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://www.usajobs.gov/job/870725600",
+    "notes": "Federal customer support / help desk - Public Trust - Security+ aligns with DoD baseline - apply by 6/10/2026",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
+  },
+  {
+    "id": 10,
     "score": 74,
     "title": "Information Technology Specialist (Security)",
     "company": "U.S. Federal Government (USAJOBS)",
@@ -147,12 +185,12 @@
     ],
     "priority": "Medium",
     "url": "https://www.usajobs.gov/job/870558700",
-    "notes": "Federal INFOSEC role - Security+ is a baseline cert match - some specialized experience expected, apply if duties align",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Security-focused IT specialist - Security+ relevant - Public Trust - slightly higher experience bar",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
-    "id": 9,
+    "id": 11,
     "score": 72,
     "title": "IT Cybersecurity Specialist (INFOSEC)",
     "company": "U.S. Federal Government (USAJOBS)",
@@ -166,12 +204,12 @@
     ],
     "priority": "Medium",
     "url": "https://www.usajobs.gov/job/871157600",
-    "notes": "INFOSEC specialist - DoD 8570 Security+ aligned - higher experience bar but worth applying as clearance-eligible",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "InfoSec specialist - Security+ maps to IAT II - Public Trust - cyber experience preferred but degree counts",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
-    "id": 10,
+    "id": 12,
     "score": 71,
     "title": "Information Technology Specialist",
     "company": "U.S. Federal Government (USAJOBS)",
@@ -184,12 +222,12 @@
     ],
     "priority": "Medium",
     "url": "https://www.usajobs.gov/job/871191700",
-    "notes": "General federal IT specialist - Public Trust - degree may help offset experience - confirm series duties before applying",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "General 2210 IT specialist - Public Trust - apply by 6/15/2026 - broad role good for a new grad",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
-    "id": 11,
+    "id": 13,
     "score": 71,
     "title": "Information Technology Specialist",
     "company": "U.S. Federal Government (USAJOBS)",
@@ -202,15 +240,15 @@
     ],
     "priority": "Medium",
     "url": "https://www.usajobs.gov/job/871195500",
-    "notes": "Companion VA IT specialist posting - Public Trust - apply with the related Virginia listing",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "General IT specialist - Public Trust - 2210 series - Cloud+ and Security+ both helpful",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
-    "id": 12,
+    "id": 14,
     "score": 70,
     "title": "IT Specialist (SysAdmin) - DHA",
-    "company": "Defense Health Agency (USAJOBS)",
+    "company": "U.S. Federal Government (USAJOBS)",
     "market": "MD",
     "city": "Maryland",
     "salary": "$70K-$100K/yr",
@@ -221,12 +259,12 @@
     ],
     "priority": "Medium",
     "url": "https://www.usajobs.gov/job/861218500",
-    "notes": "Defense Health Agency sysadmin - Security+ relevant - mid-level but DHA hires steadily, good resume builder",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Defense Health Agency sysadmin - Public Trust - long application window - Security+ aligned",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
-    "id": 13,
+    "id": 15,
     "score": 70,
     "title": "Information Technology Specialist",
     "company": "U.S. Federal Government (USAJOBS)",
@@ -239,12 +277,12 @@
     ],
     "priority": "Medium",
     "url": "https://www.usajobs.gov/job/834917100",
-    "notes": "Open federal IT specialist announcement - Public Trust - verify grade and specialized experience requirements",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "General 2210 IT specialist - Public Trust - degree-based entry possible",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
-    "id": 14,
+    "id": 16,
     "score": 70,
     "title": "IT Specialist",
     "company": "U.S. Federal Government (USAJOBS)",
@@ -257,12 +295,12 @@
     ],
     "priority": "Medium",
     "url": "https://www.usajobs.gov/job/866249900",
-    "notes": "Federal IT specialist - Public Trust - reasonable entry point if grade is GS-7 to GS-9",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Federal IT specialist - Public Trust - broad role - good for a BS in IT new grad",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
-    "id": 15,
+    "id": 17,
     "score": 69,
     "title": "IT Specialist",
     "company": "U.S. Federal Government (USAJOBS)",
@@ -275,12 +313,12 @@
     ],
     "priority": "Stretch",
     "url": "https://www.usajobs.gov/job/847096900",
-    "notes": "Texas federal IT specialist - Public Trust - secondary market - confirm duties match help desk or sysadmin track",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "GS-7 entry IT specialist - location negotiable after selection - apply by 9/30/2026 - strong entry pay grade",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
-    "id": 16,
+    "id": 18,
     "score": 68,
     "title": "IT Specialist (Infosec/Network)",
     "company": "U.S. Federal Government (USAJOBS)",
@@ -294,12 +332,12 @@
     ],
     "priority": "Stretch",
     "url": "https://www.usajobs.gov/job/871779100",
-    "notes": "INFOSEC and network role - Security+ aligned - higher experience bar - aspirational but valuable to apply",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Network/InfoSec at Naval Medical Center Portsmouth - Security+ maps to IAT II - Public Trust",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
-    "id": 17,
+    "id": 19,
     "score": 68,
     "title": "IT Specialist (Systems Analysis)",
     "company": "U.S. Federal Government (USAJOBS)",
@@ -312,12 +350,12 @@
     ],
     "priority": "Stretch",
     "url": "https://www.usajobs.gov/job/863963300",
-    "notes": "Systems analysis specialist - more experience expected - apply if you can show project or analysis exposure",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Systems analysis role - Public Trust - higher experience bar but degree helps",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
-    "id": 18,
+    "id": 20,
     "score": 67,
     "title": "Senior Service Desk Analyst (Tier 1)",
     "company": "Leidos",
@@ -330,12 +368,12 @@
     ],
     "priority": "Stretch",
     "url": "https://careers.leidos.com/jobs/R-00182704",
-    "notes": "Hybrid remote - no clearance to start but must be TS/SCI eligible - Security+ accepted under DoD 8140 - posting lists 8+ yrs so apply as a reach",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Leidos Tier 1 service desk - Security+ preferred - clearance eligible welcome - Tier 1 entry duties despite Senior title",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
-    "id": 19,
+    "id": 21,
     "score": 66,
     "title": "IT Specialist (Litigation Support)",
     "company": "U.S. Federal Government (USAJOBS)",
@@ -348,12 +386,12 @@
     ],
     "priority": "Stretch",
     "url": "https://www.usajobs.gov/job/871282700",
-    "notes": "Litigation support IT - end user and desktop support flavor - niche but Public Trust and degree-friendly",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Litigation / desktop support - Public Trust - niche but accessible for a new grad",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
-    "id": 20,
+    "id": 22,
     "score": 66,
     "title": "IT Specialist (Network/InfoSec)",
     "company": "U.S. Federal Government (USAJOBS)",
@@ -367,12 +405,12 @@
     ],
     "priority": "Stretch",
     "url": "https://www.usajobs.gov/job/871466600",
-    "notes": "Texas network and INFOSEC role - Security+ aligned - competitive - apply to build a federal security track record",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "San Antonio network/InfoSec - Security+ maps to IAT II - apply by 6/10/2026",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
-    "id": 21,
+    "id": 23,
     "score": 65,
     "title": "Desktop Support Technician",
     "company": "Leidos",
@@ -386,12 +424,12 @@
     ],
     "priority": "Stretch",
     "url": "https://careers.leidos.com/jobs/R-00183782",
-    "notes": "Hands on desktop support - requires Secret clearance - apply as clearance-eligible - strong skills match otherwise",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Leidos desktop support - Security+ helpful - clearance eligible - hands-on entry hardware/software support",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
-    "id": 22,
+    "id": 24,
     "score": 64,
     "title": "Systems Network Administrator I / Service Desk Support",
     "company": "Leidos",
@@ -405,12 +443,12 @@
     ],
     "priority": "Stretch",
     "url": "https://careers.leidos.com/jobs/R-00181918",
-    "notes": "Entry sysadmin I plus service desk - requires TS/SCI with polygraph - aspirational clearance jump but right experience level",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Leidos SysAdmin I plus service desk - Security+ and Cloud+ relevant - clearance eligible",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
-    "id": 23,
+    "id": 25,
     "score": 64,
     "title": "Senior Service Desk Analyst (Tier 1) - WDP",
     "company": "Leidos",
@@ -424,12 +462,12 @@
     ],
     "priority": "Stretch",
     "url": "https://careers.leidos.com/jobs/R-00182697",
-    "notes": "Tier 1 service desk - requires Secret clearance - Security+ accepted - apply as clearance-eligible",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Leidos Tier 1 service desk (WDP) - Security+ preferred - clearance eligible welcome",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
-    "id": 24,
+    "id": 26,
     "score": 63,
     "title": "Enterprise Help Desk (EHD) Tier 1",
     "company": "Leidos",
@@ -443,12 +481,12 @@
     ],
     "priority": "Stretch",
     "url": "https://careers.leidos.com/jobs/R-00179374",
-    "notes": "True Tier 1 help desk role - requires TS/SCI - excellent duties match but clearance is the gap",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Leidos enterprise help desk Tier 1 - entry friendly - Security+ a plus - clearance eligible",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
-    "id": 25,
+    "id": 27,
     "score": 62,
     "title": "Senior Desktop Support Technician",
     "company": "Leidos",
@@ -462,12 +500,12 @@
     ],
     "priority": "Stretch",
     "url": "https://careers.leidos.com/jobs/R-00183487",
-    "notes": "Desktop support - Secret clearance required - senior title raises the bar - apply if open to Hampton Roads area",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Leidos desktop support - Security+ helpful - some experience preferred - clearance eligible",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
-    "id": 26,
+    "id": 28,
     "score": 61,
     "title": "Project Lead Deskside Support Manager",
     "company": "Leidos",
@@ -480,12 +518,12 @@
     ],
     "priority": "Stretch",
     "url": "https://careers.leidos.com/jobs/R-00182520",
-    "notes": "Public Trust only (no DoD clearance needed) - but lead/manager level - aspirational, good to track for the Public Trust path",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Leidos deskside support lead - aspirational - leadership scope above entry but worth a stretch application",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   },
   {
-    "id": 27,
+    "id": 29,
     "score": 60,
     "title": "Help Desk Manager",
     "company": "Leidos",
@@ -498,8 +536,8 @@
     ],
     "priority": "Stretch",
     "url": "https://careers.leidos.com/jobs/R-00183054",
-    "notes": "Manager level and TS/SCI required - well above current experience - listed as a longer-term target to grow toward",
-    "postedDate": "2026-06-05",
-    "posted": "2026-06-05"
+    "notes": "Leidos help desk manager - aspirational / management - apply to build network - above current level",
+    "postedDate": "2026-06-06",
+    "posted": "2026-06-06"
   }
 ]
