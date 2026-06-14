@@ -1,470 +1,470 @@
 [
   {
     "id": 1,
-    "score": 92,
-    "title": "Enterprise Service Desk Analyst I",
-    "company": "CACI",
-    "market": "MD",
-    "city": "National Harbor, MD",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://searchcareers.caci.com/careers/job/1443151299599",
-    "notes": "Tier 1 help desk for FEMA OCIO - No clearance required to start - Hybrid 3 days onsite - Entry level friendly",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 2,
     "score": 90,
-    "title": "Cloud Support Engineer (Tier 1/Tier 2)",
-    "company": "CACI",
-    "market": "MD",
-    "city": "Hanover, MD",
-    "salary": "Competitive",
-    "roleType": "Cloud",
-    "certs": [
-      "cloud"
-    ],
-    "priority": "High",
-    "url": "https://searchcareers.caci.com/careers/job/1443151333555",
-    "notes": "Remote eligible - Frontline cloud support for Enterprise Cloud Solutions customers - No clearance required to start - Great Cloud+ match",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 3,
-    "score": 89,
-    "title": "Junior Helpdesk Specialist",
-    "company": "Chenega MIOS",
-    "market": "VA",
-    "city": "Springfield, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/ff907a7c-a842-4545-ab75-184d262e4577",
-    "notes": "Posted within last 24 hours - DoD environment with ServiceNow - Junior title matches experience level - CompTIA certs valued",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 4,
-    "score": 88,
-    "title": "Help Desk Support Analyst (Associate-Level)",
-    "company": "Link Solutions Inc",
-    "market": "MD",
-    "city": "Frederick, MD",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/f99b57f6-9e3e-46c2-a5a2-3556a4423a33",
-    "notes": "Security+ listed in desired skills - Tier 1 support - DoD contractor - Associate level matches entry experience",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 5,
-    "score": 86,
-    "title": "Junior IT Administrator",
-    "company": "DecisionPoint Corporation",
-    "market": "VA",
-    "city": "Reston, VA",
-    "salary": "Competitive",
-    "roleType": "Systems Admin",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/1dfdc220-82c5-4a13-a4b7-51c67d9b4ada",
-    "notes": "Posted 2 days ago - Tier 1/2 service desk plus Azure cloud exposure - Junior title - Strong growth path to sysadmin",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 6,
-    "score": 85,
-    "title": "Help Desk Technician (Joint Base Myer)",
-    "company": "GC&E / BBNC Federal",
-    "market": "DC",
-    "city": "Arlington, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/d63bfd34-70cf-41ff-bae9-014c8d5f88eb",
-    "notes": "Security+ in required skills - Local and remote desktop support at Joint Base Myer - DC metro location",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 7,
-    "score": 85,
-    "title": "Junior CIC Analyst (Tier 1 NOC/Service Desk)",
-    "company": "Maximus",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$40K/yr",
-    "roleType": "NOC",
-    "certs": [],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/a7b1a288-2680-4654-adf4-5e518a8a882c",
-    "notes": "Fully remote - Tier 1 monitoring and incident management with ServiceNow - AWS/Azure exposure - Entry level with clear growth path",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 8,
-    "score": 84,
-    "title": "Help Desk Technician I",
-    "company": "Three Saints Bay",
-    "market": "VA",
-    "city": "Manassas, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/70546680-6e63-40c9-9382-4663ae42bb43",
-    "notes": "Posted 6 days ago - Government contracting environment - Tier 1/2 support with M365 and Azure AD - Level I matches entry experience",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 9,
-    "score": 83,
-    "title": "Junior Network Administrator",
-    "company": "Goldbelt Inc",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$75K/yr",
-    "roleType": "NOC",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/630787ee-62ca-4580-bc50-3a3666f1d343",
-    "notes": "Fully remote at $75K - Network+ and Security+ called out - Tier 1/2 support with RMF exposure - Strong comp for entry level",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 10,
-    "score": 81,
-    "title": "Help Desk Specialist I (Tier 1)",
-    "company": "Chenega MIOS",
-    "market": "VA",
-    "city": "Virginia (see posting)",
-    "salary": "$18-$19/hr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/93c8698c-a907-4eb7-b902-a0c6867f4453",
-    "notes": "True Tier 1 entry role - CompTIA certs valued - ServiceNow and Active Directory - Good first federal contractor role",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 11,
-    "score": 78,
-    "title": "Help Desk Specialist (Tier II)",
-    "company": "DecisionPoint / Cortek",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/1706bdbb-2cd6-4100-acd0-91c9b3687ee9",
-    "notes": "Posted 2 days ago - Fully remote - Security+ in skills - Tier II bar slightly above entry but worth applying",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 12,
-    "score": 77,
-    "title": "IT Tier 2 Support Technician (DLI-W)",
-    "company": "Goldbelt Inc",
-    "market": "DC",
-    "city": "Arlington, VA",
-    "salary": "$65K-$73K/yr",
-    "roleType": "Desktop Support",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/6616cfdc-f301-4d33-bdac-19903a3c81ee",
-    "notes": "Security+ or GSEC/SSCP accepted - Tier 1/2 support - Strong salary - Tier 2 bar is the minor gap",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 13,
-    "score": 76,
-    "title": "Tier 2 Service Desk Technician",
-    "company": "Peraton",
+    "title": "IT Support Technician",
+    "company": "Leidos",
     "market": "DC",
     "city": "Washington, DC",
     "salary": "Competitive",
     "roleType": "Help Desk",
-    "certs": [],
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://careers.leidos.com/jobs/17817102-it-support-technician",
+    "notes": "Public Trust - no clearance required - Security+ a strong plus - entry-level onsite IT support in DC",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
+  },
+  {
+    "id": 2,
+    "score": 84,
+    "title": "Temporary IT Technician II (1 Year Term)",
+    "company": "U.S. Federal Government (USAJOBS)",
+    "market": "VA",
+    "city": "Alexandria, VA",
+    "salary": "$56K-$71K/yr",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.usajobs.gov/job/865610500",
+    "notes": "Entry-level federal IT - telework option available - no active clearance required - Security+ valued",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
+  },
+  {
+    "id": 3,
+    "score": 81,
+    "title": "Service Desk Analyst (Tier 1)",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Gaithersburg, MD",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://careers.leidos.com/jobs/17717699-senior-service-desk-analyst-tier-1",
+    "notes": "No clearance required - Tier 1 help desk - Security+ a plus - strong MD market fit",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
+  },
+  {
+    "id": 4,
+    "score": 80,
+    "title": "Service Desk Analyst (Tier 1)",
+    "company": "Leidos",
+    "market": "VA",
+    "city": "Alexandria, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://careers.leidos.com/jobs/17717696-senior-service-desk-analyst-tier-1",
+    "notes": "No clearance required - Tier 1 help desk - Security+ a plus - NoVA location",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
+  },
+  {
+    "id": 5,
+    "score": 80,
+    "title": "Junior Desktop Support Specialist",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Maryland",
+    "salary": "Competitive",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://careers.leidos.com/jobs/17745404-junior-desktop-support-specialist",
+    "notes": "Junior/entry-level role - desktop support - Security+ valued - confirm clearance on posting",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
+  },
+  {
+    "id": 6,
+    "score": 78,
+    "title": "Desktop Support Technician",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Bethesda, MD",
+    "salary": "Competitive",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec",
+      "fed"
+    ],
     "priority": "Medium",
-    "url": "https://careers-peraton.icims.com/jobs/167157/tier-2-service-desk-technician/job",
-    "notes": "Onsite at federal agency HQ downtown DC - Tier 2 bar slightly above entry - Major defense contractor on target list",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
+    "url": "https://careers.leidos.com/jobs/17723601-desktop-support-technician",
+    "notes": "Secret clearance required - clearance-eligible candidates considered - Security+ valued - Bethesda",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
+  },
+  {
+    "id": 7,
+    "score": 77,
+    "title": "Desktop Support Technician",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Bethesda, MD",
+    "salary": "Competitive",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://careers.leidos.com/jobs/17864399-desktop-support-technician",
+    "notes": "Secret clearance required - second Bethesda opening - Security+ valued - onsite",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
+  },
+  {
+    "id": 8,
+    "score": 76,
+    "title": "SMIT Service Desk Tier 1 Technician",
+    "company": "Leidos",
+    "market": "VA",
+    "city": "Norfolk, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://careers.leidos.com/jobs/17802789-smit-service-desk-tier-1-technician",
+    "notes": "Secret clearance required - Tier 1 service desk - Security+ valued - Navy SMIT contract",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
+  },
+  {
+    "id": 9,
+    "score": 75,
+    "title": "Desktop Support Technician",
+    "company": "Leidos",
+    "market": "VA",
+    "city": "Norfolk, VA",
+    "salary": "Competitive",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://careers.leidos.com/jobs/17854729-desktop-support-technician",
+    "notes": "Secret clearance required - desktop support - Security+ valued - Norfolk area",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
+  },
+  {
+    "id": 10,
+    "score": 74,
+    "title": "IT Support Technician",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Maryland",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://careers.leidos.com/jobs/17697853-it-support-technician-2",
+    "notes": "Entry-level IT support - Security+ valued - confirm clearance and exact site on posting",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
+  },
+  {
+    "id": 11,
+    "score": 74,
+    "title": "SMIT Service Desk Tier 1 Technician",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Maryland",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://careers.leidos.com/jobs/17366187-smit-service-desk-tier-1-technician",
+    "notes": "Tier 1 service desk - clearance likely required - Security+ valued - confirm site on posting",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
+  },
+  {
+    "id": 12,
+    "score": 73,
+    "title": "Service Desk Analyst (Tier 1) - WDP",
+    "company": "Leidos",
+    "market": "VA",
+    "city": "Alexandria, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://careers.leidos.com/jobs/17717702-senior-service-desk-analyst-tier-1-wdp",
+    "notes": "Secret clearance required - Tier 1 service desk - Security+ valued - NoVA",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
+  },
+  {
+    "id": 13,
+    "score": 72,
+    "title": "SMIT Service Desk RDM Tier 2 Technician",
+    "company": "Leidos",
+    "market": "VA",
+    "city": "Norfolk, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://careers.leidos.com/jobs/17802538-smit-service-desk-rdm-tier-2-technician",
+    "notes": "Secret clearance required - Tier 2 escalation desk - slightly higher experience bar - Security+ valued",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
   },
   {
     "id": 14,
-    "score": 75,
-    "title": "Help Desk Coordinator",
-    "company": "Cherokee Federal",
-    "market": "TX",
-    "city": "San Antonio, TX",
-    "salary": "$47K-$57K/yr",
+    "score": 70,
+    "title": "SMIT Service Desk Technical Lead / Onsite Support",
+    "company": "Leidos",
+    "market": "VA",
+    "city": "Norfolk, VA",
+    "salary": "Competitive",
     "roleType": "Help Desk",
-    "certs": [],
+    "certs": [
+      "sec",
+      "fed"
+    ],
     "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/d789c4b7-5613-4310-b45b-26c5317a24ea",
-    "notes": "Federal contractor in San Antonio - BMC Remedy ticketing - Clearance mentioned in skills so eligibility helps - TX secondary market",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
+    "url": "https://careers.leidos.com/jobs/17797533-smit-service-desk-technical-lead-slash-onsite-support",
+    "notes": "Secret clearance required - lead/onsite support - aspirational but related to Tier 1 path - Security+ valued",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
   },
   {
     "id": 15,
-    "score": 74,
+    "score": 68,
+    "title": "Enterprise Help Desk (EHD) Tier 1",
+    "company": "Leidos",
+    "market": "VA",
+    "city": "Lorton, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://careers.leidos.com/jobs/17537179-enterprise-help-desk-ehd-tier-1",
+    "notes": "TS/SCI required - Tier 1 help desk - clearance is the main gap - apply if pursuing clearance sponsorship",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
+  },
+  {
+    "id": 16,
+    "score": 67,
+    "title": "SME Service Desk Analyst (Tier 1)",
+    "company": "Leidos",
+    "market": "VA",
+    "city": "Alexandria, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://careers.leidos.com/jobs/17758944-sme-service-desk-analyst-tier-1",
+    "notes": "TS/SCI required - Tier 1 SME desk - clearance gap - competitive but valuable target",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
+  },
+  {
+    "id": 17,
+    "score": 66,
+    "title": "Journeyman Service Desk Analyst (Tier 1)",
+    "company": "Leidos",
+    "market": "VA",
+    "city": "Alexandria, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://careers.leidos.com/jobs/17757131-journeyman-service-desk-analyst-tier-1",
+    "notes": "TS/SCI required - journeyman Tier 1 - clearance gap - good once cleared",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
+  },
+  {
+    "id": 18,
+    "score": 65,
+    "title": "Journeyman Service Desk Analyst (Tier 1)",
+    "company": "Leidos",
+    "market": "VA",
+    "city": "Alexandria, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://careers.leidos.com/jobs/17758943-journeyman-service-desk-analyst-tier-1",
+    "notes": "TS/SCI required - second journeyman Tier 1 opening - clearance gap - NoVA",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
+  },
+  {
+    "id": 19,
+    "score": 64,
+    "title": "Executive Support IT Service Desk Analyst",
+    "company": "Leidos",
+    "market": "VA",
+    "city": "Fort Belvoir, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://careers.leidos.com/jobs/17842358-executive-support-it-service-desk-analyst",
+    "notes": "TS/SCI required - VIP/executive support desk - clearance and polish bar higher - aspirational",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
+  },
+  {
+    "id": 20,
+    "score": 64,
+    "title": "TFDM Technical Triage Manager - AIMS & Help Desk",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Gaithersburg, MD",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Stretch",
+    "url": "https://careers.leidos.com/jobs/17809043-tfdm-technical-triage-manager-aims-and-help-desk",
+    "notes": "Public Trust - no clearance needed but a management/lead role - higher experience bar - good MD aspirational target",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
+  },
+  {
+    "id": 21,
+    "score": 63,
+    "title": "SME Service Desk Analyst (Tier 1) Lead - WDP",
+    "company": "Leidos",
+    "market": "VA",
+    "city": "Alexandria, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://careers.leidos.com/jobs/17703288-sme-service-desk-analyst-tier-1-lead-wdp",
+    "notes": "TS/SCI required - lead SME desk - clearance and seniority gap - target for later",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
+  },
+  {
+    "id": 22,
+    "score": 62,
+    "title": "Service Desk Analyst (Tier 1) - WDP",
+    "company": "Leidos",
+    "market": "VA",
+    "city": "Alexandria, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://careers.leidos.com/jobs/17717704-senior-service-desk-analyst-tier-1-wdp",
+    "notes": "TS/SCI required - Tier 1 service desk - clearance gap - NoVA",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
+  },
+  {
+    "id": 23,
+    "score": 62,
     "title": "Systems Network Administrator I / Service Desk Support",
     "company": "Leidos",
     "market": "MD",
     "city": "Laurel, MD",
-    "salary": "$59K-$107K/yr",
+    "salary": "Competitive",
     "roleType": "Systems Admin",
     "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/bfb6cc59-b05c-4cb3-84c2-c1bfab6d1905",
-    "notes": "Security+ listed - Tier 1/2 service desk plus network ops - Intel community program so clearance processing likely",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 16,
-    "score": 73,
-    "title": "Remote ISP Support Technician",
-    "company": "TEKsystems",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$15-$16/hr",
-    "roleType": "Help Desk",
-    "certs": [],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/2cfa3954-89fe-4a6e-b685-350d6af4a907",
-    "notes": "Posted 2 days ago - Fully remote tech support - Lower pay but fast hire and resume experience - Raleigh NC based team",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 17,
-    "score": 72,
-    "title": "Junior System Administrator",
-    "company": "T-Rex Solutions",
-    "market": "MD",
-    "city": "Fort Meade, MD",
-    "salary": "$80K-$100K/yr",
-    "roleType": "Systems Admin",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/99735a5e-ab7b-473e-818b-75c3f7e1f1d2",
-    "notes": "Strong salary at Fort Meade - Tier 1/2 help desk duties - Likely requires clearance processing - Linux/Unix exposure a plus",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 18,
-    "score": 72,
-    "title": "Helpdesk Technician I",
-    "company": "Bowman Consulting Group",
-    "market": "TX",
-    "city": "Houston, TX",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/48fabd03-1855-42f6-a4d2-bd5a949cbbd5",
-    "notes": "Commercial engineering firm - Level I entry role - CompTIA and ITIL valued - No clearance needed - TX secondary market",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 19,
-    "score": 71,
-    "title": "Desktop / Field Support Technician",
-    "company": "Teceze Ltd",
-    "market": "TX",
-    "city": "Dallas, TX",
-    "salary": "$42K-$48K/yr",
-    "roleType": "Field Tech",
-    "certs": [],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/d83e13c1-26ff-4f9f-83a7-8a0233295c37",
-    "notes": "Desktop and field services - Active Directory and Windows troubleshooting - No clearance - TX secondary market",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 20,
-    "score": 70,
-    "title": "Technical Support Specialist",
-    "company": "Sanmina-SCI / Viking Interworks",
-    "market": "TX",
-    "city": "Houston, TX",
-    "salary": "Competitive",
-    "roleType": "Desktop Support",
-    "certs": [],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/32ff900e-0e22-4b22-a0cc-cc7b093f3b09",
-    "notes": "Manufacturing environment support - Phone and help desk support - Hardware troubleshooting - No clearance needed",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 21,
-    "score": 70,
-    "title": "Network Engineer I",
-    "company": "Perdue Farms",
-    "market": "MD",
-    "city": "Salisbury, MD",
-    "salary": "$20-$30/hr",
-    "roleType": "NOC",
-    "certs": [],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/147712ea-ff50-45be-8e58-603479a59160",
-    "notes": "Level I network role on corporate team - SolarWinds and LAN/VPN exposure - Commercial path outside govcon - Eastern Shore MD",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 22,
-    "score": 70,
-    "title": "Middleware Administrator, Junior",
-    "company": "Resource Management Concepts",
-    "market": "VA",
-    "city": "Dahlgren, VA",
-    "salary": "$65K-$90K/yr",
-    "roleType": "Systems Admin",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/6e74c082-ecbe-4bde-a52e-2d637d7d920f",
-    "notes": "Junior title with strong salary - Navy base support - Service desk plus middleware - Likely clearance processing required",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 23,
-    "score": 68,
-    "title": "Help Desk Technician Mid-level (Active Top Secret)",
-    "company": "GDIT",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
+      "sec",
       "fed"
     ],
     "priority": "Stretch",
-    "url": "https://www.gdit.com/careers/job/d91883bb6/help-desk-technician-mid-level-active-top-secret-required/",
-    "notes": "Requires active Top Secret - Executive IT support at highest levels of federal government - Apply to get on GDIT radar",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
+    "url": "https://careers.leidos.com/jobs/17668579-systems-network-administrator-i-slash-service-desk-support",
+    "notes": "TS/SCI with Polygraph required - entry sysadmin/service desk - polygraph is a high bar - valuable MD target if cleared",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
   },
   {
     "id": 24,
-    "score": 66,
-    "title": "Help Desk Support Technician",
-    "company": "Peraton",
-    "market": "VA",
-    "city": "Springfield, VA",
-    "salary": "$39K-$62K/yr",
-    "roleType": "Help Desk",
+    "score": 61,
+    "title": "Lifecycle Support Analyst",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Annapolis Junction, MD",
+    "salary": "Competitive",
+    "roleType": "Desktop Support",
     "certs": [
+      "sec",
       "fed"
     ],
     "priority": "Stretch",
-    "url": "https://www.careers.peraton.com/jobs/help-desk-support-technician-springfield-virginia-163053-jobs--information-technology--",
-    "notes": "Requires active TS/SCI and 3 years experience - Phone-based technical support - Stretch but on a top target company",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
+    "url": "https://careers.leidos.com/jobs/17624821-lifecycle-support-analyst",
+    "notes": "TS/SCI with Polygraph required - hardware lifecycle/desktop support - polygraph high bar - MD aspirational",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
   },
   {
     "id": 25,
-    "score": 65,
-    "title": "Help Desk Technician (TS/SCI with Poly)",
-    "company": "GDIT",
+    "score": 60,
+    "title": "Help Desk Manager",
+    "company": "Leidos",
     "market": "VA",
     "city": "Chantilly, VA",
     "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
+      "sec",
       "fed"
     ],
     "priority": "Stretch",
-    "url": "https://www.gdit.com/careers/job/1f82dbe67/help-desk-technician-tssci/",
-    "notes": "Pipeline requisition requiring TS/SCI with polygraph - Active Directory and help desk skills - Long-shot but builds pipeline presence",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 26,
-    "score": 64,
-    "title": "IT Service Desk / IT Watch Stander",
-    "company": "Peraton",
-    "market": "VA",
-    "city": "Norfolk, VA",
-    "salary": "Competitive",
-    "roleType": "NOC",
-    "certs": [
-      "fed"
-    ],
-    "priority": "Stretch",
-    "url": "https://careers-peraton.icims.com/jobs/167340/it-service-desk-it-watch-stander/job",
-    "notes": "Requires Top Secret - Navy enterprise environment with training provided - 12-hour rotating shifts - Great experience builder if cleared",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
-  },
-  {
-    "id": 27,
-    "score": 62,
-    "title": "IT Support Technician",
-    "company": "Peraton",
-    "market": "VA",
-    "city": "Charlottesville, VA",
-    "salary": "Competitive",
-    "roleType": "Desktop Support",
-    "certs": [
-      "fed"
-    ],
-    "priority": "Stretch",
-    "url": "https://careers-peraton.icims.com/jobs/167465/it-support-technician/job",
-    "notes": "Requires TS/SCI - Jack-of-all-trades IT role beyond basic help desk - Out of primary metro but strong skill builder",
-    "postedDate": "2026-06-12",
-    "posted": "2026-06-12"
+    "url": "https://careers.leidos.com/jobs/17740219-help-desk-manager",
+    "notes": "TS/SCI required - management role - clearance and leadership experience gap - long-term target",
+    "postedDate": "2026-06-14",
+    "posted": "2026-06-14"
   }
 ]
