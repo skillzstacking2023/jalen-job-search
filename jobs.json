@@ -1,383 +1,510 @@
 [
   {
     "id": 1,
-    "score": 90,
-    "title": "Junior Desktop Support Specialist",
-    "company": "Leidos",
+    "score": 85,
+    "title": "Help Desk Jr. Analyst",
+    "company": "Cogent People",
     "market": "MD",
-    "city": "Lanham, MD",
+    "city": "Columbia, MD",
     "salary": "Competitive",
-    "roleType": "Desktop Support",
+    "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://careers.leidos.com/jobs/17745404-junior-desktop-support-specialist",
-    "notes": "Entry-level junior role - no clearance required - Security+ a plus - strong MD market fit",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
+    "url": "https://www.linkedin.com/jobs/view/help-desk-jr-analyst-at-cogent-people-4425956919",
+    "notes": "Help Desk role at Cogent People - MD market - Entry/associate level - Security+ aligned - Posted 2026-06-09",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
   },
   {
     "id": 2,
-    "score": 90,
-    "title": "IT Support Technician",
-    "company": "Leidos",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://careers.leidos.com/jobs/17697853-it-support-technician-2",
-    "notes": "Public Trust - no clearance required - entry-level onsite IT support - Security+ valued",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
-  },
-  {
-    "id": 3,
-    "score": 88,
-    "title": "IT Support Technician",
-    "company": "Leidos",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://careers.leidos.com/jobs/17817102-it-support-technician",
-    "notes": "Public Trust - help desk and deskside support - Security+ a plus - DC primary market",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
-  },
-  {
-    "id": 4,
-    "score": 86,
-    "title": "Desktop Support Technician",
-    "company": "Leidos",
+    "score": 85,
+    "title": "IT Support Technician I",
+    "company": "Grossberg Company LLP",
     "market": "MD",
     "city": "Bethesda, MD",
     "salary": "Competitive",
-    "roleType": "Desktop Support",
+    "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://careers.leidos.com/jobs/17864399-desktop-support-technician",
-    "notes": "Entry-level desktop support - no clearance required - Security+ a plus - strong MD fit",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
+    "url": "https://www.linkedin.com/jobs/view/it-support-technician-i-at-grossberg-company-llp-4415720164",
+    "notes": "Help Desk role at Grossberg Company LLP - MD market - Entry/associate level - Security+ aligned - Posted 2026-05-18",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
+  },
+  {
+    "id": 3,
+    "score": 85,
+    "title": "IT Support Help Desk Specialist (Tier 1 & 2)",
+    "company": "Index Analytics LLC",
+    "market": "MD",
+    "city": "Windsor Mill, MD",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/it-support-help-desk-specialist-tier-1-2-at-index-analytics-llc-4417333924",
+    "notes": "Help Desk role at Index Analytics LLC - MD market - Entry/associate level - Security+ aligned - Posted 2026-05-20",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
+  },
+  {
+    "id": 4,
+    "score": 85,
+    "title": "Junior Help Desk Specialist",
+    "company": "Nyla Technology Solutions",
+    "market": "MD",
+    "city": "Annapolis Junction, MD",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/junior-help-desk-specialist-at-nyla-technology-solutions-4427791015",
+    "notes": "Help Desk role at Nyla Technology Solutions - MD market - Entry/associate level - Security+ aligned - Posted 2026-06-16",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
   },
   {
     "id": 5,
     "score": 85,
-    "title": "Tier I Help Desk Analyst",
-    "company": "SAIC",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$40K-$80K/yr",
+    "title": "Help Desk Tier I Specialist - Remote after 8 weeks of training",
+    "company": "Reston Consulting Group, Inc.",
+    "market": "MD",
+    "city": "Silver Spring, MD",
+    "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://jobs.saic.com/jobs/16561905-tier-i-help-desk-analyst",
-    "notes": "Fully remote - Tier 1 help desk - clearance-eligible welcome - Security+ a plus",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
+    "url": "https://www.linkedin.com/jobs/view/help-desk-tier-i-specialist-remote-after-8-weeks-of-training-at-reston-consulting-group-inc-4429579691",
+    "notes": "Help Desk role at Reston Consulting Group, Inc. - MD market - Entry/associate level - Security+ aligned - Posted 2026-06-16",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
   },
   {
     "id": 6,
-    "score": 84,
-    "title": "Temporary IT Technician II (1 Year Term)",
-    "company": "U.S. Federal Government (USAJOBS)",
+    "score": 85,
+    "title": "Tier 1 Help Desk Technician",
+    "company": "Iron Bow Technologies",
     "market": "VA",
-    "city": "Alexandria, VA",
-    "salary": "$56K-$71K/yr",
-    "roleType": "Desktop Support",
+    "city": "Herndon, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.usajobs.gov/job/865610500",
-    "notes": "Entry-level federal - telework option available - no active clearance required - Security+ valued",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
+    "url": "https://www.linkedin.com/jobs/view/tier-1-help-desk-technician-at-iron-bow-technologies-4426568145",
+    "notes": "Help Desk role at Iron Bow Technologies - VA market - Entry/associate level - Security+ aligned - Posted 2026-06-09",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
   },
   {
     "id": 7,
-    "score": 82,
-    "title": "Senior Service Desk Analyst (Tier 1) - WDP",
-    "company": "Leidos",
-    "market": "MD",
-    "city": "Gaithersburg, MD",
+    "score": 85,
+    "title": "IT Support I",
+    "company": "Freedom First Credit Union",
+    "market": "VA",
+    "city": "Roanoke, VA",
     "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://careers.leidos.com/jobs/17717704-senior-service-desk-analyst-tier-1-wdp",
-    "notes": "Tier 1 service desk - hybrid remote - Public Trust - Security+ a plus - MD fit",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
+    "url": "https://www.linkedin.com/jobs/view/it-support-i-at-freedom-first-credit-union-4426978263",
+    "notes": "Help Desk role at Freedom First Credit Union - VA market - Entry/associate level - Security+ aligned - Posted 2026-06-10",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
   },
   {
     "id": 8,
-    "score": 80,
-    "title": "Enterprise Help Desk (EHD) Tier 1",
-    "company": "Leidos",
+    "score": 85,
+    "title": "MSP Level 1 Technician (Winchester, VA)",
+    "company": "TeamLogic IT",
     "market": "VA",
-    "city": "Lorton, VA",
+    "city": "Winchester, VA",
     "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://careers.leidos.com/jobs/17537179-enterprise-help-desk-ehd-tier-1",
-    "notes": "Entry Tier 1 help desk - VA - Security+ a plus - Public Trust",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
+    "url": "https://www.linkedin.com/jobs/view/msp-level-1-technician-winchester-va-at-teamlogic-it-4420722141",
+    "notes": "Help Desk role at TeamLogic IT - VA market - Entry/associate level - Security+ aligned - Posted 2026-06-04",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
   },
   {
     "id": 9,
-    "score": 79,
-    "title": "Desktop Support Technician",
-    "company": "Leidos",
-    "market": "VA",
-    "city": "Norfolk, VA",
+    "score": 85,
+    "title": "Service Desk Technician I",
+    "company": "Terrestris LLC",
+    "market": "DC",
+    "city": "Washington, DC",
     "salary": "Competitive",
-    "roleType": "Desktop Support",
+    "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
-    "priority": "Medium",
-    "url": "https://careers.leidos.com/jobs/17723601-desktop-support-technician",
-    "notes": "Entry desktop support - Norfolk VA - clearance eligibility helpful - Security+ a plus",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/service-desk-technician-i-at-terrestris-llc-4421174755",
+    "notes": "Help Desk role at Terrestris LLC - DC market - Entry/associate level - Security+ aligned - Posted 2026-06-05",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
   },
   {
     "id": 10,
-    "score": 78,
-    "title": "Desktop Support Technician",
-    "company": "Leidos",
-    "market": "VA",
-    "city": "Norfolk, VA",
+    "score": 85,
+    "title": "Service Desk Technician Level I",
+    "company": "eTRANSERVICES",
+    "market": "DC",
+    "city": "Washington DC-Baltimore Area",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/service-desk-technician-level-i-at-etranservices-4427040071",
+    "notes": "Help Desk role at eTRANSERVICES - DC market - Entry/associate level - Security+ aligned - Posted 2026-06-10",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
+  },
+  {
+    "id": 11,
+    "score": 82,
+    "title": "Help Desk Technician",
+    "company": "Lentech, Inc.",
+    "market": "MD",
+    "city": "Columbia, MD",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-technician-at-lentech-inc-4426439283",
+    "notes": "Help Desk role at Lentech, Inc. - MD market - Entry/associate level - Security+ aligned - Posted 2026-06-15",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
+  },
+  {
+    "id": 12,
+    "score": 82,
+    "title": "IT Support Technician",
+    "company": "SpaceX",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/it-support-technician-at-spacex-4423096543",
+    "notes": "Help Desk role at SpaceX - DC market - Entry/associate level - Security+ aligned - Posted 2026-06-04",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
+  },
+  {
+    "id": 13,
+    "score": 82,
+    "title": "Client Support Technician",
+    "company": "Personified",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/client-support-technician-at-personified-4429715890",
+    "notes": "Help Desk role at Personified - DC market - Entry/associate level - Security+ aligned - Posted 2026-06-16",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
+  },
+  {
+    "id": 14,
+    "score": 81,
+    "title": "PC/Mac Desktop Support Specialist",
+    "company": "Imagineeer",
+    "market": "MD",
+    "city": "Rockville, MD",
     "salary": "Competitive",
     "roleType": "Desktop Support",
     "certs": [
       "sec"
     ],
-    "priority": "Medium",
-    "url": "https://careers.leidos.com/jobs/17854729-desktop-support-technician",
-    "notes": "Entry desktop support - Norfolk VA - additional opening on same program",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
-  },
-  {
-    "id": 11,
-    "score": 78,
-    "title": "Journeyman Service Desk Analyst (Tier 1)",
-    "company": "Leidos",
-    "market": "VA",
-    "city": "Alexandria, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://careers.leidos.com/jobs/17758943-journeyman-service-desk-analyst-tier-1",
-    "notes": "Tier 1 service desk - hybrid remote - some experience preferred - Security+ a plus",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
-  },
-  {
-    "id": 12,
-    "score": 77,
-    "title": "Journeyman Service Desk Analyst (Tier 1)",
-    "company": "Leidos",
-    "market": "VA",
-    "city": "Alexandria, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://careers.leidos.com/jobs/17758942-journeyman-service-desk-analyst-tier-1",
-    "notes": "Tier 1 service desk - hybrid remote - additional opening - Security+ a plus",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
-  },
-  {
-    "id": 13,
-    "score": 77,
-    "title": "SMIT Service Desk Tier 1 Technician",
-    "company": "Leidos",
-    "market": "VA",
-    "city": "Norfolk, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "Medium",
-    "url": "https://careers.leidos.com/jobs/17366187-smit-service-desk-tier-1-technician",
-    "notes": "Navy SMIT program - ability to obtain Secret clearance - Tier 1 entry - Security+ a plus",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
-  },
-  {
-    "id": 14,
-    "score": 76,
-    "title": "Senior Service Desk Analyst (Tier 1) - WDP",
-    "company": "Leidos",
-    "market": "VA",
-    "city": "Alexandria, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://careers.leidos.com/jobs/17717707-senior-service-desk-analyst-tier-1-wdp",
-    "notes": "Tier 1 service desk - hybrid - senior title but entry-level duties - Security+ a plus",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/pc-mac-desktop-support-specialist-at-imagineeer-4425371509",
+    "notes": "Desktop Support role at Imagineeer - MD market - Entry/associate level - Security+ aligned - Posted 2026-06-13",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
   },
   {
     "id": 15,
-    "score": 75,
-    "title": "Journeyman Service Desk Analyst (Tier 1)",
-    "company": "Leidos",
-    "market": "VA",
-    "city": "Alexandria, VA",
+    "score": 81,
+    "title": "Service Desk Administrator I (IT)",
+    "company": "HR Green, Inc.",
+    "market": "TX",
+    "city": "Houston, TX",
     "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
-    "priority": "Medium",
-    "url": "https://careers.leidos.com/jobs/17757131-journeyman-service-desk-analyst-tier-1",
-    "notes": "Tier 1 service desk - hybrid remote - additional opening - Security+ a plus",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/service-desk-administrator-i-it-at-hr-green-inc-4410273903",
+    "notes": "Help Desk role at HR Green, Inc. - TX market - Entry/associate level - Security+ aligned - Posted 2026-06-16",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
   },
   {
     "id": 16,
-    "score": 75,
-    "title": "Senior Service Desk Analyst (Tier 1)",
-    "company": "Leidos",
-    "market": "MD",
-    "city": "Gaithersburg, MD",
+    "score": 81,
+    "title": "IT Support Specialist I",
+    "company": "MOVA Metals",
+    "market": "TX",
+    "city": "Freeport, TX",
     "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
-    "priority": "Medium",
-    "url": "https://careers.leidos.com/jobs/17717699-senior-service-desk-analyst-tier-1-wdp",
-    "notes": "Tier 1 service desk - hybrid remote - MD - Security+ a plus",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/it-support-specialist-i-at-mova-metals-4425549505",
+    "notes": "Help Desk role at MOVA Metals - TX market - Entry/associate level - Security+ aligned - Posted 2026-06-08",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
   },
   {
     "id": 17,
-    "score": 74,
-    "title": "Senior Service Desk Analyst (Tier 1) - WDP",
-    "company": "Leidos",
-    "market": "MD",
-    "city": "Gaithersburg, MD",
+    "score": 80,
+    "title": "Junior Cloud Engineer (Hybrid)",
+    "company": "ISI",
+    "market": "VA",
+    "city": "Herndon, VA",
+    "salary": "Competitive",
+    "roleType": "Cloud",
+    "certs": [
+      "sec",
+      "cloud"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/junior-cloud-engineer-hybrid-at-isi-4414029214",
+    "notes": "Cloud role at ISI - VA market - Entry/associate level - Security+ aligned - Posted 2026-05-21",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
+  },
+  {
+    "id": 18,
+    "score": 80,
+    "title": "Junior Cloud Engineer",
+    "company": "ISI",
+    "market": "VA",
+    "city": "Reston, VA",
+    "salary": "Competitive",
+    "roleType": "Cloud",
+    "certs": [
+      "sec",
+      "cloud"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/junior-cloud-engineer-at-isi-4422402452",
+    "notes": "Cloud role at ISI - VA market - Entry/associate level - Security+ aligned - Posted 2026-06-02",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
+  },
+  {
+    "id": 19,
+    "score": 80,
+    "title": "Support Analyst",
+    "company": "Franklin Fitch",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/support-analyst-at-franklin-fitch-4421694676",
+    "notes": "Help Desk role at Franklin Fitch - Fully remote - Entry/associate level - Security+ aligned - Posted 2026-06-01",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
+  },
+  {
+    "id": 20,
+    "score": 80,
+    "title": "Help Desk Technician",
+    "company": "Value Innovation Labs",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-technician-at-value-innovation-labs-4427748314",
+    "notes": "Help Desk role at Value Innovation Labs - Fully remote - Entry/associate level - Security+ aligned - Posted 2026-06-15",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
+  },
+  {
+    "id": 21,
+    "score": 80,
+    "title": "Help Desk Technician",
+    "company": "Suna Solutions",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-technician-at-suna-solutions-4428071670",
+    "notes": "Help Desk role at Suna Solutions - Fully remote - Entry/associate level - Security+ aligned - Posted 2026-06-16",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
+  },
+  {
+    "id": 22,
+    "score": 78,
+    "title": "Junior Systems Administrator",
+    "company": "SHR Consulting Group",
+    "market": "VA",
+    "city": "Hampton, VA",
+    "salary": "Competitive",
+    "roleType": "Systems Admin",
+    "certs": [
+      "sec",
+      "cloud"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/junior-systems-administrator-at-shr-consulting-group-4427765309",
+    "notes": "Systems Admin role at SHR Consulting Group - VA market - Entry/associate level - Security+ aligned - Posted 2026-06-15",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
+  },
+  {
+    "id": 23,
+    "score": 78,
+    "title": "IT Help Desk Support Specialist",
+    "company": "prototype:IT",
+    "market": "TX",
+    "city": "Lewisville, TX",
     "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://careers.leidos.com/jobs/17717709-senior-service-desk-analyst-tier-1-wdp",
-    "notes": "Tier 1 service desk - additional MD opening - Security+ a plus",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
+    "url": "https://www.linkedin.com/jobs/view/it-help-desk-support-specialist-at-prototype-it-4424869007",
+    "notes": "Help Desk role at prototype:IT - TX market - Entry/associate level - Security+ aligned - Posted 2026-06-11",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
   },
   {
-    "id": 18,
-    "score": 74,
-    "title": "Cybersecurity Analyst Intern",
-    "company": "SAIC",
-    "market": "DC",
-    "city": "Washington, DC",
+    "id": 24,
+    "score": 76,
+    "title": "Tier 1 SOC Analyst",
+    "company": "Seneca Resources Company, LLC",
+    "market": "MD",
+    "city": "Rockville, MD",
+    "salary": "Competitive",
+    "roleType": "SOC",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/tier-1-soc-analyst-at-seneca-resources-company-llc-4429139155",
+    "notes": "SOC role at Seneca Resources Company, LLC - MD market - Entry/associate level - Security+ aligned - Posted 2026-06-15",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
+  },
+  {
+    "id": 25,
+    "score": 76,
+    "title": "Tier 1 SOC Analyst",
+    "company": "GDH",
+    "market": "MD",
+    "city": "Rockville, MD",
+    "salary": "Competitive",
+    "roleType": "SOC",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/tier-1-soc-analyst-at-gdh-4429579048",
+    "notes": "SOC role at GDH - MD market - Entry/associate level - Security+ aligned - Posted 2026-06-16",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
+  },
+  {
+    "id": 26,
+    "score": 75,
+    "title": "Systems Administrator",
+    "company": "Taku Health Services, LLC",
+    "market": "MD",
+    "city": "Rockville, MD",
+    "salary": "Competitive",
+    "roleType": "Systems Admin",
+    "certs": [
+      "sec",
+      "cloud"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/systems-administrator-at-taku-health-services-llc-4250049596",
+    "notes": "Systems Admin role at Taku Health Services, LLC - MD market - Entry/associate level - Security+ aligned - Posted 2026-06-13",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
+  },
+  {
+    "id": 27,
+    "score": 67,
+    "title": "Special Agent: Cybersecurity/Technology Expertise",
+    "company": "Federal Bureau of Investigation (FBI)",
+    "market": "MD",
+    "city": "Baltimore, MD",
     "salary": "Competitive",
     "roleType": "Cybersecurity",
     "certs": [
       "sec"
     ],
-    "priority": "Medium",
-    "url": "https://jobs.saic.com/jobs/17642654-cybersecurity-analyst-intern",
-    "notes": "SOC exposure - incident response and threat detection - must obtain Public Trust - early-career",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
+    "priority": "Stretch",
+    "url": "https://www.linkedin.com/jobs/view/special-agent-cybersecurity-technology-expertise-at-federal-bureau-of-investigation-fbi-4427052555",
+    "notes": "Cybersecurity role at Federal Bureau of Investigation (FBI) - MD market - Entry/associate level - Security+ aligned - Posted 2026-06-10",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
   },
   {
-    "id": 19,
-    "score": 73,
-    "title": "Executive Support IT Service Desk Analyst",
-    "company": "Leidos",
+    "id": 28,
+    "score": 67,
+    "title": "Cybersecurity (RMF & Compliance)",
+    "company": "Versar Global Solutions",
     "market": "VA",
-    "city": "Fort Belvoir, VA",
+    "city": "Newport News, VA",
     "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "Medium",
-    "url": "https://careers.leidos.com/jobs/17842358-executive-support-it-service-desk-analyst",
-    "notes": "Army site - ability to obtain Secret clearance - VIP/executive support - Security+ a plus",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
-  },
-  {
-    "id": 20,
-    "score": 72,
-    "title": "SME Service Desk Analyst (Tier 1) Lead - WDP",
-    "company": "Leidos",
-    "market": "VA",
-    "city": "Alexandria, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
+    "roleType": "Cybersecurity",
     "certs": [
       "sec"
     ],
-    "priority": "Medium",
-    "url": "https://careers.leidos.com/jobs/17703288-sme-service-desk-analyst-tier-1-lead",
-    "notes": "Lead/SME role - higher bar but Tier 1 program - aspirational stretch with growth path",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
-  },
-  {
-    "id": 21,
-    "score": 68,
-    "title": "Systems Network Administrator I / Service Desk Support",
-    "company": "Leidos",
-    "market": "MD",
-    "city": "Laurel, MD",
-    "salary": "Competitive",
-    "roleType": "Systems Admin",
-    "certs": [
-      "sec",
-      "fed"
-    ],
     "priority": "Stretch",
-    "url": "https://careers.leidos.com/jobs/17668579-systems-network-administrator-i-slash-service-desk-support",
-    "notes": "Entry sysadmin I - Laurel MD - active TS/SCI likely required - aspirational - Security+ a plus",
-    "postedDate": "2026-06-15",
-    "posted": "2026-06-15"
+    "url": "https://www.linkedin.com/jobs/view/cybersecurity-rmf-compliance-at-versar-global-solutions-4429132570",
+    "notes": "Cybersecurity role at Versar Global Solutions - VA market - Entry/associate level - Security+ aligned - Posted 2026-06-15",
+    "postedDate": "2026-06-17",
+    "posted": "2026-06-17"
   }
 ]
