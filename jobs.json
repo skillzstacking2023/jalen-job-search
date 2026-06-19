@@ -1,117 +1,117 @@
 [
   {
     "id": 1,
-    "score": 88,
-    "title": "Helpdesk Technician",
-    "company": "Cayuse Holdings",
-    "market": "MD",
-    "city": "Joint Base Andrews, MD",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/ee80f86e-7503-4350-a071-81afa7c09be0",
-    "notes": "First-level technical support in DoD environment - Security+ / clearance eligible a plus - On-site MD",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
-  },
-  {
-    "id": 2,
-    "score": 86,
-    "title": "Junior Helpdesk Specialist",
-    "company": "Federal IT Contractor",
-    "market": "VA",
-    "city": "Springfield, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/ff907a7c-a842-4545-ab75-184d262e4577",
-    "notes": "Junior-level help desk role - strong fit for entry experience - Security+ preferred - On-site VA",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
-  },
-  {
-    "id": 3,
-    "score": 85,
-    "title": "Desktop Support Technician",
-    "company": "NGEN / Navy IT Program",
+    "score": 90,
+    "title": "Desktop Support Specialist (Junior Level)",
+    "company": "Skysoft Inc",
     "market": "MD",
     "city": "Bethesda, MD",
     "salary": "Competitive",
     "roleType": "Desktop Support",
     "certs": [
-      "sec",
-      "fed"
+      "sec"
     ],
     "priority": "High",
-    "url": "https://www.dice.com/job-detail/dadfab7f-c57e-4fc3-a063-a27e41e6a324",
-    "notes": "Navy NGEN desktop support - Security+ / 8570 likely required - Clearance eligible - On-site MD",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
+    "url": "https://www.dice.com/job-detail/4582382a-dfe6-4137-a931-ed18aaffb755",
+    "notes": "Explicitly junior level - Hybrid in Bethesda - Strong entry-level desktop support match in primary market",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
   },
   {
-    "id": 4,
-    "score": 85,
-    "title": "Junior Helpdesk Specialist",
-    "company": "Federal IT Contractor",
+    "id": 2,
+    "score": 89,
+    "title": "Junior Helpdesk (Entry Level)",
+    "company": "Kforce Technology Staffing",
     "market": "VA",
-    "city": "Springfield, VA",
+    "city": "Fort Belvoir, VA",
     "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.dice.com/job-detail/0df636c6-3b48-4415-8094-5b5f354be0fe",
-    "notes": "Second junior help desk opening - same team / shift variant - Security+ preferred - On-site VA",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
+    "url": "https://www.dice.com/job-detail/d4f8dbe2-2369-43d4-9d76-313fa44ed1f8",
+    "notes": "Entry-level title - Fort Belvoir VA - Clearance-eligible candidates welcome - Excellent fit",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
+  },
+  {
+    "id": 3,
+    "score": 88,
+    "title": "Desktop Support Technician",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Bethesda, MD",
+    "salary": "$36-$40/hr",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.dice.com/job-detail/dadfab7f-c57e-4fc3-a063-a27e41e6a324",
+    "notes": "Top target federal contractor - Bethesda MD - Public trust may be required - Security+ valued",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
+  },
+  {
+    "id": 4,
+    "score": 87,
+    "title": "Service Desk Technician (Onsite in MD)",
+    "company": "Cyquent, Inc.",
+    "market": "MD",
+    "city": "Baltimore, MD",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.dice.com/job-detail/d50733ba-d9c8-468b-b0ad-f655f216dd1c",
+    "notes": "Entry service desk - Hybrid in Baltimore - Primary market - Good Tier 1 starting role",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
   },
   {
     "id": 5,
     "score": 84,
-    "title": "VIP Help Desk Analyst",
-    "company": "Federal IT Contractor",
-    "market": "VA",
-    "city": "Arlington, VA",
-    "salary": "Competitive",
+    "title": "Entry Level Help Desk",
+    "company": "TEKsystems",
+    "market": "TX",
+    "city": "Coppell, TX",
+    "salary": "$16.25-$18/hr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.dice.com/job-detail/8431311e-cfdb-40b7-8202-6d28bccaacc4",
-    "notes": "Executive / VIP support desk - customer-facing - Security+ preferred - On-site Arlington VA",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
+    "url": "https://www.dice.com/job-detail/851f6974-df54-404d-9cc9-9225d4009461",
+    "notes": "Explicitly entry level - Coppell TX - Secondary market - Large staffing firm with many openings",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
   },
   {
     "id": 6,
     "score": 83,
-    "title": "Technician 1 - Help Desk Support (Call Center)",
-    "company": "Maximus",
-    "market": "Remote",
-    "city": "Remote",
+    "title": "IT Support Engineer",
+    "company": "UniqueHire Consulting LLC",
+    "market": "MD",
+    "city": "Bethesda, MD",
     "salary": "Competitive",
     "roleType": "Help Desk",
-    "certs": [],
+    "certs": [
+      "sec"
+    ],
     "priority": "High",
-    "url": "https://www.dice.com/job-detail/d9529b33-f1e5-4fef-a061-f08dc7626d1b",
-    "notes": "Tier 1 call center help desk - fully remote - entry-level friendly - no clearance required",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
+    "url": "https://www.dice.com/job-detail/86bad4cb-62aa-450b-90c3-4a2657a6dadf",
+    "notes": "IT support in Bethesda MD - Primary market - May want some hands-on experience",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
   },
   {
     "id": 7,
     "score": 82,
-    "title": "Help Desk Specialist",
-    "company": "Federal IT Contractor",
+    "title": "Clinical Service Desk Helpdesk Associate",
+    "company": "NTT DATA",
     "market": "Remote",
     "city": "Remote",
     "salary": "Competitive",
@@ -120,18 +120,36 @@
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.dice.com/job-detail/5ce9dd2f-7c65-40fb-9b00-2da789506ad3",
-    "notes": "Remote help desk specialist - DC-based program - Security+ preferred - public trust likely",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
+    "url": "https://www.dice.com/job-detail/a0fc042b-7700-46de-a96b-57cd2fcc5a69",
+    "notes": "Fully remote - Target company - Entry helpdesk associate - Strong remote option",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
   },
   {
     "id": 8,
-    "score": 82,
+    "score": 81,
+    "title": "Helpdesk Associate - Clinical Service Desk Team",
+    "company": "NTT DATA",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.dice.com/job-detail/d10b56ea-8f91-4d76-94df-788fecec788e",
+    "notes": "Fully remote - Target company - Companion req to the clinical service desk role",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
+  },
+  {
+    "id": 9,
+    "score": 80,
     "title": "OSS Help Desk Phone Analyst",
-    "company": "Federal IT Contractor",
+    "company": "Pyramid Consulting, Inc.",
     "market": "VA",
-    "city": "Virginia",
+    "city": "Richmond, VA",
     "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
@@ -139,318 +157,302 @@
     ],
     "priority": "High",
     "url": "https://www.dice.com/job-detail/efc5d891-a53d-4f93-8a40-bfadb68fd68d",
-    "notes": "Phone-based help desk analyst - entry friendly - Security+ preferred - On-site VA",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
-  },
-  {
-    "id": 9,
-    "score": 80,
-    "title": "Application Support Specialist L1",
-    "company": "IT Services Firm",
-    "market": "MD",
-    "city": "Maryland",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/f9d7bb52-2ea0-4318-a7f0-6a7db16458a9",
-    "notes": "Level 1 application support - entry tier - troubleshooting and ticketing - MD",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
+    "notes": "Phone-based Tier 1 help desk - Richmond VA - Primary market - Entry friendly",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
   },
   {
     "id": 10,
     "score": 80,
-    "title": "Clinical Service Desk Helpdesk Associate",
-    "company": "NTT DATA",
+    "title": "Help Desk/Desktop Support Analyst",
+    "company": "Robert Half",
     "market": "Remote",
     "city": "Remote",
-    "salary": "Competitive",
+    "salary": "$65K-$70K/yr",
     "roleType": "Help Desk",
-    "certs": [],
+    "certs": [
+      "sec"
+    ],
     "priority": "High",
-    "url": "https://www.dice.com/job-detail/a0fc042b-7700-46de-a96b-57cd2fcc5a69",
-    "notes": "Commercial service desk associate - fully remote - entry-level - no clearance required",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
+    "url": "https://www.dice.com/job-detail/7c9aeae2-d028-45cb-a679-8d9f4ab63970",
+    "notes": "Remote (Dallas-based) - Solid pay band - Help desk plus desktop support scope",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
   },
   {
     "id": 11,
-    "score": 80,
-    "title": "Entry Level Helpdesk Support",
-    "company": "IT Services Firm",
-    "market": "TX",
-    "city": "Coppell, TX",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/aab9756b-bdad-4afe-923a-2ec64c12c9b6",
-    "notes": "Explicitly entry-level - hands-on IT support - hybrid 2 days in office - must be local to DFW",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
-  },
-  {
-    "id": 12,
-    "score": 79,
-    "title": "Help Desk Support Intern",
-    "company": "DLH Corp",
-    "market": "MD",
-    "city": "Bethesda, MD",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/7e613f79-4bbf-422f-8b8c-ec37dff228ce",
-    "notes": "Internship-level help desk - federal health / national security program - great resume builder - MD",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
-  },
-  {
-    "id": 13,
-    "score": 79,
-    "title": "Helpdesk Associate - Clinical Service Desk Team",
-    "company": "NTT DATA",
+    "score": 78,
+    "title": "IT Technical Support Specialist (Customer Support - Entry)",
+    "company": "Washington State DOT",
     "market": "Remote",
     "city": "Remote",
     "salary": "Competitive",
     "roleType": "Help Desk",
-    "certs": [],
+    "certs": [
+      "sec"
+    ],
     "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/d10b56ea-8f91-4d76-94df-788fecec788e",
-    "notes": "Clinical service desk associate - fully remote - entry-level - no clearance required",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
+    "url": "https://www.dice.com/job-detail/dab943c1-6ef8-40da-848b-ef93c3739feb",
+    "notes": "Entry customer support tier - Remote (Olympia WA) - State agency - Out of market but remote",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
+  },
+  {
+    "id": 12,
+    "score": 77,
+    "title": "Desktop Support Technician",
+    "company": "IT Gig LLC",
+    "market": "VA",
+    "city": "Chester, VA",
+    "salary": "Competitive",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/506e9b8c-1baa-4cbd-b331-a5bfe8ef915a",
+    "notes": "Desktop support - Chester VA (Richmond area) - Primary market - Likely onsite",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
+  },
+  {
+    "id": 13,
+    "score": 76,
+    "title": "Associate Help Desk",
+    "company": "The Jupiter Group",
+    "market": "TX",
+    "city": "Jersey Village, TX",
+    "salary": "$22-$28/hr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/96643e12-04e9-4b59-bbae-a5ac3c4d9e78",
+    "notes": "Associate/entry help desk - Jersey Village TX - Secondary market - Decent hourly band",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
   },
   {
     "id": 14,
-    "score": 79,
-    "title": "Entry Level Helpdesk Support",
-    "company": "IT Services Firm",
-    "market": "TX",
-    "city": "Coppell, TX",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/649845ee-906a-46d5-a76b-a173bb7a67df",
-    "notes": "Entry-level IT support - launch your IT career - must be local to DFW area",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
-  },
-  {
-    "id": 15,
-    "score": 78,
-    "title": "SOC Technician (Shift 1) - Junior",
-    "company": "ECS Federal",
-    "market": "VA",
-    "city": "Fairfax, VA",
-    "salary": "Competitive",
-    "roleType": "SOC",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/ef9907ae-e7fc-428e-bb05-376e7537defc",
-    "notes": "Junior SOC role supporting Army National Guard - Security+ and clearance likely required - shift work - VA",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
-  },
-  {
-    "id": 16,
-    "score": 78,
-    "title": "Tier 1 Helpdesk Support",
-    "company": "IT Services Firm",
-    "market": "TX",
-    "city": "Coppell, TX",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/62de75ba-d417-45bb-9f80-28eb218a9200",
-    "notes": "Tier 1 help desk - hybrid 2 days in office - must be local to DFW area",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
-  },
-  {
-    "id": 17,
-    "score": 76,
-    "title": "IT Helpdesk Technician",
-    "company": "IT Services Firm",
+    "score": 75,
+    "title": "HelpDesk Support Specialist",
+    "company": "VC5 Consulting",
     "market": "TX",
     "city": "Houston, TX",
     "salary": "Competitive",
     "roleType": "Help Desk",
-    "certs": [],
+    "certs": [
+      "sec"
+    ],
     "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/4a4eb4c8-4995-403d-bc6e-3119871f506f",
-    "notes": "Help desk technician - secondary market TX - troubleshooting and support duties",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
+    "url": "https://www.dice.com/job-detail/c63f37ac-2e1d-43a1-961d-0524e5e4f30a",
+    "notes": "Help desk support - Houston TX - Secondary market - Staffing-firm placement",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
   },
   {
-    "id": 18,
-    "score": 76,
-    "title": "Mid-level Help Desk Support Technician",
-    "company": "Federal IT Contractor",
-    "market": "DC",
-    "city": "Washington, DC",
+    "id": 15,
+    "score": 74,
+    "title": "Field IT Operations & Customer Support (DHS/TSA)",
+    "company": "SAIC",
+    "market": "VA",
+    "city": "Springfield, VA",
+    "salary": "Competitive",
+    "roleType": "Field Tech",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/b26369e0-bd59-4483-869b-aef147340eef",
+    "notes": "Pipeline req for DHS/TSA field support - Springfield VA - Public trust likely required - Target company",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
+  },
+  {
+    "id": 16,
+    "score": 73,
+    "title": "IT Helpdesk Technician",
+    "company": "Kforce Technology Staffing",
+    "market": "TX",
+    "city": "Houston, TX",
     "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/da075bfa-54e0-4e76-bd01-6262620d31ed",
-    "notes": "Mid-level help desk at Navy Yard - slightly higher experience bar - Security+ preferred - DC",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
+    "url": "https://www.dice.com/job-detail/4a4eb4c8-4995-403d-bc6e-3119871f506f",
+    "notes": "Help desk technician - Houston TX - Secondary market - Contract-to-hire common",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
+  },
+  {
+    "id": 17,
+    "score": 71,
+    "title": "Service Desk Support Technician",
+    "company": "Talent Groups",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/73445637-d8c0-4809-8894-6dcfbb61a7c8",
+    "notes": "Remote/hybrid (Anchorage AK) - Service desk - Out of market - Confirm remote eligibility",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
+  },
+  {
+    "id": 18,
+    "score": 70,
+    "title": "Desktop Support Specialist (Windows)",
+    "company": "Chandra Technologies",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/a9fb921a-908d-45ea-8831-787928bc2eaf",
+    "notes": "Remote Windows desktop support - Prefers locals to Augusta ME - Confirm remote scope",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
   },
   {
     "id": 19,
-    "score": 74,
-    "title": "Security Operations Center Analyst (SOC)",
-    "company": "Federal IT Contractor",
-    "market": "VA",
-    "city": "Arlington, VA",
-    "salary": "Competitive",
-    "roleType": "SOC",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/ed5f5025-9e0d-4e6a-af6e-dab2b1ea6615",
-    "notes": "SOC analyst - security monitoring - Security+ preferred - may want some experience - Arlington VA",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
-  },
-  {
-    "id": 20,
-    "score": 73,
-    "title": "Security Operations Center Analyst (SOC)",
-    "company": "Federal IT Contractor",
-    "market": "VA",
-    "city": "Arlington, VA",
-    "salary": "Competitive",
-    "roleType": "SOC",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/da0ba6aa-3e47-4d35-96e8-350645657a92",
-    "notes": "Second SOC analyst req - security monitoring - Security+ preferred - Arlington VA",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
-  },
-  {
-    "id": 21,
-    "score": 72,
-    "title": "Systems Administrator, Junior",
-    "company": "Sabre Systems",
-    "market": "MD",
-    "city": "Maryland",
-    "salary": "Competitive",
-    "roleType": "Systems Admin",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/68655dd2-1667-47a5-a872-296a8c3a384e",
-    "notes": "Junior sysadmin - deploy and support systems - Security+ helpful - some experience preferred - MD",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
-  },
-  {
-    "id": 22,
-    "score": 72,
-    "title": "NOC Analyst / Technician (Tier 1)",
-    "company": "IT Services Firm",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "NOC",
-    "certs": [],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/8fd4e8b4-c5f8-4bbf-8fe8-552e91c36de3",
-    "notes": "NOC Tech I - remote (CST hours) - 3 to 6 month contract - network monitoring - entry friendly",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
-  },
-  {
-    "id": 23,
-    "score": 71,
-    "title": "Azure Cloud Engineer (Support)",
-    "company": "IT Services Firm",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "Cloud",
-    "certs": [
-      "cloud"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/7ef18a0d-9954-4582-9734-6675fd8fa261",
-    "notes": "Operational support for Azure-hosted apps - Cloud+ relevant - some cloud experience preferred - remote",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
-  },
-  {
-    "id": 24,
-    "score": 70,
-    "title": "Cloud Development Engineer I",
-    "company": "Sentinel Technologies",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "Cloud",
-    "certs": [
-      "cloud"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/879966a9-989b-407b-9066-b9f79f160ca3",
-    "notes": "Level I cloud engineer on Cloud Select team - entry tier - Cloud+ relevant - remote or IL",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
-  },
-  {
-    "id": 25,
     "score": 68,
-    "title": "Junior Systems Administrator",
-    "company": "VTG",
-    "market": "MD",
-    "city": "Fort Meade, MD",
-    "salary": "Competitive",
-    "roleType": "Systems Admin",
+    "title": "Executive IT Support Lead",
+    "company": "SAIC",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "$40K-$80K/yr",
+    "roleType": "Help Desk",
     "certs": [
       "sec",
       "fed"
     ],
     "priority": "Stretch",
-    "url": "https://www.dice.com/job-detail/c083d57e-3083-4230-837f-ce9a9f416ea2",
-    "notes": "Junior sysadmin at Fort Meade - active clearance likely required (TS) - aspirational - Security+ needed",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
+    "url": "https://www.dice.com/job-detail/7b44219a-6c19-46ea-a97e-b23392e85a43",
+    "notes": "VIP/executive support lead - Washington DC - Higher bar and clearance likely - Aspirational",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
   },
   {
-    "id": 26,
-    "score": 68,
-    "title": "AWS Cloud Engineer (Support)",
-    "company": "IT Services Firm",
+    "id": 20,
+    "score": 67,
+    "title": "Service Desk Site Lead",
+    "company": "SAIC",
     "market": "Remote",
     "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "Cloud",
+    "salary": "$40K-$80K/yr",
+    "roleType": "Help Desk",
     "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.dice.com/job-detail/96cc61fb-b5a1-4c3f-bb3f-f518e364f11f",
+    "notes": "Lead-level service desk - Remote - Leadership scope above entry - Target company",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
+  },
+  {
+    "id": 21,
+    "score": 66,
+    "title": "Systems Administrator",
+    "company": "Washington State DOT",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "$73K-$98K/yr",
+    "roleType": "Systems Admin",
+    "certs": [
+      "sec",
       "cloud"
     ],
     "priority": "Stretch",
-    "url": "https://www.dice.com/job-detail/7e8e1cb2-fef2-47ef-a0a9-210123e5c550",
-    "notes": "AWS cloud support / engineering - competitive - prior cloud experience preferred - Cloud+ relevant - remote",
-    "postedDate": "2026-06-18",
-    "posted": "2026-06-18"
+    "url": "https://www.dice.com/job-detail/824fbbc7-2522-4fe6-ad50-2a484967f5d2",
+    "notes": "Sysadmin - Remote (Olympia WA) - Cloud+ relevant - Higher experience bar than entry",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
+  },
+  {
+    "id": 22,
+    "score": 65,
+    "title": "Helpdesk Senior (Lead)",
+    "company": "Kforce Technology Staffing",
+    "market": "VA",
+    "city": "Fairfax, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.dice.com/job-detail/55cb227f-0eaf-443c-ac26-7522d04c4c19",
+    "notes": "Senior/lead help desk - Fairfax VA - Primary market but above entry - Aspirational reach",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
+  },
+  {
+    "id": 23,
+    "score": 64,
+    "title": "Service Desk Site Lead",
+    "company": "Apetan Consulting",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.dice.com/job-detail/11c82b40-74df-4ac7-9d06-c562e4554f5f",
+    "notes": "Lead-level service desk - Remote - Leadership scope above entry level",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
+  },
+  {
+    "id": 24,
+    "score": 63,
+    "title": "Senior Systems Administrator",
+    "company": "Maximus, Inc.",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "Systems Admin",
+    "certs": [
+      "sec",
+      "cloud"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.dice.com/job-detail/85903309-b85c-49bf-a3ad-79d331baa131",
+    "notes": "Senior sysadmin - Remote - Target company - Several years experience expected - Reach role",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
+  },
+  {
+    "id": 25,
+    "score": 62,
+    "title": "IT Field Support Specialist (TS/SCI w/ Full Scope Poly)",
+    "company": "Next Step Systems",
+    "market": "MD",
+    "city": "Annapolis Junction, MD",
+    "salary": "Competitive",
+    "roleType": "Field Tech",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.dice.com/job-detail/2dc6b0d9-48f0-4b4b-ac40-c1200aab1056",
+    "notes": "Onsite field support - Annapolis Junction MD - Requires active TS/SCI with full scope poly - Clearance gap",
+    "postedDate": "2026-06-19",
+    "posted": "2026-06-19"
   }
 ]
