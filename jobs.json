@@ -1,458 +1,263 @@
 [
   {
     "id": 1,
-    "score": 90,
-    "title": "Desktop Support Specialist (Junior Level)",
-    "company": "Skysoft Inc",
-    "market": "MD",
-    "city": "Bethesda, MD",
-    "salary": "Competitive",
+    "score": 88,
+    "title": "Desktop Support Technician (Onsite DC)",
+    "company": "GDIT",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "$28-$38/hr",
     "roleType": "Desktop Support",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.dice.com/job-detail/4582382a-dfe6-4137-a931-ed18aaffb755",
-    "notes": "Explicitly junior level - Hybrid in Bethesda - Strong entry-level desktop support match in primary market",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
+    "url": "https://www.gdit.com/careers/job/7bf04644c/desktop-support-technician-onsite-dc-eligible-for-public-trust/",
+    "notes": "Eligible for Public Trust - fits clearance-eligible status - Onsite DC - Strong entry-level desktop support match - REQ RQ222393",
+    "postedDate": "2026-06-21",
+    "posted": "2026-06-21"
   },
   {
     "id": 2,
-    "score": 89,
-    "title": "Junior Helpdesk (Entry Level)",
-    "company": "Kforce Technology Staffing",
-    "market": "VA",
-    "city": "Fort Belvoir, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
+    "score": 82,
+    "title": "IT Specialist (GS 7-9 Developmental)",
+    "company": "U.S. Air Force (Civilian)",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "$56K+/yr",
+    "roleType": "Systems Admin",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.dice.com/job-detail/d4f8dbe2-2369-43d4-9d76-313fa44ed1f8",
-    "notes": "Entry-level title - Fort Belvoir VA - Clearance-eligible candidates welcome - Excellent fit",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
+    "url": "https://www.usajobs.gov/job/847096900",
+    "notes": "GS-7/9 entry developmental federal role - Location negotiable after selection - Open to the public - Closes 9/30/2026",
+    "postedDate": "2026-06-21",
+    "posted": "2026-06-21"
   },
   {
     "id": 3,
-    "score": 88,
-    "title": "Desktop Support Technician",
-    "company": "Leidos",
+    "score": 78,
+    "title": "IT Specialist (INFOSEC)",
+    "company": "U.S. Air Force (Civilian)",
     "market": "MD",
-    "city": "Bethesda, MD",
-    "salary": "$36-$40/hr",
-    "roleType": "Desktop Support",
+    "city": "Multiple Locations (incl. MD)",
+    "salary": "$52K+/yr",
+    "roleType": "Cybersecurity",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/dadfab7f-c57e-4fc3-a063-a27e41e6a324",
-    "notes": "Top target federal contractor - Bethesda MD - Public trust may be required - Security+ valued",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
+    "priority": "Medium",
+    "url": "https://www.usajobs.gov/job/852981200",
+    "notes": "GS-9 entry possible - Security+ relevant - INFOSEC track - Open to the public - Closes 12/21/2026",
+    "postedDate": "2026-06-21",
+    "posted": "2026-06-21"
   },
   {
     "id": 4,
-    "score": 87,
-    "title": "Service Desk Technician (Onsite in MD)",
-    "company": "Cyquent, Inc.",
-    "market": "MD",
-    "city": "Baltimore, MD",
+    "score": 76,
+    "title": "Temporary IT Technician II (1 Year Term)",
+    "company": "Federal Agency (via USAJOBS)",
+    "market": "VA",
+    "city": "Virginia",
     "salary": "Competitive",
-    "roleType": "Help Desk",
+    "roleType": "Field Tech",
     "certs": [
       "sec"
     ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/d50733ba-d9c8-468b-b0ad-f655f216dd1c",
-    "notes": "Entry service desk - Hybrid in Baltimore - Primary market - Good Tier 1 starting role",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
+    "priority": "Medium",
+    "url": "https://www.usajobs.gov/job/865610500",
+    "notes": "Entry-level IT technician - 1-year term appointment - Good experience builder - Open to the public",
+    "postedDate": "2026-06-21",
+    "posted": "2026-06-21"
   },
   {
     "id": 5,
-    "score": 84,
-    "title": "Entry Level Help Desk",
-    "company": "TEKsystems",
-    "market": "TX",
-    "city": "Coppell, TX",
-    "salary": "$16.25-$18/hr",
-    "roleType": "Help Desk",
+    "score": 74,
+    "title": "IT Specialist (Cross-Government Hiring)",
+    "company": "OPM Cross-Government (USAJOBS)",
+    "market": "DC",
+    "city": "Washington, DC (various cities)",
+    "salary": "$50K+/yr",
+    "roleType": "Systems Admin",
     "certs": [
       "sec"
     ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/851f6974-df54-404d-9cc9-9225d4009461",
-    "notes": "Explicitly entry level - Coppell TX - Secondary market - Large staffing firm with many openings",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
+    "priority": "Medium",
+    "url": "https://www.usajobs.gov/job/866249900",
+    "notes": "Cross-agency entry-to-mid IT hiring - One application shared with multiple agencies - Reviewing resumes now",
+    "postedDate": "2026-06-21",
+    "posted": "2026-06-21"
   },
   {
     "id": 6,
-    "score": 83,
-    "title": "IT Support Engineer",
-    "company": "UniqueHire Consulting LLC",
+    "score": 72,
+    "title": "IT Specialist (Sys Admin)",
+    "company": "Dept. of Veterans Affairs (OIT)",
     "market": "MD",
-    "city": "Bethesda, MD",
+    "city": "Maryland",
     "salary": "Competitive",
-    "roleType": "Help Desk",
+    "roleType": "Systems Admin",
     "certs": [
       "sec"
     ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/86bad4cb-62aa-450b-90c3-4a2657a6dadf",
-    "notes": "IT support in Bethesda MD - Primary market - May want some hands-on experience",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
+    "priority": "Medium",
+    "url": "https://www.usajobs.gov/job/873076000",
+    "notes": "Systems administration role - Office of Information Technology - Closes 6/22/2026 - APPLY ASAP",
+    "postedDate": "2026-06-21",
+    "posted": "2026-06-21"
   },
   {
     "id": 7,
-    "score": 82,
-    "title": "Clinical Service Desk Helpdesk Associate",
-    "company": "NTT DATA",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
+    "score": 68,
+    "title": "IT Specialist (INFOSEC)",
+    "company": "U.S. Air Force (Civilian)",
+    "market": "MD",
+    "city": "Annapolis, MD",
+    "salary": "$85K/yr",
+    "roleType": "Cybersecurity",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/a0fc042b-7700-46de-a96b-57cd2fcc5a69",
-    "notes": "Fully remote - Target company - Entry helpdesk associate - Strong remote option",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
+    "priority": "Stretch",
+    "url": "https://www.usajobs.gov/job/872545600",
+    "notes": "GS-11/12 - typically needs 2+ years specialized experience - INFOSEC - Closes 7/21/2026",
+    "postedDate": "2026-06-21",
+    "posted": "2026-06-21"
   },
   {
     "id": 8,
-    "score": 81,
-    "title": "Helpdesk Associate - Clinical Service Desk Team",
-    "company": "NTT DATA",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
+    "score": 67,
+    "title": "IT Cybersecurity Specialist (SysAdmin)",
+    "company": "Dept. of Defense (USAJOBS)",
+    "market": "MD",
+    "city": "Fort Meade, MD",
+    "salary": "$85K/yr",
+    "roleType": "Cybersecurity",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/d10b56ea-8f91-4d76-94df-788fecec788e",
-    "notes": "Fully remote - Target company - Companion req to the clinical service desk role",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
+    "priority": "Stretch",
+    "url": "https://www.usajobs.gov/job/873086600",
+    "notes": "GG-11 - typically needs 2+ years experience - Fort Meade - Closes 6/30/2026",
+    "postedDate": "2026-06-21",
+    "posted": "2026-06-21"
   },
   {
     "id": 9,
-    "score": 80,
-    "title": "OSS Help Desk Phone Analyst",
-    "company": "Pyramid Consulting, Inc.",
+    "score": 66,
+    "title": "Information Technology Specialist",
+    "company": "Customs and Border Protection (DHS)",
     "market": "VA",
-    "city": "Richmond, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
+    "city": "Virginia (multiple)",
+    "salary": "$74K/yr",
+    "roleType": "Systems Admin",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/efc5d891-a53d-4f93-8a40-bfadb68fd68d",
-    "notes": "Phone-based Tier 1 help desk - Richmond VA - Primary market - Entry friendly",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
+    "priority": "Stretch",
+    "url": "https://www.usajobs.gov/job/872548600",
+    "notes": "GS-11/12 - needs 2+ years specialized experience - Closes 6/25/2026 - apply soon",
+    "postedDate": "2026-06-21",
+    "posted": "2026-06-21"
   },
   {
     "id": 10,
-    "score": 80,
-    "title": "Help Desk/Desktop Support Analyst",
-    "company": "Robert Half",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$65K-$70K/yr",
+    "score": 65,
+    "title": "Help Desk Technician Tier III - TS/SCI w/ Poly",
+    "company": "GDIT",
+    "market": "DC",
+    "city": "Washington, DC / Elkridge, MD",
+    "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/7c9aeae2-d028-45cb-a679-8d9f4ab63970",
-    "notes": "Remote (Dallas-based) - Solid pay band - Help desk plus desktop support scope",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
+    "priority": "Stretch",
+    "url": "https://www.gdit.com/careers/job/20745b613/help-desk-technician-tier-iii-tssci-with-polygraph/",
+    "notes": "Requires active TS/SCI with Polygraph - aspirational - strong help desk role type for the future",
+    "postedDate": "2026-06-21",
+    "posted": "2026-06-21"
   },
   {
     "id": 11,
-    "score": 78,
-    "title": "IT Technical Support Specialist (Customer Support - Entry)",
-    "company": "Washington State DOT",
-    "market": "Remote",
-    "city": "Remote",
+    "score": 64,
+    "title": "Help Desk Technician Mid-level - Active Top Secret",
+    "company": "GDIT",
+    "market": "MD",
+    "city": "Elkridge, MD",
     "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/dab943c1-6ef8-40da-848b-ef93c3739feb",
-    "notes": "Entry customer support tier - Remote (Olympia WA) - State agency - Out of market but remote",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
+    "priority": "Stretch",
+    "url": "https://www.gdit.com/careers/job/d91883bb6/help-desk-technician-mid-level-active-top-secret-required/",
+    "notes": "Requires active Top Secret clearance - mid-level help desk - clearance is the main gap",
+    "postedDate": "2026-06-21",
+    "posted": "2026-06-21"
   },
   {
     "id": 12,
-    "score": 77,
-    "title": "Desktop Support Technician",
-    "company": "IT Gig LLC",
-    "market": "VA",
-    "city": "Chester, VA",
+    "score": 64,
+    "title": "Help Desk Technician III",
+    "company": "GDIT",
+    "market": "MD",
+    "city": "Elkridge, MD",
     "salary": "Competitive",
-    "roleType": "Desktop Support",
+    "roleType": "Help Desk",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/506e9b8c-1baa-4cbd-b331-a5bfe8ef915a",
-    "notes": "Desktop support - Chester VA (Richmond area) - Primary market - Likely onsite",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
+    "priority": "Stretch",
+    "url": "https://www.gdit.com/careers/job/74a80f4f6/help-desk-technician-iii/",
+    "notes": "Clearance required - help desk role - good target once clearance obtained",
+    "postedDate": "2026-06-21",
+    "posted": "2026-06-21"
   },
   {
     "id": 13,
-    "score": 76,
-    "title": "Associate Help Desk",
-    "company": "The Jupiter Group",
-    "market": "TX",
-    "city": "Jersey Village, TX",
-    "salary": "$22-$28/hr",
+    "score": 63,
+    "title": "Help Desk Technician (Days) - TS/SCI/Poly",
+    "company": "GDIT",
+    "market": "MD",
+    "city": "Elkridge, MD",
+    "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/96643e12-04e9-4b59-bbae-a5ac3c4d9e78",
-    "notes": "Associate/entry help desk - Jersey Village TX - Secondary market - Decent hourly band",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
+    "priority": "Stretch",
+    "url": "https://www.gdit.com/careers/job/8fd83fee6/help-desk-technician-days-sun-thursday-tssci-poly/",
+    "notes": "Requires TS/SCI with Poly - day shift Sun-Thursday - help desk",
+    "postedDate": "2026-06-21",
+    "posted": "2026-06-21"
   },
   {
     "id": 14,
-    "score": 75,
-    "title": "HelpDesk Support Specialist",
-    "company": "VC5 Consulting",
-    "market": "TX",
-    "city": "Houston, TX",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/c63f37ac-2e1d-43a1-961d-0524e5e4f30a",
-    "notes": "Help desk support - Houston TX - Secondary market - Staffing-firm placement",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
-  },
-  {
-    "id": 15,
-    "score": 74,
-    "title": "Field IT Operations & Customer Support (DHS/TSA)",
-    "company": "SAIC",
-    "market": "VA",
-    "city": "Springfield, VA",
-    "salary": "Competitive",
-    "roleType": "Field Tech",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/b26369e0-bd59-4483-869b-aef147340eef",
-    "notes": "Pipeline req for DHS/TSA field support - Springfield VA - Public trust likely required - Target company",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
-  },
-  {
-    "id": 16,
-    "score": 73,
-    "title": "IT Helpdesk Technician",
-    "company": "Kforce Technology Staffing",
-    "market": "TX",
-    "city": "Houston, TX",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/4a4eb4c8-4995-403d-bc6e-3119871f506f",
-    "notes": "Help desk technician - Houston TX - Secondary market - Contract-to-hire common",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
-  },
-  {
-    "id": 17,
-    "score": 71,
-    "title": "Service Desk Support Technician",
-    "company": "Talent Groups",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/73445637-d8c0-4809-8894-6dcfbb61a7c8",
-    "notes": "Remote/hybrid (Anchorage AK) - Service desk - Out of market - Confirm remote eligibility",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
-  },
-  {
-    "id": 18,
-    "score": 70,
-    "title": "Desktop Support Specialist (Windows)",
-    "company": "Chandra Technologies",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "Desktop Support",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/a9fb921a-908d-45ea-8831-787928bc2eaf",
-    "notes": "Remote Windows desktop support - Prefers locals to Augusta ME - Confirm remote scope",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
-  },
-  {
-    "id": 19,
-    "score": 68,
-    "title": "Executive IT Support Lead",
-    "company": "SAIC",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$40K-$80K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "Stretch",
-    "url": "https://www.dice.com/job-detail/7b44219a-6c19-46ea-a97e-b23392e85a43",
-    "notes": "VIP/executive support lead - Washington DC - Higher bar and clearance likely - Aspirational",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
-  },
-  {
-    "id": 20,
-    "score": 67,
-    "title": "Service Desk Site Lead",
-    "company": "SAIC",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$40K-$80K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "Stretch",
-    "url": "https://www.dice.com/job-detail/96cc61fb-b5a1-4c3f-bb3f-f518e364f11f",
-    "notes": "Lead-level service desk - Remote - Leadership scope above entry - Target company",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
-  },
-  {
-    "id": 21,
-    "score": 66,
-    "title": "Systems Administrator",
-    "company": "Washington State DOT",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$73K-$98K/yr",
-    "roleType": "Systems Admin",
-    "certs": [
-      "sec",
-      "cloud"
-    ],
-    "priority": "Stretch",
-    "url": "https://www.dice.com/job-detail/824fbbc7-2522-4fe6-ad50-2a484967f5d2",
-    "notes": "Sysadmin - Remote (Olympia WA) - Cloud+ relevant - Higher experience bar than entry",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
-  },
-  {
-    "id": 22,
-    "score": 65,
-    "title": "Helpdesk Senior (Lead)",
-    "company": "Kforce Technology Staffing",
-    "market": "VA",
-    "city": "Fairfax, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Stretch",
-    "url": "https://www.dice.com/job-detail/55cb227f-0eaf-443c-ac26-7522d04c4c19",
-    "notes": "Senior/lead help desk - Fairfax VA - Primary market but above entry - Aspirational reach",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
-  },
-  {
-    "id": 23,
-    "score": 64,
-    "title": "Service Desk Site Lead",
-    "company": "Apetan Consulting",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Stretch",
-    "url": "https://www.dice.com/job-detail/11c82b40-74df-4ac7-9d06-c562e4554f5f",
-    "notes": "Lead-level service desk - Remote - Leadership scope above entry level",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
-  },
-  {
-    "id": 24,
-    "score": 63,
-    "title": "Senior Systems Administrator",
-    "company": "Maximus, Inc.",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "Systems Admin",
-    "certs": [
-      "sec",
-      "cloud"
-    ],
-    "priority": "Stretch",
-    "url": "https://www.dice.com/job-detail/85903309-b85c-49bf-a3ad-79d331baa131",
-    "notes": "Senior sysadmin - Remote - Target company - Several years experience expected - Reach role",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
-  },
-  {
-    "id": 25,
     "score": 62,
-    "title": "IT Field Support Specialist (TS/SCI w/ Full Scope Poly)",
-    "company": "Next Step Systems",
+    "title": "Help Desk Trainer - TS/SCI w/ Poly",
+    "company": "GDIT",
     "market": "MD",
-    "city": "Annapolis Junction, MD",
+    "city": "Elkridge, MD",
     "salary": "Competitive",
-    "roleType": "Field Tech",
+    "roleType": "Help Desk",
     "certs": [
       "sec",
       "fed"
     ],
     "priority": "Stretch",
-    "url": "https://www.dice.com/job-detail/2dc6b0d9-48f0-4b4b-ac40-c1200aab1056",
-    "notes": "Onsite field support - Annapolis Junction MD - Requires active TS/SCI with full scope poly - Clearance gap",
-    "postedDate": "2026-06-19",
-    "posted": "2026-06-19"
+    "url": "https://www.gdit.com/careers/job/244899aea/help-desk-trainer-tssci-w-poly/",
+    "notes": "Requires TS/SCI with Poly - help desk trainer - aspirational",
+    "postedDate": "2026-06-21",
+    "posted": "2026-06-21"
   }
 ]
