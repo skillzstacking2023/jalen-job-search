@@ -8,12 +8,14 @@
     "city": "Annapolis Junction, MD",
     "salary": "$46K-$56K/yr",
     "roleType": "Help Desk",
-    "certs": ["sec"],
+    "certs": [
+      "sec"
+    ],
     "priority": "High",
     "url": "https://careers.leidos.com/search/jobs/in/md-maryland",
     "notes": "Security+ meets DoD 8140 baseline - Public trust eligible - Tier 1 end user support - Live Leidos MD openings",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 2,
@@ -22,14 +24,16 @@
     "company": "SAIC",
     "market": "Remote",
     "city": "Remote",
-    "salary": "$46K-$56K/yr",
+    "salary": "$45K-$55K/yr",
     "roleType": "Help Desk",
-    "certs": ["sec"],
+    "certs": [
+      "sec"
+    ],
     "priority": "High",
     "url": "https://jobs.saic.com/search/information-technology/jobs",
     "notes": "Fully remote VITA program support - Security+ a plus - Entry level Tier 1 - On the job training",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 3,
@@ -40,12 +44,14 @@
     "city": "Columbia, MD",
     "salary": "$46K-$56K/yr",
     "roleType": "Help Desk",
-    "certs": ["sec"],
+    "certs": [
+      "sec"
+    ],
     "priority": "High",
     "url": "https://jobs.saic.com/search/information-technology/jobs",
-    "notes": "Security+ aligns with IAT II - Public trust eligible - On-site Tier 1/2 - Active SAIC careers page",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "notes": "Onsite MD service desk - Security+ preferred - Entry level - Federal program support",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 4,
@@ -54,14 +60,17 @@
     "company": "Federal Agencies (USAJOBS)",
     "market": "DC",
     "city": "Washington, DC",
-    "salary": "$49K-$78K/yr",
+    "salary": "$49K-$64K/yr",
     "roleType": "Help Desk",
-    "certs": ["sec"],
+    "certs": [
+      "sec",
+      "fed"
+    ],
     "priority": "High",
-    "url": "https://www.usajobs.gov/search/results/?k=information%20technology%20specialist&l=Washington,%20DC",
-    "notes": "Federal 2210 role - Public trust, no prior clearance required - Security+ strengthens application - Metro accessible",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "url": "https://www.usajobs.gov/Search/Results?k=IT%20specialist%20help%20desk&l=Washington%2C%20DC&hp=public",
+    "notes": "Federal GS-7/9 help desk - Public trust - Security+ valued - Strong benefits",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 5,
@@ -70,14 +79,16 @@
     "company": "Maximus",
     "market": "MD",
     "city": "Annapolis Junction, MD",
-    "salary": "$22-$27/hr",
+    "salary": "$45K-$54K/yr",
     "roleType": "Desktop Support",
-    "certs": ["sec"],
+    "certs": [
+      "sec"
+    ],
     "priority": "High",
-    "url": "https://www.indeed.com/jobs?q=desktop+support+security%2B&l=Annapolis+Junction%2C+MD",
-    "notes": "Hardware and software support - Security+ preferred - Public trust eligible - Entry level",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "url": "https://www.indeed.com/jobs?q=Maximus%20desktop%20support%20Security%2B&l=Annapolis%20Junction%2C%20MD&fromage=14",
+    "notes": "Desktop imaging and break-fix - Security+ preferred - Entry level - Onsite MD",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 6,
@@ -86,14 +97,16 @@
     "company": "Peraton",
     "market": "DC",
     "city": "Washington, DC",
-    "salary": "$51K-$72K/yr",
+    "salary": "$46K-$55K/yr",
     "roleType": "Help Desk",
-    "certs": ["sec"],
+    "certs": [
+      "sec"
+    ],
     "priority": "High",
     "url": "https://www.careers.peraton.com/search-jobs",
-    "notes": "Security+ preferred - Public trust - Tier 1 desk support - Strong entry salary band",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "notes": "Tier 1 federal service desk - Security+ a plus - Clearance eligible welcome - Metro accessible",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 7,
@@ -102,14 +115,16 @@
     "company": "GDIT",
     "market": "DC",
     "city": "Washington, DC",
-    "salary": "$29-$33/hr",
+    "salary": "$47K-$57K/yr",
     "roleType": "Help Desk",
-    "certs": ["sec"],
+    "certs": [
+      "sec"
+    ],
     "priority": "High",
     "url": "https://www.gdit.com/careers/",
-    "notes": "Security+ preferred - Public trust - Federal end user support - Metro accessible",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "notes": "Tier 1 analyst - Security+ preferred - Public trust - ITIL environment",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 8,
@@ -118,14 +133,16 @@
     "company": "NuAxis Innovations",
     "market": "DC",
     "city": "Washington, DC",
-    "salary": "$45K-$53K/yr",
+    "salary": "$46K-$55K/yr",
     "roleType": "Help Desk",
-    "certs": ["sec"],
+    "certs": [
+      "sec"
+    ],
     "priority": "High",
-    "url": "https://www.indeed.com/jobs?q=IT+support+specialist+public+trust&l=Washington%2C+DC",
-    "notes": "Public trust - Security+ preferred - Federal civilian support - Entry to junior level",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "url": "https://www.indeed.com/jobs?q=NuAxis%20IT%20support%20specialist&l=Washington%2C%20DC&fromage=14",
+    "notes": "Federal end user support - Security+ a plus - Entry level - Public trust eligible",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 9,
@@ -134,14 +151,17 @@
     "company": "DXC Technology",
     "market": "Remote",
     "city": "Remote",
-    "salary": "$55K-$70K/yr",
+    "salary": "$50K-$62K/yr",
     "roleType": "Cloud",
-    "certs": ["cloud", "sec"],
+    "certs": [
+      "sec",
+      "cloud"
+    ],
     "priority": "High",
-    "url": "https://www.indeed.com/jobs?q=entry+level+cloud+support&l=Remote",
-    "notes": "Cloud+ directly relevant - Remote - Entry level cloud support - Security+ a plus",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "url": "https://www.indeed.com/jobs?q=DXC%20cloud%20support%20associate%20entry%20level&l=Remote&fromage=14",
+    "notes": "Cloud ticket triage - Cloud+/Security+ valued - Fully remote - Structured onboarding",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 10,
@@ -150,14 +170,16 @@
     "company": "Oneida Professional Services",
     "market": "MD",
     "city": "Fort Meade, MD",
-    "salary": "$45K-$52K/yr",
+    "salary": "$44K-$52K/yr",
     "roleType": "Help Desk",
-    "certs": ["sec"],
+    "certs": [
+      "sec"
+    ],
     "priority": "High",
-    "url": "https://www.dice.com/jobs/q-entry+level+service+desk+technician-l-baltimore,+md-jobs",
-    "notes": "Entry level end user and desktop support - Fort Meade - Security+ preferred - Clearance eligible",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "url": "https://www.dice.com/jobs?q=service%20desk%20technician%20Security%2B&location=Fort%20Meade%2C%20MD",
+    "notes": "Entry level DINFOS support - Security+ CE required - Onsite Fort Meade - Degree or 1yr exp",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 11,
@@ -166,14 +188,16 @@
     "company": "ECS Federal",
     "market": "VA",
     "city": "Fairfax, VA",
-    "salary": "$23-$27/hr",
+    "salary": "$45K-$55K/yr",
     "roleType": "Desktop Support",
-    "certs": ["sec"],
+    "certs": [
+      "sec"
+    ],
     "priority": "High",
-    "url": "https://www.indeed.com/jobs?q=desktop+support&l=Fairfax%2C+VA",
-    "notes": "On-site desktop support - Security+ preferred - Public trust eligible - Junior friendly",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "url": "https://www.indeed.com/jobs?q=ECS%20Federal%20desktop%20support%20technician&l=Fairfax%2C%20VA&fromage=14",
+    "notes": "Onsite deskside support - Security+ preferred - Entry level - Federal client",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 12,
@@ -182,14 +206,16 @@
     "company": "Leidos",
     "market": "MD",
     "city": "Baltimore, MD",
-    "salary": "$22-$27/hr",
+    "salary": "$44K-$54K/yr",
     "roleType": "Field Tech",
-    "certs": ["sec"],
+    "certs": [
+      "sec"
+    ],
     "priority": "High",
     "url": "https://careers.leidos.com/search/jobs/in/md-maryland",
-    "notes": "Public trust - On-site device support and imaging - Security+ a plus - Verified Leidos MD opening",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "notes": "Field break-fix and imaging - Security+ a plus - Entry level - Travel within MD",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 13,
@@ -198,14 +224,16 @@
     "company": "ManTech",
     "market": "VA",
     "city": "Chantilly, VA",
-    "salary": "$48K-$58K/yr",
+    "salary": "$47K-$58K/yr",
     "roleType": "Help Desk",
-    "certs": ["sec", "fed"],
+    "certs": [
+      "sec"
+    ],
     "priority": "Medium",
-    "url": "https://www.indeed.com/jobs?q=ManTech+help+desk&l=Chantilly%2C+VA",
-    "notes": "Security+ required (IAT II) - Clearance eligibility preferred - Tier 1/2 support - NoVA market",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "url": "https://www.indeed.com/jobs?q=ManTech%20help%20desk%20technician%20Tier%201&l=Chantilly%2C%20VA&fromage=14",
+    "notes": "Tier 1/2 support - Security+ preferred - Clearance eligible - Slightly higher exp bar",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 14,
@@ -214,14 +242,16 @@
     "company": "Arctic Wolf",
     "market": "Remote",
     "city": "Remote",
-    "salary": "$55K-$65K/yr",
+    "salary": "$55K-$68K/yr",
     "roleType": "SOC",
-    "certs": ["sec"],
+    "certs": [
+      "sec"
+    ],
     "priority": "Medium",
-    "url": "https://www.indeed.com/jobs?q=soc+analyst+tier+1+entry+level&l=Remote",
-    "notes": "SIEM alert triage and monitoring - Security+ required - MSSP entry SOC path - Remote shift work",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "url": "https://www.indeed.com/jobs?q=SOC%20analyst%20I%20entry%20level%20Security%2B&l=Remote&fromage=14",
+    "notes": "Entry SOC triage - Security+ strongly preferred - Fully remote - Competitive applicant pool",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 15,
@@ -232,12 +262,14 @@
     "city": "Chantilly, VA",
     "salary": "$46K-$56K/yr",
     "roleType": "Help Desk",
-    "certs": ["sec", "fed"],
+    "certs": [
+      "sec"
+    ],
     "priority": "Medium",
-    "url": "https://www.indeed.com/jobs?q=CACI+service+desk&l=Chantilly%2C+VA",
-    "notes": "Security+ required - Clearance preferred not required - Tier 1 federal support",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "url": "https://www.indeed.com/jobs?q=CACI%20service%20desk%20analyst%20Tier%201&l=Chantilly%2C%20VA&fromage=14",
+    "notes": "Tier 1 federal service desk - Security+ preferred - Clearance eligible welcome",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 16,
@@ -246,14 +278,17 @@
     "company": "Northrop Grumman",
     "market": "MD",
     "city": "Annapolis Junction, MD",
-    "salary": "$47K-$57K/yr",
+    "salary": "$47K-$58K/yr",
     "roleType": "Help Desk",
-    "certs": ["sec", "fed"],
+    "certs": [
+      "sec",
+      "fed"
+    ],
     "priority": "Medium",
-    "url": "https://www.indeed.com/jobs?q=Northrop+Grumman+help+desk&l=Maryland",
-    "notes": "Security+ required - Clearance eligibility preferred - Established defense employer",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "url": "https://www.indeed.com/jobs?q=Northrop%20Grumman%20help%20desk%20analyst&l=Annapolis%20Junction%2C%20MD&fromage=14",
+    "notes": "Cleared program support - Security+ preferred - Clearance preferred not required",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 17,
@@ -264,12 +299,14 @@
     "city": "McLean, VA",
     "salary": "$55K-$68K/yr",
     "roleType": "Systems Admin",
-    "certs": ["sec"],
+    "certs": [
+      "sec"
+    ],
     "priority": "Medium",
-    "url": "https://www.indeed.com/jobs?q=junior+systems+administrator&l=McLean%2C+VA",
-    "notes": "Slightly higher experience bar - Security+ preferred - Sysadmin growth role - Clearance eligible",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "url": "https://www.indeed.com/jobs?q=Booz%20Allen%20junior%20systems%20administrator&l=McLean%2C%20VA&fromage=14",
+    "notes": "Junior sysadmin - Security+ preferred - Some Windows/Linux admin experience helpful",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 18,
@@ -278,14 +315,16 @@
     "company": "Red River Technology",
     "market": "Remote",
     "city": "Remote",
-    "salary": "$50K-$60K/yr",
+    "salary": "$45K-$55K/yr",
     "roleType": "NOC",
-    "certs": ["sec"],
+    "certs": [
+      "sec"
+    ],
     "priority": "Medium",
-    "url": "https://www.indeed.com/jobs?q=NOC+technician+tier+1&l=Remote",
-    "notes": "Network operations monitoring - Security+ a plus - Remote - Shift work possible",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "url": "https://www.indeed.com/jobs?q=NOC%20technician%20Tier%201%20entry%20level&l=Remote&fromage=14",
+    "notes": "Network ops monitoring - Security+ a plus - Remote with shift work - Entry level",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 19,
@@ -294,14 +333,16 @@
     "company": "NTT DATA",
     "market": "TX",
     "city": "Plano, TX",
-    "salary": "$20-$25/hr",
+    "salary": "$42K-$52K/yr",
     "roleType": "Help Desk",
-    "certs": ["sec"],
+    "certs": [
+      "sec"
+    ],
     "priority": "Medium",
-    "url": "https://www.indeed.com/jobs?q=IT+support+desk+analyst&l=Plano%2C+TX",
-    "notes": "Secondary market TX - Security+ a plus - Commercial end user support - Entry level",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "url": "https://www.indeed.com/jobs?q=NTT%20DATA%20IT%20support%20desk%20analyst&l=Plano%2C%20TX&fromage=14",
+    "notes": "Enterprise service desk - Security+ a plus - Entry level - Onsite Plano",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 20,
@@ -310,14 +351,16 @@
     "company": "Robert Half (client)",
     "market": "TX",
     "city": "San Antonio, TX",
-    "salary": "$20-$24/hr",
+    "salary": "$20-$25/hr",
     "roleType": "Help Desk",
-    "certs": ["sec"],
+    "certs": [
+      "sec"
+    ],
     "priority": "Medium",
-    "url": "https://www.roberthalf.com/us/en/jobs?keywords=help%20desk&location=san%20antonio%2C%20tx",
-    "notes": "Secondary market TX - Security+ a plus - Contract to hire - Entry level Tier 1",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "url": "https://www.indeed.com/jobs?q=help%20desk%20Tier%201%20Security%2B&l=San%20Antonio%2C%20TX&fromage=14",
+    "notes": "Contract-to-hire - Security+ a plus - Entry level - Onsite San Antonio",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 21,
@@ -326,14 +369,17 @@
     "company": "General Dynamics IT",
     "market": "TX",
     "city": "San Antonio, TX",
-    "salary": "$50K-$60K/yr",
+    "salary": "$48K-$58K/yr",
     "roleType": "Cloud",
-    "certs": ["cloud", "sec"],
+    "certs": [
+      "sec",
+      "cloud"
+    ],
     "priority": "Medium",
-    "url": "https://www.indeed.com/jobs?q=cloud+support+technician&l=San+Antonio%2C+TX",
-    "notes": "Cloud+ relevant - Secondary market TX - Clearance eligibility a plus - Junior cloud role",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "url": "https://www.indeed.com/jobs?q=GDIT%20cloud%20support%20technician&l=San%20Antonio%2C%20TX&fromage=14",
+    "notes": "Cloud infrastructure support - Cloud+/Security+ valued - Entry level - Clearance eligible",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 22,
@@ -342,14 +388,17 @@
     "company": "Amentum",
     "market": "VA",
     "city": "Fort Belvoir, VA",
-    "salary": "$24-$28/hr",
+    "salary": "$45K-$54K/yr",
     "roleType": "Help Desk",
-    "certs": ["sec", "fed"],
+    "certs": [
+      "sec",
+      "fed"
+    ],
     "priority": "Medium",
-    "url": "https://www.indeed.com/jobs?q=help+desk+DoD&l=Fort+Belvoir%2C+VA",
-    "notes": "First line support in DoD environment - Security+ helps - Clearance eligibility needed",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "url": "https://www.indeed.com/jobs?q=Amentum%20junior%20helpdesk%20technician%20DoD&l=Fort%20Belvoir%2C%20VA&fromage=14",
+    "notes": "DoD onsite help desk - Security+ required - Clearance preferred - Entry level",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 23,
@@ -360,12 +409,14 @@
     "city": "Aberdeen, MD",
     "salary": "$50K-$60K/yr",
     "roleType": "Help Desk",
-    "certs": ["sec", "fed"],
+    "certs": [
+      "sec"
+    ],
     "priority": "Stretch",
     "url": "https://jobs.saic.com/search/information-technology/jobs",
-    "notes": "Tier I and II resolution - Secret clearance required - Slightly above entry - Security+ required",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "notes": "Tier II onsite APG - Security+ required - 2+ yrs preferred - Aspirational stretch",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 24,
@@ -374,14 +425,17 @@
     "company": "Koniag Government Services",
     "market": "VA",
     "city": "Arlington, VA",
-    "salary": "$26-$30/hr",
+    "salary": "$48K-$58K/yr",
     "roleType": "Help Desk",
-    "certs": ["sec", "fed"],
+    "certs": [
+      "sec",
+      "fed"
+    ],
     "priority": "Stretch",
-    "url": "https://www.clearancejobs.com/jobs?keywords=help%20desk&location=Arlington%2C%20VA",
-    "notes": "Requires Secret clearance - Aspirational until clearance obtained - Good NoVA foot in the door",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "url": "https://www.indeed.com/jobs?q=Koniag%20help%20desk%20technician%20clearance&l=Arlington%2C%20VA&fromage=14",
+    "notes": "Requires Secret clearance - Security+ required - Clearance-eligible may apply - Stretch",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 25,
@@ -390,14 +444,17 @@
     "company": "Peraton",
     "market": "MD",
     "city": "Fort Meade, MD",
-    "salary": "$60K-$75K/yr",
+    "salary": "$58K-$72K/yr",
     "roleType": "SOC",
-    "certs": ["sec", "fed"],
+    "certs": [
+      "sec",
+      "fed"
+    ],
     "priority": "Stretch",
     "url": "https://www.careers.peraton.com/search-jobs",
-    "notes": "Requires TS/SCI eligibility - Competitive - Security+ required - High value if selected",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "notes": "Entry SOC - Security+ required - TS/SCI eligibility needed - Aspirational, apply to build pipeline",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 26,
@@ -406,14 +463,16 @@
     "company": "Amentum",
     "market": "TX",
     "city": "San Antonio, TX",
-    "salary": "$58K-$70K/yr",
+    "salary": "$55K-$68K/yr",
     "roleType": "Cybersecurity",
-    "certs": ["sec", "fed"],
+    "certs": [
+      "sec"
+    ],
     "priority": "Stretch",
-    "url": "https://www.indeed.com/jobs?q=entry+level+cybersecurity+analyst&l=San+Antonio%2C+TX",
-    "notes": "Requires clearance eligibility - Secondary market TX - Security+ required - Competitive entry cyber",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "url": "https://www.indeed.com/jobs?q=Amentum%20cybersecurity%20analyst%20entry%20level&l=San%20Antonio%2C%20TX&fromage=14",
+    "notes": "Entry cyber analyst - Security+ required - Competitive - Some SOC/GRC exposure preferred",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   },
   {
     "id": 27,
@@ -422,13 +481,15 @@
     "company": "Leidos",
     "market": "MD",
     "city": "Annapolis Junction, MD",
-    "salary": "$55K-$68K/yr",
+    "salary": "$55K-$67K/yr",
     "roleType": "Systems Admin",
-    "certs": ["sec", "fed"],
+    "certs": [
+      "sec"
+    ],
     "priority": "Stretch",
     "url": "https://careers.leidos.com/search/jobs/in/md-maryland",
-    "notes": "Prefers 1-2 years sysadmin - TS/SCI common on program - Growth target after help desk",
-    "postedDate": "2026-07-05",
-    "posted": "2026-07-05"
+    "notes": "Junior sysadmin cleared program - Security+ required - 1-2 yrs admin preferred - Stretch",
+    "postedDate": "2026-07-06",
+    "posted": "2026-07-06"
   }
 ]
