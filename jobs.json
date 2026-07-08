@@ -2,80 +2,213 @@
   {
     "id": 1,
     "score": 89,
-    "title": "Access Control Systems Help Desk Technician",
-    "company": "Insight Global",
-    "market": "VA",
-    "city": "Springfield, VA",
+    "title": "Systems Network Administrator I/Service Desk Support",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Laurel, MD",
     "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/access-control-systems-help-desk-technician-at-insight-global-4435255154",
-    "notes": "Help Desk role - Security+ relevant - clearance-eligible a plus - Springfield, VA",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
+    "url": "https://www.linkedin.com/jobs/view/systems-network-administrator-i-service-desk-support-at-leidos-4408008770",
+    "notes": "Help Desk role - Security+ relevant - clearance-eligible welcome - Laurel, MD",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
   },
   {
     "id": 2,
-    "score": 89,
-    "title": "IT Support Technician",
-    "company": "MAZIV",
-    "market": "Remote",
-    "city": "Remote",
+    "score": 86,
+    "title": "IT Support Engineer I, Ops Tech Solutions (OTS)",
+    "company": "Amazon",
+    "market": "VA",
+    "city": "Fredericksburg, VA",
     "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/it-support-technician-at-maziv-4433146809",
-    "notes": "Help Desk role - Security+ relevant - clearance-eligible a plus - Remote",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
+    "url": "https://www.linkedin.com/jobs/view/it-support-engineer-i-ops-tech-solutions-ots-at-amazon-4417341945",
+    "notes": "Help Desk role - Security+ relevant - Fredericksburg, VA",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
   },
   {
     "id": 3,
-    "score": 88,
-    "title": "Desktop Support Technician",
-    "company": "Leidos",
-    "market": "VA",
-    "city": "Norfolk, VA",
+    "score": 85,
+    "title": "Help Desk / IT Support Specialist",
+    "company": "Sabre Systems, LLC",
+    "market": "MD",
+    "city": "Lexington Park, MD",
     "salary": "Competitive",
-    "roleType": "Desktop Support",
+    "roleType": "Help Desk",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/desktop-support-technician-at-leidos-4427127658",
-    "notes": "Desktop Support role - Security+ relevant - clearance-eligible a plus - Norfolk, VA",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
+    "url": "https://www.linkedin.com/jobs/view/help-desk-it-support-specialist-at-sabre-systems-llc-4436864264",
+    "notes": "Help Desk role - Security+ relevant - clearance-eligible welcome - Lexington Park, MD",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
   },
   {
     "id": 4,
-    "score": 88,
-    "title": "IT Technician",
-    "company": "MSM Technology",
+    "score": 84,
+    "title": "Workstation Technician",
+    "company": "Resource Management Concepts, Inc.",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/workstation-technician-at-resource-management-concepts-inc-4435208653",
+    "notes": "Help Desk role - Security+ relevant - clearance-eligible welcome - Washington, DC",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
+  },
+  {
+    "id": 5,
+    "score": 84,
+    "title": "Desktop Support Technician",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Andrews AFB, MD",
+    "salary": "Competitive",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/desktop-support-technician-at-leidos-4437489990",
+    "notes": "Desktop Support role - Security+ relevant - clearance-eligible welcome - Andrews AFB, MD",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
+  },
+  {
+    "id": 6,
+    "score": 84,
+    "title": "Desktop Support Technician",
+    "company": "mPower, Inc.",
+    "market": "MD",
+    "city": "Bethesda, MD",
+    "salary": "Competitive",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/desktop-support-technician-at-mpower-inc-4435270564",
+    "notes": "Desktop Support role - Security+ relevant - clearance-eligible welcome - Bethesda, MD",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
+  },
+  {
+    "id": 7,
+    "score": 83,
+    "title": "Information Technology Desktop Support",
+    "company": "Quantum World Technologies Inc.",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "Competitive",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/information-technology-desktop-support-at-quantum-world-technologies-inc-4437834454",
+    "notes": "Desktop Support role - Security+ relevant - clearance-eligible welcome - Washington, DC",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
+  },
+  {
+    "id": 8,
+    "score": 83,
+    "title": "Desktop Technician",
+    "company": "ActioNet, Inc.",
     "market": "VA",
-    "city": "Newport News, VA",
+    "city": "Arlington, VA",
+    "salary": "Competitive",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/desktop-technician-at-actionet-inc-4434639387",
+    "notes": "Desktop Support role - Security+ relevant - clearance-eligible welcome - Arlington, VA",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
+  },
+  {
+    "id": 9,
+    "score": 83,
+    "title": "Help Desk Technician - Archdiocese of Washington",
+    "company": "Roman Catholic Archdiocese of Washington",
+    "market": "MD",
+    "city": "Hyattsville, MD",
     "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/it-technician-at-msm-technology-4426432163",
-    "notes": "Help Desk role - Security+ relevant - clearance-eligible a plus - Newport News, VA",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
+    "url": "https://www.linkedin.com/jobs/view/help-desk-technician-archdiocese-of-washington-at-roman-catholic-archdiocese-of-washington-4438175959",
+    "notes": "Help Desk role - Security+ relevant - Hyattsville, MD",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
   },
   {
-    "id": 5,
-    "score": 87,
-    "title": "IT Service Desk Support Specialist",
-    "company": "Music & Arts",
+    "id": 10,
+    "score": 83,
+    "title": "Information Technology Specialist",
+    "company": "Guided Search Partners",
+    "market": "MD",
+    "city": "Linthicum Heights, MD",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/information-technology-specialist-at-guided-search-partners-4436596797",
+    "notes": "Help Desk role - Security+ relevant - Linthicum Heights, MD",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
+  },
+  {
+    "id": 11,
+    "score": 83,
+    "title": "Support Technician (Telecommunications)",
+    "company": "Taku Health Services, LLC",
+    "market": "MD",
+    "city": "Rockville, MD",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/support-technician-telecommunications-at-taku-health-services-llc-4250051209",
+    "notes": "Help Desk role - Security+ relevant - Rockville, MD",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
+  },
+  {
+    "id": 12,
+    "score": 83,
+    "title": "Data Center Technician, Nights",
+    "company": "Amazon Web Services (AWS)",
     "market": "MD",
     "city": "Frederick, MD",
     "salary": "Competitive",
@@ -84,159 +217,123 @@
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/it-service-desk-support-specialist-at-music-arts-4430645419",
-    "notes": "Help Desk role - Security+ relevant - clearance-eligible a plus - Frederick, MD",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
+    "url": "https://www.linkedin.com/jobs/view/data-center-technician-nights-at-amazon-web-services-aws-4428176728",
+    "notes": "Help Desk role - Security+ relevant - Frederick, MD",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
   },
   {
-    "id": 6,
-    "score": 87,
-    "title": "Helpdesk Technician",
-    "company": "Environmental Air Systems",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/helpdesk-technician-at-environmental-air-systems-4379436934",
-    "notes": "Help Desk role - Security+ relevant - clearance-eligible a plus - Remote",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
-  },
-  {
-    "id": 7,
-    "score": 87,
-    "title": "IT Support Specialist",
-    "company": "Grand Hotel",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/it-support-specialist-at-grand-hotel-4429701839",
-    "notes": "Help Desk role - Security+ relevant - clearance-eligible a plus - Remote",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
-  },
-  {
-    "id": 8,
-    "score": 87,
-    "title": "Network Deployment Technician, DCC Communities",
-    "company": "Amazon Web Services (AWS)",
+    "id": 13,
+    "score": 82,
+    "title": "Specialist, Service Management",
+    "company": "Pearson",
     "market": "VA",
-    "city": "Louisa, VA",
+    "city": "Richmond, VA",
     "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/network-deployment-technician-dcc-communities-at-amazon-web-services-aws-4365630264",
-    "notes": "Help Desk role - Security+ relevant - clearance-eligible a plus - Louisa, VA",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
+    "url": "https://www.linkedin.com/jobs/view/specialist-service-management-at-pearson-4428438604",
+    "notes": "Help Desk role - Security+ relevant - Richmond, VA",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
   },
   {
-    "id": 9,
-    "score": 86,
-    "title": "Service Desk Technician",
-    "company": "SAIC",
-    "market": "MD",
-    "city": "Aberdeen Proving Ground, MD",
+    "id": 14,
+    "score": 82,
+    "title": "Operations Maintenance and Support Specialist",
+    "company": "The Amatriot Group",
+    "market": "VA",
+    "city": "Chantilly, VA",
     "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/service-desk-technician-at-saic-4432224383",
-    "notes": "Help Desk role - Security+ relevant - clearance-eligible a plus - Aberdeen Proving Ground, MD",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
+    "url": "https://www.linkedin.com/jobs/view/operations-maintenance-and-support-specialist-at-the-amatriot-group-4368059918",
+    "notes": "Help Desk role - Security+ relevant - Chantilly, VA",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
   },
   {
-    "id": 10,
-    "score": 86,
-    "title": "Help Desk Specialist with Security Clearance",
-    "company": "Kaizen Approach, Inc.",
-    "market": "MD",
-    "city": "Linthicum Heights, MD",
+    "id": 15,
+    "score": 82,
+    "title": "IT Support Technician",
+    "company": "Verato",
+    "market": "VA",
+    "city": "Tysons Corner, VA",
     "salary": "Competitive",
     "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/it-support-technician-at-verato-4437881300",
+    "notes": "Help Desk role - Security+ relevant - Tysons Corner, VA",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
+  },
+  {
+    "id": 16,
+    "score": 82,
+    "title": "PC Technical Support",
+    "company": "Interstate Moving | Relocation | Logistics",
+    "market": "VA",
+    "city": "Springfield, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/pc-technical-support-at-interstate-moving-relocation-logistics-4436238217",
+    "notes": "Help Desk role - Security+ relevant - Springfield, VA",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
+  },
+  {
+    "id": 17,
+    "score": 82,
+    "title": "IT Service Desk Technician",
+    "company": "ICEYE US",
+    "market": "VA",
+    "city": "Herndon, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/it-service-desk-technician-at-iceye-us-4430801249",
+    "notes": "Help Desk role - Security+ relevant - Herndon, VA",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
+  },
+  {
+    "id": 18,
+    "score": 81,
+    "title": "Tier I System Administrator",
+    "company": "StratasCorp Technologies",
+    "market": "VA",
+    "city": "Hampton, VA",
+    "salary": "Competitive",
+    "roleType": "Systems Admin",
     "certs": [
       "sec",
       "fed"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-with-security-clearance-at-kaizen-approach-inc-4432377719",
-    "notes": "Help Desk role - Clearance/eligibility required - Linthicum Heights, MD",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
+    "url": "https://www.linkedin.com/jobs/view/tier-i-system-administrator-at-stratascorp-technologies-4436024866",
+    "notes": "Systems Admin role - Security+ relevant - clearance-eligible welcome - Hampton, VA",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
   },
   {
-    "id": 11,
-    "score": 86,
-    "title": "IT Support Specialist",
-    "company": "The Shade Store",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/it-support-specialist-at-the-shade-store-4401675218",
-    "notes": "Help Desk role - Security+ relevant - clearance-eligible a plus - Remote",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
-  },
-  {
-    "id": 12,
-    "score": 85,
-    "title": "Help Desk Specialist",
-    "company": "Sev1Tech LLC",
-    "market": "MD",
-    "city": "Suitland, MD",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-at-sev1tech-llc-4432450292",
-    "notes": "Help Desk role - Security+ relevant - clearance-eligible a plus - Suitland, MD",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
-  },
-  {
-    "id": 13,
-    "score": 85,
-    "title": "Tier One Technical Support",
-    "company": "SAIC",
-    "market": "MD",
-    "city": "Aberdeen Proving Ground, MD",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/tier-one-technical-support-at-saic-4423359087",
-    "notes": "Help Desk role - Security+ relevant - clearance-eligible a plus - Aberdeen Proving Ground, MD",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
-  },
-  {
-    "id": 14,
-    "score": 79,
+    "id": 19,
+    "score": 81,
     "title": "CSOC Tier 1 Analyst",
     "company": "Constellation Software Engineering, LLC (CSEngineering)",
     "market": "MD",
@@ -246,264 +343,209 @@
     "certs": [
       "sec"
     ],
-    "priority": "Medium",
+    "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/csoc-tier-1-analyst-at-constellation-software-engineering-llc-csengineering-4432399576",
-    "notes": "SOC role - Security+ relevant - clearance-eligible a plus - Rockville, MD",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
-  },
-  {
-    "id": 15,
-    "score": 79,
-    "title": "Electronic Classroom Room (ECR) Support Technician",
-    "company": "Lockheed Martin",
-    "market": "VA",
-    "city": "Dahlgren, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/electronic-classroom-room-ecr-support-technician-at-lockheed-martin-4426896633",
-    "notes": "Help Desk role - Security+ relevant - clearance-eligible a plus - Dahlgren, VA",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
-  },
-  {
-    "id": 16,
-    "score": 79,
-    "title": "Technical Support Analyst",
-    "company": "Dillard's",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/technical-support-analyst-at-dillard-s-4437463471",
-    "notes": "Help Desk role - Security+ relevant - clearance-eligible a plus - Remote",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
-  },
-  {
-    "id": 17,
-    "score": 79,
-    "title": "Help Desk Analyst",
-    "company": "Agile Defense",
-    "market": "VA",
-    "city": "Quantico, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/help-desk-analyst-at-agile-defense-4427844578",
-    "notes": "Help Desk role - Security+ relevant - clearance-eligible a plus - Quantico, VA",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
-  },
-  {
-    "id": 18,
-    "score": 79,
-    "title": "IT Support Analyst",
-    "company": "BWXT",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/it-support-analyst-at-bwxt-4431959356",
-    "notes": "Help Desk role - Security+ relevant - clearance-eligible a plus - Remote",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
-  },
-  {
-    "id": 19,
-    "score": 79,
-    "title": "Help Desk Analyst (Casa Grande)",
-    "company": "Daisy Brand",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/help-desk-analyst-casa-grande-at-daisy-brand-4408453623",
-    "notes": "Help Desk role - Security+ relevant - clearance-eligible a plus - Remote",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
+    "notes": "SOC role - Security+ relevant - Rockville, MD",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
   },
   {
     "id": 20,
-    "score": 78,
-    "title": "Data Center Technician, Nights",
-    "company": "Amazon Web Services (AWS)",
-    "market": "MD",
-    "city": "Frederick, MD",
-    "salary": "Competitive",
-    "roleType": "Cloud",
-    "certs": [
-      "sec",
-      "cloud"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/data-center-technician-nights-at-amazon-web-services-aws-4428169825",
-    "notes": "Cloud role - Security+ relevant - clearance-eligible a plus - Frederick, MD",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
-  },
-  {
-    "id": 21,
-    "score": 78,
-    "title": "CIRT Tier 1 Analyst / Active Secret",
-    "company": "Peraton",
-    "market": "MD",
-    "city": "Beltsville, MD",
-    "salary": "Competitive",
-    "roleType": "SOC",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/cirt-tier-1-analyst-active-secret-at-peraton-4435579198",
-    "notes": "SOC role - Clearance/eligibility required - Beltsville, MD",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
-  },
-  {
-    "id": 22,
-    "score": 78,
-    "title": "IT Support",
-    "company": "Ocean Breeze Waterpark",
-    "market": "VA",
-    "city": "Virginia Beach, VA",
+    "score": 80,
+    "title": "Help Desk Technician I",
+    "company": "Haynie & Company",
+    "market": "TX",
+    "city": "Brownsville, TX",
     "salary": "Competitive",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/it-support-at-ocean-breeze-waterpark-4432015507",
-    "notes": "Help Desk role - Security+ relevant - clearance-eligible a plus - Virginia Beach, VA",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-technician-i-at-haynie-company-4434572093",
+    "notes": "Help Desk role - Security+ relevant - Brownsville, TX",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
   },
   {
-    "id": 23,
-    "score": 73,
-    "title": "SOC Analyst II",
-    "company": "Zachary Piper Solutions",
-    "market": "MD",
-    "city": "Fulton, MD",
+    "id": 21,
+    "score": 80,
+    "title": "IT Professional I",
+    "company": "Texas A&M University",
+    "market": "TX",
+    "city": "Bryan, TX",
     "salary": "Competitive",
-    "roleType": "SOC",
+    "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/soc-analyst-ii-at-zachary-piper-solutions-4435254342",
-    "notes": "SOC role - Security+ relevant - clearance-eligible a plus - Fulton, MD",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/it-professional-i-at-texas-a-m-university-4438119842",
+    "notes": "Help Desk role - Security+ relevant - Bryan, TX",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
   },
   {
-    "id": 24,
-    "score": 69,
-    "title": "Computer Network Defense Analyst (CNDA)",
-    "company": "The Swift Group, LLC",
-    "market": "MD",
-    "city": "Annapolis Junction, MD",
-    "salary": "Competitive",
-    "roleType": "SOC",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Stretch",
-    "url": "https://www.linkedin.com/jobs/view/computer-network-defense-analyst-cnda-at-the-swift-group-llc-4413586980",
-    "notes": "SOC role - Security+ relevant - clearance-eligible a plus - Annapolis Junction, MD",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
-  },
-  {
-    "id": 25,
-    "score": 68,
-    "title": "NOC Engineer - Herndon VA",
-    "company": "Cogent Communications",
-    "market": "VA",
-    "city": "Herndon, VA",
-    "salary": "Competitive",
-    "roleType": "NOC",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Stretch",
-    "url": "https://www.linkedin.com/jobs/view/noc-engineer-%E2%80%93-herndon-va-at-cogent-communications-4436965259",
-    "notes": "NOC role - Security+ relevant - clearance-eligible a plus - Herndon, VA",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
-  },
-  {
-    "id": 26,
-    "score": 66,
-    "title": "Cyber Security Watch Officer",
-    "company": "Leidos",
-    "market": "MD",
-    "city": "Odenton, MD",
-    "salary": "Competitive",
-    "roleType": "SOC",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Stretch",
-    "url": "https://www.linkedin.com/jobs/view/cyber-security-watch-officer-at-leidos-4423167721",
-    "notes": "SOC role - Security+ relevant - clearance-eligible a plus - Odenton, MD",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
-  },
-  {
-    "id": 27,
-    "score": 64,
-    "title": "Security Operations Center (SOC) Analyst (Mid)",
-    "company": "Leidos",
+    "id": 22,
+    "score": 80,
+    "title": "Systems Support Analyst I (On-Site)",
+    "company": "Infinite Legacy",
     "market": "MD",
     "city": "Baltimore, MD",
-    "salary": "Competitive",
-    "roleType": "SOC",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Stretch",
-    "url": "https://www.linkedin.com/jobs/view/security-operations-center-soc-analyst-mid-at-leidos-4430456102",
-    "notes": "SOC role - Security+ relevant - clearance-eligible a plus - Baltimore, MD",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
-  },
-  {
-    "id": 28,
-    "score": 60,
-    "title": "Senior Network Engineer",
-    "company": "ECS",
-    "market": "VA",
-    "city": "Greater Richmond Region",
     "salary": "Competitive",
     "roleType": "Systems Admin",
     "certs": [
       "sec"
     ],
-    "priority": "Stretch",
-    "url": "https://www.linkedin.com/jobs/view/senior-network-engineer-at-ecs-4404872549",
-    "notes": "Systems Admin role - Security+ relevant - clearance-eligible a plus - Greater Richmond Region",
-    "postedDate": "2026-07-07",
-    "posted": "2026-07-07"
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/systems-support-analyst-i-on-site-at-infinite-legacy-4436841124",
+    "notes": "Systems Admin role - Security+ relevant - Baltimore, MD",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
+  },
+  {
+    "id": 23,
+    "score": 78,
+    "title": "Network Support Technician - Level 1",
+    "company": "Berkeley County School District",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/network-support-technician-level-1-at-berkeley-county-school-district-4437766338",
+    "notes": "Help Desk role - Security+ relevant - Remote",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
+  },
+  {
+    "id": 24,
+    "score": 78,
+    "title": "Hardware Technician",
+    "company": "MSI",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/hardware-technician-at-msi-4403279876",
+    "notes": "Help Desk role - Security+ relevant - Remote",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
+  },
+  {
+    "id": 25,
+    "score": 78,
+    "title": "Help Desk Technician",
+    "company": "The Black Tux",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-technician-at-the-black-tux-4434675350",
+    "notes": "Help Desk role - Security+ relevant - Remote",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
+  },
+  {
+    "id": 26,
+    "score": 78,
+    "title": "Data Center Technician",
+    "company": "Amazon Web Services (AWS)",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/data-center-technician-at-amazon-web-services-aws-4436433969",
+    "notes": "Help Desk role - Security+ relevant - Remote",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
+  },
+  {
+    "id": 27,
+    "score": 78,
+    "title": "Analyst",
+    "company": "Tata Consultancy Services",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/analyst-at-tata-consultancy-services-4435280146",
+    "notes": "Help Desk role - Security+ relevant - Remote",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
+  },
+  {
+    "id": 28,
+    "score": 78,
+    "title": "Facility IT Support",
+    "company": "MAC.BID",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/facility-it-support-at-mac-bid-4436215636",
+    "notes": "Help Desk role - Security+ relevant - Remote",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
+  },
+  {
+    "id": 29,
+    "score": 78,
+    "title": "Systems Administrator",
+    "company": "CACI International Inc",
+    "market": "MD",
+    "city": "Fort Meade, MD",
+    "salary": "Competitive",
+    "roleType": "Systems Admin",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/systems-administrator-at-caci-international-inc-4434583518",
+    "notes": "Systems Admin role - Security+ relevant - clearance-eligible welcome - Fort Meade, MD",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
+  },
+  {
+    "id": 30,
+    "score": 76,
+    "title": "Technical Support",
+    "company": "The Reynolds and Reynolds Company",
+    "market": "TX",
+    "city": "College Station-Bryan Area",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/technical-support-at-the-reynolds-and-reynolds-company-4426690683",
+    "notes": "Help Desk role - Security+ relevant - College Station-Bryan Area",
+    "postedDate": "2026-07-08",
+    "posted": "2026-07-08"
   }
 ]
