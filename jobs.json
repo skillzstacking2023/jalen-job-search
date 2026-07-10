@@ -14,8 +14,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/service-desk-technician-at-saic-4432224383",
     "notes": "Entry service desk at DoD site (APG) - Security+ a plus - Clearance eligible welcome",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
     "id": 2,
@@ -32,8 +32,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/tier-one-technical-support-at-saic-4438233865",
     "notes": "Tier 1 technical support at DoD site - Security+ a plus - Clearance eligible welcome",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
     "id": 3,
@@ -50,8 +50,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-at-sev1tech-llc-4432450292",
     "notes": "Federal help desk support - Security+ preferred - Public trust eligible",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
     "id": 4,
@@ -66,8 +66,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-support-associate-ii-ops-tech-solutions-ots-at-amazon-4432036952",
     "notes": "Hands-on IT hardware and end-user support - No clearance required - Onsite",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
     "id": 5,
@@ -82,8 +82,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-service-desk-support-specialist-at-music-arts-4430645419",
     "notes": "Commercial IT service desk - No clearance required - Great entry role",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
     "id": 6,
@@ -98,8 +98,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/deskside-technician-ii-at-stefanini-north-america-and-apac-4433877984",
     "notes": "Deskside technician - Onsite end-user support - No clearance required",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
     "id": 7,
@@ -116,8 +116,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/help-desk-technician-i-mon-fri-6am-230pm-at-red-river-4430564794",
     "notes": "Help Desk Technician I - Mon-Fri day shift - Security+ preferred",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
     "id": 8,
@@ -132,8 +132,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/desktop-support-analyst-at-stepstone-group-4428091253",
     "notes": "Desktop support analyst - No clearance required - Onsite Baltimore",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
     "id": 9,
@@ -148,8 +148,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/help-desk-support-specialist-at-the-phoenix-group-4426866685",
     "notes": "Help desk support specialist - Commercial - No clearance required",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
     "id": 10,
@@ -164,8 +164,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-support-technician-at-verato-4437881300",
     "notes": "IT support technician - Health-tech firm - No clearance required",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
     "id": 11,
@@ -182,11 +182,29 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/service-desk-specialist-at-ronin-information-technology-services-llc-4432596241",
     "notes": "Service desk specialist - Security+ a plus - Clearance eligible welcome",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
     "id": 12,
+    "score": 82,
+    "title": "DeskSide Support Specialist",
+    "company": "Vantor",
+    "market": "VA",
+    "city": "Herndon, VA",
+    "salary": "Competitive",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/deskside-support-specialist-at-vantor-4438689893",
+    "notes": "Deskside end-user support in Northern VA - Security+ a plus - Clearance eligible welcome",
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
+  },
+  {
+    "id": 13,
     "score": 81,
     "title": "IT Support Technician",
     "company": "ImageSFX",
@@ -198,11 +216,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-support-technician-at-imagesfx-4428411891",
     "notes": "IT support technician - Onsite - No clearance required",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
-    "id": 13,
+    "id": 14,
     "score": 81,
     "title": "IT User Support Technician",
     "company": "University of Virginia",
@@ -214,11 +232,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-user-support-technician-at-university-of-virginia-4425656418",
     "notes": "University IT user support - No clearance required - Good learning environment",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
-    "id": 14,
+    "id": 15,
     "score": 81,
     "title": "IT On-Site Support Technician",
     "company": "WSP in the U.S.",
@@ -230,11 +248,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-on-site-support-technician-at-wsp-in-the-u-s-4427497954",
     "notes": "On-site IT support technician - Field support - No clearance required",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
-    "id": 15,
+    "id": 16,
     "score": 80,
     "title": "Network Operations Center Technician",
     "company": "MSRcosmos LLC",
@@ -246,11 +264,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/network-operations-center-technician-at-msrcosmos-llc-4425828160",
     "notes": "Network Operations Center technician - Shift work - Monitoring and escalation",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
-    "id": 16,
+    "id": 17,
     "score": 80,
     "title": "Network Operations Center Technician",
     "company": "Seneca Resources",
@@ -262,24 +280,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/network-operations-center-technician-at-seneca-resources-4437481317",
     "notes": "NOC technician - Network monitoring - Entry to mid level",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
-  },
-  {
-    "id": 17,
-    "score": 80,
-    "title": "Desktop Support Technician",
-    "company": "Sira Consulting, an Inc 5000 company",
-    "market": "VA",
-    "city": "West Point, VA",
-    "salary": "$48K-$62K/yr",
-    "roleType": "Desktop Support",
-    "certs": [],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/desktop-support-technician-at-sira-consulting-an-inc-5000-company-4438278361",
-    "notes": "Desktop support technician - Onsite - Entry level",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
     "id": 18,
@@ -294,11 +296,29 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/information-technology-desktop-support-at-quantum-world-technologies-inc-4437834454",
     "notes": "IT desktop support - Onsite DC - No clearance required",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
     "id": 19,
+    "score": 79,
+    "title": "Help Desk Support - Overnights - Remote",
+    "company": "Wunderlich-Malec Engineering",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-support-overnights-remote-at-wunderlich-malec-engineering-inc-4426662037",
+    "notes": "Fully remote overnight tier 1 help desk - Security+ a plus - No clearance required",
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
+  },
+  {
+    "id": 20,
     "score": 78,
     "title": "Junior Systems Administrator",
     "company": "Akima",
@@ -312,11 +332,29 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/junior-systems-administrator-at-akima-4432107586",
     "notes": "Junior systems administrator - Security+ preferred - Solid step up from help desk",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
-    "id": 20,
+    "id": 21,
+    "score": 77,
+    "title": "System Administrator 1",
+    "company": "Amentum",
+    "market": "MD",
+    "city": "Annapolis, MD",
+    "salary": "Competitive",
+    "roleType": "Systems Admin",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/system-administrator-1-at-amentum-4438297868",
+    "notes": "Entry-level sys admin at federal contractor - Security+ a plus - Clearance eligible welcome",
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
+  },
+  {
+    "id": 22,
     "score": 76,
     "title": "Network Administrator",
     "company": "Alpha Omega",
@@ -330,30 +368,11 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/network-administrator-at-alpha-omega-4435387297",
     "notes": "Network administrator - Slightly higher experience bar - Security+ preferred",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
-    "id": 21,
-    "score": 76,
-    "title": "Associate IT Systems Engineer - JobID-0222",
-    "company": "Innovative Defense Technologies (IDT)",
-    "market": "VA",
-    "city": "Arlington, VA",
-    "salary": "$65K-$85K/yr",
-    "roleType": "Systems Admin",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/associate-it-systems-engineer-jobid-0222-at-innovative-defense-technologies-idt-4430473106",
-    "notes": "Associate IT systems engineer - Defense firm - Clearance may be required",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
-  },
-  {
-    "id": 22,
+    "id": 23,
     "score": 75,
     "title": "Security Operations Center Analyst I (SOC)",
     "company": "Chenega MIOS SBU",
@@ -368,11 +387,11 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/security-operations-center-analyst-i-soc-at-chenega-mios-sbu-4431718962",
     "notes": "SOC Analyst I - Public trust or clearance preferred - Security+ preferred - Great SOC entry",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
-    "id": 23,
+    "id": 24,
     "score": 74,
     "title": "Help Desk Specialist with Security Clearance",
     "company": "Kaizen Approach, Inc.",
@@ -387,11 +406,11 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-with-security-clearance-at-kaizen-approach-inc-4432377719",
     "notes": "Active security clearance required - Security+ needed - Strong role if clearance obtained",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
-    "id": 24,
+    "id": 25,
     "score": 74,
     "title": "Helpdesk Technician - Jr. Level",
     "company": "Corps Solutions",
@@ -406,11 +425,11 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/4427635367",
     "notes": "Jr helpdesk at USMC site - Clearance likely required - Security+ a plus",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
-    "id": 25,
+    "id": 26,
     "score": 73,
     "title": "SOC Analyst I",
     "company": "Addison Group",
@@ -424,11 +443,11 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/soc-analyst-i-at-addison-group-4437147246",
     "notes": "SOC Analyst I - Secondary market (TX) - Security+ preferred - Good SOC entry",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
-    "id": 26,
+    "id": 27,
     "score": 72,
     "title": "Triage Analyst",
     "company": "Accenture Federal Services",
@@ -443,11 +462,11 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/triage-analyst-at-accenture-federal-services-4431726850",
     "notes": "Federal triage/SOC analyst - Clearance eligible - Security+ preferred",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
-    "id": 27,
+    "id": 28,
     "score": 70,
     "title": "NetOps System Administrator",
     "company": "By Light Professional IT Services",
@@ -462,11 +481,11 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/netops-system-administrator-at-by-light-professional-it-services-4427770559",
     "notes": "NetOps sysadmin at IC site - Clearance likely required - Security+ needed",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
-    "id": 28,
+    "id": 29,
     "score": 70,
     "title": "Cyber Security Administrator",
     "company": "GovCIO",
@@ -481,11 +500,11 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/cyber-security-administrator-at-govcio-4438537907",
     "notes": "Cyber security administrator - Federal contractor - Clearance eligible - Security+ needed",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   },
   {
-    "id": 29,
+    "id": 30,
     "score": 69,
     "title": "Cybersecurity Analyst",
     "company": "City of Pharr, TX",
@@ -499,25 +518,7 @@
     "priority": "Stretch",
     "url": "https://www.linkedin.com/jobs/view/cybersecurity-analyst-at-city-of-pharr-tx-4437874960",
     "notes": "Municipal cybersecurity analyst - Out of primary market - Competitive but valuable",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
-  },
-  {
-    "id": 30,
-    "score": 68,
-    "title": "SOC Analyst II",
-    "company": "ECS",
-    "market": "VA",
-    "city": "Richmond, VA",
-    "salary": "$75K-$95K/yr",
-    "roleType": "SOC",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Stretch",
-    "url": "https://www.linkedin.com/jobs/view/soc-analyst-ii-at-ecs-4437862300",
-    "notes": "SOC Analyst II - Aspirational - Requires ~2+ yrs experience - Worth applying to stretch",
-    "postedDate": "2026-07-09",
-    "posted": "2026-07-09"
+    "postedDate": "2026-07-10",
+    "posted": "2026-07-10"
   }
 ]
