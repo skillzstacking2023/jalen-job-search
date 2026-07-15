@@ -1,25 +1,7 @@
 [
   {
     "id": 1,
-    "score": 89,
-    "title": "Desktop Support Technician, Junior",
-    "company": "LCG",
-    "market": "MD",
-    "city": "Bethesda, MD",
-    "salary": "$48K-$60K/yr",
-    "roleType": "Desktop Support",
-    "certs": [
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/f567e70f-48f9-468f-bdc0-f2a24cf1b662",
-    "notes": "Junior/tier 1 - Public Trust - Hybrid - MD market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
-  },
-  {
-    "id": 2,
-    "score": 89,
+    "score": 90,
     "title": "IT Helpdesk Campus Support Apprentice",
     "company": "Liberty University",
     "market": "VA",
@@ -31,31 +13,32 @@
     ],
     "priority": "High",
     "url": "https://www.dice.com/job-detail/e0d8c904-b154-473a-9958-b175efa19558",
-    "notes": "Junior/tier 1 - VA market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
+    "notes": "Entry level / tier 1 - Security+ relevant - VA market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
   },
   {
-    "id": 3,
-    "score": 89,
-    "title": "Desktop Support Technician, Associate",
-    "company": "LCG",
-    "market": "MD",
-    "city": "Bethesda, MD",
-    "salary": "$28-$32/hr",
-    "roleType": "Desktop Support",
+    "id": 2,
+    "score": 88,
+    "title": "Tier 1 Help Desk Technician",
+    "company": "Iron Bow Technologies",
+    "market": "VA",
+    "city": "Herndon, VA",
+    "salary": "$20-$24/hr",
+    "roleType": "Help Desk",
     "certs": [
+      "sec",
       "fed"
     ],
     "priority": "High",
-    "url": "https://www.dice.com/job-detail/9449f6a6-f674-4f0f-a39b-1cb7c9dca979",
-    "notes": "Junior/tier 1 - Public Trust - Onsite - MD market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
+    "url": "https://www.dice.com/job-detail/e4a0fc3a-2f5e-46a8-a9f7-34bfc38a56b0",
+    "notes": "Entry level / tier 1 - Federal contractor - clearance eligible a plus - Security+ relevant - VA market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
   },
   {
-    "id": 4,
-    "score": 88,
+    "id": 3,
+    "score": 85,
     "title": "Entry Level Helpdesk Support",
     "company": "TEKsystems c/o Allegis Group",
     "market": "TX",
@@ -66,31 +49,13 @@
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.dice.com/job-detail/5ece50a2-9c02-497f-9003-9235f99f39a3",
-    "notes": "Entry level - TX market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
+    "url": "https://www.dice.com/job-detail/409a8cc5-3fbb-48a4-b744-e2e92c31d6eb",
+    "notes": "Entry level / tier 1 - Security+ relevant - TX market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
   },
   {
-    "id": 5,
-    "score": 87,
-    "title": "IT Helpdesk Specialist - Remote",
-    "company": "TEKsystems c/o Allegis Group",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$20/hr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/f040ec7e-66e0-470a-9531-fcf3779a15d2",
-    "notes": "Junior/tier 1 - Remote - Remote role",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
-  },
-  {
-    "id": 6,
+    "id": 4,
     "score": 85,
     "title": "Tier 1 Helpdesk Support",
     "company": "TEKsystems c/o Allegis Group",
@@ -103,301 +68,13 @@
     ],
     "priority": "High",
     "url": "https://www.dice.com/job-detail/1f68d37b-30c1-4db8-9aa5-19cf45e26c47",
-    "notes": "Junior/tier 1 - TX market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
+    "notes": "Entry level / tier 1 - Security+ relevant - TX market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
   },
   {
-    "id": 7,
-    "score": 85,
-    "title": "Help Desk IT Support Technician",
-    "company": "Cinter Career",
-    "market": "TX",
-    "city": "Houston, TX",
-    "salary": "$35-$38/hr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/5057cb27-722a-4d4c-89d7-d894f2be5861",
-    "notes": "Junior/tier 1 - Hybrid - TX market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
-  },
-  {
-    "id": 8,
-    "score": 82,
-    "title": "Help Desk / IT Support Specialist",
-    "company": "Sabre Systems",
-    "market": "MD",
-    "city": "Lexington Park, MD",
-    "salary": "$60K-$70K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/5bb23536-0788-4a69-980a-84eff6b24fc1",
-    "notes": "Onsite - MD market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
-  },
-  {
-    "id": 9,
-    "score": 82,
-    "title": "Desktop Support Technician",
-    "company": "Leidos",
-    "market": "MD",
-    "city": "Bethesda, MD",
-    "salary": "$35-$38/hr",
-    "roleType": "Desktop Support",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/a0198281-5230-45ad-825b-6249362a6380",
-    "notes": "MD market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
-  },
-  {
-    "id": 10,
-    "score": 82,
-    "title": "IT Support Engineer (Onsite in MD)",
-    "company": "Cyquent, Inc.",
-    "market": "MD",
-    "city": "Baltimore, MD",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/50654524-25c4-4e72-a83e-e658aa554a12",
-    "notes": "Clearance eligible - Hybrid - MD market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
-  },
-  {
-    "id": 11,
-    "score": 82,
-    "title": "IT Help Desk Specialist",
-    "company": "Satsyil Corporation",
-    "market": "VA",
-    "city": "Tysons, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/2d1887e8-c8d1-477f-b720-da99eb18811a",
-    "notes": "Clearance eligible - VA market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
-  },
-  {
-    "id": 12,
-    "score": 82,
-    "title": "Help Desk Specialist",
-    "company": "Ardent Eagle Solutions",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$26-$33/hr",
-    "roleType": "Help Desk",
-    "certs": [
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/2f35f130-9ddd-4cb1-906f-f0e99554a3e8",
-    "notes": "Clearance eligible - DC market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
-  },
-  {
-    "id": 13,
-    "score": 82,
-    "title": "Help Desk Technician",
-    "company": "Endurance IT Services",
-    "market": "VA",
-    "city": "Richmond, VA",
-    "salary": "$20/hr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/425faeb8-81c4-4a38-a8db-b0373b665999",
-    "notes": "VA market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
-  },
-  {
-    "id": 14,
-    "score": 82,
-    "title": "Tier 2 Help Desk Engineer",
-    "company": "Koniag, Inc.",
-    "market": "VA",
-    "city": "Washington, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/4b0ada73-80c1-48fe-bfe9-c8e1760ae4f6",
-    "notes": "Clearance eligible - VA market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
-  },
-  {
-    "id": 15,
-    "score": 82,
-    "title": "Help Desk | Lynx",
-    "company": "TEKsystems c/o Allegis Group",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$40/hr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/b863e54a-88ad-4c53-83c2-886e7427426e",
-    "notes": "DC market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
-  },
-  {
-    "id": 16,
-    "score": 82,
-    "title": "Help Desk Technical Support",
-    "company": "General Dynamics",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$26-$29/hr",
-    "roleType": "Help Desk",
-    "certs": [
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/74745e00-745b-4191-b189-cae5f157df16",
-    "notes": "Public Trust - DC market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
-  },
-  {
-    "id": 17,
-    "score": 82,
-    "title": "Help Desk Technician",
-    "company": "Howard University",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$45K-$52K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/f2cf3c96-22a0-45a0-9612-3cf67021e477",
-    "notes": "DC market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
-  },
-  {
-    "id": 18,
-    "score": 82,
-    "title": "Help Desk Specialist",
-    "company": "ATG",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/d5da94a7-52d2-48c8-9f5e-b61e64b7991f",
-    "notes": "DC market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
-  },
-  {
-    "id": 19,
-    "score": 82,
-    "title": "IT HELPDESK SPECIALIST",
-    "company": "Constellation West",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/df98a35b-ecb3-4b50-8dba-0ded996b8988",
-    "notes": "Onsite - DC market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
-  },
-  {
-    "id": 20,
-    "score": 82,
-    "title": "IT Help Desk Specialist",
-    "company": "Business Technology Integrators",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/694a7916-ee9b-4205-bc61-d38a7af3a446",
-    "notes": "Clearance eligible - DC market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
-  },
-  {
-    "id": 21,
-    "score": 82,
-    "title": "Journeyman Computer Support Specialist / IT Help Desk Specialist",
-    "company": "MAXISIQ",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/c709026b-f3e3-4f0f-8fdf-aafeb51f7566",
-    "notes": "DC market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
-  },
-  {
-    "id": 22,
-    "score": 80,
-    "title": "Help Desk Technician",
-    "company": "CALIBRE",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$40K-$50K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.dice.com/job-detail/82003ce2-d630-4335-892e-8d66cc1efdd5",
-    "notes": "Onsite - Remote role",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
-  },
-  {
-    "id": 23,
-    "score": 80,
+    "id": 5,
+    "score": 84,
     "title": "IT Helpdesk Remote Support - Support Specialist I",
     "company": "Liberty University",
     "market": "Remote",
@@ -409,49 +86,320 @@
     ],
     "priority": "High",
     "url": "https://www.dice.com/job-detail/83c0ea6a-101a-41ac-b2c5-b7efc7c53650",
-    "notes": "Remote role",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
+    "notes": "Entry level / tier 1 - Security+ relevant - Fully remote",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
   },
   {
-    "id": 24,
-    "score": 80,
-    "title": "Help Desk Support Specialist | Network Solutions",
-    "company": "CBIZ",
+    "id": 6,
+    "score": 83,
+    "title": "Helpdesk Jr",
+    "company": "Global Alliant Inc",
     "market": "Remote",
     "city": "Remote",
-    "salary": "Competitive",
+    "salary": "$60K-$70K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.dice.com/job-detail/13da08db-4773-46bc-b425-0ef46bdf036e",
-    "notes": "Remote role",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
+    "url": "https://www.dice.com/job-detail/4c27218e-65af-4540-a1fd-bbf6d559a219",
+    "notes": "Entry level / tier 1 - Security+ relevant - Fully remote",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
   },
   {
-    "id": 25,
-    "score": 78,
-    "title": "Network Operations Center Technician",
-    "company": "TEKsystems c/o Allegis Group",
+    "id": 7,
+    "score": 83,
+    "title": "Desktop Support-I",
+    "company": "Russell, Tobin & Associates",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "Competitive",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.dice.com/job-detail/bbbb76b5-a007-4acc-a2c3-f62c9856aac5",
+    "notes": "Entry level / tier 1 - Security+ relevant - Fully remote",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
+  },
+  {
+    "id": 8,
+    "score": 80,
+    "title": "IT Specialist",
+    "company": "Smithsonian Institution",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "$102K-$133K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.dice.com/job-detail/294791f3-aca1-48c9-a453-e81d5d7f6468",
+    "notes": "Mid level - good stretch - Security+ relevant - DC market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
+  },
+  {
+    "id": 9,
+    "score": 80,
+    "title": "Help Desk Technician",
+    "company": "Howard University",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "$45K-$52K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.dice.com/job-detail/f2cf3c96-22a0-45a0-9612-3cf67021e477",
+    "notes": "Mid level - good stretch - Security+ relevant - DC market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
+  },
+  {
+    "id": 10,
+    "score": 79,
+    "title": "Help Desk / IT Support Specialist",
+    "company": "Sabre Systems",
     "market": "MD",
-    "city": "Silver Spring, MD",
-    "salary": "$25-$32/hr",
-    "roleType": "NOC",
+    "city": "Lexington Park, MD",
+    "salary": "$60K-$70K/yr",
+    "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://www.dice.com/job-detail/4d8615e6-4994-4975-b7d3-c79bd5c6a657",
-    "notes": "MD market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
+    "url": "https://www.dice.com/job-detail/5bb23536-0788-4a69-980a-84eff6b24fc1",
+    "notes": "Mid level - good stretch - Security+ relevant - MD market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
   },
   {
-    "id": 26,
+    "id": 11,
+    "score": 79,
+    "title": "Help Desk Technician - Tier 2 (MSP)",
+    "company": "Solvere One",
+    "market": "VA",
+    "city": "Dulles, VA",
+    "salary": "$60K-$75K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/254bda11-e3c7-427d-9d1c-4ba5d89260b5",
+    "notes": "Mid level - good stretch - Security+ relevant - VA market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
+  },
+  {
+    "id": 12,
+    "score": 79,
+    "title": "Desktop Support Specialist",
+    "company": "Oneida Technical Solutions",
+    "market": "VA",
+    "city": "Fort Belvoir, VA",
+    "salary": "$80K-$86K/yr",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/52c9bcc8-7ff5-4568-b464-58e488d812db",
+    "notes": "Mid level - good stretch - Security+ relevant - VA market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
+  },
+  {
+    "id": 13,
+    "score": 79,
+    "title": "Service Desk Technician (Day Shift)",
+    "company": "Decisionpoint Corporation",
+    "market": "VA",
+    "city": "Arlington, VA",
+    "salary": "$19-$24/hr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/f7b6f547-a9af-4deb-b470-9c8a689667cb",
+    "notes": "Mid level - good stretch - Security+ relevant - VA market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
+  },
+  {
+    "id": 14,
+    "score": 79,
+    "title": "Service Desk Technician (Weekend Shift)",
+    "company": "Decisionpoint Corporation",
+    "market": "VA",
+    "city": "Arlington, VA",
+    "salary": "$19-$24/hr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/e2c97fba-13f3-41fc-82e3-86a2bda83f3b",
+    "notes": "Mid level - good stretch - Security+ relevant - VA market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
+  },
+  {
+    "id": 15,
     "score": 78,
+    "title": "Multifunctional Field Technical Support (MFTS)/Help Desk (contingent 045)",
+    "company": "MSSI",
+    "market": "MD",
+    "city": "Aberdeen, MD",
+    "salary": "Competitive",
+    "roleType": "Field Tech",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/b0e260db-c458-47bf-b7e7-610270fe5fe9",
+    "notes": "Mid level - good stretch - Security+ relevant - MD market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
+  },
+  {
+    "id": 16,
+    "score": 78,
+    "title": "Help Desk Technician",
+    "company": "Endurance IT Services",
+    "market": "VA",
+    "city": "Richmond, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/425faeb8-81c4-4a38-a8db-b0373b665999",
+    "notes": "Mid level - good stretch - Security+ relevant - VA market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
+  },
+  {
+    "id": 17,
+    "score": 78,
+    "title": "Help Desk Technician (Part-Time)",
+    "company": "American Systems Corporation",
+    "market": "VA",
+    "city": "McLean, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/09e6a60c-7460-4bb8-ae1a-1308fd3d2ac1",
+    "notes": "Mid level - good stretch - Security+ relevant - VA market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
+  },
+  {
+    "id": 18,
+    "score": 77,
+    "title": "Help Desk Support Specialist | Network Solutions",
+    "company": "CBIZ",
+    "market": "MD",
+    "city": "Maryland Heights, Missouri",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/13da08db-4773-46bc-b425-0ef46bdf036e",
+    "notes": "Mid level - good stretch - Security+ relevant - MD market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
+  },
+  {
+    "id": 19,
+    "score": 77,
+    "title": "Helpdesk Technician",
+    "company": "Cogent Infotech Corp",
+    "market": "MD",
+    "city": "Columbia, MD",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/6158a589-7221-46b3-a4a7-b381b5fd9817",
+    "notes": "Mid level - good stretch - Security+ relevant - MD market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
+  },
+  {
+    "id": 20,
+    "score": 77,
+    "title": "Help Desk Specialist",
+    "company": "Ardent Eagle Solutions",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "$26-$33/hr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/2f35f130-9ddd-4cb1-906f-f0e99554a3e8",
+    "notes": "Mid level - good stretch - Federal contractor - clearance eligible a plus - Security+ relevant - DC market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
+  },
+  {
+    "id": 21,
+    "score": 77,
+    "title": "Journeyman Computer Support Specialist / IT Help Desk Specialist",
+    "company": "MAXISIQ",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/c709026b-f3e3-4f0f-8fdf-aafeb51f7566",
+    "notes": "Mid level - good stretch - Security+ relevant - DC market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
+  },
+  {
+    "id": 22,
+    "score": 76,
+    "title": "IT Coordinator",
+    "company": "Eliassen Group",
+    "market": "MD",
+    "city": "Chevy Chase, MD",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/36c2f48f-d2fb-4475-bef0-3e163c58ad7a",
+    "notes": "Mid level - good stretch - Security+ relevant - MD market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
+  },
+  {
+    "id": 23,
+    "score": 76,
     "title": "Helpdesk Support Services Specialist Intermediate",
     "company": "Cherokee Federal",
     "market": "TX",
@@ -463,45 +411,135 @@
     ],
     "priority": "Medium",
     "url": "https://www.dice.com/job-detail/2c19ed66-282b-447e-9593-243bf90a4652",
-    "notes": "TX market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14"
+    "notes": "Mid level - good stretch - Security+ relevant - TX market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
   },
   {
-    "score": 65,
-    "title": "Systems Administrator",
-    "company": "Point Solutions Group, LLC",
-    "market": "VA",
-    "city": "Springfield, VA",
-    "salary": "$60-$63/hr",
+    "id": 24,
+    "score": 74,
+    "title": "System Administrator 1-BP-345",
+    "company": "Onyx Point, Inc.",
+    "market": "MD",
+    "city": "Maryland",
+    "salary": "Competitive",
     "roleType": "Systems Admin",
     "certs": [
       "sec"
     ],
-    "priority": "Stretch",
-    "url": "https://www.dice.com/job-detail/540fab28-88c9-4adf-abf2-11689b55fa78",
-    "notes": "Higher exp bar - Windows/Linux - Aspirational - VA market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14",
-    "id": 27
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/55db0f4d-fecc-4879-b628-4064ae1ef478",
+    "notes": "Mid level - good stretch - Security+ relevant - MD market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
   },
   {
-    "score": 62,
-    "title": "System Administrator - Desktop Support",
-    "company": "Shield Consulting Solutions, Inc.",
+    "id": 25,
+    "score": 74,
+    "title": "IT Support Technician (Part-Time, REMOTE)",
+    "company": "Connection",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "$38-$40/hr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/ad58b345-f3ce-44b6-9b0e-7795a2922a06",
+    "notes": "Mid level - good stretch - Security+ relevant - Fully remote",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
+  },
+  {
+    "id": 26,
+    "score": 74,
+    "title": "Desktop Support Engineer L1 - PR",
+    "company": "Blue Mantis",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "$21-$25/hr",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/9e6d4e91-cc6e-46ac-978d-80f9be141547",
+    "notes": "Mid level - good stretch - Security+ relevant - Fully remote",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
+  },
+  {
+    "id": 27,
+    "score": 73,
+    "title": "IT Helpdesk Support - Remote",
+    "company": "TEKsystems c/o Allegis Group",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "$20-$20/hr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/cd35e478-c9c1-48a2-b2da-0f35b070c8d5",
+    "notes": "Mid level - good stretch - Security+ relevant - Fully remote",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
+  },
+  {
+    "id": 28,
+    "score": 71,
+    "title": "Tier III Helpdesk Lead",
+    "company": "Cloudforce",
     "market": "MD",
-    "city": "Laurel, MD",
+    "city": "National Harbor, MD",
+    "salary": "$70K-$90K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/3795d4f3-aff8-4e77-9851-06f69641899c",
+    "notes": "Senior - aspirational reach - Security+ relevant - MD market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
+  },
+  {
+    "id": 29,
+    "score": 71,
+    "title": "Sr Process Engineer IT Production Support",
+    "company": "System One",
+    "market": "MD",
+    "city": "Columbia, MD",
     "salary": "Competitive",
-    "roleType": "Systems Admin",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.dice.com/job-detail/d36897d8-e4bb-45c4-b2a7-e22a587c8765",
+    "notes": "Senior - aspirational reach - Security+ relevant - Hybrid",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
+  },
+  {
+    "id": 30,
+    "score": 69,
+    "title": "Technical Services Lead - 2nd Shift",
+    "company": "SAIC",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "$40K-$80K/yr",
+    "roleType": "Help Desk",
     "certs": [
       "sec",
       "fed"
     ],
     "priority": "Stretch",
-    "url": "https://www.dice.com/job-detail/99f2d74c-adaa-446d-ad1b-3d568dd3d7e6",
-    "notes": "TS/SCI required - Aspirational - Onsite - MD market",
-    "postedDate": "2026-07-14",
-    "posted": "2026-07-14",
-    "id": 28
+    "url": "https://www.dice.com/job-detail/a7595d2c-6e1e-4c78-ae7b-c618a7200db3",
+    "notes": "Senior - aspirational reach - Federal contractor - clearance eligible a plus - Security+ relevant - DC market",
+    "postedDate": "2026-07-15",
+    "posted": "2026-07-15"
   }
 ]
