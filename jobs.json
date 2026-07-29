@@ -1,519 +1,517 @@
 [
   {
     "id": 1,
-    "score": 92,
-    "title": "IT Help Desk Technician (Tier 1)",
-    "company": "Leidos",
-    "market": "MD",
-    "city": "Columbia, MD",
-    "salary": "$52K-$65K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://careers.leidos.com/search-jobs",
-    "notes": "Security+ preferred - Public trust eligible - Entry level - On-site",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
-  },
-  {
-    "id": 2,
-    "score": 91,
-    "title": "Service Desk Analyst I",
-    "company": "GDIT",
-    "market": "VA",
-    "city": "Chantilly, VA",
-    "salary": "$48K-$60K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.gdit.com/careers/search-jobs/",
-    "notes": "Security+ a plus - Clearance eligible welcome - Entry level",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
-  },
-  {
-    "id": 3,
-    "score": 90,
-    "title": "Help Desk Support Technician (Remote)",
-    "company": "Maximus",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$40K-$50K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://maximus.com/careers",
-    "notes": "Fully remote - Federal program support - Entry level",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
-  },
-  {
-    "id": 4,
-    "score": 89,
-    "title": "Desktop Support Technician",
-    "company": "SAIC",
-    "market": "VA",
-    "city": "Reston, VA",
-    "salary": "$50K-$62K/yr",
-    "roleType": "Desktop Support",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.saic.com/careers/job-search",
-    "notes": "Security+ preferred - Public trust - Hybrid schedule",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
-  },
-  {
-    "id": 5,
     "score": 88,
-    "title": "IT Service Desk Technician",
-    "company": "Booz Allen Hamilton",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$50K-$60K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://careers.boozallen.com/jobs",
-    "notes": "Security+ valued - Clearance eligible - On-site",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
-  },
-  {
-    "id": 6,
-    "score": 87,
-    "title": "Cloud Support Associate (Remote)",
-    "company": "DXC Technology",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$55K-$68K/yr",
-    "roleType": "Cloud",
-    "certs": [
-      "sec",
-      "cloud"
-    ],
-    "priority": "High",
-    "url": "https://careers.dxc.com/global/en/search-results",
-    "notes": "Cloud+ a plus - Fully remote - Entry level",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
-  },
-  {
-    "id": 7,
-    "score": 86,
-    "title": "SOC Analyst Tier 1",
-    "company": "ManTech",
+    "title": "IT Help Desk Technician (DINFOS)",
+    "company": "Oneida Professional Services",
     "market": "MD",
-    "city": "Hanover, MD",
-    "salary": "$60K-$72K/yr",
-    "roleType": "SOC",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.mantech.com/careers/",
-    "notes": "Security+ required - Clearance eligible welcome - Shift work",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
-  },
-  {
-    "id": 8,
-    "score": 85,
-    "title": "Help Desk Analyst",
-    "company": "NuAxis Innovations",
-    "market": "DC",
-    "city": "Washington, DC",
+    "city": "Fort Meade, MD",
     "salary": "$45K-$55K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://nuaxis.com/careers/",
-    "notes": "Public trust - Security+ a plus - Federal agency support",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
+    "url": "https://www.linkedin.com/jobs/search/?keywords=Oneida%20service%20desk%20technician&location=Fort%20Meade%2C%20Maryland",
+    "notes": "Entry-level end user support - Security+ preferred - Clearance eligible welcome",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
   },
   {
-    "id": 9,
-    "score": 84,
-    "title": "Desktop Support Specialist",
-    "company": "ActioNet",
-    "market": "VA",
-    "city": "Arlington, VA",
+    "id": 2,
+    "score": 86,
+    "title": "Service Desk Analyst Tier 1",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Columbia, MD",
     "salary": "$48K-$58K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/search/?keywords=Leidos%20service%20desk%20analyst&location=Maryland",
+    "notes": "Tier 1 phone and ticket support - Security+ a plus - Public trust eligible",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
+  },
+  {
+    "id": 3,
+    "score": 85,
+    "title": "Help Desk Agent I (VITA) - Remote",
+    "company": "SAIC",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "$44K-$52K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://jobs.saic.com/jobs?keyword=help+desk+agent+VITA",
+    "notes": "Fully remote state IT help desk - Entry level - Security+ preferred",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
+  },
+  {
+    "id": 4,
+    "score": 84,
+    "title": "Desktop Support Technician",
+    "company": "Maximus",
+    "market": "MD",
+    "city": "Annapolis Junction, MD",
+    "salary": "$46K-$54K/yr",
     "roleType": "Desktop Support",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.actionet.com/careers/",
-    "notes": "Security+ valued - Public trust - On-site",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
+    "url": "https://www.linkedin.com/jobs/search/?keywords=Maximus%20desktop%20support&location=Maryland",
+    "notes": "Imaging and hardware support - Security+ preferred - Public trust eligible",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
   },
   {
-    "id": 10,
+    "id": 5,
     "score": 83,
-    "title": "IT Support Technician",
-    "company": "State of Maryland (DoIT)",
+    "title": "IT Customer Support Specialist",
+    "company": "GDIT",
     "market": "MD",
-    "city": "Baltimore, MD",
+    "city": "Bethesda, MD",
     "salary": "$47K-$57K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.jobapscloud.com/MD/",
-    "notes": "No clearance required - State benefits - Entry level",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
+    "url": "https://www.gdit.com/careers/search-jobs/?q=help%20desk&location=Maryland",
+    "notes": "End user customer support - Security+ preferred - Public trust eligible",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
+  },
+  {
+    "id": 6,
+    "score": 82,
+    "title": "SOC Analyst Tier 1",
+    "company": "Sev1Tech",
+    "market": "MD",
+    "city": "Rockville, MD",
+    "salary": "$26/hr",
+    "roleType": "SOC",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/search/?keywords=Sev1Tech%20SOC%20analyst%20tier%201&location=Maryland",
+    "notes": "Alert triage and monitoring - Security+ required - Public trust clearance",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
+  },
+  {
+    "id": 7,
+    "score": 82,
+    "title": "Cloud Support Associate",
+    "company": "ECS Federal",
+    "market": "VA",
+    "city": "Fairfax, VA",
+    "salary": "$52K-$62K/yr",
+    "roleType": "Cloud",
+    "certs": [
+      "cloud",
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/search/?keywords=ECS%20cloud%20support&location=Fairfax%2C%20Virginia",
+    "notes": "AWS and Azure support - Cloud+ and Security+ a plus - Entry level",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
+  },
+  {
+    "id": 8,
+    "score": 81,
+    "title": "Help Desk Technician",
+    "company": "NuAxis Innovations",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "$45K-$53K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/search/?keywords=NuAxis%20help%20desk&location=Washington%2C%20DC",
+    "notes": "Federal end user support - Security+ preferred - Public trust eligible",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
+  },
+  {
+    "id": 9,
+    "score": 80,
+    "title": "Desktop Support Analyst",
+    "company": "ActioNet",
+    "market": "MD",
+    "city": "Silver Spring, MD",
+    "salary": "$46K-$55K/yr",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/search/?keywords=ActioNet%20desktop%20support&location=Maryland",
+    "notes": "Deskside and hardware support - Security+ preferred - Public trust eligible",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
+  },
+  {
+    "id": 10,
+    "score": 80,
+    "title": "IT Support Technician - Remote",
+    "company": "Maximus",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "$43K-$51K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://careers.maximus.com/search-jobs/IT%20support%20remote",
+    "notes": "Remote tier 1 support - Entry level - Security+ preferred",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
   },
   {
     "id": 11,
-    "score": 82,
-    "title": "NOC Technician I (Remote)",
+    "score": 78,
+    "title": "SOC Analyst Tier 1",
+    "company": "Peraton",
+    "market": "VA",
+    "city": "Arlington, VA",
+    "salary": "$55K-$65K/yr",
+    "roleType": "SOC",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://careers.peraton.com/search-jobs",
+    "notes": "Security monitoring - Security+ required - Clearance preferred not required",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
+  },
+  {
+    "id": 12,
+    "score": 77,
+    "title": "NOC Analyst",
     "company": "Red River Technology",
-    "market": "Remote",
-    "city": "Remote",
+    "market": "VA",
+    "city": "Chantilly, VA",
     "salary": "$50K-$60K/yr",
     "roleType": "NOC",
     "certs": [
       "sec"
     ],
-    "priority": "High",
-    "url": "https://www.redriver.com/careers",
-    "notes": "Security+ preferred - Remote - 24x7 rotation",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
-  },
-  {
-    "id": 12,
-    "score": 81,
-    "title": "Cloud Support Technician",
-    "company": "Carahsoft",
-    "market": "VA",
-    "city": "Reston, VA",
-    "salary": "$52K-$64K/yr",
-    "roleType": "Cloud",
-    "certs": [
-      "sec",
-      "cloud"
-    ],
-    "priority": "High",
-    "url": "https://www.carahsoft.com/careers",
-    "notes": "Cloud+ a plus - Entry level - Hybrid schedule",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/search/?keywords=Red%20River%20NOC%20analyst&location=Virginia",
+    "notes": "Network monitoring - Security+ preferred - Some shift work",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
   },
   {
     "id": 13,
-    "score": 80,
-    "title": "IT Field Technician",
-    "company": "VSE Corporation",
-    "market": "VA",
-    "city": "Alexandria, VA",
-    "salary": "$45K-$55K/yr",
-    "roleType": "Field Tech",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.vsecorp.com/careers/",
-    "notes": "Security+ a plus - Travel within DMV - Entry level",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
-  },
-  {
-    "id": 14,
-    "score": 78,
-    "title": "SOC Analyst I",
-    "company": "CACI",
-    "market": "VA",
-    "city": "Chantilly, VA",
-    "salary": "$62K-$75K/yr",
-    "roleType": "SOC",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "Medium",
-    "url": "https://careers.caci.com/global/en/search-results",
-    "notes": "Security+ required - Clearance preferred - 1+ yr preferred",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
-  },
-  {
-    "id": 15,
-    "score": 77,
-    "title": "Systems Administrator I",
-    "company": "Northrop Grumman",
+    "score": 76,
+    "title": "Junior Systems Administrator",
+    "company": "ASRC Federal",
     "market": "MD",
-    "city": "Annapolis Junction, MD",
-    "salary": "$65K-$78K/yr",
+    "city": "Beltsville, MD",
+    "salary": "$55K-$65K/yr",
     "roleType": "Systems Admin",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://www.northropgrumman.com/jobs",
-    "notes": "Security+ required - 1-2 yrs - Clearance eligible",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
+    "url": "https://www.linkedin.com/jobs/search/?keywords=ASRC%20Federal%20systems%20administrator&location=Maryland",
+    "notes": "Windows server support - Security+ required - 1 plus year preferred",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
+  },
+  {
+    "id": 14,
+    "score": 75,
+    "title": "Cloud Support Engineer I",
+    "company": "DXC Technology",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "$55K-$68K/yr",
+    "roleType": "Cloud",
+    "certs": [
+      "cloud"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/search/?keywords=DXC%20cloud%20support%20engineer&location=United%20States&f_WT=2",
+    "notes": "Remote cloud operations - Cloud+ a plus - Entry to junior level",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
+  },
+  {
+    "id": 15,
+    "score": 74,
+    "title": "Help Desk Support Specialist",
+    "company": "Leidos",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "$50K-$60K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://careers.leidos.com/",
+    "notes": "Army MI enterprise IT support - Security+ required - Clearance path",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
   },
   {
     "id": 16,
-    "score": 76,
+    "score": 73,
+    "title": "IT Field Technician",
+    "company": "Tetra Tech",
+    "market": "MD",
+    "city": "Baltimore, MD",
+    "salary": "$48K-$56K/yr",
+    "roleType": "Field Tech",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/search/?keywords=Tetra%20Tech%20IT%20field%20technician&location=Maryland",
+    "notes": "On-site break-fix and travel - Security+ preferred - Reliable transport needed",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
+  },
+  {
+    "id": 17,
+    "score": 72,
     "title": "Cybersecurity Analyst (Entry)",
-    "company": "Sev1Tech",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$60K-$72K/yr",
+    "company": "CACI",
+    "market": "VA",
+    "city": "Chantilly, VA",
+    "salary": "$58K-$68K/yr",
     "roleType": "Cybersecurity",
     "certs": [
       "sec",
       "fed"
     ],
     "priority": "Medium",
-    "url": "https://www.sev1tech.com/careers/",
-    "notes": "Security+ required - Public trust - Some experience preferred",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
-  },
-  {
-    "id": 17,
-    "score": 75,
-    "title": "Cloud Operations Analyst",
-    "company": "ECS Federal",
-    "market": "VA",
-    "city": "Fairfax, VA",
-    "salary": "$58K-$70K/yr",
-    "roleType": "Cloud",
-    "certs": [
-      "sec",
-      "cloud"
-    ],
-    "priority": "Medium",
-    "url": "https://www.ecstech.com/careers",
-    "notes": "Cloud+ or Security+ - Clearance preferred - 1+ yr",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
+    "url": "https://careers.caci.com/global/en/search-results?keywords=cybersecurity%20analyst",
+    "notes": "Entry cybersecurity role - Security+ required - Clearance preferred",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
   },
   {
     "id": 18,
-    "score": 74,
-    "title": "Help Desk Tier 2",
+    "score": 71,
+    "title": "Service Desk Technician",
     "company": "NTT Data",
-    "market": "TX",
-    "city": "Irving, TX",
-    "salary": "$48K-$58K/yr",
+    "market": "VA",
+    "city": "Herndon, VA",
+    "salary": "$46K-$54K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://us.nttdata.com/en/careers",
-    "notes": "Out of primary market - Security+ a plus - Tier 2 exp preferred",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
+    "url": "https://www.linkedin.com/jobs/search/?keywords=NTT%20Data%20service%20desk&location=Virginia",
+    "notes": "Commercial and federal support - Security+ a plus - Rotating shifts",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
   },
   {
     "id": 19,
-    "score": 73,
-    "title": "NOC Analyst",
-    "company": "Arcfield",
-    "market": "VA",
-    "city": "Chantilly, VA",
-    "salary": "$58K-$70K/yr",
-    "roleType": "NOC",
+    "score": 70,
+    "title": "IT Specialist (Customer Support)",
+    "company": "Federal (USAJobs)",
+    "market": "MD",
+    "city": "Suitland, MD",
+    "salary": "$49K-$64K/yr",
+    "roleType": "Help Desk",
     "certs": [
       "sec",
       "fed"
     ],
     "priority": "Medium",
-    "url": "https://careers.arcfield.com/",
-    "notes": "Clearance preferred - Security+ required - Shift work",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
+    "url": "https://www.usajobs.gov/Search/Results?k=IT%20specialist%20customer%20support&l=Maryland",
+    "notes": "GS-7 trainee level - Security+ helpful - Public trust or background check",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
   },
   {
     "id": 20,
-    "score": 72,
-    "title": "IT Support Specialist",
-    "company": "Tetra Tech",
-    "market": "TX",
-    "city": "San Antonio, TX",
-    "salary": "$45K-$55K/yr",
-    "roleType": "Desktop Support",
+    "score": 70,
+    "title": "Help Desk Technician - Remote",
+    "company": "LinTech Global",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "$42K-$50K/yr",
+    "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://www.tetratech.com/careers/",
-    "notes": "Out of primary market - Security+ a plus - On-site",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
+    "url": "https://www.linkedin.com/jobs/search/?keywords=LinTech%20Global%20help%20desk&location=United%20States&f_WT=2",
+    "notes": "Remote tier 1 support - Entry level - Security+ preferred",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
   },
   {
     "id": 21,
-    "score": 71,
-    "title": "Systems Administrator (Jr)",
-    "company": "ASRC Federal",
-    "market": "MD",
-    "city": "Beltsville, MD",
-    "salary": "$58K-$70K/yr",
-    "roleType": "Systems Admin",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.asrcfederal.com/careers/",
-    "notes": "Security+ required - Public trust - 1-2 yrs preferred",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
-  },
-  {
-    "id": 22,
-    "score": 70,
-    "title": "Desktop Support Technician",
-    "company": "Amentum",
-    "market": "TX",
-    "city": "San Antonio, TX",
-    "salary": "$46K-$56K/yr",
-    "roleType": "Desktop Support",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.amentum.com/careers",
-    "notes": "Out of primary market - Clearance eligible - Security+ a plus",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
-  },
-  {
-    "id": 23,
     "score": 68,
-    "title": "SOC Analyst Tier 1 (Cleared)",
-    "company": "Peraton",
+    "title": "SOC Analyst Tier 1 (TS/SCI)",
+    "company": "ManTech",
     "market": "MD",
-    "city": "Fort Meade, MD",
-    "salary": "$68K-$82K/yr",
+    "city": "Hanover, MD",
+    "salary": "$60K-$72K/yr",
     "roleType": "SOC",
     "certs": [
       "sec",
       "fed"
     ],
     "priority": "Stretch",
-    "url": "https://careers.peraton.com/search-jobs",
-    "notes": "Requires active clearance - Security+ required - Aspirational",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
+    "url": "https://careers.mantech.com/",
+    "notes": "Requires TS/SCI clearance - Security+ required - Aspirational cleared role",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
   },
   {
-    "id": 24,
+    "id": 22,
     "score": 66,
-    "title": "Cybersecurity Analyst",
-    "company": "BAE Systems",
-    "market": "MD",
-    "city": "Fort Meade, MD",
-    "salary": "$70K-$85K/yr",
-    "roleType": "Cybersecurity",
+    "title": "Help Desk Technician (TS/SCI)",
+    "company": "GDIT",
+    "market": "VA",
+    "city": "Chantilly, VA",
+    "salary": "$52K-$62K/yr",
+    "roleType": "Help Desk",
     "certs": [
       "sec",
       "fed"
     ],
     "priority": "Stretch",
-    "url": "https://jobs.baesystems.com/global/en/search-results",
-    "notes": "TS/SCI required - 2+ yrs - Competitive",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
+    "url": "https://www.gdit.com/careers/search-jobs/?q=help%20desk&location=Chantilly%2C%20VA",
+    "notes": "Requires TS/SCI with poly - Security+ required - Competitive cleared role",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
   },
   {
-    "id": 25,
-    "score": 64,
-    "title": "Cloud Security Analyst",
+    "id": 23,
+    "score": 65,
+    "title": "Systems Administrator",
     "company": "Booz Allen Hamilton",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "$72K-$88K/yr",
-    "roleType": "Cloud",
+    "market": "VA",
+    "city": "McLean, VA",
+    "salary": "$62K-$75K/yr",
+    "roleType": "Systems Admin",
     "certs": [
       "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://careers.boozallen.com/teams/search-jobs",
+    "notes": "2 plus years preferred - Security+ required - Clearance required",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
+  },
+  {
+    "id": 24,
+    "score": 64,
+    "title": "Cloud Operations Analyst",
+    "company": "Amentum",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "$58K-$70K/yr",
+    "roleType": "Cloud",
+    "certs": [
       "cloud",
       "fed"
     ],
     "priority": "Stretch",
-    "url": "https://careers.boozallen.com/jobs",
-    "notes": "Clearance required - 2+ yrs - Aspirational",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
+    "url": "https://www.linkedin.com/jobs/search/?keywords=Amentum%20cloud%20operations&location=United%20States&f_WT=2",
+    "notes": "Cloud+ preferred - Some experience expected - Clearance preferred",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
   },
   {
-    "id": 26,
+    "id": 25,
     "score": 63,
-    "title": "SOC Analyst II",
-    "company": "Leidos",
-    "market": "MD",
-    "city": "Columbia, MD",
-    "salary": "$75K-$90K/yr",
-    "roleType": "SOC",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "Stretch",
-    "url": "https://careers.leidos.com/search-jobs",
-    "notes": "2+ yrs required - Clearance required - Stretch",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
-  },
-  {
-    "id": 27,
-    "score": 62,
-    "title": "Systems Engineer (Jr)",
-    "company": "Parsons",
-    "market": "VA",
-    "city": "Centreville, VA",
-    "salary": "$70K-$85K/yr",
-    "roleType": "Systems Admin",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "Stretch",
-    "url": "https://www.parsons.com/careers/",
-    "notes": "Clearance required - Some experience - Aspirational",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
-  },
-  {
-    "id": 28,
-    "score": 60,
-    "title": "Cyber Defense Analyst",
-    "company": "CACI",
-    "market": "VA",
-    "city": "Sterling, VA",
-    "salary": "$72K-$88K/yr",
+    "title": "Cybersecurity Analyst Intern",
+    "company": "SAIC",
+    "market": "DC",
+    "city": "Washington, DC",
+    "salary": "Competitive",
     "roleType": "Cybersecurity",
     "certs": [
       "sec",
       "fed"
     ],
     "priority": "Stretch",
-    "url": "https://careers.caci.com/global/en/search-results",
-    "notes": "TS/SCI required - 2+ yrs - Competitive",
-    "postedDate": "2026-07-26",
-    "posted": "2026-07-26"
+    "url": "https://jobs.saic.com/jobs/17642654-cybersecurity-analyst-intern",
+    "notes": "SOC exposure internship - Security+ preferred - Public trust required",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
+  },
+  {
+    "id": 26,
+    "score": 62,
+    "title": "SOC Analyst Tier 1 (TS/SCI)",
+    "company": "Northrop Grumman",
+    "market": "MD",
+    "city": "Annapolis Junction, MD",
+    "salary": "$62K-$74K/yr",
+    "roleType": "SOC",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.northropgrumman.com/jobs",
+    "notes": "Requires TS/SCI with poly - Security+ required - Competitive cleared role",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
+  },
+  {
+    "id": 27,
+    "score": 61,
+    "title": "IT Support Technician",
+    "company": "Amentum",
+    "market": "TX",
+    "city": "San Antonio, TX",
+    "salary": "$21-$26/hr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.linkedin.com/jobs/search/?keywords=Amentum%20IT%20support%20technician&location=San%20Antonio%2C%20Texas",
+    "notes": "Out-of-primary-market TX - Security+ preferred - Entry level",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
+  },
+  {
+    "id": 28,
+    "score": 60,
+    "title": "Help Desk Analyst",
+    "company": "Leidos",
+    "market": "TX",
+    "city": "Austin, TX",
+    "salary": "$20-$25/hr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.linkedin.com/jobs/search/?keywords=Leidos%20help%20desk&location=Austin%2C%20Texas",
+    "notes": "Out-of-primary-market TX - Security+ a plus - Entry level",
+    "postedDate": "2026-07-29",
+    "posted": "2026-07-29"
   }
 ]
