@@ -55,8 +55,11 @@ jobs:
           app_pw = os.environ.get('GMAIL_APP_PASSWORD')
           if not gmail_addr or not app_pw:
               raise SystemExit("Missing GMAIL_ADDRESS or GMAIL_APP_PASSWORD repo secret.")
-          # App Passwords are shown by Google with spaces; strip them just in case.
-          app_pw = app_pw.replace(" ", "")
+          # App Passwords are 16 lowercase letters; Google shows them with spaces
+          # and copy-paste can inject non-breaking spaces (\xa0). Keep only the
+          # real ASCII alphanumerics so stray whitespace can't break SMTP auth.
+          app_pw = "".join(ch for ch in app_pw if ch.isalnum() and ord(ch) < 128)
+          gmail_addr = gmail_addr.strip()
 
           msg = MIMEText(body, "plain", "utf-8")
           msg["Subject"] = subject
