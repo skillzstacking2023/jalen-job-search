@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raymond Daugherty - IT / IS Job Search Dashboard</title>
+<style>
+  :root{--bg:#0f172a;--card:#1e293b;--text:#e2e8f0;--muted:#94a3b8;--accent:#38bdf8;--line:#334155;--chip:#334155}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+  header{padding:28px 20px 18px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#132036,#0f172a)}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+  h1{margin:0 0 4px;font-size:26px}
+  .sub{color:var(--muted);font-size:14px}
+  .stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px;min-width:96px}
+  .stat .n{font-size:22px;font-weight:700}
+  .stat .l{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+  .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:18px 0}
+  input[type=search]{flex:1;min-width:200px;background:var(--card);border:1px solid var(--line);color:var(--text);padding:10px 12px;border-radius:10px;font-size:14px}
+  select{background:var(--card);border:1px solid var(--line);color:var(--text);padding:9px 10px;border-radius:10px;font-size:14px}
+  label.toggle{display:flex;align-items:center;gap:6px;color:var(--muted);font-size:13px;background:var(--card);border:1px solid var(--line);padding:8px 10px;border-radius:10px;cursor:pointer}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px;margin:8px 0 40px}
+  .job{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px}
+  .job:hover{border-color:var(--accent)}
+  .row{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+  .title{font-size:16px;font-weight:700;margin:0}
+  .company{color:var(--accent);font-size:14px;font-weight:600}
+  .score{flex:none;width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:16px;color:#0b1220}
+  .badges{display:flex;flex-wrap:wrap;gap:6px}
+  .chip{font-size:11px;padding:3px 9px;border-radius:999px;background:var(--chip);color:var(--text);border:1px solid var(--line)}
+  .chip.gov{background:#1e3a8a33;border-color:#3b82f6}
+  .chip.fed{background:#7c2d1233;border-color:#f97316}
+  .chip.com{background:#14532d33;border-color:#22c55e}
+  .chip.remote{background:#0e747033;border-color:#2dd4bf}
+  .pri{font-weight:700;font-size:11px;padding:3px 9px;border-radius:999px}
+  .pri.High{background:#14532d;color:#86efac}
+  .pri.Medium{background:#422006;color:#fde68a}
+  .pri.Stretch{background:#431407;color:#fdba74}
+  .salary{color:var(--muted);font-size:13px}
+  .notes{color:var(--text);font-size:13px;opacity:.9}
+  .meta{display:flex;justify-content:space-between;align-items:center;margin-top:4px}
+  .age{font-size:11px;color:var(--muted)}
+  a.apply{background:var(--accent);color:#04283a;text-decoration:none;font-weight:700;font-size:13px;padding:8px 12px;border-radius:9px;text-align:center}
+  .empty{color:var(--muted);text-align:center;padding:40px}
+  footer{color:var(--muted);font-size:12px;text-align:center;padding:24px}
+  .updated{color:var(--muted);font-size:12px;margin-top:6px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Raymond Daugherty - IT / Information Systems Job Search</h1>
+    <div class="sub">B.S. Information Systems Management, UMBC - Eldersburg, MD - Entry-level IT / IS / analyst roles in Maryland or 100% remote (commercial and government)</div>
+    <div class="stats" id="stats"></div>
+    <div class="updated" id="updated"></div>
+  </div>
+</header>
+<div class="wrap">
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search title, company, city, notes...">
+    <select id="priority"><option value="">All priorities</option><option>High</option><option>Medium</option><option>Stretch</option></select>
+    <select id="market"><option value="">All locations</option><option value="MD">Maryland</option><option value="Remote">Remote</option></select>
+    <select id="sector"><option value="">All sectors</option><option>Commercial</option><option>Government</option><option>Federal</option></select>
+    <select id="role"><option value="">All roles</option></select>
+    <label class="toggle"><input type="checkbox" id="fresh"> Hide 30d+ old</label>
+  </div>
+  <div class="grid" id="grid"></div>
+</div>
+<footer>Auto-refreshed daily. Built for Raymond Daugherty. Scores reflect fit to his profile and criteria (entry-level, MD or 100% remote, commercial or government).</footer>
+<script>
+var JOBS=[];
+function scoreColor(s){return s>=80?"#22c55e":s>=70?"#eab308":"#f97316";}
+function sectorClass(s){return s==="Government"?"gov":s==="Federal"?"fed":"com";}
+function daysOld(d){if(!d)return 999;var t=new Date(d+"T00:00:00");return Math.floor((Date.now()-t)/86400000);}
+function el(tag,cls,txt){var e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e;}
+function val(id){return document.getElementById(id).value;}
+function render(){
+  var q=val("q").toLowerCase(),pri=val("priority"),mkt=val("market"),sec=val("sector"),role=val("role");
+  var fresh=document.getElementById("fresh").checked;
+  var grid=document.getElementById("grid");grid.innerHTML="";var shown=0;
+  JOBS.forEach(function(j){
+    var hay=(j.title+" "+j.company+" "+j.city+" "+j.notes+" "+j.roleType).toLowerCase();
+    if(q&&hay.indexOf(q)<0)return;
+    if(pri&&j.priority!==pri)return;
+    if(mkt&&j.market!==mkt)return;
+    if(sec&&j.sector!==sec)return;
+    if(role&&j.roleType!==role)return;
+    if(fresh&&daysOld(j.posted)>30)return;
+    shown++;
+    var age=daysOld(j.posted);
+    var card=el("div","job");
+    var row=el("div","row");
+    var left=el("div");
+    left.appendChild(el("p","title",j.title));
+    left.appendChild(el("div","company",j.company));
+    row.appendChild(left);
+    var sc=el("div","score",j.score);sc.style.background=scoreColor(j.score);
+    row.appendChild(sc);card.appendChild(row);
+    var badges=el("div","badges");
+    badges.appendChild(el("span","pri "+j.priority,j.priority));
+    badges.appendChild(el("span","chip "+(j.market==="Remote"?"remote":""),j.city));
+    badges.appendChild(el("span","chip "+sectorClass(j.sector),j.sector));
+    badges.appendChild(el("span","chip",j.roleType));
+    card.appendChild(badges);
+    card.appendChild(el("div","salary",j.salary));
+    card.appendChild(el("div","notes",j.notes));
+    var meta=el("div","meta");
+    meta.appendChild(el("span","age",age<=1?"Fresh today":age+" days old"));
+    var a=el("a","apply","View / Apply");a.href=j.url;a.target="_blank";a.rel="noopener";
+    meta.appendChild(a);card.appendChild(meta);
+    grid.appendChild(card);
+  });
+  if(shown===0)grid.innerHTML='<div class="empty">No matches. Try clearing filters.</div>';
+}
+function buildStats(){
+  var s=document.getElementById("stats");
+  var high=JOBS.filter(function(j){return j.priority==="High";}).length;
+  var md=JOBS.filter(function(j){return j.market==="MD";}).length;
+  var rem=JOBS.filter(function(j){return j.market==="Remote";}).length;
+  var gov=JOBS.filter(function(j){return j.sector==="Government"||j.sector==="Federal";}).length;
+  function stat(n,l){var d=el("div","stat");d.appendChild(el("div","n",n));d.appendChild(el("div","l",l));return d;}
+  s.appendChild(stat(JOBS.length,"Total"));
+  s.appendChild(stat(high,"High fit"));
+  s.appendChild(stat(md,"Maryland"));
+  s.appendChild(stat(rem,"Remote"));
+  s.appendChild(stat(gov,"Gov/Federal"));
+  var roles=[];JOBS.forEach(function(j){if(roles.indexOf(j.roleType)<0)roles.push(j.roleType);});
+  roles.sort();var rsel=document.getElementById("role");
+  roles.forEach(function(r){var o=document.createElement("option");o.value=r;o.textContent=r;rsel.appendChild(o);});
+}
+fetch("jobs.json?v="+Date.now(),{cache:"no-store"}).then(function(r){return r.json();}).then(function(data){
+  JOBS=data.sort(function(a,b){return b.score-a.score;});
+  buildStats();
+  var dates=[];JOBS.forEach(function(j){if(dates.indexOf(j.posted)<0)dates.push(j.posted);});
+  dates.sort().reverse();
+  document.getElementById("updated").textContent="Last refreshed: "+(dates[0]||"-");
+  render();
+  ["q","priority","market","sector","role","fresh"].forEach(function(id){
+    document.getElementById(id).addEventListener(id==="q"?"input":"change",render);
+  });
+}).catch(function(e){document.getElementById("grid").innerHTML='<div class="empty">Could not load jobs.json - '+e.message+'</div>';});
+</script>
+</body>
+</html>
