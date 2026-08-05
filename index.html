@@ -107,7 +107,7 @@
     tr.row-status-screening:hover td{background:rgba(245,158,11,.07)}
     tr.row-status-interview td{background:rgba(59,130,246,.05)}
     tr.row-status-interview:hover td{background:rgba(59,130,246,.08)}
-    tr.row-status-offer td{background:rgba(16,185,129,.09);border-left:2px solid var(--green)}
+    tr.row-status-offer td{background:rgba(16,185,129,.09);border-left:2px solid var(--green)} tr.row-status-viewed td{background:rgba(148,163,184,.035)} tr.row-status-interested td{background:rgba(168,85,247,.05)} tr.row-status-interested:hover td{background:rgba(168,85,247,.08)}
 
     /* ── SCORE ── */
     .score{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;font-size:.8rem;font-weight:700;border:2px solid}
@@ -141,7 +141,7 @@
     .status-select.applied{border-color:rgba(16,185,129,.4);color:#6ee7b7;background:rgba(16,185,129,.08)}
     .status-select.screening{border-color:rgba(245,158,11,.4);color:#fcd34d;background:rgba(245,158,11,.08)}
     .status-select.interview{border-color:rgba(59,130,246,.4);color:#93c5fd;background:rgba(59,130,246,.08)}
-    .status-select.offer{border-color:rgba(16,185,129,.6);color:#34d399;background:rgba(16,185,129,.15);font-weight:700}
+    .status-select.offer{border-color:rgba(16,185,129,.6);color:#34d399;background:rgba(16,185,129,.15);font-weight:700} .status-select.viewed{border-color:rgba(148,163,184,.4);color:#cbd5e1;background:rgba(148,163,184,.08)} .status-select.interested{border-color:rgba(168,85,247,.4);color:#d8b4fe;background:rgba(168,85,247,.08)}
 
     /* ── BUTTONS ── */
     .btn-apply,.btn-tailor{display:inline-block;padding:5px 11px;border-radius:6px;font-size:.71rem;font-weight:600;text-decoration:none;border:1px solid;cursor:pointer;white-space:nowrap;transition:all .15s}
@@ -304,7 +304,7 @@
     <option value="yes">Federal / Gov't</option>
     <option value="no">Private Sector</option>
   </select>
-  <input type="text" id="search-box" class="search-input" placeholder="Search jobs..." oninput="applyFilters()">
+  <div class="fdivider"></div> <span class="flbl">Tracking</span> <select id="status-filter" class="fsel" onchange="applyFilters()"> <option value="all">All</option> <option value="none">Not Tracked</option> <option value="viewed">Viewed</option> <option value="interested">Interested</option> <option value="applied">Applied</option> <option value="screening">Phone Screen</option> <option value="interview">Interview</option> <option value="offer">Offer</option> </select> <input type="text" id="search-box" class="search-input" placeholder="Search jobs..." oninput="applyFilters()">
   <div class="fdivider"></div>
   <label class="stale-wrap"><input type="checkbox" id="hide-stale" onchange="applyFilters()"> Hide 30d+</label>
 </div>
@@ -418,7 +418,7 @@ function applyFilters() {
   const hideStale = document.getElementById('hide-stale')?.checked;
   const roleFilter = document.getElementById('role-filter').value;
   const priorityFilter = document.getElementById('priority-filter').value;
-  const fedFilter = document.getElementById('fed-filter').value;
+  const fedFilter = document.getElementById('fed-filter').value; const statusFilter = document.getElementById('status-filter')?.value || 'all';
   const search = document.getElementById('search-box').value.toLowerCase();
 
   let filtered = JOBS.filter(j => {
@@ -426,7 +426,7 @@ function applyFilters() {
     if (roleFilter !== 'all' && !j.roleType.includes(roleFilter)) return false;
     if (priorityFilter !== 'all' && j.priority !== priorityFilter) return false;
     if (fedFilter === 'yes' && !j.certs.includes('fed')) return false;
-    if (fedFilter === 'no' && j.certs.includes('fed')) return false;
+    if (fedFilter === 'no' && j.certs.includes('fed')) return false; if (statusFilter !== 'all') { const st = statusMap[j.id] || ''; if (statusFilter === 'none' && st) return false; if (statusFilter !== 'none' && st !== statusFilter) return false; }
     if (hideStale && j.posted) { const d=Math.floor((Date.now()-new Date(j.posted))/86400000); if(d>30) return false; }
     if (search) {
       const haystack = `${j.title} ${j.company} ${j.city} ${j.notes} ${j.roleType}`.toLowerCase();
@@ -470,7 +470,7 @@ function applyFilters() {
     const mktLabel = j.market === 'MD' ? 'Maryland' : j.market === 'VA' ? 'Virginia' : 'Dallas, TX';
     const prClass = j.priority === 'High' ? 'p-high' : j.priority === 'Medium' ? 'p-med' : 'p-stretch';
     const status = statusMap[j.id] || '';
-    const statusClass = status === 'applied' ? 'applied' : status === 'screening' ? 'screening' : status === 'interview' ? 'interview' : status === 'offer' ? 'offer' : '';
+    const statusClass = status === 'applied' ? 'applied' : status === 'screening' ? 'screening' : status === 'interview' ? 'interview' : status === 'offer' ? 'offer' : status === 'interested' ? 'interested' : status === 'viewed' ? 'viewed' : '';
     return `<tr class="row-status-${status || 'none'}">
       <td><span class="score ${getScoreClass(j.score)}">${j.score}</span></td>
       <td>
@@ -486,7 +486,7 @@ function applyFilters() {
       <td><span class="priority ${prClass}">${j.priority}</span></td>
       <td>
         <select class="status-select ${statusClass}" onchange="updateStatus(${j.id}, this)">
-          <option value="" ${!status ? 'selected':''}>Not Applied</option>
+          <option value="" ${!status ? 'selected':''}>Not Tracked</option> <option value="viewed" ${status==='viewed'?'selected':''}>Viewed</option> <option value="interested" ${status==='interested'?'selected':''}>Interested</option>
           <option value="applied" ${status==='applied'?'selected':''}>Applied</option>
           <option value="screening" ${status==='screening'?'selected':''}>Phone Screen</option>
           <option value="interview" ${status==='interview'?'selected':''}>Interview</option>
