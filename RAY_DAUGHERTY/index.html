@@ -134,7 +134,8 @@ function render(){
 var q=val("q").toLowerCase(),pri=val("priority"),mkt=val("market"),sec=val("sector"),role=val("role"),tracking=val("tracking"),clr=val("clearance");
 var fresh=document.getElementById("fresh").checked;
 var grid=document.getElementById("grid");grid.innerHTML="";var shown=0;
-JOBS.forEach(function(j){\nvar hay=(j.title+" "+j.company+" "+j.city+" "+j.notes+" "+j.roleType).toLowerCase();
+JOBS.forEach(function(j){
+var hay=(j.title+" "+j.company+" "+j.city+" "+j.notes+" "+j.roleType).toLowerCase();
 if(q&&hay.indexOf(q)<0)return;
 if(pri&&j.priority!==pri)return;
 if(mkt&&j.market!==mkt)return;
@@ -160,7 +161,7 @@ badges.appendChild(el("span","pri "+j.priority,j.priority));
 var cb=clearanceBadge(clearanceLevel(j));
 badges.appendChild(el("span","chip "+cb.cls,cb.label));
 var cn=certNote(j);
-if(cn)badges.appendChild(el("span","chip cert",📜 "+cn));
+if(cn)badges.appendChild(el("span","chip cert","📜 "+cn));
 badges.appendChild(el("span","chip "+(j.market==="Remote"?"remote":""),j.city));
 badges.appendChild(el("span","chip "+sectorClass(j.sector),j.sector));
 badges.appendChild(el("span","chip",j.roleType));
