@@ -91,7 +91,7 @@ color:var(--text);border:1px solid var(--line);font-weight:600}
 .notes{color:var(--muted);font-size:13px}
 .floorwarn{font-size:11.5px;color:#fdba74;font-weight:600}
 .actbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:var(--card);
-border:1px solid var(--line);border-radius:12px;padding:12px 15px;margin:18px 0 4px}
+border:1px solid var(--accent);border-radius:12px;padding:12px 15px;margin:16px 0 2px}
 .actcount{font-size:13px;font-weight:700;margin-right:4px}
 .actbtn{font-size:12px;font-weight:700;padding:7px 13px;border-radius:9px;border:1px solid var(--line);
 background:transparent;color:var(--text);cursor:pointer;font-family:inherit}
@@ -110,7 +110,8 @@ border-radius:10px;padding:14px 17px;margin:0 0 16px}
 .guide .callout p:last-child{margin-bottom:0}
 .agel{font-size:11.5px;color:var(--muted)}
 .agel.urgent{color:#fdba74;font-weight:700}
-.stagebar{display:flex;gap:4px;flex-wrap:wrap;padding-top:2px}
+.stagebar{display:flex;gap:4px;flex-wrap:wrap;padding-top:2px;align-items:center}
+.savehint{font-size:11px;color:var(--muted);font-weight:700;margin-right:2px}
 .stagebtn{font-size:11px;font-weight:700;padding:5px 10px;border-radius:8px;border:1px solid var(--line);
 background:transparent;color:var(--muted);cursor:pointer;font-family:inherit}
 .stagebtn:hover{border-color:var(--accent);color:var(--text)}
@@ -201,6 +202,15 @@ h1{font-size:22px}
 <button class="tab" data-panel="p-analytics" onclick="showTab(this)">Analytics</button>
 <button class="tab" data-panel="p-guide" onclick="showTab(this)">How to use</button>
 </div>
+<div class="actbar">
+<span class="actcount" id="actcount"></span>
+<button class="actbtn" type="button" onclick="emailPipeline()">Email to me</button>
+<button class="actbtn" type="button" onclick="copyPipeline()">Copy list</button>
+<button class="actbtn" type="button" onclick="downloadCSV()">Download CSV</button>
+<button class="actbtn" type="button" onclick="backupJSON()">Backup</button>
+<label class="actbtn" style="cursor:pointer">Restore<input type="file" id="restorefile" accept="application/json,.json" style="display:none" onchange="restoreJSON(event)"></label>
+<span class="actmsg" id="actmsg"></span>
+</div>
 
 <div class="panel active" id="p-opps">
 <div class="controls">
@@ -238,15 +248,6 @@ h1{font-size:22px}
 
 <div class="panel" id="p-pipe">
 <div class="count" id="pipecount" style="margin-top:20px"></div>
-<div class="actbar">
-<span class="actcount" id="actcount"></span>
-<button class="actbtn" type="button" onclick="emailPipeline()">Email to me</button>
-<button class="actbtn" type="button" onclick="copyPipeline()">Copy list</button>
-<button class="actbtn" type="button" onclick="downloadCSV()">Download CSV</button>
-<button class="actbtn" type="button" onclick="backupJSON()">Backup</button>
-<label class="actbtn" style="cursor:pointer">Restore<input type="file" id="restorefile" accept="application/json,.json" style="display:none" onchange="restoreJSON(event)"></label>
-<span class="actmsg" id="actmsg"></span>
-</div>
 <div class="board" id="board"></div>
 </div>
 
@@ -519,6 +520,7 @@ card.appendChild(el("div","notes",j.notes));
 card.appendChild(el("div","agel"+(isUrgent(j)?" urgent":""),ageLine(j)));
 
 var sb=el("div","stagebar");
+sb.appendChild(el("span","savehint","Save as:"));
 STAGES.forEach(function(s){
 var btn=el("button","stagebtn"+(rec.stage===s?" on "+s:""),STAGE_LABEL[s]);
 btn.type="button";
@@ -555,7 +557,7 @@ tracked+" of "+JOBS.length+" roles are in your pipeline. Use the stage buttons o
 var pn=document.querySelector("#stat-pipeline .n");
 if(pn)pn.textContent=tracked;
 var ac=document.getElementById("actcount");
-if(ac)ac.textContent=tracked?(tracked+" role"+(tracked===1?"":"s")+" tracked"):"Nothing tracked yet";
+if(ac)ac.textContent=tracked?(tracked+" role"+(tracked===1?"":"s")+" saved"):"No roles saved yet - click Interested on any role to save it";
 STAGES.forEach(function(s){
 var col=el("div","col");
 var head=el("div","colhead");
