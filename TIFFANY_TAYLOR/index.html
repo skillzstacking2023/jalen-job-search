@@ -276,6 +276,8 @@ function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null
 function val(id){return document.getElementById(id).value;}
 function scoreColor(s){return s>=85?"#22c55e":s>=75?"#eab308":"#f97316";}
 function secClass(s){return s==="State Gov"?"secStateGov":"sec-"+s;}
+function slugify(s){return String(s==null?"":s).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+/,"").replace(/-+$/,"").slice(0,80);}
+function jobKey(j){return j.key?j.key:(slugify(j.company)+"--"+slugify(j.title)+"--"+slugify(j.location||""));}
 function daysOld(d){if(!d)return null;var t=new Date(d+"T00:00:00");return Math.floor((Date.now()-t)/86400000);}
 function daysLeft(d){if(!d)return null;var t=new Date(d+"T00:00:00");return Math.ceil((t-Date.now())/86400000);}
 function ageLine(j){
@@ -342,8 +344,8 @@ box.appendChild(el("div","dh","Your notes"));
 var ta=document.createElement("textarea");
 ta.className="notebox";
 ta.placeholder="Recruiter name, referral path, tailored resume version, follow-up date...";
-ta.value=getRec(j.key).notes||"";
-ta.addEventListener("input",function(){setNotes(j.key,ta.value);});
+ta.value=getRec(jobKey(j)).notes||"";
+ta.addEventListener("input",function(){setNotes(jobKey(j),ta.value);});
 box.appendChild(ta);
 return box;
 }
@@ -358,7 +360,7 @@ if(val("sector")&&j.sector!==val("sector"))return false;
 if(val("level")&&j.level!==val("level"))return false;
 if(val("role")&&j.roleType!==val("role"))return false;
 if(val("comp")&&(j.salaryMax||0)<parseInt(val("comp"),10))return false;
-var st=val("stage");var cur=getRec(j.key).stage;
+var st=val("stage");var cur=getRec(jobKey(j)).stage;
 if(st==="untracked"&&cur)return false;
 if(st&&st!=="untracked"&&cur!==st)return false;
 return true;
@@ -380,7 +382,7 @@ document.getElementById("count").textContent=
 list.length+" of "+JOBS.length+" roles shown";
 if(!list.length){grid.innerHTML='<div class="empty">No matches. Try clearing filters.</div>';return;}
 list.forEach(function(j){
-var rec=getRec(j.key);
+var rec=getRec(jobKey(j));
 var card=el("div","job"+(rec.stage?" st-"+rec.stage:""));
 
 var row=el("div","row");
@@ -409,22 +411,22 @@ var sb=el("div","stagebar");
 STAGES.forEach(function(s){
 var btn=el("button","stagebtn"+(rec.stage===s?" on "+s:""),STAGE_LABEL[s]);
 btn.type="button";
-btn.onclick=function(){setStage(j.key,s);};
+btn.onclick=function(){setStage(jobKey(j),s);};
 sb.appendChild(btn);
 });
 card.appendChild(sb);
 
 var act=el("div","actions");
-var exp=el("button","expand",OPEN[j.key]?"Hide detail":"Fit breakdown + intel");
+var exp=el("button","expand",OPEN[jobKey(j)]?"Hide detail":"Fit breakdown + intel");
 exp.type="button";
-exp.onclick=function(){OPEN[j.key]=!OPEN[j.key];renderGrid();};
+exp.onclick=function(){OPEN[jobKey(j)]=!OPEN[jobKey(j)];renderGrid();};
 act.appendChild(exp);
 var lr=el("div","linkrow");
 var a=el("a","apply","View / Apply");a.href=j.url;a.target="_blank";a.rel="noopener";
 lr.appendChild(a);act.appendChild(lr);
 card.appendChild(act);
 
-var det=el("div","detail"+(OPEN[j.key]?" open":""));
+var det=el("div","detail"+(OPEN[jobKey(j)]?" open":""));
 det.appendChild(fitBlock(j));
 det.appendChild(intelBlock(j));
 det.appendChild(noteBlock(j));
@@ -436,7 +438,7 @@ grid.appendChild(card);
 
 function renderBoard(){
 var board=document.getElementById("board");board.innerHTML="";
-var tracked=JOBS.filter(function(j){return getRec(j.key).stage;}).length;
+var tracked=JOBS.filter(function(j){return getRec(jobKey(j)).stage;}).length;
 document.getElementById("pipecount").textContent=
 tracked+" of "+JOBS.length+" roles are in your pipeline. Use the stage buttons on any card, or the arrows below, to move a role along.";
 var pn=document.querySelector("#stat-pipeline .n");
@@ -445,7 +447,7 @@ STAGES.forEach(function(s){
 var col=el("div","col");
 var head=el("div","colhead");
 head.appendChild(el("div","colname",STAGE_LABEL[s]));
-var inCol=JOBS.filter(function(j){return getRec(j.key).stage===s;});
+var inCol=JOBS.filter(function(j){return getRec(jobKey(j)).stage===s;});
 head.appendChild(el("div","colcount",String(inCol.length)));
 col.appendChild(head);
 if(!inCol.length)col.appendChild(el("div","colempty","Nothing here yet"));
@@ -454,13 +456,13 @@ var c=el("div","pcard");
 c.appendChild(el("div","pt",j.title));
 c.appendChild(el("div","pc",j.company));
 c.appendChild(el("div","pm",j.score+" fit - "+j.salary));
-var n=getRec(j.key).notes;
+var n=getRec(jobKey(j)).notes;
 if(n)c.appendChild(el("div","pn",n));
 var mb=el("div","movebar");
 var back=el("button","movebtn","< Back");back.type="button";
-back.onclick=function(){moveStage(j.key,-1);};
+back.onclick=function(){moveStage(jobKey(j),-1);};
 var fwd=el("button","movebtn","Next >");fwd.type="button";
-fwd.onclick=function(){moveStage(j.key,1);};
+fwd.onclick=function(){moveStage(jobKey(j),1);};
 mb.appendChild(back);mb.appendChild(fwd);
 c.appendChild(mb);
 col.appendChild(c);
@@ -536,7 +538,7 @@ scales:{r:{min:0,max:5,ticks:{stepSize:1,backdropColor:"transparent"},
 grid:{color:lineC},angleLines:{color:lineC},pointLabels:{font:{size:11}}}}}});
 
 var funnel=STAGES.map(function(s){
-return JOBS.filter(function(j){return getRec(j.key).stage===s;}).length;});
+return JOBS.filter(function(j){return getRec(jobKey(j)).stage===s;}).length;});
 mk("c-funnel",{type:"bar",
 data:{labels:STAGES.map(function(s){return STAGE_LABEL[s];}),
 datasets:[{data:funnel,
@@ -566,7 +568,7 @@ var high=JOBS.filter(function(j){return j.priority==="High";}).length;
 var vp=JOBS.filter(function(j){return j.level==="VP";}).length;
 var noClr=JOBS.filter(function(j){return !j.clearance||j.clearance==="None";}).length;
 var over275=JOBS.filter(function(j){return (j.salaryMax||0)>=275000;}).length;
-var tracked=JOBS.filter(function(j){return getRec(j.key).stage;}).length;
+var tracked=JOBS.filter(function(j){return getRec(jobKey(j)).stage;}).length;
 var closing=JOBS.filter(isUrgent).length;
 s.appendChild(stat(JOBS.length,"Verified roles"));
 s.appendChild(stat(high,"High fit"));
