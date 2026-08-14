@@ -67,6 +67,10 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:24px}
 .pinned-section{margin:20px 0 4px}
 .pinned-section h2{font-size:13px;margin:0 0 10px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
 .pinned-empty{color:var(--muted);font-size:13px;padding:4px 0 12px}
+.pinned-head{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.pinned-actions{display:flex;gap:8px}
+.ghostbtn{background:transparent;border:1px solid var(--line);color:var(--text);padding:7px 12px;border-radius:9px;font-size:12px;font-weight:600;cursor:pointer}
+.ghostbtn:hover{border-color:var(--accent)}
 </style>
 </head>
 <body>
@@ -85,7 +89,7 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:24px}
 </header>
 <div class="wrap">
 <div class="pinned-section" id="pinned-section">
-<h2>Pinned jobs</h2>
+<div class="pinned-head"><h2>Pinned jobs</h2><div class="pinned-actions"><button class="ghostbtn" id="email-pinned-btn" type="button">Email me these</button><button class="ghostbtn" id="copy-pinned-btn" type="button">Copy</button></div></div>
 <div class="grid" id="pinned-grid"></div>
 </div>
 <div class="controls">
@@ -105,6 +109,11 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:24px}
 var JOBS=[];
 var TAGS=JSON.parse(localStorage.getItem("talon_status")||"{}");
 var PINS=JSON.parse(localStorage.getItem("talon_pinned")||"{}");
+var TALON_EMAIL="talonisaiah1122@gmail.com";
+function pinnedList(){return Object.keys(PINS).sort(function(a,b){return (PINS[b].pinnedAt||"").localeCompare(PINS[a].pinnedAt||"");}).map(function(u){return PINS[u];});}
+function formatPinnedText(){var list=pinnedList();if(list.length===0)return "";var lines=["Saved jobs from Talon\u0027s job search dashboard - "+new Date().toISOString().slice(0,10),""];list.forEach(function(j,i){lines.push((i+1)+". "+j.title+" - "+j.company);lines.push(j.city+" | "+j.salary+" | "+j.priority+" priority, score "+j.score);lines.push(j.notes);lines.push("Apply: "+j.url);lines.push("");});return lines.join("\n");}
+function emailPinned(){var text=formatPinnedText();if(!text){alert("No pinned jobs yet. Pin a few first.");return;}var subject="My pinned jobs - "+new Date().toISOString().slice(0,10);var body=text;if(body.length>1800)body=body.slice(0,1800)+"\n...(list truncated - use the Copy button for the full list)";window.location.href="mailto:"+TALON_EMAIL+"?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);}
+function copyPinned(){var text=formatPinnedText();if(!text){alert("No pinned jobs yet. Pin a few first.");return;}navigator.clipboard.writeText(text).then(function(){var btn=document.getElementById("copy-pinned-btn");var orig=btn.textContent;btn.textContent="Copied!";setTimeout(function(){btn.textContent=orig;},1500);}).catch(function(){alert("Could not copy - your browser may be blocking clipboard access.");});}
 function saveTags(){localStorage.setItem("talon_status",JSON.stringify(TAGS));}
 function savePins(){localStorage.setItem("talon_pinned",JSON.stringify(PINS));}
 function setTag(id,val){if(TAGS[id]===val){delete TAGS[id];}else{TAGS[id]=val;}saveTags();render();}
@@ -232,6 +241,8 @@ rsel.innerHTML='<option value="">All roles</option>';
 roles.forEach(function(r){var o=document.createElement("option");o.value=r;o.textContent=r;rsel.appendChild(o);});
 }
 initTheme();
+document.getElementById("email-pinned-btn").addEventListener("click",emailPinned);
+document.getElementById("copy-pinned-btn").addEventListener("click",copyPinned);
 fetch("jobs.json?v="+Date.now(),{cache:"no-store"}).then(function(r){return r.json();}).then(function(data){
 JOBS=data.sort(function(a,b){return b.score-a.score;});
 buildStats();
