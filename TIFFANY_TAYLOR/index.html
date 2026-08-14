@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tiffany T. Taylor - Executive IT Job Search Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{
+--bg:#0b1120;--bg2:#0f172a;--card:#161f33;--card2:#1c2740;--text:#e8eefb;--muted:#94a3b8;
+--accent:#38bdf8;--accent2:#818cf8;--line:#2a3752;--chip:#233150;
+--green:#22c55e;--amber:#eab308;--orange:#f97316;--purple:#a855f7;--teal:#2dd4bf;
+}
+[data-theme="light"]{
+--bg:#f1f5f9;--bg2:#e9eef6;--card:#ffffff;--card2:#f6f9fd;--text:#0f172a;--muted:#52627a;
+--accent:#0369a1;--accent2:#4f46e5;--line:#cbd8e8;--chip:#e6edf7;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+background:var(--bg);color:var(--text);line-height:1.55;transition:background .2s,color .2s}
+.wrap{max-width:1280px;margin:0 auto;padding:0 20px}
+header{padding:30px 0 20px;border-bottom:1px solid var(--line);
+background:linear-gradient(160deg,var(--bg2),var(--bg))}
+.header-top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
+h1{margin:0 0 6px;font-size:29px;letter-spacing:-.02em}
+.creds{color:var(--accent);font-size:14px;font-weight:600;margin-bottom:6px}
+.sub{color:var(--muted);font-size:13.5px;max-width:760px}
+.theme-btn{flex:none;background:var(--card);border:1px solid var(--line);color:var(--text);
+padding:9px 15px;border-radius:10px;font-size:13px;font-weight:600;cursor:pointer}
+.theme-btn:hover{border-color:var(--accent)}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px 16px;min-width:104px}
+.stat .n{font-size:23px;font-weight:800;letter-spacing:-.02em}
+.stat .l{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+.updated{color:var(--muted);font-size:12px;margin-top:12px}
+
+.tabs{display:flex;gap:4px;margin:22px 0 0;border-bottom:1px solid var(--line)}
+.tab{background:none;border:none;border-bottom:2px solid transparent;color:var(--muted);
+padding:11px 18px;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit}
+.tab:hover{color:var(--text)}
+.tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+.panel{display:none}
+.panel.active{display:block}
+
+.controls{display:flex;flex-wrap:wrap;gap:9px;align-items:center;margin:20px 0 14px}
+input[type=search]{flex:1;min-width:220px;background:var(--card);border:1px solid var(--line);
+color:var(--text);padding:10px 13px;border-radius:10px;font-size:14px;font-family:inherit}
+select{background:var(--card);border:1px solid var(--line);color:var(--text);
+padding:9px 11px;border-radius:10px;font-size:13.5px;font-family:inherit;cursor:pointer}
+input[type=search]:focus,select:focus{outline:none;border-color:var(--accent)}
+.reset{background:transparent;border:1px solid var(--line);color:var(--muted);padding:9px 13px;
+border-radius:10px;font-size:13px;cursor:pointer;font-family:inherit;font-weight:600}
+.reset:hover{border-color:var(--accent);color:var(--text)}
+.count{color:var(--muted);font-size:13px;margin-bottom:12px}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(390px,1fr));gap:15px;margin-bottom:44px}
+.job{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:18px;
+display:flex;flex-direction:column;gap:10px;border-left:3px solid var(--line);transition:border-color .15s}
+.job:hover{border-color:var(--accent)}
+.job.st-interested{border-left-color:var(--purple)}
+.job.st-applied{border-left-color:var(--accent)}
+.job.st-screening{border-left-color:var(--teal)}
+.job.st-interview{border-left-color:var(--amber)}
+.job.st-offer{border-left-color:var(--green)}
+.row{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.title{font-size:16.5px;font-weight:700;margin:0;letter-spacing:-.01em}
+.company{color:var(--accent);font-size:14px;font-weight:600;margin-top:2px}
+.ring{flex:none;position:relative;width:54px;height:54px}
+.ring svg{transform:rotate(-90deg)}
+.ring .val{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+font-weight:800;font-size:15px}
+.badges{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:11px;padding:3.5px 9px;border-radius:999px;background:var(--chip);
+color:var(--text);border:1px solid var(--line);font-weight:600}
+.chip.sec-Commercial{background:#14532d33;border-color:#22c55e;color:#86efac}
+.chip.sec-Healthcare{background:#0e747033;border-color:#2dd4bf;color:#99f6e4}
+.chip.sec-Defense{background:#7c2d1233;border-color:#f97316;color:#fdba74}
+.chip.secStateGov{background:#1e3a8a33;border-color:#60a5fa;color:#bfdbfe}
+.chip.lvl{background:#4c1d9533;border-color:#a855f7;color:#e9d5ff}
+.chip.remote{background:#0e747033;border-color:#2dd4bf;color:#99f6e4}
+.chip.clr-active{background:#7c2d1233;border-color:#f97316;color:#fdba74}
+.chip.clr-elig{background:#1e3a8a33;border-color:#60a5fa;color:#bfdbfe}
+.pri{font-weight:800;font-size:11px;padding:3.5px 10px;border-radius:999px}
+.pri.High{background:#14532d;color:#86efac}
+.pri.Medium{background:#422006;color:#fde68a}
+.pri.Stretch{background:#431407;color:#fdba74}
+.salary{color:var(--text);font-size:13.5px;font-weight:600}
+.notes{color:var(--muted);font-size:13px}
+.stagebar{display:flex;gap:4px;flex-wrap:wrap;padding-top:2px}
+.stagebtn{font-size:11px;font-weight:700;padding:5px 10px;border-radius:8px;border:1px solid var(--line);
+background:transparent;color:var(--muted);cursor:pointer;font-family:inherit}
+.stagebtn:hover{border-color:var(--accent);color:var(--text)}
+.stagebtn.on{color:#04283a}
+.stagebtn.on.interested{background:var(--purple);border-color:var(--purple);color:#faf5ff}
+.stagebtn.on.applied{background:var(--accent);border-color:var(--accent)}
+.stagebtn.on.screening{background:var(--teal);border-color:var(--teal)}
+.stagebtn.on.interview{background:var(--amber);border-color:var(--amber)}
+.stagebtn.on.offer{background:var(--green);border-color:var(--green);color:#052e16}
+.actions{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:2px}
+.linkrow{display:flex;gap:8px}
+a.apply{background:var(--accent);color:#04283a;text-decoration:none;font-weight:700;font-size:13px;
+padding:8px 14px;border-radius:9px}
+[data-theme="light"] a.apply{color:#fff}
+.expand{background:transparent;border:1px solid var(--line);color:var(--muted);font-size:12.5px;
+font-weight:700;padding:8px 12px;border-radius:9px;cursor:pointer;font-family:inherit}
+.expand:hover{border-color:var(--accent);color:var(--text)}
+.detail{display:none;border-top:1px solid var(--line);padding-top:13px;margin-top:4px;gap:14px;
+flex-direction:column}
+.detail.open{display:flex}
+.dh{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);
+font-weight:700;margin-bottom:8px}
+.fitrow{display:grid;grid-template-columns:88px 1fr 26px;gap:9px;align-items:center;margin-bottom:7px}
+.fitlabel{font-size:12px;color:var(--muted);font-weight:600}
+.bar{height:7px;background:var(--chip);border-radius:99px;overflow:hidden}
+.bar span{display:block;height:100%;border-radius:99px}
+.fitnum{font-size:12px;font-weight:800;text-align:right}
+.fitnote{font-size:12px;color:var(--muted);margin:-2px 0 9px 97px;line-height:1.45}
+.intel{display:grid;grid-template-columns:106px 1fr;gap:6px 12px;font-size:12.5px}
+.ik{color:var(--muted);font-weight:600}
+.notebox{width:100%;background:var(--card2);border:1px solid var(--line);color:var(--text);
+border-radius:9px;padding:9px 11px;font-size:13px;font-family:inherit;resize:vertical;min-height:62px}
+.notebox:focus{outline:none;border-color:var(--accent)}
+
+.board{display:grid;grid-template-columns:repeat(5,minmax(210px,1fr));gap:12px;
+overflow-x:auto;padding-bottom:44px;margin-top:18px}
+.col{background:var(--card2);border:1px solid var(--line);border-radius:13px;padding:12px;min-height:180px}
+.colhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:11px}
+.colname{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em}
+.colcount{font-size:11px;font-weight:800;background:var(--chip);padding:2px 8px;border-radius:99px;color:var(--muted)}
+.pcard{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:11px;margin-bottom:9px}
+.pcard .pt{font-size:13px;font-weight:700;line-height:1.35}
+.pcard .pc{font-size:12px;color:var(--accent);font-weight:600;margin-top:2px}
+.pcard .pm{font-size:11px;color:var(--muted);margin-top:5px}
+.pcard .pn{font-size:11.5px;color:var(--muted);margin-top:7px;padding-top:7px;border-top:1px solid var(--line);
+white-space:pre-wrap}
+.movebar{display:flex;gap:4px;margin-top:8px}
+.movebtn{flex:1;font-size:10.5px;font-weight:700;padding:4px 6px;border-radius:6px;
+border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer;font-family:inherit}
+.movebtn:hover{border-color:var(--accent);color:var(--text)}
+.colempty{color:var(--muted);font-size:12px;text-align:center;padding:18px 6px}
+
+.charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));gap:16px;
+margin:20px 0 44px}
+.chartbox{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.chartbox h3{margin:0 0 4px;font-size:15px}
+.chartbox .cs{color:var(--muted);font-size:12px;margin-bottom:14px}
+.canvaswrap{position:relative;height:270px}
+.empty{color:var(--muted);text-align:center;padding:48px}
+footer{color:var(--muted);font-size:12px;text-align:center;padding:26px;border-top:1px solid var(--line)}
+@media(max-width:640px){
+.grid{grid-template-columns:1fr}
+h1{font-size:22px}
+.fitnote{margin-left:0}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<div class="header-top">
+<div>
+<h1>Tiffany T. Taylor - Executive IT Job Search</h1>
+<div class="creds">CISSP - PMP - MS Computer Systems Management - TS/SCI with Full-Scope Polygraph</div>
+<div class="sub">Senior Director, Cyber Risk Management &amp; IT Services Division Lead - $350M portfolio, $100M+ FY25 revenue, 159 staff + 80 subcontractors. Targeting 100% remote Senior Director and VP roles in Commercial IT, Healthcare IT, State Government IT, and non-NSA Defense. Compensation floor $225K base.</div>
+</div>
+<button class="theme-btn" id="theme-btn" onclick="toggleTheme()">Light Mode</button>
+</div>
+<div class="stats" id="stats"></div>
+<div class="updated" id="updated"></div>
+</div>
+</header>
+
+<div class="wrap">
+<div class="tabs">
+<button class="tab active" data-panel="p-opps" onclick="showTab(this)">Opportunities</button>
+<button class="tab" data-panel="p-pipe" onclick="showTab(this)">Pipeline</button>
+<button class="tab" data-panel="p-analytics" onclick="showTab(this)">Analytics</button>
+</div>
+
+<div class="panel active" id="p-opps">
+<div class="controls">
+<input type="search" id="q" placeholder="Search title, company, notes, intel...">
+<select id="priority"><option value="">All priorities</option><option>High</option><option>Medium</option><option>Stretch</option></select>
+<select id="sector"><option value="">All sectors</option><option>Commercial</option><option>Healthcare</option><option>State Gov</option><option>Defense</option></select>
+<select id="level"><option value="">All levels</option><option>VP</option><option>Senior Director</option></select>
+<select id="role"><option value="">All functions</option></select>
+<select id="comp">
+<option value="">Any comp</option>
+<option value="225000">Max band $225K+</option>
+<option value="275000">Max band $275K+</option>
+<option value="325000">Max band $325K+</option>
+</select>
+<select id="stage">
+<option value="">All pipeline stages</option>
+<option value="untracked">Not tracked</option>
+<option value="interested">Interested</option>
+<option value="applied">Applied</option>
+<option value="screening">Screening</option>
+<option value="interview">Interview</option>
+<option value="offer">Offer</option>
+</select>
+<select id="sort">
+<option value="score">Sort: fit score</option>
+<option value="compdesc">Sort: comp high to low</option>
+<option value="company">Sort: company A-Z</option>
+</select>
+<button class="reset" onclick="resetFilters()">Reset</button>
+</div>
+<div class="count" id="count"></div>
+<div class="grid" id="grid"></div>
+</div>
+
+<div class="panel" id="p-pipe">
+<div class="count" id="pipecount" style="margin-top:20px"></div>
+<div class="board" id="board"></div>
+</div>
+
+<div class="panel" id="p-analytics">
+<div class="charts">
+<div class="chartbox">
+<h3>Opportunities by sector</h3>
+<div class="cs">Where the remote executive market actually is for her profile</div>
+<div class="canvaswrap"><canvas id="c-sector"></canvas></div>
+</div>
+<div class="chartbox">
+<h3>Fit score distribution</h3>
+<div class="cs">How many roles land in each scoring band</div>
+<div class="canvaswrap"><canvas id="c-score"></canvas></div>
+</div>
+<div class="chartbox">
+<h3>Compensation ranges</h3>
+<div class="cs">Published or estimated base bands, highest first. Dashed line is the $225K floor.</div>
+<div class="canvaswrap"><canvas id="c-comp"></canvas></div>
+</div>
+<div class="chartbox">
+<h3>Average fit breakdown</h3>
+<div class="cs">Where this slate is strong and where it is thin, averaged across all roles</div>
+<div class="canvaswrap"><canvas id="c-radar"></canvas></div>
+</div>
+<div class="chartbox">
+<h3>Application pipeline</h3>
+<div class="cs">Your progress through the funnel. Updates as you set stages.</div>
+<div class="canvaswrap"><canvas id="c-funnel"></canvas></div>
+</div>
+<div class="chartbox">
+<h3>Function mix</h3>
+<div class="cs">Which kinds of executive roles are available remotely</div>
+<div class="canvaswrap"><canvas id="c-role"></canvas></div>
+</div>
+</div>
+</div>
+</div>
+
+<footer>Auto-refreshed daily. Built for Tiffany T. Taylor. Scores reflect fit to her profile: 100% remote, Senior Director or VP, $225K+ base, Commercial / Healthcare / State Government IT, and Defense excluding NSA. Pipeline stages and notes are saved in this browser only.</footer>
+
+<script>
+var JOBS=[];
+var STAGES=["interested","applied","screening","interview","offer"];
+var STAGE_LABEL={interested:"Interested",applied:"Applied",screening:"Screening",interview:"Interview",offer:"Offer"};
+var STATE=JSON.parse(localStorage.getItem("tt_state")||"{}");
+var OPEN={};
+var CHARTS={};
+
+function saveState(){localStorage.setItem("tt_state",JSON.stringify(STATE));}
+function getRec(id){if(!STATE[id])STATE[id]={stage:"",notes:""};return STATE[id];}
+function setStage(id,s){var r=getRec(id);r.stage=(r.stage===s)?"":s;saveState();renderAll();}
+function moveStage(id,dir){
+var r=getRec(id);var i=STAGES.indexOf(r.stage);var n=i+dir;
+if(n<0){r.stage="";}else if(n>=STAGES.length){return;}else{r.stage=STAGES[n];}
+saveState();renderAll();
+}
+function setNotes(id,v){getRec(id).notes=v;saveState();}
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e;}
+function val(id){return document.getElementById(id).value;}
+function scoreColor(s){return s>=85?"#22c55e":s>=75?"#eab308":"#f97316";}
+function secClass(s){return s==="State Gov"?"secStateGov":"sec-"+s;}
+function money(n){return "$"+Math.round(n/1000)+"K";}
+
+function ring(score){
+var w=el("div","ring");
+var c=scoreColor(score);
+var r=23,circ=2*Math.PI*r,off=circ*(1-score/100);
+var svg='<svg width="54" height="54" viewBox="0 0 54 54">'+
+'<circle cx="27" cy="27" r="'+r+'" fill="none" stroke="var(--chip)" stroke-width="5"></circle>'+
+'<circle cx="27" cy="27" r="'+r+'" fill="none" stroke="'+c+'" stroke-width="5" stroke-linecap="round" '+
+'stroke-dasharray="'+circ.toFixed(1)+'" stroke-dashoffset="'+off.toFixed(1)+'"></circle></svg>';
+w.innerHTML=svg;
+var v=el("div","val",score);v.style.color=c;w.appendChild(v);
+return w;
+}
+
+function fitBlock(j){
+var box=el("div");
+box.appendChild(el("div","dh","Why it scored "+j.score));
+var keys=[["leadership","Leadership"],["domain","Domain"],["remote","Remote"],["comp","Comp"],["industry","Industry"]];
+keys.forEach(function(k){
+var v=(j.fit&&j.fit[k[0]])||0;
+var row=el("div","fitrow");
+row.appendChild(el("div","fitlabel",k[1]));
+var bar=el("div","bar");
+var sp=el("span");sp.style.width=(v*20)+"%";
+sp.style.background=v>=5?"var(--green)":v>=4?"var(--accent)":v>=3?"var(--amber)":"var(--orange)";
+bar.appendChild(sp);row.appendChild(bar);
+row.appendChild(el("div","fitnum",v+"/5"));
+box.appendChild(row);
+if(j.fitNotes&&j.fitNotes[k[0]])box.appendChild(el("div","fitnote",j.fitNotes[k[0]]));
+});
+return box;
+}
+
+function intelBlock(j){
+var box=el("div");
+box.appendChild(el("div","dh","Company intel"));
+var g=el("div","intel");
+var rows=[["Size","size"],["Headquarters","hq"],["Remote policy","remotePolicy"],["Recent news","news"],["Hiring history","levelHistory"]];
+rows.forEach(function(r){
+var v=(j.intel&&j.intel[r[1]])||"Not determined";
+g.appendChild(el("div","ik",r[0]));
+g.appendChild(el("div",null,v));
+});
+box.appendChild(g);
+return box;
+}
+
+function noteBlock(j){
+var box=el("div");
+box.appendChild(el("div","dh","Your notes"));
+var ta=document.createElement("textarea");
+ta.className="notebox";
+ta.placeholder="Recruiter name, referral path, tailored resume version, follow-up date...";
+ta.value=getRec(j.id).notes||"";
+ta.addEventListener("input",function(){setNotes(j.id,ta.value);});
+box.appendChild(ta);
+return box;
+}
+
+function matches(j){
+var q=val("q").toLowerCase();
+var hay=(j.title+" "+j.company+" "+j.location+" "+j.notes+" "+j.roleType+" "+j.sector+" "+
+JSON.stringify(j.intel||{})+" "+JSON.stringify(j.fitNotes||{})).toLowerCase();
+if(q&&hay.indexOf(q)<0)return false;
+if(val("priority")&&j.priority!==val("priority"))return false;
+if(val("sector")&&j.sector!==val("sector"))return false;
+if(val("level")&&j.level!==val("level"))return false;
+if(val("role")&&j.roleType!==val("role"))return false;
+if(val("comp")&&(j.salaryMax||0)<parseInt(val("comp"),10))return false;
+var st=val("stage");var cur=getRec(j.id).stage;
+if(st==="untracked"&&cur)return false;
+if(st&&st!=="untracked"&&cur!==st)return false;
+return true;
+}
+
+function sortJobs(list){
+var s=val("sort");
+var out=list.slice();
+if(s==="compdesc")out.sort(function(a,b){return (b.salaryMax||0)-(a.salaryMax||0);});
+else if(s==="company")out.sort(function(a,b){return a.company.localeCompare(b.company);});
+else out.sort(function(a,b){return b.score-a.score;});
+return out;
+}
+
+function renderGrid(){
+var grid=document.getElementById("grid");grid.innerHTML="";
+var list=sortJobs(JOBS.filter(matches));
+document.getElementById("count").textContent=
+list.length+" of "+JOBS.length+" roles shown";
+if(!list.length){grid.innerHTML='<div class="empty">No matches. Try clearing filters.</div>';return;}
+list.forEach(function(j){
+var rec=getRec(j.id);
+var card=el("div","job"+(rec.stage?" st-"+rec.stage:""));
+
+var row=el("div","row");
+var left=el("div");
+left.appendChild(el("p","title",j.title));
+left.appendChild(el("div","company",j.company));
+row.appendChild(left);
+row.appendChild(ring(j.score));
+card.appendChild(row);
+
+var b=el("div","badges");
+b.appendChild(el("span","pri "+j.priority,j.priority));
+b.appendChild(el("span","chip lvl",j.level));
+b.appendChild(el("span","chip "+secClass(j.sector),j.sector));
+b.appendChild(el("span","chip remote",j.location));
+b.appendChild(el("span","chip",j.roleType));
+if(j.clearance==="Active Required")b.appendChild(el("span","chip clr-active","Active clearance required"));
+else if(j.clearance==="Eligible/Sponsor")b.appendChild(el("span","chip clr-elig","Clearance eligible"));
+card.appendChild(b);
+
+card.appendChild(el("div","salary",j.salary));
+card.appendChild(el("div","notes",j.notes));
+
+var sb=el("div","stagebar");
+STAGES.forEach(function(s){
+var btn=el("button","stagebtn"+(rec.stage===s?" on "+s:""),STAGE_LABEL[s]);
+btn.type="button";
+btn.onclick=function(){setStage(j.id,s);};
+sb.appendChild(btn);
+});
+card.appendChild(sb);
+
+var act=el("div","actions");
+var exp=el("button","expand",OPEN[j.id]?"Hide detail":"Fit breakdown + intel");
+exp.type="button";
+exp.onclick=function(){OPEN[j.id]=!OPEN[j.id];renderGrid();};
+act.appendChild(exp);
+var lr=el("div","linkrow");
+var a=el("a","apply","View / Apply");a.href=j.url;a.target="_blank";a.rel="noopener";
+lr.appendChild(a);act.appendChild(lr);
+card.appendChild(act);
+
+var det=el("div","detail"+(OPEN[j.id]?" open":""));
+det.appendChild(fitBlock(j));
+det.appendChild(intelBlock(j));
+det.appendChild(noteBlock(j));
+card.appendChild(det);
+
+grid.appendChild(card);
+});
+}
+
+function renderBoard(){
+var board=document.getElementById("board");board.innerHTML="";
+var tracked=JOBS.filter(function(j){return getRec(j.id).stage;}).length;
+document.getElementById("pipecount").textContent=
+tracked+" of "+JOBS.length+" roles are in your pipeline. Use the stage buttons on any card, or the arrows below, to move a role along.";
+STAGES.forEach(function(s){
+var col=el("div","col");
+var head=el("div","colhead");
+head.appendChild(el("div","colname",STAGE_LABEL[s]));
+var inCol=JOBS.filter(function(j){return getRec(j.id).stage===s;});
+head.appendChild(el("div","colcount",String(inCol.length)));
+col.appendChild(head);
+if(!inCol.length)col.appendChild(el("div","colempty","Nothing here yet"));
+inCol.sort(function(a,b){return b.score-a.score;}).forEach(function(j){
+var c=el("div","pcard");
+c.appendChild(el("div","pt",j.title));
+c.appendChild(el("div","pc",j.company));
+c.appendChild(el("div","pm",j.score+" fit - "+j.salary));
+var n=getRec(j.id).notes;
+if(n)c.appendChild(el("div","pn",n));
+var mb=el("div","movebar");
+var back=el("button","movebtn","< Back");back.type="button";
+back.onclick=function(){moveStage(j.id,-1);};
+var fwd=el("button","movebtn","Next >");fwd.type="button";
+fwd.onclick=function(){moveStage(j.id,1);};
+mb.appendChild(back);mb.appendChild(fwd);
+c.appendChild(mb);
+col.appendChild(c);
+});
+board.appendChild(col);
+});
+}
+
+function css(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim();}
+function mk(id,cfg){
+if(CHARTS[id]){CHARTS[id].destroy();}
+var ctx=document.getElementById(id);
+if(!ctx)return;
+CHARTS[id]=new Chart(ctx,cfg);
+}
+
+function renderCharts(){
+if(typeof Chart==="undefined")return;
+var textC=css("--text")||"#e8eefb";
+var mutedC=css("--muted")||"#94a3b8";
+var lineC=css("--line")||"#2a3752";
+Chart.defaults.color=mutedC;
+Chart.defaults.font.family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif";
+
+var secs=["Commercial","Healthcare","State Gov","Defense"];
+var secCounts=secs.map(function(s){return JOBS.filter(function(j){return j.sector===s;}).length;});
+mk("c-sector",{type:"doughnut",
+data:{labels:secs,datasets:[{data:secCounts,
+backgroundColor:["#22c55e","#2dd4bf","#60a5fa","#f97316"],borderWidth:0}]},
+options:{responsive:true,maintainAspectRatio:false,cutout:"58%",
+plugins:{legend:{position:"right",labels:{boxWidth:12,padding:14}}}}});
+
+var bands=["High 85-100","Medium 75-84","Stretch 65-74"];
+var bandCounts=[
+JOBS.filter(function(j){return j.score>=85;}).length,
+JOBS.filter(function(j){return j.score>=75&&j.score<85;}).length,
+JOBS.filter(function(j){return j.score<75;}).length];
+mk("c-score",{type:"bar",
+data:{labels:bands,datasets:[{data:bandCounts,
+backgroundColor:["#22c55e","#eab308","#f97316"],borderRadius:6}]},
+options:{responsive:true,maintainAspectRatio:false,
+plugins:{legend:{display:false}},
+scales:{y:{beginAtZero:true,ticks:{precision:0},grid:{color:lineC}},x:{grid:{display:false}}}}});
+
+var byComp=JOBS.slice().sort(function(a,b){return (b.salaryMax||0)-(a.salaryMax||0);}).slice(0,12);
+mk("c-comp",{type:"bar",
+data:{labels:byComp.map(function(j){return j.company;}),
+datasets:[
+{label:"Band minimum",data:byComp.map(function(j){return (j.salaryMin||0)/1000;}),
+backgroundColor:"#334155",borderRadius:4,stack:"s"},
+{label:"Band above minimum",data:byComp.map(function(j){return ((j.salaryMax||0)-(j.salaryMin||0))/1000;}),
+backgroundColor:"#38bdf8",borderRadius:4,stack:"s"}]},
+options:{responsive:true,maintainAspectRatio:false,indexAxis:"y",
+plugins:{legend:{position:"bottom",labels:{boxWidth:12}},
+tooltip:{callbacks:{label:function(c){
+var j=byComp[c.dataIndex];
+return j.salary;}}}},
+scales:{x:{stacked:true,grid:{color:lineC},ticks:{callback:function(v){return "$"+v+"K";}}},
+y:{stacked:true,grid:{display:false},ticks:{font:{size:11}}}}}});
+
+var dims=["leadership","domain","remote","comp","industry"];
+var avg=dims.map(function(d){
+var t=0,n=0;
+JOBS.forEach(function(j){if(j.fit&&j.fit[d]){t+=j.fit[d];n++;}});
+return n?(t/n).toFixed(2):0;});
+mk("c-radar",{type:"radar",
+data:{labels:["Leadership scope","Domain match","Remote confidence","Comp clears floor","Industry transfer"],
+datasets:[{label:"Average across slate",data:avg,
+backgroundColor:"rgba(56,189,248,.22)",borderColor:"#38bdf8",pointBackgroundColor:"#38bdf8",borderWidth:2}]},
+options:{responsive:true,maintainAspectRatio:false,
+plugins:{legend:{display:false}},
+scales:{r:{min:0,max:5,ticks:{stepSize:1,backdropColor:"transparent"},
+grid:{color:lineC},angleLines:{color:lineC},pointLabels:{font:{size:11}}}}}});
+
+var funnel=STAGES.map(function(s){
+return JOBS.filter(function(j){return getRec(j.id).stage===s;}).length;});
+mk("c-funnel",{type:"bar",
+data:{labels:STAGES.map(function(s){return STAGE_LABEL[s];}),
+datasets:[{data:funnel,
+backgroundColor:["#a855f7","#38bdf8","#2dd4bf","#eab308","#22c55e"],borderRadius:6}]},
+options:{responsive:true,maintainAspectRatio:false,
+plugins:{legend:{display:false}},
+scales:{y:{beginAtZero:true,ticks:{precision:0},grid:{color:lineC}},x:{grid:{display:false}}}}});
+
+var roles=[];
+JOBS.forEach(function(j){if(roles.indexOf(j.roleType)<0)roles.push(j.roleType);});
+roles.sort();
+var roleCounts=roles.map(function(r){return JOBS.filter(function(j){return j.roleType===r;}).length;});
+mk("c-role",{type:"bar",
+data:{labels:roles,datasets:[{data:roleCounts,backgroundColor:"#818cf8",borderRadius:5}]},
+options:{responsive:true,maintainAspectRatio:false,indexAxis:"y",
+plugins:{legend:{display:false}},
+scales:{x:{beginAtZero:true,ticks:{precision:0},grid:{color:lineC}},
+y:{grid:{display:false},ticks:{font:{size:11}}}}}});
+}
+
+function renderAll(){renderGrid();renderBoard();renderCharts();}
+
+function buildStats(){
+var s=document.getElementById("stats");s.innerHTML="";
+function stat(n,l){var d=el("div","stat");d.appendChild(el("div","n",n));d.appendChild(el("div","l",l));return d;}
+var high=JOBS.filter(function(j){return j.priority==="High";}).length;
+var vp=JOBS.filter(function(j){return j.level==="VP";}).length;
+var noClr=JOBS.filter(function(j){return !j.clearance||j.clearance==="None";}).length;
+var over275=JOBS.filter(function(j){return (j.salaryMax||0)>=275000;}).length;
+var tracked=JOBS.filter(function(j){return getRec(j.id).stage;}).length;
+s.appendChild(stat(JOBS.length,"Total roles"));
+s.appendChild(stat(high,"High fit"));
+s.appendChild(stat(vp,"VP level"));
+s.appendChild(stat(JOBS.length,"100% remote"));
+s.appendChild(stat(noClr,"No clearance"));
+s.appendChild(stat(over275,"$275K+ band"));
+s.appendChild(stat(tracked,"In pipeline"));
+var roles=[];
+JOBS.forEach(function(j){if(roles.indexOf(j.roleType)<0)roles.push(j.roleType);});
+roles.sort();
+var rsel=document.getElementById("role");
+roles.forEach(function(r){var o=document.createElement("option");o.value=r;o.textContent=r;rsel.appendChild(o);});
+}
+
+function showTab(btn){
+var tabs=document.querySelectorAll(".tab");
+for(var i=0;i<tabs.length;i++)tabs[i].classList.remove("active");
+btn.classList.add("active");
+var panels=document.querySelectorAll(".panel");
+for(var k=0;k<panels.length;k++)panels[k].classList.remove("active");
+document.getElementById(btn.getAttribute("data-panel")).classList.add("active");
+if(btn.getAttribute("data-panel")==="p-analytics")renderCharts();
+}
+
+function resetFilters(){
+["q","priority","sector","level","role","comp","stage"].forEach(function(id){
+document.getElementById(id).value="";});
+document.getElementById("sort").value="score";
+renderGrid();
+}
+
+function toggleTheme(){
+var cur=document.documentElement.getAttribute("data-theme")||"dark";
+var next=cur==="light"?"dark":"light";
+document.documentElement.setAttribute("data-theme",next);
+localStorage.setItem("tt_theme",next);
+document.getElementById("theme-btn").textContent=next==="light"?"Dark Mode":"Light Mode";
+renderCharts();
+}
+function initTheme(){
+var saved=localStorage.getItem("tt_theme")||"dark";
+document.documentElement.setAttribute("data-theme",saved);
+document.getElementById("theme-btn").textContent=saved==="light"?"Dark Mode":"Light Mode";
+}
+initTheme();
+
+fetch("jobs.json?v="+Date.now(),{cache:"no-store"})
+.then(function(r){return r.json();})
+.then(function(data){
+JOBS=data.sort(function(a,b){return b.score-a.score;});
+buildStats();
+var dates=[];
+JOBS.forEach(function(j){if(j.posted&&dates.indexOf(j.posted)<0)dates.push(j.posted);});
+dates.sort().reverse();
+document.getElementById("updated").textContent="Last refreshed: "+(dates[0]||"-")+
+" - "+JOBS.length+" verified openings, all 100% remote";
+renderAll();
+["q","priority","sector","level","role","comp","stage","sort"].forEach(function(id){
+document.getElementById(id).addEventListener(id==="q"?"input":"change",renderGrid);});
+})
+.catch(function(e){
+document.getElementById("grid").innerHTML=
+'<div class="empty">Could not load jobs.json - '+e.message+'</div>';});
+</script>
+</body>
+</html>
