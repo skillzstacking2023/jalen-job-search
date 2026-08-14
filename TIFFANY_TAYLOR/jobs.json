@@ -21,7 +21,13 @@
     "expiresOn": "2026-08-20",
     "verified": "2026-08-14",
     "verifiedNote": "Posting text confirms 'Fully Remote, Forever' and 'Typical time on-site: None' - salary band confirmed as published",
-    "fit": { "leadership": 5, "domain": 5, "remote": 5, "comp": 5, "industry": 4 },
+    "fit": {
+      "leadership": 5,
+      "domain": 5,
+      "remote": 5,
+      "comp": 5,
+      "industry": 4
+    },
     "fitNotes": {
       "leadership": "Single-threaded owner of the whole security function with a stated path to CSO - comparable authority to her division lead role",
       "domain": "Enterprise security strategy, program and operations is a direct restatement of her cyber risk management division scope",
@@ -35,7 +41,8 @@
       "remotePolicy": "All-remote since founding - described in the posting as fully remote, forever",
       "news": "Not determined",
       "levelHistory": "Not determined"
-    }
+    },
+    "track": "Executive"
   },
   {
     "id": 2,
@@ -59,7 +66,13 @@
     "expiresOn": "",
     "verified": "2026-08-14",
     "verifiedNote": "Posting text confirms 'or Remote within United States' - non-metro band confirmed as published",
-    "fit": { "leadership": 5, "domain": 5, "remote": 5, "comp": 5, "industry": 3 },
+    "fit": {
+      "leadership": 5,
+      "domain": 5,
+      "remote": 5,
+      "comp": 5,
+      "industry": 3
+    },
     "fitNotes": {
       "leadership": "Deputy CISO with board-level and regulator-facing accountability is a clean lateral from her division lead and P&L role",
       "domain": "Control inventory, policy attestation, third party risk and continuity testing is exactly her NIST RMF and security controls assessment background rebadged for banking",
@@ -73,7 +86,8 @@
       "remotePolicy": "Hub offices in San Francisco, New York and Portland with full remote option across the US",
       "news": "Not determined",
       "levelHistory": "Posting is for a newly framed bank-entity security leadership layer under an existing CISO"
-    }
+    },
+    "track": "Executive"
   },
   {
     "id": 3,
@@ -97,7 +111,13 @@
     "expiresOn": "",
     "verified": "2026-08-14",
     "verifiedNote": "Posting text confirms 'remote work environment operating within the Eastern time zone' with DC/MD/NoVA corridor preferred - she is Maryland-based so the preference works in her favor",
-    "fit": { "leadership": 5, "domain": 4, "remote": 5, "comp": 4, "industry": 5 },
+    "fit": {
+      "leadership": 5,
+      "domain": 4,
+      "remote": 5,
+      "comp": 4,
+      "industry": 5
+    },
     "fitNotes": {
       "leadership": "Deputy CIO scope with multi-business-unit staff leadership parallels her nine-prime, 159-person division",
       "domain": "Technology strategy and DoD security frameworks rather than pure cyber risk, but her RMF depth transfers directly",
@@ -111,7 +131,8 @@
       "remotePolicy": "Remote work environment on Eastern time hours, 10-15 percent annual travel",
       "news": "Posting states the firm is growing in scale and complexity across health IT, defense, intelligence and civilian programs",
       "levelHistory": "Not determined"
-    }
+    },
+    "track": "Executive"
   },
   {
     "id": 4,
@@ -135,7 +156,13 @@
     "expiresOn": "",
     "verified": "2026-08-14",
     "verifiedNote": "Comp corrected on 2026-08-14 - posting publishes 285K-355K for CA/WA/NY/NJ/CT and 253K-323K for all other states - Maryland is in the lower band",
-    "fit": { "leadership": 5, "domain": 4, "remote": 5, "comp": 5, "industry": 3 },
+    "fit": {
+      "leadership": 5,
+      "domain": 4,
+      "remote": 5,
+      "comp": 5,
+      "industry": 3
+    },
     "fitNotes": {
       "leadership": "Senior Director owning enterprise-wide risk strategy carries comparable organizational influence to her current division",
       "domain": "Enterprise risk governance overlaps strongly with her RMF and controls background though it is broader than pure cyber risk",
@@ -149,7 +176,8 @@
       "remotePolicy": "Remote-first company with US-wide hiring and geography-banded pay",
       "news": "Not determined",
       "levelHistory": "Not determined"
-    }
+    },
+    "track": "Executive"
   },
   {
     "id": 5,
@@ -173,7 +201,13 @@
     "expiresOn": "",
     "verified": "2026-08-14",
     "verifiedNote": "Posting text confirms 'United States - Remote' and carries an LI-Remote tag - Zone 1 band confirmed as published",
-    "fit": { "leadership": 5, "domain": 4, "remote": 5, "comp": 5, "industry": 4 },
+    "fit": {
+      "leadership": 5,
+      "domain": 4,
+      "remote": 5,
+      "comp": 5,
+      "industry": 4
+    },
     "fitNotes": {
       "leadership": "VP-level ownership of technology operations across an entire operating organization matches her multi-team leadership scale",
       "domain": "Technology operations and efficiency leadership fits her IT services division lead role though it is lighter on cyber than her core",
@@ -187,7 +221,8 @@
       "remotePolicy": "Remote hiring across the US with geo-zoned pay bands",
       "news": "Not determined",
       "levelHistory": "Not determined"
-    }
+    },
+    "track": "Executive"
   },
   {
     "id": 6,
@@ -211,7 +246,13 @@
     "expiresOn": "2026-10-05",
     "verified": "2026-08-14",
     "verifiedNote": "Posting text confirms 'Hiring Remotely in USA' with LI-Remote tag and a stated close date of 2026-10-05 - level flagged as ambiguous between Director and Sr Director in the posting body",
-    "fit": { "leadership": 4, "domain": 4, "remote": 5, "comp": 4, "industry": 5 },
+    "fit": {
+      "leadership": 4,
+      "domain": 4,
+      "remote": 5,
+      "comp": 4,
+      "industry": 5
+    },
     "fitNotes": {
       "leadership": "Office of the CEO placement carries influence but the body text reads Director rather than Senior Director - grade needs confirming",
       "domain": "Strategic program management and bespoke customer solutions maps to her capture-to-execution and proposal review experience",
@@ -225,7 +266,8 @@
       "remotePolicy": "Remote-friendly with flexible schedules per the posting",
       "news": "Not determined",
       "levelHistory": "Not determined"
-    }
+    },
+    "track": "Executive"
   },
   {
     "id": 7,
@@ -249,7 +291,13 @@
     "expiresOn": "",
     "verified": "2026-08-14",
     "verifiedNote": "Posting text confirms 'Hiring Remotely in US' with LI-REMOTE tag - band confirmed as published",
-    "fit": { "leadership": 4, "domain": 4, "remote": 5, "comp": 4, "industry": 4 },
+    "fit": {
+      "leadership": 4,
+      "domain": 4,
+      "remote": 5,
+      "comp": 4,
+      "industry": 4
+    },
     "fitNotes": {
       "leadership": "VP of technology operations is a solid level match though the organization is smaller than her current portfolio",
       "domain": "Service delivery and technology operations leadership directly mirrors her IT Services Division role",
@@ -263,7 +311,8 @@
       "remotePolicy": "Role posted as remote across the US",
       "news": "Not determined",
       "levelHistory": "Not determined"
-    }
+    },
+    "track": "Executive"
   },
   {
     "id": 8,
@@ -287,7 +336,13 @@
     "expiresOn": "",
     "verified": "2026-08-14",
     "verifiedNote": "Posting text confirms 'This role is Remote, US' - band confirmed as published",
-    "fit": { "leadership": 4, "domain": 3, "remote": 5, "comp": 5, "industry": 4 },
+    "fit": {
+      "leadership": 4,
+      "domain": 3,
+      "remote": 5,
+      "comp": 5,
+      "industry": 4
+    },
     "fitNotes": {
       "leadership": "Business unit GM with P&L and team build-out, though smaller in scale than her 350M portfolio",
       "domain": "Requires 5G, direct-to-device and satcom technical expertise she would have to argue around",
@@ -301,7 +356,8 @@
       "remotePolicy": "Role designated Remote, US with a flexible approach to work",
       "news": "Direct-to-device service live on millions of activated devices across five continents",
       "levelHistory": "Newly formed Government Systems Business Unit, so this is a first-in leadership hire"
-    }
+    },
+    "track": "Executive"
   },
   {
     "id": 9,
@@ -325,7 +381,13 @@
     "expiresOn": "",
     "verified": "2026-08-14",
     "verifiedNote": "Posting text confirms 'Hiring Remotely in USA' - no salary is published by the employer, so the band shown is an estimate and is labelled as such",
-    "fit": { "leadership": 4, "domain": 5, "remote": 5, "comp": 3, "industry": 4 },
+    "fit": {
+      "leadership": 4,
+      "domain": 5,
+      "remote": 5,
+      "comp": 3,
+      "industry": 4
+    },
     "fitNotes": {
       "leadership": "Owns the IT operating budget and multiple functional teams reporting to the CIO - a good level fit though a smaller org than Amentum",
       "domain": "Infrastructure, security operations, service desk and vendor management is a near-exact restatement of her IT services division scope",
@@ -339,7 +401,8 @@
       "remotePolicy": "Role posted as remote - broader company policy not determined",
       "news": "Not determined",
       "levelHistory": "Not determined"
-    }
+    },
+    "track": "Executive"
   },
   {
     "id": 10,
@@ -363,7 +426,13 @@
     "expiresOn": "",
     "verified": "2026-08-14",
     "verifiedNote": "Posting text confirms 'Hiring Remotely in United States' - band is NYC-statute specific with an explicit geographic variance caveat",
-    "fit": { "leadership": 4, "domain": 5, "remote": 5, "comp": 2, "industry": 5 },
+    "fit": {
+      "leadership": 4,
+      "domain": 5,
+      "remote": 5,
+      "comp": 2,
+      "industry": 5
+    },
     "fitNotes": {
       "leadership": "Practice leadership with delivery and commercial accountability parallels her multi-contract portfolio ownership",
       "domain": "Managed infrastructure services delivery is the commercial mirror of her IT services division",
@@ -377,7 +446,8 @@
       "remotePolicy": "Requisition posted as remote across the US",
       "news": "Not determined",
       "levelHistory": "Not determined"
-    }
+    },
+    "track": "Executive"
   },
   {
     "id": 11,
@@ -401,7 +471,13 @@
     "expiresOn": "2026-08-21",
     "verified": "2026-08-14",
     "verifiedNote": "Workday requisition confirms remote type Remote across 51 Working at Home locations with 0-25 percent travel - expiry date of 2026-08-21 read directly from the requisition",
-    "fit": { "leadership": 4, "domain": 3, "remote": 5, "comp": 4, "industry": 4 },
+    "fit": {
+      "leadership": 4,
+      "domain": 3,
+      "remote": 5,
+      "comp": 4,
+      "industry": 4
+    },
     "fitNotes": {
       "leadership": "Senior Director owning an enterprise transformation program at a national payer is a genuine level match",
       "domain": "Technology transformation and program delivery fits her but underwriting and actuarial content is outside her experience",
@@ -415,7 +491,8 @@
       "remotePolicy": "Extensive Working at Home job family spanning 51 US locations",
       "news": "Not determined",
       "levelHistory": "Not determined"
-    }
+    },
+    "track": "Executive"
   },
   {
     "id": 12,
@@ -439,7 +516,13 @@
     "expiresOn": "",
     "verified": "2026-08-14",
     "verifiedNote": "Posting text confirms 'Location: Remote US (east coast preference)' - her Maryland base satisfies the preference - band confirmed as published",
-    "fit": { "leadership": 4, "domain": 4, "remote": 5, "comp": 3, "industry": 3 },
+    "fit": {
+      "leadership": 4,
+      "domain": 4,
+      "remote": 5,
+      "comp": 3,
+      "industry": 3
+    },
     "fitNotes": {
       "leadership": "Senior Director standing up an enterprise risk program across a very large organization is a strong level match",
       "domain": "Risk framework and compliance program design is her core skill though AI-specific regulation is a new subject area",
@@ -453,7 +536,8 @@
       "remotePolicy": "Remote with east coast preference for this requisition",
       "news": "Not determined",
       "levelHistory": "Not determined"
-    }
+    },
+    "track": "Executive"
   },
   {
     "id": 13,
@@ -477,7 +561,13 @@
     "expiresOn": "",
     "verified": "2026-08-14",
     "verifiedNote": "Comp corrected on 2026-08-14 - the requisition does publish bands, 242.7K-303.4K non-metro and 269.7K-337.1K metro - earlier record wrongly said salary was not shown",
-    "fit": { "leadership": 4, "domain": 4, "remote": 5, "comp": 5, "industry": 3 },
+    "fit": {
+      "leadership": 4,
+      "domain": 4,
+      "remote": 5,
+      "comp": 5,
+      "industry": 3
+    },
     "fitNotes": {
       "leadership": "Head of a technical program management function across a banking organization is a Senior Director equivalent scope",
       "domain": "Technical program governance and delivery is a direct match to her PMP-backed program management record",
@@ -491,7 +581,8 @@
       "remotePolicy": "Hub offices in San Francisco, New York and Portland with full remote option",
       "news": "Not determined",
       "levelHistory": "Not determined"
-    }
+    },
+    "track": "Executive"
   },
   {
     "id": 14,
@@ -515,7 +606,13 @@
     "expiresOn": "",
     "verified": "2026-08-14",
     "verifiedNote": "Posting carries an LI-Remote tag and states employees work remotely - band confirmed as published",
-    "fit": { "leadership": 5, "domain": 3, "remote": 5, "comp": 5, "industry": 2 },
+    "fit": {
+      "leadership": 5,
+      "domain": 3,
+      "remote": 5,
+      "comp": 5,
+      "industry": 2
+    },
     "fitNotes": {
       "leadership": "Global function head at VP level with worldwide scope exceeds her current span",
       "domain": "Product security is more engineering-embedded application security than the governance and controls work she leads today",
@@ -529,6 +626,997 @@
       "remotePolicy": "Fully remote per company profile with offices in NYC, UK, Taiwan and Singapore",
       "news": "Not determined",
       "levelHistory": "Not determined"
-    }
+    },
+    "track": "Executive"
+  },
+  {
+    "key": "tines--principal-program-manager-public-sector-compliance--remote-us",
+    "track": "PM / RMF",
+    "score": 92,
+    "title": "Principal Program Manager, Public Sector Compliance",
+    "company": "Tines",
+    "sector": "Commercial",
+    "level": "Senior / Lead",
+    "location": "Remote - US",
+    "salary": "$245K-$260K target annual plus equity",
+    "salaryMin": 245000,
+    "salaryMax": 260000,
+    "roleType": "RMF / A&A",
+    "priority": "High",
+    "clearance": "Eligible/Sponsor",
+    "url": "https://job-boards.greenhouse.io/tines/jobs/5993765004",
+    "notes": "Closest match in this track to her technical core - posting names FedRAMP, CMMC, IL5, NIST 800-53, NIST 800-171, FISMA, CJIS and GovRAMP as the scope - she has authored SSPs in CNSSI 1253 / NIST 800-53 format and led the Assessment step of RMF - owns the federal compliance roadmap and governance model rather than a large delivery org, so it is a step down in scope from a $350M portfolio and 159 employees - compensating factor is the highest verified comp in this track - clearance is eligible-to-obtain so her active TS/SCI FS poly is more than sufficient",
+    "posted": "2026-05-14",
+    "postedDate": "2026-05-14",
+    "expiresOn": "",
+    "verified": "2026-08-14",
+    "verifiedNote": "Greenhouse posting live - header reads United States (Remote), body states This role is remote and based in the United States - comp read verbatim Target Annual Compensation 245-260k plus equity",
+    "fit": {
+      "leadership": 4,
+      "domain": 5,
+      "remote": 5,
+      "comp": 5,
+      "industry": 4
+    },
+    "fitNotes": {
+      "leadership": "Principal program level - sets roadmap and governance model, influence rather than a 159-person org, a real reduction in span",
+      "domain": "Direct hit on RMF and 800-53 depth - FedRAMP, CMMC, IL4/IL5, FISMA, GovRAMP and CJIS all named in the posting",
+      "remote": "Posting states verbatim This role is remote and based in the United States - no state exclusions so Maryland qualifies",
+      "comp": "Single US-wide figure of 245-260k plus equity with no geographic banding - well above the 175K floor",
+      "industry": "Security automation vendor selling into federal, DoD and SLED - adjacent to her world without a cleared facility"
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "Co-headquartered in Dublin and Boston",
+      "remotePolicy": "Role is remote and based in the United States",
+      "news": "Not determined",
+      "levelHistory": "Not determined"
+    },
+    "id": 15
+  },
+  {
+    "key": "molina-healthcare--avp-project-portfolio-management-pmo--remote-us",
+    "track": "PM / RMF",
+    "score": 88,
+    "title": "AVP, Project and Portfolio Management (PMO)",
+    "company": "Molina Healthcare",
+    "sector": "Healthcare",
+    "level": "VP",
+    "location": "Remote - US",
+    "salary": "$161.9K-$220.7K annual",
+    "salaryMin": 161914,
+    "salaryMax": 220732,
+    "roleType": "Program Management",
+    "priority": "High",
+    "clearance": "None",
+    "url": "https://careers.molinahealthcare.com/job/united-states/avp-project-and-portfolio-management-pmo-remote/21726/98910042240",
+    "notes": "Closest structural match in the PM track - enterprise project and portfolio management leadership with stated accountability for financial results - covers M&A, growth initiatives, capital planning and budgeting, which maps onto her EAC, funding projection and CostPoint work - PMP is a preferred qualification and she holds it - NOT a step down: enterprise-wide portfolio scope with a team, at AVP level - the trade is government-funded healthcare rather than DoD contracting",
+    "posted": "2026-08-07",
+    "postedDate": "2026-08-07",
+    "expiresOn": "",
+    "verified": "2026-08-14",
+    "verifiedNote": "Read on Molina careers site - title ends REMOTE, site states all remote roles are US-based - pay text Pay Range 161,914 - 220,732 ANNUAL - posting date 08/07/2026 - no state exclusions published",
+    "fit": {
+      "leadership": 5,
+      "domain": 4,
+      "remote": 5,
+      "comp": 4,
+      "industry": 3
+    },
+    "fitNotes": {
+      "leadership": "Posting says the role provides strategy and leadership to a team running enterprise portfolio management - matches her 8-PM span of control",
+      "domain": "Portfolio governance, capital planning, budgeting and delivery excellence - same disciplines as her EAC and risk register work minus the federal artifacts",
+      "remote": "Title carries the REMOTE suffix and location is United States - no state carve-outs published so Maryland qualifies",
+      "comp": "Published band 161,914-220,732 - the maximum clears the floor and the midpoint sits near it",
+      "industry": "Government-sponsored healthcare - adjacent to her federal customer world but new subject matter"
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "Not determined",
+      "remotePolicy": "All remote opportunities are US-based",
+      "news": "Nationwide Fortune 500 serving people receiving government assistance",
+      "levelHistory": "Not determined"
+    },
+    "id": 16
+  },
+  {
+    "key": "smartsheet--senior-security-engineer-i-grc-fedramp--remote-us",
+    "track": "PM / RMF",
+    "score": 86,
+    "title": "Senior Security Engineer I - GRC FedRAMP",
+    "company": "Smartsheet",
+    "sector": "Commercial",
+    "level": "Senior / Lead",
+    "location": "Remote - US",
+    "salary": "$145K-$210K base",
+    "salaryMin": 145000,
+    "salaryMax": 210000,
+    "roleType": "RMF / A&A",
+    "priority": "High",
+    "clearance": "None",
+    "url": "https://job-boards.greenhouse.io/smartsheet/jobs/8070007",
+    "notes": "Despite the engineer title this is the FedRAMP and GovRAMP program owner seat - owns certifications and roadmap, manages 3PAO relationships, drives annual assessment prep, runs POA&M processes and sustains authorizations - the mirror image of the Security Testing Center queue she ran, seen from the CSP side instead of the assessor side - individual contributor role and a significant step down in scope from 159 direct employees - upside is that her assessment-side experience is the differentiator, and no clearance means no facility dependency",
+    "posted": "2026-07-16",
+    "postedDate": "2026-07-16",
+    "expiresOn": "",
+    "verified": "2026-08-14",
+    "verifiedNote": "Greenhouse posting live - location field reads REMOTE, USA and benefits state teleworking options from any registered location in the US - salary verbatim US Base Salary Pay Range 145,000-210,000 USD",
+    "fit": {
+      "leadership": 3,
+      "domain": 5,
+      "remote": 5,
+      "comp": 4,
+      "industry": 4
+    },
+    "fitNotes": {
+      "leadership": "Posting says lead these programs and own the certifications and roadmap, but no team is named - functional leadership only",
+      "domain": "Textbook fit - obtaining and maintaining ATOs, navigating 3PAO assessments, POA&M management and continuous monitoring all named explicitly",
+      "remote": "Greenhouse location is REMOTE, USA and posting states teleworking from any registered US location",
+      "comp": "Single US band of 145,000-210,000 - max is well clear of 175K but the midpoint sits below her current level",
+      "industry": "FedRAMP-authorized commercial SaaS serving government - a clean lateral out of the cleared-contractor world"
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "Not determined",
+      "remotePolicy": "Teleworking from any registered location in the US, role specific",
+      "news": "Not determined",
+      "levelHistory": "Not determined"
+    },
+    "id": 17
+  },
+  {
+    "key": "conduent--senior-director-transformation--remote-us",
+    "track": "PM / RMF",
+    "score": 85,
+    "title": "Senior Director, Transformation",
+    "company": "Conduent",
+    "sector": "Commercial",
+    "level": "Senior Director",
+    "location": "Remote - US",
+    "salary": "$181K-$210K estimated range",
+    "salaryMin": 181000,
+    "salaryMax": 210000,
+    "roleType": "Program Management",
+    "priority": "High",
+    "clearance": "None",
+    "url": "https://builtin.com/job/senior-director-transformation/10653120",
+    "notes": "Same title level she holds today at a company whose business is running mission-critical services under government and commercial contracts - closest cultural analogue to Amentum in this track - posted one day before verification so the window is wide open - IMPORTANT geography detail: Conduent excludes several states and metros and MD Montgomery County is on the exclusion list, but Eldersburg is in Carroll County so she is eligible - scope of the transformation portfolio is not quantified, so treat headcount and P&L as an open question for the recruiter screen",
+    "posted": "2026-08-13",
+    "postedDate": "2026-08-13",
+    "expiresOn": "",
+    "verified": "2026-08-14",
+    "verifiedNote": "Work model badge reads Remote and benefits state Remote work enjoy the convenience of working from home - pay text estimated salary range 181,000 to 210,000 - exclusion list names MD Montgomery County only, not Maryland as a state",
+    "fit": {
+      "leadership": 5,
+      "domain": 4,
+      "remote": 5,
+      "comp": 4,
+      "industry": 4
+    },
+    "fitNotes": {
+      "leadership": "Senior Director title is a lateral move from her current role rather than a demotion",
+      "domain": "Enterprise transformation leadership overlapping her ISO process, governance and delivery-excellence record, though program value and team size are not quantified",
+      "remote": "Work model badge reads Remote and the exclusion list names MD Montgomery County only, so Carroll County is eligible",
+      "comp": "Published estimated range 181,000-210,000 - the floor already clears 175K so the whole band qualifies",
+      "industry": "Business process services under government and commercial contracts - closest analogue to her services-contracting background"
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "Not determined",
+      "remotePolicy": "Remote with excluded states and metros - MD Montgomery County excluded, rest of Maryland eligible",
+      "news": "Not determined",
+      "levelHistory": "Not determined"
+    },
+    "id": 18
+  },
+  {
+    "key": "crowdstrike--sr-director-program-management-tailored-solutions--remote-us-pm",
+    "track": "PM / RMF",
+    "score": 84,
+    "title": "Sr. Director, Program Management - Tailored Solutions",
+    "company": "CrowdStrike",
+    "sector": "Commercial",
+    "level": "Senior Director",
+    "location": "Remote - US",
+    "salary": "$210K-$300K base",
+    "salaryMin": 210000,
+    "salaryMax": 300000,
+    "roleType": "Program Management",
+    "priority": "Medium",
+    "clearance": "None",
+    "url": "https://builtin.com/job/sr-director-program-management-tailored-solutions-remote/10552037",
+    "notes": "Also listed in the Executive track - highest verified comp floor in the PM set and a title match to her current level - sits inside the Office of the CEO as deputy to the VP of Tailored Solutions so executive exposure is real - honest caveat: a step down in managed scope, the posting describes influence without formal authority rather than a P&L or a 159-person org - a genuine domain pivot from federal contract delivery into commercial product strategy",
+    "posted": "2026-08-06",
+    "postedDate": "2026-08-06",
+    "expiresOn": "2026-10-05",
+    "verified": "2026-08-14",
+    "verifiedNote": "Header Hiring Remotely in USA with LI-Remote tag - pay verbatim base salary range for all US candidates 210,000-300,000 - Expected Close Date 10-05-2026",
+    "fit": {
+      "leadership": 4,
+      "domain": 3,
+      "remote": 5,
+      "comp": 5,
+      "industry": 4
+    },
+    "fitNotes": {
+      "leadership": "Sr. Director serving as a key deputy to the VP - senior title but framed as cross-functional influence rather than org ownership",
+      "domain": "Bespoke customer solutions and roadmap influence - program craft transfers but the subject matter is commercial product strategy",
+      "remote": "Header states Hiring Remotely in USA and the description is tagged LI-Remote with no state restrictions",
+      "comp": "Single nationwide band for all US candidates at 210,000-300,000 so Maryland gets the full range",
+      "industry": "Cybersecurity product company - her CISSP and 20 years in cyber services give her credibility"
+    },
+    "intel": {
+      "size": "Approx 11,000 employees",
+      "hq": "Austin, TX",
+      "remotePolicy": "Purpose-built remote-first with flexible time on-site",
+      "news": "AI-native security platform processing roughly 3 trillion events per day",
+      "levelHistory": "Not determined"
+    },
+    "id": 19
+  },
+  {
+    "key": "vanta--lead-product-grc-subject-matter-expert--remote-us",
+    "track": "PM / RMF",
+    "score": 82,
+    "title": "Lead Product GRC Subject Matter Expert",
+    "company": "Vanta",
+    "sector": "Commercial",
+    "level": "Senior / Lead",
+    "location": "Remote - US",
+    "salary": "$230K-$270K base plus equity",
+    "salaryMin": 230000,
+    "salaryMax": 270000,
+    "roleType": "GRC / Risk",
+    "priority": "Medium",
+    "clearance": "None",
+    "url": "https://builtin.com/job/lead-product-grc-subject-matter-expert/10646951",
+    "notes": "Strong comp and a genuinely federal mandate - owns FedRAMP Low/Moderate/High, NIST 800-53, 800-171, CMMC, DFARS and StateRAMP content for Vanta for Government - the honest caveat is written into the posting itself, that candidates whose federal experience is primarily assessment or compliance program coordination will find the day-to-day materially different - she would be arguing that 800-53A assessment fluency transfers to authoring testable control content - step down in scope: a lead IC seat that mentors other SMEs, not a P&L",
+    "posted": "2026-08-12",
+    "postedDate": "2026-08-12",
+    "expiresOn": "2026-09-11",
+    "verified": "2026-08-14",
+    "verifiedNote": "Header Hiring Remotely in US, JSON-LD jobLocationType TELECOMMUTE with applicantLocationRequirements USA, body tagged LI-remote - salary from JSON-LD baseSalary 230000-270000 USD - validThrough 2026-09-11",
+    "fit": {
+      "leadership": 3,
+      "domain": 4,
+      "remote": 5,
+      "comp": 5,
+      "industry": 4
+    },
+    "fitNotes": {
+      "leadership": "Lead level - mentors and calibrates other SMEs but no headcount, a large reduction from managing 48 contractors",
+      "domain": "Federal frameworks are the whole job, but the work is authoring control content for a product rather than running assessments - posting flags this gap explicitly",
+      "remote": "Posting says Hiring Remotely in US, carries the LI-remote tag and offers a remote workspace stipend",
+      "comp": "Base range 230K-270K plus equity - Vanta shares base ranges for all US postings regardless of state",
+      "industry": "Trust and compliance automation platform building a federal product line"
+    },
+    "intel": {
+      "size": "Approx 361 employees",
+      "hq": "San Francisco, CA",
+      "remotePolicy": "Remote-first with offices in SF, NYC, London, Dublin, Tel Aviv and Sydney",
+      "news": "Not determined",
+      "levelHistory": "Not determined"
+    },
+    "id": 20
+  },
+  {
+    "key": "zscaler--staff-technical-program-manager-government-authorizations--remote-us",
+    "track": "PM / RMF",
+    "score": 80,
+    "title": "Staff Technical Program Manager - Government Authorizations",
+    "company": "Zscaler",
+    "sector": "Commercial",
+    "level": "Senior / Lead",
+    "location": "Remote - US",
+    "salary": "$122.5K-$175K base",
+    "salaryMin": 122500,
+    "salaryMax": 175000,
+    "roleType": "RMF / A&A",
+    "priority": "Medium",
+    "clearance": "Eligible/Sponsor",
+    "url": "https://job-boards.greenhouse.io/zscaler/jobs/5124741007",
+    "notes": "Domain fit is excellent - preferred quals name owning FedRAMP and DoD ATO packages, ConMon submissions and interactions with authorizing officials and 3PAO assessors, which is her Security Testing Center and RMF Assessment-step work restated for a CSP - two honest problems: the published band tops out at exactly $175,000 so she would have to be hired at the absolute ceiling just to hit her floor, and the posting states a preference for hybrid out of San Jose even though the role is defined as remote within the US - confirm at first contact - step down in scope from her division lead role",
+    "posted": "2026-06-03",
+    "postedDate": "2026-06-03",
+    "expiresOn": "",
+    "verified": "2026-08-14",
+    "verifiedNote": "Greenhouse live - body states verbatim This is a remote within the US, with a preference for a hybrid environment from the San Jose CA office role - tagged LI-Remote - clearance line Secret or Top Secret preferred - salary verbatim Base Pay Range 122,500-175,000 USD across all US locations",
+    "fit": {
+      "leadership": 3,
+      "domain": 5,
+      "remote": 5,
+      "comp": 2,
+      "industry": 4
+    },
+    "fitNotes": {
+      "leadership": "Staff TPM reporting to a Director of Technology, Risk and Compliance - program ownership without a reporting line",
+      "domain": "Preferred quals name FedRAMP and DoD ATO package ownership, ConMon submissions and 3PAO and authorizing official interaction - a direct read on her background",
+      "remote": "Posting states this is a remote within the US role and is tagged LI-Remote, with San Jose hybrid described as a preference not a requirement",
+      "comp": "Band 122,500-175,000 across all US locations - the maximum sits exactly at her floor, the weakest comp on either track",
+      "industry": "Cloud security vendor running its own FedRAMP and DoD authorizations"
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "San Jose, California",
+      "remotePolicy": "Remote within the US with a stated preference for hybrid from San Jose",
+      "news": "Not determined",
+      "levelHistory": "Not determined"
+    },
+    "id": 21
+  },
+  {
+    "key": "onebrief--senior-program-architect-governance-risk-and-compliance--remote-us",
+    "track": "PM / RMF",
+    "score": 80,
+    "title": "Senior Program Architect - Governance, Risk and Compliance",
+    "company": "Onebrief",
+    "sector": "Defense",
+    "level": "Senior / Lead",
+    "location": "Remote - US",
+    "salary": "$160K-$200K base plus equity",
+    "salaryMin": 160000,
+    "salaryMax": 200000,
+    "roleType": "RMF / A&A",
+    "priority": "Medium",
+    "clearance": "None",
+    "url": "https://jobs.ashbyhq.com/onebrief/e7725d7d-37d5-4a80-b0dd-dd0acff4d82a",
+    "notes": "Defense-tech company building military staff planning software - minimum quals name direct experience with RMF, FedRAMP, CMMC or equivalent federal compliance frameworks, which reads straight off her resume - the role is more hands-on technical than her current job, wanting implementation of controls such as IAM, logging and monitoring, network segmentation and encryption, so she would be closer to the controls than since her ISSE/ISSO days - her C&A and SRTM authorship history is the honest answer to that gap - step down in scope, and a startup rather than a division of a prime - no clearance requirement stated, which is unusual and favorable for this sector",
+    "posted": "2026-07-29",
+    "postedDate": "2026-07-29",
+    "expiresOn": "",
+    "verified": "2026-08-14",
+    "verifiedNote": "Ashby posting live - header reads United States | Remote with a Remote tag - benefits state Remote-first organization with flexible work hours - this posting carries no onsite or SCIF language and no clearance requirement - comp shown as 160K-200K Offers Equity",
+    "fit": {
+      "leadership": 3,
+      "domain": 4,
+      "remote": 5,
+      "comp": 3,
+      "industry": 5
+    },
+    "fitNotes": {
+      "leadership": "Senior architect title with program-level scope, no stated direct reports - a clear step down from division leadership",
+      "domain": "Minimum quals name RMF, FedRAMP and CMMC directly, but the emphasis on hands-on control implementation sits below her recent level of abstraction",
+      "remote": "Ashby header reads United States | Remote, the feed flags isRemote true, and the company describes itself as remote-first",
+      "comp": "Single band 160K-200K with no geographic tiering - max clears the floor but the band sits below her current level",
+      "industry": "Defense software serving military planning staffs - closest cultural adjacency to her DoD background without a facility requirement"
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "Not determined",
+      "remotePolicy": "Remote-first organization with flexible hours; some roles are in-person but this one is listed remote",
+      "news": "Founded 2019, valued at more than $2 billion, backed by General Catalyst, Battery Ventures, Insight Partners",
+      "levelHistory": "Not determined"
+    },
+    "id": 22
+  },
+  {
+    "key": "ptc--pmo-lead-program-director--remote-us",
+    "track": "PM / RMF",
+    "score": 80,
+    "title": "PMO Lead / Program Director",
+    "company": "PTC",
+    "sector": "Commercial",
+    "level": "Director",
+    "location": "Remote - US",
+    "salary": "$141K-$185K annual",
+    "salaryMin": 141000,
+    "salaryMax": 185000,
+    "roleType": "Program Management",
+    "priority": "Medium",
+    "clearance": "None",
+    "url": "https://builtin.com/job/pmo-lead-program-director/9986615",
+    "notes": "The most literal title match to what she does - PMO Lead and Program Director in one role - posting explicitly asks for familiarity with Agile, waterfall and hybrid delivery models at scale, which is her mixed-methodology background across 24 task orders - step down in scope: the band tops out at $185K and the title sits at Director rather than Senior Director, so this is lateral-to-slightly-down on both money and altitude - worth it only if the PMO charter turns out to be enterprise-wide - oldest posting in the set at 20 days, so confirm it is still actively screening",
+    "posted": "2026-07-25",
+    "postedDate": "2026-07-25",
+    "expiresOn": "",
+    "verified": "2026-08-14",
+    "verifiedNote": "Header reads Hiring Remotely in USA with work model Remote and band 141K-185K Annually - posting states no onsite requirement and names no excluded states - requirement quoted familiarity with Agile, waterfall and hybrid delivery models at scale",
+    "fit": {
+      "leadership": 4,
+      "domain": 5,
+      "remote": 5,
+      "comp": 3,
+      "industry": 3
+    },
+    "fitNotes": {
+      "leadership": "Director-level PMO ownership - one notch below her current Senior Director title, and the posting does not quantify direct reports",
+      "domain": "PMO leadership with Agile, waterfall and hybrid delivery at scale - the tightest functional match to her ISO process and multi-task-order delivery record",
+      "remote": "Header states Hiring Remotely in USA and the work model field reads Remote with no location caveats",
+      "comp": "Band 141,000-185,000 - the maximum clears 175K but only just, so she would need the very top of the band",
+      "industry": "Industrial software and IoT/PLM - a commercial engineering-software environment rather than a services contractor"
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "Not determined",
+      "remotePolicy": "Work model listed as Remote, hiring remotely in USA",
+      "news": "Not determined",
+      "levelHistory": "Not determined"
+    },
+    "id": 23
+  },
+  {
+    "key": "workstreet--senior-manager-grc-engineering-special-programs--remote-us",
+    "track": "PM / RMF",
+    "score": 79,
+    "title": "Senior Manager, GRC Engineering (Special Programs)",
+    "company": "Workstreet",
+    "sector": "Commercial",
+    "level": "Senior Manager",
+    "location": "Remote - US",
+    "salary": "Not disclosed - est. $175K-$215K base",
+    "salaryMin": 175000,
+    "salaryMax": 215000,
+    "roleType": "GRC / Risk",
+    "priority": "Medium",
+    "clearance": "None",
+    "url": "https://builtin.com/job/senior-manager-grc-engineering-special-programs/10463787",
+    "notes": "The best people-leadership fit in this track - the posting explicitly wants an experienced manager of managers with 5+ years leading mid-sized teams and holding first-line managers accountable, the closest anything here comes to her actual job - the tradeoff is domain: the framework list leads with SOC 2, ISO 27001, GDPR, HIPAA, PCI DSS and HITRUST and only then reaches CMMC, NIST 800-171, NIST 800-53 and FedRAMP, so this is broader commercial GRC rather than pure RMF - NO SALARY is published anywhere on the posting so the figures are an estimate - roughly a 100-person startup, a substantial step down in organizational scale",
+    "posted": "2026-07-30",
+    "postedDate": "2026-07-30",
+    "expiresOn": "2026-08-29",
+    "verified": "2026-08-14",
+    "verifiedNote": "JSON-LD jobLocationType TELECOMMUTE with applicantLocationRequirements USA - body states Remote-First Culture flexibility to work from anywhere - travel is occasional and local only - posting does not state a salary - validThrough 2026-08-29",
+    "fit": {
+      "leadership": 4,
+      "domain": 3,
+      "remote": 5,
+      "comp": 2,
+      "industry": 3
+    },
+    "fitNotes": {
+      "leadership": "Posting asks for an experienced manager of managers with 5+ years holding first-line managers accountable - the only true management-of-managers role that survived verification",
+      "domain": "SOC 2, ISO 27001, GDPR, HIPAA, PCI DSS and HITRUST lead the ask, with CMMC and NIST 800-53 named as part of the practice - adjacent rather than central to her RMF depth",
+      "remote": "Posting states Remote-First Culture flexibility to work from anywhere and structured location is TELECOMMUTE / USA",
+      "comp": "Posting does not state a salary - the figure shown is an estimate and must be confirmed before she invests time",
+      "industry": "Compliance-as-a-service startup of roughly 100 people, client-facing consultancy model"
+    },
+    "intel": {
+      "size": "Approx 102 employees",
+      "hq": "Not determined",
+      "remotePolicy": "Remote-first, work from anywhere, occasional local travel",
+      "news": "Described in the posting as a fast-growing startup",
+      "levelHistory": "Lists GRC Engineer I through Senior Manager concurrently, indicating a defined ladder"
+    },
+    "id": 24
+  },
+  {
+    "key": "microsoft--director-of-business-program-manager--remote-us",
+    "track": "PM / RMF",
+    "score": 79,
+    "title": "Director of Business Program Manager",
+    "company": "Microsoft",
+    "sector": "Commercial",
+    "level": "Director",
+    "location": "Remote - US",
+    "salary": "$130.9K-$277.2K base",
+    "salaryMin": 130900,
+    "salaryMax": 277200,
+    "roleType": "Program Management",
+    "priority": "Medium",
+    "clearance": "None",
+    "url": "https://builtin.com/job/director-business-program-manager/10690711",
+    "notes": "Posted the morning of verification so she would be among the first applicants - very wide band with a $277K ceiling on the standard US range - leads cross-functional data, analytics and AI programs inside MCAPS-Core - honest read: graded Business Program Management IC6, an individual-contributor level, so it is a step down in people leadership from 159 employees and 8 Program Managers even though the title says Director and the money can exceed what she makes - the security screening is a background check not a clearance - practical risk is being calibrated to the lower half of a very wide band",
+    "posted": "2026-08-14",
+    "postedDate": "2026-08-14",
+    "expiresOn": "",
+    "verified": "2026-08-14",
+    "verifiedNote": "Header Hiring Remotely in United States with work model Remote - pay verbatim Business Program Management IC6 typical base pay range across the US 130,900-277,200 with a separate higher range for SF Bay and NYC - Maryland falls under the across-the-US band",
+    "fit": {
+      "leadership": 3,
+      "domain": 4,
+      "remote": 5,
+      "comp": 4,
+      "industry": 3
+    },
+    "fitNotes": {
+      "leadership": "Posting grades the role IC6, an individual-contributor level despite the Director title, so no stated direct reports",
+      "domain": "Leads strategic cross-functional data, analytics and AI programs and the operational cadence for segment leadership - governance work applied to sales operations",
+      "remote": "Header states Hiring Remotely in United States, work model Remote, no state exclusions",
+      "comp": "Maryland falls under the across-the-US band of 130,900-277,200 - the maximum is well above 175K but the floor is below it",
+      "industry": "Big tech sales-operations organization - furthest from federal services of the higher-scoring PM roles"
+    },
+    "intel": {
+      "size": "Approx 206,870 employees",
+      "hq": "Not determined",
+      "remotePolicy": "Listed as Remote, hiring remotely in the United States",
+      "news": "Not determined",
+      "levelHistory": "Posting states the role is graded Business Program Management IC6"
+    },
+    "id": 25
+  },
+  {
+    "key": "mongodb--staff-product-manager-security-and-compliance-public-sector--remote-us",
+    "track": "PM / RMF",
+    "score": 78,
+    "title": "Staff Product Manager, Security and Compliance (Public Sector)",
+    "company": "MongoDB",
+    "sector": "Commercial",
+    "level": "Senior / Lead",
+    "location": "Remote - US",
+    "salary": "$151K-$297K base",
+    "salaryMin": 151000,
+    "salaryMax": 297000,
+    "roleType": "GRC / Risk",
+    "priority": "Medium",
+    "clearance": "None",
+    "url": "https://builtin.com/job/staff-product-manager-security-public-sector/10183408",
+    "notes": "Owns the public sector compliance roadmap, translating FedRAMP, IL5 and DoD program requirements into product priorities - the framework knowledge is squarely hers but the function is product management, not assessment or program delivery, so this is a genuine career pivot rather than a lateral - her PMP and her experience translating authorization requirements into work for delivery teams are the bridge - the published band is unusually wide so the offer hinges entirely on levelling, treat the top as aspirational - the citizenship condition is US citizen on US soil for data inside the authorization boundary, not a clearance",
+    "posted": "2026-08-09",
+    "postedDate": "2026-08-09",
+    "expiresOn": "2026-09-08",
+    "verified": "2026-08-14",
+    "verifiedNote": "Body states verbatim This role can be based out of our offices or remotely in the United States - structured data jobLocationType TELECOMMUTE - salary from structured data 151000-297000 USD - validThrough 2026-09-08",
+    "fit": {
+      "leadership": 3,
+      "domain": 4,
+      "remote": 5,
+      "comp": 5,
+      "industry": 4
+    },
+    "fitNotes": {
+      "leadership": "Staff PM owning a roadmap and cross-functional alignment - no direct reports, a significant reduction from her current organization",
+      "domain": "FedRAMP, IL5 and DoD requirements are the subject matter, but the job is defining product priorities rather than assessing or authorizing systems",
+      "remote": "Posting states the role can be based remotely in the United States and structured data marks it TELECOMMUTE",
+      "comp": "Band 151,000-297,000 with no separate geographic tier - highest ceiling on either track but the width means levelling decides it",
+      "industry": "Database platform with a FedRAMP-authorized public sector business"
+    },
+    "intel": {
+      "size": "Approx 5,550 employees",
+      "hq": "Not determined",
+      "remotePolicy": "Role can be based from an office or remotely in the United States",
+      "news": "Not determined",
+      "levelHistory": "Not determined"
+    },
+    "id": 26
+  },
+  {
+    "key": "applied-systems--portfolio-strategy-director--remote-us",
+    "track": "PM / RMF",
+    "score": 77,
+    "title": "Portfolio Strategy Director",
+    "company": "Applied Systems",
+    "sector": "Commercial",
+    "level": "Director",
+    "location": "Remote - US",
+    "salary": "$159K-$190K annual",
+    "salaryMin": 159000,
+    "salaryMax": 190000,
+    "roleType": "Program Management",
+    "priority": "Medium",
+    "clearance": "None",
+    "url": "https://builtin.com/job/portfolio-strategy-director/10249303",
+    "notes": "One of only three postings in the PM set that spell out full remote in the body rather than just a header badge - builds prioritization frameworks, connects roadmaps to financial goals and defines reporting and metrics for the executive team and Board - that board-level portfolio reporting is a direct analogue to her EAC, funding projection and award-fee reporting cadence - step down in scope: a strategy and operating-layer role for Product and Engineering, not a delivery organization with headcount and subcontractors - comp ceiling of $190K is modest against her current responsibility",
+    "posted": "2026-08-13",
+    "postedDate": "2026-08-13",
+    "expiresOn": "",
+    "verified": "2026-08-14",
+    "verifiedNote": "Body quoted Has the ability to work from an Applied Systems office or 100 percent remotely and Candidate will need to reside in North America working arrangement will be remote - tagged LI-Remote - header publishes 159K-190K Annually",
+    "fit": {
+      "leadership": 3,
+      "domain": 4,
+      "remote": 5,
+      "comp": 3,
+      "industry": 3
+    },
+    "fitNotes": {
+      "leadership": "Director title owning a portfolio operating layer; no team size stated so assume a small function",
+      "domain": "Prioritization frameworks, roadmap-to-financials linkage and Board reporting - the governance half of her job without the delivery execution half",
+      "remote": "Body states ability to work 100 percent remotely and candidate needs to reside in North America, plus an LI-Remote tag",
+      "comp": "Header publishes 159,000-190,000 - the maximum clears 175K but the floor does not and the ceiling is low for her level",
+      "industry": "Insurance technology software - unfamiliar vertical though portfolio governance is industry-neutral"
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "Not determined",
+      "remotePolicy": "Employees may work from an Applied Systems office or 100 percent remotely",
+      "news": "Not determined",
+      "levelHistory": "Not determined"
+    },
+    "id": 27
+  },
+  {
+    "key": "gitlab--principal-program-manager-go-to-market--remote-us",
+    "track": "PM / RMF",
+    "score": 77,
+    "title": "Principal Program Manager, Go-To-Market",
+    "company": "GitLab",
+    "sector": "Commercial",
+    "level": "Senior / Lead",
+    "location": "Remote - US",
+    "salary": "$203.2K-$345.6K base",
+    "salaryMin": 203200,
+    "salaryMax": 345600,
+    "roleType": "Program Management",
+    "priority": "Medium",
+    "clearance": "None",
+    "url": "https://builtin.com/job/principal-program-manager-go-market/10630593",
+    "notes": "Best pure comp story in the PM track after CrowdStrike - a $203K floor means even a low offer beats the $175K bar comfortably - GitLab is an all-remote company which removes any ambiguity about working from Maryland - two honest gaps: this is a Principal individual-contributor role so a clear step down from managing 8 Program Managers and a $350M portfolio, and the subject matter is go-to-market program management rather than contract or technical delivery - she would be selling her ability to run complex cross-functional programs, not her federal past performance",
+    "posted": "2026-08-11",
+    "postedDate": "2026-08-11",
+    "expiresOn": "",
+    "verified": "2026-08-14",
+    "verifiedNote": "Body states United States Salary Range 203,200-345,600 USD - workspace section states Remote Workspace Employees work remotely Typical time on-site None - travel language present but no percentage given",
+    "fit": {
+      "leadership": 3,
+      "domain": 3,
+      "remote": 5,
+      "comp": 5,
+      "industry": 3
+    },
+    "fitNotes": {
+      "leadership": "Principal-level individual contributor - influence-based rather than a management chain, a real reduction from her current span",
+      "domain": "Go-to-market program management - cross-functional orchestration transfers but revenue-motion programs are new territory",
+      "remote": "Workspace section states Employees work remotely with Typical time on-site None and publishes a United States salary range",
+      "comp": "United States range 203,200-345,600 - the floor alone is roughly 16 percent above the 175K requirement",
+      "industry": "DevSecOps software vendor - her CISSP and platform-security fluency help but this is a GTM function"
+    },
+    "intel": {
+      "size": "Approx 2,500 employees",
+      "hq": "Fully remote company",
+      "remotePolicy": "Employees work remotely, typical time on-site None",
+      "news": "Not determined",
+      "levelHistory": "Not determined"
+    },
+    "id": 28
+  },
+  {
+    "key": "coinbase--gfco-program-manager--remote-us",
+    "track": "PM / RMF",
+    "score": 76,
+    "title": "GFCO Program Manager",
+    "company": "Coinbase",
+    "sector": "Commercial",
+    "level": "Senior / Lead",
+    "location": "Remote - US",
+    "salary": "$194K-$228.2K base",
+    "salaryMin": 193970,
+    "salaryMax": 228200,
+    "roleType": "Program Management",
+    "priority": "Medium",
+    "clearance": "None",
+    "url": "https://builtin.com/job/gfco-program-manager/10229572",
+    "notes": "Program management inside the Global Financial Crimes Office - a regulated-compliance program environment, the closest thing in the commercial PM set to her risk-register, audit and SOX-participation experience - remote-first company with a published band whose floor is already $194K - step down in scope: a program manager role without a stated management chain versus her current 8 direct Program Managers and portfolio P&L - she would need to get comfortable with crypto and AML regulatory subject matter, a real learning curve",
+    "posted": "2026-08-11",
+    "postedDate": "2026-08-11",
+    "expiresOn": "",
+    "verified": "2026-08-14",
+    "verifiedNote": "Header Hiring Remotely in USA - body quoted Annual base salary range excluding equity and bonus 193,970-228,200 USD - workspace states Coinbase is remote-first with Typical time on-site None",
+    "fit": {
+      "leadership": 3,
+      "domain": 4,
+      "remote": 5,
+      "comp": 5,
+      "industry": 2
+    },
+    "fitNotes": {
+      "leadership": "Program Manager title with no stated direct reports - individual program ownership rather than an org",
+      "domain": "Financial-crimes compliance program management - overlaps her risk register, audit participation and control-governance work in a different regulatory regime",
+      "remote": "Header states Hiring Remotely in USA and workspace section states Coinbase is remote-first with Typical time on-site None",
+      "comp": "Published base range 193,970-228,200 with equity and bonus on top - floor is roughly 11 percent above the requirement",
+      "industry": "Crypto exchange and financial services - the biggest subject-matter jump in either track"
+    },
+    "intel": {
+      "size": "Approx 4,700 employees",
+      "hq": "Fully remote company",
+      "remotePolicy": "Remote-first with Typical time on-site None and periodic in-person offsites",
+      "news": "Not determined",
+      "levelHistory": "Not determined"
+    },
+    "id": 29
+  },
+  {
+    "key": "mongodb--senior-manager-policy-and-controls-governance--remote-us",
+    "track": "PM / RMF",
+    "score": 76,
+    "title": "Senior Manager, Policy and Controls Governance",
+    "company": "MongoDB",
+    "sector": "Commercial",
+    "level": "Senior Manager",
+    "location": "Remote - US",
+    "salary": "$114K-$224K base",
+    "salaryMin": 114000,
+    "salaryMax": 224000,
+    "roleType": "GRC / Risk",
+    "priority": "Medium",
+    "clearance": "None",
+    "url": "https://builtin.com/job/senior-manager-policy-and-controls-governance/10424532",
+    "notes": "Owns the policy lifecycle, common controls framework governance, issue management and audit readiness inside the Assurance, Risk and Compliance function, reporting to a Director - the controls-framework and documentation-governance work maps onto her SSP, SRTM and Privileged User Guide authorship and her ISO process history, but there is no FedRAMP or RMF anchor named in the responsibilities, so this is adjacent rather than core - Senior Manager with a director above it is a level match on paper though scope is a function inside a security office rather than a division - the band is very wide at the bottom so levelling matters",
+    "posted": "2026-07-28",
+    "postedDate": "2026-07-28",
+    "expiresOn": "2026-08-27",
+    "verified": "2026-08-14",
+    "verifiedNote": "Body states verbatim This role will be based remotely in the United States - structured data jobLocationType TELECOMMUTE - salary from structured data 114000-224000 USD - validThrough 2026-08-27",
+    "fit": {
+      "leadership": 4,
+      "domain": 3,
+      "remote": 5,
+      "comp": 4,
+      "industry": 4
+    },
+    "fitNotes": {
+      "leadership": "Senior Manager owning a governance program and cross-functional review cadences, reporting to a Director",
+      "domain": "Policy lifecycle, controls framework governance and audit readiness overlap her control documentation work, but no FedRAMP, RMF or 800-53 authorization scope is named",
+      "remote": "Posting states the role will be based remotely in the United States with structured location TELECOMMUTE",
+      "comp": "Band 114,000-224,000 for the US posting - maximum clears the floor comfortably but the wide spread puts the midpoint close to it",
+      "industry": "Commercial software security office - no federal mission attached to this particular role"
+    },
+    "intel": {
+      "size": "Approx 5,550 employees",
+      "hq": "Not determined",
+      "remotePolicy": "Role stated as based remotely in the United States",
+      "news": "Not determined",
+      "levelHistory": "Sits under Assurance, Risk and Compliance in the Global Security Office, reporting to the Director of ARC Initiatives"
+    },
+    "id": 30
+  },
+  {
+    "key": "workstreet--senior-grc-engineer-gov-fedramp-20x--remote-us",
+    "track": "PM / RMF",
+    "score": 75,
+    "title": "Senior GRC Engineer - GOV (FedRAMP 20x)",
+    "company": "Workstreet",
+    "sector": "Commercial",
+    "level": "Senior / Lead",
+    "location": "Remote - US",
+    "salary": "Not disclosed - est. $175K-$205K base",
+    "salaryMin": 175000,
+    "salaryMax": 205000,
+    "roleType": "RMF / A&A",
+    "priority": "Medium",
+    "clearance": "None",
+    "url": "https://builtin.com/job/senior-grc-engineer-gov-fedramp-20x/10667053",
+    "notes": "The purest RMF content in this track - the posting opens asking for a federal compliance leader with 5+ years implementing federal compliance, NIST SP 800-53, FedRAMP or Risk Management Framework standards, plus 3+ years leading multi-project client engagements and owning account retention, so it is a client-facing engagement lead wearing an engineer title, not a junior seat - two caveats: the title is Senior Engineer which is a meaningful step down from Senior Director and would read that way on a resume, and NO SALARY is published so the number is an estimate that must be confirmed",
+    "posted": "2026-08-13",
+    "postedDate": "2026-08-13",
+    "expiresOn": "2026-09-12",
+    "verified": "2026-08-14",
+    "verifiedNote": "Structured data jobLocationType TELECOMMUTE with applicantLocationRequirements USA - body states Remote-First Culture flexibility to work from anywhere - travel limited to occasional local onsite meetings - posting does not state a salary - validThrough 2026-09-12",
+    "fit": {
+      "leadership": 3,
+      "domain": 5,
+      "remote": 5,
+      "comp": 2,
+      "industry": 3
+    },
+    "fitNotes": {
+      "leadership": "Posting calls for a federal compliance leader and end-to-end engagement owner with 3+ years leading multi-project client engagements - engagement leadership rather than line management",
+      "domain": "5+ years implementing NIST SP 800-53, FedRAMP or RMF is the headline requirement with FedRAMP 20x as the forward focus - strongest pure-RMF match after Tines",
+      "remote": "Posting states Remote-First Culture flexibility to work from anywhere with structured location TELECOMMUTE / USA",
+      "comp": "Posting does not state a salary - the range shown is an estimate, the only language is a competitive base salary",
+      "industry": "Compliance-as-a-service startup of roughly 100 people, client-facing consulting delivery"
+    },
+    "intel": {
+      "size": "Approx 102 employees",
+      "hq": "Not determined",
+      "remotePolicy": "Remote-first, work from anywhere, occasional local travel",
+      "news": "Role framed around FedRAMP 20x, the current federal authorization modernization effort",
+      "levelHistory": "Company lists GRC Engineer I through Senior Manager concurrently"
+    },
+    "id": 31
+  },
+  {
+    "key": "mca-connect--microsoft-d365-senior-project-manager--remote-us",
+    "track": "PM / RMF",
+    "score": 75,
+    "title": "Microsoft D365 Senior Project Manager",
+    "company": "MCA Connect",
+    "sector": "Commercial",
+    "level": "Senior / Lead",
+    "location": "Remote - US",
+    "salary": "$130K-$205K base plus bonus",
+    "salaryMin": 130000,
+    "salaryMax": 205000,
+    "roleType": "Project Management",
+    "priority": "Medium",
+    "clearance": "None",
+    "url": "https://builtin.com/job/d365-senior-project-manager/9852038",
+    "notes": "Consulting delivery leadership at a Microsoft partner - client-facing implementation ownership, structurally similar to running task orders for a government customer - READ THE TRAVEL LINE before getting attached: the posting says Remote with US travel up to 50 percent, double the 10-25 percent she was targeting, and that is the single biggest reason to weigh this against the others - also a step down in scope: Senior Project Manager on ERP implementations is smaller than a $113M prime or a $350M portfolio, and the band floor of $130K means she must land in the top quarter to clear $175K",
+    "posted": "2026-08-12",
+    "postedDate": "2026-08-12",
+    "expiresOn": "",
+    "verified": "2026-08-14",
+    "verifiedNote": "Header Hiring Remotely in USA with work model Remote - body quoted Remote with US travel up to 50 percent and Ability to travel up to 50 percent of the time - pay quoted Base Salary 130,000-205,000 PLUS Supplemental Compensation Plan",
+    "fit": {
+      "leadership": 3,
+      "domain": 4,
+      "remote": 5,
+      "comp": 3,
+      "industry": 3
+    },
+    "fitNotes": {
+      "leadership": "Senior Project Manager leading client implementation teams - project-level rather than portfolio-level ownership",
+      "domain": "End-to-end ERP delivery with scope, schedule, risk and stakeholder management - the same delivery muscle at a smaller unit of account",
+      "remote": "Header states Hiring Remotely in USA and the body states remote with US travel up to 50 percent, no state restrictions",
+      "comp": "Base band 130,000-205,000 plus bonus - the maximum clears 175K but the floor is far below it",
+      "industry": "Microsoft ERP consulting - commercial systems integration adjacent to her services-delivery background"
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "Not determined",
+      "remotePolicy": "Remote with US travel up to 50 percent",
+      "news": "Not determined",
+      "levelHistory": "Not determined"
+    },
+    "id": 32
+  },
+  {
+    "key": "hagerty--manager-of-enterprise-program-management-office-epmo--remote-us",
+    "track": "PM / RMF",
+    "score": 74,
+    "title": "Manager of Enterprise Program Management Office (EPMO)",
+    "company": "Hagerty",
+    "sector": "Commercial",
+    "level": "Senior Manager",
+    "location": "Remote - US",
+    "salary": "Not disclosed - est. $150K-$185K",
+    "salaryMin": 150000,
+    "salaryMax": 185000,
+    "roleType": "Program Management",
+    "priority": "Stretch",
+    "clearance": "None",
+    "url": "https://builtin.com/job/manager-enterprise-program-management-office-epmo/10600466",
+    "notes": "A real EPMO ownership role and the remote language is explicit and clean - included because enterprise PMO charters are exactly her lane and these postings are rare - two warnings up front: the posting publishes NO SALARY so the figures are an estimate not a claim, and the title is Manager rather than Director or above, a clear step down from Senior Director running $350M - the hybrid clause only bites within 20 miles of Traverse City Michigan which does not affect Maryland - treat this as a call-the-recruiter-for-the-band role before investing application time",
+    "posted": "2026-08-10",
+    "postedDate": "2026-08-10",
+    "expiresOn": "",
+    "verified": "2026-08-14",
+    "verifiedNote": "Body quoted This position is open to US remote work however team members who reside within 20 miles of the Traverse City headquarters will follow a hybrid schedule - tagged LI-Remote - searched the page for pay-range language and found none",
+    "fit": {
+      "leadership": 4,
+      "domain": 5,
+      "remote": 5,
+      "comp": 2,
+      "industry": 2
+    },
+    "fitNotes": {
+      "leadership": "Manager of an Enterprise PMO - functional ownership but a Manager-grade title rather than Director or above",
+      "domain": "Enterprise program management office ownership - the single closest functional match in either track to the PMO she runs today",
+      "remote": "Body states the position is open to US remote work and the hybrid exception applies only within 20 miles of Traverse City",
+      "comp": "Posting does not state a salary - the range shown is an estimate and comp is unverified until the recruiter confirms",
+      "industry": "Specialty automotive insurance and membership - unfamiliar vertical with no federal or cyber adjacency"
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "Traverse City, MI",
+      "remotePolicy": "Open to US remote work with hybrid only for employees within 20 miles of headquarters",
+      "news": "Not determined",
+      "levelHistory": "Not determined"
+    },
+    "id": 33
+  },
+  {
+    "key": "samsara--manager-operations-program-management--remote-us",
+    "track": "PM / RMF",
+    "score": 72,
+    "title": "Manager, Operations Program Management",
+    "company": "Samsara",
+    "sector": "Commercial",
+    "level": "Senior Manager",
+    "location": "Remote - US",
+    "salary": "$125.5K-$211K annual base",
+    "salaryMin": 125545,
+    "salaryMax": 211000,
+    "roleType": "Program Management",
+    "priority": "Stretch",
+    "clearance": "None",
+    "url": "https://builtin.com/job/manager-ii-engineering-program-management/8350566",
+    "notes": "A people-management program role with a clean remote statement and 20 percent travel, inside her stated tolerance - the appeal is that it is one of the few postings here that manages program managers rather than just programs - step down in scope on every axis: Manager grade, no P&L described, and the subject matter is global manufacturing partners and supply chains rather than IT services delivery - the band is very wide with a $125K floor so a mid-band offer would be a pay cut - realistically a stretch that only makes sense if she wants out of federal contracting and into hardware operations",
+    "posted": "2026-08-08",
+    "postedDate": "2026-08-08",
+    "expiresOn": "",
+    "verified": "2026-08-14",
+    "verifiedNote": "Body quoted This is a remote position based in the US This position requires travel up to 20 percent of the time - pay quoted Annual Base Salary 125,545-211,000 USD - header Hiring Remotely in United States, no state exclusions",
+    "fit": {
+      "leadership": 4,
+      "domain": 3,
+      "remote": 5,
+      "comp": 3,
+      "industry": 2
+    },
+    "fitNotes": {
+      "leadership": "Manager-level role leading an operations program management function - people leadership is real but the grade sits well below Senior Director",
+      "domain": "Operations program management across manufacturing partners and supply chains - program discipline transfers, hardware supply chain does not",
+      "remote": "Body states plainly This is a remote position based in the US with travel up to 20 percent",
+      "comp": "Band 125,545-211,000 - the maximum clears 175K but the floor is far below it",
+      "industry": "IoT and connected-operations hardware - no federal or cyber adjacency"
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "Not determined",
+      "remotePolicy": "Remote position based in the US with up to 20 percent travel",
+      "news": "Not determined",
+      "levelHistory": "Not determined"
+    },
+    "id": 34
+  },
+  {
+    "key": "crowdstrike--information-systems-security-officer--remote-us",
+    "track": "PM / RMF",
+    "score": 70,
+    "title": "Information Systems Security Officer",
+    "company": "CrowdStrike",
+    "sector": "Commercial",
+    "level": "Senior / Lead",
+    "location": "Remote - US",
+    "salary": "$125K-$180K base",
+    "salaryMin": 125000,
+    "salaryMax": 180000,
+    "roleType": "RMF / A&A",
+    "priority": "Stretch",
+    "clearance": "None",
+    "url": "https://builtin.com/job/information-systems-security-officer-remote/9858842",
+    "notes": "Listed as a stretch for one specific reason - the posting requires deep proficiency in Python, JavaScript, C or C++ to architect AI automation pipelines for GRC work, a hands-on software skill she does not have on her record - everything else fits: establishing and sustaining ATO status across multiple federal systems, continuous monitoring, external audits, and CMMC, IRAP, TxRAMP and GovRAMP package preparation, all sitting on top of her ISSO and C&A history - this is also the clearest step down in scope on either track, from Senior Director of a division to an individual ISSO seat, and the band tops out at $180K, only just above her floor",
+    "posted": "2026-08-04",
+    "postedDate": "2026-08-04",
+    "expiresOn": "2026-09-03",
+    "verified": "2026-08-14",
+    "verifiedNote": "Title itself contains Remote, structured data jobLocationType TELECOMMUTE with applicantLocationRequirements USA, body tagged LI-Remote - no SCIF and no clearance, only periodic background and fingerprint checks - salary from structured data 125000-180000 USD - validThrough 2026-09-03",
+    "fit": {
+      "leadership": 2,
+      "domain": 4,
+      "remote": 5,
+      "comp": 3,
+      "industry": 4
+    },
+    "fitNotes": {
+      "leadership": "Individual contributor ISSO seat with no team named - the largest drop in scope of any role on either track",
+      "domain": "ATO establishment and sustainment, continuous monitoring and CMMC, IRAP, TxRAMP and GovRAMP package preparation all match her background, but the AI-automation and coding emphasis pulls the day-to-day away from assessment leadership",
+      "remote": "The word Remote is in the job title, structured location type is TELECOMMUTE for the USA, and the posting carries the LI-Remote tag",
+      "comp": "Band 125,000-180,000 - the maximum clears 175K by only 5K so there is effectively no headroom",
+      "industry": "Endpoint security vendor operating federal cloud environments"
+    },
+    "intel": {
+      "size": "Approx 11,000 employees",
+      "hq": "Not determined",
+      "remotePolicy": "Titled and tagged remote for the USA, periodic background and fingerprint checks",
+      "news": "Not determined",
+      "levelHistory": "Not determined"
+    },
+    "id": 35
+  },
+  {
+    "key": "clickhouse--senior-technical-program-manager-new-product-introduction--remote-us",
+    "track": "PM / RMF",
+    "score": 68,
+    "title": "Senior Technical Program Manager, New Product Introduction",
+    "company": "ClickHouse",
+    "sector": "Commercial",
+    "level": "Senior / Lead",
+    "location": "Remote - US",
+    "salary": "$160K-$220K base",
+    "salaryMin": 160000,
+    "salaryMax": 220000,
+    "roleType": "Technology Delivery",
+    "priority": "Stretch",
+    "clearance": "None",
+    "url": "https://builtin.com/job/senior-technical-program-manager-new-product-introduction/10138249",
+    "notes": "Included as the honest deep-SaaS stretch option - remote is unambiguous, comp is published and the ceiling is $220K - this is the role she would have to argue hardest into: New Product Introduction TPM work in a database and analytics company assumes fluency in engineering release cycles and product launch mechanics rather than contract delivery, CDRLs and award fee - step down in scope: individual-contributor senior TPM with no stated reports against her current 159-person organization - list it as a signal of what a full pivot into product-side program management would look like",
+    "posted": "2026-08-05",
+    "postedDate": "2026-08-05",
+    "expiresOn": "",
+    "verified": "2026-08-14",
+    "verifiedNote": "Header Hiring Remotely in United States with work model Remote - pay quoted typical starting salary in the US 160,000-220,000 USD with a separate premium-market range for SF Bay and NYC - Maryland falls under the standard band - perks state ClickHouse is globally distributed and remote-friendly",
+    "fit": {
+      "leadership": 2,
+      "domain": 3,
+      "remote": 5,
+      "comp": 4,
+      "industry": 2
+    },
+    "fitNotes": {
+      "leadership": "Senior individual-contributor TPM - the posting states no direct reports, the largest leadership gap in the PM set",
+      "domain": "New Product Introduction program management - cross-functional launch orchestration, a different craft from contract and task-order delivery",
+      "remote": "Header states Hiring Remotely in United States and perks state the company is globally distributed and remote-friendly",
+      "comp": "Maryland falls under the standard band of 160,000-220,000 - the maximum clears 175K but the floor does not",
+      "industry": "Open-source database and analytics - deep technical product environment with no federal adjacency"
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "Not determined",
+      "remotePolicy": "Globally distributed, remote-friendly, operating in over 20 countries",
+      "news": "Not determined",
+      "levelHistory": "Not determined"
+    },
+    "id": 36
   }
 ]
