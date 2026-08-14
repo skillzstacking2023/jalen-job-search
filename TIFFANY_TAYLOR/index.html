@@ -77,6 +77,9 @@ color:var(--text);border:1px solid var(--line);font-weight:600}
 .chip.sec-Defense{background:#7c2d1233;border-color:#f97316;color:#fdba74}
 .chip.secStateGov{background:#1e3a8a33;border-color:#60a5fa;color:#bfdbfe}
 .chip.lvl{background:#4c1d9533;border-color:#a855f7;color:#e9d5ff}
+.chip.trk{font-weight:800}
+.chip.trk.exec{background:#1e3a8a55;border-color:#818cf8;color:#c7d2fe}
+.chip.trk.pmrmf{background:#42200655;border-color:#eab308;color:#fde68a}
 .chip.remote{background:#0e747033;border-color:#2dd4bf;color:#99f6e4}
 .chip.clr-active{background:#7c2d1233;border-color:#f97316;color:#fdba74}
 .chip.clr-elig{background:#1e3a8a33;border-color:#60a5fa;color:#bfdbfe}
@@ -202,9 +205,10 @@ h1{font-size:22px}
 <div class="panel active" id="p-opps">
 <div class="controls">
 <input type="search" id="q" placeholder="Search title, company, notes, intel...">
+<select id="track"><option value="">Both tracks</option><option value="Executive">Executive (Sr Dir / VP, $225K+)</option><option value="PM / RMF">PM / RMF (Senior+, $175K+)</option></select>
 <select id="priority"><option value="">All priorities</option><option>High</option><option>Medium</option><option>Stretch</option></select>
 <select id="sector"><option value="">All sectors</option><option>Commercial</option><option>Healthcare</option><option>State Gov</option><option>Defense</option></select>
-<select id="level"><option value="">All levels</option><option>VP</option><option>Senior Director</option></select>
+<select id="level"><option value="">All levels</option><option>VP</option><option>Senior Director</option><option>Director</option><option>Senior Manager</option><option>Senior / Lead</option></select>
 <select id="role"><option value="">All functions</option></select>
 <select id="comp">
 <option value="">Any compensation</option>
@@ -452,6 +456,7 @@ var q=val("q").toLowerCase();
 var hay=(j.title+" "+j.company+" "+j.location+" "+j.notes+" "+j.roleType+" "+j.sector+" "+
 JSON.stringify(j.intel||{})+" "+JSON.stringify(j.fitNotes||{})).toLowerCase();
 if(q&&hay.indexOf(q)<0)return false;
+if(val("track")&&j.track!==val("track"))return false;
 if(val("priority")&&j.priority!==val("priority"))return false;
 if(val("sector")&&j.sector!==val("sector"))return false;
 if(val("level")&&j.level!==val("level"))return false;
@@ -497,6 +502,7 @@ card.appendChild(row);
 
 var b=el("div","badges");
 b.appendChild(el("span","pri "+j.priority,j.priority));
+b.appendChild(el("span","chip trk"+(j.track==="Executive"?" exec":" pmrmf"),j.track));
 b.appendChild(el("span","chip lvl",j.level));
 b.appendChild(el("span","chip "+secClass(j.sector),j.sector));
 b.appendChild(el("span","chip remote",j.location));
@@ -506,8 +512,9 @@ else if(j.clearance==="Eligible/Sponsor")b.appendChild(el("span","chip clr-elig"
 card.appendChild(b);
 
 card.appendChild(el("div","salary",j.salary));
-if((j.salaryMin||0)<225000)card.appendChild(el("div","floorwarn",
-"Band starts at $"+Math.round((j.salaryMin||0)/1000)+"K - below the $225K floor, so the top of this band is not guaranteed"));
+var jf=(j.track==="Executive")?225000:175000;
+if((j.salaryMin||0)<jf)card.appendChild(el("div","floorwarn",
+"Band starts at $"+Math.round((j.salaryMin||0)/1000)+"K - below the $"+Math.round(jf/1000)+"K floor for this track, so the top of this band is not guaranteed"));
 card.appendChild(el("div","notes",j.notes));
 card.appendChild(el("div","agel"+(isUrgent(j)?" urgent":""),ageLine(j)));
 
@@ -758,16 +765,23 @@ function stat(n,l){var d=el("div","stat");d.appendChild(el("div","n",n));d.appen
 var high=JOBS.filter(function(j){return j.priority==="High";}).length;
 var vp=JOBS.filter(function(j){return j.level==="VP";}).length;
 var noClr=JOBS.filter(function(j){return !j.clearance||j.clearance==="None";}).length;
-var floorSafe=JOBS.filter(function(j){return (j.salaryMin||0)>=225000;}).length;
+var execN=JOBS.filter(function(j){return j.track==="Executive";}).length;
+var pmN=JOBS.filter(function(j){return j.track!=="Executive";}).length;
+var floorSafe=JOBS.filter(function(j){return (j.salaryMin||0)>=(j.track==="Executive"?225000:175000);}).length;
 var tracked=JOBS.filter(function(j){return getRec(jobKey(j)).stage;}).length;
 var closing=JOBS.filter(isUrgent).length;
 s.appendChild(stat(JOBS.length,"Verified roles"));
+var et=stat(execN,"Executive track");
+et.style.borderColor="#818cf8";
+s.appendChild(et);
+var pt2=stat(pmN,"PM / RMF track");
+pt2.style.borderColor="#eab308";
+s.appendChild(pt2);
 s.appendChild(stat(high,"High fit"));
-s.appendChild(stat(vp,"VP level"));
 s.appendChild(stat(JOBS.length,"100% remote"));
 s.appendChild(stat(noClr,"No clearance"));
-var fs=stat(floorSafe,"Min $225K+");
-fs.title="Roles where even the BOTTOM of the published band clears her $225K floor";
+var fs=stat(floorSafe,"Min clears floor");
+fs.title="Roles where even the BOTTOM of the published band clears the floor for that track - $225K Executive, $175K PM / RMF";
 if(floorSafe<JOBS.length)fs.style.borderColor="#eab308";
 s.appendChild(fs);
 var ct=stat(closing,"Closing <= 7d");
@@ -794,7 +808,7 @@ if(btn.getAttribute("data-panel")==="p-analytics")renderCharts();
 }
 
 function resetFilters(){
-["q","priority","sector","level","role","comp","stage"].forEach(function(id){
+["q","track","priority","sector","level","role","comp","stage"].forEach(function(id){
 document.getElementById(id).value="";});
 document.getElementById("sort").value="score";
 renderGrid();
@@ -829,7 +843,7 @@ document.getElementById("updated").textContent=
 " - "+JOBS.length+" roles, every one re-checked for remote status, level and published salary"+
 (urgent?" - "+urgent+" closing within 7 days":"");
 renderAll();
-["q","priority","sector","level","role","comp","stage","sort"].forEach(function(id){
+["q","track","priority","sector","level","role","comp","stage","sort"].forEach(function(id){
 document.getElementById(id).addEventListener(id==="q"?"input":"change",renderGrid);});
 })
 .catch(function(e){
