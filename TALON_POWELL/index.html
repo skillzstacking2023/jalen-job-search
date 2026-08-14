@@ -107,14 +107,28 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:24px}
 <footer>Auto-refreshed daily. Built for Talon Powell. Scores reflect fit to his profile and criteria (customer service, retail, food service, or administrative roles within 25 miles of Tonawanda, NY, or 100% remote, nationwide). Pin a job to save it for later - pinned jobs stay saved in this browser even after the daily refresh.</footer>
 <script>
 var JOBS=[];
-var TAGS=JSON.parse(localStorage.getItem("talon_status")||"{}");
+
+var TAGKEY_OLD="talon_status";
+var TAGKEY="talon_status_v2";
+function slugify(s){return String(s==null?"":s).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+/,"").replace(/-+$/,"").slice(0,80);}
+function jobKey(j){return j.key?j.key:(slugify(j.company)+"--"+slugify(j.title)+"--"+slugify(j.city||j.location||""));}
+var TAGS=JSON.parse(localStorage.getItem(TAGKEY)||"{}");
 var PINS=JSON.parse(localStorage.getItem("talon_pinned")||"{}");
 var TALON_EMAIL="talonisaiah1122@gmail.com";
 function pinnedList(){return Object.keys(PINS).sort(function(a,b){return (PINS[b].pinnedAt||"").localeCompare(PINS[a].pinnedAt||"");}).map(function(u){return PINS[u];});}
 function formatPinnedText(){var list=pinnedList();if(list.length===0)return "";var lines=["Saved jobs from Talon\u0027s job search dashboard - "+new Date().toISOString().slice(0,10),""];list.forEach(function(j,i){lines.push((i+1)+". "+j.title+" - "+j.company);lines.push(j.city+" | "+j.salary+" | "+j.priority+" priority, score "+j.score);lines.push(j.notes);lines.push("Apply: "+j.url);lines.push("");});return lines.join("\n");}
 function emailPinned(){var text=formatPinnedText();if(!text){alert("No pinned jobs yet. Pin a few first.");return;}var subject="My pinned jobs - "+new Date().toISOString().slice(0,10);var body=text;if(body.length>1800)body=body.slice(0,1800)+"\n...(list truncated - use the Copy button for the full list)";window.location.href="mailto:"+TALON_EMAIL+"?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);}
 function copyPinned(){var text=formatPinnedText();if(!text){alert("No pinned jobs yet. Pin a few first.");return;}navigator.clipboard.writeText(text).then(function(){var btn=document.getElementById("copy-pinned-btn");var orig=btn.textContent;btn.textContent="Copied!";setTimeout(function(){btn.textContent=orig;},1500);}).catch(function(){alert("Could not copy - your browser may be blocking clipboard access.");});}
-function saveTags(){localStorage.setItem("talon_status",JSON.stringify(TAGS));}
+function saveTags(){localStorage.setItem(TAGKEY,JSON.stringify(TAGS));}
+function migrateTags(){
+if(localStorage.getItem(TAGKEY)!==null)return 0;
+var old=null;try{old=JSON.parse(localStorage.getItem(TAGKEY_OLD)||"null");}catch(e){}
+if(!old)return 0;
+var out={},n=0;
+JOBS.forEach(function(j){if(old[j.id]){out[jobKey(j)]=old[j.id];n++;}});
+TAGS=out;saveTags();return n;
+}
+
 function savePins(){localStorage.setItem("talon_pinned",JSON.stringify(PINS));}
 function setTag(id,val){if(TAGS[id]===val){delete TAGS[id];}else{TAGS[id]=val;}saveTags();render();}
 function isPinned(url){return !!PINS[url];}
@@ -143,7 +157,7 @@ document.getElementById("theme-btn").textContent=saved==="light"?"Dark Mode":"Li
 function buildCard(j,opts){
 opts=opts||{};
 var pinned=isPinned(j.url);
-var tag=opts.showTracking?(TAGS[j.id]||""):"";
+var tag=opts.showTracking?(TAGS[jobKey(j)]||""):"";
 var card=el("div","job"+(tag?" tag-"+tag:""));
 var row=el("div","row");
 var left=el("div");
@@ -169,7 +183,7 @@ if(opts.showTracking){
 ["viewed","interested","applied"].forEach(function(t){
 var b=el("button","tagbtn"+(tag===t?" active "+t:""),t.charAt(0).toUpperCase()+t.slice(1));
 b.type="button";
-b.onclick=(function(jobId,tVal){return function(){setTag(jobId,tVal);};})(j.id,t);
+b.onclick=(function(jobId,tVal){return function(){setTag(jobId,tVal);};})(jobKey(j),t);
 tags.appendChild(b);
 });
 }
@@ -198,7 +212,7 @@ if(sec&&j.sector!==sec)return;
 if(role&&j.roleType!==role)return;
 if(fresh&&daysOld(j.posted)>30)return;
 if(pinnedOnly&&!isPinned(j.url))return;
-var tag=TAGS[j.id]||"";
+var tag=TAGS[jobKey(j)]||"";
 if(tracking==="untracked"&&tag)return;
 if(tracking&&tracking!=="untracked"&&tag!==tracking)return;
 shown++;
@@ -246,6 +260,7 @@ document.getElementById("copy-pinned-btn").addEventListener("click",copyPinned);
 fetch("jobs.json?v="+Date.now(),{cache:"no-store"}).then(function(r){return r.json();}).then(function(data){
 JOBS=data.sort(function(a,b){return b.score-a.score;});
 buildStats();
+migrateTags();
 var dates=[];JOBS.forEach(function(j){if(dates.indexOf(j.posted)<0)dates.push(j.posted);});
 dates.sort().reverse();
 document.getElementById("updated").textContent="Last refreshed: "+(dates[0]||"-");
