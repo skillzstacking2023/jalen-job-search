@@ -33,6 +33,7 @@ label.toggle{display:flex;align-items:center;gap:6px;color:var(--muted);font-siz
 .job.tag-applied{border-left-color:#22c55e}
 .row{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
 .title{font-size:16px;font-weight:700;margin:0}
+.pin-mark{margin-right:5px}
 .company{color:var(--accent);font-size:14px;font-weight:600}
 .score{flex:none;width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:16px;color:#0b1220}
 .badges{display:flex;flex-wrap:wrap;gap:6px}
@@ -41,6 +42,7 @@ label.toggle{display:flex;align-items:center;gap:6px;color:var(--muted);font-siz
 .chip.fed{background:#7c2d1233;border-color:#f97316}
 .chip.com{background:#14532d33;border-color:#22c55e}
 .chip.remote{background:#0e747033;border-color:#2dd4bf}
+.chip.stale{background:#7c2d1233;border-color:#f97316;color:#fdba74}
 .pri{font-weight:700;font-size:11px;padding:3px 9px;border-radius:999px}
 .pri.High{background:#14532d;color:#86efac}
 .pri.Medium{background:#422006;color:#fde68a}
@@ -56,9 +58,15 @@ a.apply{background:var(--accent);color:#04283a;text-decoration:none;font-weight:
 .tagbtn.active.viewed{background:#94a3b833;border-color:#94a3b8;color:#cbd5e1}
 .tagbtn.active.interested{background:#a855f733;border-color:#a855f7;color:#e9d5ff}
 .tagbtn.active.applied{background:#22c55e33;border-color:#22c55e;color:#86efac}
+.pinbtn{font-size:11px;font-weight:600;padding:5px 10px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer}
+.pinbtn:hover{border-color:#f59e0b}
+.pinbtn.active{background:#f59e0b33;border-color:#f59e0b;color:#fde68a}
 .empty{color:var(--muted);text-align:center;padding:40px}
 footer{color:var(--muted);font-size:12px;text-align:center;padding:24px}
 .updated{color:var(--muted);font-size:12px;margin-top:6px}
+.pinned-section{margin:20px 0 4px}
+.pinned-section h2{font-size:13px;margin:0 0 10px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.pinned-empty{color:var(--muted);font-size:13px;padding:4px 0 12px}
 </style>
 </head>
 <body>
@@ -76,6 +84,10 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:24px}
 </div>
 </header>
 <div class="wrap">
+<div class="pinned-section" id="pinned-section">
+<h2>Pinned jobs</h2>
+<div class="grid" id="pinned-grid"></div>
+</div>
 <div class="controls">
 <input type="search" id="q" placeholder="Search title, company, city, notes...">
 <select id="priority"><option value="">All priorities</option><option>High</option><option>Medium</option><option>Stretch</option></select>
@@ -84,15 +96,24 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:24px}
 <select id="role"><option value="">All roles</option></select>
 <select id="tracking"><option value="">All tracking</option><option value="untracked">Not tracked</option><option value="viewed">Viewed</option><option value="interested">Interested</option><option value="applied">Applied</option></select>
 <label class="toggle"><input type="checkbox" id="fresh"> Hide 30d+ old</label>
+<label class="toggle"><input type="checkbox" id="pinnedonly"> Pinned only</label>
 </div>
 <div class="grid" id="grid"></div>
 </div>
-<footer>Auto-refreshed daily. Built for Talon Powell. Scores reflect fit to his profile and criteria (customer service, retail, food service, or administrative roles within 25 miles of Tonawanda, NY, or 100% remote, nationwide).</footer>
+<footer>Auto-refreshed daily. Built for Talon Powell. Scores reflect fit to his profile and criteria (customer service, retail, food service, or administrative roles within 25 miles of Tonawanda, NY, or 100% remote, nationwide). Pin a job to save it for later - pinned jobs stay saved in this browser even after the daily refresh.</footer>
 <script>
 var JOBS=[];
 var TAGS=JSON.parse(localStorage.getItem("talon_status")||"{}");
+var PINS=JSON.parse(localStorage.getItem("talon_pinned")||"{}");
 function saveTags(){localStorage.setItem("talon_status",JSON.stringify(TAGS));}
+function savePins(){localStorage.setItem("talon_pinned",JSON.stringify(PINS));}
 function setTag(id,val){if(TAGS[id]===val){delete TAGS[id];}else{TAGS[id]=val;}saveTags();render();}
+function isPinned(url){return !!PINS[url];}
+function togglePin(j){
+if(PINS[j.url]){delete PINS[j.url];}
+else{PINS[j.url]={title:j.title,company:j.company,market:j.market,city:j.city,salary:j.salary,roleType:j.roleType,sector:j.sector,priority:j.priority,url:j.url,notes:j.notes,score:j.score,posted:j.posted,pinnedAt:new Date().toISOString().slice(0,10)};}
+savePins();render();renderPinned();
+}
 function scoreColor(s){return s>=80?"#22c55e":s>=70?"#eab308":"#f97316";}
 function sectorClass(s){return s==="Government"?"gov":s==="Federal"?"fed":"com";}
 function daysOld(d){if(!d)return 999;var t=new Date(d+"T00:00:00");return Math.floor((Date.now()-t)/86400000);}
@@ -110,27 +131,17 @@ var saved=localStorage.getItem("talon_theme")||"dark";
 document.documentElement.setAttribute("data-theme",saved);
 document.getElementById("theme-btn").textContent=saved==="light"?"Dark Mode":"Light Mode";
 }
-function render(){
-var q=val("q").toLowerCase(),pri=val("priority"),mkt=val("market"),sec=val("sector"),role=val("role"),tracking=val("tracking");
-var fresh=document.getElementById("fresh").checked;
-var grid=document.getElementById("grid");grid.innerHTML="";var shown=0;
-JOBS.forEach(function(j){
-var hay=(j.title+" "+j.company+" "+j.city+" "+j.notes+" "+j.roleType).toLowerCase();
-if(q&&hay.indexOf(q)<0)return;
-if(pri&&j.priority!==pri)return;
-if(mkt&&j.market!==mkt)return;
-if(sec&&j.sector!==sec)return;
-if(role&&j.roleType!==role)return;
-if(fresh&&daysOld(j.posted)>30)return;
-var tag=TAGS[j.id]||"";
-if(tracking==="untracked"&&tag)return;
-if(tracking&&tracking!=="untracked"&&tag!==tracking)return;
-shown++;
-var age=daysOld(j.posted);
+function buildCard(j,opts){
+opts=opts||{};
+var pinned=isPinned(j.url);
+var tag=opts.showTracking?(TAGS[j.id]||""):"";
 var card=el("div","job"+(tag?" tag-"+tag:""));
 var row=el("div","row");
 var left=el("div");
-left.appendChild(el("p","title",j.title));
+var titleEl=el("p","title");
+if(pinned){var mark=el("span","pin-mark","\ud83d\udccc");titleEl.appendChild(mark);}
+titleEl.appendChild(document.createTextNode(j.title));
+left.appendChild(titleEl);
 left.appendChild(el("div","company",j.company));
 row.appendChild(left);
 var sc=el("div","score",j.score);sc.style.background=scoreColor(j.score);
@@ -140,39 +151,84 @@ badges.appendChild(el("span","pri "+j.priority,j.priority));
 badges.appendChild(el("span","chip "+(j.market==="Remote"?"remote":""),j.city));
 badges.appendChild(el("span","chip "+sectorClass(j.sector),j.sector));
 badges.appendChild(el("span","chip",j.roleType));
+if(opts.stale)badges.appendChild(el("span","chip stale","No longer in daily feed"));
 card.appendChild(badges);
 card.appendChild(el("div","salary",j.salary));
 card.appendChild(el("div","notes",j.notes));
 var tags=el("div","tags");
+if(opts.showTracking){
 ["viewed","interested","applied"].forEach(function(t){
 var b=el("button","tagbtn"+(tag===t?" active "+t:""),t.charAt(0).toUpperCase()+t.slice(1));
 b.type="button";
 b.onclick=(function(jobId,tVal){return function(){setTag(jobId,tVal);};})(j.id,t);
 tags.appendChild(b);
 });
+}
+var pinBtn=el("button","pinbtn"+(pinned?" active":""),pinned?"\u2605 Pinned":"\u2606 Pin");
+pinBtn.type="button";
+pinBtn.onclick=function(){togglePin(j);};
+tags.appendChild(pinBtn);
 card.appendChild(tags);
 var meta=el("div","meta");
-meta.appendChild(el("span","age",age<=1?"Fresh today":age+" days old"));
+meta.appendChild(el("span","age",opts.stale?"Saved "+(j.pinnedAt||""):(daysOld(j.posted)<=1?"Fresh today":daysOld(j.posted)+" days old")));
 var a=el("a","apply","View / Apply");a.href=j.url;a.target="_blank";a.rel="noopener";
 meta.appendChild(a);card.appendChild(meta);
-grid.appendChild(card);
+return card;
+}
+function render(){
+var q=val("q").toLowerCase(),pri=val("priority"),mkt=val("market"),sec=val("sector"),role=val("role"),tracking=val("tracking");
+var fresh=document.getElementById("fresh").checked;
+var pinnedOnly=document.getElementById("pinnedonly").checked;
+var grid=document.getElementById("grid");grid.innerHTML="";var shown=0;
+JOBS.forEach(function(j){
+var hay=(j.title+" "+j.company+" "+j.city+" "+j.notes+" "+j.roleType).toLowerCase();
+if(q&&hay.indexOf(q)<0)return;
+if(pri&&j.priority!==pri)return;
+if(mkt&&j.market!==mkt)return;
+if(sec&&j.sector!==sec)return;
+if(role&&j.roleType!==role)return;
+if(fresh&&daysOld(j.posted)>30)return;
+if(pinnedOnly&&!isPinned(j.url))return;
+var tag=TAGS[j.id]||"";
+if(tracking==="untracked"&&tag)return;
+if(tracking&&tracking!=="untracked"&&tag!==tracking)return;
+shown++;
+grid.appendChild(buildCard(j,{showTracking:true}));
 });
 if(shown===0)grid.innerHTML='<div class="empty">No matches. Try clearing filters.</div>';
 }
+function renderPinned(){
+var section=document.getElementById("pinned-section");
+var pgrid=document.getElementById("pinned-grid");
+pgrid.innerHTML="";
+var urls=Object.keys(PINS);
+if(urls.length===0){section.style.display="none";return;}
+section.style.display="block";
+urls.sort(function(a,b){return (PINS[b].pinnedAt||"").localeCompare(PINS[a].pinnedAt||"");});
+urls.forEach(function(u){
+var live=JOBS.filter(function(j){return j.url===u;})[0];
+var job=live||PINS[u];
+pgrid.appendChild(buildCard(job,{showTracking:!!live,stale:!live}));
+});
+}
 function buildStats(){
 var s=document.getElementById("stats");
+s.innerHTML="";
 var high=JOBS.filter(function(j){return j.priority==="High";}).length;
 var ny=JOBS.filter(function(j){return j.market==="NY";}).length;
 var rem=JOBS.filter(function(j){return j.market==="Remote";}).length;
 var retailFood=JOBS.filter(function(j){return j.roleType==="Retail"||j.roleType==="Food Service";}).length;
+var pinnedCount=Object.keys(PINS).length;
 function stat(n,l){var d=el("div","stat");d.appendChild(el("div","n",n));d.appendChild(el("div","l",l));return d;}
 s.appendChild(stat(JOBS.length,"Total"));
 s.appendChild(stat(high,"High fit"));
 s.appendChild(stat(ny,"Buffalo Area"));
 s.appendChild(stat(rem,"Remote"));
 s.appendChild(stat(retailFood,"Retail/Food"));
+s.appendChild(stat(pinnedCount,"Pinned"));
 var roles=[];JOBS.forEach(function(j){if(roles.indexOf(j.roleType)<0)roles.push(j.roleType);});
 roles.sort();var rsel=document.getElementById("role");
+rsel.innerHTML='<option value="">All roles</option>';
 roles.forEach(function(r){var o=document.createElement("option");o.value=r;o.textContent=r;rsel.appendChild(o);});
 }
 initTheme();
@@ -183,8 +239,9 @@ var dates=[];JOBS.forEach(function(j){if(dates.indexOf(j.posted)<0)dates.push(j.
 dates.sort().reverse();
 document.getElementById("updated").textContent="Last refreshed: "+(dates[0]||"-");
 render();
-["q","priority","market","sector","role","tracking","fresh"].forEach(function(id){
-document.getElementById(id).addEventListener(id==="q"?"input":"change",render);
+renderPinned();
+["q","priority","market","sector","role","tracking","fresh","pinnedonly"].forEach(function(id){
+document.getElementById(id).addEventListener(id==="q"?"input":"change",function(){render();});
 });
 }).catch(function(e){document.getElementById("grid").innerHTML='<div class="empty">Could not load jobs.json - '+e.message+'</div>';});
 </script>
