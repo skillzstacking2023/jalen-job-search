@@ -424,6 +424,8 @@ var board=document.getElementById("board");board.innerHTML="";
 var tracked=JOBS.filter(function(j){return getRec(j.id).stage;}).length;
 document.getElementById("pipecount").textContent=
 tracked+" of "+JOBS.length+" roles are in your pipeline. Use the stage buttons on any card, or the arrows below, to move a role along.";
+var tiles=document.querySelectorAll(".stat .n");
+if(tiles.length>6)tiles[6].textContent=tracked;
 STAGES.forEach(function(s){
 var col=el("div","col");
 var head=el("div","colhead");
