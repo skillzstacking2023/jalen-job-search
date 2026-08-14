@@ -86,6 +86,7 @@ color:var(--text);border:1px solid var(--line);font-weight:600}
 .pri.Stretch{background:#431407;color:#fdba74}
 .salary{color:var(--text);font-size:13.5px;font-weight:600}
 .notes{color:var(--muted);font-size:13px}
+.floorwarn{font-size:11.5px;color:#fdba74;font-weight:600}
 .agel{font-size:11.5px;color:var(--muted)}
 .agel.urgent{color:#fdba74;font-weight:700}
 .stagebar{display:flex;gap:4px;flex-wrap:wrap;padding-top:2px}
@@ -187,10 +188,10 @@ h1{font-size:22px}
 <select id="level"><option value="">All levels</option><option>VP</option><option>Senior Director</option></select>
 <select id="role"><option value="">All functions</option></select>
 <select id="comp">
-<option value="">Any comp</option>
-<option value="225000">Max band $225K+</option>
-<option value="275000">Max band $275K+</option>
-<option value="325000">Max band $325K+</option>
+<option value="">Any compensation</option>
+<option value="min225000">Guaranteed $225K+ (band minimum)</option>
+<option value="min250000">Guaranteed $250K+ (band minimum)</option>
+<option value="max300000">Could reach $300K+ (band maximum)</option>
 </select>
 <select id="stage">
 <option value="">All pipeline stages</option>
@@ -359,7 +360,12 @@ if(val("priority")&&j.priority!==val("priority"))return false;
 if(val("sector")&&j.sector!==val("sector"))return false;
 if(val("level")&&j.level!==val("level"))return false;
 if(val("role")&&j.roleType!==val("role"))return false;
-if(val("comp")&&(j.salaryMax||0)<parseInt(val("comp"),10))return false;
+var cv=val("comp");
+if(cv){
+var cn=parseInt(cv.replace(/^(min|max)/,""),10);
+if(cv.indexOf("min")===0){if((j.salaryMin||0)<cn)return false;}
+else{if((j.salaryMax||0)<cn)return false;}
+}
 var st=val("stage");var cur=getRec(jobKey(j)).stage;
 if(st==="untracked"&&cur)return false;
 if(st&&st!=="untracked"&&cur!==st)return false;
@@ -404,6 +410,8 @@ else if(j.clearance==="Eligible/Sponsor")b.appendChild(el("span","chip clr-elig"
 card.appendChild(b);
 
 card.appendChild(el("div","salary",j.salary));
+if((j.salaryMin||0)<225000)card.appendChild(el("div","floorwarn",
+"Band starts at $"+Math.round((j.salaryMin||0)/1000)+"K - below the $225K floor, so the top of this band is not guaranteed"));
 card.appendChild(el("div","notes",j.notes));
 card.appendChild(el("div","agel"+(isUrgent(j)?" urgent":""),ageLine(j)));
 
@@ -508,7 +516,16 @@ plugins:{legend:{display:false}},
 scales:{y:{beginAtZero:true,ticks:{precision:0},grid:{color:lineC}},x:{grid:{display:false}}}}});
 
 var byComp=JOBS.slice().sort(function(a,b){return (b.salaryMax||0)-(a.salaryMax||0);}).slice(0,12);
-mk("c-comp",{type:"bar",
+var floorLine={id:"floorLine",afterDatasetsDraw:function(c){
+if(!c.scales||!c.scales.x)return;
+var x=c.scales.x.getPixelForValue(225);
+var g=c.ctx;g.save();
+g.strokeStyle="#f97316";g.lineWidth=2;g.setLineDash([5,4]);
+g.beginPath();g.moveTo(x,c.chartArea.top);g.lineTo(x,c.chartArea.bottom);g.stroke();
+g.setLineDash([]);g.fillStyle="#f97316";g.font="bold 10px -apple-system,sans-serif";
+g.textAlign="left";g.fillText("$225K floor",x+4,c.chartArea.top+11);
+g.restore();}};
+mk("c-comp",{type:"bar",plugins:[floorLine],
 data:{labels:byComp.map(function(j){return j.company;}),
 datasets:[
 {label:"Band minimum",data:byComp.map(function(j){return (j.salaryMin||0)/1000;}),
@@ -567,7 +584,7 @@ function stat(n,l){var d=el("div","stat");d.appendChild(el("div","n",n));d.appen
 var high=JOBS.filter(function(j){return j.priority==="High";}).length;
 var vp=JOBS.filter(function(j){return j.level==="VP";}).length;
 var noClr=JOBS.filter(function(j){return !j.clearance||j.clearance==="None";}).length;
-var over275=JOBS.filter(function(j){return (j.salaryMax||0)>=275000;}).length;
+var floorSafe=JOBS.filter(function(j){return (j.salaryMin||0)>=225000;}).length;
 var tracked=JOBS.filter(function(j){return getRec(jobKey(j)).stage;}).length;
 var closing=JOBS.filter(isUrgent).length;
 s.appendChild(stat(JOBS.length,"Verified roles"));
@@ -575,7 +592,10 @@ s.appendChild(stat(high,"High fit"));
 s.appendChild(stat(vp,"VP level"));
 s.appendChild(stat(JOBS.length,"100% remote"));
 s.appendChild(stat(noClr,"No clearance"));
-s.appendChild(stat(over275,"$275K+ band"));
+var fs=stat(floorSafe,"Min $225K+");
+fs.title="Roles where even the BOTTOM of the published band clears her $225K floor";
+if(floorSafe<JOBS.length)fs.style.borderColor="#eab308";
+s.appendChild(fs);
 var ct=stat(closing,"Closing <= 7d");
 if(closing>0)ct.style.borderColor="#f97316";
 s.appendChild(ct);
