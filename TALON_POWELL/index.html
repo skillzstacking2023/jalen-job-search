@@ -112,7 +112,7 @@ function isPinned(url){return !!PINS[url];}
 function togglePin(j){
 if(PINS[j.url]){delete PINS[j.url];}
 else{PINS[j.url]={title:j.title,company:j.company,market:j.market,city:j.city,salary:j.salary,roleType:j.roleType,sector:j.sector,priority:j.priority,url:j.url,notes:j.notes,score:j.score,posted:j.posted,pinnedAt:new Date().toISOString().slice(0,10)};}
-savePins();render();renderPinned();
+savePins();render();renderPinned();buildStats();
 }
 function scoreColor(s){return s>=80?"#22c55e":s>=70?"#eab308":"#f97316";}
 function sectorClass(s){return s==="Government"?"gov":s==="Federal"?"fed":"com";}
