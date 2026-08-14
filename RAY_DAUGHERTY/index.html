@@ -60,6 +60,13 @@ a.apply{background:var(--accent);color:#04283a;text-decoration:none;font-weight:
 .tagbtn.active.viewed{background:#94a3b833;border-color:#94a3b8;color:#cbd5e1}
 .tagbtn.active.interested{background:#a855f733;border-color:#a855f7;color:#e9d5ff}
 .tagbtn.active.applied{background:#22c55e33;border-color:#22c55e;color:#86efac}
+.tagbtn.pin.on{background:#eab30833;border-color:#eab308;color:#fde68a}
+.pinbar{display:none;align-items:center;gap:8px;flex-wrap:wrap;background:var(--card);border:1px solid var(--accent);border-radius:10px;padding:10px 14px;margin:0 0 14px}
+.pincount{font-size:13px;font-weight:700}
+.pinact{font-size:12px;font-weight:700;padding:6px 12px;border-radius:8px;border:1px solid var(--line);background:transparent;color:var(--text);cursor:pointer;font-family:inherit}
+.pinact:hover{border-color:var(--accent)}
+.pinact.clear{color:var(--muted)}
+.pinmsg{font-size:12px;color:var(--accent);font-weight:600}
 .empty{color:var(--muted);text-align:center;padding:40px}
 footer{color:var(--muted);font-size:12px;text-align:center;padding:24px}
 .updated{color:var(--muted);font-size:12px;margin-top:6px}
@@ -90,13 +97,68 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:24px}
 <select id="tracking"><option value="">All tracking</option><option value="untracked">Not tracked</option><option value="viewed">Viewed</option><option value="interested">Interested</option><option value="applied">Applied</option></select>
 <label class="toggle"><input type="checkbox" id="fresh"> Hide 30d+ old</label>
 </div>
+<div class="pinbar" id="pinbar"></div>
 <div class="grid" id="grid"></div>
 </div>
 <footer>Auto-refreshed daily. Built for Raymond Daugherty. Scores reflect fit to his profile and criteria (entry-level, MD or 100% remote, commercial or government). Clearance/certification badges shown up front on every card.</footer>
 <script>
 var JOBS=[];
-var TAGS=JSON.parse(localStorage.getItem("ray_status")||"{}");
-function saveTags(){localStorage.setItem("ray_status",JSON.stringify(TAGS));}
+
+var TAGKEY_OLD="ray_status";
+var TAGKEY="ray_status_v2";
+function slugify(s){return String(s==null?"":s).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+/,"").replace(/-+$/,"").slice(0,80);}
+function jobKey(j){return j.key?j.key:(slugify(j.company)+"--"+slugify(j.title)+"--"+slugify(j.city||j.location||""));}
+var TAGS=JSON.parse(localStorage.getItem(TAGKEY)||"{}");
+function saveTags(){localStorage.setItem(TAGKEY,JSON.stringify(TAGS));}
+var PINS=JSON.parse(localStorage.getItem("ray_pins")||"{}");
+function savePins(){localStorage.setItem("ray_pins",JSON.stringify(PINS));}
+function togglePin(k){if(PINS[k]){delete PINS[k];}else{PINS[k]=1;}savePins();render();renderPinBar();}
+function pinnedJobs(){return JOBS.filter(function(j){return PINS[jobKey(j)];});}
+function pinBody(full){
+var L=pinnedJobs(),o=["My saved jobs from the dashboard ("+L.length+")",""];
+L.forEach(function(j,i){
+o.push((i+1)+". "+j.title);
+if(full){o.push("   "+j.company+" - "+j.city+" - "+j.salary);o.push("   Fit score "+j.score+" ("+j.priority+")");}
+else{o.push("   "+j.company);}
+o.push("   "+j.url);o.push("");});
+o.push("Dashboard: https://skillzstacking2023.github.io/jalen-job-search/RAY_DAUGHERTY/");
+return o.join("\n");}
+function flashMsg(s){var m=document.getElementById("pinmsg");if(!m)return;m.textContent=s;setTimeout(function(){if(m)m.textContent="";},3500);}
+function emailPins(){
+var L=pinnedJobs();
+if(!L.length){alert("Save some jobs first - click Save on any card.");return;}
+var subj="My saved jobs - "+L.length+" role"+(L.length===1?"":"s");
+var mk=function(b){return "mailto:ray_oriolesfan@yahoo.com?subject="+encodeURIComponent(subj)+"&body="+encodeURIComponent(b);};
+var u=mk(pinBody(true));
+if(u.length>1900)u=mk(pinBody(false));
+if(u.length>1900){copyPins();flashMsg("Too many saved to email at once - copied to clipboard instead");return;}
+window.location.href=u;flashMsg("Opening your email app...");}
+function fallbackCopy(txt){var ta=document.createElement("textarea");ta.value=txt;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();try{document.execCommand("copy");flashMsg("Copied to clipboard");}catch(e){flashMsg("Could not copy - select the text manually");}document.body.removeChild(ta);}
+function copyPins(){
+var L=pinnedJobs();
+if(!L.length){alert("Save some jobs first - click Save on any card.");return;}
+var txt=pinBody(true);
+if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(function(){flashMsg("Copied "+L.length+" job"+(L.length===1?"":"s")+" to clipboard");},function(){fallbackCopy(txt);});}else{fallbackCopy(txt);}}
+function renderPinBar(){
+var b=document.getElementById("pinbar");if(!b)return;
+var n=pinnedJobs().length;b.innerHTML="";
+if(!n){b.style.display="none";return;}
+b.style.display="flex";
+b.appendChild(el("span","pincount",n+" job"+(n===1?"":"s")+" saved"));
+var e=el("button","pinact","Email to me");e.type="button";e.onclick=emailPins;b.appendChild(e);
+var c=el("button","pinact","Copy list");c.type="button";c.onclick=copyPins;b.appendChild(c);
+var x=el("button","pinact clear","Clear saved");x.type="button";x.onclick=function(){if(confirm("Clear all saved jobs?")){PINS={};savePins();render();renderPinBar();}};b.appendChild(x);
+var m=el("span","pinmsg","");m.id="pinmsg";b.appendChild(m);}
+
+function migrateTags(){
+if(localStorage.getItem(TAGKEY)!==null)return 0;
+var old=null;try{old=JSON.parse(localStorage.getItem(TAGKEY_OLD)||"null");}catch(e){}
+if(!old)return 0;
+var out={},n=0;
+JOBS.forEach(function(j){if(old[j.id]){out[jobKey(j)]=old[j.id];n++;}});
+TAGS=out;saveTags();return n;
+}
+
 function setTag(id,val){if(TAGS[id]===val){delete TAGS[id];}else{TAGS[id]=val;}saveTags();render();}
 function scoreColor(s){return s>=80?"#22c55e":s>=70?"#eab308":"#f97316";}
 function sectorClass(s){return s==="Government"?"gov":s==="Federal"?"fed":"com";}
@@ -143,7 +205,7 @@ if(sec&&j.sector!==sec)return;
 if(role&&j.roleType!==role)return;
 if(fresh&&daysOld(j.posted)>30)return;
 if(clr&&clearanceKey(clearanceLevel(j))!==clr)return;
-var tag=TAGS[j.id]||"";
+var tag=TAGS[jobKey(j)]||"";
 if(tracking==="untracked"&&tag)return;
 if(tracking&&tracking!=="untracked"&&tag!==tracking)return;
 shown++;
@@ -172,9 +234,14 @@ var tags=el("div","tags");
 ["viewed","interested","applied"].forEach(function(t){
 var b=el("button","tagbtn"+(tag===t?" active "+t:""),t.charAt(0).toUpperCase()+t.slice(1));
 b.type="button";
-b.onclick=(function(jobId,tVal){return function(){setTag(jobId,tVal);};})(j.id,t);
+b.onclick=(function(jobId,tVal){return function(){setTag(jobId,tVal);};})(jobKey(j),t);
 tags.appendChild(b);
 });
+var pk=jobKey(j);
+var pin=el("button","tagbtn pin"+(PINS[pk]?" on":""),PINS[pk]?"Saved":"Save");
+pin.type="button";
+pin.onclick=(function(k){return function(){togglePin(k);};})(pk);
+tags.appendChild(pin);
 card.appendChild(tags);
 var meta=el("div","meta");
 meta.appendChild(el("span","age",age<=1?"Fresh today":age+" days old"));
@@ -218,6 +285,8 @@ initTheme();
 fetch("jobs.json?v="+Date.now(),{cache:"no-store"}).then(function(r){return r.json();}).then(function(data){
 JOBS=data.sort(function(a,b){return b.score-a.score;});
 buildStats();
+migrateTags();
+renderPinBar();
 var dates=[];JOBS.forEach(function(j){if(dates.indexOf(j.posted)<0)dates.push(j.posted);});
 dates.sort().reverse();
 document.getElementById("updated").textContent="Last refreshed: "+(dates[0]||"-");
