@@ -86,6 +86,8 @@ color:var(--text);border:1px solid var(--line);font-weight:600}
 .pri.Stretch{background:#431407;color:#fdba74}
 .salary{color:var(--text);font-size:13.5px;font-weight:600}
 .notes{color:var(--muted);font-size:13px}
+.agel{font-size:11.5px;color:var(--muted)}
+.agel.urgent{color:#fdba74;font-weight:700}
 .stagebar{display:flex;gap:4px;flex-wrap:wrap;padding-top:2px}
 .stagebtn{font-size:11px;font-weight:700;padding:5px 10px;border-radius:8px;border:1px solid var(--line);
 background:transparent;color:var(--muted);cursor:pointer;font-family:inherit}
@@ -251,17 +253,17 @@ h1{font-size:22px}
 </div>
 </div>
 
-<footer>Auto-refreshed daily. Built for Tiffany T. Taylor. Scores reflect fit to her profile: 100% remote, Senior Director or VP, $225K+ base, Commercial / Healthcare / State Government IT, and Defense excluding NSA. Pipeline stages and notes are saved in this browser only.</footer>
+<footer>Auto-refreshed daily. Built for Tiffany T. Taylor. Scores reflect fit to her profile: 100% remote, Senior Director or VP, $225K+ base, Commercial / Healthcare / State Government IT, and Defense excluding NSA. Every role here was opened and re-checked against the live posting for remote status, seniority and published salary - roles that failed were removed rather than downgraded. Where a salary is an estimate rather than a published band, the card says so. Pipeline stages and notes are saved in this browser only.</footer>
 
 <script>
 var JOBS=[];
 var STAGES=["interested","applied","screening","interview","offer"];
 var STAGE_LABEL={interested:"Interested",applied:"Applied",screening:"Screening",interview:"Interview",offer:"Offer"};
-var STATE=JSON.parse(localStorage.getItem("tt_state")||"{}");
+var STATE=JSON.parse(localStorage.getItem("tt_state_v2")||"{}");
 var OPEN={};
 var CHARTS={};
 
-function saveState(){localStorage.setItem("tt_state",JSON.stringify(STATE));}
+function saveState(){localStorage.setItem("tt_state_v2",JSON.stringify(STATE));}
 function getRec(id){if(!STATE[id])STATE[id]={stage:"",notes:""};return STATE[id];}
 function setStage(id,s){var r=getRec(id);r.stage=(r.stage===s)?"":s;saveState();renderAll();}
 function moveStage(id,dir){
@@ -274,6 +276,18 @@ function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null
 function val(id){return document.getElementById(id).value;}
 function scoreColor(s){return s>=85?"#22c55e":s>=75?"#eab308":"#f97316";}
 function secClass(s){return s==="State Gov"?"secStateGov":"sec-"+s;}
+function daysOld(d){if(!d)return null;var t=new Date(d+"T00:00:00");return Math.floor((Date.now()-t)/86400000);}
+function daysLeft(d){if(!d)return null;var t=new Date(d+"T00:00:00");return Math.ceil((t-Date.now())/86400000);}
+function ageLine(j){
+var p=[];
+var a=daysOld(j.posted);
+p.push(a===null?"Posting date not published":(a<=1?"Posted today":"Posted "+a+" days ago"));
+var l=daysLeft(j.expiresOn);
+if(l!==null)p.push(l<0?"CLOSED":(l===0?"Closes today":l===1?"Closes tomorrow":"Closes in "+l+" days"));
+if(j.verified)p.push("Verified against posting "+j.verified);
+return p.join("  -  ");
+}
+function isUrgent(j){var l=daysLeft(j.expiresOn);return l!==null&&l<=7;}
 function money(n){return "$"+Math.round(n/1000)+"K";}
 
 function ring(score){
@@ -328,8 +342,8 @@ box.appendChild(el("div","dh","Your notes"));
 var ta=document.createElement("textarea");
 ta.className="notebox";
 ta.placeholder="Recruiter name, referral path, tailored resume version, follow-up date...";
-ta.value=getRec(j.id).notes||"";
-ta.addEventListener("input",function(){setNotes(j.id,ta.value);});
+ta.value=getRec(j.key).notes||"";
+ta.addEventListener("input",function(){setNotes(j.key,ta.value);});
 box.appendChild(ta);
 return box;
 }
@@ -344,7 +358,7 @@ if(val("sector")&&j.sector!==val("sector"))return false;
 if(val("level")&&j.level!==val("level"))return false;
 if(val("role")&&j.roleType!==val("role"))return false;
 if(val("comp")&&(j.salaryMax||0)<parseInt(val("comp"),10))return false;
-var st=val("stage");var cur=getRec(j.id).stage;
+var st=val("stage");var cur=getRec(j.key).stage;
 if(st==="untracked"&&cur)return false;
 if(st&&st!=="untracked"&&cur!==st)return false;
 return true;
@@ -366,7 +380,7 @@ document.getElementById("count").textContent=
 list.length+" of "+JOBS.length+" roles shown";
 if(!list.length){grid.innerHTML='<div class="empty">No matches. Try clearing filters.</div>';return;}
 list.forEach(function(j){
-var rec=getRec(j.id);
+var rec=getRec(j.key);
 var card=el("div","job"+(rec.stage?" st-"+rec.stage:""));
 
 var row=el("div","row");
@@ -389,27 +403,28 @@ card.appendChild(b);
 
 card.appendChild(el("div","salary",j.salary));
 card.appendChild(el("div","notes",j.notes));
+card.appendChild(el("div","agel"+(isUrgent(j)?" urgent":""),ageLine(j)));
 
 var sb=el("div","stagebar");
 STAGES.forEach(function(s){
 var btn=el("button","stagebtn"+(rec.stage===s?" on "+s:""),STAGE_LABEL[s]);
 btn.type="button";
-btn.onclick=function(){setStage(j.id,s);};
+btn.onclick=function(){setStage(j.key,s);};
 sb.appendChild(btn);
 });
 card.appendChild(sb);
 
 var act=el("div","actions");
-var exp=el("button","expand",OPEN[j.id]?"Hide detail":"Fit breakdown + intel");
+var exp=el("button","expand",OPEN[j.key]?"Hide detail":"Fit breakdown + intel");
 exp.type="button";
-exp.onclick=function(){OPEN[j.id]=!OPEN[j.id];renderGrid();};
+exp.onclick=function(){OPEN[j.key]=!OPEN[j.key];renderGrid();};
 act.appendChild(exp);
 var lr=el("div","linkrow");
 var a=el("a","apply","View / Apply");a.href=j.url;a.target="_blank";a.rel="noopener";
 lr.appendChild(a);act.appendChild(lr);
 card.appendChild(act);
 
-var det=el("div","detail"+(OPEN[j.id]?" open":""));
+var det=el("div","detail"+(OPEN[j.key]?" open":""));
 det.appendChild(fitBlock(j));
 det.appendChild(intelBlock(j));
 det.appendChild(noteBlock(j));
@@ -421,16 +436,16 @@ grid.appendChild(card);
 
 function renderBoard(){
 var board=document.getElementById("board");board.innerHTML="";
-var tracked=JOBS.filter(function(j){return getRec(j.id).stage;}).length;
+var tracked=JOBS.filter(function(j){return getRec(j.key).stage;}).length;
 document.getElementById("pipecount").textContent=
 tracked+" of "+JOBS.length+" roles are in your pipeline. Use the stage buttons on any card, or the arrows below, to move a role along.";
-var tiles=document.querySelectorAll(".stat .n");
-if(tiles.length>6)tiles[6].textContent=tracked;
+var pn=document.querySelector("#stat-pipeline .n");
+if(pn)pn.textContent=tracked;
 STAGES.forEach(function(s){
 var col=el("div","col");
 var head=el("div","colhead");
 head.appendChild(el("div","colname",STAGE_LABEL[s]));
-var inCol=JOBS.filter(function(j){return getRec(j.id).stage===s;});
+var inCol=JOBS.filter(function(j){return getRec(j.key).stage===s;});
 head.appendChild(el("div","colcount",String(inCol.length)));
 col.appendChild(head);
 if(!inCol.length)col.appendChild(el("div","colempty","Nothing here yet"));
@@ -439,13 +454,13 @@ var c=el("div","pcard");
 c.appendChild(el("div","pt",j.title));
 c.appendChild(el("div","pc",j.company));
 c.appendChild(el("div","pm",j.score+" fit - "+j.salary));
-var n=getRec(j.id).notes;
+var n=getRec(j.key).notes;
 if(n)c.appendChild(el("div","pn",n));
 var mb=el("div","movebar");
 var back=el("button","movebtn","< Back");back.type="button";
-back.onclick=function(){moveStage(j.id,-1);};
+back.onclick=function(){moveStage(j.key,-1);};
 var fwd=el("button","movebtn","Next >");fwd.type="button";
-fwd.onclick=function(){moveStage(j.id,1);};
+fwd.onclick=function(){moveStage(j.key,1);};
 mb.appendChild(back);mb.appendChild(fwd);
 c.appendChild(mb);
 col.appendChild(c);
@@ -521,7 +536,7 @@ scales:{r:{min:0,max:5,ticks:{stepSize:1,backdropColor:"transparent"},
 grid:{color:lineC},angleLines:{color:lineC},pointLabels:{font:{size:11}}}}}});
 
 var funnel=STAGES.map(function(s){
-return JOBS.filter(function(j){return getRec(j.id).stage===s;}).length;});
+return JOBS.filter(function(j){return getRec(j.key).stage===s;}).length;});
 mk("c-funnel",{type:"bar",
 data:{labels:STAGES.map(function(s){return STAGE_LABEL[s];}),
 datasets:[{data:funnel,
@@ -551,14 +566,20 @@ var high=JOBS.filter(function(j){return j.priority==="High";}).length;
 var vp=JOBS.filter(function(j){return j.level==="VP";}).length;
 var noClr=JOBS.filter(function(j){return !j.clearance||j.clearance==="None";}).length;
 var over275=JOBS.filter(function(j){return (j.salaryMax||0)>=275000;}).length;
-var tracked=JOBS.filter(function(j){return getRec(j.id).stage;}).length;
-s.appendChild(stat(JOBS.length,"Total roles"));
+var tracked=JOBS.filter(function(j){return getRec(j.key).stage;}).length;
+var closing=JOBS.filter(isUrgent).length;
+s.appendChild(stat(JOBS.length,"Verified roles"));
 s.appendChild(stat(high,"High fit"));
 s.appendChild(stat(vp,"VP level"));
 s.appendChild(stat(JOBS.length,"100% remote"));
 s.appendChild(stat(noClr,"No clearance"));
 s.appendChild(stat(over275,"$275K+ band"));
-s.appendChild(stat(tracked,"In pipeline"));
+var ct=stat(closing,"Closing <= 7d");
+if(closing>0)ct.style.borderColor="#f97316";
+s.appendChild(ct);
+var pt=stat(tracked,"In pipeline");
+pt.id="stat-pipeline";
+s.appendChild(pt);
 var roles=[];
 JOBS.forEach(function(j){if(roles.indexOf(j.roleType)<0)roles.push(j.roleType);});
 roles.sort();
@@ -603,11 +624,14 @@ fetch("jobs.json?v="+Date.now(),{cache:"no-store"})
 .then(function(data){
 JOBS=data.sort(function(a,b){return b.score-a.score;});
 buildStats();
-var dates=[];
-JOBS.forEach(function(j){if(j.posted&&dates.indexOf(j.posted)<0)dates.push(j.posted);});
-dates.sort().reverse();
-document.getElementById("updated").textContent="Last refreshed: "+(dates[0]||"-")+
-" - "+JOBS.length+" verified openings, all 100% remote";
+var vdates=[];
+JOBS.forEach(function(j){if(j.verified&&vdates.indexOf(j.verified)<0)vdates.push(j.verified);});
+vdates.sort().reverse();
+var urgent=JOBS.filter(isUrgent).length;
+document.getElementById("updated").textContent=
+"Last verified against live postings: "+(vdates[0]||"not recorded")+
+" - "+JOBS.length+" roles, every one re-checked for remote status, level and published salary"+
+(urgent?" - "+urgent+" closing within 7 days":"");
 renderAll();
 ["q","priority","sector","level","role","comp","stage","sort"].forEach(function(id){
 document.getElementById(id).addEventListener(id==="q"?"input":"change",renderGrid);});
