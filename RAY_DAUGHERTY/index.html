@@ -655,11 +655,15 @@ function noneSaved(){alert("No jobs saved yet.\n\nOn the Opportunities tab, clic
 function emailPipeline(){
 var L=trackedJobs();if(!L.length){noneSaved();return;}
 var subj="My saved jobs - "+L.length+" job"+(L.length===1?"":"s");
-var mk2=function(b){return "mailto:ray_oriolesfan@yahoo.com?subject="+encodeURIComponent(subj)+"&body="+encodeURIComponent(b);};
-var u=mk2(pipeText(true));
-if(u.length>1900)u=mk2(pipeText(false));
-if(u.length>1900){copyPipeline();actMsg("Too many to fit in an email link - copied to your clipboard instead");return;}
-window.location.href=u;actMsg("Opening your email app with "+L.length+" job"+(L.length===1?"":"s")+"...");}
+var body=pipeText(true);
+try{navigator.clipboard.writeText(subj+"\n\n"+body);}catch(e){}
+var mk=function(b){return "https://mail.google.com/mail/?view=cm&fs=1&to=ray_oriolesfan@yahoo.com&cc=arbatiste@gmail.com&su="+encodeURIComponent(subj)+"&body="+encodeURIComponent(b);};
+var u=mk(body);
+if(u.length>7000)u=mk(pipeText(false));
+if(u.length>7000){copyPipeline();actMsg("Too many to fit in a compose link - copied to your clipboard instead");return;}
+var w=window.open(u,"_blank","noopener");
+if(!w){actMsg("Popup blocked - the list is copied to your clipboard instead");return;}
+actMsg("Opened Gmail with "+L.length+" job"+(L.length===1?"":"s")+" - also copied to your clipboard");}
 function fallbackCopy(txt){var ta=document.createElement("textarea");ta.value=txt;ta.style.position="fixed";ta.style.opacity="0";
 document.body.appendChild(ta);ta.select();
 try{document.execCommand("copy");actMsg("Copied to clipboard");}catch(e){actMsg("Could not copy automatically");}
