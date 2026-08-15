@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raymond Daugherty - IT / IS Job Search Dashboard</title>
+<style>
+:root{--bg:#0f172a;--card:#1e293b;--text:#e2e8f0;--muted:#94a3b8;--accent:#38bdf8;--line:#334155;--chip:#334155}
+[data-theme="light"]{--bg:#eef2f9;--card:#ffffff;--text:#0f172a;--muted:#475569;--accent:#0369a1;--line:#cbd5e1;--chip:#e2e8f0}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.5;transition:background .15s,color .15s}
+header{padding:28px 20px 18px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#132036,#0f172a)}
+[data-theme="light"] header{background:linear-gradient(180deg,#f8fafc,#eef2f9)}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+.header-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+h1{margin:0 0 4px;font-size:26px}
+.sub{color:var(--muted);font-size:14px}
+.theme-btn{flex:none;background:var(--card);border:1px solid var(--line);color:var(--text);padding:9px 14px;border-radius:10px;font-size:13px;font-weight:600;cursor:pointer}
+.theme-btn:hover{border-color:var(--accent)}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px;min-width:96px}
+.stat .n{font-size:22px;font-weight:700}
+.stat .l{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:18px 0}
+input[type=search]{flex:1;min-width:200px;background:var(--card);border:1px solid var(--line);color:var(--text);padding:10px 12px;border-radius:10px;font-size:14px}
+select{background:var(--card);border:1px solid var(--line);color:var(--text);padding:9px 10px;border-radius:10px;font-size:14px}
+label.toggle{display:flex;align-items:center;gap:6px;color:var(--muted);font-size:13px;background:var(--card);border:1px solid var(--line);padding:8px 10px;border-radius:10px;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px;margin:8px 0 40px}
+.job{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px;border-left:3px solid var(--line)}
+.job:hover{border-color:var(--accent)}
+.job.tag-viewed{border-left-color:#94a3b8}
+.job.tag-interested{border-left-color:#a855f7}
+.job.tag-applied{border-left-color:#22c55e}
+.row{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.title{font-size:16px;font-weight:700;margin:0}
+.company{color:var(--accent);font-size:14px;font-weight:600}
+.score{flex:none;width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:16px;color:#0b1220}
+.badges{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:11px;padding:3px 9px;border-radius:999px;background:var(--chip);color:var(--text);border:1px solid var(--line)}
+.chip.gov{background:#1e3a8a33;border-color:#3b82f6}
+.chip.fed{background:#7c2d1233;border-color:#f97316}
+.chip.com{background:#14532d33;border-color:#22c55e}
+.chip.remote{background:#0e747033;border-color:#2dd4bf}
+.chip.clear-none{background:#14532d33;border-color:#22c55e;color:#86efac;font-weight:700}
+.chip.clear-elig{background:#1e3a8a33;border-color:#60a5fa;color:#bfdbfe;font-weight:700}
+.chip.clear-active{background:#7c2d1233;border-color:#f97316;color:#fdba74;font-weight:700}
+.chip.cert{background:#422006;border-color:#eab308;color:#fde68a;font-weight:700}
+.pri{font-weight:700;font-size:11px;padding:3px 9px;border-radius:999px}
+.pri.High{background:#14532d;color:#86efac}
+.pri.Medium{background:#422006;color:#fde68a}
+.pri.Stretch{background:#431407;color:#fdba74}
+.salary{color:var(--muted);font-size:13px}
+.notes{color:var(--text);font-size:13px;opacity:.9}
+.meta{display:flex;justify-content:space-between;align-items:center;margin-top:4px}
+.age{font-size:11px;color:var(--muted)}
+a.apply{background:var(--accent);color:#04283a;text-decoration:none;font-weight:700;font-size:13px;padding:8px 12px;border-radius:9px;text-align:center}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tagbtn{font-size:11px;font-weight:600;padding:5px 10px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer}
+.tagbtn:hover{border-color:var(--accent)}
+.tagbtn.active.viewed{background:#94a3b833;border-color:#94a3b8;color:#cbd5e1}
+.tagbtn.active.interested{background:#a855f733;border-color:#a855f7;color:#e9d5ff}
+.tagbtn.active.applied{background:#22c55e33;border-color:#22c55e;color:#86efac}
+.tagbtn.pin.on{background:#eab30833;border-color:#eab308;color:#fde68a}
+.pinbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:var(--card);border:1px solid var(--accent);border-radius:10px;padding:10px 14px;margin:0 0 14px}
+.pincount{font-size:13px;font-weight:700}
+.pinact{font-size:12px;font-weight:700;padding:6px 12px;border-radius:8px;border:1px solid var(--line);background:transparent;color:var(--text);cursor:pointer;font-family:inherit}
+.pinact:hover{border-color:var(--accent)}
+.pinact.clear{color:var(--muted)}
+.pinmsg{font-size:12px;color:var(--accent);font-weight:600}
+.empty{color:var(--muted);text-align:center;padding:40px}
+footer{color:var(--muted);font-size:12px;text-align:center;padding:24px}
+.updated{color:var(--muted);font-size:12px;margin-top:6px}
+.whatsnew{display:none;background:var(--card);border:1px solid var(--accent);border-left:3px solid var(--accent);border-radius:12px;padding:14px 16px;margin:16px 0 0}
+.wnhead{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:6px;font-size:14px;font-weight:700}
+.wnclose{background:var(--accent);color:#04283a;border:none;font-weight:700;font-size:12px;padding:6px 12px;border-radius:8px;cursor:pointer;font-family:inherit}
+.wnitem{padding:8px 0;border-top:1px solid var(--line)}
+.wntitle{font-size:13.5px;font-weight:700}
+.wnbody{font-size:12.5px;color:var(--muted);margin-top:2px;line-height:1.5}
+.wndate{font-size:11px;color:var(--muted);margin-top:3px;opacity:.7}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<div class="header-top">
+<div>
+<h1>Raymond Daugherty - IT / Information Systems Job Search</h1>
+<div class="sub">B.S. Information Systems Management, UMBC - Eldersburg, MD - Entry-level IT / IS / analyst roles in Maryland or 100% remote (commercial and government)</div>
+</div>
+<button class="theme-btn" id="wnbtn" onclick="renderWhatsNew(true)">What&#39;s new</button>
+<button class="theme-btn" id="theme-btn" onclick="toggleTheme()">Light Mode</button>
+</div>
+<div class="stats" id="stats"></div>
+<div class="whatsnew" id="whatsnew"></div>
+<div class="updated" id="updated"></div>
+</div>
+</header>
+<div class="wrap">
+<div class="controls">
+<input type="search" id="q" placeholder="Search title, company, city, notes...">
+<select id="priority"><option value="">All priorities</option><option>High</option><option>Medium</option><option>Stretch</option></select>
+<select id="market"><option value="">All locations</option><option value="MD">Maryland</option><option value="Remote">Remote</option></select>
+<select id="sector"><option value="">All sectors</option><option>Commercial</option><option>Government</option><option>Federal</option></select>
+<select id="clearance"><option value="">All clearance levels</option><option value="none">No clearance needed</option><option value="eligible">Clearance-eligible OK</option><option value="active">Active clearance required</option></select>
+<select id="role"><option value="">All roles</option></select>
+<select id="tracking"><option value="">All tracking</option><option value="untracked">Not tracked</option><option value="viewed">Viewed</option><option value="interested">Interested</option><option value="applied">Applied</option></select>
+<label class="toggle"><input type="checkbox" id="fresh"> Hide 30d+ old</label>
+</div>
+<div class="pinbar" id="pinbar"></div>
+<div class="grid" id="grid"></div>
+</div>
+<footer>Auto-refreshed daily. Built for Raymond Daugherty. Scores reflect fit to his profile and criteria (entry-level, MD or 100% remote, commercial or government). Clearance/certification badges shown up front on every card.</footer>
+<script>
+var JOBS=[];
+
+var TAGKEY_OLD="ray_status";
+var TAGKEY="ray_status_v2";
+function slugify(s){return String(s==null?"":s).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+/,"").replace(/-+$/,"").slice(0,80);}
+function jobKey(j){return j.key?j.key:(slugify(j.company)+"--"+slugify(j.title)+"--"+slugify(j.city||j.location||""));}
+var TAGS=JSON.parse(localStorage.getItem(TAGKEY)||"{}");
+function saveTags(){localStorage.setItem(TAGKEY,JSON.stringify(TAGS));}
+var PINS=JSON.parse(localStorage.getItem("ray_pins")||"{}");
+function savePins(){localStorage.setItem("ray_pins",JSON.stringify(PINS));}
+function togglePin(k){if(PINS[k]){delete PINS[k];}else{PINS[k]=1;}savePins();render();renderPinBar();}
+function pinnedJobs(){return JOBS.filter(function(j){return PINS[jobKey(j)];});}
+function pinBody(full){
+var L=pinnedJobs(),o=["My saved jobs from the dashboard ("+L.length+")",""];
+L.forEach(function(j,i){
+o.push((i+1)+". "+j.title);
+if(full){o.push("   "+j.company+" - "+j.city+" - "+j.salary);o.push("   Fit score "+j.score+" ("+j.priority+")");}
+else{o.push("   "+j.company);}
+o.push("   "+j.url);o.push("");});
+o.push("Dashboard: https://skillzstacking2023.github.io/jalen-job-search/RAY_DAUGHERTY/");
+return o.join("\n");}
+function flashMsg(s){var m=document.getElementById("pinmsg");if(!m)return;m.textContent=s;setTimeout(function(){if(m)m.textContent="";},3500);}
+function emailPins(){
+var L=pinnedJobs();
+if(!L.length){alert("Save some jobs first - click Save on any card.");return;}
+var subj="My saved jobs - "+L.length+" role"+(L.length===1?"":"s");
+var mk=function(b){return "mailto:ray_oriolesfan@yahoo.com?subject="+encodeURIComponent(subj)+"&body="+encodeURIComponent(b);};
+var u=mk(pinBody(true));
+if(u.length>1900)u=mk(pinBody(false));
+if(u.length>1900){copyPins();flashMsg("Too many saved to email at once - copied to clipboard instead");return;}
+window.location.href=u;flashMsg("Opening your email app...");}
+function fallbackCopy(txt){var ta=document.createElement("textarea");ta.value=txt;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();try{document.execCommand("copy");flashMsg("Copied to clipboard");}catch(e){flashMsg("Could not copy - select the text manually");}document.body.removeChild(ta);}
+function copyPins(){
+var L=pinnedJobs();
+if(!L.length){alert("Save some jobs first - click Save on any card.");return;}
+var txt=pinBody(true);
+if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(function(){flashMsg("Copied "+L.length+" job"+(L.length===1?"":"s")+" to clipboard");},function(){fallbackCopy(txt);});}else{fallbackCopy(txt);}}
+function renderPinBar(){
+var b=document.getElementById("pinbar");if(!b)return;
+var n=pinnedJobs().length;b.innerHTML="";
+b.style.display="flex";
+b.appendChild(el("span","pincount",n?(n+" job"+(n===1?"":"s")+" saved"):"No jobs saved yet - click Save on any job to keep it here"));
+var e=el("button","pinact","Email to me");e.type="button";e.onclick=emailPins;b.appendChild(e);
+var c=el("button","pinact","Copy list");c.type="button";c.onclick=copyPins;b.appendChild(c);
+if(n){var x=el("button","pinact clear","Clear saved");x.type="button";x.onclick=function(){if(confirm("Clear all saved jobs?")){PINS={};savePins();render();renderPinBar();}};b.appendChild(x);}
+var m=el("span","pinmsg","");m.id="pinmsg";b.appendChild(m);}
+
+function migrateTags(){
+if(localStorage.getItem(TAGKEY)!==null)return 0;
+var old=null;try{old=JSON.parse(localStorage.getItem(TAGKEY_OLD)||"null");}catch(e){}
+if(!old)return 0;
+var out={},n=0;
+JOBS.forEach(function(j){if(old[j.id]){out[jobKey(j)]=old[j.id];n++;}});
+TAGS=out;saveTags();return n;
+}
+
+function setTag(id,val){if(TAGS[id]===val){delete TAGS[id];}else{TAGS[id]=val;}saveTags();render();}
+function scoreColor(s){return s>=80?"#22c55e":s>=70?"#eab308":"#f97316";}
+function sectorClass(s){return s==="Government"?"gov":s==="Federal"?"fed":"com";}
+function daysOld(d){if(!d)return 999;var t=new Date(d+"T00:00:00");return Math.floor((Date.now()-t)/86400000);}
+function el(tag,cls,txt){var e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e;}
+function val(id){return document.getElementById(id).value;}
+
+// Clearance/cert detection: prefers explicit job.clearance / job.certRequired fields
+// (populated by the daily refresh going forward). Falls back to keyword scanning of
+// notes/title so existing historical entries still get a badge with no data migration.
+function clearanceLevel(j){
+if(j.clearance)return j.clearance;
+var t=((j.notes||"")+" "+(j.title||"")).toLowerCase();
+if(/active[- ]?(secret|top secret|ts\/sci|clearance)|must (currently )?hold.{0,20}clearance|currently cleared|already cleared/.test(t))return "Active Required";
+if(/clearance[- ]eligible|eligib(le|ility).{0,20}clearance|ability to obtain.{0,15}clearance|able to obtain.{0,15}clearance|public trust|will sponsor.{0,15}clearance|clearance sponsor/.test(t))return "Eligible/Sponsor";
+if(/clearance/.test(t))return "Eligible/Sponsor";
+return "None";
+}
+function clearanceKey(level){return level==="Active Required"?"active":level==="Eligible/Sponsor"?"eligible":"none";}
+function clearanceBadge(level){
+if(level==="Active Required")return{cls:"clear-active",label:"🔒 Active Clearance Required"};
+if(level==="Eligible/Sponsor")return{cls:"clear-elig",label:"🔓 Clearance-Eligible OK"};
+return{cls:"clear-none",label:"No Clearance Needed"};
+}
+function certNote(j){
+if(typeof j.certRequired==="boolean")return j.certRequired?(j.certNote||"Certification required"):null;
+var t=((j.notes||"")+" "+(j.title||"")).toLowerCase();
+var m=t.match(/(security\+|casp\+|cissp|cisa|cism|comptia a\+|network\+|ccna|itil|pmp)[a-z0-9 ,+/-]{0,20}(required|preferred|needed)/);
+if(m)return m[0];
+if(/certification (is )?required|must (have|hold) a certification/.test(t))return "Certification required";
+return null;
+}
+
+function render(){
+var q=val("q").toLowerCase(),pri=val("priority"),mkt=val("market"),sec=val("sector"),role=val("role"),tracking=val("tracking"),clr=val("clearance");
+var fresh=document.getElementById("fresh").checked;
+var grid=document.getElementById("grid");grid.innerHTML="";var shown=0;
+JOBS.forEach(function(j){
+var hay=(j.title+" "+j.company+" "+j.city+" "+j.notes+" "+j.roleType).toLowerCase();
+if(q&&hay.indexOf(q)<0)return;
+if(pri&&j.priority!==pri)return;
+if(mkt&&j.market!==mkt)return;
+if(sec&&j.sector!==sec)return;
+if(role&&j.roleType!==role)return;
+if(fresh&&daysOld(j.posted)>30)return;
+if(clr&&clearanceKey(clearanceLevel(j))!==clr)return;
+var tag=TAGS[jobKey(j)]||"";
+if(tracking==="untracked"&&tag)return;
+if(tracking&&tracking!=="untracked"&&tag!==tracking)return;
+shown++;
+var age=daysOld(j.posted);
+var card=el("div","job"+(tag?" tag-"+tag:""));
+var row=el("div","row");
+var left=el("div");
+left.appendChild(el("p","title",j.title));
+left.appendChild(el("div","company",j.company));
+row.appendChild(left);
+var sc=el("div","score",j.score);sc.style.background=scoreColor(j.score);
+row.appendChild(sc);card.appendChild(row);
+var badges=el("div","badges");
+badges.appendChild(el("span","pri "+j.priority,j.priority));
+var cb=clearanceBadge(clearanceLevel(j));
+badges.appendChild(el("span","chip "+cb.cls,cb.label));
+var cn=certNote(j);
+if(cn)badges.appendChild(el("span","chip cert","📜 "+cn));
+badges.appendChild(el("span","chip "+(j.market==="Remote"?"remote":""),j.city));
+badges.appendChild(el("span","chip "+sectorClass(j.sector),j.sector));
+badges.appendChild(el("span","chip",j.roleType));
+card.appendChild(badges);
+card.appendChild(el("div","salary",j.salary));
+card.appendChild(el("div","notes",j.notes));
+var tags=el("div","tags");
+["viewed","interested","applied"].forEach(function(t){
+var b=el("button","tagbtn"+(tag===t?" active "+t:""),t.charAt(0).toUpperCase()+t.slice(1));
+b.type="button";
+b.onclick=(function(jobId,tVal){return function(){setTag(jobId,tVal);};})(jobKey(j),t);
+tags.appendChild(b);
+});
+var pk=jobKey(j);
+var pin=el("button","tagbtn pin"+(PINS[pk]?" on":""),PINS[pk]?"Saved - click to remove":"Save to my list");
+pin.type="button";
+pin.onclick=(function(k){return function(){togglePin(k);};})(pk);
+tags.appendChild(pin);
+card.appendChild(tags);
+var meta=el("div","meta");
+meta.appendChild(el("span","age",age<=1?"Fresh today":age+" days old"));
+var a=el("a","apply","View / Apply");a.href=j.url;a.target="_blank";a.rel="noopener";
+meta.appendChild(a);card.appendChild(meta);
+grid.appendChild(card);
+});
+if(shown===0)grid.innerHTML='<div class="empty">No matches. Try clearing filters.</div>';
+}
+
+var WN_KEY="ray_wn_seen";
+var WHATSNEW=[{"id":"2026-08-14-c-save","date":"August 14, 2026","title":"Save jobs and email them to yourself","body":"Every job now has a Save to my list button. Saved jobs collect in the bar above the listings, and Email to me opens your email with the whole list already written out."},{"id":"2026-08-14-b-tags","date":"August 14, 2026","title":"Your tags now stay on the right job","body":"Viewed, Interested and Applied used to jump to a different job when the list refreshed each morning. Fixed - a tag now stays with the job you put it on."}];
+function wnUnseen(){var s=localStorage.getItem(WN_KEY)||"";return WHATSNEW.filter(function(w){return w.id>s;});}
+function updateWnDot(){var b=document.getElementById("wnbtn");if(!b)return;var n=wnUnseen().length;b.textContent=n?("What's new ("+n+")"):"What's new";}
+function dismissWhatsNew(){localStorage.setItem(WN_KEY,WHATSNEW[0].id);var b=document.getElementById("whatsnew");if(b)b.style.display="none";updateWnDot();}
+function renderWhatsNew(showAll){
+var box=document.getElementById("whatsnew");if(!box)return;
+var items=showAll?WHATSNEW:wnUnseen();
+box.innerHTML="";
+if(!items.length){box.style.display="none";updateWnDot();return;}
+box.style.display="block";
+var h=document.createElement("div");h.className="wnhead";
+var sp=document.createElement("span");sp.textContent=showAll?"What's new":"New since your last visit";
+h.appendChild(sp);
+var x=document.createElement("button");x.type="button";x.className="wnclose";x.textContent="Got it";
+x.onclick=dismissWhatsNew;h.appendChild(x);
+box.appendChild(h);
+items.forEach(function(w){
+var it=document.createElement("div");it.className="wnitem";
+var a=document.createElement("div");a.className="wntitle";a.textContent=w.title;it.appendChild(a);
+var c=document.createElement("div");c.className="wnbody";c.textContent=w.body;it.appendChild(c);
+var d=document.createElement("div");d.className="wndate";d.textContent=w.date;it.appendChild(d);
+box.appendChild(it);});
+updateWnDot();}
+function buildStats(){
+var s=document.getElementById("stats");
+var high=JOBS.filter(function(j){return j.priority==="High";}).length;
+var md=JOBS.filter(function(j){return j.market==="MD";}).length;
+var rem=JOBS.filter(function(j){return j.market==="Remote";}).length;
+var gov=JOBS.filter(function(j){return j.sector==="Government"||j.sector==="Federal";}).length;
+var noClr=JOBS.filter(function(j){return clearanceKey(clearanceLevel(j))==="none";}).length;
+function stat(n,l){var d=el("div","stat");d.appendChild(el("div","n",n));d.appendChild(el("div","l",l));return d;}
+s.appendChild(stat(JOBS.length,"Total"));
+s.appendChild(stat(high,"High fit"));
+s.appendChild(stat(md,"Maryland"));
+s.appendChild(stat(rem,"Remote"));
+s.appendChild(stat(gov,"Gov/Federal"));
+s.appendChild(stat(noClr,"No Clearance Needed"));
+var roles=[];JOBS.forEach(function(j){if(roles.indexOf(j.roleType)<0)roles.push(j.roleType);});
+roles.sort();var rsel=document.getElementById("role");
+roles.forEach(function(r){var o=document.createElement("option");o.value=r;o.textContent=r;rsel.appendChild(o);});
+}
+function toggleTheme(){
+var cur=document.documentElement.getAttribute("data-theme")||"dark";
+var next=cur==="light"?"dark":"light";
+document.documentElement.setAttribute("data-theme",next);
+localStorage.setItem("ray_theme",next);
+document.getElementById("theme-btn").textContent=next==="light"?"Dark Mode":"Light Mode";
+}
+function initTheme(){
+var saved=localStorage.getItem("ray_theme")||"dark";
+document.documentElement.setAttribute("data-theme",saved);
+document.getElementById("theme-btn").textContent=saved==="light"?"Dark Mode":"Light Mode";
+}
+initTheme();
+renderWhatsNew(false);
+fetch("jobs.json?v="+Date.now(),{cache:"no-store"}).then(function(r){return r.json();}).then(function(data){
+JOBS=data.sort(function(a,b){return b.score-a.score;});
+buildStats();
+migrateTags();
+renderPinBar();
+var dates=[];JOBS.forEach(function(j){if(dates.indexOf(j.posted)<0)dates.push(j.posted);});
+dates.sort().reverse();
+document.getElementById("updated").textContent="Last refreshed: "+(dates[0]||"-");
+render();
+["q","priority","market","sector","clearance","role","tracking","fresh"].forEach(function(id){
+document.getElementById(id).addEventListener(id==="q"?"input":"change",render);
+});
+}).catch(function(e){document.getElementById("grid").innerHTML='<div class="empty">Could not load jobs.json - '+e.message+'</div>';});
+</script>
+</body>
+</html>
