@@ -177,6 +177,13 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:26px;border-t
 h1{font-size:22px}
 .fitnote{margin-left:0}
 }
+.whatsnew{display:none;background:var(--card);border:1px solid var(--accent);border-left:3px solid var(--accent);border-radius:12px;padding:14px 16px;margin:16px 0 0}
+.wnhead{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:6px;font-size:14px;font-weight:700}
+.wnclose{background:var(--accent);color:#04283a;border:none;font-weight:700;font-size:12px;padding:6px 12px;border-radius:8px;cursor:pointer;font-family:inherit}
+.wnitem{padding:8px 0;border-top:1px solid var(--line)}
+.wntitle{font-size:13.5px;font-weight:700}
+.wnbody{font-size:12.5px;color:var(--muted);margin-top:2px;line-height:1.5}
+.wndate{font-size:11px;color:var(--muted);margin-top:3px;opacity:.7}
 </style>
 </head>
 <body>
@@ -188,9 +195,11 @@ h1{font-size:22px}
 <div class="creds">CISSP - PMP - MS Computer Systems Management - TS/SCI with Full-Scope Polygraph</div>
 <div class="sub">Senior Director, Cyber Risk Management &amp; IT Services Division Lead - $350M portfolio, $100M+ FY25 revenue, 159 staff + 80 subcontractors. Targeting 100% remote Senior Director and VP roles in Commercial IT, Healthcare IT, State Government IT, and non-NSA Defense. Compensation floor $225K base.</div>
 </div>
+<button class="theme-btn" id="wnbtn" onclick="renderWhatsNew(true)">What&#39;s new</button>
 <button class="theme-btn" id="theme-btn" onclick="toggleTheme()">Light Mode</button>
 </div>
 <div class="stats" id="stats"></div>
+<div class="whatsnew" id="whatsnew"></div>
 <div class="updated" id="updated"></div>
 </div>
 </header>
@@ -761,6 +770,31 @@ rd.onerror=function(){alert("Could not read that file.");};
 rd.readAsText(f);ev.target.value="";}
 function renderAll(){renderGrid();renderBoard();renderCharts();}
 
+
+var WN_KEY="tt_wn_seen";
+var WHATSNEW=[{"id":"2026-08-14-e-tracks","date":"August 14, 2026","title":"Two tracks: Executive and PM / RMF","body":"The search now covers Program and Project Management, RMF leadership and practitioner roles, and FedRAMP, StateRAMP and CMMC compliance alongside the original Senior Director and VP roles. Use the Both tracks filter to switch between them. Where a role is a step down in scope, the card says so plainly."},{"id":"2026-08-14-d-save","date":"August 14, 2026","title":"Save roles and email them to yourself","body":"Click any stage button on a role to save it. The bar under the tabs lets you email the list to yourself, copy it, download a CSV, or back it up so it survives clearing your browser."},{"id":"2026-08-14-c-guide","date":"August 14, 2026","title":"New How to use tab","body":"A plain-language guide to reading a card, tracking applications, and what the dashboard does and does not know."},{"id":"2026-08-14-b-verified","date":"August 14, 2026","title":"Every role re-checked against its live posting","body":"Roles are now opened and verified for remote status, seniority and published salary before they appear. Anything that fails is removed rather than shown with a lower score. Cards show real posting dates and close dates."},{"id":"2026-08-14-a-comp","date":"August 14, 2026","title":"Honest compensation display","body":"The salary tile now counts roles where even the bottom of the published band clears the floor, and any card whose band starts below it says so in amber."}];
+function wnUnseen(){var s=localStorage.getItem(WN_KEY)||"";return WHATSNEW.filter(function(w){return w.id>s;});}
+function updateWnDot(){var b=document.getElementById("wnbtn");if(!b)return;var n=wnUnseen().length;b.textContent=n?("What's new ("+n+")"):"What's new";}
+function dismissWhatsNew(){localStorage.setItem(WN_KEY,WHATSNEW[0].id);var b=document.getElementById("whatsnew");if(b)b.style.display="none";updateWnDot();}
+function renderWhatsNew(showAll){
+var box=document.getElementById("whatsnew");if(!box)return;
+var items=showAll?WHATSNEW:wnUnseen();
+box.innerHTML="";
+if(!items.length){box.style.display="none";updateWnDot();return;}
+box.style.display="block";
+var h=document.createElement("div");h.className="wnhead";
+var sp=document.createElement("span");sp.textContent=showAll?"What's new":"New since your last visit";
+h.appendChild(sp);
+var x=document.createElement("button");x.type="button";x.className="wnclose";x.textContent="Got it";
+x.onclick=dismissWhatsNew;h.appendChild(x);
+box.appendChild(h);
+items.forEach(function(w){
+var it=document.createElement("div");it.className="wnitem";
+var a=document.createElement("div");a.className="wntitle";a.textContent=w.title;it.appendChild(a);
+var c=document.createElement("div");c.className="wnbody";c.textContent=w.body;it.appendChild(c);
+var d=document.createElement("div");d.className="wndate";d.textContent=w.date;it.appendChild(d);
+box.appendChild(it);});
+updateWnDot();}
 function buildStats(){
 var s=document.getElementById("stats");s.innerHTML="";
 function stat(n,l){var d=el("div","stat");d.appendChild(el("div","n",n));d.appendChild(el("div","l",l));return d;}
@@ -830,6 +864,7 @@ document.documentElement.setAttribute("data-theme",saved);
 document.getElementById("theme-btn").textContent=saved==="light"?"Dark Mode":"Light Mode";
 }
 initTheme();
+renderWhatsNew(false);
 
 fetch("jobs.json?v="+Date.now(),{cache:"no-store"})
 .then(function(r){return r.json();})
