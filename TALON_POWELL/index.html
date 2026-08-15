@@ -126,7 +126,13 @@ var PINS=JSON.parse(localStorage.getItem("talon_pinned")||"{}");
 var TALON_EMAIL="talonisaiah1122@gmail.com";
 function pinnedList(){return Object.keys(PINS).sort(function(a,b){return (PINS[b].pinnedAt||"").localeCompare(PINS[a].pinnedAt||"");}).map(function(u){return PINS[u];});}
 function formatPinnedText(){var list=pinnedList();if(list.length===0)return "";var lines=["Saved jobs from Talon\u0027s job search dashboard - "+new Date().toISOString().slice(0,10),""];list.forEach(function(j,i){lines.push((i+1)+". "+j.title+" - "+j.company);lines.push(j.city+" | "+j.salary+" | "+j.priority+" priority, score "+j.score);lines.push(j.notes);lines.push("Apply: "+j.url);lines.push("");});return lines.join("\n");}
-function emailPinned(){var text=formatPinnedText();if(!text){alert("No pinned jobs yet. Pin a few first.");return;}var subject="My pinned jobs - "+new Date().toISOString().slice(0,10);var body=text;if(body.length>1800)body=body.slice(0,1800)+"\n...(list truncated - use the Copy button for the full list)";window.location.href="mailto:"+TALON_EMAIL+"?subject="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);}
+function emailPinned(){var text=formatPinnedText();if(!text){alert("No pinned jobs yet. Pin a few first.");return;}
+var subject="My pinned jobs - "+new Date().toISOString().slice(0,10);
+try{navigator.clipboard.writeText(subject+"\n\n"+text);}catch(e){}
+var body=text;if(body.length>6500)body=body.slice(0,6500)+"\n...(list truncated - use the Copy button for the full list)";
+var u="https://mail.google.com/mail/?view=cm&fs=1&to="+encodeURIComponent(TALON_EMAIL)+"&cc=arbatiste@gmail.com&su="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);
+var w=window.open(u,"_blank","noopener");
+if(!w){alert("Popup blocked - your pinned list has been copied to the clipboard instead.");}}
 function copyPinned(){var text=formatPinnedText();if(!text){alert("No pinned jobs yet. Pin a few first.");return;}navigator.clipboard.writeText(text).then(function(){var btn=document.getElementById("copy-pinned-btn");var orig=btn.textContent;btn.textContent="Copied!";setTimeout(function(){btn.textContent=orig;},1500);}).catch(function(){alert("Could not copy - your browser may be blocking clipboard access.");});}
 function saveTags(){localStorage.setItem(TAGKEY,JSON.stringify(TAGS));}
 function migrateTags(){
