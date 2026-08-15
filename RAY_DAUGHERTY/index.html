@@ -61,7 +61,7 @@ a.apply{background:var(--accent);color:#04283a;text-decoration:none;font-weight:
 .tagbtn.active.interested{background:#a855f733;border-color:#a855f7;color:#e9d5ff}
 .tagbtn.active.applied{background:#22c55e33;border-color:#22c55e;color:#86efac}
 .tagbtn.pin.on{background:#eab30833;border-color:#eab308;color:#fde68a}
-.pinbar{display:none;align-items:center;gap:8px;flex-wrap:wrap;background:var(--card);border:1px solid var(--accent);border-radius:10px;padding:10px 14px;margin:0 0 14px}
+.pinbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:var(--card);border:1px solid var(--accent);border-radius:10px;padding:10px 14px;margin:0 0 14px}
 .pincount{font-size:13px;font-weight:700}
 .pinact{font-size:12px;font-weight:700;padding:6px 12px;border-radius:8px;border:1px solid var(--line);background:transparent;color:var(--text);cursor:pointer;font-family:inherit}
 .pinact:hover{border-color:var(--accent)}
@@ -142,12 +142,11 @@ if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.write
 function renderPinBar(){
 var b=document.getElementById("pinbar");if(!b)return;
 var n=pinnedJobs().length;b.innerHTML="";
-if(!n){b.style.display="none";return;}
 b.style.display="flex";
-b.appendChild(el("span","pincount",n+" job"+(n===1?"":"s")+" saved"));
+b.appendChild(el("span","pincount",n?(n+" job"+(n===1?"":"s")+" saved"):"No jobs saved yet - click Save on any job to keep it here"));
 var e=el("button","pinact","Email to me");e.type="button";e.onclick=emailPins;b.appendChild(e);
 var c=el("button","pinact","Copy list");c.type="button";c.onclick=copyPins;b.appendChild(c);
-var x=el("button","pinact clear","Clear saved");x.type="button";x.onclick=function(){if(confirm("Clear all saved jobs?")){PINS={};savePins();render();renderPinBar();}};b.appendChild(x);
+if(n){var x=el("button","pinact clear","Clear saved");x.type="button";x.onclick=function(){if(confirm("Clear all saved jobs?")){PINS={};savePins();render();renderPinBar();}};b.appendChild(x);}
 var m=el("span","pinmsg","");m.id="pinmsg";b.appendChild(m);}
 
 function migrateTags(){
@@ -238,7 +237,7 @@ b.onclick=(function(jobId,tVal){return function(){setTag(jobId,tVal);};})(jobKey
 tags.appendChild(b);
 });
 var pk=jobKey(j);
-var pin=el("button","tagbtn pin"+(PINS[pk]?" on":""),PINS[pk]?"Saved":"Save");
+var pin=el("button","tagbtn pin"+(PINS[pk]?" on":""),PINS[pk]?"Saved - click to remove":"Save to my list");
 pin.type="button";
 pin.onclick=(function(k){return function(){togglePin(k);};})(pk);
 tags.appendChild(pin);
