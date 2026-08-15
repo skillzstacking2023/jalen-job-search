@@ -715,14 +715,17 @@ return o.join("\n");}
 function noneTracked(){
 alert("Nothing tracked yet.\n\nOpen the Opportunities tab and click a stage button - Interested, Applied, Screening, Interview or Offer - on any role you want to keep.");}
 function emailPipeline(){
-var L=trackedJobs();
-if(!L.length){noneTracked();return;}
+var L=trackedJobs();if(!L.length){noneTracked();return;}
 var subj="My tracked roles - "+L.length+" role"+(L.length===1?"":"s");
-var mk=function(b){return "mailto:tiffany.t.taylor@gmail.com?subject="+encodeURIComponent(subj)+"&body="+encodeURIComponent(b);};
-var u=mk(pipeText(true));
-if(u.length>1900)u=mk(pipeText(false));
-if(u.length>1900){copyPipeline();actMsg("Too many to fit in an email link - copied to your clipboard instead");return;}
-window.location.href=u;actMsg("Opening your email app with "+L.length+" role"+(L.length===1?"":"s")+"...");}
+var body=pipeText(true);
+try{navigator.clipboard.writeText(subj+"\n\n"+body);}catch(e){}
+var mk=function(b){return "https://mail.google.com/mail/?view=cm&fs=1&to=tiffany.t.taylor@gmail.com&cc=arbatiste@gmail.com&su="+encodeURIComponent(subj)+"&body="+encodeURIComponent(b);};
+var u=mk(body);
+if(u.length>7000)u=mk(pipeText(false));
+if(u.length>7000){copyPipeline();actMsg("Too many to fit in a compose link - copied to your clipboard instead");return;}
+var w=window.open(u,"_blank","noopener");
+if(!w){actMsg("Popup blocked - the list is copied to your clipboard instead");return;}
+actMsg("Opened Gmail with "+L.length+" role"+(L.length===1?"":"s")+" - also copied to your clipboard");}
 function fallbackCopy(txt){
 var ta=document.createElement("textarea");ta.value=txt;ta.style.position="fixed";ta.style.opacity="0";
 document.body.appendChild(ta);ta.select();
