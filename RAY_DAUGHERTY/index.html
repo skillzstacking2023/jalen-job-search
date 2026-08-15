@@ -70,6 +70,13 @@ a.apply{background:var(--accent);color:#04283a;text-decoration:none;font-weight:
 .empty{color:var(--muted);text-align:center;padding:40px}
 footer{color:var(--muted);font-size:12px;text-align:center;padding:24px}
 .updated{color:var(--muted);font-size:12px;margin-top:6px}
+.whatsnew{display:none;background:var(--card);border:1px solid var(--accent);border-left:3px solid var(--accent);border-radius:12px;padding:14px 16px;margin:16px 0 0}
+.wnhead{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:6px;font-size:14px;font-weight:700}
+.wnclose{background:var(--accent);color:#04283a;border:none;font-weight:700;font-size:12px;padding:6px 12px;border-radius:8px;cursor:pointer;font-family:inherit}
+.wnitem{padding:8px 0;border-top:1px solid var(--line)}
+.wntitle{font-size:13.5px;font-weight:700}
+.wnbody{font-size:12.5px;color:var(--muted);margin-top:2px;line-height:1.5}
+.wndate{font-size:11px;color:var(--muted);margin-top:3px;opacity:.7}
 </style>
 </head>
 <body>
@@ -80,9 +87,11 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:24px}
 <h1>Raymond Daugherty - IT / Information Systems Job Search</h1>
 <div class="sub">B.S. Information Systems Management, UMBC - Eldersburg, MD - Entry-level IT / IS / analyst roles in Maryland or 100% remote (commercial and government)</div>
 </div>
+<button class="theme-btn" id="wnbtn" onclick="renderWhatsNew(true)">What&#39;s new</button>
 <button class="theme-btn" id="theme-btn" onclick="toggleTheme()">Light Mode</button>
 </div>
 <div class="stats" id="stats"></div>
+<div class="whatsnew" id="whatsnew"></div>
 <div class="updated" id="updated"></div>
 </div>
 </header>
@@ -250,6 +259,31 @@ grid.appendChild(card);
 });
 if(shown===0)grid.innerHTML='<div class="empty">No matches. Try clearing filters.</div>';
 }
+
+var WN_KEY="ray_wn_seen";
+var WHATSNEW=[{"id":"2026-08-14-c-save","date":"August 14, 2026","title":"Save jobs and email them to yourself","body":"Every job now has a Save to my list button. Saved jobs collect in the bar above the listings, and Email to me opens your email with the whole list already written out."},{"id":"2026-08-14-b-tags","date":"August 14, 2026","title":"Your tags now stay on the right job","body":"Viewed, Interested and Applied used to jump to a different job when the list refreshed each morning. Fixed - a tag now stays with the job you put it on."}];
+function wnUnseen(){var s=localStorage.getItem(WN_KEY)||"";return WHATSNEW.filter(function(w){return w.id>s;});}
+function updateWnDot(){var b=document.getElementById("wnbtn");if(!b)return;var n=wnUnseen().length;b.textContent=n?("What's new ("+n+")"):"What's new";}
+function dismissWhatsNew(){localStorage.setItem(WN_KEY,WHATSNEW[0].id);var b=document.getElementById("whatsnew");if(b)b.style.display="none";updateWnDot();}
+function renderWhatsNew(showAll){
+var box=document.getElementById("whatsnew");if(!box)return;
+var items=showAll?WHATSNEW:wnUnseen();
+box.innerHTML="";
+if(!items.length){box.style.display="none";updateWnDot();return;}
+box.style.display="block";
+var h=document.createElement("div");h.className="wnhead";
+var sp=document.createElement("span");sp.textContent=showAll?"What's new":"New since your last visit";
+h.appendChild(sp);
+var x=document.createElement("button");x.type="button";x.className="wnclose";x.textContent="Got it";
+x.onclick=dismissWhatsNew;h.appendChild(x);
+box.appendChild(h);
+items.forEach(function(w){
+var it=document.createElement("div");it.className="wnitem";
+var a=document.createElement("div");a.className="wntitle";a.textContent=w.title;it.appendChild(a);
+var c=document.createElement("div");c.className="wnbody";c.textContent=w.body;it.appendChild(c);
+var d=document.createElement("div");d.className="wndate";d.textContent=w.date;it.appendChild(d);
+box.appendChild(it);});
+updateWnDot();}
 function buildStats(){
 var s=document.getElementById("stats");
 var high=JOBS.filter(function(j){return j.priority==="High";}).length;
@@ -281,6 +315,7 @@ document.documentElement.setAttribute("data-theme",saved);
 document.getElementById("theme-btn").textContent=saved==="light"?"Dark Mode":"Light Mode";
 }
 initTheme();
+renderWhatsNew(false);
 fetch("jobs.json?v="+Date.now(),{cache:"no-store"}).then(function(r){return r.json();}).then(function(data){
 JOBS=data.sort(function(a,b){return b.score-a.score;});
 buildStats();
