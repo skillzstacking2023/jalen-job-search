@@ -841,6 +841,57 @@ renderWatchlistBar();
     updateJALEN();
     updateProfileHeader();
 
+
+/* --- Email saved jobs (aligns with Ray and Tiffany dashboards) --- */
+var JALEN_EMAIL="jalenmb123@gmail.com";
+var JALEN_CC="arbatiste@gmail.com";
+var EMAIL_STAGES=["interested","applied","screening","interview","offer"];
+var EMAIL_STAGE_LABEL={interested:"Interested",applied:"Applied",screening:"Screening",interview:"Interview",offer:"Offer"};
+function savedJobs(){
+  if(typeof JOBS==="undefined"||!JOBS)return [];
+  return JOBS.filter(function(j){var s=statusMap[j.id];return s&&EMAIL_STAGES.indexOf(s)>=0;});
+}
+function savedText(){
+  var L=savedJobs();if(!L.length)return "";
+  var out=["My saved jobs ("+L.length+")",""];
+  EMAIL_STAGES.forEach(function(st){
+    var inS=L.filter(function(j){return statusMap[j.id]===st;});
+    if(!inS.length)return;
+    out.push(EMAIL_STAGE_LABEL[st].toUpperCase()+" ("+inS.length+")");
+    inS.forEach(function(j){
+      out.push("  - "+j.title+" | "+j.company);
+      out.push("    "+(j.city||"")+" | "+(j.salary||"")+" | score "+(j.score||""));
+      if(typeof dateMap!=="undefined"&&dateMap[j.id])out.push("    Applied: "+dateMap[j.id]);
+      out.push("    "+j.url);
+      out.push("");
+    });
+  });
+  out.push("Dashboard: https://skillzstacking2023.github.io/jalen-job-search/");
+  return out.join("\n");
+}
+function emailPipeline(){
+  var L=savedJobs();
+  if(!L.length){alert("No saved jobs yet - set a status on a few jobs first, then try again.");return;}
+  var subj="My saved jobs - "+L.length+" job"+(L.length===1?"":"s");
+  var body=savedText();
+  try{navigator.clipboard.writeText(subj+"\n\n"+body);}catch(e){}
+  var mk=function(b){return "https://mail.google.com/mail/?view=cm&fs=1&to="+encodeURIComponent(JALEN_EMAIL)+"&cc="+encodeURIComponent(JALEN_CC)+"&su="+encodeURIComponent(subj)+"&body="+encodeURIComponent(b);};
+  var u=mk(body);
+  if(u.length>7000){u=mk(body.slice(0,4000)+"\n...(truncated - the full list is on your clipboard)");}
+  var w=window.open(u,"_blank","noopener");
+  if(!w){alert("Popup blocked - your saved list has been copied to the clipboard instead.");}
+}
+function initEmailBtn(){
+  if(document.getElementById("email-me-btn"))return;
+  var host=document.getElementById("theme-btn");
+  if(!host||!host.parentNode)return;
+  var b=document.createElement("button");
+  b.id="email-me-btn";b.className=host.className||"";b.textContent="Email to me";
+  b.style.marginRight="8px";
+  b.addEventListener("click",emailPipeline);
+  host.parentNode.insertBefore(b,host);
+}
+if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",initEmailBtn);}else{initEmailBtn();}
 </script>
 
 <div class="modal-overlay" id="resume-modal" onclick="if(event.target===this)closeModal()">
