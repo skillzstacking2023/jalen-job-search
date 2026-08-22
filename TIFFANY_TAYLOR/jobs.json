@@ -315,6 +315,40 @@
     "priority": "Medium"
   },
   {
+    "key": "elastic-vp-threat-research-security-intelligence",
+    "track": "Executive",
+    "score": 72,
+    "title": "VP, Threat Research - Security Intelligence",
+    "company": "Elastic",
+    "sector": "Commercial",
+    "level": "VP",
+    "location": "Remote - US",
+    "salary": "$312K–$493K Annually",
+    "salaryMin": 312000,
+    "salaryMax": 493600,
+    "roleType": "Cybersecurity",
+    "clearance": "None",
+    "url": "https://job-boards.greenhouse.io/elastic/jobs/8083459",
+    "notes": "VP leading Elastic's threat research and security intelligence org — distributed remote US, well above Executive floor.",
+    "posted": "2026-08-21",
+    "expiresOn": "",
+    "verifiedNote": "Verified 2026-08-21 via Greenhouse API: location United States, salary $312K-$493K, remote confirmed in posting body.",
+    "fit": {
+      "leadership": 5,
+      "domain": 3,
+      "remote": 5,
+      "comp": 5,
+      "industry": 4
+    },
+    "fitNotes": {
+      "leadership": "VP scope matches senior leadership tier",
+      "domain": "Threat research skews more technical/offensive than her governance PM background",
+      "remote": "Elastic is distributed-remote with no office requirement",
+      "comp": "Floor $312K well above $225K Executive threshold",
+      "industry": "Commercial security platform — strong sector fit"
+    }
+  },
+  {
     "key": "instacart--senior-director-enterprise-delivery-and-growth--remote-us",
     "track": "Executive",
     "score": 70,
@@ -360,6 +394,40 @@
     "priority": "Stretch"
   },
   {
+    "key": "elastic-sr-director-field-technology-ai",
+    "track": "Executive",
+    "score": 68,
+    "title": "Sr. Director, Field Technology and AI",
+    "company": "Elastic",
+    "sector": "Commercial",
+    "level": "Senior Director",
+    "location": "Remote - US",
+    "salary": "$212K–$403K Annually",
+    "salaryMin": 212100,
+    "salaryMax": 403200,
+    "roleType": "Technology Delivery",
+    "clearance": "None",
+    "url": "https://job-boards.greenhouse.io/elastic/jobs/7954418",
+    "notes": "Sr Director bridging field technology and AI at Elastic — remote US, strong comp ceiling at higher band.",
+    "posted": "2026-08-21",
+    "expiresOn": "",
+    "verifiedNote": "Verified 2026-08-21 via Greenhouse API: location United States, salary $212K-$403K across zones, remote confirmed in body.",
+    "fit": {
+      "leadership": 5,
+      "domain": 3,
+      "remote": 5,
+      "comp": 4,
+      "industry": 3
+    },
+    "fitNotes": {
+      "leadership": "Sr Director title matches her current level",
+      "domain": "Field technology is customer-facing technical leadership, different from risk/governance focus",
+      "remote": "Elastic distributed remote confirmed",
+      "comp": "Mid-band ~$274K aligns; low band $212K is below threshold",
+      "industry": "Commercial SaaS/AI — industry shift from government background"
+    }
+  },
+  {
     "key": "vanta--lead-product-grc-subject-matter-expert--remote-us",
     "track": "PM / RMF",
     "score": 88,
@@ -403,6 +471,40 @@
     "postedDate": "2026-08-12",
     "verified": "2026-08-19",
     "priority": "High"
+  },
+  {
+    "key": "tines-principal-pm-public-sector-compliance",
+    "track": "PM / RMF",
+    "score": 88,
+    "title": "Principal Program Manager, Public Sector Compliance",
+    "company": "Tines",
+    "sector": "Commercial / Federal",
+    "level": "Principal",
+    "location": "Remote - US",
+    "salary": "$245K–$260K Annually",
+    "salaryMin": 245000,
+    "salaryMax": 260000,
+    "roleType": "GRC / Risk",
+    "clearance": "None",
+    "url": "https://job-boards.greenhouse.io/tines/jobs/5993765004",
+    "notes": "Principal PM owning public sector compliance (FedRAMP, FISMA, StateRAMP) at Tines — security automation widely used in government. Near-perfect match for Tiffany's RMF and compliance program management expertise.",
+    "posted": "2026-08-21",
+    "expiresOn": "",
+    "verifiedNote": "Verified 2026-08-21 via Greenhouse API: location United States (Remote), salary $245K-$260K, remote confirmed in posting body.",
+    "fit": {
+      "leadership": 5,
+      "domain": 5,
+      "remote": 5,
+      "comp": 5,
+      "industry": 4
+    },
+    "fitNotes": {
+      "leadership": "Principal PM — senior IC leadership driving compliance programs",
+      "domain": "Public sector compliance (FedRAMP, FISMA, RMF) is core to her expertise",
+      "remote": "United States (Remote) explicitly stated by employer",
+      "comp": "$245K-$260K well above $175K PM/RMF floor",
+      "industry": "Security automation for government — excellent alignment"
+    }
   },
   {
     "key": "onebrief--senior-program-architect-governance-risk-and-compliance--remote-us",
@@ -540,49 +642,72 @@
     "priority": "Medium"
   },
   {
-    "key": "conduent--senior-director-transformation--remote-us",
+    "key": "figma-governance-risk-compliance",
     "track": "PM / RMF",
-    "score": 82,
-    "title": "Senior Director, Transformation",
-    "company": "Conduent",
-    "sector": "State Gov",
-    "level": "Senior Director",
+    "score": 83,
+    "title": "Governance, Risk and Compliance (GRC)",
+    "company": "Figma",
+    "sector": "Commercial",
+    "level": "Principal",
     "location": "Remote - US",
-    "salary": "$181K-$210K Annually",
-    "salaryMin": 181000,
-    "salaryMax": 210000,
+    "salary": "$153K-$296K Annually (hub rate; remote 80-100%)",
+    "salaryMin": 153000,
+    "salaryMax": 296000,
+    "roleType": "GRC / Risk",
+    "clearance": "None",
+    "url": "https://job-boards.greenhouse.io/figma/jobs/6015630004",
+    "notes": "Pooled GRC hiring post covering Compliance Management, Security Risk Management, Policy & Governance, GRC Platforms, and Customer Trust — employer explicitly states role can be held remotely in the United States — SOC 2, ISO 27001, FedRAMP, SOX ITGC, GDPR all listed",
+    "posted": "2026-08-21",
+    "expiresOn": "",
+    "verifiedNote": "Verified 2026-08-21: LIVE on Greenhouse, employer body states 'remotely in the United States', $153K-$296K published hub rate (remote 80-100%)",
+    "fit": {
+      "leadership": 3,
+      "domain": 5,
+      "remote": 5,
+      "comp": 4,
+      "industry": 4
+    },
+    "fitNotes": {
+      "leadership": "IC GRC practitioner scope — not division-level people management, but deep seniority match",
+      "domain": "SOC 2, ISO 27001, FedRAMP, SOX ITGC, GDPR map almost exactly to her RMF and controls background",
+      "remote": "Employer body explicitly states remotely in the United States",
+      "comp": "Hub rate $153K-$296K — remote 80-100%; upper end well above the floor",
+      "industry": "Figma has federal clients making her FedRAMP background directly relevant"
+    }
+  },
+  {
+    "key": "gofundme-staff-tpm-security",
+    "track": "PM / RMF",
+    "score": 80,
+    "title": "Staff Technical Program Manager, Security",
+    "company": "GoFundMe",
+    "sector": "Commercial",
+    "level": "Staff",
+    "location": "Remote - US",
+    "salary": "$150K-$225K Annually",
+    "salaryMin": 150000,
+    "salaryMax": 225000,
     "roleType": "Program Management",
     "clearance": "None",
-    "url": "https://builtin.com/job/senior-director-transformation/10653120",
-    "notes": "Title matches her current level and Conduent runs large state and local government programs - listed on this track rather than Executive because the published band tops out below the 225K Executive floor",
-    "posted": "2026-08-13",
+    "url": "https://job-boards.greenhouse.io/gofundme/jobs/7735983",
+    "notes": "Staff TPM owning security program delivery at a consumer fintech — #LI-REMOTE confirmed in posting — scope covers risk, compliance, and engineering delivery across the security organization",
+    "posted": "2026-08-21",
     "expiresOn": "",
-    "verifiedNote": "Read the Built In posting 2026-08-19: body working conditions section states Remote work: Enjoy the convenience of working from home and maximize your time, along with flexible working hours. Header band 181K-210K Annually, Job Posted 6 Days Ago.",
+    "verifiedNote": "Verified 2026-08-21: LIVE on Greenhouse, #LI-REMOTE tag confirmed, $150K-$225K band published",
     "fit": {
-      "leadership": 5,
+      "leadership": 3,
       "domain": 4,
       "remote": 5,
       "comp": 3,
-      "industry": 5
+      "industry": 3
     },
     "fitNotes": {
-      "leadership": "Senior Director owning a transformation portfolio - same title she holds today.",
-      "domain": "Business and technology transformation program leadership - strong overlap with her multi-program delivery record.",
-      "remote": "Body working conditions state Remote work with the convenience of working from home; no office attendance requirement stated.",
-      "comp": "Band 181K-210K clears the 175K track floor but tops out below her Executive floor.",
-      "industry": "Government business process and IT services - directly adjacent to her federal services background."
-    },
-    "intel": {
-      "size": "Not determined",
-      "hq": "Florham Park, NJ",
-      "remotePolicy": "Remote work per the posting working conditions section",
-      "news": "Not determined",
-      "levelHistory": "Not determined"
-    },
-    "id": 18,
-    "postedDate": "2026-08-13",
-    "verified": "2026-08-19",
-    "priority": "Medium"
+      "leadership": "Staff IC role — program leadership scope without direct people management",
+      "domain": "Security TPM covering risk and compliance delivery maps to her GRC background",
+      "remote": "#LI-REMOTE confirmed in posting",
+      "comp": "$150K-$225K is above the PM/RMF floor but below her executive-track ceiling",
+      "industry": "Consumer fintech is a departure from federal IT services"
+    }
   },
   {
     "key": "gitlab--principal-program-manager-go-to-market--remote-us",
@@ -718,107 +843,5 @@
     "postedDate": "2026-08-12",
     "verified": "2026-08-19",
     "priority": "Stretch"
-  },
-  {
-    "key": "elastic-vp-threat-research-security-intelligence",
-    "track": "Executive",
-    "score": 72,
-    "title": "VP, Threat Research - Security Intelligence",
-    "company": "Elastic",
-    "sector": "Commercial",
-    "level": "VP",
-    "location": "Remote - US",
-    "salary": "$312K–$493K Annually",
-    "salaryMin": 312000,
-    "salaryMax": 493600,
-    "roleType": "Cybersecurity",
-    "clearance": "None",
-    "url": "https://job-boards.greenhouse.io/elastic/jobs/8083459",
-    "notes": "VP leading Elastic's threat research and security intelligence org — distributed remote US, well above Executive floor.",
-    "posted": "2026-08-21",
-    "expiresOn": "",
-    "verifiedNote": "Verified 2026-08-21 via Greenhouse API: location United States, salary $312K-$493K, remote confirmed in posting body.",
-    "fit": {
-      "leadership": 5,
-      "domain": 3,
-      "remote": 5,
-      "comp": 5,
-      "industry": 4
-    },
-    "fitNotes": {
-      "leadership": "VP scope matches senior leadership tier",
-      "domain": "Threat research skews more technical/offensive than her governance PM background",
-      "remote": "Elastic is distributed-remote with no office requirement",
-      "comp": "Floor $312K well above $225K Executive threshold",
-      "industry": "Commercial security platform — strong sector fit"
-    }
-  },
-  {
-    "key": "elastic-sr-director-field-technology-ai",
-    "track": "Executive",
-    "score": 68,
-    "title": "Sr. Director, Field Technology and AI",
-    "company": "Elastic",
-    "sector": "Commercial",
-    "level": "Senior Director",
-    "location": "Remote - US",
-    "salary": "$212K–$403K Annually",
-    "salaryMin": 212100,
-    "salaryMax": 403200,
-    "roleType": "Technology Delivery",
-    "clearance": "None",
-    "url": "https://job-boards.greenhouse.io/elastic/jobs/7954418",
-    "notes": "Sr Director bridging field technology and AI at Elastic — remote US, strong comp ceiling at higher band.",
-    "posted": "2026-08-21",
-    "expiresOn": "",
-    "verifiedNote": "Verified 2026-08-21 via Greenhouse API: location United States, salary $212K-$403K across zones, remote confirmed in body.",
-    "fit": {
-      "leadership": 5,
-      "domain": 3,
-      "remote": 5,
-      "comp": 4,
-      "industry": 3
-    },
-    "fitNotes": {
-      "leadership": "Sr Director title matches her current level",
-      "domain": "Field technology is customer-facing technical leadership, different from risk/governance focus",
-      "remote": "Elastic distributed remote confirmed",
-      "comp": "Mid-band ~$274K aligns; low band $212K is below threshold",
-      "industry": "Commercial SaaS/AI — industry shift from government background"
-    }
-  },
-  {
-    "key": "tines-principal-pm-public-sector-compliance",
-    "track": "PM / RMF",
-    "score": 88,
-    "title": "Principal Program Manager, Public Sector Compliance",
-    "company": "Tines",
-    "sector": "Commercial / Federal",
-    "level": "Principal",
-    "location": "Remote - US",
-    "salary": "$245K–$260K Annually",
-    "salaryMin": 245000,
-    "salaryMax": 260000,
-    "roleType": "GRC / Risk",
-    "clearance": "None",
-    "url": "https://job-boards.greenhouse.io/tines/jobs/5993765004",
-    "notes": "Principal PM owning public sector compliance (FedRAMP, FISMA, StateRAMP) at Tines — security automation widely used in government. Near-perfect match for Tiffany's RMF and compliance program management expertise.",
-    "posted": "2026-08-21",
-    "expiresOn": "",
-    "verifiedNote": "Verified 2026-08-21 via Greenhouse API: location United States (Remote), salary $245K-$260K, remote confirmed in posting body.",
-    "fit": {
-      "leadership": 5,
-      "domain": 5,
-      "remote": 5,
-      "comp": 5,
-      "industry": 4
-    },
-    "fitNotes": {
-      "leadership": "Principal PM — senior IC leadership driving compliance programs",
-      "domain": "Public sector compliance (FedRAMP, FISMA, RMF) is core to her expertise",
-      "remote": "United States (Remote) explicitly stated by employer",
-      "comp": "$245K-$260K well above $175K PM/RMF floor",
-      "industry": "Security automation for government — excellent alignment"
-    }
   }
 ]
