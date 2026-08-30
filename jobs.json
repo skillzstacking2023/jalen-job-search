@@ -1,481 +1,488 @@
 [
   {
     "id": 1,
-    "score": 90,
-    "title": "Associate Service Desk Technician (DINFOS)",
-    "company": "Oneida ESC Group",
-    "market": "MD",
-    "city": "Fort Meade, MD",
-    "salary": "$45K-$55K/yr",
+    "score": 86,
+    "title": "Service Desk Tech I",
+    "company": "VCU Health",
+    "market": "VA",
+    "city": "Richmond, VA",
+    "salary": "$45K-$58K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.indeed.com/q-defense-information-systems-agency-disa-l-fort-meade,-md-jobs.html",
-    "notes": "Entry-level DoD service desk - Public Trust eligible - A+/Security+ preferred - Onsite Fort Meade",
-    "postedDate": "2026-08-28"
+    "url": "https://www.linkedin.com/jobs/view/service-desk-tech-i-at-vcu-health-4458306065",
+    "notes": "Help Desk - Entry level (Tier 1/I) - Security+ aligned - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
   },
   {
     "id": 2,
-    "score": 88,
-    "title": "Student Trainee (Information Technology, 2210)",
-    "company": "Social Security Administration",
-    "market": "MD",
-    "city": "Woodlawn, MD",
-    "salary": "$45K-$60K/yr",
-    "roleType": "Systems Admin",
+    "score": 86,
+    "title": "Enterprise Help Desk (EHD) Agent, Tier 1",
+    "company": "Leidos",
+    "market": "VA",
+    "city": "Lorton, VA",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
     "certs": [
+      "sec",
       "fed"
     ],
     "priority": "High",
-    "url": "https://www.usajobs.gov/job/876653600",
-    "notes": "Federal Pathways career-ladder to GS-12 - Public Trust - No prior clearance required - Strong entry role",
-    "postedDate": "2026-08-28"
+    "url": "https://www.linkedin.com/jobs/view/enterprise-help-desk-ehd-agent-tier-1-at-leidos-4454669960",
+    "notes": "Help Desk - Entry level (Tier 1/I) - Security+ aligned - Clearance-eligible track - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
   },
   {
     "id": 3,
     "score": 86,
-    "title": "Level 1 Help Desk Technician",
-    "company": "Nauticon Managed Services",
-    "market": "MD",
-    "city": "Gaithersburg, MD",
-    "salary": "$43K-$50K/yr",
+    "title": "Junior IT Support Agent/Technician",
+    "company": "StratasCorp Technologies",
+    "market": "VA",
+    "city": "Hampton, VA",
+    "salary": "$45K-$58K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.ziprecruiter.com/Jobs/Help-Desk/-in-Gaithersburg,MD",
-    "notes": "MSP tier 1 support - M-F 8-5 plus on-call - A+/Security+ a plus - Great first IT job",
-    "postedDate": "2026-08-28"
+    "url": "https://www.linkedin.com/jobs/view/junior-it-support-agent-technician-shift-schedules-day-evening-and-night-at-stratascorp-technologies-4459731829",
+    "notes": "Help Desk - Entry level (Tier 1/I) - Security+ aligned - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
   },
   {
     "id": 4,
-    "score": 85,
-    "title": "Help Desk Technician (Level 1)",
-    "company": "GDIT",
+    "score": 86,
+    "title": "Service Desk Analyst I",
+    "company": "ePlus inc.",
     "market": "VA",
-    "city": "Northern Virginia",
-    "salary": "Competitive",
+    "city": "Virginia Beach, VA",
+    "salary": "$45K-$58K/yr",
     "roleType": "Help Desk",
     "certs": [
-      "sec",
-      "fed"
+      "sec"
     ],
     "priority": "High",
-    "url": "https://www.gdit.com/careers/search-jobs/?keyword=help%20desk",
-    "notes": "Federal contractor help desk - Clearance-eligible welcome - Security+ valued - DMV locations",
-    "postedDate": "2026-08-28"
+    "url": "https://www.linkedin.com/jobs/view/service-desk-analyst-i-shift-mon-fri-9am-6pm-est-req-1367-at-eplus-inc-4451967653",
+    "notes": "Help Desk - Entry level (Tier 1/I) - Security+ aligned - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
   },
   {
     "id": 5,
     "score": 84,
-    "title": "IT Support Technician I",
-    "company": "Cape Fox Shared Services",
-    "market": "VA",
-    "city": "Chantilly, VA",
-    "salary": "$26-$31/hr",
-    "roleType": "Desktop Support",
+    "title": "IT Support Specialist I",
+    "company": "Leggett & Platt",
+    "market": "MD",
+    "city": "Havre de Grace, MD",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.ziprecruiter.com/Jobs/IT-Support-Technician/-in-Chantilly,VA",
-    "notes": "Entry role for recent IT grads - Onsite 5 days - Security+ helpful - Hands-on desktop/support",
-    "postedDate": "2026-08-28"
+    "url": "https://www.linkedin.com/jobs/view/it-support-specialist-i-at-leggett-platt-4389400044",
+    "notes": "Help Desk - Entry level (Tier 1/I) - Security+ aligned - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
   },
   {
     "id": 6,
-    "score": 83,
-    "title": "Entry-Level Desktop Support Technician",
-    "company": "Multiple Employers (via ZipRecruiter)",
+    "score": 84,
+    "title": "IT Support Technician",
+    "company": "Baltimore Consulting",
     "market": "MD",
-    "city": "Baltimore, MD",
-    "salary": "$22-$30/hr",
-    "roleType": "Desktop Support",
+    "city": "Hunt Valley, MD",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.ziprecruiter.com/Jobs/Entry-Level-Desktop-Support/--in-Maryland",
-    "notes": "Multiple active MD openings - Imaging/hardware/ticketing - A+/Security+ preferred - No clearance needed",
-    "postedDate": "2026-08-28"
+    "url": "https://www.linkedin.com/jobs/view/it-support-technician-tier-1-tier-2-%E2%80%93-baltimore-area-at-baltimore-consulting-4456264547",
+    "notes": "Help Desk - Entry level (Tier 1/I) - Security+ aligned - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
   },
   {
     "id": 7,
-    "score": 82,
-    "title": "IT Support Specialist (Level 1)",
-    "company": "CareFirst BlueCross BlueShield",
-    "market": "MD",
-    "city": "Baltimore, MD",
-    "salary": "$45K-$55K/yr",
+    "score": 84,
+    "title": "Help Desk Specialist I - Tier 1",
+    "company": "Chenega MIOS SBU",
+    "market": "VA",
+    "city": "Ashburn, VA",
+    "salary": "$45K-$58K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://carefirstcareers.ttcportals.com/pages/students-graduates",
-    "notes": "Commercial help desk - Students/grads track - No clearance - Security+ a plus - Hybrid",
-    "postedDate": "2026-08-28"
+    "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-i-%E2%80%93-tier-1-at-chenega-mios-sbu-4456400372",
+    "notes": "Help Desk - Entry level (Tier 1/I) - Security+ aligned - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
   },
   {
     "id": 8,
-    "score": 82,
-    "title": "Tier 1 Help Desk Support Analyst",
-    "company": "Insight Global (Contract)",
-    "market": "VA",
-    "city": "Northern Virginia",
-    "salary": "$21-$27/hr",
+    "score": 83,
+    "title": "IT Service Desk Analyst I",
+    "company": "GBMC HealthCare",
+    "market": "MD",
+    "city": "Baltimore, MD",
+    "salary": "$45K-$58K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://jobs.insightglobal.com/find_a_job/?keyword=help%20desk",
-    "notes": "Staffing firm high-volume tier 1 reqs - Contract-to-hire - Security+ preferred - DMV onsite/hybrid",
-    "postedDate": "2026-08-28"
+    "url": "https://www.linkedin.com/jobs/view/it-service-desk-analyst-i-at-gbmc-healthcare-4454559572",
+    "notes": "Help Desk - Entry level (Tier 1/I) - Security+ aligned - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
   },
   {
     "id": 9,
-    "score": 81,
-    "title": "IT Help Desk Technician",
-    "company": "Multiple Employers (via Glassdoor)",
-    "market": "MD",
-    "city": "Statewide, MD",
-    "salary": "$40K-$55K/yr",
+    "score": 83,
+    "title": "Analyst I Service Desk",
+    "company": "Womble Bond Dickinson (US) LLP",
+    "market": "VA",
+    "city": "Washington, DC",
+    "salary": "$45K-$58K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.glassdoor.com/Job/maryland-it-help-desk-jobs-SRCH_IL.0,8_IS3201_KO9,21.htm",
-    "notes": "500+ live MD help desk listings - Range of entry employers - Security+ commonly desired",
-    "postedDate": "2026-08-28"
+    "url": "https://www.linkedin.com/jobs/view/analyst-i-service-desk-at-womble-bond-dickinson-us-llp-4452859409",
+    "notes": "Help Desk - Entry level (Tier 1/I) - Security+ aligned - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
   },
   {
     "id": 10,
-    "score": 80,
-    "title": "Help Desk Analyst (Entry-Mid)",
-    "company": "Zachary Piper Solutions",
+    "score": 81,
+    "title": "Tier 1 SOC Analyst",
+    "company": "VMD Corp",
     "market": "VA",
-    "city": "Northern Virginia",
-    "salary": "$24-$30/hr",
-    "roleType": "Help Desk",
+    "city": "Alexandria, VA",
+    "salary": "$60K-$78K/yr",
+    "roleType": "SOC",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.indeed.com/q-help-desk-analyst-l-virginia-jobs.html",
-    "notes": "Entry-to-mid help desk - A+ or Security+ highly desired - VA operations - Clearance-eligible a plus",
-    "postedDate": "2026-08-28"
+    "url": "https://www.linkedin.com/jobs/view/tier-1-soc-analyst-at-vmd-corp-4449929440",
+    "notes": "SOC - Entry level (Tier 1/I) - Security+ aligned - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
   },
   {
     "id": 11,
-    "score": 78,
-    "title": "SOC Analyst Tier 1",
-    "company": "ShorePoint / DMV Employers",
-    "market": "VA",
-    "city": "Northern Virginia / DC",
-    "salary": "$70K-$90K/yr",
-    "roleType": "SOC",
+    "score": 79,
+    "title": "Desktop Support Technician",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Patuxent River, MD",
+    "salary": "$48K-$62K/yr",
+    "roleType": "Desktop Support",
     "certs": [
       "sec",
       "fed"
     ],
     "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/soc-jobs-washington-dc-baltimore-area",
-    "notes": "Entry cleared cyber role - Security+ primary req - Public Trust to Secret - Help desk background helps",
-    "postedDate": "2026-08-28"
+    "url": "https://www.linkedin.com/jobs/view/desktop-support-technician-at-leidos-4460193238",
+    "notes": "Desktop Support - Early career - Security+ aligned - Clearance-eligible track - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
   },
   {
     "id": 12,
-    "score": 77,
-    "title": "Junior Cloud Engineer",
-    "company": "Commonwealth of Virginia",
-    "market": "VA",
-    "city": "Richmond, VA",
-    "salary": "$60K-$80K/yr",
-    "roleType": "Cloud",
+    "score": 78,
+    "title": "IT Specialist (APPSW) GS-7",
+    "company": "Federal Agency (DoD)",
+    "market": "MD",
+    "city": "Fort Meade, MD",
+    "salary": "$58K-$75K/yr",
+    "roleType": "Systems Admin",
     "certs": [
-      "cloud"
-    ],
-    "priority": "Medium",
-    "url": "https://www.indeed.com/q-Entry-Level-Cloud-Engineer-l-Virginia-jobs.html",
-    "notes": "AWS Cloud Practitioner/Cloud+ preferred - Public sector - Hybrid infra support - Growth role",
-    "postedDate": "2026-08-28"
-  },
-  {
-    "id": 13,
-    "score": 76,
-    "title": "IT Help Desk / Service Desk",
-    "company": "Capital One",
-    "market": "VA",
-    "city": "McLean, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.capitalonecareers.com/en/search-results?keywords=help%20desk",
-    "notes": "Large commercial employer - No clearance - Strong benefits - Entry tech support pipeline",
-    "postedDate": "2026-08-28"
-  },
-  {
-    "id": 14,
-    "score": 76,
-    "title": "Entry-Level Help Desk Technician",
-    "company": "Multiple Employers (via Glassdoor)",
-    "market": "VA",
-    "city": "Fairfax, VA",
-    "salary": "$40K-$52K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.glassdoor.com/Job/fairfax-entry-level-help-desk-jobs-SRCH_IL.0,7_IC1130359_KO8,29.htm",
-    "notes": "25+ Fairfax entry help desk roles - Mix of commercial/contractor - Security+ desired",
-    "postedDate": "2026-08-28"
-  },
-  {
-    "id": 15,
-    "score": 76,
-    "title": "Cloud Support Associate",
-    "company": "Multiple Employers (via Glassdoor)",
-    "market": "VA",
-    "city": "Herndon, VA",
-    "salary": "$50K-$65K/yr",
-    "roleType": "Cloud",
-    "certs": [
-      "cloud"
-    ],
-    "priority": "Medium",
-    "url": "https://www.glassdoor.com/Job/virginia-entry-level-cloud-jobs-SRCH_IL.0,8_IS323_KO9,31.htm",
-    "notes": "Entry cloud/ops support - Cloud+ or AWS CP valued - Northern VA tech corridor",
-    "postedDate": "2026-08-28"
-  },
-  {
-    "id": 16,
-    "score": 75,
-    "title": "IT Service Desk Analyst (Clearance-Eligible)",
-    "company": "Peraton",
-    "market": "VA",
-    "city": "Reston, VA",
-    "salary": "$50K-$60K/yr",
-    "roleType": "Help Desk",
-    "certs": [
+      "sec",
       "fed"
     ],
     "priority": "Medium",
-    "url": "https://careers.peraton.com/search-jobs",
-    "notes": "Federal contractor service desk - Clearance-eligible - Security+ for 8570 - Career growth",
-    "postedDate": "2026-08-28"
+    "url": "https://www.usajobs.gov/job/881804700",
+    "notes": "Federal GS-7 career ladder - Public Trust - No prior clearance required - Verified open on USAJobs",
+    "postedDate": "2026-08-30"
   },
   {
-    "id": 17,
-    "score": 75,
-    "title": "Associate Desktop Support Technician",
-    "company": "IT Services Firm",
+    "id": 13,
+    "score": 77,
+    "title": "Help Desk Specialist",
+    "company": "Frederick Health",
     "market": "MD",
-    "city": "Rockville, MD",
-    "salary": "$22-$28/hr",
-    "roleType": "Desktop Support",
+    "city": "Frederick, MD",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://www.ziprecruiter.com/Jobs/Desktop-Support/-in-Rockville,MD",
-    "notes": "Deskside/imaging support - Entry-level - A+/Security+ preferred - No clearance needed",
-    "postedDate": "2026-08-28"
+    "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-at-frederick-health-4458547609",
+    "notes": "Help Desk - Early career - Security+ aligned - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
   },
   {
-    "id": 18,
-    "score": 74,
-    "title": "SOC Analyst Tier 1",
-    "company": "Multiple Employers (via ZipRecruiter)",
+    "id": 14,
+    "score": 77,
+    "title": "Help Desk Technician",
+    "company": "Koniag Government Services",
     "market": "MD",
-    "city": "Fort Meade, MD",
-    "salary": "$70K-$95K/yr",
+    "city": "Baltimore, MD",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-technician-at-koniag-government-services-4417159081",
+    "notes": "Help Desk - Early career - Security+ aligned - Clearance-eligible track - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
+  },
+  {
+    "id": 15,
+    "score": 77,
+    "title": "SOC Analyst",
+    "company": "Dunhill Professional Search & Government Solutions",
+    "market": "MD",
+    "city": "Bethesda, MD",
+    "salary": "$60K-$78K/yr",
     "roleType": "SOC",
     "certs": [
       "sec",
       "fed"
     ],
     "priority": "Medium",
-    "url": "https://www.ziprecruiter.com/Jobs/Soc-Analyst/-in-Fort-Meade,MD",
-    "notes": "24/7 monitoring/triage - Security+ required - Many roles need clearance - Shift work",
-    "postedDate": "2026-08-28"
+    "url": "https://www.linkedin.com/jobs/view/soc-analyst-at-dunhill-professional-search-government-solutions-4458306159",
+    "notes": "SOC - Early career - Security+ aligned - Clearance-eligible track - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
+  },
+  {
+    "id": 16,
+    "score": 77,
+    "title": "Help Desk Specialist",
+    "company": "Chenega MIOS SBU",
+    "market": "VA",
+    "city": "Ashburn, VA",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-at-chenega-mios-sbu-4458502737",
+    "notes": "Help Desk - Early career - Security+ aligned - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
+  },
+  {
+    "id": 17,
+    "score": 77,
+    "title": "Service Desk Technician",
+    "company": "Marathon TS",
+    "market": "VA",
+    "city": "Herndon, VA",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/service-desk-technician-at-marathon-ts-4460390533",
+    "notes": "Help Desk - Early career - Security+ aligned - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
+  },
+  {
+    "id": 18,
+    "score": 77,
+    "title": "Service Desk Technician",
+    "company": "AMERICAN SYSTEMS",
+    "market": "VA",
+    "city": "Arlington, VA",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/service-desk-technician-at-american-systems-4410844899",
+    "notes": "Help Desk - Early career - Security+ aligned - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
   },
   {
     "id": 19,
-    "score": 74,
-    "title": "NOC Technician (Entry-Level)",
-    "company": "Multiple Employers (via ZipRecruiter)",
-    "market": "MD",
-    "city": "Baltimore, MD",
-    "salary": "$24-$28/hr",
-    "roleType": "NOC",
+    "score": 77,
+    "title": "Service Desk Analyst",
+    "company": "Koniag Government Services",
+    "market": "VA",
+    "city": "Vienna, VA",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
     "priority": "Medium",
-    "url": "https://www.ziprecruiter.com/Jobs/Noc-Technician/-in-Baltimore,MD",
-    "notes": "24/7 network ops - Network+ or CCNA valued - Shifts incl nights/weekends - Entry friendly",
-    "postedDate": "2026-08-28"
+    "url": "https://www.linkedin.com/jobs/view/service-desk-analyst-at-koniag-government-services-4454748444",
+    "notes": "Help Desk - Early career - Security+ aligned - Clearance-eligible track - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
   },
   {
     "id": 20,
-    "score": 74,
-    "title": "IT Support Technician",
-    "company": "USAA",
-    "market": "TX",
-    "city": "San Antonio, TX",
-    "salary": "$45K-$55K/yr",
+    "score": 76,
+    "title": "Customer Support Specialist (Technical)",
+    "company": "Peraton",
+    "market": "VA",
+    "city": "Sterling, VA",
+    "salary": "$45K-$58K/yr",
     "roleType": "Help Desk",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
     "priority": "Medium",
-    "url": "https://www.usaajobs.com/search-jobs/San%20Antonio%2C%20TX",
-    "notes": "Large employer - No clearance - Strong training/benefits - Entry tech support",
-    "postedDate": "2026-08-28"
+    "url": "https://www.linkedin.com/jobs/view/customer-support-specialist-technical-at-peraton-4457404170",
+    "notes": "Help Desk - Early career - Security+ aligned - Clearance-eligible track - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
   },
   {
     "id": 21,
-    "score": 73,
-    "title": "Early Career IT / Systems Support",
-    "company": "Booz Allen Hamilton",
+    "score": 76,
+    "title": "Service Desk Specialist",
+    "company": "Inserso Corporation",
     "market": "VA",
-    "city": "McLean, VA",
-    "salary": "$55K-$65K/yr",
-    "roleType": "Systems Admin",
+    "city": "Washington, DC",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
     "certs": [
-      "fed"
+      "sec"
     ],
     "priority": "Medium",
-    "url": "https://careers.boozallen.com/jobs/search",
-    "notes": "Early-career federal track - Clearance-eligible - Security+ valued - Structured growth",
-    "postedDate": "2026-08-28"
+    "url": "https://www.linkedin.com/jobs/view/service-desk-specialist-at-inserso-corporation-4456958350",
+    "notes": "Help Desk - Early career - Security+ aligned - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
   },
   {
     "id": 22,
-    "score": 73,
-    "title": "Junior IT Technician",
-    "company": "Stouffer Legal",
+    "score": 75,
+    "title": "Help Desk Technician",
+    "company": "Planet Depos",
     "market": "MD",
-    "city": "Towson, MD",
-    "salary": "$40K-$48K/yr",
-    "roleType": "Field Tech",
+    "city": "Rockville, MD",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://www.indeed.com/q-junior-it-technician-l-towson,-md-jobs.html",
-    "notes": "Small-firm in-person IT - Broad hands-on exposure - No clearance - Good resume builder",
-    "postedDate": "2026-08-28"
+    "url": "https://www.linkedin.com/jobs/view/help-desk-technician-at-planet-depos-4456278486",
+    "notes": "Help Desk - Early career - Security+ aligned - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
   },
   {
     "id": 23,
-    "score": 73,
-    "title": "Entry-Level IT Help Desk",
-    "company": "Multiple Employers (via ZipRecruiter)",
-    "market": "TX",
-    "city": "San Antonio, TX",
-    "salary": "$17-$27/hr",
+    "score": 75,
+    "title": "Technical IT Support Specialist",
+    "company": "mPower, Inc.",
+    "market": "MD",
+    "city": "Bethesda, MD",
+    "salary": "$45K-$58K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://www.ziprecruiter.com/Jobs/Entry-Level-It-Help-Desk/-in-San-Antonio,TX",
-    "notes": "High-volume TX help desk market - Often no experience required - A+ helpful",
-    "postedDate": "2026-08-28"
+    "url": "https://www.linkedin.com/jobs/view/technical-it-support-specialist-at-mpower-inc-4454912882",
+    "notes": "Help Desk - Early career - Security+ aligned - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
   },
   {
     "id": 24,
-    "score": 72,
-    "title": "Desktop Support Specialist",
-    "company": "Charles Schwab",
-    "market": "TX",
-    "city": "Westlake, TX",
-    "salary": "Competitive",
-    "roleType": "Desktop Support",
+    "score": 75,
+    "title": "Cyber Operations Analyst",
+    "company": "Zachary Piper Solutions",
+    "market": "MD",
+    "city": "Fort Meade, MD",
+    "salary": "$60K-$78K/yr",
+    "roleType": "SOC",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://www.schwabjobs.com/search-jobs",
-    "notes": "Corporate deskside support - No clearance - Strong benefits - Entry-level friendly",
-    "postedDate": "2026-08-28"
+    "url": "https://www.linkedin.com/jobs/view/cyber-operations-analyst-at-zachary-piper-solutions-4459422382",
+    "notes": "SOC - Early career - Security+ aligned - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
   },
   {
     "id": 25,
-    "score": 72,
-    "title": "Desktop Support Specialist",
-    "company": "TEKsystems (Contract)",
-    "market": "TX",
-    "city": "Dallas, TX",
-    "salary": "$22-$28/hr",
-    "roleType": "Desktop Support",
+    "score": 75,
+    "title": "SOC Analyst",
+    "company": "Koniag Government Services",
+    "market": "MD",
+    "city": "Baltimore, MD",
+    "salary": "$60K-$78K/yr",
+    "roleType": "SOC",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/soc-analyst-at-koniag-government-services-4436828872",
+    "notes": "SOC - Early career - Security+ aligned - Clearance-eligible track - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
+  },
+  {
+    "id": 26,
+    "score": 75,
+    "title": "Cyber Defense Analyst",
+    "company": "Leidos",
+    "market": "MD",
+    "city": "Suitland, MD",
+    "salary": "$60K-$78K/yr",
+    "roleType": "SOC",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/cyber-defense-analyst-at-leidos-4454162896",
+    "notes": "SOC - Early career - Security+ aligned - Clearance-eligible track - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
+  },
+  {
+    "id": 27,
+    "score": 75,
+    "title": "Cyber IT Specialist, 2nd Shift",
+    "company": "Peraton",
+    "market": "MD",
+    "city": "Beltsville, MD",
+    "salary": "$60K-$78K/yr",
+    "roleType": "SOC",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/cyber-it-specialist-2nd-shift-at-peraton-4437590266",
+    "notes": "SOC - Early career - Security+ aligned - Clearance-eligible track - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
+  },
+  {
+    "id": 28,
+    "score": 75,
+    "title": "Specialist, Technical Support Engineering /",
+    "company": "L3Harris Technologies",
+    "market": "MD",
+    "city": "Fort George G. Meade, MD",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "Medium",
-    "url": "https://www.teksystems.com/en/search-jobs?keyword=desktop%20support",
-    "notes": "Staffing firm contract role - Fast placement - A+/Security+ preferred - Dallas metro",
-    "postedDate": "2026-08-28"
-  },
-  {
-    "id": 26,
-    "score": 66,
-    "title": "IT Cybersecurity Specialist (INFOSEC, 2210)",
-    "company": "Federal Agency",
-    "market": "MD",
-    "city": "Fort Meade, MD",
-    "salary": "$60K-$85K/yr",
-    "roleType": "Cybersecurity",
-    "certs": [
-      "fed"
-    ],
-    "priority": "Stretch",
-    "url": "https://www.usajobs.gov/job/871157600",
-    "notes": "Federal 2210 cyber role - Clearance likely required - Aspirational but valuable to target",
-    "postedDate": "2026-08-28"
-  },
-  {
-    "id": 27,
-    "score": 64,
-    "title": "Tier 2 / Help Desk Lead (Clearance)",
-    "company": "GDIT",
-    "market": "MD",
-    "city": "Annapolis Junction, MD",
-    "salary": "$60K-$75K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "fed"
-    ],
-    "priority": "Stretch",
-    "url": "https://www.gdit.com/careers/search-jobs/?keyword=help%20desk",
-    "notes": "Requires active clearance + more experience - Stretch - Worth watching as skills grow",
-    "postedDate": "2026-08-28"
-  },
-  {
-    "id": 28,
-    "score": 62,
-    "title": "SOC Analyst Tier 1 (TS/SCI CI Poly)",
-    "company": "Multiple Employers",
-    "market": "MD",
-    "city": "Fort Meade, MD",
-    "salary": "$95K-$115K/yr",
-    "roleType": "SOC",
-    "certs": [
-      "fed"
-    ],
-    "priority": "Stretch",
-    "url": "https://www.indeed.com/q-tier-1-soc-analyst-l-fort-meade,-md-jobs.html",
-    "notes": "High pay but needs TS/SCI w/ CI Poly - Aspirational - Great long-term target once cleared",
-    "postedDate": "2026-08-28"
+    "url": "https://www.linkedin.com/jobs/view/specialist-technical-support-engineering-transmission-control-tc-at-l3harris-technologies-4438271661",
+    "notes": "Help Desk - Early career - Security+ aligned - Verified live on LinkedIn",
+    "postedDate": "2026-08-30"
   }
 ]
