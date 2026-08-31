@@ -210,7 +210,7 @@ border-bottom:1px solid #cbd5e1;padding-bottom:3px;margin:16px 0 8px}
 <div>
 <h1>Jalen Batiste - IT Support &amp; Systems Job Search</h1>
 <div class="creds">B.S. Information Technology, Towson University (Dec 2025) - CompTIA Security+ and Cloud+ - Clearance-eligible</div>
-<div class="sub">Baltimore / DMV area. Entry-level help desk, desktop support, SOC, cloud, NOC and systems administration roles across Maryland, DC/Virginia and Texas, spanning commercial, state and federal employers. Strengths: help desk and desktop support, Windows and Active Directory fundamentals, networking and security fundamentals, and cloud fundamentals (Security+ and Cloud+ certified).</div>
+<div class="sub">Baltimore / DMV area. Entry-level help desk, desktop support, SOC, cloud, NOC and systems administration roles across Maryland, DC/Virginia, Texas and 100% remote nationwide, spanning commercial, state and federal employers. Strengths: help desk and desktop support, Windows and Active Directory fundamentals, networking and security fundamentals, and cloud fundamentals (Security+ and Cloud+ certified).</div>
 </div>
 <div class="hbtns">
 <button class="theme-btn" id="wnbtn" onclick="renderWhatsNew(true)">What&#39;s new</button>
@@ -378,7 +378,7 @@ border-bottom:1px solid #cbd5e1;padding-bottom:3px;margin:16px 0 8px}
 </div>
 </div>
 
-<footer>Auto-refreshed daily. Built for Jalen Batiste. Scores reflect fit to his profile: entry-level IT support, help desk, desktop, SOC, cloud and systems roles across Maryland, DC/Virginia and Texas, commercial, state and federal. Clearance requirements and matched certifications are shown on every card. Saved jobs and notes are stored in this browser only.</footer>
+<footer>Auto-refreshed daily. Built for Jalen Batiste. Scores reflect fit to his profile: entry-level IT support, help desk, desktop, SOC, cloud and systems roles across Maryland, DC/Virginia, Texas and 100% remote nationwide, commercial, state and federal. Clearance requirements and matched certifications are shown on every card. Saved jobs and notes are stored in this browser only.</footer>
 
 <script>
 var JOBS=[];
@@ -909,7 +909,7 @@ var dates=[];
 JOBS.forEach(function(j){var d=j.posted||j.postedDate;if(d&&dates.indexOf(d)<0)dates.push(d);});
 dates.sort().reverse();
 document.getElementById("updated").textContent="Last refreshed: "+(dates[0]||"-")+
-" - "+JOBS.length+" entry-level IT openings across Maryland, DC/Virginia and Texas";
+" - "+JOBS.length+" entry-level IT openings across Maryland, DC/Virginia, Texas and 100% remote nationwide";
 renderAll();
 ["q","priority","market","sector","role","clearance","cert","stage","sort"].forEach(function(id){
 document.getElementById(id).addEventListener(id==="q"?"input":"change",renderGrid);});})
