@@ -245,7 +245,7 @@ border-bottom:1px solid #cbd5e1;padding-bottom:3px;margin:16px 0 8px}
 <div class="controls">
 <input type="search" id="q" placeholder="Search title, company, city, notes...">
 <select id="priority"><option value="">All priorities</option><option>High</option><option>Medium</option><option>Stretch</option></select>
-<select id="market"><option value="">All locations</option><option value="MD">Maryland</option><option value="VA">DC / Virginia</option><option value="TX">Texas</option></select>
+<select id="market"><option value="">All locations</option><option value="MD">Maryland</option><option value="VA">DC / Virginia</option><option value="TX">Texas</option><option value="Remote">Remote (nationwide)</option></select>
 <select id="sector"><option value="">All sectors</option><option>Commercial</option><option>Government</option><option>Federal</option></select>
 <select id="role"><option value="">All role types</option></select>
 <select id="clearance">
@@ -315,7 +315,7 @@ border-bottom:1px solid #cbd5e1;padding-bottom:3px;margin:16px 0 8px}
 <div class="guide">
 
 <h2>What is in here</h2>
-<p>Every listing on this dashboard is an entry-level IT support, help desk, desktop, SOC, cloud, NOC or systems role in Maryland, DC/Virginia or Texas, checked to be open at the time of the refresh. Roles that are above entry level get left out rather than listed with a lower score - a short honest list beats a long padded one.</p>
+<p>Every listing on this dashboard is an entry-level IT support, help desk, desktop, SOC, cloud, NOC or systems role in Maryland, DC/Virginia, Texas, or 100% remote nationwide, checked to be open at the time of the refresh. Roles that are above entry level get left out rather than listed with a lower score - a short honest list beats a long padded one.</p>
 
 <h2>Reading a job card</h2>
 <p>The <strong>number in the ring</strong> is an overall fit score out of 100. Green is a strong fit (80+), amber is good with a gap (70-79), orange is a stretch (60-69).</p>
@@ -550,7 +550,7 @@ b.appendChild(el("span","pri "+j.priority,j.priority));
 var cb=clearanceBadge(clearanceLevel(j));
 b.appendChild(el("span","chip "+cb.cls,cb.label));
 certMatch(j).forEach(function(cm){b.appendChild(el("span","chip cert",cm));});
-b.appendChild(el("span","chip",j.city||j.market));
+b.appendChild(el("span","chip"+(j.market==="Remote"?" remote":""),j.city||j.market));
 b.appendChild(el("span","chip sec-"+j.sector,j.sector));
 b.appendChild(el("span","chip",j.roleType));
 card.appendChild(b);
@@ -645,11 +645,12 @@ options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:fals
 scales:{y:{beginAtZero:true,ticks:{precision:0},grid:{color:lineC}},x:{grid:{display:false}}}}});
 
 mk("c-market",{type:"doughnut",
-data:{labels:["Maryland","DC / Virginia","Texas"],datasets:[{data:[
+data:{labels:["Maryland","DC / Virginia","Texas","Remote"],datasets:[{data:[
 JOBS.filter(function(j){return j.market==="MD";}).length,
 JOBS.filter(function(j){return j.market==="VA";}).length,
-JOBS.filter(function(j){return j.market==="TX";}).length],
-backgroundColor:["#818cf8","#38bdf8","#2dd4bf"],borderWidth:0}]},
+JOBS.filter(function(j){return j.market==="TX";}).length,
+JOBS.filter(function(j){return j.market==="Remote";}).length],
+backgroundColor:["#818cf8","#38bdf8","#2dd4bf","#f59e0b"],borderWidth:0}]},
 options:{responsive:true,maintainAspectRatio:false,cutout:"58%",
 plugins:{legend:{position:"right",labels:{boxWidth:12,padding:14}}}}});
 
@@ -782,14 +783,14 @@ function stat(n,l){var d=el("div","stat");d.appendChild(el("div","n",n));d.appen
 var high=JOBS.filter(function(j){return j.score>=80;}).length;
 var md=JOBS.filter(function(j){return j.market==="MD";}).length;
 var va=JOBS.filter(function(j){return j.market==="VA";}).length;
-var tx=JOBS.filter(function(j){return j.market==="TX";}).length;
+var tx=JOBS.filter(function(j){return j.market==="TX";}).length;var rem=JOBS.filter(function(j){return j.market==="Remote";}).length;
 var noClr=JOBS.filter(function(j){return clearanceKey(clearanceLevel(j))==="none";}).length;
 var tracked=JOBS.filter(function(j){return getRec(jobKey(j)).stage;}).length;
 s.appendChild(stat(JOBS.length,"Open roles"));
 s.appendChild(stat(high,"High fit"));
 s.appendChild(stat(md,"Maryland"));
 s.appendChild(stat(va,"DC / Virginia"));
-s.appendChild(stat(tx,"Texas"));
+s.appendChild(stat(tx,"Texas"));s.appendChild(stat(rem,"Remote"));
 s.appendChild(stat(noClr,"No clearance"));
 var pt=stat(tracked,"In pipeline");pt.id="stat-pipeline";s.appendChild(pt);
 var roles=[];JOBS.forEach(function(j){if(roles.indexOf(j.roleType)<0)roles.push(j.roleType);});
