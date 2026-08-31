@@ -499,7 +499,7 @@ if(j.certRequired&&j.certNote)gaps.unshift("This posting names a certification h
 if(j.clearance==="Active Required")gaps.unshift("This posting expects an already-held clearance. Lead with clearance eligibility and willingness to be sponsored.");
 if(j.clearance==="Eligible/Sponsor")gaps.push("Clearance-eligible role - state plainly that he is eligible and willing to obtain a clearance.");
 var lab=top.slice(0,2).map(function(x){return x.label;});
-var sum="Information Systems Management graduate (UMBC, August 2026, GPA 3.6) seeking the "+(j.title||"role")+" at "+(j.company||"your organization")+", bringing "+(lab.length?lab.join(" and ").toLowerCase():"a foundation in IT and systems analysis")+".";
+var sum="Information Systems Management graduate (UMBC, August 2026, GPA 3.6) seeking the "+(j.title||"role")+" at "+(j.company||"your organization")+", bringing "+(lab.length?("strengths in "+lab.join(", plus ").toLowerCase()):"a foundation in IT and systems analysis")+".";
 return {groups:top,kws:kws.slice(0,12),lead:lead,gaps:gaps.slice(0,4),summary:sum};}
 function buildTailorPrompt(j){
 var m=tailorMatch(j),L=[];
