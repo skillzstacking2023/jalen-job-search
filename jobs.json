@@ -121,6 +121,24 @@
   },
   {
     "id": 8,
+    "score": 84,
+    "title": "Associate Service Desk Technician",
+    "company": "Govcio LLC",
+    "market": "Remote",
+    "city": "Remote (US)",
+    "salary": "$60K-$78K/yr",
+    "roleType": "SOC",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.indeed.com/viewjob?jk=eb82dbd13f551c51",
+    "notes": "100% remote (nationwide) - SOC - Entry level - Security+ aligned - Clearance-eligible federal contractor - Source: Indeed",
+    "postedDate": "2026-08-31"
+  },
+  {
+    "id": 9,
     "score": 83,
     "title": "IT Service Desk Analyst I",
     "company": "GBMC HealthCare",
@@ -137,7 +155,7 @@
     "postedDate": "2026-08-30"
   },
   {
-    "id": 9,
+    "id": 10,
     "score": 83,
     "title": "Analyst I Service Desk",
     "company": "Womble Bond Dickinson (US) LLP",
@@ -154,7 +172,79 @@
     "postedDate": "2026-08-30"
   },
   {
-    "id": 10,
+    "id": 11,
+    "score": 83,
+    "title": "Help Desk Support Specialist",
+    "company": "Hunter Strategy",
+    "market": "Remote",
+    "city": "Remote (US)",
+    "salary": "$45K-$60K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.indeed.com/viewjob?jk=b4dfe92c7e2af3d5",
+    "notes": "100% remote (nationwide) - Help Desk - Entry level - Security+ aligned - Clearance-eligible federal contractor - Source: Indeed",
+    "postedDate": "2026-08-31"
+  },
+  {
+    "id": 12,
+    "score": 83,
+    "title": "Help Desk Support Agent (Mid)",
+    "company": "PingWind",
+    "market": "Remote",
+    "city": "Remote (US)",
+    "salary": "$45K-$60K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.indeed.com/viewjob?jk=15d453bb58d627a4",
+    "notes": "100% remote (nationwide) - Help Desk - Entry level - Security+ aligned - Clearance-eligible federal contractor - Source: Indeed",
+    "postedDate": "2026-08-31"
+  },
+  {
+    "id": 13,
+    "score": 83,
+    "title": "Tier 2 Help Desk Support Technician",
+    "company": "Axiom",
+    "market": "Remote",
+    "city": "Remote (US)",
+    "salary": "$45K-$60K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.indeed.com/viewjob?jk=7aa68bc9b4895746",
+    "notes": "100% remote (nationwide) - Help Desk - Entry level - Security+ aligned - Clearance-eligible federal contractor - Source: Indeed",
+    "postedDate": "2026-08-31"
+  },
+  {
+    "id": 14,
+    "score": 83,
+    "title": "IT Support Services II-Help Desk",
+    "company": "Courser",
+    "market": "Remote",
+    "city": "Remote (US)",
+    "salary": "$45K-$60K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.indeed.com/viewjob?jk=61df3028406c9987",
+    "notes": "100% remote (nationwide) - Help Desk - Entry level - Security+ aligned - Clearance-eligible federal contractor - Source: Indeed",
+    "postedDate": "2026-08-31"
+  },
+  {
+    "id": 15,
     "score": 81,
     "title": "Tier 1 SOC Analyst",
     "company": "VMD Corp",
@@ -171,7 +261,58 @@
     "postedDate": "2026-08-30"
   },
   {
-    "id": 11,
+    "id": 16,
+    "score": 80,
+    "title": "IT Service Desk Agent (2 Openings)",
+    "company": "City of Memphis",
+    "market": "Remote",
+    "city": "Remote (US)",
+    "salary": "$45K-$60K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/it-service-desk-agent-2-openings-at-city-of-memphis-4457914642",
+    "notes": "100% remote (nationwide) - Help Desk - Entry level - Security+ aligned - Source: LinkedIn",
+    "postedDate": "2026-08-31"
+  },
+  {
+    "id": 17,
+    "score": 80,
+    "title": "IT Support Technician (IB3)",
+    "company": "Foxconn Industrial Internet - FII",
+    "market": "Remote",
+    "city": "Remote (US)",
+    "salary": "$45K-$60K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/it-support-technician-ib3-at-foxconn-industrial-internet-fii-4456024475",
+    "notes": "100% remote (nationwide) - Help Desk - Entry level - Security+ aligned - Source: LinkedIn",
+    "postedDate": "2026-08-31"
+  },
+  {
+    "id": 18,
+    "score": 80,
+    "title": "Global Tier 1 Service Desk Technician",
+    "company": "KBR Careers",
+    "market": "Remote",
+    "city": "Remote (US)",
+    "salary": "$45K-$60K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/global-tier-1-service-desk-technician-at-kbr-careers-4459354274",
+    "notes": "100% remote (nationwide) - Help Desk - Entry level - Security+ aligned - Source: LinkedIn",
+    "postedDate": "2026-08-31"
+  },
+  {
+    "id": 19,
     "score": 79,
     "title": "Desktop Support Technician",
     "company": "Leidos",
@@ -189,7 +330,7 @@
     "postedDate": "2026-08-30"
   },
   {
-    "id": 12,
+    "id": 20,
     "score": 78,
     "title": "IT Specialist (APPSW) GS-7",
     "company": "Federal Agency (DoD)",
@@ -207,7 +348,7 @@
     "postedDate": "2026-08-30"
   },
   {
-    "id": 13,
+    "id": 21,
     "score": 77,
     "title": "Help Desk Specialist",
     "company": "Frederick Health",
@@ -224,7 +365,7 @@
     "postedDate": "2026-08-30"
   },
   {
-    "id": 14,
+    "id": 22,
     "score": 77,
     "title": "Help Desk Technician",
     "company": "Koniag Government Services",
@@ -242,7 +383,7 @@
     "postedDate": "2026-08-30"
   },
   {
-    "id": 15,
+    "id": 23,
     "score": 77,
     "title": "SOC Analyst",
     "company": "Dunhill Professional Search & Government Solutions",
@@ -260,7 +401,7 @@
     "postedDate": "2026-08-30"
   },
   {
-    "id": 16,
+    "id": 24,
     "score": 77,
     "title": "Help Desk Specialist",
     "company": "Chenega MIOS SBU",
@@ -277,7 +418,7 @@
     "postedDate": "2026-08-30"
   },
   {
-    "id": 17,
+    "id": 25,
     "score": 77,
     "title": "Service Desk Technician",
     "company": "Marathon TS",
@@ -294,7 +435,7 @@
     "postedDate": "2026-08-30"
   },
   {
-    "id": 18,
+    "id": 26,
     "score": 77,
     "title": "Service Desk Technician",
     "company": "AMERICAN SYSTEMS",
@@ -311,7 +452,7 @@
     "postedDate": "2026-08-30"
   },
   {
-    "id": 19,
+    "id": 27,
     "score": 77,
     "title": "Service Desk Analyst",
     "company": "Koniag Government Services",
@@ -329,7 +470,7 @@
     "postedDate": "2026-08-30"
   },
   {
-    "id": 20,
+    "id": 28,
     "score": 76,
     "title": "Customer Support Specialist (Technical)",
     "company": "Peraton",
@@ -344,145 +485,6 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/customer-support-specialist-technical-at-peraton-4457404170",
     "notes": "Help Desk - Early career - Security+ aligned - Clearance-eligible track - Verified live on LinkedIn",
-    "postedDate": "2026-08-30"
-  },
-  {
-    "id": 21,
-    "score": 76,
-    "title": "Service Desk Specialist",
-    "company": "Inserso Corporation",
-    "market": "VA",
-    "city": "Washington, DC",
-    "salary": "$45K-$58K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/service-desk-specialist-at-inserso-corporation-4456958350",
-    "notes": "Help Desk - Early career - Security+ aligned - Verified live on LinkedIn",
-    "postedDate": "2026-08-30"
-  },
-  {
-    "id": 22,
-    "score": 75,
-    "title": "Help Desk Technician",
-    "company": "Planet Depos",
-    "market": "MD",
-    "city": "Rockville, MD",
-    "salary": "$45K-$58K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/help-desk-technician-at-planet-depos-4456278486",
-    "notes": "Help Desk - Early career - Security+ aligned - Verified live on LinkedIn",
-    "postedDate": "2026-08-30"
-  },
-  {
-    "id": 23,
-    "score": 75,
-    "title": "Technical IT Support Specialist",
-    "company": "mPower, Inc.",
-    "market": "MD",
-    "city": "Bethesda, MD",
-    "salary": "$45K-$58K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/technical-it-support-specialist-at-mpower-inc-4454912882",
-    "notes": "Help Desk - Early career - Security+ aligned - Verified live on LinkedIn",
-    "postedDate": "2026-08-30"
-  },
-  {
-    "id": 24,
-    "score": 75,
-    "title": "Cyber Operations Analyst",
-    "company": "Zachary Piper Solutions",
-    "market": "MD",
-    "city": "Fort Meade, MD",
-    "salary": "$60K-$78K/yr",
-    "roleType": "SOC",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/cyber-operations-analyst-at-zachary-piper-solutions-4459422382",
-    "notes": "SOC - Early career - Security+ aligned - Verified live on LinkedIn",
-    "postedDate": "2026-08-30"
-  },
-  {
-    "id": 25,
-    "score": 75,
-    "title": "SOC Analyst",
-    "company": "Koniag Government Services",
-    "market": "MD",
-    "city": "Baltimore, MD",
-    "salary": "$60K-$78K/yr",
-    "roleType": "SOC",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/soc-analyst-at-koniag-government-services-4436828872",
-    "notes": "SOC - Early career - Security+ aligned - Clearance-eligible track - Verified live on LinkedIn",
-    "postedDate": "2026-08-30"
-  },
-  {
-    "id": 26,
-    "score": 75,
-    "title": "Cyber Defense Analyst",
-    "company": "Leidos",
-    "market": "MD",
-    "city": "Suitland, MD",
-    "salary": "$60K-$78K/yr",
-    "roleType": "SOC",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/cyber-defense-analyst-at-leidos-4454162896",
-    "notes": "SOC - Early career - Security+ aligned - Clearance-eligible track - Verified live on LinkedIn",
-    "postedDate": "2026-08-30"
-  },
-  {
-    "id": 27,
-    "score": 75,
-    "title": "Cyber IT Specialist, 2nd Shift",
-    "company": "Peraton",
-    "market": "MD",
-    "city": "Beltsville, MD",
-    "salary": "$60K-$78K/yr",
-    "roleType": "SOC",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/cyber-it-specialist-2nd-shift-at-peraton-4437590266",
-    "notes": "SOC - Early career - Security+ aligned - Clearance-eligible track - Verified live on LinkedIn",
-    "postedDate": "2026-08-30"
-  },
-  {
-    "id": 28,
-    "score": 75,
-    "title": "Specialist, Technical Support Engineering /",
-    "company": "L3Harris Technologies",
-    "market": "MD",
-    "city": "Fort George G. Meade, MD",
-    "salary": "$45K-$58K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/specialist-technical-support-engineering-transmission-control-tc-at-l3harris-technologies-4438271661",
-    "notes": "Help Desk - Early career - Security+ aligned - Verified live on LinkedIn",
     "postedDate": "2026-08-30"
   }
 ]
