@@ -194,7 +194,7 @@ h1{font-size:22px}
 <div>
 <h1>Tiffany T. Taylor - Executive IT Job Search</h1>
 <div class="creds">CISSP - PMP - MS Computer Systems Management - Active clearance (details on request)</div>
-<div class="sub">Senior Director, Cyber Risk Management &amp; IT Services Division Lead - $350M portfolio, $100M+ FY25 revenue, 159 staff + 80 subcontractors. Targeting 100% remote Senior Director and VP roles in Commercial IT, Healthcare IT, State Government IT, and non-NSA Defense. Compensation floor $225K base.</div>
+<div class="sub">Senior Director, Cyber Risk Management and IT Services Division Lead - large-portfolio division leadership spanning cyber risk, IT services, and staff and subcontractor management. Targeting 100% remote Senior Director and VP roles in Commercial IT, Healthcare IT, State Government IT, and Defense.</div>
 </div>
 <button class="theme-btn" id="wnbtn" onclick="renderWhatsNew(true)">What&#39;s new</button>
 <button class="theme-btn" id="theme-btn" onclick="toggleTheme()">Light Mode</button>
@@ -276,7 +276,7 @@ h1{font-size:22px}
 
 <h2>Reading a role card</h2>
 <p>The <strong>number in the ring</strong> is an overall fit score out of 100. Green is a strong fit (85+), amber is good with a gap (75-84), orange is a stretch (65-74).</p>
-<p>Under the salary you may see an <strong>amber warning</strong> that the band starts below $225K. That means the employer published a wide range and the top of it is not guaranteed - worth knowing before you invest time.</p>
+<p>Under the salary you may see an <strong>amber warning</strong> that the band starts below your target floor. That means the employer published a wide range and the top of it is not guaranteed - worth knowing before you invest time.</p>
 <p>The grey line at the bottom shows <strong>how old the posting is, when it closes</strong>, and the date it was last checked against the live listing. Anything closing within seven days is highlighted in amber.</p>
 <p>Click <strong>Fit breakdown + intel</strong> on any card to open three things: a five-part score breakdown explaining exactly why it scored what it did, what is known about the company, and a free-text notes box that saves as you type.</p>
 
@@ -307,13 +307,13 @@ h1{font-size:22px}
 <li><strong>VP level</strong> - the rest are Senior Director</li>
 <li><strong>100% remote</strong> - always equals the total; anything not genuinely remote is removed rather than listed</li>
 <li><strong>No clearance</strong> - roles needing no security clearance at all. Your active clearance is an asset on the others, never a barrier</li>
-<li><strong>Min $225K+</strong> - roles where even the <em>bottom</em> of the published band clears your floor. This deliberately does not count roles that merely <em>could</em> reach a high number</li>
+<li><strong>Min $225K+</strong> - roles where even the <em>bottom</em> of the published band clears your target. This deliberately does not count roles that merely <em>could</em> reach a high number</li>
 <li><strong>Closing &lt;= 7d</strong> - apply to these first</li>
 <li><strong>In pipeline</strong> - how many you are tracking</li>
 </ul>
 
 <h2>The Analytics tab</h2>
-<p>Six views of the same data: where the remote executive market actually is by sector, how scores are distributed, published salary bands with a dashed line marking your $225K floor, an average of where this slate is strong and where it is thin, your application funnel, and which kinds of executive roles exist remotely.</p>
+<p>Six views of the same data: where the remote executive market actually is by sector, how scores are distributed, published salary bands with a dashed line marking your target floor, an average of where this slate is strong and where it is thin, your application funnel, and which kinds of executive roles exist remotely.</p>
 <p>The compensation chart is worth a look - the grey part of each bar is the band minimum and the blue part is the range above it, so you can see at a glance which employers start below your floor.</p>
 
 <h2>What this dashboard does not know</h2>
@@ -343,7 +343,7 @@ h1{font-size:22px}
 </div>
 <div class="chartbox">
 <h3>Compensation ranges</h3>
-<div class="cs">Published or estimated base bands, highest first. Dashed line is the $225K floor.</div>
+<div class="cs">Published or estimated base bands, highest first. Dashed line is your target floor.</div>
 <div class="canvaswrap"><canvas id="c-comp"></canvas></div>
 </div>
 <div class="chartbox">
@@ -365,7 +365,7 @@ h1{font-size:22px}
 </div>
 </div>
 
-<footer>Auto-refreshed daily. Built for Tiffany T. Taylor. Scores reflect fit to her profile: 100% remote, Senior Director or VP, $225K+ base, Commercial / Healthcare / State Government IT, and Defense excluding NSA. Every role here was opened and re-checked against the live posting for remote status, seniority and published salary - roles that failed were removed rather than downgraded. Where a salary is an estimate rather than a published band, the card says so. Pipeline stages and notes are saved in this browser only.</footer>
+<footer>Auto-refreshed daily. Built for Tiffany T. Taylor. Scores reflect fit to her profile: 100% remote, Senior Director or VP, executive-band compensation, Commercial / Healthcare / State Government IT, and Defense. Every role here was opened and re-checked against the live posting for remote status, seniority and published salary - roles that failed were removed rather than downgraded. Where a salary is an estimate rather than a published band, the card says so. Pipeline stages and notes are saved in this browser only.</footer>
 
 <script>
 var JOBS=[];
@@ -640,7 +640,7 @@ var g=c.ctx;g.save();
 g.strokeStyle="#f97316";g.lineWidth=2;g.setLineDash([5,4]);
 g.beginPath();g.moveTo(x,c.chartArea.top);g.lineTo(x,c.chartArea.bottom);g.stroke();
 g.setLineDash([]);g.fillStyle="#f97316";g.font="bold 10px -apple-system,sans-serif";
-g.textAlign="left";g.fillText("$225K floor",x+4,c.chartArea.top+11);
+g.textAlign="left";g.fillText("Target floor",x+4,c.chartArea.top+11);
 g.restore();}};
 mk("c-comp",{type:"bar",plugins:[floorLine],
 data:{labels:byComp.map(function(j){return j.company;}),
