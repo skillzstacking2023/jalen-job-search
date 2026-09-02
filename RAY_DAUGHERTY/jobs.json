@@ -17,7 +17,28 @@
     "certNote": "",
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "Business analysis, requirements and process improvement line up with his systems analysis coursework.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Baltimore, MD",
+      "remotePolicy": null,
+      "news": "Selected in 2026 for the state funded Maryland Lighthouse AI Internship Program",
+      "levelHistory": "Yes - state funded specifically to create new internship positions"
+    }
   },
   {
     "id": 2,
@@ -37,7 +58,28 @@
     "certNote": "",
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 4,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "General IT internship work fits his information systems background.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "Asks for a clearance the employer sponsors, and he is clearance eligible with no active clearance.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": null,
+      "hq": "California, MD",
+      "remotePolicy": null,
+      "news": "Selected in 2026 for the state funded Maryland Lighthouse AI Internship Program",
+      "levelHistory": "Yes - state funded specifically to create new internship positions"
+    }
   },
   {
     "id": 3,
@@ -57,7 +99,28 @@
     "certNote": "",
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 4,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "Data preparation and reporting work lines up with his SQL and Excel strengths.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "Asks for a clearance the employer sponsors, and he is clearance eligible with no active clearance.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": null,
+      "hq": "California, MD",
+      "remotePolicy": null,
+      "news": "Selected in 2026 for the state funded Maryland Lighthouse AI Internship Program",
+      "levelHistory": "Yes - state funded specifically to create new internship positions"
+    }
   },
   {
     "market": "MD",
@@ -77,7 +140,28 @@
     "clearance": "None",
     "url": "https://www.governmentjobs.com/jobs/5210267-0/programmer-i-database-and-programmer-ii-database",
     "notes": "Full-time entry-level programmer role, Level I open to new graduates - Minimum qualification is a bachelor degree in information technology with NO experience required, or an associate degree plus two years - Direct match for relational database and SQL coursework - Combined I/II posting so apply at the Level I grade",
-    "id": 4
+    "id": 4,
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "Database and programming work lines up with his SQL, relational database design and Java coursework.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Catonsville, MD",
+      "remotePolicy": null,
+      "news": null,
+      "levelHistory": "Yes - this posting opens at Level I with a bachelor degree as the stated minimum"
+    }
   },
   {
     "id": 5,
@@ -97,7 +181,28 @@
     "certNote": "",
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "General IT internship work fits his information systems background.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Baltimore, MD",
+      "remotePolicy": null,
+      "news": "Selected in 2026 for the state funded Maryland Lighthouse AI Internship Program",
+      "levelHistory": "Yes - state funded specifically to create new internship positions"
+    }
   },
   {
     "id": 6,
@@ -117,7 +222,28 @@
     "certNote": "",
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "Draws on his information security fundamentals, which are coursework level rather than applied.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Baltimore, MD",
+      "remotePolicy": null,
+      "news": "Selected in 2026 for the state funded Maryland Lighthouse AI Internship Program",
+      "levelHistory": "Yes - state funded specifically to create new internship positions"
+    }
   },
   {
     "market": "MD",
@@ -137,7 +263,28 @@
     "clearance": "None",
     "url": "https://www.governmentjobs.com/jobs/5254199-0/programmer-analyst-i-and-ii-database-administration",
     "notes": "Full-time entry-level programmer analyst, Level I open to new graduates - Minimum qualification is a bachelor degree in information technology, no prior experience stated - Database administration focus, strong fit for SQL and relational database design - Combined I/II posting so apply at the Level I grade",
-    "id": 7
+    "id": 7,
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "Systems analysis and database administration line up with his systems analysis and SQL strengths.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Catonsville, MD",
+      "remotePolicy": null,
+      "news": null,
+      "levelHistory": "Yes - this posting opens at Level I with a bachelor degree as the stated minimum"
+    }
   },
   {
     "id": 8,
@@ -157,7 +304,28 @@
     "certNote": "",
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "fit": {
+      "level": 5,
+      "skills": 4,
+      "location": 5,
+      "barrier": 4,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "Draws on his information security fundamentals, which are coursework level rather than applied.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "Asks for a clearance the employer sponsors, and he is clearance eligible with no active clearance.",
+      "employer": "Maryland employer funded by the state Lighthouse program, applied to by emailing the employer directly."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Maryland",
+      "remotePolicy": null,
+      "news": "Selected in 2026 for the state funded Maryland Lighthouse AI Internship Program",
+      "levelHistory": "Yes - state funded specifically to create new internship positions"
+    }
   },
   {
     "id": 9,
@@ -177,7 +345,28 @@
     "certNote": "",
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "fit": {
+      "level": 5,
+      "skills": 4,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "Data preparation and reporting work lines up with his SQL and Excel strengths.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Maryland employer funded by the state Lighthouse program, applied to by emailing the employer directly."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Maryland",
+      "remotePolicy": null,
+      "news": "Selected in 2026 for the state funded Maryland Lighthouse AI Internship Program",
+      "levelHistory": "Yes - state funded specifically to create new internship positions"
+    }
   },
   {
     "id": 10,
@@ -197,7 +386,28 @@
     "certNote": "",
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "fit": {
+      "level": 5,
+      "skills": 4,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "Business analysis, requirements and process improvement line up with his systems analysis coursework.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Baltimore, MD",
+      "remotePolicy": null,
+      "news": "Selected in 2026 for the state funded Maryland Lighthouse AI Internship Program",
+      "levelHistory": "Yes - state funded specifically to create new internship positions"
+    }
   },
   {
     "score": 82,
@@ -217,7 +427,28 @@
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
     "lastVerified": "2026-09-02",
-    "id": 11
+    "id": 11,
+    "fit": {
+      "level": 5,
+      "skills": 4,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "Data preparation and reporting work lines up with his SQL and Excel strengths.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Maryland employer funded by the state Lighthouse program, applied to by emailing the employer directly."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Maryland",
+      "remotePolicy": null,
+      "news": "Selected in 2026 for the state funded Maryland Lighthouse AI Internship Program",
+      "levelHistory": "Yes - state funded specifically to create new internship positions"
+    }
   },
   {
     "score": 82,
@@ -237,7 +468,28 @@
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
     "lastVerified": "2026-09-02",
-    "id": 12
+    "id": 12,
+    "fit": {
+      "level": 5,
+      "skills": 4,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "Draws on his information security fundamentals, which are coursework level rather than applied.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Maryland employer funded by the state Lighthouse program, applied to by emailing the employer directly."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Maryland",
+      "remotePolicy": null,
+      "news": "Selected in 2026 for the state funded Maryland Lighthouse AI Internship Program",
+      "levelHistory": "Yes - state funded specifically to create new internship positions"
+    }
   },
   {
     "id": 13,
@@ -257,7 +509,28 @@
     "certNote": "",
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "fit": {
+      "level": 5,
+      "skills": 4,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "General IT internship work fits his information systems background.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Maryland employer funded by the state Lighthouse program, applied to by emailing the employer directly."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Maryland",
+      "remotePolicy": null,
+      "news": "Selected in 2026 for the state funded Maryland Lighthouse AI Internship Program",
+      "levelHistory": "Yes - state funded specifically to create new internship positions"
+    }
   },
   {
     "score": 81,
@@ -277,7 +550,28 @@
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
     "lastVerified": "2026-09-02",
-    "id": 14
+    "id": 14,
+    "fit": {
+      "level": 5,
+      "skills": 4,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "Data preparation and reporting work lines up with his SQL and Excel strengths.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Maryland employer funded by the state Lighthouse program, applied to by emailing the employer directly."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Maryland",
+      "remotePolicy": null,
+      "news": "Selected in 2026 for the state funded Maryland Lighthouse AI Internship Program",
+      "levelHistory": "Yes - state funded specifically to create new internship positions"
+    }
   },
   {
     "id": 15,
@@ -297,7 +591,28 @@
     "certNote": "",
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "fit": {
+      "level": 5,
+      "skills": 4,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "Systems analysis and database administration line up with his systems analysis and SQL strengths.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Maryland employer funded by the state Lighthouse program, applied to by emailing the employer directly."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Maryland",
+      "remotePolicy": null,
+      "news": "Selected in 2026 for the state funded Maryland Lighthouse AI Internship Program",
+      "levelHistory": "Yes - state funded specifically to create new internship positions"
+    }
   },
   {
     "score": 80,
@@ -317,7 +632,28 @@
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
     "lastVerified": "2026-09-02",
-    "id": 16
+    "id": 16,
+    "fit": {
+      "level": 5,
+      "skills": 4,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "General IT internship work fits his information systems background.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Maryland employer funded by the state Lighthouse program, applied to by emailing the employer directly."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Maryland",
+      "remotePolicy": null,
+      "news": "Selected in 2026 for the state funded Maryland Lighthouse AI Internship Program",
+      "levelHistory": "Yes - state funded specifically to create new internship positions"
+    }
   },
   {
     "score": 80,
@@ -337,7 +673,28 @@
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
     "lastVerified": "2026-09-02",
-    "id": 17
+    "id": 17,
+    "fit": {
+      "level": 5,
+      "skills": 4,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "General IT internship work fits his information systems background.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Maryland employer funded by the state Lighthouse program, applied to by emailing the employer directly."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Maryland",
+      "remotePolicy": null,
+      "news": "Selected in 2026 for the state funded Maryland Lighthouse AI Internship Program",
+      "levelHistory": "Yes - state funded specifically to create new internship positions"
+    }
   },
   {
     "score": 80,
@@ -357,7 +714,28 @@
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
     "lastVerified": "2026-09-02",
-    "id": 18
+    "id": 18,
+    "fit": {
+      "level": 5,
+      "skills": 4,
+      "location": 5,
+      "barrier": 5,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "Systems analysis and database administration line up with his systems analysis and SQL strengths.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Baltimore, MD",
+      "remotePolicy": null,
+      "news": "Selected in 2026 for the state funded Maryland Lighthouse AI Internship Program",
+      "levelHistory": "Yes - state funded specifically to create new internship positions"
+    }
   },
   {
     "market": "MD",
@@ -377,7 +755,28 @@
     "clearance": "None",
     "url": "https://www.governmentjobs.com/jobs/5425111-0/administrative-analyst-i-police-department-digital-body-worn-camera-managemen",
     "notes": "Entry-grade Analyst I managing digital evidence and body worn camera records systems - Records management and systems analysis focus - CLOSING SOON, the posting showed under 24 hours remaining when verified, apply immediately",
-    "id": 19
+    "id": 19,
+    "fit": {
+      "level": 5,
+      "skills": 4,
+      "location": 5,
+      "barrier": 5,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "Business analysis, requirements and process improvement line up with his systems analysis coursework.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Columbia, MD",
+      "remotePolicy": null,
+      "news": null,
+      "levelHistory": "Yes - this is an entry grade Analyst I recruitment"
+    }
   },
   {
     "score": 78,
@@ -397,7 +796,28 @@
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
     "lastVerified": "2026-09-02",
-    "id": 20
+    "id": 20,
+    "fit": {
+      "level": 5,
+      "skills": 4,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "General IT internship work fits his information systems background.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Maryland employer funded by the state Lighthouse program, applied to by emailing the employer directly."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Maryland",
+      "remotePolicy": null,
+      "news": "Selected in 2026 for the state funded Maryland Lighthouse AI Internship Program",
+      "levelHistory": "Yes - state funded specifically to create new internship positions"
+    }
   },
   {
     "id": 21,
@@ -417,7 +837,28 @@
     "certNote": "",
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "fit": {
+      "level": 2,
+      "skills": 3,
+      "location": 5,
+      "barrier": 2,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Posting requires current enrollment in a degree program, which he no longer has as an August 2026 graduate.",
+      "skills": "General IT internship work fits his information systems background.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "Enrollment requirement is the main barrier, confirm with the employer before applying.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Annapolis, MD",
+      "remotePolicy": "Flexible or hybrid, but candidates must be willing to work on site in Annapolis",
+      "news": null,
+      "levelHistory": "Yes - runs a standing Office of Information Technology internship program"
+    }
   },
   {
     "id": 22,
@@ -437,7 +878,28 @@
     "certNote": "",
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "fit": {
+      "level": 5,
+      "skills": 3,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "Systems analysis and database administration line up with his systems analysis and SQL strengths.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Maryland employer funded by the state Lighthouse program, applied to by emailing the employer directly."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Maryland",
+      "remotePolicy": null,
+      "news": "Selected in 2026 for the state funded Maryland Lighthouse AI Internship Program",
+      "levelHistory": "Yes - state funded specifically to create new internship positions"
+    }
   },
   {
     "id": 23,
@@ -457,7 +919,28 @@
     "certNote": "",
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "fit": {
+      "level": 5,
+      "skills": 3,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "General IT internship work fits his information systems background.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Maryland employer funded by the state Lighthouse program, applied to by emailing the employer directly."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Maryland",
+      "remotePolicy": null,
+      "news": "Selected in 2026 for the state funded Maryland Lighthouse AI Internship Program",
+      "levelHistory": "Yes - state funded specifically to create new internship positions"
+    }
   },
   {
     "market": "MD",
@@ -477,7 +960,28 @@
     "clearance": "None",
     "url": "https://www.governmentjobs.com/jobs/5377253-0/management-analyst-i-hhs-finance-and-administration",
     "notes": "Entry-grade Analyst I on a county merit recruitment, open to the public - Requires a bachelor degree, preferably business or public administration - Business analysis and process improvement fit, less technical than his IT target roles",
-    "id": 24
+    "id": 24,
+    "fit": {
+      "level": 5,
+      "skills": 3,
+      "location": 5,
+      "barrier": 5,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "Business analysis, requirements and process improvement line up with his systems analysis coursework.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Towson, MD",
+      "remotePolicy": null,
+      "news": null,
+      "levelHistory": "Yes - this is an entry grade Analyst I merit recruitment open to the public"
+    }
   },
   {
     "market": "MD",
@@ -497,7 +1001,28 @@
     "clearance": "None",
     "url": "https://www.governmentjobs.com/jobs/3535454-0/temp-information-management-technology-technician-pool",
     "notes": "Continuous-posting talent pool for entry-level IT technician work at a community college - Part-time temporary and low pay, but a low-barrier way to build documented help desk experience",
-    "id": 25
+    "id": 25,
+    "fit": {
+      "level": 5,
+      "skills": 3,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "Entry level support work is below his degree level but builds documented hands on experience.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Multiple campuses, MD",
+      "remotePolicy": null,
+      "news": null,
+      "levelHistory": "Yes - maintains a continuous entry level technician applicant pool"
+    }
   },
   {
     "market": "MD",
@@ -517,7 +1042,28 @@
     "clearance": "None",
     "url": "https://www.governmentjobs.com/jobs/5439557-0/election-support-technician",
     "notes": "Entry-level technical support for election systems including a SaaS application - Part-time non-benefited seasonal work - Useful short-term experience rather than a career role",
-    "id": 26
+    "id": 26,
+    "fit": {
+      "level": 5,
+      "skills": 3,
+      "location": 5,
+      "barrier": 5,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Explicitly an entry level, internship or Level I posting, which matches where he is now.",
+      "skills": "Entry level support work is below his degree level but builds documented hands on experience.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "No active clearance and no certification required.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Frederick, MD",
+      "remotePolicy": null,
+      "news": null,
+      "levelHistory": "Yes - part time entry level technician work"
+    }
   },
   {
     "market": "MD",
@@ -537,7 +1083,28 @@
     "clearance": "Eligible/Sponsor",
     "url": "https://careers.jhuapl.edu/new-grads/jobs/59414?lang=en-us",
     "notes": "New graduate program role, no prior professional experience required and APL sponsors the clearance - STRETCH because the posting asks for a Computer Science, Computer Engineering, Mathematics or cybersecurity-related degree, which an Information Systems Management degree only partly matches - Java experience is explicitly listed as acceptable",
-    "id": 27
+    "id": 27,
+    "fit": {
+      "level": 3,
+      "skills": 3,
+      "location": 5,
+      "barrier": 4,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "A new graduate program role, but the posting asks for a computer science, computer engineering, mathematics or cybersecurity degree.",
+      "skills": "Draws on his information security fundamentals, which are coursework level rather than applied.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "Asks for a clearance the employer sponsors, and he is clearance eligible with no active clearance.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Laurel, MD",
+      "remotePolicy": "Telework not available on the student and graduate postings reviewed",
+      "news": null,
+      "levelHistory": "Yes - runs dedicated new graduate and internship hiring programs"
+    }
   },
   {
     "id": 28,
@@ -557,7 +1124,28 @@
     "certNote": "",
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "fit": {
+      "level": 2,
+      "skills": 3,
+      "location": 5,
+      "barrier": 2,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Posting requires current enrollment in a degree program, which he no longer has as an August 2026 graduate.",
+      "skills": "General IT internship work fits his information systems background.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "Enrollment requirement is the main barrier, confirm with the employer before applying.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Baltimore, MD",
+      "remotePolicy": "Listed as telework eligible",
+      "news": null,
+      "levelHistory": "Yes - runs a recurring internship program, but requires current enrollment"
+    }
   },
   {
     "id": 29,
@@ -577,7 +1165,28 @@
     "certNote": "",
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "fit": {
+      "level": 2,
+      "skills": 3,
+      "location": 5,
+      "barrier": 2,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Posting requires current enrollment in a degree program, which he no longer has as an August 2026 graduate.",
+      "skills": "General IT internship work fits his information systems background.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "Enrollment requirement is the main barrier, confirm with the employer before applying.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": "About 47,000 employees globally",
+      "hq": "Reston, VA - this role is in Maryland",
+      "remotePolicy": "The Maryland intern and co-op postings are listed as no remote",
+      "news": "Reported about $17.2 billion in revenue for the fiscal year ended January 2, 2026",
+      "levelHistory": "Yes - runs intern and co-op programs, but they require current enrollment"
+    }
   },
   {
     "id": 30,
@@ -597,7 +1206,28 @@
     "certNote": "",
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "fit": {
+      "level": 2,
+      "skills": 3,
+      "location": 5,
+      "barrier": 2,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Posting requires current enrollment in a degree program, which he no longer has as an August 2026 graduate.",
+      "skills": "Draws on his information security fundamentals, which are coursework level rather than applied.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "Enrollment requirement is the main barrier, confirm with the employer before applying.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": "About 47,000 employees globally",
+      "hq": "Reston, VA - this role is in Maryland",
+      "remotePolicy": "The Maryland intern and co-op postings are listed as no remote",
+      "news": "Reported about $17.2 billion in revenue for the fiscal year ended January 2, 2026",
+      "levelHistory": "Yes - runs intern and co-op programs, but they require current enrollment"
+    }
   },
   {
     "id": 31,
@@ -617,7 +1247,28 @@
     "certNote": "",
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "fit": {
+      "level": 2,
+      "skills": 3,
+      "location": 5,
+      "barrier": 2,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Posting requires current enrollment in a degree program, which he no longer has as an August 2026 graduate.",
+      "skills": "General IT internship work fits his information systems background.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "Enrollment requirement is the main barrier, confirm with the employer before applying.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": "About 47,000 employees globally",
+      "hq": "Reston, VA - this role is in Maryland",
+      "remotePolicy": "The Maryland intern and co-op postings are listed as no remote",
+      "news": "Reported about $17.2 billion in revenue for the fiscal year ended January 2, 2026",
+      "levelHistory": "Yes - runs intern and co-op programs, but they require current enrollment"
+    }
   },
   {
     "id": 32,
@@ -637,7 +1288,28 @@
     "certNote": "",
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "fit": {
+      "level": 2,
+      "skills": 3,
+      "location": 5,
+      "barrier": 2,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Posting requires current enrollment in a degree program, which he no longer has as an August 2026 graduate.",
+      "skills": "Database and programming work lines up with his SQL, relational database design and Java coursework.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "Enrollment requirement is the main barrier, confirm with the employer before applying.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": "About 47,000 employees globally",
+      "hq": "Reston, VA - this role is in Maryland",
+      "remotePolicy": "The Maryland intern and co-op postings are listed as no remote",
+      "news": "Reported about $17.2 billion in revenue for the fiscal year ended January 2, 2026",
+      "levelHistory": "Yes - runs intern and co-op programs, but they require current enrollment"
+    }
   },
   {
     "id": 33,
@@ -657,7 +1329,28 @@
     "certNote": "",
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "fit": {
+      "level": 2,
+      "skills": 3,
+      "location": 5,
+      "barrier": 2,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Posting requires current enrollment in a degree program, which he no longer has as an August 2026 graduate.",
+      "skills": "Draws on his information security fundamentals, which are coursework level rather than applied.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "Enrollment requirement is the main barrier, confirm with the employer before applying.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": "About 47,000 employees globally",
+      "hq": "Reston, VA - this role is in Maryland",
+      "remotePolicy": "The Maryland intern and co-op postings are listed as no remote",
+      "news": "Reported about $17.2 billion in revenue for the fiscal year ended January 2, 2026",
+      "levelHistory": "Yes - runs intern and co-op programs, but they require current enrollment"
+    }
   },
   {
     "id": 34,
@@ -677,6 +1370,27 @@
     "certNote": "",
     "postedDate": "2026-09-02",
     "posted": "2026-09-02",
-    "lastVerified": "2026-09-02"
+    "lastVerified": "2026-09-02",
+    "fit": {
+      "level": 2,
+      "skills": 3,
+      "location": 5,
+      "barrier": 2,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Posting requires current enrollment in a degree program, which he no longer has as an August 2026 graduate.",
+      "skills": "Business analysis, requirements and process improvement line up with his systems analysis coursework.",
+      "location": "Located in Maryland, which is one of his two acceptable markets.",
+      "barrier": "Enrollment requirement is the main barrier, confirm with the employer before applying.",
+      "employer": "Employer details verified from the posting or the employer site."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Annapolis, MD",
+      "remotePolicy": "Flexible or hybrid, but candidates must be willing to work on site in Annapolis",
+      "news": null,
+      "levelHistory": "Yes - runs a standing Office of Information Technology internship program"
+    }
   }
 ]
