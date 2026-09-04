@@ -199,6 +199,19 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:26px;border-t
 .tmbtn:hover{filter:brightness(1.12)}
 .tmnote{font-size:12px;opacity:.7;margin-top:9px;line-height:1.5}
 .tmpre{margin-top:12px;background:var(--card2,#1b2430);border:1px solid var(--line,#2a3542);border-radius:8px;padding:11px;font-size:11.5px;line-height:1.5;white-space:pre-wrap;max-height:190px;overflow:auto;opacity:.82;font-family:ui-monospace,Menlo,Consolas,monospace}
+.tmta{width:100%;min-height:340px;background:var(--card2);color:var(--text);border:1px solid var(--line);border-radius:9px;padding:12px;font-size:12.5px;line-height:1.5;font-family:ui-monospace,Menlo,Consolas,monospace;resize:vertical;white-space:pre-wrap;box-sizing:border-box}
+.tmta:focus{outline:none;border-color:var(--accent)}
+.tmrow{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.tmbtn2{background:transparent;color:var(--text);border:1px solid var(--line);border-radius:9px;padding:10px 15px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit}
+.tmbtn2:hover{border-color:var(--accent)}
+.pf{display:grid;gap:10px}
+.pf label{font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:700;display:block;margin-bottom:4px}
+.pf input,.pf textarea{width:100%;background:var(--card2);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:13px;font-family:inherit;box-sizing:border-box}
+.pf textarea{min-height:90px;resize:vertical;line-height:1.5}
+.pf input:focus,.pf textarea:focus{outline:none;border-color:var(--accent)}
+.pf2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:640px){.pf2{grid-template-columns:1fr}.tmrow .tmbtn,.tmrow .tmbtn2{flex:1 1 100%}}
+.pfwarn{font-size:12.5px;color:var(--muted);background:var(--card2);border-left:3px solid #f97316;padding:9px 11px;border-radius:0 8px 8px 0;line-height:1.5;margin-top:10px}
 </style>
 </head>
 <body>
@@ -212,6 +225,7 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:26px;border-t
 </div>
 <div class="hbtns">
 <button class="theme-btn" id="wnbtn" onclick="renderWhatsNew(true)">What&#39;s new</button>
+<button class="theme-btn" onclick="openProfile()">Resume profile</button>
 <button class="theme-btn" id="theme-btn" onclick="toggleTheme()">Light Mode</button>
 </div>
 </div>
@@ -340,6 +354,13 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:26px;border-t
 <h2>The Pipeline tab</h2>
 <p>Everything you have saved, laid out as a board with one column per stage. The arrows under each card move a job forward or back as you progress. Your notes travel with the job.</p>
 
+<h2>Tailoring your resume for a job</h2>
+<p>Every card has a <strong>Tailor resume</strong> button. It builds a one-page, plain-text resume draft for that specific posting: the bullets that best match the posting move to the top, the skills lines are reordered to mirror its vocabulary, and anything the posting asks for that your profile cannot back up is listed as a gap instead of being written onto the resume. Edit the draft in place, then <strong>Copy resume</strong>, <strong>Download Word (.docx)</strong> or <strong>Download .txt</strong>.</p>
+<p>Click <strong>Resume profile</strong> at the top of the page first to add your email, phone and any experience beyond the built-in coursework bullets. That profile is saved only in this browser and never appears on this public page - use <strong>Export JSON</strong> to keep a private copy and <strong>Import JSON</strong> on another device.</p>
+<div class="callout warn">
+<p>The builder only reorders facts you have entered. Never add anything to the profile that is not true - the resume goes to employers under your name.</p>
+</div>
+
 <h2>What the tiles mean</h2>
 <ul>
 <li><strong>Open roles</strong> - the total on the dashboard right now</li>
@@ -441,70 +462,110 @@ w.innerHTML='<svg width="54" height="54" viewBox="0 0 54 54">'+
 'stroke-dasharray="'+circ.toFixed(1)+'" stroke-dashoffset="'+off.toFixed(1)+'"></circle></svg>';
 var v=el("div","val",score);v.style.color=c;w.appendChild(v);return w;}
 
-/* ---- Tailor resume: content bank + matcher ---- */
-var RAY_BANK={
+/* ---- Tailor resume: browser-local content bank + matcher + builder (v2, 2026-09-04) ---- */
+/* The profile (contact details, grade average, home town, experience bullets) lives ONLY in this browser's
+   localStorage. Nothing personal is hard-coded in this public file. */
+var PKEY="ray_profile_v1";
+var BANK_DEFAULT={
 name:"Raymond Daugherty",
-headline:"B.S. Information Systems Management, UMBC (August 2026), GPA 3.6",
-location:"Eldersburg, Maryland (Carroll County)",
+email:"",
+phone:"",
+location:"Central Maryland",
+headline:"B.S. Information Systems Management, UMBC (August 2026)",
 clearance:"No active clearance. Security-clearance eligible and willing to obtain one.",
 certs:"No IT certifications held at this time.",
-education:["B.S. Information Systems Management, University of Maryland Baltimore County (UMBC), August 2026, GPA 3.6","A.A., Community College of Baltimore County (CCBC)"],
-groups:{
-sql:{label:"SQL and relational databases",kw:["sql","database","databases","relational","data","query","queries","reporting","analytics","analysis","dataset"]},
-java:{label:"Java and software development",kw:["java","software","developer","development","programming","code","coding","sdlc","engineering","engineer","application","applications"]},
-web:{label:"HTML and CSS",kw:["html","css","web","front end","frontend","user interface"]},
-net:{label:"Networking fundamentals",kw:["network","networking","infrastructure","systems administration","sysadmin","help desk","helpdesk","service desk","desktop","support","technician"]},
-sec:{label:"Information security fundamentals",kw:["security","cyber","cybersecurity","infosec","risk","compliance","governance","assessment","controls","readiness"]},
-ana:{label:"Systems analysis and business process",kw:["analyst","analysis","systems analysis","business process","requirements","process improvement","business","operations","coordinator","procurement"]},
-doc:{label:"Technical documentation",kw:["documentation","document","technical writing","policy","procedure","procedures","reporting","specifications"]},
-off:{label:"Excel and Office productivity tools",kw:["excel","powerpoint","spreadsheet","microsoft","scheduling","administrative","recordkeeping"]},
-cld:{label:"Cloud concepts",kw:["cloud","aws","azure","saas","platform","enterprise"]},
-ai:{label:"AI and data-preparation exposure",kw:["ai","ml","machine learning","artificial intelligence","llm","prompt","data preparation","model"]},
-qa:{label:"Testing and quality assurance",kw:["qa","quality assurance","testing","test","validation"]}
-},
+education:["B.S. Information Systems Management, University of Maryland, Baltimore County (UMBC), August 2026","A.A., Community College of Baltimore County (CCBC)"],
+skills:[],
 bullets:[
+{t:"Performed systems analysis coursework - gathered requirements, produced process and data flow documentation, and recommended business process improvements.",g:["ana","doc"]},
 {t:"Designed and queried relational databases in coursework - wrote SQL joins, aggregations and normalized multi-table schemas for academic projects.",g:["sql","ana"]},
-{t:"Built object-oriented Java applications including data-handling classes and file I/O as part of the UMBC Information Systems curriculum.",g:["java","qa"]},
+{t:"Built object-oriented Java applications including data-handling classes and file I/O as part of the UMBC Information Systems curriculum.",g:["java"]},
 {t:"Developed responsive web pages using HTML and CSS for coursework projects.",g:["web","java"]},
-{t:"Completed networking fundamentals coursework covering TCP/IP, subnetting, DNS and the OSI model.",g:["net","cld"]},
+{t:"Completed networking fundamentals coursework covering TCP/IP, subnetting, DNS and the OSI model.",g:["net"]},
 {t:"Completed information security fundamentals coursework covering access control, risk concepts and security policy.",g:["sec"]},
-{t:"Performed systems analysis coursework - gathered requirements, produced process and data flow documentation, and recommended business process improvements.",g:["ana","doc","sql"]},
 {t:"Produced technical documentation and written deliverables across coursework, including procedure write-ups and project reports.",g:["doc","ana"]},
-{t:"Used Excel for data organization and analysis including formulas, sorting and summary reporting; produced Word and PowerPoint deliverables.",g:["off","sql"]},
-{t:"Planned and led an Eagle Scout service project - scoped the work, recruited and directed volunteers, managed materials and budget, and delivered on schedule.",g:["ana","off","doc"]},
-{t:"Served as an intern at a nature center supporting visitor-facing service, scheduling and recordkeeping.",g:["net","off"]},
-{t:"Ran an independent pet and house sitting service - managed scheduling, client communication and recurring commitments.",g:["off"]},
-{t:"Maintained a 3.6 GPA while completing a B.S. in Information Systems Management at UMBC.",g:[]}
+{t:"Used Excel for data organization and analysis including formulas, sorting and summary reporting; produced Word and PowerPoint deliverables.",g:["off","sql"]}
 ],
-gaps:["No professional full-time IT experience yet - experience to date is coursework, an internship and self-directed project work.","No IT certifications held. Security+ or Network+ would strengthen future applications.","No active security clearance, though he is eligible and willing to obtain one.","Limited hands-on exposure to production or enterprise-scale systems."]
+gaps:["No professional full-time IT experience yet - experience to date is coursework, an internship and self-directed project work.","No IT certifications held. Security+ or Network+ would strengthen future applications.","Limited hands-on exposure to production or enterprise-scale systems."]
 };
-function tailorHay(j){return ((j.title||"")+" "+(j.notes||"")+" "+(j.roleType||"")+" "+(j.company||"")+" "+(j.sector||"")).toLowerCase();}
-function tailorEsc2(s){return s.replace(/[.*+?^${}()|[\]\\]/g,"\\function tailorMatch(j){");}
-function tailorHas(hay,w){return new RegExp("(^|[^a-z0-9])"+tailorEsc2(w)+"([^a-z0-9]|$)","i").test(hay);}
+/* Skill groups. label = honest strength wording used in the summary (only if the profile has a bullet in that group).
+   kw = posting vocabulary that activates the group. self = words in a bullet that mean it belongs to the group. */
+var BANK_GROUPS={
+ana:{label:"systems analysis and business process improvement",skill:"Systems analysis, requirements gathering, process and data flow documentation, business process improvement",kw:["analyst","analysis","systems analysis","business process","requirements","process improvement","business","operations","coordinator","procurement","stakeholder","workflow"],self:["systems analysis","requirements","business process","data flow"]},
+sql:{label:"SQL and relational databases",skill:"SQL (joins, aggregations), relational database design, schema normalization",kw:["sql","database","databases","relational","data","query","queries","reporting","analytics","analysis","dataset","data analyst"],self:["sql","database","schema","query"]},
+java:{label:"Java and software development",skill:"Java (object-oriented design, data-handling classes, file I/O)",kw:["java","software","developer","development","programming","code","coding","sdlc","engineering","engineer","application","applications","programmer"],self:["java","object-oriented"]},
+web:{label:"HTML and CSS",skill:"HTML, CSS, responsive web pages",kw:["html","css","web","front end","frontend","user interface","website"],self:["html","css","web page"]},
+net:{label:"networking fundamentals",skill:"Networking fundamentals: TCP/IP, subnetting, DNS, OSI model",kw:["network","networking","infrastructure","systems administration","sysadmin","help desk","helpdesk","service desk","desktop","support","technician"],self:["networking","tcp/ip","subnet","dns"]},
+sec:{label:"information security fundamentals",skill:"Information security fundamentals: access control, risk concepts, security policy",kw:["security","cyber","cybersecurity","infosec","risk","compliance","governance","assessment","controls"],self:["security","access control","risk concepts"]},
+doc:{label:"technical documentation",skill:"Technical documentation, procedure write-ups, project reports",kw:["documentation","document","technical writing","policy","procedure","procedures","specifications","reports","writing"],self:["documentation","write-up","project report"]},
+off:{label:"Excel and Office productivity tools",skill:"Excel (formulas, sorting, summary reporting), Word, PowerPoint",kw:["excel","powerpoint","spreadsheet","microsoft","office","scheduling","administrative","recordkeeping","records"],self:["excel","powerpoint","spreadsheet","recordkeeping"]},
+lead:{label:"project leadership",skill:"",kw:["lead","leadership","project","volunteer","team","coordinate","coordination","budget","schedule","customer","client","communication","service"],self:["led ","volunteer","budget","client","directed","visitor"]}
+};
+/* Posting vocabulary the matcher should never silently claim. If a posting names one of these and no
+   profile bullet or skill line contains it, it becomes a gap-report line instead of a resume line. */
+var BANK_WATCH=["ai","artificial intelligence","machine learning","python","powershell","linux","active directory","azure","aws","cloud","servicenow","jira","tableau","power bi","salesforce","sap","c#",".net","javascript","react","agile","scrum","itil","ticketing","vmware","cisco","security+","network+","ccna","sharepoint","erp","crm"];
+
+function tailorHay(j){return ((j.title||"")+" "+(j.notes||"")+" "+(j.roleType||"")+" "+(j.company||"")+" "+(j.sector||"")+" "+((j.keywords||[]).join(" "))).toLowerCase();}
+function tailorEsc2(s){return s.replace(/[.*+?^$(){}|[\]\\]/g,"\\$&");}
+function tailorHas(hay,w){return new RegExp("(^|[^a-z0-9+#])"+tailorEsc2(w)+"([^a-z0-9]|$)","i").test(hay);}
+function loadProfile(){try{var p=JSON.parse(localStorage.getItem(PKEY)||"null");return (p&&typeof p==="object"&&!Array.isArray(p))?p:null;}catch(e){return null;}}
+function hasProfile(){return !!loadProfile();}
+function getBank(){
+var p=loadProfile()||{},b={};
+Object.keys(BANK_DEFAULT).forEach(function(k){b[k]=BANK_DEFAULT[k];});
+Object.keys(p).forEach(function(k){var v=p[k];if(Array.isArray(v)?v.length:(v!==""&&v!=null))b[k]=v;});
+return b;}
+function autoTag(t){var lt=" "+String(t).toLowerCase()+" ",g=[];
+Object.keys(BANK_GROUPS).forEach(function(k){if(BANK_GROUPS[k].self.some(function(w){return lt.indexOf(w)>=0;}))g.push(k);});return g;}
+function bankBullets(b){return (b.bullets||[]).map(function(x){
+if(typeof x==="string")return {t:x,g:autoTag(x)};
+return {t:x.t,g:(x.g&&x.g.length)?x.g:autoTag(x.t)};});}
 function tailorMatch(j){
+var b=getBank(),bullets=bankBullets(b);
 var hay=tailorHay(j),tit=((j.title||"")+" "+(j.roleType||"")).toLowerCase(),hits=[],kws=[];
-Object.keys(RAY_BANK.groups).forEach(function(g){
-var def=RAY_BANK.groups[g],n=0;
+var covered={};bullets.forEach(function(x){x.g.forEach(function(g){covered[g]=true;});});
+Object.keys(BANK_GROUPS).forEach(function(g){
+var def=BANK_GROUPS[g],n=0;
 def.kw.forEach(function(w){if(tailorHas(hay,w)){n+=tailorHas(tit,w)?4:1;if(kws.indexOf(w)<0)kws.push(w);}});
-if(n>0)hits.push({g:g,label:def.label,n:n});});
-hits.sort(function(a,b){return b.n-a.n;});
+if(n>0)hits.push({g:g,label:def.label,n:n,covered:!!covered[g]});});
+hits.sort(function(a,b2){return b2.n-a.n;});
 var top=hits.slice(0,5),tg=top.map(function(x){return x.g;});
-var scored=RAY_BANK.bullets.map(function(b){
-var s=0;b.g.forEach(function(g){var i=tg.indexOf(g);if(i>=0)s+=(5-i);});return {t:b.t,s:s};});
-scored.sort(function(a,b){return b.s-a.s;});
+var gw={};top.forEach(function(x){gw[x.g]=x.n;});
+var scored=bullets.map(function(x,i){var s=0;x.g.forEach(function(g,k){if(gw[g])s+=gw[g]*(k===0?1:0.35);});return {t:x.t,g:x.g,s:s,i:i};});
+scored.sort(function(a,b2){return (b2.s-a.s)||(a.i-b2.i);});
+var ordered=scored.map(function(x){return x.t;});
 var lead=scored.filter(function(x){return x.s>0;}).slice(0,4).map(function(x){return x.t;});
-if(lead.length<3){RAY_BANK.bullets.slice(0,3).forEach(function(b){if(lead.indexOf(b.t)<0&&lead.length<3)lead.push(b.t);});}
-kws.sort(function(a,b){return b.length-a.length;});
-var gaps=RAY_BANK.gaps.slice(0,2);
-if(j.certRequired&&j.certNote)gaps.unshift("This posting names a certification he does not hold: "+j.certNote+". Address it directly - say it is in progress or planned.");
+if(lead.length<3)ordered.forEach(function(t){if(lead.indexOf(t)<0&&lead.length<3)lead.push(t);});
+kws.sort(function(a,b2){return b2.length-a.length;});
+/* skills lines: profile-supplied wins; otherwise one line per covered group, best-matching first */
+var skills;
+if(b.skills&&b.skills.length){skills=b.skills.slice();}
+else{var order=tg.slice();Object.keys(BANK_GROUPS).forEach(function(g){if(order.indexOf(g)<0)order.push(g);});
+skills=order.filter(function(g){return covered[g]&&BANK_GROUPS[g].skill;}).map(function(g){return BANK_GROUPS[g].skill;});}
+/* gaps: watch-list terms the posting names that nothing in the profile evidences */
+var evid=(bullets.map(function(x){return x.t;}).join(" ")+" "+skills.join(" ")+" "+(b.certs||"")).toLowerCase();
+var gaps=[];
+BANK_WATCH.forEach(function(w){if(tailorHas(hay,w)&&!tailorHas(evid,w))gaps.push('The posting mentions "'+w+'" - nothing in your profile evidences it. Leave it off the resume and address it honestly in the cover letter or interview.');});
+if(j.certRequired&&j.certNote)gaps.unshift("This posting names a certification you do not hold: "+j.certNote+". Address it directly - say it is in progress or planned only if that is true.");
 if(j.clearance==="Active Required")gaps.unshift("This posting expects an already-held clearance. Lead with clearance eligibility and willingness to be sponsored.");
-if(j.clearance==="Eligible/Sponsor")gaps.push("Clearance-eligible role - state plainly that he is eligible and willing to obtain a clearance.");
-var lab=top.slice(0,2).map(function(x){return x.label;});
-var sum="Information Systems Management graduate (UMBC, August 2026, GPA 3.6) seeking the "+(j.title||"role")+" at "+(j.company||"your organization")+", bringing "+(lab.length?("strengths in "+lab.join(", plus ").toLowerCase()):"a foundation in IT and systems analysis")+".";
-return {groups:top,kws:kws.slice(0,12),lead:lead,gaps:gaps.slice(0,4),summary:sum};}
+if(j.clearance==="Eligible/Sponsor")gaps.push("Clearance-eligible role - state plainly that you are eligible and willing to obtain a clearance.");
+(b.gaps||[]).forEach(function(g){if(gaps.length<6)gaps.push(g);});
+var lab=top.filter(function(x){return x.covered;}).slice(0,2).map(function(x){return x.label;});
+var sum=b.headline+". Seeking the "+(j.title||"role")+" role at "+(j.company||"your organization")+", bringing "+(lab.length?("strengths in "+lab.join(", plus ")):"a foundation in information systems and systems analysis")+" developed through coursework, an internship and self-directed project work.";
+return {bank:b,groups:top,kws:kws.slice(0,12),lead:lead,ordered:ordered,skills:skills,gaps:gaps.slice(0,6),summary:sum};}
+function buildResume(j){
+var m=tailorMatch(j),b=m.bank,L=[];
+L.push(String(b.name||"").toUpperCase());
+var c=[b.location,b.email,b.phone].filter(function(x){return x;});if(c.length)L.push(c.join(" | "));
+L.push("");L.push("SUMMARY");L.push(m.summary);
+L.push("");L.push("EDUCATION");(b.education||[]).forEach(function(e){L.push("- "+e);});
+L.push("");L.push("TECHNICAL SKILLS");m.skills.forEach(function(s){L.push("- "+s);});
+L.push("");L.push("EXPERIENCE AND PROJECTS");m.ordered.forEach(function(t){L.push("- "+t);});
+if(j.clearance&&j.clearance!=="None"){L.push("");L.push("ADDITIONAL");L.push("- "+b.clearance);}
+return L.join("\n");}
 function buildTailorPrompt(j){
-var m=tailorMatch(j),L=[];
-L.push("You are helping Raymond Daugherty tailor his resume for one specific job posting.");
+var m=tailorMatch(j),b=m.bank,L=[];
+L.push("You are helping "+b.name+" tailor his resume for one specific job posting.");
 L.push("");
 L.push("HARD RULE: Use only the facts in the CANDIDATE CONTENT BANK below. Do not invent employers, job titles, dates, metrics, certifications or technologies. If the posting wants something he does not have, do not fabricate it - handle it in the gap report instead.");
 L.push("");L.push("=== THE POSTING ===");
@@ -514,57 +575,140 @@ L.push("Role type: "+(j.roleType||""));L.push("Clearance: "+(j.clearance||"None"
 L.push("Certification required: "+(j.certRequired?(j.certNote||"yes"):"no"));
 L.push("Compensation: "+(j.salary||"not listed"));L.push("Link: "+(j.url||""));
 L.push("What we know about it: "+(j.notes||""));
+if(j.keywords&&j.keywords.length)L.push("Posting keywords: "+j.keywords.join(", "));
 L.push("");L.push("=== CANDIDATE CONTENT BANK (the only facts you may use) ===");
-L.push("Name: "+RAY_BANK.name);L.push("Headline: "+RAY_BANK.headline);
-L.push("Location: "+RAY_BANK.location);L.push("Clearance: "+RAY_BANK.clearance);
-L.push("Certifications: "+RAY_BANK.certs);
-L.push("Education:");RAY_BANK.education.forEach(function(e){L.push("  - "+e);});
+L.push("Name: "+b.name);L.push("Headline: "+b.headline);
+L.push("Location: "+b.location);L.push("Clearance: "+b.clearance);
+L.push("Certifications: "+b.certs);
+L.push("Education:");(b.education||[]).forEach(function(e){L.push("  - "+e);});
+if(b.skills&&b.skills.length){L.push("Skills:");b.skills.forEach(function(s){L.push("  - "+s);});}
 L.push("Experience and coursework bullets:");
-RAY_BANK.bullets.forEach(function(b){L.push("  - "+b.t);});
-L.push("Known gaps:");RAY_BANK.gaps.forEach(function(g){L.push("  - "+g);});
+bankBullets(b).forEach(function(x){L.push("  - "+x.t);});
+L.push("Known gaps:");(b.gaps||[]).forEach(function(g){L.push("  - "+g);});
 L.push("");L.push("=== WHAT TO PRODUCE ===");
 L.push("1. A one-page ATS-friendly resume tailored to this posting - plain text, no tables, no columns, no graphics. Standard headings: Summary, Education, Technical Skills, Experience and Projects.");
 L.push("2. Reorder and reword the bank bullets so the most relevant ones lead. Mirror the postings own vocabulary where it is honest to do so.");
 L.push("3. A short gap report: what this posting asks for that he cannot evidence, and how to address each one honestly in a cover letter or interview.");
 L.push("4. Three tailored bullet rewrites he could use verbatim.");
-L.push("");L.push("Suggested angle based on keyword overlap: "+m.summary);
-if(m.kws.length)L.push("Posting vocabulary worth mirroring: "+m.kws.join(", "));
+L.push("");L.push("Draft the dashboard already built from the bank (improve it, do not add facts):");L.push(buildResume(j));
+if(m.kws.length){L.push("");L.push("Posting vocabulary worth mirroring: "+m.kws.join(", "));}
 return L.join("\n");}
 function closeTailor(){var m=document.getElementById("tailormodal");if(m)m.remove();document.removeEventListener("keydown",tailorEsc);}
-function tailorEsc(e){if(e.key==="Escape")closeTailor();}
-function copyTailorPrompt(j){
-var txt=buildTailorPrompt(j);
-if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(function(){actMsg("Tailoring prompt copied - paste it into Claude");},function(){fallbackCopy(txt);});}
+function tailorEsc(e){if(e.key==="Escape"){closeTailor();closeProfile();}}
+function copyText(txt,msg){
+if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(function(){actMsg(msg);},function(){fallbackCopy(txt);});}
 else{fallbackCopy(txt);}}
+function copyTailorPrompt(j){copyText(buildTailorPrompt(j),"Tailoring prompt copied - paste it into Claude");}
+function resumeFile(j,ext){var b=getBank();return slugify(b.name||"resume")+"-resume-"+slugify(j.company||"job")+"."+ext;}
+function loadJSZip(cb){
+if(window.JSZip)return cb(true);
+var s=document.createElement("script");s.src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js";
+s.onload=function(){cb(!!window.JSZip);};s.onerror=function(){cb(false);};document.head.appendChild(s);}
+function xmlEsc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
+function docxFromText(txt){
+var paras=txt.split("\n").map(function(line,i){
+var t=line.trim(),isHead=(i===0)||(/^[A-Z][A-Z .&\/]+$/.test(t)&&t.length>2);
+var rpr=isHead?'<w:rPr><w:b/>'+(i===0?'<w:sz w:val="32"/>':'')+'</w:rPr>':'';
+var ppr=isHead&&i>0?'<w:pPr><w:spacing w:before="200" w:after="60"/></w:pPr>':'<w:pPr><w:spacing w:after="40"/></w:pPr>';
+return '<w:p>'+ppr+'<w:r>'+rpr+'<w:t xml:space="preserve">'+xmlEsc(line)+'</w:t></w:r></w:p>';}).join("");
+var doc='<?xml version="1.0" encoding="UTF-8" standalone="yes"?><w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:body>'+paras+'<w:sectPr><w:pgMar w:top="1080" w:right="1080" w:bottom="1080" w:left="1080"/></w:sectPr></w:body></w:document>';
+var ct='<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/></Types>';
+var rels='<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/></Relationships>';
+var z=new JSZip();z.file("[Content_Types].xml",ct);z.folder("_rels").file(".rels",rels);z.folder("word").file("document.xml",doc);
+return z.generateAsync({type:"blob",mimeType:"application/vnd.openxmlformats-officedocument.wordprocessingml.document"});}
+function dlBlob(blob,name){var a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();
+setTimeout(function(){URL.revokeObjectURL(a.href);document.body.removeChild(a);},600);}
+function downloadDocx(j,txt){
+loadJSZip(function(ok){
+if(!ok){dl(txt,resumeFile(j,"txt"),"text/plain;charset=utf-8");actMsg("Word library did not load - downloaded as .txt instead");return;}
+docxFromText(txt).then(function(blob){dlBlob(blob,resumeFile(j,"docx"));actMsg("Resume downloaded as Word (.docx)");},
+function(){dl(txt,resumeFile(j,"txt"),"text/plain;charset=utf-8");actMsg("Could not build .docx - downloaded as .txt instead");});});}
 function openTailor(j){
-closeTailor();
-var m=tailorMatch(j);
+closeTailor();closeProfile();
+var m=tailorMatch(j),txt=buildResume(j);
 var ov=el("div","tmodal");ov.id="tailormodal";
 ov.onclick=function(e){if(e.target===ov)closeTailor();};
 var bx=el("div","tmbox");
 var hd=el("div","tmhead"),ht=el("div");
-ht.appendChild(el("div","tmh1","Tailor your resume for this role"));
+ht.appendChild(el("div","tmh1","Tailored resume for this role"));
 ht.appendChild(el("div","tmh2",(j.title||"")+" - "+(j.company||"")));
 hd.appendChild(ht);
 var cb=el("button","tmclose","Close");cb.type="button";cb.onclick=closeTailor;hd.appendChild(cb);
 bx.appendChild(hd);
-var s1=el("div","tmsec");s1.appendChild(el("div","tmlab","Lead with these bullets"));
-m.lead.forEach(function(t){var d=el("div","tmbul","* "+t);s1.appendChild(d);});
-bx.appendChild(s1);
-if(m.kws.length){var s2=el("div","tmsec");s2.appendChild(el("div","tmlab","Mirror this vocabulary from the posting"));
-var wrap=el("div");m.kws.forEach(function(w){wrap.appendChild(el("span","tmkw",w));});s2.appendChild(wrap);bx.appendChild(s2);}
-var s3=el("div","tmsec");s3.appendChild(el("div","tmlab","Suggested summary line"));
-s3.appendChild(el("div","tmsum",m.summary));bx.appendChild(s3);
-if(m.gaps.length){var s4=el("div","tmsec");s4.appendChild(el("div","tmlab","Gaps to address honestly"));
+if(!hasProfile()){var w=el("div","pfwarn","Your contact details are not on this draft yet. Click Resume profile at the top of the page to add your email, phone, grade average and any extra experience - it is saved only in this browser.");bx.appendChild(w);}
+var s0=el("div","tmsec");s0.appendChild(el("div","tmlab","Your resume draft - edit it right here before you copy or download"));
+var ta=document.createElement("textarea");ta.className="tmta";ta.value=txt;ta.spellcheck=false;s0.appendChild(ta);
+var row=el("div","tmrow");
+var b1=el("button","tmbtn","Copy resume");b1.type="button";b1.onclick=function(){copyText(ta.value,"Resume copied to clipboard");b1.textContent="Copied";setTimeout(function(){b1.textContent="Copy resume";},2500);};
+var b2=el("button","tmbtn2","Download Word (.docx)");b2.type="button";b2.onclick=function(){downloadDocx(j,ta.value);};
+var b3=el("button","tmbtn2","Download .txt");b3.type="button";b3.onclick=function(){dl(ta.value,resumeFile(j,"txt"),"text/plain;charset=utf-8");actMsg("Resume downloaded as .txt");};
+var b4=el("button","tmbtn2","Copy prompt for Claude");b4.type="button";b4.onclick=function(){copyTailorPrompt(j);b4.textContent="Copied - paste into Claude";setTimeout(function(){b4.textContent="Copy prompt for Claude";},3000);};
+row.appendChild(b1);row.appendChild(b2);row.appendChild(b3);row.appendChild(b4);s0.appendChild(row);
+bx.appendChild(s0);
+if(m.kws.length){var s2=el("div","tmsec");s2.appendChild(el("div","tmlab","Vocabulary from the posting that this draft leans on"));
+var wrap=el("div");m.kws.forEach(function(k){wrap.appendChild(el("span","tmkw",k));});s2.appendChild(wrap);bx.appendChild(s2);}
+if(m.gaps.length){var s4=el("div","tmsec");s4.appendChild(el("div","tmlab","Gaps to address honestly - not on the resume"));
 m.gaps.forEach(function(g){s4.appendChild(el("div","tmgap","- "+g));});bx.appendChild(s4);}
 var ft=el("div","tmfoot");
-var go=el("button","tmbtn","Copy full prompt for Claude");go.type="button";
-go.onclick=function(){copyTailorPrompt(j);go.textContent="Copied - now paste into Claude";setTimeout(function(){go.textContent="Copy full prompt for Claude";},3500);};
-ft.appendChild(go);
-ft.appendChild(el("div","tmnote","Paste it into Claude to get the actual tailored resume document plus a gap report. The prompt tells Claude to use only verified facts about you - it will not invent experience you do not have."));
-ft.appendChild(el("div","tmpre",buildTailorPrompt(j).slice(0,620)+"..."));
+ft.appendChild(el("div","tmnote","This draft only reorders and groups facts from your Resume profile - it never adds experience you do not have. Everything the posting asks for that your profile cannot back up is listed under gaps instead. For a fuller rewrite, use Copy prompt for Claude and paste it into Claude."));
 bx.appendChild(ft);ov.appendChild(bx);document.body.appendChild(ov);
 document.addEventListener("keydown",tailorEsc);}
+
+/* ---- Resume profile editor (localStorage only) ---- */
+function closeProfile(){var m=document.getElementById("profilemodal");if(m)m.remove();}
+function pfField(form,id,label,val,multi,hint){
+var w=el("div");var l=el("label",null,label);l.htmlFor="pf-"+id;w.appendChild(l);
+var f=document.createElement(multi?"textarea":"input");f.id="pf-"+id;if(!multi)f.type="text";
+f.value=Array.isArray(val)?val.join("\n"):(val||"");if(hint)f.placeholder=hint;w.appendChild(f);form.appendChild(w);return f;}
+function pfLines(id){return document.getElementById("pf-"+id).value.split("\n").map(function(s){return s.trim();}).filter(function(s){return s;});}
+function pfVal(id){return document.getElementById("pf-"+id).value.trim();}
+function saveProfile(){
+var p={name:pfVal("name"),email:pfVal("email"),phone:pfVal("phone"),location:pfVal("location"),headline:pfVal("headline"),
+education:pfLines("education"),skills:pfLines("skills"),bullets:pfLines("bullets"),gaps:pfLines("gaps"),saved:today()};
+localStorage.setItem(PKEY,JSON.stringify(p));actMsg("Resume profile saved in this browser");closeProfile();}
+function clearProfile(){if(!confirm("Remove your saved resume profile from this browser? The built-in coursework bullets stay; your contact details and extra bullets are removed."))return;
+localStorage.removeItem(PKEY);actMsg("Resume profile cleared");closeProfile();}
+function exportProfile(){var p=loadProfile();if(!p){alert("Nothing saved yet - fill in the form and click Save first.");return;}
+dl(JSON.stringify(p,null,2),"ray-resume-profile-"+today()+".json","application/json");actMsg("Profile exported - keep it private, it has your contact details");}
+function importProfile(ev){
+var f=ev.target.files&&ev.target.files[0];if(!f)return;
+var rd=new FileReader();
+rd.onload=function(){try{var d=JSON.parse(rd.result);
+if(!d||typeof d!=="object"||Array.isArray(d)||!(d.name||d.bullets))throw new Error("that file is not a resume profile");
+localStorage.setItem(PKEY,JSON.stringify(d));actMsg("Resume profile imported");closeProfile();openProfile();
+}catch(e){alert("Could not read that profile file.\n\n"+e.message);}};
+rd.readAsText(f);ev.target.value="";}
+function openProfile(){
+closeProfile();closeTailor();
+var b=getBank(),cur=loadProfile()||{};
+var ov=el("div","tmodal");ov.id="profilemodal";
+ov.onclick=function(e){if(e.target===ov)closeProfile();};
+var bx=el("div","tmbox");
+var hd=el("div","tmhead"),ht=el("div");
+ht.appendChild(el("div","tmh1","Resume profile"));
+ht.appendChild(el("div","tmh2","The facts the Tailor resume button is allowed to use"));
+hd.appendChild(ht);
+var cb=el("button","tmclose","Close");cb.type="button";cb.onclick=closeProfile;hd.appendChild(cb);
+bx.appendChild(hd);
+bx.appendChild(el("div","pfwarn","Saved only in this browser - never sent to a server and never shown on the public page. Add your email, phone, grade average and any experience that is not already listed. Only write things that are true; the resume builder will not check them."));
+var form=el("div","pf");form.style.marginTop="14px";
+var two=el("div","pf2");
+pfField(two,"name","Full name",b.name);pfField(two,"email","Email",cur.email||"","","you@example.com");
+pfField(two,"phone","Phone",cur.phone||"","","(410) 555-0100");pfField(two,"location","City, State",cur.location||b.location,"","e.g. Sykesville, MD");
+form.appendChild(two);
+pfField(form,"headline","Headline (add your grade point average here if you want it on the resume)",cur.headline||b.headline);
+pfField(form,"education","Education - one per line",cur.education||b.education,true);
+pfField(form,"skills","Technical skills - one per line (leave blank to use the built-in skill lines)",cur.skills||[],true,"Leave blank to use the built-in lines");
+pfField(form,"bullets","Experience and project bullets - one per line (built-in coursework bullets are pre-filled; add internships, projects, jobs)",cur.bullets||bankBullets(b).map(function(x){return x.t;}),true);
+pfField(form,"gaps","Known gaps to keep in mind - one per line",cur.gaps||b.gaps,true);
+bx.appendChild(form);
+var row=el("div","tmrow");
+var s=el("button","tmbtn","Save profile");s.type="button";s.onclick=saveProfile;row.appendChild(s);
+var ex=el("button","tmbtn2","Export JSON");ex.type="button";ex.onclick=exportProfile;row.appendChild(ex);
+var im=el("label","tmbtn2","Import JSON");im.style.cursor="pointer";var fi=document.createElement("input");fi.type="file";fi.accept="application/json,.json";fi.style.display="none";fi.onchange=importProfile;im.appendChild(fi);row.appendChild(im);
+var cl=el("button","tmbtn2","Clear");cl.type="button";cl.onclick=clearProfile;row.appendChild(cl);
+bx.appendChild(row);
+ov.appendChild(bx);document.body.appendChild(ov);}
 
 function fitBlock(j){
 var box=el("div");
@@ -850,6 +994,8 @@ rd.onerror=function(){alert("Could not read that file.");};
 rd.readAsText(f);ev.target.value="";}
 var WN_KEY="ray_wn_seen";
 var WHATSNEW=[
+{id:"2026-09-04-a-resume",date:"September 4, 2026",title:"Tailor resume now builds the actual resume",
+ body:"The Tailor resume button on every card now produces a full one-page resume draft for that posting - bullets and skills reordered to match the job, with a gap list for anything the posting wants that you cannot back up. Edit it right in the window, then copy it or download it as Word or plain text. Before you use it, click Resume profile at the top of the page and add your email, phone and any experience beyond your coursework. That profile stays in this browser only and is never shown on the public page."},
 {id:"2026-09-02-a-eligibility",date:"September 2, 2026",title:"Check enrollment rules before applying to the internships",
  body:"Now that you have graduated, some of these internships may not be open to you. Anne Arundel County asks for a transcript proving current enrollment, the Maryland Department of Commerce program requires you to be a sophomore or higher currently enrolled, and every Leidos intern and co-op posting says you must be currently enrolled in a degree program. Those eight listings now carry an ELIGIBILITY note and a lower score. They are still on the board because some employers do flex for recent graduates, but ask before you spend time on the application. The Lighthouse roles are the better bet on this front, since that program is aimed at students and prospective workers and you apply by emailing the employer directly."},
 {id:"2026-09-02-b-newgrad",date:"September 2, 2026",title:"Seven new-grad and entry-level roles added",
