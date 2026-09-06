@@ -36,7 +36,8 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
     "id": 2,
@@ -75,7 +76,8 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
     "id": 3,
@@ -113,7 +115,8 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
     "id": 4,
@@ -151,7 +154,8 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
     "id": 5,
@@ -189,48 +193,11 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
     "id": 6,
-    "score": 89,
-    "title": "Junior IT Support Agent/Technician (Shift Schedules: Day, Evening, and Night)",
-    "company": "StratasCorp Technologies",
-    "market": "VA",
-    "city": "Hampton, VA",
-    "salary": "$42K-$55K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/junior-it-support-agent-technician-shift-schedules-day-evening-and-night-at-stratascorp-technologies-4460036076",
-    "notes": "Entry-level / Tier 1 - Security+ aligns with role",
-    "postedDate": "2026-09-01",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 4,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "Clearance-eligible: the employer sponsors it, you don't need one first.",
-      "employer": "Federal contractor that hires and sponsors early-career staff."
-    },
-    "intel": {
-      "size": "Small-to-mid federal contractor",
-      "hq": "Hampton, VA",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
-  },
-  {
-    "id": 7,
     "score": 89,
     "title": "Service Desk Analyst I (Shift Mon-Fri 9am -6pm EST) REQ 1367",
     "company": "ePlus inc.",
@@ -265,10 +232,11 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 8,
+    "id": 7,
     "score": 89,
     "title": "Analyst I Service Desk",
     "company": "Womble Bond Dickinson (US) LLP",
@@ -303,10 +271,11 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 9,
+    "id": 8,
     "score": 89,
     "title": "Service Desk IT Analyst I",
     "company": "The University of Texas at Arlington",
@@ -341,10 +310,11 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 10,
+    "id": 9,
     "score": 88,
     "title": "IT Support Technician (Tier 1/Tier 2) - Baltimore Area",
     "company": "Baltimore Consulting",
@@ -379,10 +349,11 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 11,
+    "id": 10,
     "score": 87,
     "title": "Help Desk Specialist",
     "company": "Chenega MIOS SBU",
@@ -418,10 +389,11 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Mixed - posts entry through senior roles"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 12,
+    "id": 11,
     "score": 87,
     "title": "Service Desk Technician",
     "company": "Leidos",
@@ -457,10 +429,11 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Mixed - posts entry through senior roles"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 13,
+    "id": 12,
     "score": 87,
     "title": "Desktop Support Technician",
     "company": "Leidos",
@@ -496,10 +469,11 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Mixed - posts entry through senior roles"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 14,
+    "id": 13,
     "score": 87,
     "title": "Service Desk Technician",
     "company": "SAIC",
@@ -535,10 +509,11 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Mixed - posts entry through senior roles"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 15,
+    "id": 14,
     "score": 86,
     "title": "IT Helpdesk Technician II - Service Center",
     "company": "Chenega MIOS SBU",
@@ -574,10 +549,11 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Posts Tier 2 and up; some entry-level openings"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 16,
+    "id": 15,
     "score": 86,
     "title": "IT Help Desk Support Specialist - Tier II",
     "company": "A&T Systems, Inc.",
@@ -613,10 +589,11 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Posts Tier 2 and up; some entry-level openings"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 17,
+    "id": 16,
     "score": 86,
     "title": "Global Tier 1 Service Desk Technician",
     "company": "KBR Careers",
@@ -652,10 +629,11 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 18,
+    "id": 17,
     "score": 86,
     "title": "Systems Administrator I (Domain & Server)",
     "company": "AMERICAN SYSTEMS",
@@ -690,10 +668,11 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 19,
+    "id": 18,
     "score": 86,
     "title": "Systems Support Technician I",
     "company": "Luminis Health",
@@ -728,10 +707,11 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 20,
+    "id": 19,
     "score": 84,
     "title": "SOC Analyst",
     "company": "DMI",
@@ -767,10 +747,11 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Mixed - posts entry through senior roles"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 21,
+    "id": 20,
     "score": 83,
     "title": "Global Tier 1 Service Desk Technician",
     "company": "KBR Careers",
@@ -806,10 +787,89 @@
       "remotePolicy": "100% remote (nationwide)",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 22,
+    "score": 83,
+    "title": "Help Desk Support Specialist",
+    "company": "Dixon Valve",
+    "market": "MD",
+    "city": "Chestertown, MD",
+    "salary": "$44K-$54K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-support-specialist-at-dixon-valve-4459229161",
+    "notes": "Established manufacturer - Entry-level help desk - Onsite - Security+ is a plus",
+    "postedDate": "2026-09-06",
+    "lastVerified": "2026-09-06",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 4,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Entry-level help desk - squarely where you are.",
+      "skills": "Match to your help desk and end-user support strengths.",
+      "location": "Chestertown is Eastern Shore MD - a longer commute than the Baltimore metro.",
+      "barrier": "No clearance required - standard commercial hire.",
+      "employer": "Long-established manufacturer with a stable in-house IT team."
+    },
+    "intel": {
+      "size": "Mid-size manufacturer",
+      "hq": "Chestertown, MD",
+      "remotePolicy": "Onsite - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - posted at entry level"
+    },
+    "id": 21
+  },
+  {
+    "score": 83,
+    "title": "IT Support Technician",
+    "company": "Fello",
+    "market": "MD",
+    "city": "Linthicum Heights, MD",
+    "salary": "$45K-$55K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/it-support-technician-at-fello-4461783922",
+    "notes": "Entry-level IT support - Near BWI / Baltimore metro - Onsite - Security+ is a plus",
+    "postedDate": "2026-09-06",
+    "lastVerified": "2026-09-06",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 3
+    },
+    "fitNotes": {
+      "level": "Entry-level support technician - a fit for your experience.",
+      "skills": "Match to your help desk and hardware support strengths.",
+      "location": "Linthicum Heights near BWI - easy reach in the Baltimore metro.",
+      "barrier": "No clearance required - standard commercial hire.",
+      "employer": "Smaller organization - research the team before applying."
+    },
+    "intel": {
+      "size": "Small-to-mid organization",
+      "hq": "Maryland",
+      "remotePolicy": "Onsite - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - posted at entry level"
+    },
+    "id": 22
+  },
+  {
+    "id": 23,
     "score": 79,
     "title": "IT Service Desk Agent (2 Openings)",
     "company": "City of Memphis",
@@ -844,10 +904,11 @@
       "remotePolicy": "100% remote (nationwide)",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 23,
+    "id": 24,
     "score": 79,
     "title": "End User Support Analyst I - Service Desk",
     "company": "Health First",
@@ -882,10 +943,11 @@
       "remotePolicy": "100% remote (nationwide)",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 24,
+    "id": 25,
     "score": 77,
     "title": "Help Desk Specialist",
     "company": "Chenega MIOS SBU",
@@ -921,10 +983,11 @@
       "remotePolicy": "100% remote (nationwide)",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Mixed - posts entry through senior roles"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 25,
+    "id": 26,
     "score": 76,
     "title": "IS Support Specialist I",
     "company": "YMCA of Greater Seattle",
@@ -959,10 +1022,11 @@
       "remotePolicy": "100% remote (nationwide)",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 26,
+    "id": 27,
     "score": 76,
     "title": "SOC Analyst I",
     "company": "Heartland Business Systems",
@@ -997,10 +1061,11 @@
       "remotePolicy": "100% remote (nationwide)",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 27,
+    "id": 28,
     "score": 76,
     "title": "Tier 1 NOC Analyst Overnight Shift",
     "company": "Motorola Solutions",
@@ -1035,10 +1100,11 @@
       "remotePolicy": "100% remote (nationwide)",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "lastVerified": "2026-09-06"
   },
   {
-    "id": 28,
+    "id": 29,
     "score": 73,
     "title": "Network Operations Center (NOC) Technician II",
     "company": "Leidos",
@@ -1074,6 +1140,7 @@
       "remotePolicy": "100% remote (nationwide)",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Posts Tier 2 and up; some entry-level openings"
-    }
+    },
+    "lastVerified": "2026-09-06"
   }
 ]
