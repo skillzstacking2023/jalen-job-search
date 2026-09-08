@@ -82,7 +82,27 @@
     }
   },
   {
-    "id": 3,
+    "score": 88,
+    "title": "IT Network Engineer Junior, Edge Network Engineer Junior",
+    "company": "University of Maryland, College Park",
+    "market": "MD",
+    "city": "College Park, MD",
+    "salary": "Not listed",
+    "roleType": "IT Specialist",
+    "sector": "Government",
+    "url": "https://umd.wd1.myworkdayjobs.com/en-US/UMCP/job/University-of-Maryland-College-Park/IT-Network-Engineer-Junior--Edge-Network-Engineer-Junior_JR104675",
+    "notes": "Explicitly junior-level campus network role in the Division of Information Technology - minimum qualifications are a bachelor's degree and ZERO years of professional experience, which is as clean an entry-level opening as the market offers - duties center on supporting operations, maintenance and administration of network infrastructure under senior engineers - no certification and no clearance required - in-person component required each week at the College Park campus, telework is not guaranteed - direct match for an Information Systems degree with networking fundamentals coursework",
+    "clearance": "None",
+    "certRequired": false,
+    "certNote": "",
+    "postedDate": "2026-09-08",
+    "posted": "2026-09-08",
+    "lastVerified": "2026-09-08",
+    "priority": "High",
+    "id": 3
+  },
+  {
+    "id": 4,
     "score": 87,
     "title": "Data Analyst Intern",
     "company": "Naval Systems, Inc.",
@@ -140,7 +160,7 @@
     "clearance": "None",
     "url": "https://www.governmentjobs.com/jobs/5210267-0/programmer-i-database-and-programmer-ii-database",
     "notes": "Full-time entry-level programmer role, Level I open to new graduates - Minimum qualification is a bachelor degree in information technology with NO experience required, or an associate degree plus two years - Direct match for relational database and SQL coursework - Combined I/II posting so apply at the Level I grade",
-    "id": 4,
+    "id": 5,
     "fit": {
       "level": 5,
       "skills": 5,
@@ -164,7 +184,7 @@
     }
   },
   {
-    "id": 5,
+    "id": 6,
     "score": 86,
     "title": "IT Compliance and Readiness Intern",
     "company": "Fearless Solutions, LLC",
@@ -205,7 +225,7 @@
     }
   },
   {
-    "id": 6,
+    "id": 7,
     "score": 85,
     "title": "Cybersecurity Assessment and Governance Intern",
     "company": "University of Maryland, Baltimore County (UMBC)",
@@ -246,7 +266,7 @@
     }
   },
   {
-    "id": 7,
+    "id": 8,
     "score": 84,
     "title": "Cybersecurity and IT Analyst Intern",
     "company": "Defense Interns",
@@ -287,7 +307,7 @@
     }
   },
   {
-    "id": 8,
+    "id": 9,
     "score": 83,
     "title": "Health Data Analyst Intern",
     "company": "Health Tech Alley, Inc.",
@@ -328,7 +348,7 @@
     }
   },
   {
-    "id": 9,
+    "id": 10,
     "score": 82,
     "title": "Technology Procurement Support Analyst Intern",
     "company": "Fearless Solutions, LLC",
@@ -386,7 +406,7 @@
     "postedDate": "2026-09-08",
     "posted": "2026-09-08",
     "lastVerified": "2026-09-08",
-    "id": 10,
+    "id": 11,
     "fit": {
       "level": 5,
       "skills": 4,
@@ -427,7 +447,7 @@
     "postedDate": "2026-09-08",
     "posted": "2026-09-08",
     "lastVerified": "2026-09-08",
-    "id": 11,
+    "id": 12,
     "fit": {
       "level": 5,
       "skills": 4,
@@ -451,7 +471,7 @@
     }
   },
   {
-    "id": 12,
+    "id": 13,
     "score": 81,
     "title": "Cloud Solutions Intern",
     "company": "Cloudforce Group, LLC",
@@ -509,7 +529,7 @@
     "postedDate": "2026-09-08",
     "posted": "2026-09-08",
     "lastVerified": "2026-09-08",
-    "id": 13,
+    "id": 14,
     "fit": {
       "level": 5,
       "skills": 4,
@@ -533,7 +553,7 @@
     }
   },
   {
-    "id": 14,
+    "id": 15,
     "score": 80,
     "title": "Systems Testing Intern",
     "company": "BiiTech, LLC",
@@ -591,7 +611,7 @@
     "postedDate": "2026-09-08",
     "posted": "2026-09-08",
     "lastVerified": "2026-09-08",
-    "id": 15,
+    "id": 16,
     "fit": {
       "level": 5,
       "skills": 4,
@@ -632,7 +652,7 @@
     "postedDate": "2026-09-08",
     "posted": "2026-09-08",
     "lastVerified": "2026-09-08",
-    "id": 16,
+    "id": 17,
     "fit": {
       "level": 5,
       "skills": 4,
@@ -673,7 +693,7 @@
     "postedDate": "2026-09-08",
     "posted": "2026-09-08",
     "lastVerified": "2026-09-08",
-    "id": 17,
+    "id": 18,
     "fit": {
       "level": 5,
       "skills": 4,
@@ -714,7 +734,7 @@
     "postedDate": "2026-09-08",
     "posted": "2026-09-08",
     "lastVerified": "2026-09-08",
-    "id": 18,
+    "id": 19,
     "fit": {
       "level": 5,
       "skills": 4,
@@ -738,7 +758,7 @@
     }
   },
   {
-    "id": 19,
+    "id": 20,
     "score": 77,
     "title": "Information Technology Internships - Office of Information Technology",
     "company": "Anne Arundel County Government",
@@ -779,7 +799,7 @@
     }
   },
   {
-    "id": 20,
+    "id": 21,
     "score": 74,
     "title": "AI/ML Quality Assurance Testing Associate",
     "company": "Minnodi, LLC",
@@ -820,7 +840,27 @@
     }
   },
   {
-    "id": 21,
+    "score": 74,
+    "title": "IT Desktop Support Coordinator",
+    "company": "University of Maryland, College Park",
+    "market": "MD",
+    "city": "College Park, MD",
+    "salary": "Not listed",
+    "roleType": "IT Support",
+    "sector": "Government",
+    "url": "https://umd.wd1.myworkdayjobs.com/en-US/UMCP/job/University-of-Maryland-College-Park/IT-Desktop-Support-Coordinator_JR104726",
+    "notes": "Desktop support on the Enterprise Desktop team within the Division of Information Technology - installs, tests and troubleshoots desktop systems, applications and AV equipment and consults one-on-one with end users - asks for a bachelor's degree plus one year of professional IT experience, so slightly above a true zero-experience opening but well within reach - CompTIA A+, Jamf and Microsoft certifications are listed as preferences only, not requirements - no clearance required - in-person component required at the College Park campus",
+    "clearance": "None",
+    "certRequired": false,
+    "certNote": "CompTIA A+ listed as preferred, not required",
+    "postedDate": "2026-09-08",
+    "posted": "2026-09-08",
+    "lastVerified": "2026-09-08",
+    "priority": "Medium",
+    "id": 22
+  },
+  {
+    "id": 23,
     "score": 73,
     "title": "Enterprise AI and Platform Intern",
     "company": "ServBeyond Solutions, LLC",
@@ -878,7 +918,7 @@
     "clearance": "None",
     "url": "https://www.governmentjobs.com/jobs/5377253-0/management-analyst-i-hhs-finance-and-administration",
     "notes": "Entry-grade Analyst I on a county merit recruitment, open to the public - Requires a bachelor degree, preferably business or public administration - Business analysis and process improvement fit, less technical than his IT target roles",
-    "id": 22,
+    "id": 24,
     "fit": {
       "level": 5,
       "skills": 3,
@@ -919,7 +959,7 @@
     "clearance": "None",
     "url": "https://www.governmentjobs.com/jobs/5439557-0/election-support-technician",
     "notes": "Entry-level technical support for election systems including a SaaS application - Part-time non-benefited seasonal work - Useful short-term experience rather than a career role",
-    "id": 23,
+    "id": 25,
     "fit": {
       "level": 5,
       "skills": 3,
@@ -943,7 +983,27 @@
     }
   },
   {
-    "id": 24,
+    "score": 69,
+    "title": "IT SPECIALIST (APPSW)",
+    "company": "Social Security Administration",
+    "market": "MD",
+    "city": "Woodlawn, MD",
+    "salary": "$58,193-$75,653/yr",
+    "roleType": "IT Specialist",
+    "sector": "Federal",
+    "url": "https://www.usajobs.gov/job/881804700",
+    "notes": "Federal Direct Hire announcement filling an applications-software ladder at GS-07, GS-09 and GS-11 - the GS-07 entry point sits inside the entry-level federal band and the listed specialized experience maps well to an Information Systems background - SQL or NoSQL databases, assisting with web applications, and preparing technical documentation - scored as a stretch because the announcement asks for one year of specialized experience at the GS-06 level and states no education substitution - public trust position, no active clearance needed - open through 02/13/2027, so there is time to strengthen the application",
+    "clearance": "Eligible/Sponsor",
+    "certRequired": false,
+    "certNote": "",
+    "postedDate": "2026-09-08",
+    "posted": "2026-09-08",
+    "lastVerified": "2026-09-08",
+    "priority": "Stretch",
+    "id": 26
+  },
+  {
+    "id": 27,
     "score": 64,
     "title": "Systems Engineering Intern",
     "company": "Leidos",
@@ -984,7 +1044,7 @@
     }
   },
   {
-    "id": 25,
+    "id": 28,
     "score": 63,
     "title": "Cybersecurity Analyst Intern",
     "company": "Leidos",
@@ -1025,7 +1085,7 @@
     }
   },
   {
-    "id": 26,
+    "id": 29,
     "score": 60,
     "title": "Central Services Risk Management Internship",
     "company": "Anne Arundel County Government",
