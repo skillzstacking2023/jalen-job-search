@@ -15,72 +15,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-i-%E2%80%93-tier-1-at-chenega-mios-sbu-4456400372",
     "notes": "Federal contractor - clearance-eligible welcome - Entry-level / Tier 1 - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 4,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "Clearance-eligible: the employer sponsors it, you don't need one first.",
-      "employer": "Federal contractor that hires and sponsors early-career staff."
-    },
-    "intel": {
-      "size": "Small-to-mid federal contractor",
-      "hq": "Ashburn, VA",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
     "id": 2,
-    "score": 90,
-    "title": "Tier 1 SOC Analyst",
-    "company": "VMD Corp",
-    "market": "VA",
-    "city": "Alexandria, VA",
-    "salary": "$58K-$72K/yr",
-    "roleType": "SOC",
-    "certs": [
-      "fed",
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/tier-1-soc-analyst-at-vmd-corp-4449929440",
-    "notes": "Federal contractor - clearance-eligible welcome - Entry-level / Tier 1 - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 5,
-      "skills": 4,
-      "location": 5,
-      "barrier": 4,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Security+ maps to SOC fundamentals - your strongest cert here.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "Clearance-eligible: the employer sponsors it, you don't need one first.",
-      "employer": "Federal contractor that hires and sponsors early-career staff."
-    },
-    "intel": {
-      "size": "Small-to-mid federal contractor",
-      "hq": "Alexandria, VA",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "lastVerified": "2026-09-07"
-  },
-  {
-    "id": 3,
     "score": 89,
     "title": "IT Service Desk Analyst I",
     "company": "GBMC HealthCare",
@@ -94,32 +33,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-service-desk-analyst-i-at-gbmc-healthcare-4454559572",
     "notes": "Entry-level / Tier 1 - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 5,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "No clearance or degree barrier - you can apply today.",
-      "employer": "Established employer for an entry-level IT hire."
-    },
-    "intel": {
-      "size": "Large institutional employer",
-      "hq": "Baltimore, MD",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 4,
+    "id": 3,
     "score": 89,
     "title": "Tier 1 Helpdesk Support",
     "company": "Columbia Technology Partners",
@@ -133,32 +51,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/tier-1-helpdesk-support-at-columbia-technology-partners-4450871134",
     "notes": "Entry-level / Tier 1 - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 4,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "Clearance-eligible: the employer sponsors it, you don't need one first.",
-      "employer": "Federal contractor that hires and sponsors early-career staff."
-    },
-    "intel": {
-      "size": "Small-to-mid federal contractor",
-      "hq": "Annapolis Junction, MD",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 5,
+    "id": 4,
     "score": 89,
     "title": "IT Support Specialist I",
     "company": "Leggett & Platt",
@@ -172,32 +69,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-support-specialist-i-at-leggett-platt-4389400044",
     "notes": "Entry-level / Tier 1 - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 5,
-      "employer": 3
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "No clearance or degree barrier - you can apply today.",
-      "employer": "Established employer for an entry-level IT hire."
-    },
-    "intel": {
-      "size": "Not determined",
-      "hq": "Havre de Grace, MD",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 6,
+    "id": 5,
     "score": 89,
     "title": "Service Desk Analyst I (Shift Mon-Fri 9am -6pm EST) REQ 1367",
     "company": "ePlus inc.",
@@ -211,32 +87,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/service-desk-analyst-i-shift-mon-fri-9am-6pm-est-req-1367-at-eplus-inc-4451967653",
     "notes": "Entry-level / Tier 1 - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 4,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "Clearance-eligible: the employer sponsors it, you don't need one first.",
-      "employer": "Federal contractor that hires and sponsors early-career staff."
-    },
-    "intel": {
-      "size": "Small-to-mid federal contractor",
-      "hq": "Virginia Beach, VA",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 7,
+    "id": 6,
     "score": 89,
     "title": "Analyst I Service Desk",
     "company": "Womble Bond Dickinson (US) LLP",
@@ -250,32 +105,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/analyst-i-service-desk-at-womble-bond-dickinson-us-llp-4452859409",
     "notes": "Entry-level / Tier 1 - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 5,
-      "employer": 3
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "No clearance or degree barrier - you can apply today.",
-      "employer": "Established employer for an entry-level IT hire."
-    },
-    "intel": {
-      "size": "Not determined",
-      "hq": "Washington, DC",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 8,
+    "id": 7,
     "score": 89,
     "title": "Service Desk IT Analyst I",
     "company": "The University of Texas at Arlington",
@@ -289,32 +123,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/service-desk-it-analyst-i-at-the-university-of-texas-at-arlington-4459891627",
     "notes": "Entry-level / Tier 1 - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 3,
-      "barrier": 5,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "Secondary market (Texas) - viable if you'd relocate.",
-      "barrier": "No clearance or degree barrier - you can apply today.",
-      "employer": "Established employer for an entry-level IT hire."
-    },
-    "intel": {
-      "size": "Large institutional employer",
-      "hq": "Arlington, TX",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 9,
+    "id": 8,
     "score": 88,
     "title": "IT Support Technician (Tier 1/Tier 2) - Baltimore Area",
     "company": "Baltimore Consulting",
@@ -328,32 +141,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-support-technician-tier-1-tier-2-%E2%80%93-baltimore-area-at-baltimore-consulting-4456264547",
     "notes": "Entry-level / Tier 1 - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 4,
-      "skills": 5,
-      "location": 5,
-      "barrier": 5,
-      "employer": 3
-    },
-    "fitNotes": {
-      "level": "Tier 2 leans slightly senior, but reachable with Security+ and help desk basics.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "No clearance or degree barrier - you can apply today.",
-      "employer": "Established employer for an entry-level IT hire."
-    },
-    "intel": {
-      "size": "Not determined",
-      "hq": "Hunt Valley, MD",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 10,
+    "id": 9,
     "score": 87,
     "title": "Help Desk Specialist",
     "company": "Chenega MIOS SBU",
@@ -368,32 +160,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-at-chenega-mios-sbu-4458502737",
     "notes": "Federal contractor - clearance-eligible welcome - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 4,
-      "skills": 5,
-      "location": 5,
-      "barrier": 4,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Support-level role that fits an early-career profile.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "Clearance-eligible: the employer sponsors it, you don't need one first.",
-      "employer": "Federal contractor that hires and sponsors early-career staff."
-    },
-    "intel": {
-      "size": "Small-to-mid federal contractor",
-      "hq": "Ashburn, VA",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Mixed - posts entry through senior roles"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 11,
+    "id": 10,
     "score": 87,
     "title": "Service Desk Technician",
     "company": "Leidos",
@@ -408,32 +179,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/service-desk-technician-at-leidos-4459564715",
     "notes": "Federal contractor - clearance-eligible welcome - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 4,
-      "skills": 5,
-      "location": 5,
-      "barrier": 4,
-      "employer": 5
-    },
-    "fitNotes": {
-      "level": "Support-level role that fits an early-career profile.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "Clearance-eligible: the employer sponsors it, you don't need one first.",
-      "employer": "Major federal prime - large, steady entry-level pipeline."
-    },
-    "intel": {
-      "size": "Large (federal prime, 10k+ employees)",
-      "hq": "Arlington, VA",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Mixed - posts entry through senior roles"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 12,
+    "id": 11,
     "score": 87,
     "title": "Desktop Support Technician",
     "company": "Leidos",
@@ -448,32 +198,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/desktop-support-technician-at-leidos-4460193238",
     "notes": "Federal contractor - clearance-eligible welcome - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 4,
-      "skills": 5,
-      "location": 5,
-      "barrier": 4,
-      "employer": 5
-    },
-    "fitNotes": {
-      "level": "Support-level role that fits an early-career profile.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "Clearance-eligible: the employer sponsors it, you don't need one first.",
-      "employer": "Major federal prime - large, steady entry-level pipeline."
-    },
-    "intel": {
-      "size": "Large (federal prime, 10k+ employees)",
-      "hq": "Patuxent River, MD",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Mixed - posts entry through senior roles"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 13,
+    "id": 12,
     "score": 87,
     "title": "Service Desk Technician",
     "company": "SAIC",
@@ -488,32 +217,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/service-desk-technician-at-saic-4440988825",
     "notes": "Federal contractor - clearance-eligible welcome - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 4,
-      "skills": 5,
-      "location": 5,
-      "barrier": 4,
-      "employer": 5
-    },
-    "fitNotes": {
-      "level": "Support-level role that fits an early-career profile.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "Clearance-eligible: the employer sponsors it, you don't need one first.",
-      "employer": "Major federal prime - large, steady entry-level pipeline."
-    },
-    "intel": {
-      "size": "Large (federal prime, 10k+ employees)",
-      "hq": "Aberdeen Proving Ground, MD",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Mixed - posts entry through senior roles"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 14,
+    "id": 13,
     "score": 86,
     "title": "IT Helpdesk Technician II - Service Center",
     "company": "Chenega MIOS SBU",
@@ -528,32 +236,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-helpdesk-technician-ii-%E2%80%93-service-center-at-chenega-mios-sbu-4462067653",
     "notes": "Federal contractor - clearance-eligible welcome - Tier 2 - slight experience stretch - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 4,
-      "skills": 5,
-      "location": 5,
-      "barrier": 4,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Tier 2 leans slightly senior, but reachable with Security+ and help desk basics.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "Clearance-eligible: the employer sponsors it, you don't need one first.",
-      "employer": "Federal contractor that hires and sponsors early-career staff."
-    },
-    "intel": {
-      "size": "Small-to-mid federal contractor",
-      "hq": "Washington, DC",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Posts Tier 2 and up; some entry-level openings"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 15,
+    "id": 14,
     "score": 86,
     "title": "IT Help Desk Support Specialist - Tier II",
     "company": "A&T Systems, Inc.",
@@ -568,32 +255,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-help-desk-support-specialist-%E2%80%93-tier-ii-at-a-t-systems-inc-4453636206",
     "notes": "Federal contractor - clearance-eligible welcome - Tier 2 - slight experience stretch - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 4,
-      "skills": 5,
-      "location": 5,
-      "barrier": 4,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Tier 2 leans slightly senior, but reachable with Security+ and help desk basics.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "Clearance-eligible: the employer sponsors it, you don't need one first.",
-      "employer": "Federal contractor that hires and sponsors early-career staff."
-    },
-    "intel": {
-      "size": "Small-to-mid federal contractor",
-      "hq": "Aberdeen Proving Ground, MD",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Posts Tier 2 and up; some entry-level openings"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 16,
+    "id": 15,
     "score": 86,
     "title": "Global Tier 1 Service Desk Technician",
     "company": "KBR Careers",
@@ -608,32 +274,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/global-tier-1-service-desk-technician-at-kbr-careers-4459354274",
     "notes": "Federal contractor - clearance-eligible welcome - Entry-level / Tier 1 - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 3,
-      "barrier": 4,
-      "employer": 5
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "Secondary market (Texas) - viable if you'd relocate.",
-      "barrier": "Clearance-eligible: the employer sponsors it, you don't need one first.",
-      "employer": "Major federal prime - large, steady entry-level pipeline."
-    },
-    "intel": {
-      "size": "Large (federal prime, 10k+ employees)",
-      "hq": "Houston, TX",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 17,
+    "id": 16,
     "score": 86,
     "title": "Systems Administrator I (Domain & Server)",
     "company": "AMERICAN SYSTEMS",
@@ -647,32 +292,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/systems-administrator-i-domain-server-at-american-systems-4436257442",
     "notes": "Entry-level / Tier 1 - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 5,
-      "skills": 3,
-      "location": 5,
-      "barrier": 5,
-      "employer": 3
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Windows/AD and systems fundamentals apply; some on-the-job ramp expected.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "No clearance or degree barrier - you can apply today.",
-      "employer": "Established employer for an entry-level IT hire."
-    },
-    "intel": {
-      "size": "Not determined",
-      "hq": "Manassas, VA",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 18,
+    "id": 17,
     "score": 86,
     "title": "Systems Support Technician I",
     "company": "Luminis Health",
@@ -686,32 +310,68 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/systems-support-technician-i-at-luminis-health-4437603938",
     "notes": "Entry-level / Tier 1 - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 5,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "No clearance or degree barrier - you can apply today.",
-      "employer": "Established employer for an entry-level IT hire."
-    },
-    "intel": {
-      "size": "Large institutional employer",
-      "hq": "Annapolis, MD",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
+  },
+  {
+    "id": 18,
+    "score": 86,
+    "title": "Service Desk Specialist",
+    "company": "Inserso Corporation",
+    "market": "VA",
+    "city": "Washington, DC",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/service-desk-specialist-at-inserso-corporation-4456958350",
+    "notes": "Federal contractor - clearance-eligible welcome - Security+ a plus - Tier 1 service desk, DC metro onsite",
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
     "id": 19,
+    "score": 85,
+    "title": "Service Desk Analyst",
+    "company": "Koniag Government Services",
+    "market": "VA",
+    "city": "Washington, DC",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/service-desk-analyst-at-koniag-government-services-4456271789",
+    "notes": "Federal contractor - public trust / clearance-eligible - entry-level Tier 1 support - DC metro",
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
+  },
+  {
+    "id": 20,
+    "score": 85,
+    "title": "Service Desk Technician",
+    "company": "Marathon TS",
+    "market": "VA",
+    "city": "Washington, DC",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/service-desk-technician-at-marathon-ts-4460390533",
+    "notes": "Federal contractor - clearance-eligible track - Tier 1 help desk - Security+ valued - DC metro",
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
+  },
+  {
+    "id": 21,
     "score": 84,
     "title": "SOC Analyst",
     "company": "DMI",
@@ -726,32 +386,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/soc-analyst-at-dmi-4442781349",
     "notes": "Federal contractor - clearance-eligible welcome - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 4,
-      "skills": 4,
-      "location": 5,
-      "barrier": 4,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Support-level role that fits an early-career profile.",
-      "skills": "Security+ maps to SOC fundamentals - your strongest cert here.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "Clearance-eligible: the employer sponsors it, you don't need one first.",
-      "employer": "Federal contractor that hires and sponsors early-career staff."
-    },
-    "intel": {
-      "size": "Small-to-mid federal contractor",
-      "hq": "Crownsville, MD",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Mixed - posts entry through senior roles"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 20,
+    "id": 22,
     "score": 83,
     "title": "Global Tier 1 Service Desk Technician",
     "company": "KBR Careers",
@@ -766,31 +405,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/global-tier-1-service-desk-technician-at-kbr-careers-4459354274",
     "notes": "100% remote (nationwide) - Federal contractor - clearance-eligible welcome - Entry-level / Tier 1 - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 4,
-      "employer": 5
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "100% remote - open to you nationwide from Maryland.",
-      "barrier": "Clearance-eligible: the employer sponsors it, you don't need one first.",
-      "employer": "Major federal prime - large, steady entry-level pipeline."
-    },
-    "intel": {
-      "size": "Large (federal prime, 10k+ employees)",
-      "hq": "Distributed / remote-first",
-      "remotePolicy": "100% remote (nationwide)",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
+    "id": 23,
     "score": 83,
     "title": "Help Desk Support Specialist",
     "company": "Dixon Valve",
@@ -804,32 +423,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/help-desk-support-specialist-at-dixon-valve-4459229161",
     "notes": "Established manufacturer - Entry-level help desk - Onsite - Security+ is a plus",
-    "postedDate": "2026-09-07",
-    "lastVerified": "2026-09-07",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 4,
-      "barrier": 5,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Entry-level help desk - squarely where you are.",
-      "skills": "Match to your help desk and end-user support strengths.",
-      "location": "Chestertown is Eastern Shore MD - a longer commute than the Baltimore metro.",
-      "barrier": "No clearance required - standard commercial hire.",
-      "employer": "Long-established manufacturer with a stable in-house IT team."
-    },
-    "intel": {
-      "size": "Mid-size manufacturer",
-      "hq": "Chestertown, MD",
-      "remotePolicy": "Onsite - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - posted at entry level"
-    },
-    "id": 21
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
+    "id": 24,
     "score": 83,
     "title": "IT Support Technician",
     "company": "Fello",
@@ -843,33 +441,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-support-technician-at-fello-4461783922",
     "notes": "Entry-level IT support - Near BWI / Baltimore metro - Onsite - Security+ is a plus",
-    "postedDate": "2026-09-07",
-    "lastVerified": "2026-09-07",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 5,
-      "employer": 3
-    },
-    "fitNotes": {
-      "level": "Entry-level support technician - a fit for your experience.",
-      "skills": "Match to your help desk and hardware support strengths.",
-      "location": "Linthicum Heights near BWI - easy reach in the Baltimore metro.",
-      "barrier": "No clearance required - standard commercial hire.",
-      "employer": "Smaller organization - research the team before applying."
-    },
-    "intel": {
-      "size": "Small-to-mid organization",
-      "hq": "Maryland",
-      "remotePolicy": "Onsite - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - posted at entry level"
-    },
-    "id": 22
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 23,
+    "id": 25,
     "score": 79,
     "title": "IT Service Desk Agent (2 Openings)",
     "company": "City of Memphis",
@@ -883,32 +459,11 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/it-service-desk-agent-2-openings-at-city-of-memphis-4457914642",
     "notes": "100% remote (nationwide) - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 5,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "100% remote - open to you nationwide from Maryland.",
-      "barrier": "No clearance or degree barrier - you can apply today.",
-      "employer": "Established employer for an entry-level IT hire."
-    },
-    "intel": {
-      "size": "Large institutional employer",
-      "hq": "Distributed / remote-first",
-      "remotePolicy": "100% remote (nationwide)",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 24,
+    "id": 26,
     "score": 79,
     "title": "End User Support Analyst I - Service Desk",
     "company": "Health First",
@@ -922,32 +477,11 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/end-user-support-analyst-i-service-desk-at-health-first-4461508890",
     "notes": "100% remote (nationwide) - Entry-level / Tier 1 - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 5,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "100% remote - open to you nationwide from Maryland.",
-      "barrier": "No clearance or degree barrier - you can apply today.",
-      "employer": "Established employer for an entry-level IT hire."
-    },
-    "intel": {
-      "size": "Large institutional employer",
-      "hq": "Distributed / remote-first",
-      "remotePolicy": "100% remote (nationwide)",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 25,
+    "id": 27,
     "score": 77,
     "title": "Help Desk Specialist",
     "company": "Chenega MIOS SBU",
@@ -962,71 +496,11 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-at-chenega-mios-sbu-4458512307",
     "notes": "100% remote (nationwide) - Federal contractor - clearance-eligible welcome - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 4,
-      "skills": 5,
-      "location": 5,
-      "barrier": 4,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Support-level role that fits an early-career profile.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "100% remote - open to you nationwide from Maryland.",
-      "barrier": "Clearance-eligible: the employer sponsors it, you don't need one first.",
-      "employer": "Federal contractor that hires and sponsors early-career staff."
-    },
-    "intel": {
-      "size": "Small-to-mid federal contractor",
-      "hq": "Distributed / remote-first",
-      "remotePolicy": "100% remote (nationwide)",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Mixed - posts entry through senior roles"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 26,
-    "score": 76,
-    "title": "IS Support Specialist I",
-    "company": "YMCA of Greater Seattle",
-    "market": "Remote",
-    "city": "Remote (US)",
-    "salary": "$44K-$59K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/is-support-specialist-i-at-ymca-of-greater-seattle-4449246444",
-    "notes": "100% remote (nationwide) - Entry-level / Tier 1 - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 5,
-      "employer": 3
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "100% remote - open to you nationwide from Maryland.",
-      "barrier": "No clearance or degree barrier - you can apply today.",
-      "employer": "Established employer for an entry-level IT hire."
-    },
-    "intel": {
-      "size": "Not determined",
-      "hq": "Distributed / remote-first",
-      "remotePolicy": "100% remote (nationwide)",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "lastVerified": "2026-09-07"
-  },
-  {
-    "id": 27,
+    "id": 28,
     "score": 76,
     "title": "SOC Analyst I",
     "company": "Heartland Business Systems",
@@ -1040,32 +514,11 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/soc-analyst-i-at-heartland-business-systems-4448057921",
     "notes": "100% remote (nationwide) - Entry-level / Tier 1 - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 5,
-      "skills": 4,
-      "location": 5,
-      "barrier": 5,
-      "employer": 3
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Security+ maps to SOC fundamentals - your strongest cert here.",
-      "location": "100% remote - open to you nationwide from Maryland.",
-      "barrier": "No clearance or degree barrier - you can apply today.",
-      "employer": "Established employer for an entry-level IT hire."
-    },
-    "intel": {
-      "size": "Not determined",
-      "hq": "Distributed / remote-first",
-      "remotePolicy": "100% remote (nationwide)",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 28,
+    "id": 29,
     "score": 76,
     "title": "Tier 1 NOC Analyst Overnight Shift",
     "company": "Motorola Solutions",
@@ -1079,32 +532,11 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/tier-1-noc-analyst-overnight-shift-at-motorola-solutions-4455371388",
     "notes": "100% remote (nationwide) - Entry-level / Tier 1 - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 5,
-      "skills": 4,
-      "location": 5,
-      "barrier": 5,
-      "employer": 3
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Networking fundamentals from Security+ transfer to NOC work.",
-      "location": "100% remote - open to you nationwide from Maryland.",
-      "barrier": "No clearance or degree barrier - you can apply today.",
-      "employer": "Established employer for an entry-level IT hire."
-    },
-    "intel": {
-      "size": "Not determined",
-      "hq": "Distributed / remote-first",
-      "remotePolicy": "100% remote (nationwide)",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   },
   {
-    "id": 29,
+    "id": 30,
     "score": 73,
     "title": "Network Operations Center (NOC) Technician II",
     "company": "Leidos",
@@ -1119,28 +551,7 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/network-operations-center-noc-technician-ii-at-leidos-4450467007",
     "notes": "100% remote (nationwide) - Federal contractor - clearance-eligible welcome - Tier 2 - slight experience stretch - Security+ aligns with role",
-    "postedDate": "2026-09-07",
-    "fit": {
-      "level": 4,
-      "skills": 4,
-      "location": 5,
-      "barrier": 4,
-      "employer": 5
-    },
-    "fitNotes": {
-      "level": "Tier 2 leans slightly senior, but reachable with Security+ and help desk basics.",
-      "skills": "Networking fundamentals from Security+ transfer to NOC work.",
-      "location": "100% remote - open to you nationwide from Maryland.",
-      "barrier": "Clearance-eligible: the employer sponsors it, you don't need one first.",
-      "employer": "Major federal prime - large, steady entry-level pipeline."
-    },
-    "intel": {
-      "size": "Large (federal prime, 10k+ employees)",
-      "hq": "Distributed / remote-first",
-      "remotePolicy": "100% remote (nationwide)",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Posts Tier 2 and up; some entry-level openings"
-    },
-    "lastVerified": "2026-09-07"
+    "postedDate": "2026-09-11",
+    "lastVerified": "2026-09-11"
   }
 ]
