@@ -203,6 +203,57 @@ border-bottom:1px solid #cbd5e1;padding-bottom:3px;margin:16px 0 8px}
 .resume ul{margin:0 0 8px;padding-left:18px}
 .resume li{font-size:.83rem;color:#334155;margin-bottom:3px;line-height:1.45}
 .resume .muted{color:#64748b;font-style:italic}
+.net{padding:20px 0 8px;display:flex;flex-direction:column;gap:24px;max-width:920px}
+.nethead h2{margin:0 0 6px;font-size:20px}
+.nethead p{margin:0;color:var(--muted);font-size:13.5px;line-height:1.55}
+.netsec{display:flex;flex-direction:column;gap:10px}
+.neth{font-size:15px;font-weight:800}
+.nsub{font-size:12.5px;color:var(--muted);line-height:1.5}
+.netchips{display:flex;flex-wrap:wrap;gap:8px}
+.netchip{display:inline-flex;align-items:center;gap:7px;background:var(--accent);color:#04283a;text-decoration:none;font-weight:700;font-size:12.5px;padding:7px 12px;border-radius:9px;white-space:nowrap}
+[data-theme="light"] .netchip{color:#fff}
+.netchip.alt{background:var(--chip);color:var(--text);border:1px solid var(--line)}
+.netchip.sm{font-size:12px;padding:6px 10px}
+.netchipn{background:rgba(0,0,0,.18);border-radius:20px;padding:0 6px;font-size:11px;font-weight:800}
+.netchip.alt .netchipn{background:var(--line)}
+.netdmv{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:4px}
+.netlist{display:flex;flex-direction:column;gap:8px}
+.netrow{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;background:var(--card);border:1px solid var(--line);border-radius:11px;padding:11px 13px}
+.netttl{font-weight:700;font-size:13.5px}
+.netco{font-size:12px;color:var(--muted);margin-top:2px}
+.netlinks{display:flex;gap:8px;flex-wrap:wrap}
+.templates{display:flex;flex-direction:column;gap:12px}
+.tmpl{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:13px}
+.tmplh{display:flex;justify-content:space-between;align-items:center;font-weight:800;font-size:13.5px;margin-bottom:8px;gap:10px}
+.tmplcopy{background:transparent;border:1px solid var(--line);color:var(--muted);font-size:11.5px;font-weight:700;padding:5px 10px;border-radius:8px;cursor:pointer;font-family:inherit;flex:none}
+.tmplcopy:hover{border-color:var(--accent);color:var(--text)}
+.tmplbody{font-size:12.5px;color:var(--text);line-height:1.55}
+.netform{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.netform input,.netform select{background:var(--card);border:1px solid var(--line);color:var(--text);border-radius:9px;padding:8px 10px;font-size:12.5px;font-family:inherit}
+.netform input{min-width:140px;flex:1 1 150px}
+.netform #nc-notes{flex:2 1 240px}
+.netadd{background:var(--accent);color:#04283a;border:none;font-weight:700;font-size:12.5px;padding:8px 14px;border-radius:9px;cursor:pointer;font-family:inherit;flex:none}
+[data-theme="light"] .netadd{color:#fff}
+.netstats{display:flex;flex-wrap:wrap;gap:7px}
+.netstat{font-size:11.5px;font-weight:700;color:var(--muted);background:var(--chip);border:1px solid var(--line);padding:3px 9px;border-radius:20px}
+.netstat.referral{color:var(--green)}.netstat.call{color:var(--amber)}.netstat.replied{color:var(--teal)}
+.ncontacts{display:flex;flex-direction:column;gap:9px}
+.ncontact{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--line);border-radius:11px;padding:12px}
+.ncontact.st-reached{border-left-color:var(--accent)}
+.ncontact.st-replied{border-left-color:var(--teal)}
+.ncontact.st-call{border-left-color:var(--amber)}
+.ncontact.st-referral{border-left-color:var(--green)}
+.ctop{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.cname{font-weight:700;font-size:13.5px}
+.clink{color:var(--accent);font-size:12px;text-decoration:none;font-weight:700}
+.cstage{background:var(--chip);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:5px 8px;font-size:12px;font-family:inherit;cursor:pointer;flex:none}
+.cmeta{font-size:12px;color:var(--muted);margin-top:3px}
+.cnotes{width:100%;box-sizing:border-box;margin-top:8px;background:var(--bg);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:8px;font-size:12px;font-family:inherit;min-height:44px;resize:vertical}
+.cdel{margin-top:8px;background:transparent;border:1px solid var(--line);color:var(--muted);font-size:11.5px;font-weight:700;padding:5px 10px;border-radius:8px;cursor:pointer;font-family:inherit}
+.cdel:hover{border-color:#ef4444;color:#ef4444}
+.netactions{margin-top:2px}
+.netactions button{background:transparent;border:1px solid var(--line);color:var(--muted);font-size:12px;font-weight:700;padding:7px 12px;border-radius:9px;cursor:pointer;font-family:inherit}
+.netactions button:hover{border-color:var(--accent);color:var(--text)}
 </style>
 </head>
 <body>
@@ -229,6 +280,7 @@ border-bottom:1px solid #cbd5e1;padding-bottom:3px;margin:16px 0 8px}
 <div class="tabs">
 <button class="tab active" data-panel="p-opps" onclick="showTab(this)">Opportunities</button>
 <button class="tab" data-panel="p-pipe" onclick="showTab(this)">Pipeline</button>
+<button class="tab" data-panel="p-network" onclick="showTab(this)">Networking</button>
 <button class="tab" data-panel="p-analytics" onclick="showTab(this)">Analytics</button>
 <button class="tab" data-panel="p-guide" onclick="showTab(this)">How to use</button>
 </div>
@@ -277,6 +329,67 @@ border-bottom:1px solid #cbd5e1;padding-bottom:3px;margin:16px 0 8px}
 <div class="count" id="pipecount" style="margin-top:20px"></div>
 <div class="board" id="board"></div>
 </div>
+
+<div class="panel" id="p-network">
+<div class="net">
+<div class="nethead">
+<h2>Connect with Towson alumni</h2>
+<p>Find Towson University alumni working the kinds of roles on your board, reach out for a referral or a short informational chat, and track every conversation. Each link opens LinkedIn's own Alumni tool inside your logged-in session - nothing about these people is stored on this page. Only your own contact notes are saved, and only in this browser.</p>
+</div>
+
+<div class="netsec">
+<div class="neth">Find alumni by role type</div>
+<div class="nsub">Opens Towson's alumni explorer filtered to that keyword. Use the tool's built-in "Where they live" filter to narrow to Maryland, DC or Virginia.</div>
+<div class="netchips" id="net-roles"></div>
+</div>
+
+<div class="netsec">
+<div class="neth">Find alumni tied to a specific opening</div>
+<div class="nsub">For each role on your board: alumni who work at that employer, and alumni with a matching job title. Ask for a referral or how they got in.</div>
+<div class="netlist" id="net-listings"></div>
+</div>
+
+<div class="netsec">
+<div class="neth">Outreach templates</div>
+<div class="nsub">Copy one, paste it into a LinkedIn message or email, then swap the bracketed bits.</div>
+<div class="templates">
+<div class="tmpl">
+<div class="tmplh"><span>Referral request</span><button class="tmplcopy" type="button" onclick="copyText('tmpl-ref')">Copy</button></div>
+<div class="tmplbody" id="tmpl-ref">Hi [First name], I'm a fellow Towson grad - IT, Class of 2025, with my Security+ and Cloud+ - working toward my first [role type] role. I saw you're at [Company] and would really value 10 minutes to hear how you got started there. If there's an entry-level opening you'd be open to referring me for, I'd be grateful, and happy to send my resume either way. Thanks for reading!</div>
+</div>
+<div class="tmpl">
+<div class="tmplh"><span>Informational chat</span><button class="tmplcopy" type="button" onclick="copyText('tmpl-info')">Copy</button></div>
+<div class="tmplbody" id="tmpl-info">Hi [First name], I'm connecting with Towson alumni in IT as I start my own search around the DMV. Your path into [role / company] stood out to me. Could I ask you a couple of quick questions about what helped you land your first role and what you'd look for in a candidate like me? Even a short reply would help a lot. Go Tigers!</div>
+</div>
+</div>
+</div>
+
+<div class="netsec">
+<div class="neth">Your networking contacts</div>
+<div class="nsub">Private to this browser. Track each person from first outreach through to a referral, and export the list any time.</div>
+<div class="netform">
+<input id="nc-name" placeholder="Name">
+<input id="nc-company" placeholder="Company">
+<input id="nc-role" placeholder="Role / title">
+<input id="nc-url" placeholder="LinkedIn URL (optional)">
+<select id="nc-stage">
+<option value="identified">Identified</option>
+<option value="reached">Reached out</option>
+<option value="replied">Replied</option>
+<option value="call">Call booked</option>
+<option value="referral">Referral</option>
+</select>
+<input id="nc-notes" placeholder="Notes (optional)">
+<button class="netadd" type="button" onclick="addContact()">Add contact</button>
+<span class="actmsg" id="net-msg"></span>
+</div>
+<div class="netstats" id="net-contact-stats"></div>
+<div class="ncontacts" id="net-contacts"></div>
+<div class="netactions"><button type="button" onclick="exportContactsCSV()">Download contacts CSV</button></div>
+</div>
+</div>
+</div>
+
 
 <div class="panel" id="p-analytics">
 <div class="charts">
@@ -800,6 +913,101 @@ roles.sort();
 var rsel=document.getElementById("role");
 roles.forEach(function(r){var o=document.createElement("option");o.value=r;o.textContent=r;rsel.appendChild(o);});}
 
+/* ---- Networking: Towson alumni finder + contact tracker ---- */
+var NET_SCHOOL="https://www.linkedin.com/school/towson-university/people/";
+var CKEY="jalen_contacts_v1";
+var CONTACTS=[];
+try{CONTACTS=JSON.parse(localStorage.getItem(CKEY)||"[]");if(!Array.isArray(CONTACTS))CONTACTS=[];}catch(e){CONTACTS=[];}
+var CSTAGES=["identified","reached","replied","call","referral"];
+var CSTAGE_LABEL={identified:"Identified",reached:"Reached out",replied:"Replied",call:"Call booked",referral:"Referral"};
+var CSTAGE_ORDER={identified:0,reached:1,replied:2,call:3,referral:4};
+function saveContacts(){localStorage.setItem(CKEY,JSON.stringify(CONTACTS));}
+function alumniByKeyword(kw){return NET_SCHOOL+"?keyword="+encodeURIComponent(kw);}
+function peopleSearch(kw){return "https://www.linkedin.com/search/results/people/?keywords="+encodeURIComponent(kw)+"&origin=GLOBAL_SEARCH_HEADER";}
+function netLink(cls,text,href){var a=el("a",cls,text);a.href=href;a.target="_blank";a.rel="noopener";return a;}
+function netMsg(m){var e=document.getElementById("net-msg");if(e){e.textContent=m;setTimeout(function(){if(e.textContent===m)e.textContent="";},4000);}}
+
+function renderNetwork(){renderNetRoles();renderNetListings();renderContacts();}
+
+function renderNetRoles(){
+var box=document.getElementById("net-roles");if(!box)return;box.innerHTML="";
+var roles={};JOBS.forEach(function(j){if(j.roleType)roles[j.roleType]=(roles[j.roleType]||0)+1;});
+var order=Object.keys(roles).sort(function(a,b){return roles[b]-roles[a];});
+if(order.length===0){box.appendChild(el("div","nsub","Role list loads with the job board."));return;}
+order.forEach(function(rt){var chip=netLink("netchip",rt+" alumni",alumniByKeyword(rt));chip.appendChild(el("span","netchipn",String(roles[rt])));box.appendChild(chip);});
+var dmv=el("div","netdmv");dmv.appendChild(el("span","nsub","Broader people search that adds a location: "));
+[["Help desk - Maryland","help desk Maryland"],["IT support - DC / Virginia","IT support Washington DC Virginia"],["SOC analyst - DMV","SOC analyst Maryland Virginia"]].forEach(function(p){dmv.appendChild(netLink("netchip alt","Towson: "+p[0],peopleSearch("Towson University "+p[1])));});
+box.appendChild(dmv);}
+
+function renderNetListings(){
+var box=document.getElementById("net-listings");if(!box)return;box.innerHTML="";
+if(JOBS.length===0){box.appendChild(el("div","nsub","Loads with the job board."));return;}
+var seen={};
+JOBS.forEach(function(j){
+var key=(j.company||"")+"|"+(j.title||"");if(seen[key])return;seen[key]=1;
+var row=el("div","netrow");
+var meta=el("div","netmeta");meta.appendChild(el("div","netttl",j.title||""));meta.appendChild(el("div","netco",(j.company||"")+(j.city?" - "+j.city:"")));
+row.appendChild(meta);
+var links=el("div","netlinks");
+if(j.company)links.appendChild(netLink("netchip sm","Alumni at "+j.company,alumniByKeyword(j.company)));
+if(j.title)links.appendChild(netLink("netchip sm alt","Alumni with a similar title",alumniByKeyword(j.title)));
+row.appendChild(links);box.appendChild(row);});}
+
+function findContact(id){for(var i=0;i<CONTACTS.length;i++){if(CONTACTS[i].id===id)return CONTACTS[i];}return null;}
+function addContact(){
+var g=function(id){return (document.getElementById(id).value||"").trim();};
+var name=g("nc-name");
+if(!name){netMsg("Add at least a name.");return;}
+CONTACTS.push({id:String(Date.now())+"-"+Math.random().toString(36).slice(2,7),name:name,company:g("nc-company"),role:g("nc-role"),url:g("nc-url"),stage:document.getElementById("nc-stage").value||"identified",notes:g("nc-notes")});
+saveContacts();
+["nc-name","nc-company","nc-role","nc-url","nc-notes"].forEach(function(id){document.getElementById(id).value="";});
+document.getElementById("nc-stage").value="identified";
+renderContacts();netMsg("Contact added.");}
+function setContactStage(id,v){var c=findContact(id);if(c){c.stage=v;saveContacts();renderContacts();}}
+function setContactNotes(id,v){var c=findContact(id);if(c){c.notes=v;saveContacts();}}
+function deleteContact(id){CONTACTS=CONTACTS.filter(function(x){return x.id!==id;});saveContacts();renderContacts();}
+
+function renderContacts(){
+var box=document.getElementById("net-contacts");if(!box)return;box.innerHTML="";
+var stats=document.getElementById("net-contact-stats");
+if(stats){stats.innerHTML="";var counts={};CSTAGES.forEach(function(s){counts[s]=0;});
+CONTACTS.forEach(function(c){if(counts[c.stage]!=null)counts[c.stage]++;});
+stats.appendChild(el("span","netstat",CONTACTS.length+" contact"+(CONTACTS.length===1?"":"s")));
+CSTAGES.forEach(function(s){if(counts[s])stats.appendChild(el("span","netstat "+s,counts[s]+" "+CSTAGE_LABEL[s]));});}
+if(CONTACTS.length===0){box.appendChild(el("div","nsub","No contacts yet. Find an alum above, then add them here to start tracking."));return;}
+var sorted=CONTACTS.slice().sort(function(a,b){return (CSTAGE_ORDER[a.stage]||0)-(CSTAGE_ORDER[b.stage]||0);});
+sorted.forEach(function(c){
+var row=el("div","ncontact st-"+c.stage);
+var top=el("div","ctop");
+var nm=el("div","cname",c.name);
+if(c.url){var a=el("a","clink","LinkedIn");a.href=c.url;a.target="_blank";a.rel="noopener";nm.appendChild(document.createTextNode("  "));nm.appendChild(a);}
+top.appendChild(nm);
+var sel=document.createElement("select");sel.className="cstage";
+CSTAGES.forEach(function(s){var o=document.createElement("option");o.value=s;o.textContent=CSTAGE_LABEL[s];if(c.stage===s)o.selected=true;sel.appendChild(o);});
+sel.onchange=(function(id){return function(){setContactStage(id,this.value);};})(c.id);
+top.appendChild(sel);row.appendChild(top);
+var sub=[c.role,c.company].filter(Boolean).join(" - ");
+if(sub)row.appendChild(el("div","cmeta",sub));
+var ta=document.createElement("textarea");ta.className="cnotes";ta.placeholder="Notes - what you talked about, next step, date...";ta.value=c.notes||"";
+ta.oninput=(function(id){return function(){setContactNotes(id,this.value);};})(c.id);
+row.appendChild(ta);
+var del=el("button","cdel","Remove");del.type="button";del.onclick=(function(id){return function(){deleteContact(id);};})(c.id);
+row.appendChild(del);box.appendChild(row);});}
+
+function exportContactsCSV(){
+if(CONTACTS.length===0){netMsg("No contacts to export yet.");return;}
+var head=["Name","Company","Role","Stage","LinkedIn","Notes"];
+var rows=[head].concat(CONTACTS.map(function(c){return [c.name,c.company,c.role,CSTAGE_LABEL[c.stage]||c.stage,c.url,(c.notes||"").replace(/\s+/g," ")];}));
+var csv=rows.map(function(r){return r.map(function(v){v=String(v==null?"":v);return '"'+v.replace(/"/g,'""')+'"';}).join(",");}).join("\r\n");
+var blob=new Blob([csv],{type:"text/csv"});var a=document.createElement("a");
+a.href=URL.createObjectURL(blob);a.download="jalen-networking-contacts.csv";document.body.appendChild(a);a.click();document.body.removeChild(a);
+netMsg("Downloaded "+CONTACTS.length+" contact"+(CONTACTS.length===1?"":"s")+".");}
+
+function copyText(id){
+var t=document.getElementById(id);var txt=t?t.textContent:"";
+if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(function(){netMsg("Template copied.");},function(){netMsg("Copy failed - select the text and copy manually.");});}
+else{netMsg("Copy not supported here - select the text manually.");}}
+
 function showTab(btn){
 var tabs=document.querySelectorAll(".tab");
 for(var i=0;i<tabs.length;i++)tabs[i].classList.remove("active");
@@ -807,7 +1015,8 @@ btn.classList.add("active");
 var panels=document.querySelectorAll(".panel");
 for(var k=0;k<panels.length;k++)panels[k].classList.remove("active");
 document.getElementById(btn.getAttribute("data-panel")).classList.add("active");
-if(btn.getAttribute("data-panel")==="p-analytics")renderCharts();}
+if(btn.getAttribute("data-panel")==="p-analytics")renderCharts();
+if(btn.getAttribute("data-panel")==="p-network")renderNetwork();}
 
 function resetFilters(){
 ["q","priority","market","sector","role","clearance","cert","stage"].forEach(function(id){
@@ -913,6 +1122,7 @@ dates.sort().reverse();
 document.getElementById("updated").textContent="Last refreshed: "+(dates[0]||"-")+
 " - "+JOBS.length+" entry-level IT openings across Maryland, DC/Virginia, Texas and 100% remote nationwide";
 renderAll();
+renderNetwork();
 ["q","priority","market","sector","role","clearance","cert","stage","sort"].forEach(function(id){
 document.getElementById(id).addEventListener(id==="q"?"input":"change",renderGrid);});})
 .catch(function(e){
