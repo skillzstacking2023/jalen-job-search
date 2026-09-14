@@ -15,12 +15,32 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-11",
-    "posted": "2026-09-11",
-    "lastVerified": "2026-09-09"
+    "postedDate": "2026-09-14",
+    "posted": "2026-09-14",
+    "lastVerified": "2026-09-14"
   },
   {
-    "id": 2,
+    "score": 87,
+    "title": "Office of IT, Cybersecurity Intern (Student Technical Assistant)",
+    "company": "Maryland State Department of Education",
+    "market": "MD",
+    "city": "Baltimore, MD",
+    "salary": "$17.41 - $21.00/hr",
+    "roleType": "Internship",
+    "sector": "Government",
+    "priority": "High",
+    "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=005302&R3=0011",
+    "notes": "Paid state government IT internship, explicitly posted as an internship - hybrid with up to 3 telework days per week at the Grasmick building in Baltimore - stated minimum is 60 credit hours in computing or a related field, so an Information Systems degree clears it easily - closes 09/24/2026 - open to the public, not an internal-only recruitment - no clearance and no certification required",
+    "clearance": "None",
+    "certRequired": false,
+    "certNote": "",
+    "postedDate": "2026-09-14",
+    "posted": "2026-09-14",
+    "lastVerified": "2026-09-14",
+    "id": 2
+  },
+  {
+    "id": 3,
     "score": 86,
     "title": "SOC Support Specialist- Eastern Time Zone",
     "company": "Huntress",
@@ -35,12 +55,12 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-11",
-    "posted": "2026-09-11",
-    "lastVerified": "2026-09-11"
+    "postedDate": "2026-09-14",
+    "posted": "2026-09-14",
+    "lastVerified": "2026-09-14"
   },
   {
-    "id": 3,
+    "id": 4,
     "score": 85,
     "title": "Information Technology Internships - Office of Information Technology",
     "company": "Anne Arundel County Government",
@@ -55,29 +75,9 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-11",
-    "posted": "2026-09-11",
-    "lastVerified": "2026-09-10"
-  },
-  {
-    "id": 4,
-    "score": 84,
-    "title": "IT Specialist (Operating Systems)",
-    "company": "Internal Revenue Service",
-    "market": "MD",
-    "city": "Lanham, MD",
-    "salary": "$40,736 - $94,563/yr",
-    "roleType": "IT Specialist",
-    "sector": "Federal",
-    "priority": "High",
-    "url": "https://www.usajobs.gov/job/883566300",
-    "notes": "Federal 2210-series opening advertised at GS-5 through GS-9, squarely inside the entry-level federal band, with career progression to GS-12 without further competition - Lanham MD is one of the listed duty locations - operating systems and infrastructure support work that builds directly on networking and systems coursework - no security clearance required, standard federal background check only - closes 09/14/2026, so this is a short application window",
-    "clearance": "None",
-    "certRequired": false,
-    "certNote": "",
-    "postedDate": "2026-09-11",
-    "posted": "2026-09-11",
-    "lastVerified": "2026-09-10"
+    "postedDate": "2026-09-14",
+    "posted": "2026-09-14",
+    "lastVerified": "2026-09-14"
   },
   {
     "id": 5,
@@ -95,9 +95,9 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-11",
-    "posted": "2026-09-11",
-    "lastVerified": "2026-09-11"
+    "postedDate": "2026-09-14",
+    "posted": "2026-09-14",
+    "lastVerified": "2026-09-14"
   },
   {
     "id": 6,
@@ -115,9 +115,9 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-11",
-    "posted": "2026-09-11",
-    "lastVerified": "2026-09-10"
+    "postedDate": "2026-09-14",
+    "posted": "2026-09-14",
+    "lastVerified": "2026-09-14"
   },
   {
     "id": 7,
@@ -135,9 +135,9 @@
     "clearance": "Eligible/Sponsor",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-11",
-    "posted": "2026-09-11",
-    "lastVerified": "2026-09-10"
+    "postedDate": "2026-09-14",
+    "posted": "2026-09-14",
+    "lastVerified": "2026-09-14"
   },
   {
     "id": 8,
@@ -155,8 +155,8 @@
     "clearance": "Eligible/Sponsor",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-11",
-    "posted": "2026-09-11",
+    "postedDate": "2026-09-14",
+    "posted": "2026-09-14",
     "lastVerified": "2026-09-11"
   },
   {
@@ -175,12 +175,32 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "CompTIA A+ listed as preferred, not required",
-    "postedDate": "2026-09-11",
-    "posted": "2026-09-11",
-    "lastVerified": "2026-09-09"
+    "postedDate": "2026-09-14",
+    "posted": "2026-09-14",
+    "lastVerified": "2026-09-14"
   },
   {
-    "id": 10,
+    "score": 74,
+    "title": "IT/AV Technician II",
+    "company": "College of Southern Maryland",
+    "market": "MD",
+    "city": "La Plata, MD",
+    "salary": "$44,306 - $75,320/yr",
+    "roleType": "IT Support",
+    "sector": "Government",
+    "priority": "Medium",
+    "url": "https://www.governmentjobs.com/jobs/5406213-0/it-av-technician-ii",
+    "notes": "Level II sits in the title but the stated minimum qualification is only a bachelor's degree or equivalent trade school training in a computer or technology related field, with no years of experience required - desktop troubleshooting plus audiovisual and classroom technology support on a community college campus - continuous posting with no close date - no clearance or certification required",
+    "clearance": "None",
+    "certRequired": false,
+    "certNote": "",
+    "postedDate": "2026-09-14",
+    "posted": "2026-09-14",
+    "lastVerified": "2026-09-14",
+    "id": 10
+  },
+  {
+    "id": 11,
     "score": 73,
     "title": "Management Analyst I (HHS Finance and Administration)",
     "company": "Baltimore County",
@@ -195,12 +215,12 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-11",
-    "posted": "2026-09-11",
-    "lastVerified": "2026-09-09"
+    "postedDate": "2026-09-14",
+    "posted": "2026-09-14",
+    "lastVerified": "2026-09-14"
   },
   {
-    "id": 11,
+    "id": 12,
     "score": 73,
     "title": "Junior OT/ICS Lab Engineer",
     "company": "Dragos",
@@ -215,49 +235,29 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-11",
-    "posted": "2026-09-11",
-    "lastVerified": "2026-09-11"
+    "postedDate": "2026-09-14",
+    "posted": "2026-09-14",
+    "lastVerified": "2026-09-14"
   },
   {
-    "id": 12,
     "score": 72,
-    "title": "Cybersecurity Analyst Intern",
-    "company": "Leidos",
+    "title": "Junior Services Architect",
+    "company": "Tenable",
     "market": "MD",
-    "city": "Odenton, MD",
-    "salary": "Intern rate - not listed",
-    "roleType": "Cybersecurity",
-    "sector": "Federal",
+    "city": "Columbia, MD",
+    "salary": "Not posted",
+    "roleType": "Systems Analyst",
+    "sector": "Commercial",
     "priority": "Medium",
-    "url": "https://careers.leidos.com/search/jobs?q=R-00190663",
-    "notes": "Req R-00190663, re-verified open on the Leidos Maryland board - analyst-track cybersecurity internship in Odenton - the posting does NOT require current enrollment, so an August 2026 graduate is eligible - posting lists Secret clearance and Leidos intern programs typically sponsor rather than requiring one already in hand - no certification required for interns",
-    "clearance": "Eligible/Sponsor",
-    "certRequired": false,
-    "certNote": "",
-    "postedDate": "2026-09-11",
-    "posted": "2026-09-11",
-    "lastVerified": "2026-09-10"
-  },
-  {
-    "id": 13,
-    "score": 72,
-    "title": "Computer Scientist (Recent Graduate)",
-    "company": "U.S. Census Bureau",
-    "market": "MD",
-    "city": "Suitland, MD",
-    "salary": "$57,736 - $91,815/yr",
-    "roleType": "Junior Developer",
-    "sector": "Federal",
-    "priority": "Medium",
-    "url": "https://www.usajobs.gov/job/883067200",
-    "notes": "Recent Graduates appointment at GS-7 to GS-9 with full performance level GS-12, based at Census headquarters in Suitland and reachable on the Metro Green Line - non-sensitive low risk position, no security clearance required, telework eligible - QUALIFICATION CHECK BEFORE APPLYING: the 1550 Computer Science series carries a positive education requirement, generally a degree in computer science or a closely related field including a set number of computer science and mathematics credit hours, so the transcript should be checked against the announcement - closes 09/15/2026 or earlier once 200 applications are received",
+    "url": "https://job-boards.greenhouse.io/tenableinc/jobs/5418662008",
+    "notes": "Commercial cybersecurity vendor headquartered in Columbia MD - junior-titled role on the professional services team - posting asks for 1-3 years in information security OR equivalent training and education, which keeps it open to a recent graduate - hybrid between the Maryland headquarters and a Boston office - no clearance and no certification required",
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-11",
-    "posted": "2026-09-11",
-    "lastVerified": "2026-09-10"
+    "postedDate": "2026-09-14",
+    "posted": "2026-09-14",
+    "lastVerified": "2026-09-14",
+    "id": 13
   },
   {
     "id": 14,
@@ -270,14 +270,14 @@
     "roleType": "Internship",
     "sector": "Federal",
     "priority": "Medium",
-    "url": "https://careers.leidos.com/search/jobs/in/md-maryland?q=intern",
+    "url": "https://careers.leidos.com/search/jobs?q=R-00191640",
     "notes": "Paid internship with no clearance requirement listed - business operations and process analysis work that lines up with a systems analysis and business process improvement background - explicitly an internship program rather than an experienced hire - Columbia MD onsite/hybrid - reached via the Leidos Maryland internship search, req R-00191640 - a parallel posting exists in Gaithersburg MD",
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-11",
-    "posted": "2026-09-11",
-    "lastVerified": "2026-09-09"
+    "postedDate": "2026-09-14",
+    "posted": "2026-09-14",
+    "lastVerified": "2026-09-14"
   },
   {
     "id": 15,
@@ -295,32 +295,12 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-11",
-    "posted": "2026-09-11",
-    "lastVerified": "2026-09-10"
+    "postedDate": "2026-09-14",
+    "posted": "2026-09-14",
+    "lastVerified": "2026-09-14"
   },
   {
     "id": 16,
-    "score": 70,
-    "title": "Election Support Technician",
-    "company": "Frederick County Government",
-    "market": "MD",
-    "city": "Frederick, MD",
-    "salary": "$16.00-$20.00/hr",
-    "roleType": "IT Support",
-    "sector": "Government",
-    "priority": "Medium",
-    "url": "https://www.governmentjobs.com/jobs/5439557-0/election-support-technician",
-    "notes": "Entry-level technical support for election systems including a SaaS application - Part-time non-benefited seasonal work - Useful short-term experience rather than a career role",
-    "clearance": "None",
-    "certRequired": false,
-    "certNote": "",
-    "postedDate": "2026-09-11",
-    "posted": "2026-09-11",
-    "lastVerified": "2026-09-09"
-  },
-  {
-    "id": 17,
     "score": 70,
     "title": "Central Services Risk Management Internship",
     "company": "Anne Arundel County Government",
@@ -335,12 +315,12 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-11",
-    "posted": "2026-09-11",
-    "lastVerified": "2026-09-10"
+    "postedDate": "2026-09-14",
+    "posted": "2026-09-14",
+    "lastVerified": "2026-09-14"
   },
   {
-    "id": 18,
+    "id": 17,
     "score": 70,
     "title": "Temporary IT Service Desk Office Aide",
     "company": "Calvert County Government",
@@ -355,12 +335,12 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-11",
-    "posted": "2026-09-11",
-    "lastVerified": "2026-09-11"
+    "postedDate": "2026-09-14",
+    "posted": "2026-09-14",
+    "lastVerified": "2026-09-14"
   },
   {
-    "id": 19,
+    "id": 18,
     "score": 69,
     "title": "IT SPECIALIST (APPSW)",
     "company": "Social Security Administration",
@@ -375,9 +355,29 @@
     "clearance": "Eligible/Sponsor",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-11",
-    "posted": "2026-09-11",
-    "lastVerified": "2026-09-09"
+    "postedDate": "2026-09-14",
+    "posted": "2026-09-14",
+    "lastVerified": "2026-09-14"
+  },
+  {
+    "score": 68,
+    "title": "TEMP Information Management Technology Technician Pool",
+    "company": "College of Southern Maryland",
+    "market": "MD",
+    "city": "La Plata, MD",
+    "salary": "Not posted",
+    "roleType": "IT Support",
+    "sector": "Government",
+    "priority": "Stretch",
+    "url": "https://www.governmentjobs.com/jobs/3535454-0/temp-information-management-technology-technician-pool",
+    "notes": "Continuous applicant pool that feeds short-term IT technician assignments across the college's Maryland campuses - a realistic way to bank hands-on help desk and desktop hours while applying for full-time roles - no clearance or certification required - listed as part-time temporary rather than a permanent position, which is the main drawback",
+    "clearance": "None",
+    "certRequired": false,
+    "certNote": "",
+    "postedDate": "2026-09-14",
+    "posted": "2026-09-14",
+    "lastVerified": "2026-09-14",
+    "id": 19
   },
   {
     "id": 20,
@@ -395,8 +395,8 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-11",
-    "posted": "2026-09-11",
-    "lastVerified": "2026-09-10"
+    "postedDate": "2026-09-14",
+    "posted": "2026-09-14",
+    "lastVerified": "2026-09-14"
   }
 ]
