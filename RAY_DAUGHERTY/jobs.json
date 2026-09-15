@@ -15,8 +15,8 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-14",
-    "posted": "2026-09-14",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
     "lastVerified": "2026-09-14"
   },
   {
@@ -34,8 +34,8 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-14",
-    "posted": "2026-09-14",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
     "lastVerified": "2026-09-14",
     "id": 2
   },
@@ -55,8 +55,8 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-14",
-    "posted": "2026-09-14",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
     "lastVerified": "2026-09-14"
   },
   {
@@ -75,8 +75,8 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-14",
-    "posted": "2026-09-14",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
     "lastVerified": "2026-09-14"
   },
   {
@@ -95,8 +95,8 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-14",
-    "posted": "2026-09-14",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
     "lastVerified": "2026-09-14"
   },
   {
@@ -115,8 +115,8 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-14",
-    "posted": "2026-09-14",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
     "lastVerified": "2026-09-14"
   },
   {
@@ -135,8 +135,8 @@
     "clearance": "Eligible/Sponsor",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-14",
-    "posted": "2026-09-14",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
     "lastVerified": "2026-09-14"
   },
   {
@@ -155,9 +155,9 @@
     "clearance": "Eligible/Sponsor",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-14",
-    "posted": "2026-09-14",
-    "lastVerified": "2026-09-11"
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
+    "lastVerified": "2026-09-15"
   },
   {
     "id": 9,
@@ -175,8 +175,8 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "CompTIA A+ listed as preferred, not required",
-    "postedDate": "2026-09-14",
-    "posted": "2026-09-14",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
     "lastVerified": "2026-09-14"
   },
   {
@@ -194,8 +194,8 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-14",
-    "posted": "2026-09-14",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
     "lastVerified": "2026-09-14",
     "id": 10
   },
@@ -215,8 +215,8 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-14",
-    "posted": "2026-09-14",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
     "lastVerified": "2026-09-14"
   },
   {
@@ -235,8 +235,8 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-14",
-    "posted": "2026-09-14",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
     "lastVerified": "2026-09-14"
   },
   {
@@ -254,13 +254,33 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-14",
-    "posted": "2026-09-14",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
     "lastVerified": "2026-09-14",
     "id": 13
   },
   {
-    "id": 14,
+    "score": 72,
+    "title": "Programmer I -(Database) and Programmer II (Database)",
+    "company": "Community College of Baltimore County",
+    "market": "MD",
+    "city": "Catonsville, MD",
+    "salary": "$63,988-$117,400/yr",
+    "roleType": "Junior Developer",
+    "sector": "Government",
+    "priority": "Medium",
+    "url": "https://www.governmentjobs.com/jobs/5210267-0/programmer-i-database-and-programmer-ii-database",
+    "notes": "Combined posting covering two levels, and the Programmer I level is described in the posting itself as an entry-level position that focuses on learning software development life cycles, coding, testing and documentation under supervision - the Programmer I minimum qualification is an associate degree plus two years of IT experience OR a bachelor's degree in information technology on its own, so the degree route clears it with no professional experience - the posting also names the exact coursework expected, SQL, HTML5, CSS, JavaScript and Java, which lines up closely with an Information Systems curriculum - work is database administration and support in an Ellucian Banner and Oracle environment, so SQL and PL/SQL are the core of the job - certifications are encouraged but explicitly not required for entry-level new hires - no clearance required - one caveat worth knowing before applying: this is a continuous recruitment that opened 01/23/2026 with a stated best-consideration date of 02/06/2026 that has passed, so confirm the req is still being filled before investing heavy effort",
+    "clearance": "None",
+    "certRequired": false,
+    "certNote": "Certifications encouraged but not required for entry-level new hires",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
+    "lastVerified": "2026-09-15",
+    "id": 14
+  },
+  {
+    "id": 15,
     "score": 71,
     "title": "Finance and Business Operations Intern",
     "company": "Leidos",
@@ -275,12 +295,12 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-14",
-    "posted": "2026-09-14",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
     "lastVerified": "2026-09-14"
   },
   {
-    "id": 15,
+    "id": 16,
     "score": 71,
     "title": "Finance and Business Operations Intern",
     "company": "Leidos",
@@ -295,12 +315,32 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-14",
-    "posted": "2026-09-14",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
     "lastVerified": "2026-09-14"
   },
   {
-    "id": 16,
+    "score": 71,
+    "title": "COMPUTER NETWORK SPECIALIST I",
+    "company": "Maryland Department of Human Services",
+    "market": "MD",
+    "city": "Leonardtown, MD",
+    "salary": "$76,608-$99,105/yr",
+    "roleType": "IT Support",
+    "sector": "Government",
+    "priority": "Medium",
+    "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004412&R3=0002",
+    "notes": "Entry grade of the state Computer Network Specialist series, opened 09/04/2026 and closing 09/18/2026, so this is a short window - the role is the single point of contact for the local IT unit, acting as the primary technical support help desk, troubleshooting hardware and software, managing device access and maintaining LAN and WAN software and hardware, which is a strong first full-time IT job - the headline requirement is two years of experience, but substitution note 4 replaces nearly all of it with a bachelor's degree in computer information technology, management information systems or a related IT field including network coursework, leaving only six months of network support experience, which is the one real gap - open to the public, not an internal-only recruitment, and no certification or clearance is required - telework eligible, but the duty station is in St. Mary's County in southern Maryland, a long commute from the Baltimore metro, so weigh the telework policy carefully",
+    "clearance": "None",
+    "certRequired": false,
+    "certNote": "",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
+    "lastVerified": "2026-09-15",
+    "id": 17
+  },
+  {
+    "id": 18,
     "score": 70,
     "title": "Central Services Risk Management Internship",
     "company": "Anne Arundel County Government",
@@ -315,12 +355,12 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-14",
-    "posted": "2026-09-14",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
     "lastVerified": "2026-09-14"
   },
   {
-    "id": 17,
+    "id": 19,
     "score": 70,
     "title": "Temporary IT Service Desk Office Aide",
     "company": "Calvert County Government",
@@ -335,12 +375,12 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-14",
-    "posted": "2026-09-14",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
     "lastVerified": "2026-09-14"
   },
   {
-    "id": 18,
+    "id": 20,
     "score": 69,
     "title": "IT SPECIALIST (APPSW)",
     "company": "Social Security Administration",
@@ -355,8 +395,8 @@
     "clearance": "Eligible/Sponsor",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-14",
-    "posted": "2026-09-14",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
     "lastVerified": "2026-09-14"
   },
   {
@@ -374,13 +414,13 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-14",
-    "posted": "2026-09-14",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
     "lastVerified": "2026-09-14",
-    "id": 19
+    "id": 21
   },
   {
-    "id": 20,
+    "id": 22,
     "score": 66,
     "title": "NOC Support Tier I - (IT Tech I)",
     "company": "Baltimore County",
@@ -395,8 +435,8 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "postedDate": "2026-09-14",
-    "posted": "2026-09-14",
+    "postedDate": "2026-09-15",
+    "posted": "2026-09-15",
     "lastVerified": "2026-09-14"
   }
 ]
