@@ -2,25 +2,6 @@
   {
     "id": 1,
     "score": 91,
-    "title": "Enterprise Help Desk (EHD) Agent, Tier 1",
-    "company": "Leidos",
-    "market": "VA",
-    "city": "Lorton, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/enterprise-help-desk-ehd-agent-tier-1-at-leidos-4454669960",
-    "notes": "Tier 1 help desk / service desk role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
-  },
-  {
-    "id": 2,
-    "score": 91,
     "title": "Help Desk Technician I",
     "company": "AMERICAN SYSTEMS",
     "market": "VA",
@@ -34,11 +15,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/help-desk-technician-i-at-american-systems-4466126512",
     "notes": "Tier 1 help desk / service desk role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
-    "id": 3,
+    "id": 2,
     "score": 91,
     "title": "Help Desk Specialist I - Tier 1",
     "company": "Chenega MIOS SBU",
@@ -53,11 +34,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-i-%E2%80%93-tier-1-at-chenega-mios-sbu-4456400372",
     "notes": "Tier 1 help desk / service desk role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
-    "id": 4,
+    "id": 3,
     "score": 87,
     "title": "Help Desk Specialist (Level 1) (Government)",
     "company": "AT&T",
@@ -71,11 +52,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-level-1-government-at-at-t-4463486453",
     "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
-    "id": 5,
+    "id": 4,
     "score": 87,
     "title": "Help Desk Support Analyst (Entry-Level)",
     "company": "Link Solutions, Inc.",
@@ -89,11 +70,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/help-desk-support-analyst-entry-level-at-link-solutions-inc-4468333348",
     "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
-    "id": 6,
+    "id": 5,
     "score": 87,
     "title": "Service Desk Technician I",
     "company": "PEAKE Technology Partners, An Omega Systems Company",
@@ -107,11 +88,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/service-desk-technician-i-at-peake-technology-partners-an-omega-systems-company-4468276866",
     "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
-    "id": 7,
+    "id": 6,
     "score": 87,
     "title": "IT Support Specialist I",
     "company": "Leggett & Platt",
@@ -125,29 +106,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-support-specialist-i-at-leggett-platt-4389400044",
     "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
-    "id": 8,
-    "score": 87,
-    "title": "IT Support Technician (Tier 1/Tier 2) - Baltimore Area",
-    "company": "Baltimore Consulting",
-    "market": "MD",
-    "city": "Hunt Valley, MD",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/it-support-technician-tier-1-tier-2-%E2%80%93-baltimore-area-at-baltimore-consulting-4456264547",
-    "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
-  },
-  {
-    "id": 9,
+    "id": 7,
     "score": 87,
     "title": "IT Service Desk Analyst I",
     "company": "Xometry",
@@ -161,11 +124,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-service-desk-analyst-i-at-xometry-4464584377",
     "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
-    "id": 10,
+    "id": 8,
     "score": 87,
     "title": "IT Helpdesk Specialist 1",
     "company": "Somatus",
@@ -179,11 +142,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-helpdesk-specialist-1-at-somatus-4467077969",
     "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
-    "id": 11,
+    "id": 9,
     "score": 87,
     "title": "Analyst I Service Desk",
     "company": "Womble Bond Dickinson (US) LLP",
@@ -197,11 +160,30 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/analyst-i-service-desk-at-womble-bond-dickinson-us-llp-4452859409",
     "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
-    "id": 12,
+    "id": 10,
+    "score": 85,
+    "title": "Help Desk Associate",
+    "company": "Spatial Front, Inc",
+    "market": "VA",
+    "city": "Arlington, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-associate-at-spatial-front-inc-4440610324",
+    "notes": "Federal contractor (clearance-eligible) - Security+ a plus - Onsite Arlington VA - Entry-level help desk",
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "id": 11,
     "score": 84,
     "title": "IT Support Associate",
     "company": "Carnegie Mellon University",
@@ -215,11 +197,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-support-associate-at-carnegie-mellon-university-4461309076",
     "notes": "Tier 1 SOC / security operations role - Security+ a plus",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
-    "id": 13,
+    "id": 12,
     "score": 84,
     "title": "Service Desk Agent I",
     "company": "AMERICAN SYSTEMS",
@@ -234,8 +216,27 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/service-desk-agent-i-at-american-systems-4467561787",
     "notes": "100% remote (nationwide) - Tier 1 help desk / service desk role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "id": 13,
+    "score": 83,
+    "title": "IT Support Technician",
+    "company": "Morgan 6 LLC",
+    "market": "MD",
+    "city": "Annapolis, MD",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/it-support-technician-at-morgan-6-llc-4469523050",
+    "notes": "SDVOSB federal contractor - Clearance-eligible - Security+ a plus - Onsite Annapolis MD",
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
     "id": 14,
@@ -252,8 +253,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-technician-i-service-desk-at-ies-holdings-4442791594",
     "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
     "id": 15,
@@ -270,8 +271,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/technical-support-analyst-entry-level-at-real-floors-4455464868",
     "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
     "id": 16,
@@ -288,8 +289,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-service-desk-support-level-1-at-blueally-4466775044",
     "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
     "id": 17,
@@ -307,8 +308,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/security-operation-center-soc-analyst-i-at-v2x-inc-4465913115",
     "notes": "100% remote (nationwide) - Tier 1 SOC / security operations role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
     "id": 18,
@@ -325,8 +326,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/service-desk-tech-i-at-clayton-4465303703",
     "notes": "100% remote (nationwide) - Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
     "id": 19,
@@ -343,29 +344,11 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-support-analyst-tier-i-at-lutheran-social-service-of-minnesota-4467290379",
     "notes": "100% remote (nationwide) - Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
     "id": 20,
-    "score": 80,
-    "title": "IT Client Support Specialist I",
-    "company": "University of Central Florida",
-    "market": "Remote",
-    "city": "Remote (US)",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/it-client-support-specialist-i-at-university-of-central-florida-4467811143",
-    "notes": "100% remote (nationwide) - Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
-  },
-  {
-    "id": 21,
     "score": 79,
     "title": "Service Desk Specialist II",
     "company": "DLH Corporation",
@@ -380,11 +363,11 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/service-desk-specialist-ii-job-1467-at-dlh-corporation-4468279084",
     "notes": "Tier 1 help desk / service desk role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
-    "id": 22,
+    "id": 21,
     "score": 79,
     "title": "Desktop Support Technician",
     "company": "Leidos",
@@ -399,11 +382,11 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/desktop-support-technician-at-leidos-4463427895",
     "notes": "Desktop / deskside support role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
-    "id": 23,
+    "id": 22,
     "score": 79,
     "title": "Customer Support Specialist (Technical)",
     "company": "Peraton",
@@ -418,11 +401,11 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/customer-support-specialist-technical-at-peraton-4457404170",
     "notes": "Tier 1 help desk / service desk role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
-    "id": 24,
+    "id": 23,
     "score": 79,
     "title": "Service Desk Technician",
     "company": "MANTECH",
@@ -437,11 +420,11 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/service-desk-technician-at-mantech-4464234097",
     "notes": "Tier 1 help desk / service desk role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
-    "id": 25,
+    "id": 24,
     "score": 79,
     "title": "Service Desk Technician",
     "company": "Leidos",
@@ -456,11 +439,11 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/service-desk-technician-at-leidos-4465965913",
     "notes": "Tier 1 help desk / service desk role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
-    "id": 26,
+    "id": 25,
     "score": 77,
     "title": "SOC Analyst I",
     "company": "Heartland Business Systems",
@@ -474,8 +457,26 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/soc-analyst-i-at-heartland-business-systems-4448057921",
     "notes": "100% remote (nationwide) - Tier 1 SOC / security operations role - Security+ a plus",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "id": 26,
+    "score": 76,
+    "title": "Tier 2 IT Helpdesk Technician",
+    "company": "Quantum Space",
+    "market": "MD",
+    "city": "Rockville, MD",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/tier-2-it-helpdesk-technician-at-quantum-space-4460513651",
+    "notes": "Tier 2 help desk - Security+ preferred - Onsite Rockville MD - Commercial aerospace",
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
     "id": 27,
@@ -493,11 +494,30 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/help-desk-analyst-at-flextecs-4468284814",
     "notes": "100% remote (nationwide) - Tier 1 help desk / service desk role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
     "id": 28,
+    "score": 72,
+    "title": "End User Support Technician - Mid",
+    "company": "CACI International Inc",
+    "market": "VA",
+    "city": "Arlington, VA",
+    "salary": "Competitive",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/end-user-support-technician-mid-at-caci-international-inc-4466971949",
+    "notes": "Federal contractor - No clearance required to start - Intermediate end-user support - Onsite Arlington VA",
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
+  },
+  {
+    "id": 29,
     "score": 69,
     "title": "Security Operations Center Analyst II",
     "company": "V2X Inc",
@@ -512,11 +532,11 @@
     "priority": "Stretch",
     "url": "https://www.linkedin.com/jobs/view/security-operations-center-analyst-ii-at-v2x-inc-4466891419",
     "notes": "100% remote (nationwide) - Tier 1 SOC / security operations role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   },
   {
-    "id": 29,
+    "id": 30,
     "score": 69,
     "title": "Cloud Support Technician",
     "company": "Zachary Piper Solutions",
@@ -532,7 +552,7 @@
     "priority": "Stretch",
     "url": "https://www.linkedin.com/jobs/view/cloud-support-technician-122692-at-zachary-piper-solutions-4467127916",
     "notes": "100% remote (nationwide) - Cloud support role - Cloud+ or Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-18",
-    "lastVerified": "2026-09-18"
+    "postedDate": "2026-09-21",
+    "lastVerified": "2026-09-21"
   }
 ]
