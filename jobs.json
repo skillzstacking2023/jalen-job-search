@@ -6,553 +6,527 @@
     "company": "AMERICAN SYSTEMS",
     "market": "VA",
     "city": "Quantico, VA",
-    "salary": "Competitive",
+    "salary": "$42K-$55K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec",
       "fed"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/help-desk-technician-i-at-american-systems-4466126512",
-    "notes": "Tier 1 help desk / service desk role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
+    "url": "https://www.linkedin.com/jobs/view/4466126512/",
+    "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market - Federal contractor - clearance-eligible track",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
   },
   {
     "id": 2,
-    "score": 91,
-    "title": "Help Desk Specialist I - Tier 1",
-    "company": "Chenega MIOS SBU",
-    "market": "VA",
-    "city": "Ashburn, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-i-%E2%80%93-tier-1-at-chenega-mios-sbu-4456400372",
-    "notes": "Tier 1 help desk / service desk role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 3,
-    "score": 87,
-    "title": "Help Desk Specialist (Level 1) (Government)",
-    "company": "AT&T",
-    "market": "MD",
-    "city": "Columbia, MD",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-level-1-government-at-at-t-4463486453",
-    "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 4,
-    "score": 87,
-    "title": "Help Desk Support Analyst (Entry-Level)",
-    "company": "Link Solutions, Inc.",
-    "market": "MD",
-    "city": "Frederick, MD",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/help-desk-support-analyst-entry-level-at-link-solutions-inc-4468333348",
-    "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 5,
-    "score": 87,
-    "title": "Service Desk Technician I",
-    "company": "PEAKE Technology Partners, An Omega Systems Company",
-    "market": "MD",
-    "city": "Bowie, MD",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/service-desk-technician-i-at-peake-technology-partners-an-omega-systems-company-4468276866",
-    "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 6,
-    "score": 87,
-    "title": "IT Support Specialist I",
-    "company": "Leggett & Platt",
-    "market": "MD",
-    "city": "Havre de Grace, MD",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/it-support-specialist-i-at-leggett-platt-4389400044",
-    "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 7,
-    "score": 87,
+    "score": 89,
     "title": "IT Service Desk Analyst I",
     "company": "Xometry",
     "market": "MD",
     "city": "North Bethesda, MD",
-    "salary": "Competitive",
+    "salary": "$42K-$55K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/it-service-desk-analyst-i-at-xometry-4464584377",
-    "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
+    "url": "https://www.linkedin.com/jobs/view/4464584377/",
+    "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
+  },
+  {
+    "id": 3,
+    "score": 89,
+    "title": "Help Desk Support Analyst (Entry-Level)",
+    "company": "I Link Communications Inc",
+    "market": "MD",
+    "city": "Frederick, MD",
+    "salary": "$42K-$55K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/4471466594/",
+    "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
+  },
+  {
+    "id": 4,
+    "score": 89,
+    "title": "IT Support Specialist I",
+    "company": "Leggett & Platt",
+    "market": "MD",
+    "city": "Havre de Grace, MD",
+    "salary": "$42K-$55K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/4389400044/",
+    "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
+  },
+  {
+    "id": 5,
+    "score": 89,
+    "title": "Tier 1 Helpdesk Technician",
+    "company": "Executive 1 Holding Company, LLC",
+    "market": "MD",
+    "city": "Silver Spring, MD",
+    "salary": "$42K-$55K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/4467255158/",
+    "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
+  },
+  {
+    "id": 6,
+    "score": 89,
+    "title": "Service Desk Tech I",
+    "company": "VCU Health",
+    "market": "VA",
+    "city": "Richmond, VA",
+    "salary": "$42K-$55K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/4469403095/",
+    "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
+  },
+  {
+    "id": 7,
+    "score": 89,
+    "title": "Tier I Help Desk Analyst",
+    "company": "KeenLogic",
+    "market": "VA",
+    "city": "Alexandria, VA",
+    "salary": "$42K-$55K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/4471661902/",
+    "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
   },
   {
     "id": 8,
-    "score": 87,
+    "score": 89,
+    "title": "Help Desk Specialist (Level 1) (Government)",
+    "company": "AT&T",
+    "market": "MD",
+    "city": "Columbia, MD",
+    "salary": "$42K-$55K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/4463486453/",
+    "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
+  },
+  {
+    "id": 9,
+    "score": 89,
+    "title": "Service Desk Technician I",
+    "company": "Old Dominion Electric Cooperative (ODEC)",
+    "market": "VA",
+    "city": "Glen Allen, VA",
+    "salary": "$42K-$55K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/4471121726/",
+    "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
+  },
+  {
+    "id": 10,
+    "score": 89,
     "title": "IT Helpdesk Specialist 1",
     "company": "Somatus",
     "market": "VA",
     "city": "McLean, VA",
-    "salary": "Competitive",
+    "salary": "$42K-$55K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/it-helpdesk-specialist-1-at-somatus-4467077969",
-    "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 9,
-    "score": 87,
-    "title": "Analyst I Service Desk",
-    "company": "Womble Bond Dickinson (US) LLP",
-    "market": "DC",
-    "city": "Washington, DC",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/analyst-i-service-desk-at-womble-bond-dickinson-us-llp-4452859409",
-    "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 10,
-    "score": 85,
-    "title": "Help Desk Associate",
-    "company": "Spatial Front, Inc",
-    "market": "VA",
-    "city": "Arlington, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/help-desk-associate-at-spatial-front-inc-4440610324",
-    "notes": "Federal contractor (clearance-eligible) - Security+ a plus - Onsite Arlington VA - Entry-level help desk",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
+    "url": "https://www.linkedin.com/jobs/view/4467077969/",
+    "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
   },
   {
     "id": 11,
-    "score": 84,
-    "title": "IT Support Associate",
-    "company": "Carnegie Mellon University",
+    "score": 88,
+    "title": "Analyst I Service Desk",
+    "company": "Womble Bond Dickinson (US) LLP",
     "market": "VA",
-    "city": "Arlington, VA",
-    "salary": "Competitive",
-    "roleType": "SOC",
+    "city": "Washington, DC",
+    "salary": "$42K-$55K/yr",
+    "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/it-support-associate-at-carnegie-mellon-university-4461309076",
-    "notes": "Tier 1 SOC / security operations role - Security+ a plus",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
+    "url": "https://www.linkedin.com/jobs/view/4452859409/",
+    "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
   },
   {
     "id": 12,
-    "score": 84,
-    "title": "Service Desk Agent I",
-    "company": "AMERICAN SYSTEMS",
-    "market": "Remote",
-    "city": "Remote (US)",
-    "salary": "Competitive",
+    "score": 85,
+    "title": "Help Desk Specialist",
+    "company": "Chenega MIOS SBU",
+    "market": "VA",
+    "city": "Ashburn, VA",
+    "salary": "$42K-$55K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec",
       "fed"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/service-desk-agent-i-at-american-systems-4467561787",
-    "notes": "100% remote (nationwide) - Tier 1 help desk / service desk role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
+    "url": "https://www.linkedin.com/jobs/view/4458502737/",
+    "notes": "Security+ aligns with role - Entry to associate level support - In the DMV market - Federal contractor - clearance-eligible track",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
   },
   {
     "id": 13,
-    "score": 83,
-    "title": "IT Support Technician",
-    "company": "Morgan 6 LLC",
-    "market": "MD",
-    "city": "Annapolis, MD",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/it-support-technician-at-morgan-6-llc-4469523050",
-    "notes": "SDVOSB federal contractor - Clearance-eligible - Security+ a plus - Onsite Annapolis MD",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 14,
-    "score": 82,
-    "title": "IT Technician I - Service Desk",
-    "company": "IES Holdings",
-    "market": "TX",
-    "city": "Sugar Land, TX",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/it-technician-i-service-desk-at-ies-holdings-4442791594",
-    "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 15,
-    "score": 82,
-    "title": "Technical Support Analyst- Entry Level",
-    "company": "Real Floors",
-    "market": "TX",
-    "city": "Irving, TX",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/technical-support-analyst-entry-level-at-real-floors-4455464868",
-    "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 16,
-    "score": 82,
-    "title": "IT Service Desk Support - Level 1",
-    "company": "BlueAlly",
-    "market": "TX",
-    "city": "Grapevine, TX",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/it-service-desk-support-level-1-at-blueally-4466775044",
-    "notes": "Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 17,
-    "score": 81,
-    "title": "Security Operation Center (SOC) Analyst I",
-    "company": "V2X Inc",
-    "market": "Remote",
-    "city": "Remote (US)",
-    "salary": "Competitive",
-    "roleType": "SOC",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/security-operation-center-soc-analyst-i-at-v2x-inc-4465913115",
-    "notes": "100% remote (nationwide) - Tier 1 SOC / security operations role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 18,
-    "score": 80,
-    "title": "Service Desk Tech I",
-    "company": "Clayton",
-    "market": "Remote",
-    "city": "Remote (US)",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/service-desk-tech-i-at-clayton-4465303703",
-    "notes": "100% remote (nationwide) - Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 19,
-    "score": 80,
-    "title": "IT Support Analyst Tier I",
-    "company": "Lutheran Social Service of Minnesota",
-    "market": "Remote",
-    "city": "Remote (US)",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/it-support-analyst-tier-i-at-lutheran-social-service-of-minnesota-4467290379",
-    "notes": "100% remote (nationwide) - Tier 1 help desk / service desk role - Security+ a plus",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 20,
-    "score": 79,
-    "title": "Service Desk Specialist II",
-    "company": "DLH Corporation",
-    "market": "MD",
-    "city": "Bethesda, MD",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/service-desk-specialist-ii-job-1467-at-dlh-corporation-4468279084",
-    "notes": "Tier 1 help desk / service desk role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 21,
-    "score": 79,
-    "title": "Desktop Support Technician",
-    "company": "Leidos",
-    "market": "MD",
-    "city": "Patuxent River, MD",
-    "salary": "Competitive",
-    "roleType": "Desktop Support",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/desktop-support-technician-at-leidos-4463427895",
-    "notes": "Desktop / deskside support role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 22,
-    "score": 79,
+    "score": 85,
     "title": "Customer Support Specialist (Technical)",
     "company": "Peraton",
     "market": "VA",
     "city": "Sterling, VA",
-    "salary": "Competitive",
+    "salary": "$42K-$55K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec",
       "fed"
     ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/customer-support-specialist-technical-at-peraton-4457404170",
-    "notes": "Tier 1 help desk / service desk role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/4468034591/",
+    "notes": "Security+ aligns with role - Entry to associate level support - In the DMV market - Federal contractor - clearance-eligible track",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
   },
   {
-    "id": 23,
-    "score": 79,
-    "title": "Service Desk Technician",
-    "company": "MANTECH",
-    "market": "VA",
-    "city": "McLean, VA",
-    "salary": "Competitive",
+    "id": 14,
+    "score": 85,
+    "title": "IT Support Technician",
+    "company": "Morgan 6 LLC",
+    "market": "MD",
+    "city": "Annapolis, MD",
+    "salary": "$42K-$55K/yr",
     "roleType": "Help Desk",
     "certs": [
       "sec",
       "fed"
     ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/service-desk-technician-at-mantech-4464234097",
-    "notes": "Tier 1 help desk / service desk role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/4469523050/",
+    "notes": "Security+ aligns with role - Entry to associate level support - In the DMV market - Federal contractor - clearance-eligible track",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
   },
   {
-    "id": 24,
-    "score": 79,
-    "title": "Service Desk Technician",
+    "id": 15,
+    "score": 85,
+    "title": "Desktop Support Technician",
     "company": "Leidos",
     "market": "VA",
-    "city": "Arlington, VA",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/service-desk-technician-at-leidos-4465965913",
-    "notes": "Tier 1 help desk / service desk role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 25,
-    "score": 77,
-    "title": "SOC Analyst I",
-    "company": "Heartland Business Systems",
-    "market": "Remote",
-    "city": "Remote (US)",
-    "salary": "Competitive",
-    "roleType": "SOC",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/soc-analyst-i-at-heartland-business-systems-4448057921",
-    "notes": "100% remote (nationwide) - Tier 1 SOC / security operations role - Security+ a plus",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 26,
-    "score": 76,
-    "title": "Tier 2 IT Helpdesk Technician",
-    "company": "Quantum Space",
-    "market": "MD",
-    "city": "Rockville, MD",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/tier-2-it-helpdesk-technician-at-quantum-space-4460513651",
-    "notes": "Tier 2 help desk - Security+ preferred - Onsite Rockville MD - Commercial aerospace",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 27,
-    "score": 72,
-    "title": "Help Desk Analyst",
-    "company": "FlexTecs",
-    "market": "Remote",
-    "city": "Remote (US)",
-    "salary": "Competitive",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/help-desk-analyst-at-flextecs-4468284814",
-    "notes": "100% remote (nationwide) - Tier 1 help desk / service desk role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 28,
-    "score": 72,
-    "title": "End User Support Technician - Mid",
-    "company": "CACI International Inc",
-    "market": "VA",
-    "city": "Arlington, VA",
-    "salary": "Competitive",
+    "city": "Dahlgren, VA",
+    "salary": "$45K-$58K/yr",
     "roleType": "Desktop Support",
     "certs": [
       "sec",
       "fed"
     ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/4471641713/",
+    "notes": "Security+ aligns with role - Entry to associate level support - In the DMV market - Federal contractor - clearance-eligible track",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
+  },
+  {
+    "id": 16,
+    "score": 85,
+    "title": "Service Desk Technician",
+    "company": "AMERICAN SYSTEMS",
+    "market": "VA",
+    "city": "Arlington, VA",
+    "salary": "$42K-$55K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/4466127485/",
+    "notes": "Security+ aligns with role - Entry to associate level support - In the DMV market - Federal contractor - clearance-eligible track",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
+  },
+  {
+    "id": 17,
+    "score": 84,
+    "title": "Deskside Support Technician",
+    "company": "SAIC",
+    "market": "VA",
+    "city": "Washington, DC",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/4465576091/",
+    "notes": "Security+ aligns with role - Entry to associate level support - In the DMV market - Federal contractor - clearance-eligible track",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
+  },
+  {
+    "id": 18,
+    "score": 83,
+    "title": "Global Tier 1 Service Desk Technician",
+    "company": "KBR Careers",
+    "market": "TX",
+    "city": "Houston, TX",
+    "salary": "$39K-$52K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/4469219318/",
+    "notes": "Security+ aligns with role - Entry-level Tier 1 posting - Texas secondary market - Federal contractor - clearance-eligible track",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
+  },
+  {
+    "id": 19,
+    "score": 81,
+    "title": "IT Service Desk Support - Level 1",
+    "company": "BlueAlly",
+    "market": "TX",
+    "city": "Grapevine, TX",
+    "salary": "$39K-$52K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/4466775044/",
+    "notes": "Security+ aligns with role - Entry-level Tier 1 posting - Texas secondary market",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
+  },
+  {
+    "id": 20,
+    "score": 81,
+    "title": "IT Support Analyst I - Houston, Texas",
+    "company": "Camillo Companies",
+    "market": "TX",
+    "city": "Houston, TX",
+    "salary": "$39K-$52K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/4471654828/",
+    "notes": "Security+ aligns with role - Entry-level Tier 1 posting - Texas secondary market",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
+  },
+  {
+    "id": 21,
+    "score": 77,
+    "title": "IT Service Desk Agent",
+    "company": "Morgan & Morgan, P.A.",
+    "market": "Remote",
+    "city": "Remote (US)",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
     "priority": "Medium",
-    "url": "https://www.linkedin.com/jobs/view/end-user-support-technician-mid-at-caci-international-inc-4466971949",
-    "notes": "Federal contractor - No clearance required to start - Intermediate end-user support - Onsite Arlington VA",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
+    "url": "https://www.linkedin.com/jobs/view/4459948881/",
+    "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
+  },
+  {
+    "id": 22,
+    "score": 77,
+    "title": "IT Service Desk Support Specialist",
+    "company": "Wake Technical Community College",
+    "market": "Remote",
+    "city": "Remote (US)",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/4469188866/",
+    "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
+  },
+  {
+    "id": 23,
+    "score": 77,
+    "title": "IT Service Desk Support",
+    "company": "Landis+Gyr",
+    "market": "Remote",
+    "city": "Remote (US)",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/4461922218/",
+    "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
+  },
+  {
+    "id": 24,
+    "score": 77,
+    "title": "Help Desk Analyst",
+    "company": "Community Options, Inc.",
+    "market": "Remote",
+    "city": "Remote (US)",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/4459438921/",
+    "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
+  },
+  {
+    "id": 25,
+    "score": 77,
+    "title": "Technical Support Agent - NOKE",
+    "company": "Janus International",
+    "market": "Remote",
+    "city": "Remote (US)",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/4454541497/",
+    "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
+  },
+  {
+    "id": 26,
+    "score": 77,
+    "title": "IT Service Desk Support Specialist",
+    "company": "Holland & Knight LLP",
+    "market": "Remote",
+    "city": "Remote (US)",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/4464644004/",
+    "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
+  },
+  {
+    "id": 27,
+    "score": 77,
+    "title": "IT Technician",
+    "company": "FSB Architects + Engineers",
+    "market": "Remote",
+    "city": "Remote (US)",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/4470980433/",
+    "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
+  },
+  {
+    "id": 28,
+    "score": 77,
+    "title": "IT Support Specialist",
+    "company": "Michael Baker International",
+    "market": "Remote",
+    "city": "Remote (US)",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/4464855200/",
+    "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
   },
   {
     "id": 29,
-    "score": 69,
-    "title": "Security Operations Center Analyst II",
-    "company": "V2X Inc",
+    "score": 77,
+    "title": "IT Technician",
+    "company": "BEL USA LLC",
     "market": "Remote",
     "city": "Remote (US)",
-    "salary": "Competitive",
-    "roleType": "SOC",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Help Desk",
     "certs": [
-      "sec",
-      "fed"
+      "sec"
     ],
-    "priority": "Stretch",
-    "url": "https://www.linkedin.com/jobs/view/security-operations-center-analyst-ii-at-v2x-inc-4466891419",
-    "notes": "100% remote (nationwide) - Tier 1 SOC / security operations role - Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
-  },
-  {
-    "id": 30,
-    "score": 69,
-    "title": "Cloud Support Technician",
-    "company": "Zachary Piper Solutions",
-    "market": "Remote",
-    "city": "Remote (US)",
-    "salary": "Competitive",
-    "roleType": "Cloud",
-    "certs": [
-      "cloud",
-      "sec",
-      "fed"
-    ],
-    "priority": "Stretch",
-    "url": "https://www.linkedin.com/jobs/view/cloud-support-technician-122692-at-zachary-piper-solutions-4467127916",
-    "notes": "100% remote (nationwide) - Cloud support role - Cloud+ or Security+ a plus - Federal contractor - clearance-eligible welcome",
-    "postedDate": "2026-09-21",
-    "lastVerified": "2026-09-21"
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/4465812095/",
+    "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
+    "postedDate": "2026-09-24",
+    "lastVerified": "2026-09-24"
   }
 ]
