@@ -1,46 +1,6 @@
 [
   {
     "id": 1,
-    "score": 91,
-    "title": "Help Desk Technician I",
-    "company": "AMERICAN SYSTEMS",
-    "market": "VA",
-    "city": "Quantico, VA",
-    "salary": "$42K-$55K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4466126512/",
-    "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market - Federal contractor - clearance-eligible track",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 4,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Entry-level / Tier 1 - right where you are now.",
-      "skills": "Direct match to your help desk strengths.",
-      "location": "In the DC / Virginia area, your primary DMV market.",
-      "barrier": "Clearance-eligible track - no active clearance needed to start.",
-      "employer": "Solid employer (federal contractor or major institution)."
-    },
-    "intel": {
-      "size": "Small-to-mid federal contractor",
-      "hq": "Quantico, VA",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
-  },
-  {
-    "id": 2,
     "score": 89,
     "title": "IT Service Desk Analyst I",
     "company": "Xometry",
@@ -79,7 +39,7 @@
     }
   },
   {
-    "id": 3,
+    "id": 2,
     "score": 89,
     "title": "Help Desk Support Analyst (Entry-Level)",
     "company": "I Link Communications Inc",
@@ -92,21 +52,21 @@
     ],
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4471466594/",
-    "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
+    "notes": "Security+ aligns with role - Entry-level Tier 1 - Accepts ability to obtain a Secret clearance (clearance-eligible OK) - Frederick MD",
     "postedDate": "2026-09-25",
     "lastVerified": "2026-09-25",
     "fit": {
       "level": 5,
       "skills": 5,
       "location": 5,
-      "barrier": 5,
+      "barrier": 4,
       "employer": 3
     },
     "fitNotes": {
       "level": "Entry-level / Tier 1 - right where you are now.",
       "skills": "Direct match to your help desk strengths.",
       "location": "In Maryland, your primary DMV market.",
-      "barrier": "No clearance or degree barrier - you can apply today.",
+      "barrier": "Clearance-eligible - accepts ability to obtain a Secret; no active clearance needed to start.",
       "employer": "Smaller or less-known employer - research before applying."
     },
     "intel": {
@@ -118,7 +78,7 @@
     }
   },
   {
-    "id": 4,
+    "id": 3,
     "score": 89,
     "title": "IT Support Specialist I",
     "company": "Leggett & Platt",
@@ -157,7 +117,7 @@
     }
   },
   {
-    "id": 5,
+    "id": 4,
     "score": 89,
     "title": "Tier 1 Helpdesk Technician",
     "company": "Executive 1 Holding Company, LLC",
@@ -196,7 +156,7 @@
     }
   },
   {
-    "id": 6,
+    "id": 5,
     "score": 89,
     "title": "Service Desk Tech I",
     "company": "VCU Health",
@@ -235,7 +195,7 @@
     }
   },
   {
-    "id": 7,
+    "id": 6,
     "score": 89,
     "title": "Tier I Help Desk Analyst",
     "company": "KeenLogic",
@@ -274,46 +234,7 @@
     }
   },
   {
-    "id": 8,
-    "score": 89,
-    "title": "Help Desk Specialist (Level 1) (Government)",
-    "company": "AT&T",
-    "market": "MD",
-    "city": "Columbia, MD",
-    "salary": "$42K-$55K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4463486453/",
-    "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 5,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Entry-level / Tier 1 - right where you are now.",
-      "skills": "Direct match to your help desk strengths.",
-      "location": "In Maryland, your primary DMV market.",
-      "barrier": "No clearance or degree barrier - you can apply today.",
-      "employer": "Solid employer (federal contractor or major institution)."
-    },
-    "intel": {
-      "size": "Large institutional employer",
-      "hq": "Columbia, MD",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
-  },
-  {
-    "id": 9,
+    "id": 7,
     "score": 89,
     "title": "Service Desk Technician I",
     "company": "Old Dominion Electric Cooperative (ODEC)",
@@ -352,7 +273,7 @@
     }
   },
   {
-    "id": 10,
+    "id": 8,
     "score": 89,
     "title": "IT Helpdesk Specialist 1",
     "company": "Somatus",
@@ -391,7 +312,7 @@
     }
   },
   {
-    "id": 11,
+    "id": 9,
     "score": 88,
     "title": "Analyst I Service Desk",
     "company": "Womble Bond Dickinson (US) LLP",
@@ -430,7 +351,7 @@
     }
   },
   {
-    "id": 12,
+    "id": 10,
     "score": 87,
     "title": "Desktop Support Specialist",
     "company": "ATCC",
@@ -450,14 +371,14 @@
       "level": 5,
       "skills": 5,
       "location": 5,
-      "barrier": 4,
+      "barrier": 5,
       "employer": 3
     },
     "fitNotes": {
       "level": "Entry-level / Tier 1 - right where you are now.",
       "skills": "Direct match to your desktop support strengths.",
       "location": "In the DC / Virginia area, your primary DMV market.",
-      "barrier": "Clearance-eligible track - no active clearance needed to start.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
       "employer": "Smaller or less-known employer - research before applying."
     },
     "intel": {
@@ -469,7 +390,7 @@
     }
   },
   {
-    "id": 13,
+    "id": 11,
     "score": 85,
     "title": "Help Desk Specialist",
     "company": "Chenega MIOS SBU",
@@ -509,47 +430,7 @@
     }
   },
   {
-    "id": 14,
-    "score": 85,
-    "title": "Customer Support Specialist (Technical)",
-    "company": "Peraton",
-    "market": "VA",
-    "city": "Sterling, VA",
-    "salary": "$42K-$55K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4468034591/",
-    "notes": "Security+ aligns with role - Entry to associate level support - In the DMV market - Federal contractor - clearance-eligible track",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 4,
-      "employer": 5
-    },
-    "fitNotes": {
-      "level": "Entry-level / Tier 1 - right where you are now.",
-      "skills": "Direct match to your help desk strengths.",
-      "location": "In the DC / Virginia area, your primary DMV market.",
-      "barrier": "Clearance-eligible track - no active clearance needed to start.",
-      "employer": "Established federal prime - strong resume name for an entry IT hire."
-    },
-    "intel": {
-      "size": "Large (federal prime, 10k+ employees)",
-      "hq": "Sterling, VA",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
-  },
-  {
-    "id": 15,
+    "id": 12,
     "score": 85,
     "title": "IT Support Technician",
     "company": "Morgan 6 LLC",
@@ -589,87 +470,7 @@
     }
   },
   {
-    "id": 16,
-    "score": 85,
-    "title": "Desktop Support Technician",
-    "company": "Leidos",
-    "market": "VA",
-    "city": "Dahlgren, VA",
-    "salary": "$45K-$58K/yr",
-    "roleType": "Desktop Support",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4471641713/",
-    "notes": "Security+ aligns with role - Entry to associate level support - In the DMV market - Federal contractor - clearance-eligible track",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 4,
-      "employer": 5
-    },
-    "fitNotes": {
-      "level": "Entry-level / Tier 1 - right where you are now.",
-      "skills": "Direct match to your desktop support strengths.",
-      "location": "In the DC / Virginia area, your primary DMV market.",
-      "barrier": "Clearance-eligible track - no active clearance needed to start.",
-      "employer": "Established federal prime - strong resume name for an entry IT hire."
-    },
-    "intel": {
-      "size": "Large (federal prime, 10k+ employees)",
-      "hq": "Dahlgren, VA",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
-  },
-  {
-    "id": 17,
-    "score": 85,
-    "title": "Service Desk Technician",
-    "company": "AMERICAN SYSTEMS",
-    "market": "VA",
-    "city": "Arlington, VA",
-    "salary": "$42K-$55K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4466127485/",
-    "notes": "Security+ aligns with role - Entry to associate level support - In the DMV market - Federal contractor - clearance-eligible track",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 4,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Entry-level / Tier 1 - right where you are now.",
-      "skills": "Direct match to your help desk strengths.",
-      "location": "In the DC / Virginia area, your primary DMV market.",
-      "barrier": "Clearance-eligible track - no active clearance needed to start.",
-      "employer": "Solid employer (federal contractor or major institution)."
-    },
-    "intel": {
-      "size": "Small-to-mid federal contractor",
-      "hq": "Arlington, VA",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
-  },
-  {
-    "id": 18,
+    "id": 13,
     "score": 84,
     "title": "Deskside Support Technician",
     "company": "SAIC",
@@ -709,7 +510,7 @@
     }
   },
   {
-    "id": 19,
+    "id": 14,
     "score": 83,
     "title": "Global Tier 1 Service Desk Technician",
     "company": "KBR Careers",
@@ -749,7 +550,7 @@
     }
   },
   {
-    "id": 20,
+    "id": 15,
     "score": 81,
     "title": "IT Service Desk Support - Level 1",
     "company": "BlueAlly",
@@ -788,7 +589,7 @@
     }
   },
   {
-    "id": 21,
+    "id": 16,
     "score": 77,
     "title": "IT Service Desk Agent",
     "company": "Morgan & Morgan, P.A.",
@@ -827,7 +628,7 @@
     }
   },
   {
-    "id": 22,
+    "id": 17,
     "score": 77,
     "title": "IT Service Desk Support Specialist",
     "company": "Wake Technical Community College",
@@ -866,7 +667,7 @@
     }
   },
   {
-    "id": 23,
+    "id": 18,
     "score": 77,
     "title": "IT Service Desk Support",
     "company": "Landis+Gyr",
@@ -905,7 +706,7 @@
     }
   },
   {
-    "id": 24,
+    "id": 19,
     "score": 77,
     "title": "Help Desk Analyst",
     "company": "Community Options, Inc.",
@@ -944,7 +745,7 @@
     }
   },
   {
-    "id": 25,
+    "id": 20,
     "score": 77,
     "title": "Technical Support Agent - NOKE",
     "company": "Janus International",
@@ -983,7 +784,7 @@
     }
   },
   {
-    "id": 26,
+    "id": 21,
     "score": 77,
     "title": "IT Service Desk Support Specialist",
     "company": "Holland & Knight LLP",
@@ -1022,7 +823,7 @@
     }
   },
   {
-    "id": 27,
+    "id": 22,
     "score": 77,
     "title": "IT Technician",
     "company": "FSB Architects + Engineers",
@@ -1061,7 +862,7 @@
     }
   },
   {
-    "id": 28,
+    "id": 23,
     "score": 77,
     "title": "IT Support Specialist",
     "company": "Michael Baker International",
@@ -1100,7 +901,7 @@
     }
   },
   {
-    "id": 29,
+    "id": 24,
     "score": 77,
     "title": "IT Technician",
     "company": "BEL USA LLC",
@@ -1139,7 +940,87 @@
     }
   },
   {
-    "id": 30,
+    "id": 25,
+    "score": 65,
+    "title": "Help Desk Technician I",
+    "company": "AMERICAN SYSTEMS",
+    "market": "VA",
+    "city": "Quantico, VA",
+    "salary": "$42K-$55K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.linkedin.com/jobs/view/4466126512/",
+    "notes": "Requires an ACTIVE DoD Interim Secret or Secret clearance - Jalen is clearance-eligible, not yet cleared (Stretch) - Security+ meets the 8570 IAT II requirement - Quantico VA",
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 3,
+      "skills": 5,
+      "location": 5,
+      "barrier": 1,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Clearance requirement puts this beyond entry reach until you are cleared.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "In the DC / Virginia area, your primary DMV market.",
+      "barrier": "Requires an ACTIVE DoD Secret clearance you do not hold yet - the main hurdle.",
+      "employer": "Solid employer (federal contractor or major institution)."
+    },
+    "intel": {
+      "size": "Small-to-mid federal contractor",
+      "hq": "Quantico, VA",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Posts cleared roles; entry-level here is clearance-gated"
+    }
+  },
+  {
+    "id": 26,
+    "score": 64,
+    "title": "Customer Support Specialist (Technical)",
+    "company": "Peraton",
+    "market": "VA",
+    "city": "Sterling, VA",
+    "salary": "$42K-$55K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.linkedin.com/jobs/view/4468034591/",
+    "notes": "Requires an ACTIVE Secret clearance plus 1-3 yrs help desk experience (Stretch) - clearance-eligible only, not yet cleared",
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 3,
+      "skills": 5,
+      "location": 5,
+      "barrier": 1,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Clearance requirement puts this beyond entry reach until you are cleared.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "In the DC / Virginia area, your primary DMV market.",
+      "barrier": "Requires an ACTIVE Secret clearance you do not hold yet - the main hurdle.",
+      "employer": "Established federal prime - strong resume name for an entry IT hire."
+    },
+    "intel": {
+      "size": "Large (federal prime, 10k+ employees)",
+      "hq": "Sterling, VA",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Posts cleared roles; entry-level here is clearance-gated"
+    }
+  },
+  {
+    "id": 27,
     "score": 64,
     "title": "Tier 1 SOC Analyst",
     "company": "GDH",
@@ -1173,6 +1054,126 @@
     "intel": {
       "size": "Small-to-mid federal contractor",
       "hq": "Rockville, MD",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Posts cleared roles; entry-level here is clearance-gated"
+    }
+  },
+  {
+    "id": 28,
+    "score": 63,
+    "title": "Service Desk Technician",
+    "company": "AMERICAN SYSTEMS",
+    "market": "VA",
+    "city": "Arlington, VA",
+    "salary": "$42K-$55K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.linkedin.com/jobs/view/4466127485/",
+    "notes": "Requires a Secret clearance plus 2+ yrs service desk experience (Stretch) - Security+ required - clearance-eligible only, not yet cleared",
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 3,
+      "skills": 5,
+      "location": 5,
+      "barrier": 1,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Clearance requirement puts this beyond entry reach until you are cleared.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "In the DC / Virginia area, your primary DMV market.",
+      "barrier": "Requires a Secret clearance plus 2+ years experience - a clearance and experience gap.",
+      "employer": "Solid employer (federal contractor or major institution)."
+    },
+    "intel": {
+      "size": "Small-to-mid federal contractor",
+      "hq": "Arlington, VA",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Posts cleared roles; entry-level here is clearance-gated"
+    }
+  },
+  {
+    "id": 29,
+    "score": 62,
+    "title": "Desktop Support Technician",
+    "company": "Leidos",
+    "market": "VA",
+    "city": "Dahlgren, VA",
+    "salary": "$45K-$58K/yr",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.linkedin.com/jobs/view/4471641713/",
+    "notes": "Requires an ACTIVE DoD Secret clearance plus 4+ yrs experience (Stretch) - both a clearance and an experience gap for an entry candidate",
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 3,
+      "skills": 5,
+      "location": 5,
+      "barrier": 1,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Clearance requirement puts this beyond entry reach until you are cleared.",
+      "skills": "Direct match to your desktop support strengths.",
+      "location": "In the DC / Virginia area, your primary DMV market.",
+      "barrier": "Requires an ACTIVE DoD Secret clearance and 4+ years - clearance and experience gap.",
+      "employer": "Established federal prime - strong resume name for an entry IT hire."
+    },
+    "intel": {
+      "size": "Large (federal prime, 10k+ employees)",
+      "hq": "Dahlgren, VA",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Posts cleared roles; entry-level here is clearance-gated"
+    }
+  },
+  {
+    "id": 30,
+    "score": 61,
+    "title": "Help Desk Specialist (Level 1) (Government)",
+    "company": "AT&T",
+    "market": "MD",
+    "city": "Columbia, MD",
+    "salary": "$42K-$55K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.linkedin.com/jobs/view/4463486453/",
+    "notes": "Requires an ACTIVE TS/SCI clearance WITH polygraph - well beyond clearance-eligible (Stretch) - Security+ / DoD 8570 IAT I - government program",
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 3,
+      "skills": 5,
+      "location": 5,
+      "barrier": 1,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Clearance requirement puts this beyond entry reach until you are cleared.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "In Maryland, your primary DMV market.",
+      "barrier": "Requires an ACTIVE TS/SCI clearance WITH polygraph - the highest bar on the board.",
+      "employer": "Solid employer (federal contractor or major institution)."
+    },
+    "intel": {
+      "size": "Large institutional employer",
+      "hq": "Columbia, MD",
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Posts cleared roles; entry-level here is clearance-gated"
