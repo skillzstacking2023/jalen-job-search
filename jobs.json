@@ -15,8 +15,29 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4466126512/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market - Federal contractor - clearance-eligible track",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 4,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "In the DC / Virginia area, your primary DMV market.",
+      "barrier": "Clearance-eligible track - no active clearance needed to start.",
+      "employer": "Solid employer (federal contractor or major institution)."
+    },
+    "intel": {
+      "size": "Small-to-mid federal contractor",
+      "hq": "Quantico, VA",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
     "id": 2,
@@ -33,8 +54,29 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4464584377/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "In Maryland, your primary DMV market.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Solid employer (federal contractor or major institution)."
+    },
+    "intel": {
+      "size": "Large institutional employer",
+      "hq": "North Bethesda, MD",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
     "id": 3,
@@ -51,8 +93,29 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4471466594/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 3
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "In Maryland, your primary DMV market.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Smaller or less-known employer - research before applying."
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "Frederick, MD",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
     "id": 4,
@@ -69,8 +132,29 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4389400044/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 3
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "In Maryland, your primary DMV market.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Smaller or less-known employer - research before applying."
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "Havre de Grace, MD",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
     "id": 5,
@@ -87,8 +171,29 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4467255158/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 3
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "In Maryland, your primary DMV market.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Smaller or less-known employer - research before applying."
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "Silver Spring, MD",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
     "id": 6,
@@ -105,8 +210,29 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4469403095/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "In the DC / Virginia area, your primary DMV market.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Solid employer (federal contractor or major institution)."
+    },
+    "intel": {
+      "size": "Large institutional employer",
+      "hq": "Richmond, VA",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
     "id": 7,
@@ -123,8 +249,29 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4471661902/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "In the DC / Virginia area, your primary DMV market.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Established federal prime - strong resume name for an entry IT hire."
+    },
+    "intel": {
+      "size": "Large (federal prime, 10k+ employees)",
+      "hq": "Alexandria, VA",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
     "id": 8,
@@ -141,8 +288,29 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4463486453/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "In Maryland, your primary DMV market.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Solid employer (federal contractor or major institution)."
+    },
+    "intel": {
+      "size": "Large institutional employer",
+      "hq": "Columbia, MD",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
     "id": 9,
@@ -159,8 +327,29 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4471121726/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "In the DC / Virginia area, your primary DMV market.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Solid employer (federal contractor or major institution)."
+    },
+    "intel": {
+      "size": "Large institutional employer",
+      "hq": "Glen Allen, VA",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
     "id": 10,
@@ -177,8 +366,29 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4467077969/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 3
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "In the DC / Virginia area, your primary DMV market.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Smaller or less-known employer - research before applying."
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "McLean, VA",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
     "id": 11,
@@ -195,11 +405,71 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4452859409/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "In the DC / Virginia area, your primary DMV market.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Solid employer (federal contractor or major institution)."
+    },
+    "intel": {
+      "size": "Large institutional employer",
+      "hq": "Washington, DC",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
     "id": 12,
+    "score": 87,
+    "title": "Desktop Support Specialist",
+    "company": "ATCC",
+    "market": "VA",
+    "city": "Manassas, VA",
+    "salary": "$55K-$62K/yr",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/4463551815/",
+    "notes": "Security+ aligns with role - Desktop Support - entry-level (HS diploma + 1 yr) - In the DMV market - No clearance required",
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 4,
+      "employer": 3
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your desktop support strengths.",
+      "location": "In the DC / Virginia area, your primary DMV market.",
+      "barrier": "Clearance-eligible track - no active clearance needed to start.",
+      "employer": "Smaller or less-known employer - research before applying."
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "Manassas, VA",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
+  },
+  {
+    "id": 13,
     "score": 85,
     "title": "Help Desk Specialist",
     "company": "Chenega MIOS SBU",
@@ -214,11 +484,32 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4458502737/",
     "notes": "Security+ aligns with role - Entry to associate level support - In the DMV market - Federal contractor - clearance-eligible track",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 4,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "In the DC / Virginia area, your primary DMV market.",
+      "barrier": "Clearance-eligible track - no active clearance needed to start.",
+      "employer": "Established federal prime - strong resume name for an entry IT hire."
+    },
+    "intel": {
+      "size": "Large (federal prime, 10k+ employees)",
+      "hq": "Ashburn, VA",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
-    "id": 13,
+    "id": 14,
     "score": 85,
     "title": "Customer Support Specialist (Technical)",
     "company": "Peraton",
@@ -233,11 +524,32 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4468034591/",
     "notes": "Security+ aligns with role - Entry to associate level support - In the DMV market - Federal contractor - clearance-eligible track",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 4,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "In the DC / Virginia area, your primary DMV market.",
+      "barrier": "Clearance-eligible track - no active clearance needed to start.",
+      "employer": "Established federal prime - strong resume name for an entry IT hire."
+    },
+    "intel": {
+      "size": "Large (federal prime, 10k+ employees)",
+      "hq": "Sterling, VA",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
-    "id": 14,
+    "id": 15,
     "score": 85,
     "title": "IT Support Technician",
     "company": "Morgan 6 LLC",
@@ -252,11 +564,32 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4469523050/",
     "notes": "Security+ aligns with role - Entry to associate level support - In the DMV market - Federal contractor - clearance-eligible track",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 4,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "In Maryland, your primary DMV market.",
+      "barrier": "Clearance-eligible track - no active clearance needed to start.",
+      "employer": "Solid employer (federal contractor or major institution)."
+    },
+    "intel": {
+      "size": "Small-to-mid federal contractor",
+      "hq": "Annapolis, MD",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
-    "id": 15,
+    "id": 16,
     "score": 85,
     "title": "Desktop Support Technician",
     "company": "Leidos",
@@ -271,11 +604,32 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4471641713/",
     "notes": "Security+ aligns with role - Entry to associate level support - In the DMV market - Federal contractor - clearance-eligible track",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 4,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your desktop support strengths.",
+      "location": "In the DC / Virginia area, your primary DMV market.",
+      "barrier": "Clearance-eligible track - no active clearance needed to start.",
+      "employer": "Established federal prime - strong resume name for an entry IT hire."
+    },
+    "intel": {
+      "size": "Large (federal prime, 10k+ employees)",
+      "hq": "Dahlgren, VA",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
-    "id": 16,
+    "id": 17,
     "score": 85,
     "title": "Service Desk Technician",
     "company": "AMERICAN SYSTEMS",
@@ -290,11 +644,32 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4466127485/",
     "notes": "Security+ aligns with role - Entry to associate level support - In the DMV market - Federal contractor - clearance-eligible track",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 4,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "In the DC / Virginia area, your primary DMV market.",
+      "barrier": "Clearance-eligible track - no active clearance needed to start.",
+      "employer": "Solid employer (federal contractor or major institution)."
+    },
+    "intel": {
+      "size": "Small-to-mid federal contractor",
+      "hq": "Arlington, VA",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
-    "id": 17,
+    "id": 18,
     "score": 84,
     "title": "Deskside Support Technician",
     "company": "SAIC",
@@ -309,11 +684,32 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4465576091/",
     "notes": "Security+ aligns with role - Entry to associate level support - In the DMV market - Federal contractor - clearance-eligible track",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 4,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your desktop support strengths.",
+      "location": "In the DC / Virginia area, your primary DMV market.",
+      "barrier": "Clearance-eligible track - no active clearance needed to start.",
+      "employer": "Established federal prime - strong resume name for an entry IT hire."
+    },
+    "intel": {
+      "size": "Large (federal prime, 10k+ employees)",
+      "hq": "Washington, DC",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
-    "id": 18,
+    "id": 19,
     "score": 83,
     "title": "Global Tier 1 Service Desk Technician",
     "company": "KBR Careers",
@@ -328,11 +724,32 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4469219318/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - Texas secondary market - Federal contractor - clearance-eligible track",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 3,
+      "barrier": 4,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "Texas - your secondary market; may need relocation.",
+      "barrier": "Clearance-eligible track - no active clearance needed to start.",
+      "employer": "Established federal prime - strong resume name for an entry IT hire."
+    },
+    "intel": {
+      "size": "Large (federal prime, 10k+ employees)",
+      "hq": "Houston, TX",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
-    "id": 19,
+    "id": 20,
     "score": 81,
     "title": "IT Service Desk Support - Level 1",
     "company": "BlueAlly",
@@ -346,26 +763,29 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4466775044/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - Texas secondary market",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
-  },
-  {
-    "id": 20,
-    "score": 81,
-    "title": "IT Support Analyst I - Houston, Texas",
-    "company": "Camillo Companies",
-    "market": "TX",
-    "city": "Houston, TX",
-    "salary": "$39K-$52K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4471654828/",
-    "notes": "Security+ aligns with role - Entry-level Tier 1 posting - Texas secondary market",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 3,
+      "barrier": 5,
+      "employer": 3
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "Texas - your secondary market; may need relocation.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Smaller or less-known employer - research before applying."
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "Grapevine, TX",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
     "id": 21,
@@ -382,8 +802,29 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/4459948881/",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 3
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "100% remote - work from anywhere in the US.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Smaller or less-known employer - research before applying."
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "Distributed / remote-first",
+      "remotePolicy": "100% remote (nationwide)",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
     "id": 22,
@@ -400,8 +841,29 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/4469188866/",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "100% remote - work from anywhere in the US.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Solid employer (federal contractor or major institution)."
+    },
+    "intel": {
+      "size": "Large institutional employer",
+      "hq": "Distributed / remote-first",
+      "remotePolicy": "100% remote (nationwide)",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
     "id": 23,
@@ -418,8 +880,29 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/4461922218/",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "100% remote - work from anywhere in the US.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Solid employer (federal contractor or major institution)."
+    },
+    "intel": {
+      "size": "Large institutional employer",
+      "hq": "Distributed / remote-first",
+      "remotePolicy": "100% remote (nationwide)",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
     "id": 24,
@@ -436,8 +919,29 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/4459438921/",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 3
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "100% remote - work from anywhere in the US.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Smaller or less-known employer - research before applying."
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "Distributed / remote-first",
+      "remotePolicy": "100% remote (nationwide)",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
     "id": 25,
@@ -454,8 +958,29 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/4454541497/",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "100% remote - work from anywhere in the US.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Solid employer (federal contractor or major institution)."
+    },
+    "intel": {
+      "size": "Large institutional employer",
+      "hq": "Distributed / remote-first",
+      "remotePolicy": "100% remote (nationwide)",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
     "id": 26,
@@ -472,8 +997,29 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/4464644004/",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "100% remote - work from anywhere in the US.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Solid employer (federal contractor or major institution)."
+    },
+    "intel": {
+      "size": "Large institutional employer",
+      "hq": "Distributed / remote-first",
+      "remotePolicy": "100% remote (nationwide)",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
     "id": 27,
@@ -490,8 +1036,29 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/4470980433/",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 3
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "100% remote - work from anywhere in the US.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Smaller or less-known employer - research before applying."
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "Distributed / remote-first",
+      "remotePolicy": "100% remote (nationwide)",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
     "id": 28,
@@ -508,8 +1075,29 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/4464855200/",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "100% remote - work from anywhere in the US.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Solid employer (federal contractor or major institution)."
+    },
+    "intel": {
+      "size": "Large institutional employer",
+      "hq": "Distributed / remote-first",
+      "remotePolicy": "100% remote (nationwide)",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
   },
   {
     "id": 29,
@@ -526,7 +1114,68 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/4465812095/",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
-    "postedDate": "2026-09-24",
-    "lastVerified": "2026-09-24"
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 3
+    },
+    "fitNotes": {
+      "level": "Entry-level / Tier 1 - right where you are now.",
+      "skills": "Direct match to your help desk strengths.",
+      "location": "100% remote - work from anywhere in the US.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Smaller or less-known employer - research before applying."
+    },
+    "intel": {
+      "size": "Not determined",
+      "hq": "Distributed / remote-first",
+      "remotePolicy": "100% remote (nationwide)",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    }
+  },
+  {
+    "id": 30,
+    "score": 64,
+    "title": "Tier 1 SOC Analyst",
+    "company": "GDH",
+    "market": "MD",
+    "city": "Rockville, MD",
+    "salary": "$50K-$62K/yr",
+    "roleType": "SOC",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "Stretch",
+    "url": "https://www.linkedin.com/jobs/view/4471806526/",
+    "notes": "Tier 1 SOC role - recent-grad-with-certs path accepted - requires an active government clearance (Stretch) - Rockville MD",
+    "postedDate": "2026-09-25",
+    "lastVerified": "2026-09-25",
+    "fit": {
+      "level": 3,
+      "skills": 4,
+      "location": 5,
+      "barrier": 1,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Clearance gating puts this above easy reach until you are cleared.",
+      "skills": "Security monitoring that builds on your Security+.",
+      "location": "In Maryland, your primary DMV market.",
+      "barrier": "Requires an ACTIVE clearance you do not hold yet - the main hurdle.",
+      "employer": "Solid employer (federal contractor or major institution)."
+    },
+    "intel": {
+      "size": "Small-to-mid federal contractor",
+      "hq": "Rockville, MD",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Posts cleared roles; entry-level here is clearance-gated"
+    }
   }
 ]
