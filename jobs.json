@@ -14,8 +14,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4464584377/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -53,8 +53,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4471466594/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 - Accepts ability to obtain a Secret clearance (clearance-eligible OK) - Frederick MD",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -92,8 +92,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4389400044/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -131,8 +131,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4467255158/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -158,45 +158,6 @@
   {
     "id": 5,
     "score": 89,
-    "title": "Service Desk Tech I",
-    "company": "VCU Health",
-    "market": "VA",
-    "city": "Richmond, VA",
-    "salary": "$42K-$55K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/4469403095/",
-    "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 5,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Entry-level / Tier 1 - right where you are now.",
-      "skills": "Direct match to your help desk strengths.",
-      "location": "In the DC / Virginia area, your primary DMV market.",
-      "barrier": "No clearance or degree barrier - you can apply today.",
-      "employer": "Solid employer (federal contractor or major institution)."
-    },
-    "intel": {
-      "size": "Large institutional employer",
-      "hq": "Richmond, VA",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
-  },
-  {
-    "id": 6,
-    "score": 89,
     "title": "Tier I Help Desk Analyst",
     "company": "KeenLogic",
     "market": "VA",
@@ -209,8 +170,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4471661902/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -234,7 +195,7 @@
     }
   },
   {
-    "id": 7,
+    "id": 6,
     "score": 89,
     "title": "Service Desk Technician I",
     "company": "Old Dominion Electric Cooperative (ODEC)",
@@ -248,8 +209,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4471121726/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -273,7 +234,7 @@
     }
   },
   {
-    "id": 8,
+    "id": 7,
     "score": 89,
     "title": "IT Helpdesk Specialist 1",
     "company": "Somatus",
@@ -287,8 +248,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4467077969/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -312,7 +273,7 @@
     }
   },
   {
-    "id": 9,
+    "id": 8,
     "score": 88,
     "title": "Analyst I Service Desk",
     "company": "Womble Bond Dickinson (US) LLP",
@@ -326,8 +287,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4452859409/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -351,7 +312,7 @@
     }
   },
   {
-    "id": 10,
+    "id": 9,
     "score": 87,
     "title": "Desktop Support Specialist",
     "company": "ATCC",
@@ -365,8 +326,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4463551815/",
     "notes": "Security+ aligns with role - Desktop Support - entry-level (HS diploma + 1 yr) - In the DMV market - No clearance required",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -390,6 +351,24 @@
     }
   },
   {
+    "score": 86,
+    "title": "Corporate IT Support Technician",
+    "company": "Red River",
+    "market": "VA",
+    "city": "Chantilly, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/4444358993/",
+    "notes": "Public Trust eligible - Federal IT services contractor - Onsite (DMV) - Entry to mid-level end-user IT support",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
+    "id": 10
+  },
+  {
     "id": 11,
     "score": 85,
     "title": "Help Desk Specialist",
@@ -405,8 +384,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4458502737/",
     "notes": "Security+ aligns with role - Entry to associate level support - In the DMV market - Federal contractor - clearance-eligible track",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -445,8 +424,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4469523050/",
     "notes": "Security+ aligns with role - Entry to associate level support - In the DMV market - Federal contractor - clearance-eligible track",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -485,8 +464,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4465576091/",
     "notes": "Security+ aligns with role - Entry to associate level support - In the DMV market - Federal contractor - clearance-eligible track",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -525,8 +504,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4469219318/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - Texas secondary market - Federal contractor - clearance-eligible track",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -564,8 +543,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/4466775044/",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - Texas secondary market",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -603,8 +582,8 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/4459948881/",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -642,8 +621,8 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/4469188866/",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -681,8 +660,8 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/4461922218/",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -720,8 +699,8 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/4459438921/",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -759,8 +738,8 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/4454541497/",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -798,8 +777,8 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/4464644004/",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -837,8 +816,8 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/4470980433/",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -876,8 +855,8 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/4464855200/",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -915,8 +894,8 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/4465812095/",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry to associate level support",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -955,8 +934,8 @@
     "priority": "Stretch",
     "url": "https://www.linkedin.com/jobs/view/4466126512/",
     "notes": "Requires an ACTIVE DoD Interim Secret or Secret clearance - Jalen is clearance-eligible, not yet cleared (Stretch) - Security+ meets the 8570 IAT II requirement - Quantico VA",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 3,
       "skills": 5,
@@ -995,8 +974,8 @@
     "priority": "Stretch",
     "url": "https://www.linkedin.com/jobs/view/4468034591/",
     "notes": "Requires an ACTIVE Secret clearance plus 1-3 yrs help desk experience (Stretch) - clearance-eligible only, not yet cleared",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 3,
       "skills": 5,
@@ -1035,8 +1014,8 @@
     "priority": "Stretch",
     "url": "https://www.linkedin.com/jobs/view/4471806526/",
     "notes": "Tier 1 SOC role - recent-grad-with-certs path accepted - requires an active government clearance (Stretch) - Rockville MD",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 3,
       "skills": 4,
@@ -1075,8 +1054,8 @@
     "priority": "Stretch",
     "url": "https://www.linkedin.com/jobs/view/4466127485/",
     "notes": "Requires a Secret clearance plus 2+ yrs service desk experience (Stretch) - Security+ required - clearance-eligible only, not yet cleared",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 3,
       "skills": 5,
@@ -1115,8 +1094,8 @@
     "priority": "Stretch",
     "url": "https://www.linkedin.com/jobs/view/4471641713/",
     "notes": "Requires an ACTIVE DoD Secret clearance plus 4+ yrs experience (Stretch) - both a clearance and an experience gap for an entry candidate",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 3,
       "skills": 5,
@@ -1155,8 +1134,8 @@
     "priority": "Stretch",
     "url": "https://www.linkedin.com/jobs/view/4463486453/",
     "notes": "Requires an ACTIVE TS/SCI clearance WITH polygraph - well beyond clearance-eligible (Stretch) - Security+ / DoD 8570 IAT I - government program",
-    "postedDate": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "postedDate": "2026-09-28",
+    "lastVerified": "2026-09-28",
     "fit": {
       "level": 3,
       "skills": 5,
