@@ -14,7 +14,7 @@
     "notes": "Full-time healthcare marketplace support role with a posted hourly band of $23.00 to $27.00 - Remote nationwide, listed as USA Remote - confirmed still live on the employer's own job board index",
     "postedDate": "2026-09-25",
     "posted": "2026-09-25",
-    "lastVerified": "2026-09-23",
+    "lastVerified": "2026-09-28",
     "key": "zocdoc--specialist-customer-experience--remote"
   },
   {
@@ -32,7 +32,7 @@
     "notes": "Full-time in-person role at a downtown Buffalo office taking inbound calls from health plan members and providers on benefits, eligibility and claims, with de-escalation and complaint handling as core duties - prior health insurance experience is explicitly not required because paid training is provided, with the next cohort starting October 19 - strong pay for an entry point into healthcare administration",
     "postedDate": "2026-09-25",
     "posted": "2026-09-25",
-    "lastVerified": "2026-09-23",
+    "lastVerified": "2026-09-28",
     "key": "centivo--member-care-specialist--buffalo-ny"
   },
   {
@@ -104,7 +104,7 @@
     "notes": "Full-time remote customer support role paying $21.00 to $23.00 per hour - Remote nationwide, open to candidates based anywhere in the United States - confirmed live on the employer's own board index",
     "postedDate": "2026-09-25",
     "posted": "2026-09-25",
-    "lastVerified": "2026-09-23",
+    "lastVerified": "2026-09-28",
     "key": "wayvia--customer-support-specialist--remote"
   },
   {
@@ -176,29 +176,11 @@
     "notes": "Full-time customer experience role at a remote first marketplace company paying a flat $25.00 per hour - Remote, open across the United States - confirmed on the live board index as one of only two open roles at this employer",
     "postedDate": "2026-09-25",
     "posted": "2026-09-25",
-    "lastVerified": "2026-09-23",
+    "lastVerified": "2026-09-28",
     "key": "peerspace--customer-experience-associate--remote"
   },
   {
     "id": 11,
-    "score": 85,
-    "title": "Customer Service Coordinator",
-    "company": "Wegmans Food Markets",
-    "market": "NY",
-    "city": "Amherst, NY",
-    "salary": "$17.50 - $18.00/hr",
-    "roleType": "Retail",
-    "sector": "Commercial",
-    "priority": "High",
-    "url": "https://jobs.wegmans.com/en/job/amherst/customer-service-coordinator/1839/100232434528",
-    "notes": "Full-time front-end role at the Alberta Drive store - supports cashiers, manages open lanes, runs a register when needed and assists shoppers - customer service experience required, 18 or older - rotating mornings, afternoons, evenings and weekends - posted 09/21/2026, Job ID R0294483",
-    "postedDate": "2026-09-25",
-    "posted": "2026-09-25",
-    "lastVerified": "2026-09-24",
-    "key": "wegmans-food-markets--customer-service-coordinator--amherst-ny"
-  },
-  {
-    "id": 12,
     "score": 85,
     "title": "Teller - Southgate Plaza Branch",
     "company": "M&T Bank",
@@ -216,7 +198,7 @@
     "key": "m-t-bank--teller-southgate-plaza-branch--west-seneca-ny"
   },
   {
-    "id": 13,
+    "id": 12,
     "score": 85,
     "title": "Teller - Grant St Branch",
     "company": "M&T Bank",
@@ -234,7 +216,7 @@
     "key": "m-t-bank--teller-grant-st-branch--buffalo-ny"
   },
   {
-    "id": 14,
+    "id": 13,
     "score": 85,
     "title": "Host",
     "company": "Olive Garden",
@@ -252,7 +234,7 @@
     "key": "olive-garden--host--amherst-ny"
   },
   {
-    "id": 15,
+    "id": 14,
     "score": 85,
     "title": "Host",
     "company": "Olive Garden",
@@ -270,7 +252,7 @@
     "key": "olive-garden--host--williamsville-ny"
   },
   {
-    "id": 16,
+    "id": 15,
     "score": 85,
     "title": "Host",
     "company": "Olive Garden",
@@ -288,7 +270,7 @@
     "key": "olive-garden--host--cheektowaga-ny"
   },
   {
-    "id": 17,
+    "id": 16,
     "score": 85,
     "title": "Relationship Banker - Greater Buffalo Area",
     "company": "Bank of America",
@@ -306,7 +288,7 @@
     "key": "bank-of-america--relationship-banker-greater-buffalo-area--buffalo-ny"
   },
   {
-    "id": 18,
+    "id": 17,
     "score": 84,
     "title": "Teller - Military Road Branch",
     "company": "M&T Bank",
@@ -324,7 +306,7 @@
     "key": "m-t-bank--teller-military-road-branch--niagara-falls-ny"
   },
   {
-    "id": 19,
+    "id": 18,
     "score": 84,
     "title": "BluCar - Call For Release CSR (Remote)",
     "company": "Copart",
@@ -342,7 +324,7 @@
     "key": "copart--blucar-call-for-release-csr-remote--remote"
   },
   {
-    "id": 20,
+    "id": 19,
     "score": 84,
     "title": "Host",
     "company": "Olive Garden",
@@ -360,7 +342,7 @@
     "key": "olive-garden--host--niagara-falls-ny"
   },
   {
-    "id": 21,
+    "id": 20,
     "score": 84,
     "title": "Retail Associate",
     "company": "Ross Stores",
@@ -378,7 +360,7 @@
     "key": "ross-stores--retail-associate--amherst-ny"
   },
   {
-    "id": 22,
+    "id": 21,
     "score": 84,
     "title": "Retail Associate",
     "company": "Ross Stores",
@@ -396,7 +378,7 @@
     "key": "ross-stores--retail-associate--cheektowaga-ny"
   },
   {
-    "id": 23,
+    "id": 22,
     "score": 84,
     "title": "Retail Associate",
     "company": "Ross Stores",
@@ -414,25 +396,7 @@
     "key": "ross-stores--retail-associate--williamsville-ny"
   },
   {
-    "id": 24,
-    "score": 84,
-    "title": "Customer Service Representative (Phone Support)",
-    "company": "ARIVE",
-    "market": "Remote",
-    "city": "Remote",
-    "salary": "$45,000 - $55,000/yr",
-    "roleType": "Customer Service",
-    "sector": "Commercial",
-    "priority": "High",
-    "url": "https://job-boards.greenhouse.io/arive/jobs/4004607008",
-    "notes": "Full-time salaried phone support role at a mortgage technology company, first-year total comp $45,000 to $55,000 plus benefits and PTO - wants 2 or more years of phone-based customer service experience, no degree required - Remote, must reside in the continental United States (excludes Alaska and Hawaii) - confirmed live on the employer's own board index",
-    "postedDate": "2026-09-25",
-    "posted": "2026-09-25",
-    "lastVerified": "2026-09-25",
-    "key": "arive--customer-service-representative-phone-support--remote"
-  },
-  {
-    "id": 25,
+    "id": 23,
     "score": 83,
     "title": "Customer Service Representative",
     "company": "Beyond Finance",
@@ -446,11 +410,11 @@
     "notes": "Full-time client success phone role in debt resolution paying $19.00 to $20.00 per hour - Remote nationwide, and the posting requires a distraction free work from home setup - still listed on the employer board index",
     "postedDate": "2026-09-25",
     "posted": "2026-09-25",
-    "lastVerified": "2026-09-23",
+    "lastVerified": "2026-09-28",
     "key": "beyond-finance--customer-service-representative--remote"
   },
   {
-    "id": 26,
+    "id": 24,
     "score": 82,
     "title": "Customer Support Specialist",
     "company": "Mercury",
@@ -464,11 +428,11 @@
     "notes": "Full-time fintech support role with a fixed, non-rotating shift of Monday through Friday, 11:00AM to 8:00PM Pacific - the base band is $48,100 to $58,400 for New York City, Los Angeles, Seattle and the San Francisco Bay Area and $43,300 to $52,500 elsewhere in the United States - Remote within the United States",
     "postedDate": "2026-09-25",
     "posted": "2026-09-25",
-    "lastVerified": "2026-09-23",
+    "lastVerified": "2026-09-28",
     "key": "mercury--customer-support-specialist--remote"
   },
   {
-    "id": 27,
+    "id": 25,
     "score": 82,
     "title": "Customer Experience Associate",
     "company": "Ramp",
@@ -482,11 +446,11 @@
     "notes": "Full-time fintech support role paid hourly against a $60,000 to $70,000 annual equivalent, plus equity - Remote within the United States, with optional offices in New York, Denver and Miami - confirmed live on the employer board index",
     "postedDate": "2026-09-25",
     "posted": "2026-09-25",
-    "lastVerified": "2026-09-23",
+    "lastVerified": "2026-09-28",
     "key": "ramp--customer-experience-associate--remote"
   },
   {
-    "id": 28,
+    "id": 26,
     "score": 82,
     "title": "Community Solutions Customer Service Representative I",
     "company": "Spectrum (Charter Communications)",
@@ -504,7 +468,7 @@
     "key": "spectrum-charter-communications--community-solutions-customer-service-representative-i--buffalo-ny"
   },
   {
-    "id": 29,
+    "id": 27,
     "score": 80,
     "title": "Cashier",
     "company": "Wegmans Food Markets",
@@ -522,7 +486,7 @@
     "key": "wegmans-food-markets--cashier--buffalo-ny"
   },
   {
-    "id": 30,
+    "id": 28,
     "score": 77,
     "title": "Customer Service Representative - Parent Liaison (Remote)",
     "company": "Cranial Technologies",
@@ -536,7 +500,43 @@
     "notes": "Full-time remote customer service role at a medical device company supporting parents through helmet therapy billing and scheduling - pay $18.50 to $19.00 per hour depending on experience - wants 1 to 2 years of customer service experience plus general computer software comfort - Remote nationwide, open to any US state - confirmed live on the employer's own board index",
     "postedDate": "2026-09-25",
     "posted": "2026-09-25",
-    "lastVerified": "2026-09-25",
+    "lastVerified": "2026-09-28",
     "key": "cranial-technologies--customer-service-representative-parent-liaison-remote--remote"
+  },
+  {
+    "score": 76,
+    "title": "Customer Service Representative (Phone Support)",
+    "company": "ARIVE",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "$45,000 - $55,000/yr",
+    "roleType": "Customer Service",
+    "sector": "Commercial",
+    "priority": "Medium",
+    "url": "https://job-boards.greenhouse.io/arive/jobs/5427206008",
+    "notes": "Full-time phone support role for a mortgage tech platform - $45,000 to $55,000 first-year total compensation plus benefits and PTO - remote nationwide but must reside in the continental US - wants 2 or more years of phone support experience, mortgage industry background preferred but not required",
+    "postedDate": "2026-09-28",
+    "posted": "2026-09-28",
+    "lastVerified": "2026-09-28",
+    "key": "arive--customer-service-representative-phone-support--remote",
+    "id": 29
+  },
+  {
+    "score": 74,
+    "title": "Late Night Cashier",
+    "company": "Wegmans Food Markets",
+    "market": "NY",
+    "city": "Williamsville, NY",
+    "salary": "$16.50 - $17.00/hr",
+    "roleType": "Retail",
+    "sector": "Commercial",
+    "priority": "Medium",
+    "url": "https://jobs.wegmans.com/en/job/williamsville/late-night-cashier/1839/99972974528",
+    "notes": "Part-time cashier and self-checkout support role - afternoon and evening shifts including weekends, shifts run as late as midnight - direct match to cashier, POS, and checkout experience",
+    "postedDate": "2026-09-28",
+    "posted": "2026-09-28",
+    "lastVerified": "2026-09-28",
+    "key": "wegmans-food-markets--late-night-cashier--williamsville-ny",
+    "id": 30
   }
 ]
