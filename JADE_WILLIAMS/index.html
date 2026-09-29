@@ -390,7 +390,7 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:26px;border-t
 <li><strong>Gap analysis</strong> - compares the posting's requirements with your resume: what you match, what's missing, which gaps are hard barriers and which you can explain, and whether it's worth applying.</li>
 <li><strong>Tailor my resume</strong> - rewrites your resume for that posting, using only what's already in it. Anything the job asks for that you don't have is listed separately instead of being added.</li>
 </ul>
-<p>Each button prepares a prompt with that job's details. Click <strong>Copy &amp; open Claude</strong>, attach your resume in the new chat, paste and send. Your resume and the results stay in your own Claude chat - nothing is posted to this page. Always read a tailored resume before you send it.</p>
+<p>Each button prepares a prompt with that job's details. Click <strong>Copy prompt</strong>, then open whichever AI assistant you use - ChatGPT, Claude, Gemini, Microsoft Copilot or another - start a new chat, attach your resume, paste and send. Your resume and the results stay in your own chat - nothing is posted to this page. Always read a tailored resume before you send it.</p>
 
 <h2>When it updates</h2>
 <p>The list refreshes every weekday morning and you get an email summary. The date under the header shows the most recent refresh.</p>
@@ -404,16 +404,15 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:26px;border-t
 <h3 id="aititle"></h3>
 <p class="aisub" id="aisub"></p>
 <ol>
-<li>Click <strong>Copy &amp; open Claude</strong>. A new Claude chat opens in another tab.</li>
-<li>Attach your current resume in that chat (the paperclip / + button).</li>
+<li>Click <strong>Copy prompt</strong>.</li>
+<li>Open the AI assistant you use (ChatGPT, Claude, Gemini, Copilot or another), start a new chat and attach your current resume (usually the paperclip or + button).</li>
 <li>Paste (Cmd+V or Ctrl+V) and send.</li>
 </ol>
-<textarea id="aitext" aria-label="Prompt to send to Claude" spellcheck="false"></textarea>
+<textarea id="aitext" aria-label="Prompt to send to your AI assistant" spellcheck="false"></textarea>
 <div class="aiact">
 <span class="aimsg" id="aimsg" role="status"></span>
 <button class="expand" type="button" onclick="document.getElementById('aidlg').close()">Close</button>
-<button class="expand" type="button" onclick="aiCopy(false)">Copy prompt</button>
-<button class="aibtn" id="aigo" type="button" onclick="aiCopy(true)">Copy &amp; open Claude</button>
+<button class="aibtn" id="aigo" type="button" onclick="aiCopy()">Copy prompt</button>
 </div>
 </div>
 </dialog>
@@ -883,7 +882,7 @@ document.getElementById(id).addEventListener(id==="q"?"input":"change",renderGri
 document.getElementById("grid").innerHTML='<div class="empty">Could not load jobs.json - '+e.message+'</div>';});
 
 /* Gap analysis / tailored resume: builds a prompt from this card's public job data.
-   Nothing is sent anywhere; Jade pastes it into her own Claude chat with her resume. */
+   Nothing is sent anywhere; Jade pastes it into her own AI assistant chat with her resume. */
 function aiJobBlock(j){
 var cn=certNeeded(j),lic=licenseBadge(licenseLevel(j)).label;
 var L=["JOB I'M CONSIDERING",
@@ -929,10 +928,9 @@ document.getElementById("aitext").value=aiPrompt(j,kind);
 document.getElementById("aimsg").textContent="";
 if(d.showModal)d.showModal();else d.setAttribute("open","");
 document.getElementById("aitext").scrollTop=0;document.getElementById("aigo").focus();}
-function aiCopy(openClaude){
+function aiCopy(){
 var txt=document.getElementById("aitext").value,m=document.getElementById("aimsg");
-if(openClaude)window.open("https://claude.ai/new","_blank","noopener");
-function ok(){m.textContent=openClaude?"Copied - attach your resume in the new Claude tab, then paste.":"Copied to clipboard.";}
+function ok(){m.textContent="Copied - now paste it into your AI assistant with your resume attached.";}
 function fb(){var ta=document.getElementById("aitext");ta.focus();ta.select();
 try{document.execCommand("copy");ok();}catch(e){m.textContent="Select the text above and copy it (Cmd+C / Ctrl+C).";}}
 if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(txt).then(ok,fb);else fb();}
