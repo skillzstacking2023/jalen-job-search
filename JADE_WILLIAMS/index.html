@@ -129,6 +129,7 @@ color:var(--text);border:1px solid var(--line);font-weight:600}
 .pri.Stretch{background:#431407;color:#fdba74}
 .salary{color:var(--text);font-size:13.5px;font-weight:600}
 .notes{color:var(--muted);font-size:13px}
+.annual{color:var(--muted);font-size:12.5px;margin-top:-6px}
 .agel{font-size:12px;color:var(--muted)}
 .agel.urgent{color:#fdba74;font-weight:700}
 .stagebar{display:flex;gap:4px;flex-wrap:wrap;padding-top:2px;align-items:center}
@@ -370,6 +371,7 @@ document.documentElement.setAttribute("data-theme",t);})();
 <p>The badges tell you the things that decide whether a role is worth your time: <strong>what it pays against your $50/hr target</strong>, <strong>which license it needs</strong>, whether it wants a <strong>certification you do not hold yet</strong>, where it is, and whether it is full time, part time or PRN.</p>
 
 <h2>How pay is shown</h2>
+<p>Full-time cards also show an <strong>annual estimate</strong> under the pay, such as "&asymp; $82,000 - $128,000/yr at 40 hrs/wk". It is the published hourly band times 2,080 hours, before shift differentials, on-call and overtime, which usually add to OR pay. For reference, your $50/hr floor is about <strong>$104,000 a year</strong>. There's no estimate on part-time, per diem or PRN roles, travel contracts, or roles whose pay is already given as a yearly salary.</p>
 <p>Maryland and California both require employers to publish a wage range in the posting, so most cards carry the employer's own numbers rather than an estimate. The pay badge says one of four things:</p>
 <ul>
 <li><strong>Starts at $50+/hr</strong> - the bottom of the published band already clears your floor. These are the safest applications.</li>
@@ -513,6 +515,18 @@ if(p==="yes")return{cls:"pay-yes",label:"Starts at $50+/hr"};
 if(p==="range")return{cls:"pay-range",label:"Reaches $50+/hr"};
 if(p==="below")return{cls:"pay-below",label:"Under $50/hr"};
 return{cls:"pay-unk",label:"Rate not published"};}
+/* Annual estimate from the published hourly band, full-time roles only. Skipped for part-time/PRN
+   (not full-time hours), travel (weekly totals include stipends) and pay text that is already annual. */
+function annualLine(j){
+if(!/full/i.test(j.employmentType||""))return null;
+if(j.market==="Travel"||j.sector==="Travel Agency")return null;
+if(/\/yr|per year|annual/i.test(j.salary||""))return null;
+var lo=typeof j.payMin==="number"?j.payMin:null,hi=typeof j.payMax==="number"?j.payMax:null;
+if(lo===null&&hi===null)return null;
+function yr(h){return "$"+(Math.round(h*2080/1000)*1000).toLocaleString("en-US");}
+if(lo===null)return "\u2248 up to "+yr(hi)+"/yr at 40 hrs/wk";
+if(hi===null||hi===lo)return "\u2248 "+yr(lo)+(hi===null?"+":"")+"/yr at 40 hrs/wk";
+return "\u2248 "+yr(lo)+" - "+yr(hi)+"/yr at 40 hrs/wk";}
 function certNeeded(j){
 if(typeof j.certRequired==="boolean")return j.certRequired?(j.certNote||"Certification required"):null;
 return null;}
@@ -669,6 +683,7 @@ if(j.employmentType&&!/^full[- ]?time$/i.test(j.employmentType))b.appendChild(el
 card.appendChild(b);
 
 card.appendChild(el("div","salary",j.salary));
+var an=annualLine(j);if(an){var ae=el("div","annual",an);ae.title="Estimate: hourly rate x 2,080 hours (40 hrs/wk, 52 weeks), before shift differentials, on-call and overtime.";card.appendChild(ae);}
 var nt=el("div","notes"+(OPEN["n:"+k]?"":" clamp"),j.notes);card.appendChild(nt);
 var nm=el("button","linkbtn morebtn",OPEN["n:"+k]?"Less":"More");nm.type="button";nm.hidden=true;
 nm.onclick=(function(kk){return function(){OPEN["n:"+kk]=!OPEN["n:"+kk];renderGrid();};})(k);
