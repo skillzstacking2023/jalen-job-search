@@ -29,8 +29,8 @@ h1{margin:0 0 6px;font-size:28px;letter-spacing:-.02em}
 .theme-btn{flex:none;background:var(--card);border:1px solid var(--line);color:var(--text);
 padding:9px 15px;border-radius:10px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit}
 .theme-btn:hover{border-color:var(--accent)}
-.stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px 16px;min-width:104px}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:18px;max-width:760px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px 16px;min-width:0}
 .stat .n{font-size:23px;font-weight:800;letter-spacing:-.02em}
 .stat .l{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
 .updated{color:var(--muted);font-size:12px;margin-top:12px}
@@ -71,6 +71,8 @@ input[type=search]:focus,select:focus{outline:none;border-color:var(--accent)}
 border-radius:10px;font-size:13px;cursor:pointer;font-family:inherit;font-weight:600}
 .reset:hover{border-color:var(--accent);color:var(--text)}
 .count{color:var(--muted);font-size:13px;margin-bottom:12px}
+.morefilters{display:none;flex-wrap:wrap;gap:9px;width:100%}
+.morefilters.open{display:flex}
 
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(370px,1fr));gap:15px;margin-bottom:44px}
 .job{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:18px;
@@ -89,7 +91,7 @@ display:flex;flex-direction:column;gap:10px;border-left:3px solid var(--line);tr
 .ring .val{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
 font-weight:800;font-size:15px}
 .badges{display:flex;flex-wrap:wrap;gap:6px}
-.chip{font-size:11px;padding:3.5px 9px;border-radius:999px;background:var(--chip);
+.chip{font-size:12px;padding:3.5px 9px;border-radius:999px;background:var(--chip);
 color:var(--text);border:1px solid var(--line);font-weight:600}
 .chip.sec-Health{background:#14532d33;border-color:#22c55e;color:#86efac}
 .chip.sec-Federal{background:#7c2d1233;border-color:#f97316;color:#fdba74}
@@ -99,6 +101,13 @@ color:var(--text);border:1px solid var(--line);font-weight:600}
 .chip.clr-none{background:#14532d33;border-color:#22c55e;color:#86efac;font-weight:700}
 .chip.clr-elig{background:#1e3a8a33;border-color:#60a5fa;color:#bfdbfe;font-weight:700}
 .chip.clr-active{background:#7c2d1233;border-color:#f97316;color:#fdba74;font-weight:700}
+/* Light theme: the tinted chips above are tuned for dark cards only */
+[data-theme="light"] .chip.sec-Health,[data-theme="light"] .chip.clr-none,[data-theme="light"] .chip.pay-yes{background:#dcfce7;border-color:#16a34a;color:#14532d}
+[data-theme="light"] .chip.sec-Federal,[data-theme="light"] .chip.clr-active,[data-theme="light"] .chip.pay-below{background:#ffedd5;border-color:#ea580c;color:#7c2d12}
+[data-theme="light"] .chip.sec-State,[data-theme="light"] .chip.clr-elig{background:#dbeafe;border-color:#2563eb;color:#1e3a8a}
+[data-theme="light"] .chip.sec-Travel,[data-theme="light"] .chip.remote{background:#ccfbf1;border-color:#0d9488;color:#134e4a}
+[data-theme="light"] .chip.cert,[data-theme="light"] .chip.pay-range{background:#fef3c7;border-color:#d97706;color:#78350f}
+[data-theme="light"] .agel.urgent{color:#c2410c}
 .chip.cert{background:#422006;border-color:#eab308;color:#fde68a;font-weight:700}
 .chip.pay-yes{background:#14532d33;border-color:#22c55e;color:#86efac;font-weight:700}
 .chip.pay-range{background:#3f2d0933;border-color:#eab308;color:#fde68a;font-weight:700}
@@ -110,7 +119,7 @@ color:var(--text);border:1px solid var(--line);font-weight:600}
 .pri.Stretch{background:#431407;color:#fdba74}
 .salary{color:var(--text);font-size:13.5px;font-weight:600}
 .notes{color:var(--muted);font-size:13px}
-.agel{font-size:11.5px;color:var(--muted)}
+.agel{font-size:12px;color:var(--muted)}
 .agel.urgent{color:#fdba74;font-weight:700}
 .stagebar{display:flex;gap:4px;flex-wrap:wrap;padding-top:2px;align-items:center}
 .savehint{font-size:11px;color:var(--muted);font-weight:700;margin-right:2px}
@@ -123,6 +132,15 @@ background:transparent;color:var(--muted);cursor:pointer;font-family:inherit}
 .stagebtn.on.screening{background:var(--teal);border-color:var(--teal)}
 .stagebtn.on.interview{background:var(--amber);border-color:var(--amber)}
 .stagebtn.on.offer{background:var(--green);border-color:var(--green);color:#052e16}
+.cardtools{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.stagesel{font-size:12.5px;padding:6px 9px;border-radius:8px;font-weight:700}
+.stagesel.on{border-color:var(--accent)}
+.linkbtn{background:none;border:none;padding:4px 2px;color:var(--accent);font-size:12.5px;font-weight:700;
+cursor:pointer;font-family:inherit;text-decoration:underline;text-underline-offset:3px}
+.linkbtn:hover{color:var(--text)}
+.aitools{display:flex;gap:10px;align-items:center}
+.notes.clamp{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.morebtn{align-self:flex-start;margin-top:-6px}
 .actions{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:2px}
 a.apply{background:var(--accent);color:#04283a;text-decoration:none;font-weight:700;font-size:13px;
 padding:8px 14px;border-radius:9px}
@@ -197,18 +215,22 @@ border-radius:10px;padding:14px 17px;margin:0 0 16px}
 .guide .callout p:last-child{margin-bottom:0}
 .empty{color:var(--muted);text-align:center;padding:48px}
 footer{color:var(--muted);font-size:12px;text-align:center;padding:26px;border-top:1px solid var(--line)}
-@media(max-width:640px){.grid{grid-template-columns:1fr}h1{font-size:22px}.fitnote{margin-left:0}
+@media(max-width:640px){.grid{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}h1{font-size:22px}.fitnote{margin-left:0}
 .board{grid-template-columns:1fr}}
 </style>
+<script>
+(function(){var t=null;try{t=localStorage.getItem("jade_theme");}catch(e){}
+if(t!=="light"&&t!=="dark")t=(window.matchMedia&&matchMedia("(prefers-color-scheme: light)").matches)?"light":"dark";
+document.documentElement.setAttribute("data-theme",t);})();
+</script>
 </head>
 <body>
 <header>
 <div class="wrap">
 <div class="header-top">
 <div>
-<h1>Jade Williams, RN BSN - Perioperative / CVOR Nursing Job Search</h1>
-<div class="creds">RN, BSN - 9+ years perioperative and cardiovascular OR - Maryland multistate (compact) and California licensed - BLS / ACLS / PALS - AORN PeriOp 101</div>
-<div class="sub">Central Maryland. Operating room, CVOR, PACU and pre-op roles across Maryland and the DC metro, California, federal health systems and travel contracts. Strengths: scrub and circulate across general, vascular, thoracic, ortho, urology and GYN; open-heart including CABG, valve repair and replacement, heart and lung transplant and aortic aneurysm repair; hemodynamic monitoring; AORN standards; preceptorship; EPIC, Meditech and CPRS. Target rate: $50/hr and up.</div>
+<h1>Jade Williams, RN BSN</h1>
+<div class="creds">Perioperative and CVOR nursing roles - Maryland, DC metro, California, federal and travel - target $50/hr+</div>
 </div>
 <div class="hbtns">
 <button class="theme-btn" id="wnbtn" onclick="renderWhatsNew(true)">What&#39;s new</button>
@@ -229,34 +251,29 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:26px;border-t
 <button class="tab" data-panel="p-guide" onclick="showTab(this)">How to use</button>
 </div>
 
-<div class="actbar">
-<span class="actcount" id="actcount"></span>
-<button class="actbtn" type="button" onclick="emailPipeline()">Email to me</button>
-<button class="actbtn" type="button" onclick="copyPipeline()">Copy list</button>
-<button class="actbtn" type="button" onclick="downloadCSV()">Download CSV</button>
-<button class="actbtn" type="button" onclick="backupJSON()">Backup</button>
-<label class="actbtn" style="cursor:pointer">Restore<input type="file" id="restorefile" accept="application/json,.json" style="display:none" onchange="restoreJSON(event)"></label>
-<span class="actmsg" id="actmsg"></span>
-</div>
 
 <div class="panel active" id="p-opps">
 <div class="controls">
-<input type="search" id="q" placeholder="Search title, company, city, notes...">
-<select id="priority"><option value="">All priorities</option><option>High</option><option>Medium</option><option>Stretch</option></select>
-<select id="market"><option value="">All locations</option><option value="MD">Maryland</option><option value="DC">DC metro</option><option value="CA">California</option><option value="LA">Louisiana</option><option value="Travel">Travel contract</option><option value="Remote">Remote</option></select>
-<select id="sector"><option value="">All employer types</option><option>Health System</option><option>Federal</option><option>State/County</option><option>Travel Agency</option></select>
-<select id="role"><option value="">All role types</option></select>
+<input type="search" id="q" placeholder="Search title, company, city, notes..." aria-label="Search jobs">
+<select id="pay">
+<option value="">Any pay rate</option>
+<option value="yes">Starts at $50+/hr</option>
+<option value="reach">Reaches $50+/hr</option>
+</select>
 <select id="license">
 <option value="">Any licensure</option>
 <option value="compact">MD compact covers it</option>
 <option value="ca">California license</option>
 <option value="other">New state license needed</option>
 </select>
-<select id="pay">
-<option value="">Any pay rate</option>
-<option value="yes">Starts at $50+/hr</option>
-<option value="reach">Reaches $50+/hr</option>
-</select>
+<select id="sort"><option value="score">Sort: fit score</option><option value="company">Sort: company A-Z</option><option value="fresh">Sort: newest first</option></select>
+<button class="reset" type="button" onclick="resetFilters()">Reset</button>
+<button class="reset" type="button" id="morebtn" aria-expanded="false" onclick="toggleMore()">More filters</button>
+<div class="morefilters" id="morefilters">
+<select id="priority"><option value="">All priorities</option><option>High</option><option>Medium</option><option>Stretch</option></select>
+<select id="market"><option value="">All locations</option><option value="MD">Maryland</option><option value="DC">DC metro</option><option value="CA">California</option><option value="LA">Louisiana</option><option value="Travel">Travel contract</option><option value="Remote">Remote</option></select>
+<select id="sector"><option value="">All employer types</option><option>Health System</option><option>Federal</option><option>State/County</option><option>Travel Agency</option></select>
+<select id="role"><option value="">All role types</option></select>
 <select id="cert"><option value="">Certification: any</option><option value="no">No extra certification required</option></select>
 <select id="stage">
 <option value="">All pipeline stages</option>
@@ -267,14 +284,22 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:26px;border-t
 <option value="interview">Interview</option>
 <option value="offer">Offer</option>
 </select>
-<select id="sort"><option value="score">Sort: fit score</option><option value="company">Sort: company A-Z</option><option value="fresh">Sort: newest first</option></select>
-<button class="reset" onclick="resetFilters()">Reset</button>
+</div>
 </div>
 <div class="count" id="count"></div>
 <div class="grid" id="grid"></div>
 </div>
 
 <div class="panel" id="p-pipe">
+<div class="actbar">
+<span class="actcount" id="actcount"></span>
+<button class="actbtn" type="button" onclick="emailPipeline()">Email to me</button>
+<button class="actbtn" type="button" onclick="copyPipeline()">Copy list</button>
+<button class="actbtn" type="button" onclick="downloadCSV()">Download CSV</button>
+<button class="actbtn" type="button" onclick="backupJSON()">Backup</button>
+<label class="actbtn" style="cursor:pointer">Restore<input type="file" id="restorefile" accept="application/json,.json" style="display:none" onchange="restoreJSON(event)"></label>
+<span class="actmsg" id="actmsg"></span>
+</div>
 <div class="count" id="pipecount" style="margin-top:20px"></div>
 <div class="board" id="board"></div>
 </div>
@@ -321,6 +346,8 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:26px;border-t
 <p>Every listing on this dashboard is a perioperative, CVOR, PACU, pre-op or closely adjacent nursing role, in Maryland or the DC metro, California, a federal health system, or as a travel contract. Each one was opened and read on the day it was published here, so nothing on this board is a posting that has already closed.</p>
 <p>Roles that do not fit your background get left out rather than listed with a low score. A short honest list beats a long padded one.</p>
 
+<div class="callout"><p><strong>The search profile behind the scores.</strong> Central Maryland. Operating room, CVOR, PACU and pre-op roles across Maryland and the DC metro, California, federal health systems and travel contracts. Strengths: scrub and circulate across general, vascular, thoracic, ortho, urology and GYN; open-heart including CABG, valve repair and replacement, heart and lung transplant and aortic aneurysm repair; hemodynamic monitoring; AORN standards; preceptorship; EPIC, Meditech and CPRS. Target rate: $50/hr and up.</p></div>
+
 <h2>Reading a job card</h2>
 <p>The <strong>number in the ring</strong> is an overall fit score out of 100. Green is a strong fit (80+), amber is good with a gap (70-79), orange is a stretch (60-69).</p>
 <p>The badges tell you the things that decide whether a role is worth your time: <strong>what it pays against your $50/hr target</strong>, <strong>which license it needs</strong>, whether it wants a <strong>certification you do not hold yet</strong>, where it is, and whether it is full time, part time or PRN.</p>
@@ -341,8 +368,8 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:26px;border-t
 <p>Your Maryland license is multistate, so it already covers most compact states without any new application. Cards are marked three ways: <strong>covered by your compact license</strong>, <strong>California</strong> (which you also hold), or <strong>new state license needed</strong> - the last one meaning you would have to apply for licensure before you could start.</p>
 
 <h2>Saving jobs and emailing them to yourself</h2>
-<p>Every card has a <strong>Save as:</strong> row with five buttons - Interested, Applied, Screening, Interview, Offer. Click one to save the job. Click it again to remove it.</p>
-<p>The bar under the tabs then works on everything you have saved:</p>
+<p>Every card has a <strong>Save to pipeline</strong> menu - choose Interested, Applied, Screening, Interview or Offer to save the job. Choose <strong>Save to pipeline</strong> again to remove it.</p>
+<p>The bar at the top of the <strong>Pipeline</strong> tab then works on everything you have saved:</p>
 <ul>
 <li><strong>Email to me</strong> - opens your email app with the list already written out, grouped by stage, with links and your own notes. You just press send.</li>
 <li><strong>Copy list</strong> - the same text on your clipboard to paste anywhere</li>
@@ -385,10 +412,10 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:26px;border-t
 </div>
 
 <h2>Gap analysis and tailored resume</h2>
-<p>Every card has two buttons under <strong>Get help with this job</strong>:</p>
+<p>Every card has two links, <strong>Gap analysis</strong> and <strong>Tailor resume</strong>:</p>
 <ul>
 <li><strong>Gap analysis</strong> - compares the posting's requirements with your resume: what you match, what's missing, which gaps are hard barriers and which you can explain, and whether it's worth applying.</li>
-<li><strong>Tailor my resume</strong> - rewrites your resume for that posting, using only what's already in it. Anything the job asks for that you don't have is listed separately instead of being added.</li>
+<li><strong>Tailor resume</strong> - rewrites your resume for that posting, using only what's already in it. Anything the job asks for that you don't have is listed separately instead of being added.</li>
 </ul>
 <p>Each button prepares a prompt with that job's details. Click <strong>Copy prompt</strong>, then open whichever AI assistant you use - ChatGPT, Claude, Gemini, Microsoft Copilot or another - start a new chat, attach your resume, paste and send. Your resume and the results stay in your own chat - nothing is posted to this page. Always read a tailored resume before you send it.</p>
 
@@ -417,7 +444,7 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:26px;border-t
 </div>
 </dialog>
 
-<footer>Auto-refreshed daily. Built for Jade Williams, RN BSN. Scores reflect fit to her profile: perioperative, CVOR, PACU and pre-op nursing in Maryland and the DC metro, California, federal health systems and travel contracts, with a $50/hr target rate. Licensure, certification and published pay range are shown on every card. Saved jobs and notes are stored in this browser only.</footer>
+<footer>Auto-refreshed daily. Built for Jade Williams, RN BSN. Scores reflect fit to your profile: perioperative, CVOR, PACU and pre-op nursing in Maryland and the DC metro, California, federal health systems and travel contracts, with a $50/hr target rate. Licensure, certification and published pay range are shown on every card. Saved jobs and notes are stored in this browser only.</footer>
 
 <script>
 var JOBS=[];
@@ -448,8 +475,8 @@ function licenseLevel(j){return j.license?j.license:"Compact/MD";}
 function licenseKey(l){return l==="Other state"?"other":(l==="California"?"ca":"compact");}
 function licenseBadge(l){
 if(l==="Other state")return{cls:"clr-active",label:"New state license needed"};
-if(l==="California")return{cls:"clr-elig",label:"CA license - she holds one"};
-return{cls:"clr-none",label:"Covered by her MD compact license"};}
+if(l==="California")return{cls:"clr-elig",label:"CA license - you hold one"};
+return{cls:"clr-none",label:"Covered by your MD compact license"};}
 
 /* pay model - her floor is $50/hr */
 var FLOOR=50;
@@ -559,8 +586,9 @@ else if(s==="fresh")out.sort(function(a,b){return String(b.posted||"").localeCom
 else out.sort(function(a,b){return b.score-a.score;});
 return out;}
 
+var NOTECHK=[];
 function renderGrid(){
-var grid=document.getElementById("grid");grid.innerHTML="";
+var grid=document.getElementById("grid");grid.innerHTML="";NOTECHK=[];
 var list=sortJobs(JOBS.filter(matches));
 document.getElementById("count").textContent=list.length+" of "+JOBS.length+" roles shown";
 if(!list.length){grid.innerHTML='<div class="empty">No matches. Try clearing filters.</div>';return;}
@@ -570,45 +598,42 @@ var card=el("div","job"+(rec.stage?" st-"+rec.stage:""));
 var row=el("div","row"),left=el("div");
 left.appendChild(el("p","title",j.title));
 left.appendChild(el("div","company",j.company));
-row.appendChild(left);row.appendChild(ring(j.score));card.appendChild(row);
+row.appendChild(left);var rg=ring(j.score);rg.setAttribute("role","img");rg.setAttribute("aria-label","Fit score "+j.score+" of 100 - "+j.priority);rg.title=j.priority+" fit";
+row.appendChild(rg);card.appendChild(row);
 
 var b=el("div","badges");
-b.appendChild(el("span","pri "+j.priority,j.priority));
+var pb=payBadge(j);
+b.appendChild(el("span","chip "+pb.cls,pb.label));
 var cb=licenseBadge(licenseLevel(j));
 b.appendChild(el("span","chip "+cb.cls,cb.label));
 var cn=certNeeded(j);
 if(cn)b.appendChild(el("span","chip cert",cn));
-var pb=payBadge(j);
-b.appendChild(el("span","chip "+pb.cls,pb.label));
-if(j.employmentType)b.appendChild(el("span","chip",j.employmentType));
 b.appendChild(el("span","chip "+(j.market==="Remote"?"remote":""),j.city||j.market));
-b.appendChild(el("span","chip sec-"+String(j.sector||"").split("/")[0].split(" ")[0],j.sector));
-b.appendChild(el("span","chip",j.roleType));
+if(j.employmentType&&!/^full[- ]?time$/i.test(j.employmentType))b.appendChild(el("span","chip",j.employmentType));
 card.appendChild(b);
 
 card.appendChild(el("div","salary",j.salary));
-card.appendChild(el("div","notes",j.notes));
+var nt=el("div","notes"+(OPEN["n:"+k]?"":" clamp"),j.notes);card.appendChild(nt);
+var nm=el("button","linkbtn morebtn",OPEN["n:"+k]?"Less":"More");nm.type="button";nm.hidden=true;
+nm.onclick=(function(kk){return function(){OPEN["n:"+kk]=!OPEN["n:"+kk];renderGrid();};})(k);
+card.appendChild(nm);NOTECHK.push([nt,nm]);
 card.appendChild(el("div","agel"+(isUrgent(j)?" urgent":""),ageLine(j)));
 
-var sb=el("div","stagebar");
-sb.appendChild(el("span","savehint","Save as:"));
-STAGES.forEach(function(s){
-var btn=el("button","stagebtn"+(rec.stage===s?" on "+s:""),STAGE_LABEL[s]);
-btn.type="button";
-btn.onclick=(function(kk,ss){return function(){setStage(kk,ss);};})(k,s);
-sb.appendChild(btn);});
-card.appendChild(sb);
-
-var ai=el("div","aibar");
-ai.appendChild(el("span","savehint","Get help with this job:"));
-[["gap","Gap analysis"],["tailor","Tailor my resume"]].forEach(function(p){
-var btn=el("button","aibtn",p[1]);btn.type="button";
+var tools=el("div","cardtools");
+var ss=el("select","stagesel"+(rec.stage?" on":""));ss.setAttribute("aria-label","Pipeline stage for "+j.title);
+[["","Save to pipeline"]].concat(STAGES.map(function(x){return [x,STAGE_LABEL[x]];})).forEach(function(o){
+var op=document.createElement("option");op.value=o[0];op.textContent=o[1];if(rec.stage===o[0])op.selected=true;ss.appendChild(op);});
+ss.onchange=(function(kk){return function(){var r=getRec(kk);r.stage=this.value;saveState();renderAll();};})(k);
+tools.appendChild(ss);
+var ai=el("div","aitools");
+[["gap","Gap analysis"],["tailor","Tailor resume"]].forEach(function(p){
+var btn=el("button","linkbtn",p[1]);btn.type="button";
 btn.onclick=(function(jj,kind){return function(){openAI(jj,kind);};})(j,p[0]);
 ai.appendChild(btn);});
-card.appendChild(ai);
+tools.appendChild(ai);card.appendChild(tools);
 
 var act=el("div","actions");
-var exp=el("button","expand",OPEN[k]?"Hide details":"Fit breakdown + details");
+var exp=el("button","expand",OPEN[k]?"Hide details":"Details");
 exp.type="button";
 exp.onclick=(function(kk){return function(){OPEN[kk]=!OPEN[kk];renderGrid();};})(k);
 act.appendChild(exp);
@@ -616,17 +641,22 @@ var a=el("a","apply","View / Apply");a.href=j.url;a.target="_blank";a.rel="noope
 act.appendChild(a);card.appendChild(act);
 
 var det=el("div","detail"+(OPEN[k]?" open":""));
+var facts=el("div","intel");
+[["Tier",j.priority],["Role type",j.roleType],["Employer type",j.sector],["Schedule",j.employmentType]].forEach(function(r){
+if(!r[1])return;facts.appendChild(el("div","ik",r[0]));facts.appendChild(el("div",null,r[1]));});
+det.appendChild(facts);
 det.appendChild(fitBlock(j));
 det.appendChild(intelBlock(j));
 det.appendChild(noteBlock(j));
 card.appendChild(det);
-grid.appendChild(card);});}
+grid.appendChild(card);});
+NOTECHK.forEach(function(p){p[1].hidden=!(p[0].scrollHeight>p[0].clientHeight+1||!p[0].classList.contains("clamp"));});}
 
 function renderBoard(){
 var board=document.getElementById("board");board.innerHTML="";
 var tracked=JOBS.filter(function(j){return getRec(jobKey(j)).stage;}).length;
 document.getElementById("pipecount").textContent=
-tracked+" of "+JOBS.length+" roles are in your pipeline. Use the Save as buttons on any card, or the arrows below, to move a role along.";
+tracked+" of "+JOBS.length+" roles are in your pipeline. Use the Save to pipeline menu on any card, or the arrows below, to move a role along.";
 var pn=document.querySelector("#stat-pipeline .n");
 if(pn)pn.textContent=tracked;
 var ac=document.getElementById("actcount");
@@ -784,14 +814,14 @@ var WHATSNEW=[
 {id:"2026-09-29-a-launch",date:"September 29, 2026",title:"Your dashboard is live",
  body:"Every listing here was opened and read the day it was published to this board, so nothing on it is a dead link. Each card shows the employer's own published pay range where they publish one, checked against your $50/hr target."},
 {id:"2026-09-29-b-pay",date:"September 29, 2026",title:"Pay is a filter, not a footnote",
- body:"Use the pay dropdown to show only roles that start at $50/hr, or roles whose band reaches $50/hr so the rate depends on how you negotiate. The tiles at the top count both."},
+ body:"Use the pay dropdown to show only roles that start at $50/hr, or roles whose band reaches $50/hr so the rate depends on how you negotiate. The top tile counts roles that start at $50/hr or more."},
 {id:"2026-09-29-c-license",date:"September 29, 2026",title:"Licensure is tracked per role",
  body:"Your Maryland multistate compact license already covers most of these. California roles are flagged separately because you hold that license too. Anything needing a state license you do not yet hold is marked so it never surprises you."}
 ];
 function wnUnseen(){var s=localStorage.getItem(WN_KEY)||"";return WHATSNEW.filter(function(w){return w.id>s;});}
 function updateWnDot(){var b=document.getElementById("wnbtn");if(!b)return;var n=wnUnseen().length;
 b.textContent=n?("What's new ("+n+")"):"What's new";}
-function dismissWhatsNew(){localStorage.setItem(WN_KEY,WHATSNEW[0].id);
+function dismissWhatsNew(){localStorage.setItem(WN_KEY,WHATSNEW.map(function(w){return w.id;}).sort().pop());
 var b=document.getElementById("whatsnew");if(b)b.style.display="none";updateWnDot();}
 function renderWhatsNew(showAll){
 var box=document.getElementById("whatsnew");if(!box)return;
@@ -822,13 +852,10 @@ var payReach=JOBS.filter(function(j){return ["yes","range"].indexOf(payLevel(j))
 var compact=JOBS.filter(function(j){return licenseKey(licenseLevel(j))==="compact";}).length;
 var noCert=JOBS.filter(function(j){return !certNeeded(j);}).length;
 var tracked=JOBS.filter(function(j){return getRec(jobKey(j)).stage;}).length;
+var licOk=JOBS.filter(function(j){return licenseKey(licenseLevel(j))!=="other";}).length;
 s.appendChild(stat(JOBS.length,"Open roles"));
-s.appendChild(stat(high,"High fit"));
-s.appendChild(stat(md,"Maryland"));
 s.appendChild(stat(payYes,"Start $50+/hr"));
-s.appendChild(stat(payReach,"Reach $50+/hr"));
-s.appendChild(stat(compact,"License ready"));
-s.appendChild(stat(noCert,"No extra cert"));
+s.appendChild(stat(licOk,"No new license"));
 var pt=stat(tracked,"In pipeline");pt.id="stat-pipeline";s.appendChild(pt);
 var roles=[];JOBS.forEach(function(j){if(roles.indexOf(j.roleType)<0)roles.push(j.roleType);});
 roles.sort();
@@ -844,11 +871,19 @@ for(var k=0;k<panels.length;k++)panels[k].classList.remove("active");
 document.getElementById(btn.getAttribute("data-panel")).classList.add("active");
 if(btn.getAttribute("data-panel")==="p-analytics")renderCharts();}
 
+function toggleMore(force){
+var m=document.getElementById("morefilters"),b=document.getElementById("morebtn");
+var open=typeof force==="boolean"?force:!m.classList.contains("open");
+m.classList.toggle("open",open);b.setAttribute("aria-expanded",open?"true":"false");moreLabel();}
+function moreLabel(){
+var n=["priority","market","sector","role","cert","stage"].filter(function(id){return val(id);}).length;
+var open=document.getElementById("morefilters").classList.contains("open");
+document.getElementById("morebtn").textContent=(open?"Fewer filters":"More filters")+(n?" ("+n+")":"");}
 function resetFilters(){
 ["q","priority","market","sector","role","license","pay","cert","stage"].forEach(function(id){
 document.getElementById(id).value="";});
 document.getElementById("sort").value="score";
-renderGrid();}
+moreLabel();renderGrid();}
 
 function toggleTheme(){
 var cur=document.documentElement.getAttribute("data-theme")||"dark";
@@ -858,9 +893,13 @@ localStorage.setItem("jade_theme",next);
 document.getElementById("theme-btn").textContent=next==="light"?"Dark Mode":"Light Mode";
 renderCharts();}
 function initTheme(){
-var saved=localStorage.getItem("jade_theme")||"dark";
-document.documentElement.setAttribute("data-theme",saved);
-document.getElementById("theme-btn").textContent=saved==="light"?"Dark Mode":"Light Mode";}
+var cur=document.documentElement.getAttribute("data-theme")||"dark";
+document.getElementById("theme-btn").textContent=cur==="light"?"Dark Mode":"Light Mode";
+/* until she picks a theme herself, follow the device setting as it changes */
+if(window.matchMedia)matchMedia("(prefers-color-scheme: light)").addEventListener("change",function(e){
+if(localStorage.getItem("jade_theme"))return;
+document.documentElement.setAttribute("data-theme",e.matches?"light":"dark");
+initTheme();renderCharts();});}
 initTheme();
 renderWhatsNew(false);
 
@@ -877,14 +916,15 @@ document.getElementById("updated").textContent="Last refreshed: "+(dates[0]||"-"
 " - "+JOBS.length+" perioperative and adjacent nursing roles, each confirmed open at refresh";
 renderAll();
 ["q","priority","market","sector","role","license","pay","cert","stage","sort"].forEach(function(id){
-document.getElementById(id).addEventListener(id==="q"?"input":"change",renderGrid);});})
+document.getElementById(id).addEventListener(id==="q"?"input":"change",function(){moreLabel();renderGrid();});});})
 .catch(function(e){
 document.getElementById("grid").innerHTML='<div class="empty">Could not load jobs.json - '+e.message+'</div>';});
 
 /* Gap analysis / tailored resume: builds a prompt from this card's public job data.
    Nothing is sent anywhere; Jade pastes it into her own AI assistant chat with her resume. */
 function aiJobBlock(j){
-var cn=certNeeded(j),lic=licenseBadge(licenseLevel(j)).label;
+var cn=certNeeded(j),lk=licenseKey(licenseLevel(j));
+var lic=lk==="other"?"This location needs a state license I don't hold yet":lk==="ca"?"Covered by my California license":"Covered by my Maryland multistate (compact) license";
 var L=["JOB I'M CONSIDERING",
 "Title: "+j.title,"Employer: "+j.company,"Location: "+(j.city||j.market),
 "Employment type: "+(j.employmentType||"not stated"),
