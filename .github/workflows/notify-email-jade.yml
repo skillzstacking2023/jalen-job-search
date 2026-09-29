@@ -92,3 +92,69 @@ jobs:
               s.send_message(msg, from_addr=gmail_addr, to_addrs=RECIPIENTS)
           print("Email sent to", len(RECIPIENTS), "recipients")
           PY
+
+      # Short text via T-Mobile's email-to-SMS gateway. Runs after the email and can't fail
+      # the job: carrier gateways drop or delay messages without notice, and the email above
+      # is the notification of record. Skipped when the JADE_SMS secret isn't set.
+      # JADE_SMS holds the full gateway address, e.g. 4105551234@tmomail.net - kept in a
+      # secret because the repo is public and her phone number must never be published.
+      - name: Send text summary (T-Mobile email-to-SMS)
+        continue-on-error: true
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          JADE_SMS: ${{ secrets.JADE_SMS }}
+        run: |
+          python3 - <<'PY'
+          import json, os, re, ssl, smtplib
+          from email.mime.text import MIMEText
+
+          to = (os.environ.get('JADE_SMS') or '').strip()
+          if not to:
+              print("JADE_SMS secret not set - skipping text.")
+              raise SystemExit(0)
+
+          jobs = json.load(open('JADE_WILLIAMS/jobs.json'))
+          num = lambda v: isinstance(v, (int, float))
+          high = sum(1 for j in jobs if j.get('priority') == 'High')
+          floor = sum(1 for j in jobs if num(j.get('payMin')) and j['payMin'] >= 50)
+          top = max(jobs, key=lambda j: j.get('score') or 0) if jobs else None
+          link = "skillzstacking2023.github.io/jalen-job-search/JADE_WILLIAMS/"
+
+          head = f"Jade's jobs: {len(jobs)} roles, {high} high fit, {floor} at $50+/hr."
+          tail = " " + link
+          text = head + tail
+          if top:
+              # Fit the top role in the space left, so the whole text stays one 160-char SMS.
+              # Drop the "RN II -" / "Registered Nurse" prefix every title shares.
+              title = re.sub(r"^(registered nurse|rn)\b( (i{1,3}|iv))?( \(rn\))?\s*[-,:]?\s*", "", top.get('title', ''), flags=re.I) or top.get('title', '')
+              room = 160 - len(text) - len(" Top: ") - len(f" ({top.get('score')}).")
+              short = {"Johns Hopkins Medicine": "Hopkins", "University of Maryland Medical System": "UMMS",
+                       "MedStar Health": "MedStar", "Department of Veterans Affairs": "VA",
+                       "Veterans Health Administration": "VA"}
+              co = top.get('company', '')
+              co = short.get(co) or re.sub(r"\s+(health( ?care)?|health system|medical (system|center)|medicine)$", "", co, flags=re.I)
+              name = f"{co} {title}"  # employer first, so any trimming cuts the end of the title
+              if room >= 20:
+                  if len(name) > room:
+                      name = name[:room - 3].rstrip(" ,-") + "..."
+                  text = f"{head} Top: {name} ({top.get('score')}).{tail}"
+          text = text.encode('ascii', 'replace').decode()[:160]
+
+          gmail_addr = (os.environ.get('GMAIL_ADDRESS') or '').strip()
+          app_pw = "".join(ch for ch in (os.environ.get('GMAIL_APP_PASSWORD') or '') if ch.isalnum() and ord(ch) < 128)
+          if not gmail_addr or not app_pw:
+              raise SystemExit("Missing GMAIL_ADDRESS or GMAIL_APP_PASSWORD repo secret.")
+
+          # No subject: gateways prepend it to the text, which wastes characters.
+          msg = MIMEText(text, "plain", "us-ascii")
+          msg["From"] = gmail_addr
+          msg["To"] = to
+
+          ctx = ssl.create_default_context()
+          with smtplib.SMTP("smtp.gmail.com", 587) as s:
+              s.starttls(context=ctx)
+              s.login(gmail_addr, app_pw)
+              s.send_message(msg, from_addr=gmail_addr, to_addrs=[to])
+          print(f"Text handed to the carrier gateway ({len(text)} chars).")
+          PY
