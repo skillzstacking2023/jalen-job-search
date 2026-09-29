@@ -247,7 +247,7 @@ document.documentElement.setAttribute("data-theme",t);})();
 <div class="header-top">
 <div>
 <h1>Jade Williams, RN BSN</h1>
-<div class="creds">Perioperative and CVOR nursing roles - Maryland, DC metro, California, federal and travel - target $50/hr+</div>
+<div class="creds">Perioperative and CVOR nursing roles - Maryland, DC metro, Northern Virginia, Delaware, Pennsylvania, California, federal and travel - target $50/hr+</div>
 </div>
 <div class="hbtns">
 <button class="theme-btn" id="wnbtn" onclick="renderWhatsNew(true)">What&#39;s new</button>
@@ -288,7 +288,7 @@ document.documentElement.setAttribute("data-theme",t);})();
 <button class="reset" type="button" id="morebtn" aria-expanded="false" onclick="toggleMore()">More filters</button>
 <div class="morefilters" id="morefilters">
 <select id="priority"><option value="">All priorities</option><option>High</option><option>Medium</option><option>Stretch</option></select>
-<select id="market"><option value="">All locations</option><option value="MD">Maryland</option><option value="DC">DC metro</option><option value="CA">California</option><option value="LA">Louisiana</option><option value="Travel">Travel contract</option><option value="Remote">Remote</option></select>
+<select id="market"><option value="">All locations</option><option value="MD">Maryland</option><option value="DC">DC metro</option><option value="VA">Northern Virginia</option><option value="DE">Delaware</option><option value="PA">Pennsylvania</option><option value="CA">California</option><option value="LA">Louisiana</option><option value="Travel">Travel contract</option><option value="Remote">Remote</option></select>
 <select id="sector"><option value="">All employer types</option><option>Health System</option><option>Federal</option><option>State/County</option><option>Travel Agency</option></select>
 <select id="role"><option value="">All role types</option></select>
 <select id="cert"><option value="">Certification: any</option><option value="no">No extra certification required</option></select>
@@ -335,7 +335,7 @@ document.documentElement.setAttribute("data-theme",t);})();
 </div>
 <div class="chartbox">
 <h3>Where the roles are</h3>
-<div class="cs">Maryland and DC metro versus California, travel and remote</div>
+<div class="cs">Maryland, DC metro and nearby compact states versus California, travel and remote</div>
 <div class="canvaswrap"><canvas id="c-market"></canvas></div>
 </div>
 <div class="chartbox">
@@ -360,7 +360,7 @@ document.documentElement.setAttribute("data-theme",t);})();
 <div class="guide">
 
 <h2>What is in here</h2>
-<p>Every listing on this dashboard is a perioperative, CVOR, PACU, pre-op or closely adjacent nursing role, in Maryland or the DC metro, California, a federal health system, or as a travel contract. Each one was opened and read on the day it was published here, so nothing on this board is a posting that has already closed.</p>
+<p>Every listing on this dashboard is a perioperative, CVOR, PACU, pre-op or closely adjacent nursing role, in Maryland, the DC metro, Northern Virginia, northern Delaware or south-central Pennsylvania, California, a federal health system, or as a travel contract. Each one was opened and read on the day it was published here, so nothing on this board is a posting that has already closed.</p>
 <p>Roles that do not fit your background get left out rather than listed with a low score. A short honest list beats a long padded one.</p>
 
 <div class="callout"><p><strong>The search profile behind the scores.</strong> Central Maryland. Operating room, CVOR, PACU and pre-op roles across Maryland and the DC metro, California, federal health systems and travel contracts. Strengths: scrub and circulate across general, vascular, thoracic, ortho, urology and GYN; open-heart including CABG, valve repair and replacement, heart and lung transplant and aortic aneurysm repair; hemodynamic monitoring; AORN standards; preceptorship; EPIC, Meditech and CPRS. Target rate: $50/hr and up.</p></div>
@@ -464,7 +464,7 @@ document.documentElement.setAttribute("data-theme",t);})();
 </div>
 </dialog>
 
-<footer>Auto-refreshed daily. Built for Jade Williams, RN BSN. Scores reflect fit to your profile: perioperative, CVOR, PACU and pre-op nursing in Maryland and the DC metro, California, federal health systems and travel contracts, with a $50/hr target rate. Licensure, certification and published pay range are shown on every card. Saved jobs and notes are stored in this browser only.</footer>
+<footer>Auto-refreshed daily. Built for Jade Williams, RN BSN. Scores reflect fit to your profile: perioperative, CVOR, PACU and pre-op nursing in Maryland, the DC metro and nearby compact states, California, federal health systems and travel contracts, with a $50/hr target rate. Licensure, certification and published pay range are shown on every card. Saved jobs and notes are stored in this browser only.</footer>
 
 <script>
 var JOBS=[];
@@ -766,11 +766,11 @@ backgroundColor:["#22c55e","#eab308","#f97316"],borderRadius:6}]},
 options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
 scales:{y:{beginAtZero:true,ticks:{precision:0},grid:{color:lineC}},x:{grid:{display:false}}}}});
 
-var mks=["MD","DC","CA","LA","Travel","Remote"];
-var mklab=["Maryland","DC metro","California","Louisiana","Travel","Remote"];
+var mks=["MD","DC","VA","DE","PA","CA","LA","Travel","Remote"];
+var mklab=["Maryland","DC metro","Northern Virginia","Delaware","Pennsylvania","California","Louisiana","Travel","Remote"];
 mk("c-market",{type:"doughnut",
 data:{labels:mklab,datasets:[{data:mks.map(function(m){return JOBS.filter(function(j){return j.market===m;}).length;}),
-backgroundColor:["#818cf8","#38bdf8","#f472b6","#fbbf24","#2dd4bf","#a855f7"],borderWidth:0}]},
+backgroundColor:["#818cf8","#38bdf8","#4ade80","#fb923c","#94a3b8","#f472b6","#fbbf24","#2dd4bf","#a855f7"],borderWidth:0}]},
 options:{responsive:true,maintainAspectRatio:false,cutout:"58%",
 plugins:{legend:{position:"right",labels:{boxWidth:12,padding:14}}}}});
 
@@ -867,6 +867,8 @@ rd.onerror=function(){alert("Could not read that file.");};
 rd.readAsText(f);ev.target.value="";}
 var WN_KEY="jade_wn_seen";
 var WHATSNEW=[
+{id:"2026-09-29-d-expansion",date:"September 29, 2026",title:"Wider search: Virginia, Delaware, Pennsylvania and related specialties",
+ body:"Your Maryland multistate license also covers Virginia, Delaware and Pennsylvania, so the search now includes Northern Virginia (including Inova's cardiac surgery and transplant program), northern Delaware and south-central Pennsylvania. Delaware and Pennsylvania cards say the commute plainly. A few related roles that build on your CVOR experience - cath lab, interventional radiology, CVICU and transplant - may appear too, scored honestly against what they require. The search also checks LinkedIn and Indeed for leads, but a job only appears here once it's confirmed open on the employer's own site."},
 {id:"2026-09-29-a-launch",date:"September 29, 2026",title:"Your dashboard is live",
  body:"Every listing here was opened and read the day it was published to this board, so nothing on it is a dead link. Each card shows the employer's own published pay range where they publish one, checked against your $50/hr target."},
 {id:"2026-09-29-b-pay",date:"September 29, 2026",title:"Pay is a filter, not a footnote",
