@@ -98,20 +98,24 @@ jobs:
       # is the notification of record. Skipped when the JADE_SMS secret isn't set.
       # JADE_SMS holds the full gateway address, e.g. 4105551234@tmomail.net - kept in a
       # secret because the repo is public and her phone number must never be published.
+      # ARNOLD_SMS (optional) gets a copy of the same text, sent separately, so Arnold can
+      # see what she receives and spot carrier filtering.
       - name: Send text summary (T-Mobile email-to-SMS)
         continue-on-error: true
         env:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           JADE_SMS: ${{ secrets.JADE_SMS }}
+          ARNOLD_SMS: ${{ secrets.ARNOLD_SMS }}
         run: |
           python3 - <<'PY'
           import json, os, re, ssl, smtplib
           from email.mime.text import MIMEText
 
-          to = (os.environ.get('JADE_SMS') or '').strip()
-          if not to:
-              print("JADE_SMS secret not set - skipping text.")
+          targets = [(n, (os.environ.get(n) or '').strip()) for n in ("JADE_SMS", "ARNOLD_SMS")]
+          targets = [(n, a) for n, a in targets if a]
+          if not targets:
+              print("No JADE_SMS or ARNOLD_SMS secret set - skipping text.")
               raise SystemExit(0)
 
           jobs = json.load(open('JADE_WILLIAMS/jobs.json'))
@@ -146,15 +150,20 @@ jobs:
           if not gmail_addr or not app_pw:
               raise SystemExit("Missing GMAIL_ADDRESS or GMAIL_APP_PASSWORD repo secret.")
 
-          # No subject: gateways prepend it to the text, which wastes characters.
-          msg = MIMEText(text, "plain", "us-ascii")
-          msg["From"] = gmail_addr
-          msg["To"] = to
-
           ctx = ssl.create_default_context()
           with smtplib.SMTP("smtp.gmail.com", 587) as s:
               s.starttls(context=ctx)
               s.login(gmail_addr, app_pw)
-              s.send_message(msg, from_addr=gmail_addr, to_addrs=[to])
-          print(f"Text handed to the carrier gateway ({len(text)} chars).")
+              # One message per number, so neither sees the other's number and one bad
+              # address can't stop the other text. Logs name the secret, never the number.
+              for name, to in targets:
+                  # No subject: gateways prepend it to the text, which wastes characters.
+                  msg = MIMEText(text, "plain", "us-ascii")
+                  msg["From"] = gmail_addr
+                  msg["To"] = to
+                  try:
+                      s.send_message(msg, from_addr=gmail_addr, to_addrs=[to])
+                      print(f"Text for {name} handed to the carrier gateway ({len(text)} chars).")
+                  except smtplib.SMTPException as e:
+                      print(f"Text for {name} was refused: {type(e).__name__}")
           PY
