@@ -825,7 +825,7 @@ var dates=[];
 JOBS.forEach(function(j){var d=j.posted||j.postedDate;if(d&&dates.indexOf(d)<0)dates.push(d);});
 dates.sort().reverse();
 document.getElementById("updated").textContent="Last refreshed: "+(dates[0]||"-")+
-" - "+JOBS.length+" entry-level openings in Maryland or fully remote";
+" - "+JOBS.length+" perioperative and adjacent nursing roles, each confirmed open at refresh";
 renderAll();
 ["q","priority","market","sector","role","license","pay","cert","stage","sort"].forEach(function(id){
 document.getElementById(id).addEventListener(id==="q"?"input":"change",renderGrid);});})
