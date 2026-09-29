@@ -1,0 +1,94 @@
+name: Notify Jade on job refresh
+
+# Fires when JADE_WILLIAMS/jobs.json changes (Jade's daily refresh commit),
+# and can be run by hand from the Actions tab. Sends from Arnold's Gmail via App Password.
+# Jade's address lives in the JADE_EMAIL repo secret, not in this file: the repo is
+# public and her dashboard's hygiene rules forbid publishing her personal email.
+on:
+  push:
+    paths:
+      - 'JADE_WILLIAMS/jobs.json'
+  workflow_dispatch: {}
+
+jobs:
+  send-email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v5
+
+      - name: Build summary and send via Gmail SMTP
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          JADE_EMAIL: ${{ secrets.JADE_EMAIL }}
+        run: |
+          python3 - <<'PY'
+          import json, os, ssl, smtplib, datetime
+          from email.mime.text import MIMEText
+
+          jade = (os.environ.get('JADE_EMAIL') or '').strip()
+          if not jade:
+              raise SystemExit("Missing JADE_EMAIL repo secret.")
+          RECIPIENTS = [jade, "arbatiste@gmail.com"]
+
+          jobs = json.load(open('JADE_WILLIAMS/jobs.json'))
+          high    = [j for j in jobs if j.get('priority') == 'High']
+          med     = [j for j in jobs if j.get('priority') == 'Medium']
+          stretch = [j for j in jobs if j.get('priority') == 'Stretch']
+
+          # Pay against her $50/hr floor (payMin/payMax are $/hr numbers or null)
+          FLOOR = 50
+          num = lambda v: isinstance(v, (int, float))
+          starts_above = [j for j in jobs if num(j.get('payMin')) and j['payMin'] >= FLOOR]
+          reaches = [j for j in jobs if j not in starts_above and num(j.get('payMax')) and j['payMax'] >= FLOOR]
+          unpublished = [j for j in jobs if not num(j.get('payMin')) and not num(j.get('payMax'))]
+
+          def pay(j):
+              lo, hi = j.get('payMin'), j.get('payMax')
+              if num(lo) and num(hi):
+                  return f"${lo:.2f}/hr" if lo == hi else f"${lo:.2f}-${hi:.2f}/hr"
+              return "pay not published"
+
+          today = datetime.date.today().strftime('%A, %B %-d, %Y')
+          subject = f"Jade's Nursing Job Dashboard Refreshed - {today}"
+          top = '\n'.join(
+              f"- {j.get('score')} pts -- {j.get('title')} @ {j.get('company')} ({j.get('city','')}, {pay(j)})"
+              for j in high[:3]
+          )
+          body = (
+              "Hi Jade,\n\nYour perioperative / CVOR nursing job dashboard was refreshed.\n\n"
+              "Today's Summary:\n"
+              f"- Total listings: {len(jobs)}\n"
+              f"- High Priority: {len(high)}\n"
+              f"- Medium Priority: {len(med)}\n"
+              f"- Stretch: {len(stretch)}\n\n"
+              f"Pay vs. your ${FLOOR}/hr floor:\n"
+              f"- Start at ${FLOOR}+/hr: {len(starts_above)}\n"
+              f"- Range reaches ${FLOOR}/hr: {len(reaches)}\n"
+              f"- Pay not published: {len(unpublished)}\n\n"
+              f"Top Opportunities:\n{top}\n\n"
+              "View Dashboard: https://skillzstacking2023.github.io/jalen-job-search/JADE_WILLIAMS/\n\n"
+              "Every listing was confirmed open within the last 3 days.\n\n"
+              "-- Automated notifier"
+          )
+
+          gmail_addr = os.environ.get('GMAIL_ADDRESS')
+          app_pw = os.environ.get('GMAIL_APP_PASSWORD')
+          if not gmail_addr or not app_pw:
+              raise SystemExit("Missing GMAIL_ADDRESS or GMAIL_APP_PASSWORD repo secret.")
+          app_pw = "".join(ch for ch in app_pw if ch.isalnum() and ord(ch) < 128)
+          gmail_addr = gmail_addr.strip()
+
+          msg = MIMEText(body, "plain", "utf-8")
+          msg["Subject"] = subject
+          msg["From"] = gmail_addr
+          msg["To"] = ", ".join(RECIPIENTS)
+
+          ctx = ssl.create_default_context()
+          with smtplib.SMTP("smtp.gmail.com", 587) as s:
+              s.starttls(context=ctx)
+              s.login(gmail_addr, app_pw)
+              s.send_message(msg, from_addr=gmail_addr, to_addrs=RECIPIENTS)
+          print("Email sent to", len(RECIPIENTS), "recipients")
+          PY
