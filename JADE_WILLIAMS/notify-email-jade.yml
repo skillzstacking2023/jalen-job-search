@@ -1,0 +1,94 @@
+name: Notify Jade on job refresh
+
+# Fires when JADE_WILLIAMS/jobs.json changes (Jade's daily refresh commit),
+# and can be run by hand from the Actions tab. Sends from Arnold's Gmail via App Password.
+on:
+  push:
+    paths:
+      - 'JADE_WILLIAMS/jobs.json'
+  workflow_dispatch: {}
+
+jobs:
+  send-email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Build summary and send via Gmail SMTP
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: |
+          python3 - <<'PY'
+          import json, os, ssl, smtplib, datetime
+          from email.mime.text import MIMEText
+
+          RECIPIENTS = ["jade.c.williams.1@gmail.com", "arbatiste@gmail.com"]
+
+          jobs = json.load(open('JADE_WILLIAMS/jobs.json'))
+          high    = [j for j in jobs if j.get('priority') == 'High']
+          med     = [j for j in jobs if j.get('priority') == 'Medium']
+          stretch = [j for j in jobs if j.get('priority') == 'Stretch']
+
+          def pay_level(j):
+              lo, hi = j.get('payMin'), j.get('payMax')
+              if lo is None and hi is None: return 'unpublished'
+              hi = hi if hi is not None else lo
+              if lo is not None and lo >= 50: return 'yes'
+              if hi is not None and hi >= 50: return 'range'
+              return 'below'
+
+          starts50  = [j for j in jobs if pay_level(j) == 'yes']
+          reaches50 = [j for j in jobs if pay_level(j) in ('yes', 'range')]
+
+          today = datetime.date.today().strftime('%A, %B %-d, %Y')
+          subject = f"Jade's Nursing Job Dashboard Refreshed - {today}"
+
+          top = '\n'.join(
+              f"- {j.get('score')} pts -- {j.get('title')} @ {j.get('company')} "
+              f"({j.get('city','')}) -- {j.get('salary','')}"
+              for j in high[:4]
+          )
+          rate = '\n'.join(
+              f"- {j.get('title')} @ {j.get('company')} -- {j.get('salary','')}"
+              for j in starts50[:4]
+          ) or "- None on today's board start at $50/hr outright; see the 'reaches $50+/hr' roles on the dashboard."
+
+          body = (
+              "Hi Jade,\n\nYour perioperative / CVOR job dashboard was refreshed this morning.\n\n"
+              "Today's Summary:\n"
+              f"- Total listings: {len(jobs)}\n"
+              f"- High priority: {len(high)}\n"
+              f"- Medium priority: {len(med)}\n"
+              f"- Stretch: {len(stretch)}\n"
+              f"- Published rate starts at $50/hr or above: {len(starts50)}\n"
+              f"- Published range reaches $50/hr or above: {len(reaches50)}\n\n"
+              f"Best Fits Today:\n{top}\n\n"
+              f"Clears Your $50/hr Floor Outright:\n{rate}\n\n"
+              "View Dashboard: https://skillzstacking2023.github.io/jalen-job-search/JADE_WILLIAMS/\n\n"
+              "Every listing was confirmed open the morning it was posted here. Where a band starts\n"
+              "below $50/hr, ask for the step placement before the interview -- nine years of CVOR\n"
+              "experience is the argument for the top of the band, not the middle.\n\n"
+              "-- Automated notifier"
+          )
+
+          gmail_addr = os.environ.get('GMAIL_ADDRESS')
+          app_pw = os.environ.get('GMAIL_APP_PASSWORD')
+          if not gmail_addr or not app_pw:
+              raise SystemExit("Missing GMAIL_ADDRESS or GMAIL_APP_PASSWORD repo secret.")
+          app_pw = "".join(ch for ch in app_pw if ch.isalnum() and ord(ch) < 128)
+          gmail_addr = gmail_addr.strip()
+
+          msg = MIMEText(body, "plain", "utf-8")
+          msg["Subject"] = subject
+          msg["From"] = gmail_addr
+          msg["To"] = ", ".join(RECIPIENTS)
+
+          ctx = ssl.create_default_context()
+          with smtplib.SMTP("smtp.gmail.com", 587) as s:
+              s.starttls(context=ctx)
+              s.login(gmail_addr, app_pw)
+              s.send_message(msg, from_addr=gmail_addr, to_addrs=RECIPIENTS)
+          print("Email sent from", gmail_addr, "to", ", ".join(RECIPIENTS))
+          PY
