@@ -2,6 +2,7 @@ name: Notify Talon on job refresh
 
 # Fires when TALON_POWELL/jobs.json changes (Talon's daily refresh commit),
 # and can be run by hand from the Actions tab. Sends from Arnold's Gmail via App Password.
+# Talon's address lives in the TALON_EMAIL repo secret, not in this file: the repo is public.
 on:
   push:
     paths:
@@ -19,12 +20,16 @@ jobs:
         env:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          TALON_EMAIL: ${{ secrets.TALON_EMAIL }}
         run: |
           python3 - <<'PY'
           import json, os, ssl, smtplib, datetime
           from email.mime.text import MIMEText
 
-          RECIPIENTS = ["talonisaiah1122@gmail.com", "arbatiste@gmail.com"]
+          person = (os.environ.get('TALON_EMAIL') or '').strip()
+          if not person:
+              raise SystemExit("Missing TALON_EMAIL repo secret.")
+          RECIPIENTS = [person, "arbatiste@gmail.com"]
 
           jobs = json.load(open('TALON_POWELL/jobs.json'))
           high    = [j for j in jobs if j.get('priority') == 'High']
@@ -67,5 +72,5 @@ jobs:
               s.starttls(context=ctx)
               s.login(gmail_addr, app_pw)
               s.send_message(msg, from_addr=gmail_addr, to_addrs=RECIPIENTS)
-          print("Email sent from", gmail_addr, "to", ", ".join(RECIPIENTS))
+          print("Email sent to", len(RECIPIENTS), "recipients")
           PY
