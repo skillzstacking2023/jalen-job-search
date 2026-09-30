@@ -3,6 +3,8 @@ name: Notify on job refresh
 # Fires automatically whenever jobs.json changes (the daily Claude refresh commit),
 # and can also be run by hand from the Actions tab (workflow_dispatch).
 # Sends the summary from Arnold's Gmail using an App Password over SMTP.
+# Jalen's address lives in the JALEN_EMAIL repo secret, not in this file: the repo is
+# public and his dashboard's hygiene rules keep personal contact details off it.
 on:
   push:
     paths:
@@ -20,12 +22,16 @@ jobs:
         env:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          JALEN_EMAIL: ${{ secrets.JALEN_EMAIL }}
         run: |
           python3 - <<'PY'
           import json, os, ssl, smtplib, datetime
           from email.mime.text import MIMEText
 
-          RECIPIENTS = ["arbatiste@gmail.com", "jalenmb123@gmail.com"]
+          jalen = (os.environ.get('JALEN_EMAIL') or '').strip()
+          if not jalen:
+              raise SystemExit("Missing JALEN_EMAIL repo secret.")
+          RECIPIENTS = ["arbatiste@gmail.com", jalen]
 
           jobs = json.load(open('jobs.json'))
           high    = [j for j in jobs if j.get('priority') == 'High']
@@ -71,5 +77,5 @@ jobs:
               s.starttls(context=ctx)
               s.login(gmail_addr, app_pw)
               s.send_message(msg, from_addr=gmail_addr, to_addrs=RECIPIENTS)
-          print("Email sent from", gmail_addr, "to", ", ".join(RECIPIENTS))
+          print("Email sent to", len(RECIPIENTS), "recipients")
           PY
