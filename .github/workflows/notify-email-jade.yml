@@ -123,10 +123,12 @@ jobs:
           high = sum(1 for j in jobs if j.get('priority') == 'High')
           floor = sum(1 for j in jobs if num(j.get('payMin')) and j['payMin'] >= 50)
           top = max(jobs, key=lambda j: j.get('score') or 0) if jobs else None
-          link = "skillzstacking2023.github.io/jalen-job-search/JADE_WILLIAMS/"
 
           head = f"Jade's jobs: {len(jobs)} roles, {high} high fit, {floor} at $50+/hr."
-          tail = " " + link
+          # No link: T-Mobile silently drops automated gateway texts containing URLs
+          # (confirmed 2026-09-29 - a plain manual text arrived, the linked ones never did).
+          # The email carries the dashboard link.
+          tail = " Details in your email."
           text = head + tail
           if top:
               # Fit the top role in the space left, so the whole text stays one 160-char SMS.
