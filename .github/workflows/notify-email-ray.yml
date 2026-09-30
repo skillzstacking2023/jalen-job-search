@@ -2,6 +2,7 @@ name: Notify Raymond on job refresh
 
 # Fires when RAY_DAUGHERTY/jobs.json changes (Raymond's daily refresh commit),
 # and can be run by hand from the Actions tab. Sends from Arnold's Gmail via App Password.
+# Raymond's address lives in the RAY_EMAIL repo secret, not in this file: the repo is public.
 on:
   push:
     paths:
@@ -19,12 +20,16 @@ jobs:
         env:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RAY_EMAIL: ${{ secrets.RAY_EMAIL }}
         run: |
           python3 - <<'PY'
           import json, os, ssl, smtplib, datetime
           from email.mime.text import MIMEText
 
-          RECIPIENTS = ["ray_oriolesfan@yahoo.com", "arbatiste@gmail.com"]
+          person = (os.environ.get('RAY_EMAIL') or '').strip()
+          if not person:
+              raise SystemExit("Missing RAY_EMAIL repo secret.")
+          RECIPIENTS = [person, "arbatiste@gmail.com"]
 
           jobs = json.load(open('RAY_DAUGHERTY/jobs.json'))
           high    = [j for j in jobs if j.get('priority') == 'High']
@@ -67,5 +72,5 @@ jobs:
               s.starttls(context=ctx)
               s.login(gmail_addr, app_pw)
               s.send_message(msg, from_addr=gmail_addr, to_addrs=RECIPIENTS)
-          print("Email sent from", gmail_addr, "to", ", ".join(RECIPIENTS))
+          print("Email sent to", len(RECIPIENTS), "recipients")
           PY
