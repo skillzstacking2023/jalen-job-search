@@ -38,28 +38,28 @@ label.toggle{display:flex;align-items:center;gap:6px;color:var(--muted);font-siz
 .company{color:var(--accent);font-size:14px;font-weight:600}
 .score{flex:none;width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:16px;color:#0b1220}
 .badges{display:flex;flex-wrap:wrap;gap:6px}
-.chip{font-size:11px;padding:3px 9px;border-radius:999px;background:var(--chip);color:var(--text);border:1px solid var(--line)}
+.chip{font-size:12px;padding:3px 9px;border-radius:999px;background:var(--chip);color:var(--text);border:1px solid var(--line)}
 .chip.gov{background:#1e3a8a33;border-color:#3b82f6}
 .chip.fed{background:#7c2d1233;border-color:#f97316}
 .chip.com{background:#14532d33;border-color:#22c55e}
 .chip.remote{background:#0e747033;border-color:#2dd4bf}
 .chip.stale{background:#7c2d1233;border-color:#f97316;color:#fdba74}
-.pri{font-weight:700;font-size:11px;padding:3px 9px;border-radius:999px}
+.pri{font-weight:700;font-size:12px;padding:3px 9px;border-radius:999px}
 .pri.High{background:#14532d;color:#86efac}
 .pri.Medium{background:#422006;color:#fde68a}
 .pri.Stretch{background:#431407;color:#fdba74}
 .salary{color:var(--muted);font-size:13px}
 .notes{color:var(--text);font-size:13px;opacity:.9}
 .meta{display:flex;justify-content:space-between;align-items:center;margin-top:4px}
-.age{font-size:11px;color:var(--muted)}
+.age{font-size:12px;color:var(--muted)}
 a.apply{background:var(--accent);color:#04283a;text-decoration:none;font-weight:700;font-size:13px;padding:8px 12px;border-radius:9px;text-align:center}
 .tags{display:flex;gap:6px;flex-wrap:wrap}
-.tagbtn{font-size:11px;font-weight:600;padding:5px 10px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer}
+.tagbtn{font-size:12px;font-weight:600;padding:5px 10px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer}
 .tagbtn:hover{border-color:var(--accent)}
 .tagbtn.active.viewed{background:#94a3b833;border-color:#94a3b8;color:#cbd5e1}
 .tagbtn.active.interested{background:#a855f733;border-color:#a855f7;color:#e9d5ff}
 .tagbtn.active.applied{background:#22c55e33;border-color:#22c55e;color:#86efac}
-.pinbtn{font-size:11px;font-weight:600;padding:5px 10px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer}
+.pinbtn{font-size:12px;font-weight:600;padding:5px 10px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer}
 .pinbtn:hover{border-color:#f59e0b}
 .pinbtn.active{background:#f59e0b33;border-color:#f59e0b;color:#fde68a}
 .empty{color:var(--muted);text-align:center;padding:40px}
@@ -78,15 +78,83 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:24px}
 .wnitem{padding:8px 0;border-top:1px solid var(--line)}
 .wntitle{font-size:13.5px;font-weight:700}
 .wnbody{font-size:12.5px;color:var(--muted);margin-top:2px;line-height:1.5}
-.wndate{font-size:11px;color:var(--muted);margin-top:3px;opacity:.7}
+.wndate{font-size:12px;color:var(--muted);margin-top:3px;opacity:.7}
+[data-theme="light"] .pri.High{background:#dcfce7;color:#14532d}
+[data-theme="light"] .pri.Medium{background:#fef3c7;color:#78350f}
+[data-theme="light"] .pri.Stretch{background:#ffedd5;color:#7c2d12}
+[data-theme="light"] .chip.stale{background:#ffedd5;border-color:#ea580c;color:#7c2d12}
+[data-theme="light"] .tagbtn.active.viewed{background:#e2e8f0;border-color:#64748b;color:#1e293b}
+[data-theme="light"] .tagbtn.active.interested{background:#f3e8ff;border-color:#9333ea;color:#581c87}
+[data-theme="light"] .tagbtn.active.applied{background:#dcfce7;border-color:#16a34a;color:#14532d}
+[data-theme="light"] .pinbtn.active{background:#fef3c7;border-color:#d97706;color:#78350f}
+[data-theme="light"] a.apply{color:#fff}
+/* this page has no --bg2 / --accent2 / --green tokens; define them for the shared pieces */
+:root{--bg2:#162033;--accent2:#818cf8;--green:#22c55e}
+[data-theme="light"]{--bg2:#e2e8f0;--accent2:#4f46e5;--green:#15803d}
+.vbadge{display:inline-block;font-size:12px;line-height:1.4;margin:0 8px 0 0;padding:2px 7px;border-radius:999px;white-space:nowrap;vertical-align:middle;background:#14532d55;color:#86efac}
+.vbadge.stale{background:#7c2d1255;color:#fdba74;font-weight:600}
+[data-theme="light"] .vbadge{background:#dcfce7;color:#14532d}
+[data-theme="light"] .vbadge.stale{background:#ffedd5;color:#7c2d12}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));max-width:680px}
+.stat{min-width:0}
+@media(max-width:640px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.creds{color:var(--accent);font-size:14px;font-weight:600;margin:2px 0 4px}
+.linkbtn{background:none;border:none;padding:4px 2px;color:var(--accent);font-size:12.5px;font-weight:700;
+cursor:pointer;font-family:inherit;text-decoration:underline;text-underline-offset:3px}
+.linkbtn:hover{color:var(--text)}
+.aitools{display:flex;gap:10px;align-items:center;margin-left:auto}
+.notes.clamp{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.morebtn{align-self:flex-start;margin-top:-6px}
+.chip.newjob{background:var(--accent);border-color:var(--accent);color:#04283a;font-weight:800}
+[data-theme="light"] .chip.newjob{color:#fff}
+.minibar{position:fixed;top:0;left:0;right:0;z-index:20;background:var(--bg2);border-bottom:1px solid var(--line);
+box-shadow:0 4px 14px #0003;transform:translateY(-110%);transition:transform .18s;visibility:hidden}
+.minibar.show{transform:none;visibility:visible}
+.minibar .wrap{display:flex;gap:10px;align-items:center;padding-top:9px;padding-bottom:9px}
+.minibar input[type=search]{min-width:0;padding:8px 12px}
+.minicount{color:var(--muted);font-size:13px;white-space:nowrap}
+.count{color:var(--muted);font-size:13px;margin-bottom:12px}
+@media(max-width:640px){.minicount{display:none}}
+@media(prefers-reduced-motion:reduce){.minibar{transition:none}}
+.morefilters{display:none;flex-wrap:wrap;gap:9px;width:100%;align-items:center}
+.morefilters.open{display:flex}
+.reset{background:transparent;border:1px solid var(--line);color:var(--muted);padding:9px 13px;border-radius:10px;font-size:13px;cursor:pointer;font-family:inherit;font-weight:600}
+.reset:hover{border-color:var(--accent);color:var(--text)}
+.expand{background:transparent;border:1px solid var(--line);color:var(--muted);font-size:12.5px;font-weight:700;padding:8px 12px;border-radius:9px;cursor:pointer;font-family:inherit}
+.aibtn{font-size:12px;font-weight:700;padding:6px 11px;border-radius:8px;border:1px solid var(--accent2);
+background:transparent;color:var(--text);cursor:pointer;font-family:inherit}
+.aibtn:hover{background:var(--accent2);color:#fff}
+dialog.aidlg{background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:15px;
+padding:0;width:min(720px,calc(100vw - 32px));max-height:calc(100vh - 48px)}
+dialog.aidlg::backdrop{background:#0008}
+.aidlg-in{display:flex;flex-direction:column;gap:12px;padding:20px;max-height:calc(100vh - 48px)}
+.aidlg h3{margin:0;font-size:18px}
+.aidlg .aisub{margin:0;color:var(--muted);font-size:13px}
+.aidlg ol{margin:0;padding-left:20px;font-size:13.5px}
+.aidlg textarea{width:100%;flex:1;min-height:220px;resize:vertical;background:var(--bg2);color:var(--text);
+border:1px solid var(--line);border-radius:10px;padding:12px;font:12.5px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace}
+.aiact{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;align-items:center}
+.aimsg{flex:1;font-size:12.5px;color:var(--green);font-weight:600}
 </style>
+<script>
+(function(){var t=null;try{t=localStorage.getItem("talon_theme");}catch(e){}
+if(t!=="light"&&t!=="dark")t=(window.matchMedia&&matchMedia("(prefers-color-scheme: light)").matches)?"light":"dark";
+document.documentElement.setAttribute("data-theme",t);})();
+</script>
 </head>
 <body>
+<div class="minibar" id="minibar" aria-hidden="true">
+<div class="wrap">
+<input type="search" id="q2" placeholder="Search jobs..." aria-label="Search jobs" tabindex="-1">
+<span class="minicount" id="minicount"></span>
+<button class="reset" type="button" tabindex="-1" onclick="toFilters()">Filters</button>
+</div>
+</div>
 <header>
 <div class="wrap">
 <div class="header-top">
 <div>
-<h1>Talon Powell - Customer Service &amp; Retail Job Search</h1>
+<h1>Talon Powell</h1>
 <div class="sub">Associate Degree, Theatre Arts - Buffalo metro, NY - Customer service, retail, food service, and administrative roles within 25 miles of the Buffalo metro area or 100% remote (nationwide)</div>
 </div>
 <button class="theme-btn" id="wnbtn" onclick="renderWhatsNew(true)">What&#39;s new</button>
@@ -103,20 +171,90 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding:24px}
 <div class="grid" id="pinned-grid"></div>
 </div>
 <div class="controls">
-<input type="search" id="q" placeholder="Search title, company, city, notes...">
-<select id="priority"><option value="">All priorities</option><option>High</option><option>Medium</option><option>Stretch</option></select>
+<input type="search" id="q" placeholder="Search title, company, city, notes..." aria-label="Search jobs">
 <select id="market"><option value="">All locations</option><option value="NY">Buffalo Area (NY)</option><option value="Remote">Remote</option></select>
+<select id="tracking"><option value="">All tracking</option><option value="untracked">Not tracked</option><option value="viewed">Viewed</option><option value="interested">Interested</option><option value="applied">Applied</option></select>
+<button class="reset" type="button" onclick="resetFilters()">Reset</button>
+<button class="reset" type="button" id="morebtn" aria-expanded="false" onclick="toggleMore()">More filters</button>
+<div class="morefilters" id="morefilters">
+<select id="priority"><option value="">All priorities</option><option>High</option><option>Medium</option><option>Stretch</option></select>
 <select id="sector"><option value="">All sectors</option><option>Commercial</option><option>Government</option><option>Federal</option></select>
 <select id="role"><option value="">All roles</option></select>
-<select id="tracking"><option value="">All tracking</option><option value="untracked">Not tracked</option><option value="viewed">Viewed</option><option value="interested">Interested</option><option value="applied">Applied</option></select>
 <label class="toggle"><input type="checkbox" id="fresh"> Hide 30d+ old</label>
 <label class="toggle"><input type="checkbox" id="pinnedonly"> Pinned only</label>
 </div>
+</div>
+<div class="count" id="count"></div>
 <div class="grid" id="grid"></div>
 </div>
-<footer>Auto-refreshed daily. Built for Talon Powell. Scores reflect fit to his profile and criteria (customer service, retail, food service, or administrative roles within 25 miles of the Buffalo metro area, or 100% remote, nationwide). Pin a job to save it for later - pinned jobs stay saved in this browser even after the daily refresh.</footer>
+<dialog class="aidlg" id="aidlg" aria-labelledby="aititle">
+<div class="aidlg-in">
+<h3 id="aititle"></h3>
+<p class="aisub" id="aisub"></p>
+<ol>
+<li>Click <strong>Copy prompt</strong>.</li>
+<li>Open the AI assistant you use (ChatGPT, Claude, Gemini, Copilot or another), start a new chat and attach your current resume (usually the paperclip or + button).</li>
+<li>Paste (Cmd+V or Ctrl+V) and send.</li>
+</ol>
+<textarea id="aitext" aria-label="Prompt to send to your AI assistant" spellcheck="false"></textarea>
+<div class="aiact">
+<span class="aimsg" id="aimsg" role="status"></span>
+<button class="expand" type="button" onclick="document.getElementById('aidlg').close()">Close</button>
+<button class="aibtn" id="aigo" type="button" onclick="aiCopy()">Copy prompt</button>
+</div>
+</div>
+</dialog>
+
+<footer>Auto-refreshed daily. Built for Talon Powell. Scores reflect fit to your profile and criteria (customer service, retail, food service, or administrative roles within 25 miles of the Buffalo metro area, or 100% remote, nationwide). Pin a job to save it for later - pinned jobs stay saved in this browser even after the daily refresh.</footer>
 <script>
 var JOBS=[];
+var NOTECHK=[],NOTEOPEN={};
+/* show "More" only on notes the two-line clamp actually cuts off */
+function checkClamp(){NOTECHK.forEach(function(p){p[1].hidden=!(p[0].scrollHeight>p[0].clientHeight+1||!p[0].classList.contains("clamp"));});}
+/* Jobs not seen on the previous visit get a "New" chip. The list for this visit is kept in
+   sessionStorage so reloading during the same visit doesn't clear the markers. */
+var NEWJOBS={};
+function markNewJobs(){
+var SEEN="talon_seen_jobs",SESS="talon_new_this_visit";
+try{
+var cached=sessionStorage.getItem(SESS);
+if(cached){NEWJOBS=JSON.parse(cached);}
+else{
+var prev=JSON.parse(localStorage.getItem(SEEN)||"null");
+if(prev){var p={};prev.forEach(function(x){p[x]=1;});
+JOBS.forEach(function(j){var k=jobKey(j);if(!p[k])NEWJOBS[k]=1;});}
+sessionStorage.setItem(SESS,JSON.stringify(NEWJOBS));}
+localStorage.setItem(SEEN,JSON.stringify(JOBS.map(jobKey)));
+}catch(e){NEWJOBS={};}}
+function toFilters(){document.getElementById("q").scrollIntoView({behavior:"smooth",block:"center"});
+setTimeout(function(){document.getElementById("q").focus({preventScroll:true});},300);}
+function initMinibar(){
+var bar=document.getElementById("minibar"),q=document.getElementById("q"),q2=document.getElementById("q2");
+q2.addEventListener("input",function(){q.value=q2.value;render();});
+q.addEventListener("input",function(){q2.value=q.value;});
+var ctl=document.querySelector(".controls"),ticking=false;
+/* show once the filter row has scrolled fully above the screen; checked on every scroll
+   so a fast flick past the filters can't be missed */
+function check(){ticking=false;
+var show=ctl.getBoundingClientRect().bottom<0;
+if(show===bar.classList.contains("show"))return;
+bar.classList.toggle("show",show);bar.setAttribute("aria-hidden",show?"false":"true");
+[].forEach.call(bar.querySelectorAll("input,button"),function(x){x.tabIndex=show?0:-1;});}
+window.addEventListener("scroll",function(){if(!ticking){ticking=true;requestAnimationFrame(check);}},{passive:true});
+window.addEventListener("resize",check);check();}
+function toggleMore(force){
+var m=document.getElementById("morefilters"),b=document.getElementById("morebtn");
+var open=typeof force==="boolean"?force:!m.classList.contains("open");
+m.classList.toggle("open",open);b.setAttribute("aria-expanded",open?"true":"false");moreLabel();}
+function moreLabel(){
+var n=["priority","sector","role"].filter(function(id){return val(id);}).length+
+["fresh","pinnedonly"].filter(function(id){return document.getElementById(id).checked;}).length;
+var open=document.getElementById("morefilters").classList.contains("open");
+document.getElementById("morebtn").textContent=(open?"Fewer filters":"More filters")+(n?" ("+n+")":"");}
+function resetFilters(){
+["q","q2","priority","market","sector","role","tracking"].forEach(function(id){document.getElementById(id).value="";});
+["fresh","pinnedonly"].forEach(function(id){document.getElementById(id).checked=false;});
+moreLabel();render();}
 
 var TAGKEY_OLD="talon_status";
 var TAGKEY="talon_status_v2";
@@ -124,14 +262,13 @@ function slugify(s){return String(s==null?"":s).toLowerCase().replace(/[^a-z0-9]
 function jobKey(j){return j.key?j.key:(slugify(j.company)+"--"+slugify(j.title)+"--"+slugify(j.city||j.location||""));}
 var TAGS=JSON.parse(localStorage.getItem(TAGKEY)||"{}");
 var PINS=JSON.parse(localStorage.getItem("talon_pinned")||"{}");
-var TALON_EMAIL="talonisaiah1122@gmail.com";
 function pinnedList(){return Object.keys(PINS).sort(function(a,b){return (PINS[b].pinnedAt||"").localeCompare(PINS[a].pinnedAt||"");}).map(function(u){return PINS[u];});}
 function formatPinnedText(){var list=pinnedList();if(list.length===0)return "";var lines=["Saved jobs from Talon\u0027s job search dashboard - "+new Date().toISOString().slice(0,10),""];list.forEach(function(j,i){lines.push((i+1)+". "+j.title+" - "+j.company);lines.push(j.city+" | "+j.salary+" | "+j.priority+" priority, score "+j.score);lines.push(j.notes);lines.push("Apply: "+j.url);lines.push("");});return lines.join("\n");}
 function emailPinned(){var text=formatPinnedText();if(!text){alert("No pinned jobs yet. Pin a few first.");return;}
 var subject="My pinned jobs - "+new Date().toISOString().slice(0,10);
 try{navigator.clipboard.writeText(subject+"\n\n"+text);}catch(e){}
 var body=text;if(body.length>6500)body=body.slice(0,6500)+"\n...(list truncated - use the Copy button for the full list)";
-var u="https://mail.google.com/mail/?view=cm&fs=1&to="+encodeURIComponent(TALON_EMAIL)+"&cc=arbatiste@gmail.com&su="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);
+var u="https://mail.google.com/mail/?view=cm&fs=1&su="+encodeURIComponent(subject)+"&body="+encodeURIComponent(body);
 var w=window.open(u,"_blank","noopener");
 if(!w){alert("Popup blocked - your pinned list has been copied to the clipboard instead.");}}
 function copyPinned(){var text=formatPinnedText();if(!text){alert("No pinned jobs yet. Pin a few first.");return;}navigator.clipboard.writeText(text).then(function(){var btn=document.getElementById("copy-pinned-btn");var orig=btn.textContent;btn.textContent="Copied!";setTimeout(function(){btn.textContent=orig;},1500);}).catch(function(){alert("Could not copy - your browser may be blocking clipboard access.");});}
@@ -166,10 +303,12 @@ localStorage.setItem("talon_theme",next);
 document.getElementById("theme-btn").textContent=next==="light"?"Dark Mode":"Light Mode";
 }
 function initTheme(){
-var saved=localStorage.getItem("talon_theme")||"dark";
-document.documentElement.setAttribute("data-theme",saved);
-document.getElementById("theme-btn").textContent=saved==="light"?"Dark Mode":"Light Mode";
-}
+var cur=document.documentElement.getAttribute("data-theme")||"dark";
+document.getElementById("theme-btn").textContent=cur==="light"?"Dark Mode":"Light Mode";
+/* until he picks a theme, follow the device setting as it changes */
+if(window.matchMedia)matchMedia("(prefers-color-scheme: light)").addEventListener("change",function(e){
+if(localStorage.getItem("talon_theme"))return;
+document.documentElement.setAttribute("data-theme",e.matches?"light":"dark");initTheme();});}
 function buildCard(j,opts){
 opts=opts||{};
 var pinned=isPinned(j.url);
@@ -183,17 +322,19 @@ titleEl.appendChild(document.createTextNode(j.title));
 left.appendChild(titleEl);
 left.appendChild(el("div","company",j.company));
 row.appendChild(left);
-var sc=el("div","score",j.score);sc.style.background=scoreColor(j.score);
+var sc=el("div","score",j.score);sc.style.background=scoreColor(j.score);sc.setAttribute("role","img");sc.setAttribute("aria-label","Fit score "+j.score+" of 100 - "+j.priority);sc.title=j.priority+" fit";
 row.appendChild(sc);card.appendChild(row);
 var badges=el("div","badges");
-badges.appendChild(el("span","pri "+j.priority,j.priority));
+if(!opts.stale&&NEWJOBS[jobKey(j)])badges.appendChild(el("span","chip newjob","New"));
 badges.appendChild(el("span","chip "+(j.market==="Remote"?"remote":""),j.city));
-badges.appendChild(el("span","chip "+sectorClass(j.sector),j.sector));
 badges.appendChild(el("span","chip",j.roleType));
 if(opts.stale)badges.appendChild(el("span","chip stale","No longer in daily feed"));
 card.appendChild(badges);
 card.appendChild(el("div","salary",j.salary));
-card.appendChild(el("div","notes",j.notes));
+var nk="n:"+jobKey(j),nt=el("div","notes"+(NOTEOPEN[nk]?"":" clamp"),j.notes);card.appendChild(nt);
+var nm=el("button","linkbtn morebtn",NOTEOPEN[nk]?"Less":"More");nm.type="button";nm.hidden=true;
+nm.onclick=function(){NOTEOPEN[nk]=!NOTEOPEN[nk];render();renderPinned();};
+card.appendChild(nm);NOTECHK.push([nt,nm]);
 var tags=el("div","tags");
 if(opts.showTracking){
 ["viewed","interested","applied"].forEach(function(t){
@@ -207,6 +348,11 @@ var pinBtn=el("button","pinbtn"+(pinned?" active":""),pinned?"\u2605 Pinned":"\u
 pinBtn.type="button";
 pinBtn.onclick=function(){togglePin(j);};
 tags.appendChild(pinBtn);
+var ai=el("div","aitools");
+[["gap","Gap analysis"],["tailor","Tailor resume"]].forEach(function(p){
+var btn=el("button","linkbtn",p[1]);btn.type="button";
+btn.onclick=function(){openAI(j,p[0]);};ai.appendChild(btn);});
+tags.appendChild(ai);
 card.appendChild(tags);
 var meta=el("div","meta");
 meta.appendChild(el("span","age",opts.stale?"Saved "+(j.pinnedAt||""):(daysOld(j.posted)<=1?"Fresh today":daysOld(j.posted)+" days old")));
@@ -218,7 +364,7 @@ function render(){
 var q=val("q").toLowerCase(),pri=val("priority"),mkt=val("market"),sec=val("sector"),role=val("role"),tracking=val("tracking");
 var fresh=document.getElementById("fresh").checked;
 var pinnedOnly=document.getElementById("pinnedonly").checked;
-var grid=document.getElementById("grid");grid.innerHTML="";var shown=0;
+var grid=document.getElementById("grid");grid.innerHTML="";var shown=0;NOTECHK=[];
 JOBS.forEach(function(j){
 var hay=(j.title+" "+j.company+" "+j.city+" "+j.notes+" "+j.roleType).toLowerCase();
 if(q&&hay.indexOf(q)<0)return;
@@ -235,6 +381,10 @@ shown++;
 grid.appendChild(buildCard(j,{showTracking:true}));
 });
 if(shown===0)grid.innerHTML='<div class="empty">No matches. Try clearing filters.</div>';
+var nNew=Object.keys(NEWJOBS).length,ctext=shown+" of "+JOBS.length+" roles shown";
+document.getElementById("count").textContent=ctext+(nNew?" - "+nNew+" new since your last visit":"");
+document.getElementById("minicount").textContent=ctext;
+checkClamp();
 }
 function renderPinned(){
 var section=document.getElementById("pinned-section");
@@ -249,6 +399,7 @@ var live=JOBS.filter(function(j){return j.url===u;})[0];
 var job=live||PINS[u];
 pgrid.appendChild(buildCard(job,{showTracking:!!live,stale:!live}));
 });
+checkClamp();
 }
 (function(){var _rp=renderPinned;renderPinned=function(){
 _rp.apply(this,arguments);
@@ -264,6 +415,8 @@ g.appendChild(d);}
 
 var WN_KEY="talon_wn_seen";
 var WHATSNEW=[
+{id:"2026-09-30-a-refresh",date:"September 30, 2026",title:"A cleaner dashboard",
+ body:"Four tiles instead of six, the less-used filters behind More filters, and Gap analysis and Tailor resume links on every job - they build a ready-made prompt for whichever AI assistant you use; attach your resume there and paste. Jobs added since your last visit get a New badge, a search bar stays pinned at the top as you scroll, and the page follows your device's light or dark setting."},
 {id:"2026-08-14-b-pinned",date:"August 14, 2026",title:"Your pinned jobs list is always visible now",
  body:"The Pinned jobs area used to stay hidden until you pinned something, so it was easy to miss. It now shows from the start with the Email me these and Copy buttons ready to go."},
 {id:"2026-08-14-a-tags",date:"August 14, 2026",title:"Your tags now stay on the right job",
@@ -271,7 +424,7 @@ var WHATSNEW=[
 ];
 function wnUnseen(){var s=localStorage.getItem(WN_KEY)||"";return WHATSNEW.filter(function(w){return w.id>s;});}
 function updateWnDot(){var b=document.getElementById("wnbtn");if(!b)return;var n=wnUnseen().length;b.textContent=n?("What&#39;s new ("+n+")").replace("&#39;","'"):"What's new";}
-function dismissWhatsNew(){localStorage.setItem(WN_KEY,WHATSNEW[0].id);var b=document.getElementById("whatsnew");if(b)b.style.display="none";updateWnDot();}
+function dismissWhatsNew(){localStorage.setItem(WN_KEY,WHATSNEW.map(function(w){return w.id;}).sort().pop());var b=document.getElementById("whatsnew");if(b)b.style.display="none";updateWnDot();}
 function renderWhatsNew(showAll){
 var box=document.getElementById("whatsnew");if(!box)return;
 var items=showAll?WHATSNEW:wnUnseen();
@@ -300,23 +453,68 @@ var rem=JOBS.filter(function(j){return j.market==="Remote";}).length;
 var retailFood=JOBS.filter(function(j){return j.roleType==="Retail"||j.roleType==="Food Service";}).length;
 var pinnedCount=Object.keys(PINS).length;
 function stat(n,l){var d=el("div","stat");d.appendChild(el("div","n",n));d.appendChild(el("div","l",l));return d;}
-s.appendChild(stat(JOBS.length,"Total"));
+s.appendChild(stat(JOBS.length,"Open roles"));
 s.appendChild(stat(high,"High fit"));
-s.appendChild(stat(ny,"Buffalo Area"));
 s.appendChild(stat(rem,"Remote"));
-s.appendChild(stat(retailFood,"Retail/Food"));
 s.appendChild(stat(pinnedCount,"Pinned"));
 var roles=[];JOBS.forEach(function(j){if(roles.indexOf(j.roleType)<0)roles.push(j.roleType);});
 roles.sort();var rsel=document.getElementById("role");
 rsel.innerHTML='<option value="">All roles</option>';
 roles.forEach(function(r){var o=document.createElement("option");o.value=r;o.textContent=r;rsel.appendChild(o);});
 }
+/* Gap analysis / tailored resume: builds a prompt from this card's public job data.
+   Nothing is sent anywhere; it is pasted into the job seeker's own AI assistant chat with their resume. */
+function aiJobBlock(j){
+var L=["JOB I'M CONSIDERING"];
+L.push("Title: "+j.title,"Employer: "+j.company,"Location: "+(j.city||j.market),"Pay (as listed): "+(j.salary||"not published"),"Role type: "+(j.roleType||""));
+L.push("Posting: "+j.url);
+if(j.notes)L.push("Dashboard notes: "+j.notes);
+return L.join("\n");}
+function aiPrompt(j,kind){
+var head="I'm looking for customer service, retail, food service or administrative work (Associate Degree, Theatre Arts), and I'm considering the job below. I've attached my current resume.\n\n"+aiJobBlock(j)+
+"\n\nFirst, open the posting link and read the full job description. If you can't open it, stop and ask me to paste the description - don't guess the requirements from the job title.\n\n";
+if(kind==="gap")return head+
+"Then give me a gap analysis:\n"+
+"1. A table of every required and preferred qualification in the posting (experience, skills, availability, schedule, certifications such as food handler, physical requirements), whether my resume shows it (Yes / Partly / No), and the resume evidence.\n"+
+"2. Hard barriers listed separately from gaps I can close or explain.\n"+
+"3. Transferable strengths - for example, how theatre and performance experience maps to customer-facing work - taken only from my resume.\n"+
+"4. How to address each gap honestly in an application or interview.\n"+
+"5. A verdict - apply now, apply with a plan, or skip - with the reason.\n\n"+
+"Rules: use only what's in my resume. Don't assume experience, tools, certifications or numbers I haven't listed. If something is unclear, ask me.";
+return head+
+"Then tailor my resume to this job.\n\n"+
+"Rules - these matter more than keyword matching:\n"+
+"- Use only facts from my resume. You may reorder, emphasise and rephrase, but never add a skill, tool, certification, title, date or number that isn't already there.\n"+
+"- If the posting asks for something my resume doesn't show, don't put it in the resume. List it under \"Gaps not added\" instead.\n"+
+"- Where the posting's wording truthfully describes something I've done, use its wording (it helps with applicant tracking systems).\n"+
+"- ATS-friendly format: one column, standard headings (Summary, Skills, Experience, Education), no tables, columns or graphics.\n"+
+"\nGive me:\n"+
+"1. The tailored resume, ready to paste into Word.\n"+
+"2. A short list of what you changed and why.\n"+
+"3. Gaps not added - requirements I don't show, so I can decide how to handle them.\n"+
+"4. Anything you need me to confirm before I send it.\n"+
+"Then offer to write a short cover letter using the same rules.";}
+function openAI(j,kind){
+var d=document.getElementById("aidlg");
+document.getElementById("aititle").textContent=(kind==="gap"?"Gap analysis":"Tailor my resume")+": "+j.title;
+document.getElementById("aisub").textContent=j.company+" - "+(j.city||j.location||j.market||"")+". You can edit the prompt below before copying it.";
+document.getElementById("aitext").value=aiPrompt(j,kind);
+document.getElementById("aimsg").textContent="";
+if(d.showModal)d.showModal();else d.setAttribute("open","");
+document.getElementById("aitext").scrollTop=0;document.getElementById("aigo").focus();}
+function aiCopy(){
+var txt=document.getElementById("aitext").value,m=document.getElementById("aimsg");
+function ok(){m.textContent="Copied - now paste it into your AI assistant with your resume attached.";}
+function fb(){var ta=document.getElementById("aitext");ta.focus();ta.select();
+try{document.execCommand("copy");ok();}catch(e){m.textContent="Select the text above and copy it (Cmd+C / Ctrl+C).";}}
+if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(txt).then(ok,fb);else fb();}
 initTheme();
 renderWhatsNew(false);
 document.getElementById("email-pinned-btn").addEventListener("click",emailPinned);
 document.getElementById("copy-pinned-btn").addEventListener("click",copyPinned);
 fetch("jobs.json?v="+Date.now(),{cache:"no-store"}).then(function(r){return r.json();}).then(function(data){
 JOBS=data.sort(function(a,b){return b.score-a.score;});
+markNewJobs();
 buildStats();
 migrateTags();
 var dates=[];JOBS.forEach(function(j){if(dates.indexOf(j.posted)<0)dates.push(j.posted);});
@@ -324,8 +522,9 @@ dates.sort().reverse();
 document.getElementById("updated").textContent="Last refreshed: "+(dates[0]||"-");
 render();
 renderPinned();
+initMinibar();
 ["q","priority","market","sector","role","tracking","fresh","pinnedonly"].forEach(function(id){
-document.getElementById(id).addEventListener(id==="q"?"input":"change",function(){render();});
+document.getElementById(id).addEventListener(id==="q"?"input":"change",function(){moreLabel();render();});
 });
 }).catch(function(e){document.getElementById("grid").innerHTML='<div class="empty">Could not load jobs.json - '+e.message+'</div>';});
 </script>
@@ -360,8 +559,7 @@ document.getElementById(id).addEventListener(id==="q"?"input":"change",function(
         s.className=MARK;
         s.textContent=(f.days>3?"Needs recheck - last confirmed ":"Confirmed open ")+f.lbl;
         s.title="Date this posting was last opened and confirmed still accepting applications.";
-        s.style.cssText="display:inline-block;font-size:11px;line-height:1.4;margin:0 8px 0 0;padding:2px 7px;border-radius:999px;white-space:nowrap;vertical-align:middle;"
-          +(f.days>3?"background:rgba(194,65,12,.13);color:#c2410c;font-weight:600;":"background:rgba(22,163,74,.12);color:#15803d;");
+        s.className=MARK+" vbadge"+(f.days>3?" stale":"");
         if(!old&&a.parentNode)a.parentNode.insertBefore(s,a);
       });
     }).catch(function(){});
