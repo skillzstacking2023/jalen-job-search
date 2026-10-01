@@ -1,7 +1,7 @@
 [
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-30",
     "certRequired": false,
     "certNote": "",
@@ -45,8 +45,8 @@
     "id": 1
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
@@ -90,8 +90,8 @@
     }
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
@@ -135,8 +135,8 @@
     }
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
@@ -180,8 +180,8 @@
     }
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-30",
     "certRequired": false,
     "certNote": "",
@@ -225,8 +225,8 @@
     "id": 5
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
@@ -270,8 +270,8 @@
     }
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
@@ -315,8 +315,8 @@
     }
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
@@ -360,8 +360,8 @@
     }
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
@@ -405,8 +405,8 @@
     }
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
@@ -450,14 +450,59 @@
     }
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
+    "lastVerified": "2026-10-01",
+    "certRequired": false,
+    "certNote": "",
+    "payBasis": "hour",
+    "employmentType": "Full Time",
+    "score": 84,
+    "title": "Registered Nurse - RN - Pediatric Cardiac and Congenital OR",
+    "company": "Johns Hopkins Medicine",
+    "market": "MD",
+    "city": "Baltimore, MD",
+    "salary": "$39.64 - $61.45/hr",
+    "payMin": 39.64,
+    "payMax": 61.45,
+    "roleType": "CVOR / Cardiac",
+    "sector": "Health System",
+    "priority": "High",
+    "license": "Compact/MD",
+    "url": "https://jobs.hopkinsmedicine.org/job/99557/registered-nurse-rn-pediatric-cardiac-and-congenital-or-nursing-us-md-baltimore-johns-hopkins-hospital/",
+    "notes": "Full time, 40 hours a week in the paediatric cardiac and congenital OR at The Johns Hopkins Hospital, on 10-hour rotating day/night shifts with call per unit policy. Unlike most OR postings, this one lists CVOR RN experience as a requirement - which is exactly what you bring. A separate requisition from the 36-hour Pediatric Operating Room posting on this board, so you can apply to both.",
+    "fit": {
+      "specialty": 4,
+      "experience": 5,
+      "location": 5,
+      "pay": 4,
+      "employer": 5
+    },
+    "fitNotes": {
+      "specialty": "Congenital cardiac surgery builds directly on your CABG, valve and transplant work; the paediatric population is the new part.",
+      "experience": "CVOR experience is required here, and you have two years of it at Hopkins plus nine years of periop. Your current PALS helps.",
+      "location": "Baltimore - a normal commute from Central Maryland.",
+      "pay": "Published band $39.64 - $61.45/hr reaches your $50/hr target, with night and rotating differentials on top.",
+      "employer": "Nationally ranked paediatric cardiac programme at an academic Magnet hospital."
+    },
+    "intel": {
+      "size": "Academic medical center",
+      "hq": "Baltimore, MD",
+      "remotePolicy": "On site, 10-hour rotating shifts, unit call",
+      "news": "Paediatric cardiac and congenital OR; CVOR experience required",
+      "magnet": "Magnet designated"
+    },
+    "id": 11
+  },
+  {
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 11,
+    "id": 12,
     "score": 83,
     "title": "Registered Nurse (RN) Operating Room",
     "company": "MedStar Health",
@@ -495,14 +540,14 @@
     }
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 12,
+    "id": 13,
     "score": 83,
     "title": "Registered Nurse (RN) Operating Room",
     "company": "MedStar Health",
@@ -540,14 +585,14 @@
     }
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Part Time",
-    "id": 13,
+    "id": 14,
     "score": 82,
     "title": "Registered Nurse II - Cardiovascular Thoracic Prep/PACU",
     "company": "Johns Hopkins Medicine",
@@ -585,14 +630,14 @@
     }
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 14,
+    "id": 15,
     "score": 82,
     "title": "Registered Nurse II - Pediatric Operating Room",
     "company": "Johns Hopkins Medicine",
@@ -630,14 +675,14 @@
     }
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "PRN",
-    "id": 15,
+    "id": 16,
     "score": 80,
     "title": "RN Per Diem - Preop PACU - Howard County ASC",
     "company": "Johns Hopkins Medicine",
@@ -675,14 +720,14 @@
     }
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 16,
+    "id": 17,
     "score": 79,
     "title": "RN - Operating Room, 8 hour evenings - 10:30 am to 7pm (HCMC)",
     "company": "Johns Hopkins Medicine",
@@ -720,14 +765,14 @@
     }
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Part Time",
-    "id": 17,
+    "id": 18,
     "score": 79,
     "title": "Registered Nurse II - Cardiovascular Thoracic OR",
     "company": "Johns Hopkins Medicine",
@@ -765,8 +810,8 @@
     }
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-30",
     "certRequired": false,
     "certNote": "",
@@ -774,7 +819,7 @@
     "employmentType": "Full Time",
     "sector": "Health System",
     "score": 79,
-    "title": "Operating Room RN \u2013 Newark Campus | Day/Evening Shifts | 3 Shifts Weekly | $10K Sign\u2011On Bonus",
+    "title": "Operating Room RN – Newark Campus | Day/Evening Shifts | 3 Shifts Weekly | $10K Sign‑On Bonus",
     "company": "ChristianaCare",
     "market": "DE",
     "city": "Newark, DE",
@@ -807,17 +852,17 @@
       "magnet": "Confirm Magnet status with recruiter"
     },
     "priority": "Medium",
-    "id": 18
+    "id": 19
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 19,
+    "id": 20,
     "score": 78,
     "title": "Senior Clinical Nurse I- Operating Room",
     "company": "University of Maryland Medical System",
@@ -855,14 +900,14 @@
     }
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 20,
+    "id": 21,
     "score": 78,
     "title": "Clinical Nurse II - Operating Room",
     "company": "University of Maryland Medical System",
@@ -900,8 +945,8 @@
     }
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-30",
     "certRequired": false,
     "certNote": "",
@@ -942,17 +987,63 @@
       "magnet": "Varies by facility"
     },
     "priority": "Medium",
-    "id": 21
+    "id": 22
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
+    "lastVerified": "2026-10-01",
+    "certRequired": false,
+    "certNote": "",
+    "payBasis": "hour",
+    "employmentType": "Full Time",
+    "score": 78,
+    "title": "Nurse (Operating Room)",
+    "company": "Defense Health Agency",
+    "market": "VA",
+    "city": "Fort Belvoir, VA",
+    "salary": "$109,816 - $142,764/yr GS-12 (about $52.80 - $68.64/hr)",
+    "payMin": 52.8,
+    "payMax": 68.64,
+    "roleType": "OR / Perioperative",
+    "sector": "Federal",
+    "priority": "Medium",
+    "license": "Compact/MD",
+    "url": "https://www.usajobs.gov/job/886752600",
+    "expiresOn": "2026-10-07",
+    "notes": "Federal OR nurse at Alexander T. Augusta Military Medical Center, Fort Belvoir, open to the public (US citizens). Scrub and circulating duties - sterile technique, equipment, intraoperative monitoring - supporting the Maternal-Child Surgical Care Team, so the case mix leans obstetric and gynaecological rather than cardiac. Qualifies on one year of OR nursing experience. The announcement closes 7 October, so apply this week. Virginia is a compact state and federal posts accept any state license.",
+    "fit": {
+      "specialty": 4,
+      "experience": 5,
+      "location": 3,
+      "pay": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "specialty": "Straight OR scrub and circulate work, which you do every day; the maternal-child surgical focus is a different case mix from your cardiac background.",
+      "experience": "The one-year OR experience requirement is easily met by your nine years of periop.",
+      "location": "Fort Belvoir, south of Alexandria - a long drive from Central Maryland around the Beltway.",
+      "pay": "GS-12 starts at about $52.80/hr, above your $50/hr floor, with federal benefits and pension on top.",
+      "employer": "Military treatment facility under the Defense Health Agency; your earlier federal VA nursing service makes the USAJobs process familiar."
+    },
+    "intel": {
+      "size": "Major military medical center",
+      "hq": "Fort Belvoir, VA",
+      "remotePolicy": "On site, full time",
+      "news": "Maternal-Child Surgical Care Team; closes 2026-10-07",
+      "magnet": "Military treatment facility"
+    },
+    "id": 23
+  },
+  {
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 22,
+    "id": 24,
     "score": 77,
     "title": "Evening Shift RN | Operating Room",
     "company": "University of Maryland Medical System",
@@ -990,8 +1081,8 @@
     }
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-30",
     "certRequired": false,
     "certNote": "",
@@ -1032,17 +1123,17 @@
       "magnet": "Confirm Magnet status with recruiter"
     },
     "priority": "Medium",
-    "id": 23
+    "id": 25
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 24,
+    "id": 26,
     "score": 76,
     "title": "Nurse (Clinical Research)",
     "company": "National Institutes of Health Clinical Center",
@@ -1081,8 +1172,8 @@
     }
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-30",
     "certRequired": false,
     "certNote": "",
@@ -1123,56 +1214,11 @@
       "magnet": "Varies by facility"
     },
     "priority": "Medium",
-    "id": 25
+    "id": 27
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
-    "lastVerified": "2026-09-29",
-    "certRequired": false,
-    "certNote": "",
-    "payBasis": "hour",
-    "employmentType": "Contract",
-    "id": 26,
-    "score": 74,
-    "title": "Travel Contracts - Operating Room and CVOR",
-    "company": "Aya Healthcare",
-    "market": "Travel",
-    "city": "Nationwide",
-    "salary": "Contract rates vary - confirm with recruiter",
-    "payMin": null,
-    "payMax": null,
-    "roleType": "Travel Contract",
-    "sector": "Travel Agency",
-    "priority": "Medium",
-    "license": "Compact/MD",
-    "url": "https://www.ayahealthcare.com/travel-nursing/travel-nursing-jobs/",
-    "notes": "Live search feed rather than a single assignment - travel contracts turn over weekly and agencies do not publish rates without a recruiter conversation. OR and CVOR are among the highest-paying travel specialties, and your Maryland multistate licence covers most compact states without new paperwork. Filter to Operating Room, then ask for the full package breakdown: taxable base, housing stipend and per diem quoted separately.",
-    "fit": {
-      "specialty": 5,
-      "experience": 5,
-      "location": 4,
-      "pay": 4,
-      "employer": 3
-    },
-    "fitNotes": {
-      "specialty": "OR and CVOR travellers are in persistent demand; CVOR commands a premium over general OR.",
-      "experience": "Travel contracts want two years minimum in specialty; you have nine and can scrub as well as circulate, which widens the assignments open to you.",
-      "location": "Compact licence covers most states without a new application. California requires your CA licence, which you hold.",
-      "pay": "Travel is the most reliable route past $50/hr, but the headline weekly figure blends taxable wages and untaxed stipends - compare true hourly, not the advertised number.",
-      "employer": "Large national agency. Assignment quality varies by facility, not by agency."
-    },
-    "intel": {
-      "size": "National staffing agency",
-      "hq": "San Diego, CA",
-      "remotePolicy": "13-week contracts, on site",
-      "news": "Operating room and CVOR assignments",
-      "magnet": "Varies by facility"
-    }
-  },
-  {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-30",
     "certRequired": false,
     "certNote": "",
@@ -1213,17 +1259,62 @@
       "magnet": "Varies by facility"
     },
     "priority": "Medium",
-    "id": 27
+    "id": 28
   },
   {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
+    "lastVerified": "2026-10-01",
+    "certRequired": false,
+    "certNote": "",
+    "payBasis": "hour",
+    "employmentType": "Contract",
+    "score": 74,
+    "title": "RN - CVOR",
+    "company": "Host Healthcare",
+    "market": "Travel",
+    "city": "Burlington, VT",
+    "salary": "$3,376.35 - $3,566.33/wk total incl. stipends - 16 wks, variable shift; est. wage $44.18 - $51.18/hr",
+    "payMin": 44.18,
+    "payMax": 51.18,
+    "roleType": "Travel Contract",
+    "sector": "Travel Agency",
+    "priority": "Medium",
+    "license": "Compact/MD",
+    "url": "https://www.hosthealthcare.com/jobs/2298181/",
+    "notes": "16-week CVOR travel assignment in Burlington, Vermont on a variable shift. Host publishes the split: an estimated taxable wage of $44.18 - $51.18/hr plus about $217/day in non-taxable stipends, for $3,376 - $3,566 a week in total. Vermont is a compact state, so your Maryland multistate license covers it with no new application. On Vivian, general OR contracts in Burlington from Care Career, AHS Staffing and Nightingale Nurses list at $3,098 - $3,326/wk, below this one. The facility name is shared after sign-up.",
+    "fit": {
+      "specialty": 5,
+      "experience": 5,
+      "location": 2,
+      "pay": 4,
+      "employer": 3
+    },
+    "fitNotes": {
+      "specialty": "Travel CVOR - your core specialty.",
+      "experience": "CVOR contracts usually want two years in specialty; you have that plus nine years of periop. Ask the recruiter whether prior travel experience is required.",
+      "location": "Relocation to northern Vermont for 16 weeks.",
+      "pay": "Published wage $44.18 - $51.18/hr only touches your floor at the top; the weekly total is higher because of untaxed stipends, which depend on keeping a tax home.",
+      "employer": "National agency that publishes hourly wage alongside the weekly total."
+    },
+    "intel": {
+      "size": "National staffing agency",
+      "hq": "San Diego, CA",
+      "remotePolicy": "16-week contract, on site",
+      "news": "CVOR assignment, variable shift",
+      "magnet": "Varies by facility"
+    },
+    "id": 29
+  },
+  {
+    "postedDate": "2026-10-01",
+    "posted": "2026-10-01",
     "lastVerified": "2026-09-29",
     "certRequired": true,
     "certNote": "CNOR typically expected",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 28,
+    "id": 30,
     "score": 73,
     "title": "Nurse Educator Operating Room CVOR (RN)",
     "company": "MedStar Health",
@@ -1258,96 +1349,6 @@
       "remotePolicy": "On site, full time",
       "news": "CVOR education and staff development",
       "magnet": "Major teaching hospital"
-    }
-  },
-  {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
-    "lastVerified": "2026-09-30",
-    "certRequired": false,
-    "certNote": "",
-    "payBasis": "hour",
-    "employmentType": "PRN",
-    "sector": "Health System",
-    "score": 72,
-    "title": "Registered Nurse (RN) CVOR Open Heart - Flexible Casual Schedule",
-    "company": "ChristianaCare",
-    "market": "DE",
-    "city": "Newark, DE",
-    "salary": "$40.00/hr flat (casual / per diem)",
-    "payMin": 40.0,
-    "payMax": 40.0,
-    "roleType": "CVOR / Cardiac",
-    "license": "Compact/MD",
-    "url": "https://christianacare.wd5.myworkdayjobs.com/CCHS/job/Newark-DE/Registered-Nurse--RN--CVOR-Open-Heart---Flexible-Casual-Schedule_JR93836",
-    "notes": "CVOR RN II on Christiana Hospital's open heart team - casual/per diem, Monday to Friday with flexible hours between 6:30am and 7pm, no call and no weekends. Requires three years of OR experience plus two to three years of open-heart circulating and scrubbing, which your CVOR background meets. The published rate is a flat $40.00/hr, below your target, so treat it as a way to keep open-heart skills current rather than a main post. Roughly 60-90 minutes from Central Maryland. Req JR93836.",
-    "fit": {
-      "specialty": 5,
-      "experience": 5,
-      "location": 2,
-      "pay": 2,
-      "employer": 4
-    },
-    "fitNotes": {
-      "specialty": "Dedicated open-heart team - an exact CVOR match.",
-      "experience": "Meets both requirements: three-plus years of OR and two years of open-heart scrub and circulate.",
-      "location": "Newark, DE - roughly 60-90 minutes each way, though no call or weekends helps.",
-      "pay": "Flat $40.00/hr, $10 under your floor, and casual roles carry no benefits.",
-      "employer": "Christiana Hospital cardiac surgery programme."
-    },
-    "intel": {
-      "size": "Large regional health system",
-      "hq": "Wilmington, DE",
-      "remotePolicy": "On site",
-      "news": "Posting advertises a $10K sign-on bonus for eligible candidates",
-      "magnet": "Confirm Magnet status with recruiter"
-    },
-    "priority": "Medium",
-    "id": 29
-  },
-  {
-    "postedDate": "2026-09-30",
-    "posted": "2026-09-30",
-    "lastVerified": "2026-09-29",
-    "certRequired": false,
-    "certNote": "",
-    "payBasis": "hour",
-    "employmentType": "Full Time",
-    "id": 30,
-    "score": 69,
-    "title": "Assistant Nurse Manager - Operating Room",
-    "company": "University of Maryland Medical System",
-    "market": "MD",
-    "city": "Towson, MD",
-    "salary": "$47.00 - $70.54/hr",
-    "payMin": 47.0,
-    "payMax": 70.54,
-    "roleType": "Leadership",
-    "sector": "Health System",
-    "priority": "Stretch",
-    "license": "Compact/MD",
-    "url": "https://careers.umms.org/us/en/job/P-105849/Assistant-Nurse-Manager-Operating-Room",
-    "notes": "UM St. Joseph Medical Center. The natural first move into OR leadership - assistant nurse manager sits between charge nurse and department manager, so it does not assume prior management experience the way a manager post does. Band starts at $47 and reaches $70.54.",
-    "fit": {
-      "specialty": 5,
-      "experience": 4,
-      "location": 5,
-      "pay": 5,
-      "employer": 4
-    },
-    "fitNotes": {
-      "specialty": "OR leadership over the service lines you know.",
-      "experience": "The stretch is the title, not the clinical content. Your preceptor and trainer record is the evidence to lead with; you have not held a formal leadership post.",
-      "location": "Towson.",
-      "pay": "Floor of $47 is close to your target and the band runs to $70.54 - the strongest pay progression on this board short of a manager role.",
-      "employer": "Community teaching hospital."
-    },
-    "intel": {
-      "size": "Community teaching hospital",
-      "hq": "Towson, MD",
-      "remotePolicy": "On site",
-      "news": "Operating room leadership",
-      "magnet": "UMMS member"
     }
   }
 ]
