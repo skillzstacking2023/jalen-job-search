@@ -71,6 +71,8 @@ input[type=search]:focus,select:focus{outline:none;border-color:var(--accent)}
 border-radius:10px;font-size:13px;cursor:pointer;font-family:inherit;font-weight:600}
 .reset:hover{border-color:var(--accent);color:var(--text)}
 .count{color:var(--muted);font-size:13px;margin-bottom:12px}
+.chip.umms{background:#4c1d95;border-color:#a855f7;color:#f3e8ff;font-weight:800}
+[data-theme="light"] .chip.umms{background:#f3e8ff;border-color:#9333ea;color:#581c87}
 .chip.newjob{background:var(--accent);border-color:var(--accent);color:#04283a;font-weight:800}
 [data-theme="light"] .chip.newjob{color:#fff}
 .minibar{position:fixed;top:0;left:0;right:0;z-index:20;background:var(--bg2);border-bottom:1px solid var(--line);
@@ -248,7 +250,7 @@ document.documentElement.setAttribute("data-theme",t);})();
 <div class="header-top">
 <div>
 <h1>Jade Williams, RN BSN</h1>
-<div class="creds">Perioperative and CVOR nursing roles - Maryland, DC metro, Northern Virginia, Delaware, Pennsylvania, California, federal and travel - target $50/hr+</div>
+<div class="creds">Perioperative and CVOR nursing roles - Maryland and travel nursing, University of Maryland first - target $50/hr+</div>
 </div>
 <div class="hbtns">
 <button class="theme-btn" id="wnbtn" onclick="renderWhatsNew(true)">What&#39;s new</button>
@@ -273,23 +275,24 @@ document.documentElement.setAttribute("data-theme",t);})();
 <div class="panel active" id="p-opps">
 <div class="controls">
 <input type="search" id="q" placeholder="Search title, company, city, notes..." aria-label="Search jobs">
+<select id="employer" aria-label="Employer"><option value="">All employers</option><option value="umms">University of Maryland (UMMS)</option></select>
 <select id="pay">
 <option value="">Any pay rate</option>
 <option value="yes">Starts at $50+/hr</option>
 <option value="reach">Reaches $50+/hr</option>
 </select>
+<select id="sort"><option value="score">Sort: fit score</option><option value="company">Sort: company A-Z</option><option value="fresh">Sort: newest first</option><option value="new">Sort: new since last visit</option></select>
+<button class="reset" type="button" onclick="resetFilters()">Reset</button>
+<button class="reset" type="button" id="morebtn" aria-expanded="false" onclick="toggleMore()">More filters</button>
+<div class="morefilters" id="morefilters">
 <select id="license">
 <option value="">Any licensure</option>
 <option value="compact">MD compact covers it</option>
 <option value="ca">California license</option>
 <option value="other">New state license needed</option>
 </select>
-<select id="sort"><option value="score">Sort: fit score</option><option value="company">Sort: company A-Z</option><option value="fresh">Sort: newest first</option><option value="new">Sort: new since last visit</option></select>
-<button class="reset" type="button" onclick="resetFilters()">Reset</button>
-<button class="reset" type="button" id="morebtn" aria-expanded="false" onclick="toggleMore()">More filters</button>
-<div class="morefilters" id="morefilters">
 <select id="priority"><option value="">All priorities</option><option>High</option><option>Medium</option><option>Stretch</option></select>
-<select id="market"><option value="">All locations</option><option value="MD">Maryland</option><option value="DC">DC metro</option><option value="VA">Northern Virginia</option><option value="DE">Delaware</option><option value="PA">Pennsylvania</option><option value="CA">California</option><option value="LA">Louisiana</option><option value="Travel">Travel contract</option><option value="Remote">Remote</option></select>
+<select id="market"><option value="">All locations</option><option value="MD">Maryland</option><option value="Travel">Travel contract</option></select>
 <select id="sector"><option value="">All employer types</option><option>Health System</option><option>Federal</option><option>State/County</option><option>Travel Agency</option></select>
 <select id="role"><option value="">All role types</option></select>
 <select id="cert"><option value="">Certification: any</option><option value="no">No extra certification required</option></select>
@@ -336,7 +339,7 @@ document.documentElement.setAttribute("data-theme",t);})();
 </div>
 <div class="chartbox">
 <h3>Where the roles are</h3>
-<div class="cs">Maryland, DC metro and nearby compact states versus California, travel and remote</div>
+<div class="cs">Maryland roles versus travel contracts</div>
 <div class="canvaswrap"><canvas id="c-market"></canvas></div>
 </div>
 <div class="chartbox">
@@ -361,10 +364,10 @@ document.documentElement.setAttribute("data-theme",t);})();
 <div class="guide">
 
 <h2>What is in here</h2>
-<p>Every listing on this dashboard is a perioperative, CVOR, PACU, pre-op or closely adjacent nursing role, in Maryland, the DC metro, Northern Virginia, northern Delaware or south-central Pennsylvania, California, a federal health system, or as a travel contract. Each one was opened and read on the day it was published here, so nothing on this board is a posting that has already closed.</p>
+<p>Every listing on this dashboard is a perioperative, CVOR, PACU, pre-op or closely adjacent nursing role, in Maryland, or a travel nursing contract in another state - staff roles outside Maryland are left out. University of Maryland Medical System roles are searched first, marked with a <strong>UMMS</strong> badge, and can be shown on their own with the employer filter. Each one was opened and read on the day it was published here, so nothing on this board is a posting that has already closed.</p>
 <p>Roles that do not fit your background get left out rather than listed with a low score. A short honest list beats a long padded one.</p>
 
-<div class="callout"><p><strong>The search profile behind the scores.</strong> Central Maryland. Operating room, CVOR, PACU and pre-op roles across Maryland and the DC metro, California, federal health systems and travel contracts. Strengths: scrub and circulate across general, vascular, thoracic, ortho, urology and GYN; open-heart including CABG, valve repair and replacement, heart and lung transplant and aortic aneurysm repair; hemodynamic monitoring; AORN standards; preceptorship; EPIC, Meditech and CPRS. Target rate: $50/hr and up.</p></div>
+<div class="callout"><p><strong>The search profile behind the scores.</strong> Central Maryland. Operating room, CVOR, PACU and pre-op roles in Maryland, plus travel nursing contracts; University of Maryland Medical System first. Strengths: scrub and circulate across general, vascular, thoracic, ortho, urology and GYN; open-heart including CABG, valve repair and replacement, heart and lung transplant and aortic aneurysm repair; hemodynamic monitoring; AORN standards; preceptorship; EPIC, Meditech and CPRS. Target rate: $50/hr and up.</p></div>
 
 <h2>Reading a job card</h2>
 <p>The <strong>number in the ring</strong> is an overall fit score out of 100. Green is a strong fit (80+), amber is good with a gap (70-79), orange is a stretch (60-69).</p>
@@ -466,7 +469,7 @@ document.documentElement.setAttribute("data-theme",t);})();
 </div>
 </dialog>
 
-<footer>Auto-refreshed daily. Built for Jade Williams, RN BSN. Scores reflect fit to your profile: perioperative, CVOR, PACU and pre-op nursing in Maryland, the DC metro and nearby compact states, California, federal health systems and travel contracts, with a $50/hr target rate. Licensure, certification and published pay range are shown on every card. Saved jobs and notes are stored in this browser only.</footer>
+<footer>Auto-refreshed daily. Built for Jade Williams, RN BSN. Scores reflect fit to your profile: perioperative, CVOR, PACU and pre-op nursing in Maryland and travel contracts, University of Maryland Medical System first, with a $50/hr target rate. Licensure, certification and published pay range are shown on every card. Saved jobs and notes are stored in this browser only.</footer>
 
 <script>
 var JOBS=[];
@@ -493,6 +496,8 @@ function scoreColor(s){return s>=80?"#22c55e":s>=70?"#eab308":"#f97316";}
 /* no legacy store to migrate for this dashboard */
 function migrateOld(){return 0;}
 
+/* Jade has a high level of interest in the University of Maryland Medical System */
+function isUMMS(j){return /University of Maryland/i.test(j.company||"");}
 function licenseLevel(j){return j.license?j.license:"Compact/MD";}
 function licenseKey(l){return l==="Other state"?"other":(l==="California"?"ca":"compact");}
 function licenseBadge(l){
@@ -601,6 +606,7 @@ JSON.stringify(j.intel||{})+" "+JSON.stringify(j.fitNotes||{})).toLowerCase();
 if(q&&hay.indexOf(q)<0)return false;
 if(val("priority")&&j.priority!==val("priority"))return false;
 if(val("market")&&j.market!==val("market"))return false;
+if(val("employer")==="umms"&&!isUMMS(j))return false;
 if(val("sector")&&j.sector!==val("sector"))return false;
 if(val("role")&&j.roleType!==val("role"))return false;
 if(val("license")&&licenseKey(licenseLevel(j))!==val("license"))return false;
@@ -672,6 +678,7 @@ row.appendChild(rg);card.appendChild(row);
 
 var b=el("div","badges");
 if(NEWJOBS[k])b.appendChild(el("span","chip newjob","New"));
+if(isUMMS(j))b.appendChild(el("span","chip umms","UMMS"));
 var pb=payBadge(j);
 b.appendChild(el("span","chip "+pb.cls,pb.label));
 var cb=licenseBadge(licenseLevel(j));
@@ -781,8 +788,8 @@ backgroundColor:["#22c55e","#eab308","#f97316"],borderRadius:6}]},
 options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
 scales:{y:{beginAtZero:true,ticks:{precision:0},grid:{color:lineC}},x:{grid:{display:false}}}}});
 
-var mks=["MD","DC","VA","DE","PA","CA","LA","Travel","Remote"];
-var mklab=["Maryland","DC metro","Northern Virginia","Delaware","Pennsylvania","California","Louisiana","Travel","Remote"];
+var mks=["MD","Travel"];
+var mklab=["Maryland","Travel"];
 mk("c-market",{type:"doughnut",
 data:{labels:mklab,datasets:[{data:mks.map(function(m){return JOBS.filter(function(j){return j.market===m;}).length;}),
 backgroundColor:["#818cf8","#38bdf8","#4ade80","#fb923c","#94a3b8","#f472b6","#fbbf24","#2dd4bf","#a855f7"],borderWidth:0}]},
@@ -882,6 +889,8 @@ rd.onerror=function(){alert("Could not read that file.");};
 rd.readAsText(f);ev.target.value="";}
 var WN_KEY="jade_wn_seen";
 var WHATSNEW=[
+{id:"2026-10-01-a-maryland",date:"October 1, 2026",title:"Maryland and travel only - University of Maryland first",
+ body:"The search now covers Maryland roles and travel nursing contracts only. Staff roles in DC, Virginia, Delaware, Pennsylvania, California or any other state drop off from the next refresh; other states appear only as travel assignments. University of Maryland Medical System roles are searched first across its Maryland hospitals and get a small boost in the fit score. They carry a UMMS badge, the top tile counts them, and the employer filter next to search shows only UMMS roles."},
 {id:"2026-09-29-e-travel",date:"September 29, 2026",title:"Real travel assignments, compared across agencies",
  body:"Travel cards will now be specific assignments - up to five - from Cross Country, Host Healthcare, Medical Solutions and Aya, with open-heart and transplant OR contracts first. Each shows the weekly total, contract length and shift, and notes when another agency lists the same assignment for more on Vivian. Use the location filter's Travel contract option to see them together."},
 {id:"2026-09-29-d-expansion",date:"September 29, 2026",title:"Wider search: Virginia, Delaware, Pennsylvania and related specialties",
@@ -927,10 +936,10 @@ var payReach=JOBS.filter(function(j){return ["yes","range"].indexOf(payLevel(j))
 var compact=JOBS.filter(function(j){return licenseKey(licenseLevel(j))==="compact";}).length;
 var noCert=JOBS.filter(function(j){return !certNeeded(j);}).length;
 var tracked=JOBS.filter(function(j){return getRec(jobKey(j)).stage;}).length;
-var licOk=JOBS.filter(function(j){return licenseKey(licenseLevel(j))!=="other";}).length;
+var umms=JOBS.filter(isUMMS).length;
 s.appendChild(stat(JOBS.length,"Open roles"));
 s.appendChild(stat(payYes,"Start $50+/hr"));
-s.appendChild(stat(licOk,"No new license"));
+s.appendChild(stat(umms,"UMMS roles"));
 var pt=stat(tracked,"In pipeline");pt.id="stat-pipeline";s.appendChild(pt);
 var roles=[];JOBS.forEach(function(j){if(roles.indexOf(j.roleType)<0)roles.push(j.roleType);});
 roles.sort();
@@ -952,11 +961,11 @@ var m=document.getElementById("morefilters"),b=document.getElementById("morebtn"
 var open=typeof force==="boolean"?force:!m.classList.contains("open");
 m.classList.toggle("open",open);b.setAttribute("aria-expanded",open?"true":"false");moreLabel();}
 function moreLabel(){
-var n=["priority","market","sector","role","cert","stage"].filter(function(id){return val(id);}).length;
+var n=["priority","market","sector","role","cert","stage","license"].filter(function(id){return val(id);}).length;
 var open=document.getElementById("morefilters").classList.contains("open");
 document.getElementById("morebtn").textContent=(open?"Fewer filters":"More filters")+(n?" ("+n+")":"");}
 function resetFilters(){
-["q","priority","market","sector","role","license","pay","cert","stage"].forEach(function(id){
+["q","employer","priority","market","sector","role","license","pay","cert","stage"].forEach(function(id){
 document.getElementById(id).value="";});
 document.getElementById("sort").value="score";
 document.getElementById("q2").value="";moreLabel();renderGrid();}
@@ -993,7 +1002,7 @@ document.getElementById("updated").textContent="Last refreshed: "+(dates[0]||"-"
 " - "+JOBS.length+" perioperative and adjacent nursing roles, each confirmed open at refresh";
 renderAll();
 initMinibar();
-["q","priority","market","sector","role","license","pay","cert","stage","sort"].forEach(function(id){
+["q","employer","priority","market","sector","role","license","pay","cert","stage","sort"].forEach(function(id){
 document.getElementById(id).addEventListener(id==="q"?"input":"change",function(){moreLabel();renderGrid();});});})
 .catch(function(e){
 document.getElementById("grid").innerHTML='<div class="empty">Could not load jobs.json - '+e.message+'</div>';});
