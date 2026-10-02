@@ -2,12 +2,57 @@
   {
     "postedDate": "2026-10-02",
     "posted": "2026-10-02",
+    "lastVerified": "2026-10-02",
+    "certRequired": false,
+    "certNote": "",
+    "payBasis": "hour",
+    "company": "University of Maryland Medical System",
+    "market": "MD",
+    "sector": "Health System",
+    "license": "Compact/MD",
+    "id": 1,
+    "score": 96,
+    "title": "Clinical Nurse II Cardiac OR",
+    "city": "Towson, MD",
+    "employmentType": "Full Time",
+    "salary": "$62.88/hr",
+    "payMin": 62.88,
+    "payMax": 62.88,
+    "roleType": "CVOR / Cardiac",
+    "priority": "High",
+    "url": "https://careers.umms.org/us/en/job/P-108172/Clinical-Nurse-II-Cardiac-OR",
+    "notes": "University of Maryland Medical System - a top-preference employer. Cardiac OR at UM St. Joseph Medical Center in Towson, full time on days, at $62.88/hr - well above your $50/hr floor. Asks for 2+ years of OR experience, recent scrubbing and the ability to scrub and circulate, with cardiac or vascular OR experience preferred: a direct match for your Johns Hopkins CVOR work. Req P-108172.",
+    "fit": {
+      "specialty": 5,
+      "experience": 5,
+      "location": 5,
+      "pay": 5,
+      "employer": 5
+    },
+    "fitNotes": {
+      "specialty": "Cardiac OR - your strongest specialty.",
+      "experience": "Your CVOR, open-heart and vascular scrub/circulate experience matches every listed requirement.",
+      "location": "Towson.",
+      "pay": "$62.88/hr flat, $12.88 above your floor.",
+      "employer": "UMMS, your top-preference system; UM St. Joseph is a Leapfrog A-rated hospital."
+    },
+    "intel": {
+      "size": "Community teaching hospital (218 beds)",
+      "hq": "Towson, MD",
+      "remotePolicy": "On site - day shift",
+      "news": "Cardiac operating room",
+      "magnet": "UMMS member"
+    }
+  },
+  {
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 1,
+    "id": 2,
     "score": 92,
     "title": "RN II - Cardiovascular Thoracic OR",
     "company": "Johns Hopkins Medicine",
@@ -52,7 +97,7 @@
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 2,
+    "id": 3,
     "score": 89,
     "title": "Registered Nurse Operating Room",
     "company": "University of Maryland Medical System",
@@ -97,7 +142,7 @@
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 3,
+    "id": 4,
     "score": 87,
     "title": "Registered Nurse Shock Trauma Operating Room",
     "company": "University of Maryland Medical System",
@@ -142,7 +187,7 @@
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 4,
+    "id": 5,
     "score": 86,
     "title": "Experienced Registered Nurse (RN) Operating Room",
     "company": "MedStar Health",
@@ -187,7 +232,7 @@
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 5,
+    "id": 6,
     "score": 85,
     "title": "RN - Operating Room - Ambulatory Surgery",
     "company": "Johns Hopkins Medicine",
@@ -232,7 +277,7 @@
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 6,
+    "id": 7,
     "score": 85,
     "title": "RN - Operating Room",
     "company": "Johns Hopkins Medicine",
@@ -277,7 +322,7 @@
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 7,
+    "id": 8,
     "score": 84,
     "title": "RN II - Operating Room",
     "company": "Johns Hopkins Medicine",
@@ -357,7 +402,7 @@
       "news": "Paediatric cardiac and congenital OR; CVOR experience required",
       "magnet": "Magnet designated"
     },
-    "id": 8
+    "id": 9
   },
   {
     "postedDate": "2026-10-02",
@@ -367,7 +412,7 @@
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 9,
+    "id": 10,
     "score": 83,
     "title": "Registered Nurse (RN) Operating Room",
     "company": "MedStar Health",
@@ -412,7 +457,7 @@
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 10,
+    "id": 11,
     "score": 83,
     "title": "Registered Nurse (RN) Operating Room",
     "company": "MedStar Health",
@@ -457,7 +502,7 @@
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Part Time",
-    "id": 11,
+    "id": 12,
     "score": 82,
     "title": "Registered Nurse II - Cardiovascular Thoracic Prep/PACU",
     "company": "Johns Hopkins Medicine",
@@ -502,7 +547,7 @@
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 12,
+    "id": 13,
     "score": 82,
     "title": "Registered Nurse II - Pediatric Operating Room",
     "company": "Johns Hopkins Medicine",
@@ -547,7 +592,7 @@
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "PRN",
-    "id": 13,
+    "id": 14,
     "score": 80,
     "title": "RN Per Diem - Preop PACU - Howard County ASC",
     "company": "Johns Hopkins Medicine",
@@ -583,51 +628,6 @@
       "news": "Pre-op and PACU",
       "magnet": "Johns Hopkins Medicine affiliate"
     }
-  },
-  {
-    "score": 80,
-    "title": "(RN) Registered Nurse - Cardiothoracic OR - 134079",
-    "company": "UC San Diego Health",
-    "market": "CA",
-    "city": "San Diego, CA",
-    "salary": "$62.90 - $88.16/hr",
-    "payMin": 62.9,
-    "payMax": 88.16,
-    "roleType": "CVOR / Cardiac",
-    "sector": "Health System",
-    "priority": "High",
-    "license": "California",
-    "certRequired": false,
-    "certNote": "",
-    "employmentType": "Full Time",
-    "url": "https://employment.ucsd.edu/rn-registered-nurse-cardiothoracic-or-134079/job/28806237",
-    "notes": "Cardiothoracic OR at Jacobs Medical Center with two openings, one day and one evening, on 12-hour shifts. The minimum is 2+ years of cardio-thoracic OR experience in an acute care hospital, with 2 years of cardiac scrub experience preferred - you meet both. CNOR is preferred, not required. The page shows no closed banner but carries an old posted date (Feb 2025), so confirm with the recruiter that it is still active. Your active California license covers it; it would mean relocating.",
-    "fit": {
-      "specialty": 5,
-      "experience": 5,
-      "location": 2,
-      "pay": 5,
-      "employer": 4
-    },
-    "fitNotes": {
-      "specialty": "Dedicated cardiothoracic OR work - your core CABG, valve and aortic experience.",
-      "experience": "Two years of CVOR scrubbing and circulating meets the 2+ year minimum; CNOR is only preferred.",
-      "location": "San Diego is a relocation from Maryland; your California license applies with no new application.",
-      "pay": "$62.90 - $88.16/hr clears your $50 floor across the whole band.",
-      "employer": "Large academic medical center with a high-volume cardiac surgery program."
-    },
-    "intel": {
-      "size": "Large academic health system",
-      "hq": "San Diego, CA",
-      "remotePolicy": "On site, 12-hour shifts",
-      "news": "Posted date on the page is Feb 2025 - confirm still active",
-      "magnet": "Not confirmed"
-    },
-    "payBasis": "hour",
-    "id": 14,
-    "postedDate": "2026-10-02",
-    "posted": "2026-10-02",
-    "lastVerified": "2026-10-02"
   },
   {
     "postedDate": "2026-10-02",
@@ -722,12 +722,57 @@
   {
     "postedDate": "2026-10-02",
     "posted": "2026-10-02",
+    "lastVerified": "2026-10-02",
+    "certRequired": false,
+    "certNote": "",
+    "payBasis": "hour",
+    "company": "University of Maryland Medical System",
+    "market": "MD",
+    "sector": "Health System",
+    "license": "Compact/MD",
+    "id": 17,
+    "score": 79,
+    "title": "Clinical Nurse II, PACU, OR",
+    "city": "Woodlawn, MD",
+    "employmentType": "Full Time",
+    "salary": "$37.75 - $56.21/hr",
+    "payMin": 37.75,
+    "payMax": 56.21,
+    "roleType": "PACU / Pre-Op",
+    "priority": "Medium",
+    "url": "https://careers.umms.org/us/en/job/P-108212/Clinical-Nurse-II-PACU-OR",
+    "notes": "University of Maryland Medical System - a top-preference employer. PACU nurse at the UM Rehabilitation & Orthopaedic Institute in Woodlawn, 40 hours a week, Monday-Friday days. Recovery rather than intraoperative work, so it ranks below the OR roles; the band reaches $56.21/hr. Req P-108212.",
+    "fit": {
+      "specialty": 3,
+      "experience": 4,
+      "location": 5,
+      "pay": 4,
+      "employer": 5
+    },
+    "fitNotes": {
+      "specialty": "PACU, not in the OR.",
+      "experience": "Your post-op assessment and recovery work carries over.",
+      "location": "Woodlawn, near Baltimore.",
+      "pay": "Band tops at $56.21, so the upper half clears $50/hr.",
+      "employer": "UMMS orthopaedic and rehabilitation specialty hospital."
+    },
+    "intel": {
+      "size": "Specialty orthopaedic and rehabilitation hospital",
+      "hq": "Woodlawn, MD",
+      "remotePolicy": "On site - weekday days",
+      "news": "PACU",
+      "magnet": "UMMS member"
+    }
+  },
+  {
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 17,
+    "id": 18,
     "score": 78,
     "title": "Senior Clinical Nurse I- Operating Room",
     "company": "University of Maryland Medical System",
@@ -772,7 +817,7 @@
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 18,
+    "id": 19,
     "score": 78,
     "title": "Clinical Nurse II - Operating Room",
     "company": "University of Maryland Medical System",
@@ -852,7 +897,7 @@
       "magnet": "Varies by facility"
     },
     "priority": "Medium",
-    "id": 19
+    "id": 20
   },
   {
     "score": 78,
@@ -894,7 +939,7 @@
       "magnet": "Unknown (facility undisclosed)"
     },
     "payBasis": "hour",
-    "id": 20,
+    "id": 21,
     "postedDate": "2026-10-02",
     "posted": "2026-10-02",
     "lastVerified": "2026-10-02"
@@ -907,7 +952,7 @@
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 21,
+    "id": 22,
     "score": 77,
     "title": "Evening Shift RN | Operating Room",
     "company": "University of Maryland Medical System",
@@ -952,7 +997,7 @@
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 22,
+    "id": 23,
     "score": 76,
     "title": "Nurse (Clinical Research)",
     "company": "National Institutes of Health Clinical Center",
@@ -1033,7 +1078,7 @@
       "magnet": "Varies by facility"
     },
     "priority": "Medium",
-    "id": 23
+    "id": 24
   },
   {
     "postedDate": "2026-10-02",
@@ -1078,7 +1123,7 @@
       "magnet": "Varies by facility"
     },
     "priority": "Medium",
-    "id": 24
+    "id": 25
   },
   {
     "postedDate": "2026-10-02",
@@ -1123,7 +1168,7 @@
       "news": "CVOR assignment, variable shift",
       "magnet": "Varies by facility"
     },
-    "id": 25
+    "id": 26
   },
   {
     "score": 74,
@@ -1165,10 +1210,55 @@
       "magnet": "Not confirmed"
     },
     "payBasis": "hour",
-    "id": 26,
+    "id": 27,
     "postedDate": "2026-10-02",
     "posted": "2026-10-02",
     "lastVerified": "2026-10-02"
+  },
+  {
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
+    "lastVerified": "2026-10-02",
+    "certRequired": false,
+    "certNote": "",
+    "payBasis": "hour",
+    "company": "University of Maryland Medical System",
+    "market": "MD",
+    "sector": "Health System",
+    "license": "Compact/MD",
+    "id": 28,
+    "score": 72,
+    "title": "RN PRN Unit Based Tier I, OR",
+    "city": "Woodlawn, MD",
+    "employmentType": "PRN",
+    "salary": "From $38.00/hr (PRN)",
+    "payMin": 38.0,
+    "payMax": null,
+    "roleType": "OR / Perioperative",
+    "priority": "Medium",
+    "url": "https://careers.umms.org/us/en/job/P-106947/RN-PRN-Unit-Based-Tier-I-OR",
+    "notes": "University of Maryland Medical System - a top-preference employer. Per diem OR nurse at the UM Rehabilitation & Orthopaedic Institute in Woodlawn, days. Per diem against your full-time search, and the published rate starts at $38/hr, so it ranks lower - but it is a foot in the door at UMMS. Req P-106947.",
+    "fit": {
+      "specialty": 4,
+      "experience": 5,
+      "location": 5,
+      "pay": 2,
+      "employer": 5
+    },
+    "fitNotes": {
+      "specialty": "Orthopaedic OR.",
+      "experience": "Your ortho scrub and circulate experience fits.",
+      "location": "Woodlawn, near Baltimore.",
+      "pay": "Starts at $38/hr; PRN rates are usually set per shift.",
+      "employer": "UMMS orthopaedic and rehabilitation specialty hospital."
+    },
+    "intel": {
+      "size": "Specialty orthopaedic and rehabilitation hospital",
+      "hq": "Woodlawn, MD",
+      "remotePolicy": "On site - per diem days",
+      "news": "Operating room",
+      "magnet": "UMMS member"
+    }
   },
   {
     "score": 62,
@@ -1210,53 +1300,7 @@
       "magnet": "Not confirmed"
     },
     "payBasis": "hour",
-    "id": 27,
-    "postedDate": "2026-10-02",
-    "posted": "2026-10-02",
-    "lastVerified": "2026-10-02"
-  },
-  {
-    "score": 62,
-    "title": "Registered Nurse (RN) Per Diem 84 Operating Room Flexible",
-    "company": "ChristianaCare",
-    "market": "DE",
-    "city": "Newark, DE",
-    "salary": "$56.00/hr flat",
-    "payMin": 56,
-    "payMax": 56,
-    "roleType": "OR / Perioperative",
-    "sector": "Health System",
-    "priority": "Stretch",
-    "license": "Compact/MD",
-    "certRequired": false,
-    "certNote": "",
-    "employmentType": "PRN",
-    "url": "https://careers.christianacare.org/posting/JR82350/",
-    "expiresOn": "2026-10-31",
-    "notes": "Per diem general OR role at ChristianaCare's Newark campus on day or evening 12-hour shifts, flat $56.00/hr - above your $50 floor. Requires 3+ years of OR experience, which you exceed; CNOR is preferred, not required, and a BSN is required (or committed to within 3 years). Not a CVOR role and PRN, so it works as a bridge or second job rather than a full-time move. Newark, Delaware is in a compact state, so your Maryland license covers it. Commute is roughly 60-90 minutes from Central Maryland depending on I-95 traffic. Applications close 10/31/2026.",
-    "fit": {
-      "specialty": 3,
-      "experience": 5,
-      "location": 3,
-      "pay": 4,
-      "employer": 4
-    },
-    "fitNotes": {
-      "specialty": "General OR with no cardiac focus stated; your CVOR background is a plus but not what they ask for.",
-      "experience": "You exceed the 3+ year OR requirement and hold the BSN; CNOR is not needed.",
-      "location": "Roughly 60-90 minutes from Central Maryland - long for a per diem schedule.",
-      "pay": "$56/hr clears your floor, but per diem usually carries no benefits and no guaranteed hours.",
-      "employer": "Large regional system with a Level I trauma center; solid employer, not a cardiac-surgery posting."
-    },
-    "intel": {
-      "size": "Large regional health system",
-      "hq": "Wilmington, DE",
-      "remotePolicy": "On site, 12-hour day or evening shifts",
-      "news": "Applications close 10/31/2026",
-      "magnet": "Not confirmed"
-    },
-    "payBasis": "hour",
-    "id": 28,
+    "id": 29,
     "postedDate": "2026-10-02",
     "posted": "2026-10-02",
     "lastVerified": "2026-10-02"
