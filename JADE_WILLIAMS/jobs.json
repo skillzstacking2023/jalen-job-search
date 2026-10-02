@@ -1,7 +1,7 @@
 [
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
@@ -45,8 +45,8 @@
     }
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
@@ -90,8 +90,8 @@
     }
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
@@ -135,8 +135,8 @@
     }
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
@@ -180,8 +180,8 @@
     }
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
@@ -225,8 +225,8 @@
     }
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
@@ -270,8 +270,8 @@
     }
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
@@ -315,8 +315,8 @@
     }
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-10-01",
     "certRequired": false,
     "certNote": "",
@@ -360,8 +360,8 @@
     "id": 8
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
@@ -405,8 +405,8 @@
     }
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
@@ -450,8 +450,8 @@
     }
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
@@ -495,8 +495,8 @@
     }
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
@@ -540,8 +540,8 @@
     }
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
@@ -585,14 +585,59 @@
     }
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "score": 80,
+    "title": "(RN) Registered Nurse - Cardiothoracic OR - 134079",
+    "company": "UC San Diego Health",
+    "market": "CA",
+    "city": "San Diego, CA",
+    "salary": "$62.90 - $88.16/hr",
+    "payMin": 62.9,
+    "payMax": 88.16,
+    "roleType": "CVOR / Cardiac",
+    "sector": "Health System",
+    "priority": "High",
+    "license": "California",
+    "certRequired": false,
+    "certNote": "",
+    "employmentType": "Full Time",
+    "url": "https://employment.ucsd.edu/rn-registered-nurse-cardiothoracic-or-134079/job/28806237",
+    "notes": "Cardiothoracic OR at Jacobs Medical Center with two openings, one day and one evening, on 12-hour shifts. The minimum is 2+ years of cardio-thoracic OR experience in an acute care hospital, with 2 years of cardiac scrub experience preferred - you meet both. CNOR is preferred, not required. The page shows no closed banner but carries an old posted date (Feb 2025), so confirm with the recruiter that it is still active. Your active California license covers it; it would mean relocating.",
+    "fit": {
+      "specialty": 5,
+      "experience": 5,
+      "location": 2,
+      "pay": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "specialty": "Dedicated cardiothoracic OR work - your core CABG, valve and aortic experience.",
+      "experience": "Two years of CVOR scrubbing and circulating meets the 2+ year minimum; CNOR is only preferred.",
+      "location": "San Diego is a relocation from Maryland; your California license applies with no new application.",
+      "pay": "$62.90 - $88.16/hr clears your $50 floor across the whole band.",
+      "employer": "Large academic medical center with a high-volume cardiac surgery program."
+    },
+    "intel": {
+      "size": "Large academic health system",
+      "hq": "San Diego, CA",
+      "remotePolicy": "On site, 12-hour shifts",
+      "news": "Posted date on the page is Feb 2025 - confirm still active",
+      "magnet": "Not confirmed"
+    },
+    "payBasis": "hour",
+    "id": 14,
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
+    "lastVerified": "2026-10-02"
+  },
+  {
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 14,
+    "id": 15,
     "score": 79,
     "title": "RN - Operating Room, 8 hour evenings - 10:30 am to 7pm (HCMC)",
     "company": "Johns Hopkins Medicine",
@@ -630,14 +675,14 @@
     }
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Part Time",
-    "id": 15,
+    "id": 16,
     "score": 79,
     "title": "Registered Nurse II - Cardiovascular Thoracic OR",
     "company": "Johns Hopkins Medicine",
@@ -675,14 +720,14 @@
     }
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 16,
+    "id": 17,
     "score": 78,
     "title": "Senior Clinical Nurse I- Operating Room",
     "company": "University of Maryland Medical System",
@@ -720,14 +765,14 @@
     }
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 17,
+    "id": 18,
     "score": 78,
     "title": "Clinical Nurse II - Operating Room",
     "company": "University of Maryland Medical System",
@@ -765,8 +810,8 @@
     }
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-30",
     "certRequired": false,
     "certNote": "",
@@ -807,17 +852,62 @@
       "magnet": "Varies by facility"
     },
     "priority": "Medium",
-    "id": 18
+    "id": 19
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "score": 78,
+    "title": "Registered Nurse / Operating Room Open Heart",
+    "company": "Cross Country",
+    "market": "Travel",
+    "city": "Farmington, CT",
+    "salary": "$3,407/wk total incl. stipends - 16 wks, 10-hr days (4x10)",
+    "payMin": null,
+    "payMax": null,
+    "roleType": "Travel Contract",
+    "sector": "Travel Agency",
+    "priority": "Medium",
+    "license": "Compact/MD",
+    "certRequired": false,
+    "certNote": "",
+    "employmentType": "Contract",
+    "url": "https://www.crosscountry.com/jobs/details/travel-registered-nurse-operating-room-open-heart-farmington-ct-1852764",
+    "notes": "16-week open-heart OR travel assignment in Farmington, Connecticut, 40 hours a week on 10-hour days. You would scrub and circulate open-heart cases and help on ortho, spine and neuro cases. Starts Nov 16, 2026. Expect mandatory overtime, on-call (at least one weekend a month) and rotating holidays. The posting asks for 4-5 years of OR experience and current Nursys license documentation. Connecticut implemented the Nurse Licensure Compact in Oct 2025, so your Maryland multistate license should apply - confirm with the agency. The weekly figure blends taxable wage and stipends and Cross Country does not publish an hourly wage. Vivian comparison not checked this run.",
+    "fit": {
+      "specialty": 5,
+      "experience": 4,
+      "location": 2,
+      "pay": 3,
+      "employer": 3
+    },
+    "fitNotes": {
+      "specialty": "Open-heart scrub and circulate matches your CVOR background directly.",
+      "experience": "The posting asks for 4-5 years of OR experience; you exceed that overall, with 2 of them in CVOR.",
+      "location": "Out of state with housing needed - a short-term option, not a commute.",
+      "pay": "$3,407/wk total including stipends. That is not an hourly wage - ask for the taxable base rate before comparing it with your $50/hr floor.",
+      "employer": "Large national agency; the facility is not named in the posting."
+    },
+    "intel": {
+      "size": "National staffing agency",
+      "hq": "Boca Raton, FL",
+      "remotePolicy": "16-week contract, on site",
+      "news": "Open-heart OR assignment, 4x10 days",
+      "magnet": "Unknown (facility undisclosed)"
+    },
+    "payBasis": "hour",
+    "id": 20,
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
+    "lastVerified": "2026-10-02"
+  },
+  {
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 19,
+    "id": 21,
     "score": 77,
     "title": "Evening Shift RN | Operating Room",
     "company": "University of Maryland Medical System",
@@ -855,14 +945,14 @@
     }
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-29",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
     "employmentType": "Full Time",
-    "id": 20,
+    "id": 22,
     "score": 76,
     "title": "Nurse (Clinical Research)",
     "company": "National Institutes of Health Clinical Center",
@@ -901,8 +991,8 @@
     }
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-30",
     "certRequired": false,
     "certNote": "",
@@ -943,11 +1033,11 @@
       "magnet": "Varies by facility"
     },
     "priority": "Medium",
-    "id": 21
+    "id": 23
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-09-30",
     "certRequired": false,
     "certNote": "",
@@ -988,11 +1078,11 @@
       "magnet": "Varies by facility"
     },
     "priority": "Medium",
-    "id": 22
+    "id": 24
   },
   {
-    "postedDate": "2026-10-01",
-    "posted": "2026-10-01",
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
     "lastVerified": "2026-10-01",
     "certRequired": false,
     "certNote": "",
@@ -1033,6 +1123,142 @@
       "news": "CVOR assignment, variable shift",
       "magnet": "Varies by facility"
     },
-    "id": 23
+    "id": 25
+  },
+  {
+    "score": 74,
+    "title": "Staff Nurse - Operating Room (OR) - 1.0 FTE - D/E - LHDCMC",
+    "company": "Luminis Health",
+    "market": "MD",
+    "city": "Lanham, MD",
+    "salary": "$39 - $60/hr",
+    "payMin": 39,
+    "payMax": 60,
+    "roleType": "OR / Perioperative",
+    "sector": "Health System",
+    "priority": "Medium",
+    "license": "Compact/MD",
+    "certRequired": false,
+    "certNote": "",
+    "employmentType": "Full Time",
+    "url": "https://www.luminishealthcareers.org/job/lanham/staff-nurse-operating-room-or-1-0-fte-d-e-lhdcmc/45871/93805597936",
+    "notes": "Full-time staff OR nurse at Luminis Health Doctors Community Medical Center, day/evening with minimal on-call, covering pre-op assessment, intra-op monitoring, positioning and sterile technique, plus supervising OR techs and mentoring staff. Asks for a BSN, 2 years of OR experience, a Maryland RN license, BLS and ACLS. A $10,000 commitment bonus is listed. The band starts at $39/hr, below your $50 floor, so the offer depends on experience placement. General OR, not cardiac.",
+    "fit": {
+      "specialty": 3,
+      "experience": 4,
+      "location": 4,
+      "pay": 3,
+      "employer": 3
+    },
+    "fitNotes": {
+      "specialty": "General OR with no cardiac surgery listed; your CVOR depth goes beyond what the role asks.",
+      "experience": "You exceed the 2-year OR minimum and hold the BSN, BLS and ACLS.",
+      "location": "Lanham is in the Maryland/DC corridor and your compact license covers it.",
+      "pay": "Top of the band reaches $60 but the bottom is under your floor; with 9+ years, negotiate toward the upper half.",
+      "employer": "Community hospital in the Luminis system with a smaller surgical program than Hopkins."
+    },
+    "intel": {
+      "size": "Regional health system",
+      "hq": "Annapolis, MD",
+      "remotePolicy": "On site",
+      "news": "$10,000 commitment bonus listed",
+      "magnet": "Not confirmed"
+    },
+    "payBasis": "hour",
+    "id": 26,
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
+    "lastVerified": "2026-10-02"
+  },
+  {
+    "score": 62,
+    "title": "Team Leader RN - Operating Room - 1.0 FTE - Days - LHDCMC",
+    "company": "Luminis Health",
+    "market": "MD",
+    "city": "Lanham, MD",
+    "salary": "$40 - $60/hr",
+    "payMin": 40,
+    "payMax": 60,
+    "roleType": "Leadership",
+    "sector": "Health System",
+    "priority": "Stretch",
+    "license": "Compact/MD",
+    "certRequired": false,
+    "certNote": "",
+    "employmentType": "Full Time",
+    "url": "https://www.luminishealthcareers.org/job/lanham/team-leader-rn-operating-room-1-0-fte-days-lhdcmc/45871/100487086224",
+    "notes": "Day-shift team leader in the OR at Doctors Community Medical Center: OR coordination, patient flow, staff development, supplies and case management. Asks for a Maryland RN license, BLS and 2 years of OR experience; BSN required (or within two years of hire). CNOR is preferred, not required. A leadership step with no cardiac content, and the band starts at $40/hr, below your $50 floor. Posted Sept 11, 2026.",
+    "fit": {
+      "specialty": 3,
+      "experience": 3,
+      "location": 4,
+      "pay": 3,
+      "employer": 3
+    },
+    "fitNotes": {
+      "specialty": "General OR coordination, not cardiac.",
+      "experience": "You exceed the OR minimum, but the role leans on charge-style leadership you have not held formally; your precepting is the bridge.",
+      "location": "Lanham works with your compact license.",
+      "pay": "$40 - $60/hr with the low end under your floor.",
+      "employer": "Community hospital in the Luminis system."
+    },
+    "intel": {
+      "size": "Regional health system",
+      "hq": "Annapolis, MD",
+      "remotePolicy": "On site, days",
+      "news": "Posted Sept 11, 2026",
+      "magnet": "Not confirmed"
+    },
+    "payBasis": "hour",
+    "id": 27,
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
+    "lastVerified": "2026-10-02"
+  },
+  {
+    "score": 62,
+    "title": "Registered Nurse (RN) Per Diem 84 Operating Room Flexible",
+    "company": "ChristianaCare",
+    "market": "DE",
+    "city": "Newark, DE",
+    "salary": "$56.00/hr flat",
+    "payMin": 56,
+    "payMax": 56,
+    "roleType": "OR / Perioperative",
+    "sector": "Health System",
+    "priority": "Stretch",
+    "license": "Compact/MD",
+    "certRequired": false,
+    "certNote": "",
+    "employmentType": "PRN",
+    "url": "https://careers.christianacare.org/posting/JR82350/",
+    "expiresOn": "2026-10-31",
+    "notes": "Per diem general OR role at ChristianaCare's Newark campus on day or evening 12-hour shifts, flat $56.00/hr - above your $50 floor. Requires 3+ years of OR experience, which you exceed; CNOR is preferred, not required, and a BSN is required (or committed to within 3 years). Not a CVOR role and PRN, so it works as a bridge or second job rather than a full-time move. Newark, Delaware is in a compact state, so your Maryland license covers it. Commute is roughly 60-90 minutes from Central Maryland depending on I-95 traffic. Applications close 10/31/2026.",
+    "fit": {
+      "specialty": 3,
+      "experience": 5,
+      "location": 3,
+      "pay": 4,
+      "employer": 4
+    },
+    "fitNotes": {
+      "specialty": "General OR with no cardiac focus stated; your CVOR background is a plus but not what they ask for.",
+      "experience": "You exceed the 3+ year OR requirement and hold the BSN; CNOR is not needed.",
+      "location": "Roughly 60-90 minutes from Central Maryland - long for a per diem schedule.",
+      "pay": "$56/hr clears your floor, but per diem usually carries no benefits and no guaranteed hours.",
+      "employer": "Large regional system with a Level I trauma center; solid employer, not a cardiac-surgery posting."
+    },
+    "intel": {
+      "size": "Large regional health system",
+      "hq": "Wilmington, DE",
+      "remotePolicy": "On site, 12-hour day or evening shifts",
+      "news": "Applications close 10/31/2026",
+      "magnet": "Not confirmed"
+    },
+    "payBasis": "hour",
+    "id": 28,
+    "postedDate": "2026-10-02",
+    "posted": "2026-10-02",
+    "lastVerified": "2026-10-02"
   }
 ]
