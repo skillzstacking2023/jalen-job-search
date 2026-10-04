@@ -182,6 +182,51 @@
   {
     "postedDate": "2026-10-04",
     "posted": "2026-10-04",
+    "lastVerified": "2026-10-04",
+    "certRequired": false,
+    "certNote": "",
+    "payBasis": "hour",
+    "company": "University of Maryland Medical System",
+    "market": "MD",
+    "sector": "Health System",
+    "license": "Compact/MD",
+    "id": 30,
+    "score": 87,
+    "title": "Registered Nurse Shock Trauma Operating Room",
+    "city": "Baltimore, MD",
+    "employmentType": "Full Time",
+    "salary": "$37.75 - $54.05/hr - $20,000 sign-on bonus advertised",
+    "payMin": 37.75,
+    "payMax": 54.05,
+    "roleType": "OR / Perioperative",
+    "priority": "High",
+    "url": "https://careers.umms.org/us/en/job/P-104771/Registered-Nurse-Shock-Trauma-Operating-Room",
+    "notes": "University of Maryland Medical System - a top-preference employer. Operating room at the R Adams Cowley Shock Trauma Center (UM Medical Center, 9 OR suites), full time on a rotating schedule with weekends, holidays and call, and a $20,000 sign-on bonus advertised. Asks for more than 12 months of perioperative experience and the ability to scrub and circulate trauma lines (general, ortho, vascular, neuro, plastics, ENT), which you do. The band reaches $54.05, so you clear $50/hr only in the upper steps. Req P-104771.",
+    "fit": {
+      "specialty": 4,
+      "experience": 5,
+      "location": 5,
+      "pay": 3,
+      "employer": 5
+    },
+    "fitNotes": {
+      "specialty": "High-acuity trauma OR, including vascular; broader and less cardiac than your CVOR core.",
+      "experience": "Nine years periop with scrub and circulate across service lines is well past the 12-month minimum.",
+      "location": "Downtown Baltimore, a straightforward commute from central Maryland.",
+      "pay": "$37.75 - $54.05; you need the upper steps to clear $50/hr, plus the sign-on bonus.",
+      "employer": "UMMS, your top-preference system; Magnet-designated academic center and world-renowned trauma program."
+    },
+    "intel": {
+      "size": "Academic medical center",
+      "hq": "Baltimore, MD",
+      "remotePolicy": "On site, rotating with call",
+      "news": "Shock Trauma operating room",
+      "magnet": "Magnet designated"
+    }
+  },
+  {
+    "postedDate": "2026-10-04",
+    "posted": "2026-10-04",
     "lastVerified": "2026-10-03",
     "certRequired": false,
     "certNote": "",
