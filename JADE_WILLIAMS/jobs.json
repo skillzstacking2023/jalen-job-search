@@ -1,7 +1,7 @@
 [
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-02",
     "certRequired": false,
     "certNote": "",
@@ -45,8 +45,8 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-03",
     "certRequired": false,
     "certNote": "",
@@ -90,8 +90,8 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-02",
     "certRequired": false,
     "certNote": "",
@@ -135,8 +135,53 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
+    "lastVerified": "2026-10-05",
+    "certRequired": false,
+    "certNote": "",
+    "payBasis": "hour",
+    "company": "University of Maryland Medical System",
+    "market": "MD",
+    "sector": "Health System",
+    "license": "Compact/MD",
+    "id": 31,
+    "score": 90,
+    "title": "Cardiovascular Operating Room Registered Nurse (CVOR RN)",
+    "city": "Largo, MD",
+    "employmentType": "Full Time",
+    "salary": "$43.30 - $54.90/hr",
+    "payMin": 43.3,
+    "payMax": 54.9,
+    "roleType": "CVOR / Cardiac",
+    "priority": "High",
+    "url": "https://careers.umms.org/us/en/job/P-103794/Cardiovascular-Operating-Room-Registered-Nurse-CVOR-RN",
+    "notes": "University of Maryland Medical System - a top-preference employer. Full-time days CVOR at UM Capital Region Medical Center in Largo, 4 x 10-hour shifts 6:45am to 5:15pm with rotating weekends and holidays. Circulating CABG, valve repair and replacement, thoracic and endovascular cases, with charge and precepting built into the role. Requires 1-2 years of CVOR or open-heart experience, which you exceed. Band reaches $54.90, so $50+ is possible in the upper steps. A second CVOR opening at this hospital is also on the board. Req P-103794.",
+    "fit": {
+      "specialty": 5,
+      "experience": 5,
+      "location": 4,
+      "pay": 4,
+      "employer": 5
+    },
+    "fitNotes": {
+      "specialty": "CVOR is the core of your background: CABG, valves and thoracic cases.",
+      "experience": "Well past the 2-3 year OR and 1-2 year CVOR requirements.",
+      "location": "Largo; longer commute from central Maryland.",
+      "pay": "$43.30 - $54.90; upper steps clear $50/hr.",
+      "employer": "UMMS, your top-preference system."
+    },
+    "intel": {
+      "size": "Academic-affiliated regional medical center",
+      "hq": "Largo, MD",
+      "remotePolicy": "On site",
+      "news": "Operating room",
+      "magnet": "UMMS member"
+    }
+  },
+  {
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-03",
     "certRequired": false,
     "certNote": "",
@@ -180,8 +225,8 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-04",
     "certRequired": false,
     "certNote": "",
@@ -225,8 +270,8 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-03",
     "certRequired": false,
     "certNote": "",
@@ -270,8 +315,53 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
+    "lastVerified": "2026-10-05",
+    "certRequired": false,
+    "certNote": "",
+    "payBasis": "hour",
+    "company": "University of Maryland Medical System",
+    "market": "MD",
+    "sector": "Health System",
+    "license": "Compact/MD",
+    "id": 32,
+    "score": 85,
+    "title": "Registered Nurse (RN), Operating Room",
+    "city": "Largo, MD",
+    "employmentType": "Full Time",
+    "salary": "$43.30 - $54.90/hr",
+    "payMin": 43.3,
+    "payMax": 54.9,
+    "roleType": "OR / Perioperative",
+    "priority": "High",
+    "url": "https://careers.umms.org/us/en/job/P-108656/Registered-Nurse-RN-Operating-Room",
+    "notes": "University of Maryland Medical System - a top-preference employer. Full-time day OR at UM Capital Region Medical Center in Largo, 3 x 12-hour shifts 10:45am to 11:15pm with required rotating call and holidays. Asks for scrubbing and circulating across specialties, which you do. Requires 2 years of OR experience and 1 year of scrub and circulate experience, which you exceed. Band reaches $54.90, so $50+ is possible in the upper steps. Sign-on bonus and relocation assistance are listed. Req P-108656.",
+    "fit": {
+      "specialty": 5,
+      "experience": 5,
+      "location": 4,
+      "pay": 4,
+      "employer": 5
+    },
+    "fitNotes": {
+      "specialty": "General OR across specialties; you scrub and circulate.",
+      "experience": "Well past the 2-year OR requirement.",
+      "location": "Largo; longer commute from central Maryland.",
+      "pay": "$43.30 - $54.90; upper steps clear $50/hr.",
+      "employer": "UMMS, your top-preference system."
+    },
+    "intel": {
+      "size": "Academic-affiliated regional medical center",
+      "hq": "Largo, MD",
+      "remotePolicy": "On site",
+      "news": "Operating room",
+      "magnet": "UMMS member"
+    }
+  },
+  {
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-03",
     "certRequired": false,
     "certNote": "",
@@ -315,8 +405,8 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-03",
     "certRequired": false,
     "certNote": "",
@@ -360,8 +450,8 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-02",
     "certRequired": false,
     "certNote": "",
@@ -405,8 +495,8 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-03",
     "certRequired": false,
     "certNote": "",
@@ -450,9 +540,9 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
-    "lastVerified": "2026-10-01",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
+    "lastVerified": "2026-10-05",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -495,8 +585,8 @@
     "id": 10
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-03",
     "certRequired": false,
     "certNote": "",
@@ -540,8 +630,8 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-03",
     "certRequired": false,
     "certNote": "",
@@ -585,8 +675,53 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
+    "lastVerified": "2026-10-05",
+    "certRequired": false,
+    "certNote": "",
+    "payBasis": "hour",
+    "employmentType": "Full Time",
+    "id": 33,
+    "score": 83,
+    "title": "RN - Operating Room, 8 hour days, 6:30a to 3p (HCMC)",
+    "company": "Johns Hopkins Medicine",
+    "market": "MD",
+    "city": "Columbia, MD",
+    "salary": "$37.13 - $57.87/hr",
+    "payMin": 37.13,
+    "payMax": 57.87,
+    "roleType": "OR / Perioperative",
+    "sector": "Health System",
+    "priority": "High",
+    "license": "Compact/MD",
+    "url": "https://jobs.hopkinsmedicine.org/job/102721/rn-operating-room-8-hour-days-630a-to-3p-hcmc-nursing-us-md-columbia-johns-hopkins-howard-county-medical-center/",
+    "notes": "Johns Hopkins Howard County Medical Center OR on fixed 8-hour days, 6:30am to 3pm, 40 hours a week. The 11 ORs cover ortho, spine, robotics and general surgery. Requires only 6 months of nursing experience and prefers 1 year of OR, so nothing blocks you. You worked at this hospital in 2025, so the unit is familiar.",
+    "fit": {
+      "specialty": 4,
+      "experience": 5,
+      "location": 5,
+      "pay": 3,
+      "employer": 5
+    },
+    "fitNotes": {
+      "specialty": "General, ortho and robotic OR rather than cardiac cases.",
+      "experience": "Far above the 1-year OR preference.",
+      "location": "Columbia, short commute.",
+      "pay": "Band starts at $37.13 and tops at $57.87; clearing $50/hr needs an upper-band placement, so raise the step early.",
+      "employer": "Former employer; fixed day shift."
+    },
+    "intel": {
+      "size": "Community hospital",
+      "hq": "Columbia, MD",
+      "remotePolicy": "On site, fixed day shift",
+      "news": "Operating room",
+      "magnet": "Johns Hopkins Medicine member"
+    }
+  },
+  {
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-03",
     "certRequired": false,
     "certNote": "",
@@ -630,8 +765,8 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-03",
     "certRequired": false,
     "certNote": "",
@@ -675,8 +810,8 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-03",
     "certRequired": false,
     "certNote": "",
@@ -721,8 +856,8 @@
     "id": 15
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-02",
     "certRequired": false,
     "certNote": "",
@@ -766,8 +901,8 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-02",
     "certRequired": false,
     "certNote": "",
@@ -811,8 +946,8 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-03",
     "certRequired": false,
     "certNote": "",
@@ -856,8 +991,8 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-03",
     "certRequired": false,
     "certNote": "",
@@ -901,8 +1036,8 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-03",
     "certRequired": false,
     "certNote": "",
@@ -946,8 +1081,8 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-03",
     "certRequired": false,
     "certNote": "",
@@ -991,53 +1126,8 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
-    "lastVerified": "2026-10-02",
-    "certRequired": false,
-    "certNote": "",
-    "payBasis": "hour",
-    "company": "University of Maryland Medical System",
-    "market": "MD",
-    "sector": "Health System",
-    "license": "Compact/MD",
-    "id": 22,
-    "score": 78,
-    "title": "PACU Registered Nurse (RN) | Post-Anesthesia Care Unit",
-    "city": "Largo, MD",
-    "employmentType": "Full Time",
-    "salary": "$43.30 - $54.90/hr",
-    "payMin": 43.3,
-    "payMax": 54.9,
-    "roleType": "PACU / Pre-Op",
-    "priority": "Medium",
-    "url": "https://careers.umms.org/us/en/job/P-102591/PACU-Registered-Nurse-RN-Post-Anesthesia-Care-Unit",
-    "notes": "University of Maryland Medical System - a top-preference employer. Full-time day-shift PACU at UM Capital Region Medical Center in Largo. Asks for 3 years of perioperative experience including PACU, pre-op or PAT. PACU rather than intraoperative work, so it ranks below your OR options, though it is a close step from your periop background. Req P-102591.",
-    "fit": {
-      "specialty": 4,
-      "experience": 4,
-      "location": 4,
-      "pay": 4,
-      "employer": 5
-    },
-    "fitNotes": {
-      "specialty": "Post-anesthesia recovery rather than intraoperative nursing.",
-      "experience": "Your 9 years periop counts, but the requirement names PACU, pre-op or PAT experience specifically; confirm it is accepted.",
-      "location": "Largo; longer commute from central Maryland.",
-      "pay": "$43.30 - $54.90; upper steps clear $50/hr.",
-      "employer": "UMMS, your top-preference system."
-    },
-    "intel": {
-      "size": "Academic-affiliated regional medical center",
-      "hq": "Largo, MD",
-      "remotePolicy": "On site",
-      "news": "Post-anesthesia care unit",
-      "magnet": "UMMS member"
-    }
-  },
-  {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-04",
     "certRequired": false,
     "certNote": "",
@@ -1121,13 +1211,13 @@
     },
     "payBasis": "hour",
     "id": 24,
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-02"
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-03",
     "certRequired": false,
     "certNote": "",
@@ -1171,8 +1261,8 @@
     "id": 25
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-03",
     "certRequired": false,
     "certNote": "",
@@ -1216,8 +1306,8 @@
     }
   },
   {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
+    "postedDate": "2026-10-05",
+    "posted": "2026-10-05",
     "lastVerified": "2026-10-04",
     "certRequired": false,
     "certNote": "",
@@ -1259,95 +1349,5 @@
     },
     "priority": "Medium",
     "id": 27
-  },
-  {
-    "score": 74,
-    "title": "Staff Nurse - Operating Room (OR) - 1.0 FTE - D/E - LHDCMC",
-    "company": "Luminis Health",
-    "market": "MD",
-    "city": "Lanham, MD",
-    "salary": "$39 - $60/hr",
-    "payMin": 39,
-    "payMax": 60,
-    "roleType": "OR / Perioperative",
-    "sector": "Health System",
-    "priority": "Medium",
-    "license": "Compact/MD",
-    "certRequired": false,
-    "certNote": "",
-    "employmentType": "Full Time",
-    "url": "https://www.luminishealthcareers.org/job/lanham/staff-nurse-operating-room-or-1-0-fte-d-e-lhdcmc/45871/93805597936",
-    "notes": "Full-time staff OR nurse at Luminis Health Doctors Community Medical Center, day/evening with minimal on-call, covering pre-op assessment, intra-op monitoring, positioning and sterile technique, plus supervising OR techs and mentoring staff. Asks for a BSN, 2 years of OR experience, a Maryland RN license, BLS and ACLS. A $10,000 commitment bonus is listed. The band starts at $39/hr, below your $50 floor, so the offer depends on experience placement. General OR, not cardiac.",
-    "fit": {
-      "specialty": 3,
-      "experience": 4,
-      "location": 4,
-      "pay": 3,
-      "employer": 3
-    },
-    "fitNotes": {
-      "specialty": "General OR with no cardiac surgery listed; your CVOR depth goes beyond what the role asks.",
-      "experience": "You exceed the 2-year OR minimum and hold the BSN, BLS and ACLS.",
-      "location": "Lanham is in the Maryland/DC corridor and your compact license covers it.",
-      "pay": "Top of the band reaches $60 but the bottom is under your floor; with 9+ years, negotiate toward the upper half.",
-      "employer": "Community hospital in the Luminis system with a smaller surgical program than Hopkins."
-    },
-    "intel": {
-      "size": "Regional health system",
-      "hq": "Annapolis, MD",
-      "remotePolicy": "On site",
-      "news": "$10,000 commitment bonus listed",
-      "magnet": "Not confirmed"
-    },
-    "payBasis": "hour",
-    "id": 28,
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
-    "lastVerified": "2026-10-02"
-  },
-  {
-    "postedDate": "2026-10-04",
-    "posted": "2026-10-04",
-    "lastVerified": "2026-10-02",
-    "certRequired": false,
-    "certNote": "CNOR preferred, not required",
-    "payBasis": "hour",
-    "company": "University of Maryland Medical System",
-    "market": "MD",
-    "sector": "Health System",
-    "license": "Compact/MD",
-    "id": 29,
-    "score": 68,
-    "title": "Assistant Nurse Manager - Operating Room",
-    "city": "Towson, MD",
-    "employmentType": "Full Time",
-    "salary": "$47.00 - $70.54/hr",
-    "payMin": 47.0,
-    "payMax": 70.54,
-    "roleType": "Leadership",
-    "priority": "Stretch",
-    "url": "https://careers.umms.org/us/en/job/P-105849/Assistant-Nurse-Manager-Operating-Room",
-    "notes": "University of Maryland Medical System - a top-preference employer. Assistant nurse manager for the OR at UM St. Joseph Medical Center in Towson. CNOR is preferred, not required. You have no formal leadership title yet, so this is a realistic stretch built on your precepting and training record; the band starts at $47 and reaches $70.54. Req P-105849.",
-    "fit": {
-      "specialty": 4,
-      "experience": 3,
-      "location": 5,
-      "pay": 5,
-      "employer": 5
-    },
-    "fitNotes": {
-      "specialty": "Leadership of the OR you already work in.",
-      "experience": "You precept and train but have not held a charge or manager title, and you do not hold CNOR (preferred).",
-      "location": "Towson.",
-      "pay": "$47.00 - $70.54; the band clears $50/hr early.",
-      "employer": "UMMS, your top-preference system."
-    },
-    "intel": {
-      "size": "Community teaching hospital (218 beds)",
-      "hq": "Towson, MD",
-      "remotePolicy": "On site",
-      "news": "OR leadership",
-      "magnet": "UMMS member"
-    }
   }
 ]
