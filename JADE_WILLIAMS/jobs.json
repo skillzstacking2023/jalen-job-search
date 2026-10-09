@@ -1,53 +1,8 @@
 [
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-06",
-    "certRequired": false,
-    "certNote": "",
-    "payBasis": "hour",
-    "company": "University of Maryland Medical System",
-    "market": "MD",
-    "sector": "Health System",
-    "license": "Compact/MD",
-    "id": 1,
-    "score": 96,
-    "title": "Clinical Nurse II Cardiac OR",
-    "city": "Towson, MD",
-    "employmentType": "Full Time",
-    "salary": "$62.88/hr",
-    "payMin": 62.88,
-    "payMax": 62.88,
-    "roleType": "CVOR / Cardiac",
-    "priority": "High",
-    "url": "https://careers.umms.org/us/en/job/P-108172/Clinical-Nurse-II-Cardiac-OR",
-    "notes": "University of Maryland Medical System - a top-preference employer. Cardiac OR at UM St. Joseph Medical Center in Towson, full time on days, at $62.88/hr - well above your $50/hr floor. Asks for 2+ years of OR experience, recent scrubbing and the ability to scrub and circulate, with cardiac or vascular OR experience preferred: a direct match for your Johns Hopkins CVOR work. Req P-108172.",
-    "fit": {
-      "specialty": 5,
-      "experience": 5,
-      "location": 5,
-      "pay": 5,
-      "employer": 5
-    },
-    "fitNotes": {
-      "specialty": "Cardiac OR - your strongest specialty.",
-      "experience": "Your CVOR, open-heart and vascular scrub/circulate experience matches every listed requirement.",
-      "location": "Towson.",
-      "pay": "$62.88/hr flat, $12.88 above your floor.",
-      "employer": "UMMS, your top-preference system; UM St. Joseph is a Leapfrog A-rated hospital."
-    },
-    "intel": {
-      "size": "Community teaching hospital (218 beds)",
-      "hq": "Towson, MD",
-      "remotePolicy": "On site - day shift",
-      "news": "Cardiac operating room",
-      "magnet": "UMMS member"
-    }
-  },
-  {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-07",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -90,9 +45,9 @@
     }
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-06",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -135,9 +90,9 @@
     }
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-05",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -180,9 +135,9 @@
     }
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-08",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -265,14 +220,14 @@
       "news": "$20k sign-on bonus advertised",
       "magnet": "Magnet designated"
     },
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-08"
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09"
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-07",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -315,9 +270,9 @@
     }
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-05",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -360,9 +315,9 @@
     }
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-07",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -405,9 +360,9 @@
     }
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-07",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -450,9 +405,9 @@
     }
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-06",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -495,9 +450,9 @@
     }
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-05",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -540,9 +495,9 @@
     "id": 10
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-07",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -625,14 +580,14 @@
       "news": "Operating room nursing opening",
       "magnet": "UMMS member"
     },
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-08"
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09"
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-05",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -675,9 +630,9 @@
     }
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-07",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -760,14 +715,104 @@
       "news": "Operating room nursing opening",
       "magnet": "UMMS member"
     },
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-08"
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09"
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-07",
+    "id": 45,
+    "score": 83,
+    "title": "Registered Nurse II - OR",
+    "company": "University of Maryland Medical System",
+    "market": "MD",
+    "city": "Bel Air, MD",
+    "salary": "$37.75 - $56.21/hr",
+    "payMin": 37.75,
+    "payMax": 56.21,
+    "payBasis": "hour",
+    "roleType": "OR / Perioperative",
+    "sector": "Health System",
+    "priority": "High",
+    "license": "Compact/MD",
+    "certRequired": false,
+    "certNote": "",
+    "employmentType": "Full Time",
+    "url": "https://careers.umms.org/us/en/job/P-108839/Registered-Nurse-II-OR",
+    "notes": "University of Maryland Medical System - a top-preference employer. Full-time Operating Room RN II at UM Upper Chesapeake Health in Bel Air; the role is for nurses with 12+ months of experience. The band runs $37.75 - $56.21/hr, so your experience should place you in the upper half to reach your $50/hr floor. Req P-108839.",
+    "fit": {
+      "specialty": 5,
+      "experience": 5,
+      "location": 3,
+      "pay": 3,
+      "employer": 5
+    },
+    "fitNotes": {
+      "specialty": "Core intraoperative OR role.",
+      "experience": "Well above the 12 month minimum - your scrub and circulate experience is a direct match.",
+      "location": "Bel Air is a longer drive from Central Maryland than the Baltimore sites.",
+      "pay": "Band starts below $50/hr; pay at your level depends on step placement.",
+      "employer": "UMMS, your top-preference system; UM Upper Chesapeake Health."
+    },
+    "intel": {
+      "size": "Community hospital in the UMMS network",
+      "hq": "Bel Air, MD",
+      "remotePolicy": "On site",
+      "news": "Operating room staff nurse",
+      "magnet": "UMMS member"
+    },
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09"
+  },
+  {
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
+    "certRequired": false,
+    "certNote": "",
+    "payBasis": "hour",
+    "employmentType": "Full Time",
+    "id": 47,
+    "score": 83,
+    "title": "Registered Nurse II - Operating Room",
+    "company": "Johns Hopkins Medicine",
+    "market": "MD",
+    "city": "Baltimore, MD",
+    "salary": "$39.64 - $61.45/hr",
+    "payMin": 39.64,
+    "payMax": 61.45,
+    "roleType": "OR / Perioperative",
+    "sector": "Health System",
+    "priority": "High",
+    "license": "Compact/MD",
+    "url": "https://jobs.hopkinsmedicine.org/job/103089/registered-nurse-ii-operating-room-nursing-us-md-baltimore-johns-hopkins-bayview-medical-center/",
+    "notes": "Full-time OR RN II at Johns Hopkins Bayview Medical Center in Baltimore. Bayview OR nurses scrub and circulate across a wide range of surgical specialties, which fits your scrub-and-circulate experience, and the band reaches $61.45/hr, well above your $50/hr floor. Your prior Johns Hopkins service is a plus. Req 679791.",
+    "fit": {
+      "specialty": 5,
+      "experience": 5,
+      "location": 5,
+      "pay": 4,
+      "employer": 5
+    },
+    "fitNotes": {
+      "specialty": "General OR across multiple service lines.",
+      "experience": "RN II band fits nine years of progressive periop practice.",
+      "location": "Baltimore.",
+      "pay": "Band reaches $61.45; rotating-shift differentials sit on top of base.",
+      "employer": "Hopkins system hospital; you have prior Hopkins service."
+    },
+    "intel": {
+      "size": "Academic medical center",
+      "hq": "Baltimore, MD",
+      "remotePolicy": "On site, rotating shift",
+      "news": "Main operating room",
+      "magnet": "Johns Hopkins Medicine member"
+    }
+  },
+  {
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -810,9 +855,9 @@
     }
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-07",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -855,9 +900,9 @@
     }
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-06",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -900,9 +945,9 @@
     }
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-07",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -942,51 +987,6 @@
       "remotePolicy": "On site, day shift, weekend rotation and on-call",
       "news": "Cardiovascular Thoracic OR - six suites with robotics",
       "magnet": "Magnet designated"
-    }
-  },
-  {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-07",
-    "certRequired": false,
-    "certNote": "",
-    "payBasis": "hour",
-    "employmentType": "Full Time",
-    "id": 18,
-    "score": 79,
-    "title": "RN - Operating Room, 8 hour evenings - 10:30 am to 7pm (HCMC)",
-    "company": "Johns Hopkins Medicine",
-    "market": "MD",
-    "city": "Columbia, MD",
-    "salary": "$37.13 - $57.87/hr",
-    "payMin": 37.13,
-    "payMax": 57.87,
-    "roleType": "OR / Perioperative",
-    "sector": "Health System",
-    "priority": "Medium",
-    "license": "Compact/MD",
-    "url": "https://jobs.hopkinsmedicine.org/job/102072/rn-operating-room-8-hour-evenings-1030-am-to-7pm-hcmc-nursing-us-md-columbia-johns-hopkins-howard-county-medical-center/",
-    "notes": "Johns Hopkins Howard County Medical Center OR on a fixed 10:30am to 7pm evening shift - no rotating nights. You worked at this hospital in 2025, so the unit and the surgeons are known quantities.",
-    "fit": {
-      "specialty": 5,
-      "experience": 5,
-      "location": 5,
-      "pay": 3,
-      "employer": 5
-    },
-    "fitNotes": {
-      "specialty": "General OR, the case mix you covered here previously.",
-      "experience": "Prior service at this exact hospital.",
-      "location": "Columbia, short commute.",
-      "pay": "Band starts at $37.13 and tops at $57.87 - clearing $50/hr needs an upper-band placement, so raise the step early.",
-      "employer": "Former employer; evening differential applies."
-    },
-    "intel": {
-      "size": "Community hospital",
-      "hq": "Columbia, MD",
-      "remotePolicy": "On site, fixed evening shift",
-      "news": "Operating room",
-      "magnet": "Johns Hopkins Medicine member"
     }
   },
   {
@@ -1030,14 +1030,14 @@
     },
     "payBasis": "hour",
     "id": 24,
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-06"
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09"
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-07",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -1080,9 +1080,9 @@
     "id": 25
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-07",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -1125,9 +1125,9 @@
     }
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-07",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -1170,54 +1170,9 @@
     }
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-07",
-    "certRequired": false,
-    "certNote": "",
-    "payBasis": "hour",
-    "employmentType": "Full Time",
-    "id": 41,
-    "score": 77,
-    "title": "Registered Nurse II - Preop PACU - White Marsh ASC",
-    "company": "Johns Hopkins Medicine",
-    "market": "MD",
-    "city": "White Marsh, MD",
-    "salary": "$39.64 - $61.45/hr",
-    "payMin": 39.64,
-    "payMax": 61.45,
-    "roleType": "PACU / Pre-Op",
-    "sector": "Health System",
-    "priority": "Medium",
-    "license": "Compact/MD",
-    "url": "https://jobs.hopkinsmedicine.org/job/102757/registered-nurse-ii-preop-pacu-white-marsh-asc-nursing-us-md-white-marsh-johns-hopkins-ambulatory-surgery-centers/",
-    "notes": "Johns Hopkins ambulatory surgery center, White Marsh, full time days, pre-op and PACU rather than intraoperative, so it scores Medium.",
-    "fit": {
-      "specialty": 3,
-      "experience": 5,
-      "location": 4,
-      "pay": 3,
-      "employer": 5
-    },
-    "fitNotes": {
-      "specialty": "Pre-op and PACU, adjacent to your OR work.",
-      "experience": "Your perioperative experience transfers.",
-      "location": "White Marsh, northeast Baltimore County.",
-      "pay": "$39.64 - $61.45/hr; the top clears $50/hr.",
-      "employer": "Johns Hopkins Medicine."
-    },
-    "intel": {
-      "size": "Large academic health system",
-      "hq": "Baltimore, MD",
-      "remotePolicy": "On site",
-      "news": "Perioperative nursing openings",
-      "magnet": "Magnet-designated"
-    }
-  },
-  {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-08",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -1260,9 +1215,9 @@
     "id": 27
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-07",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -1305,9 +1260,54 @@
     }
   },
   {
-    "postedDate": "2026-10-08",
-    "posted": "2026-10-08",
-    "lastVerified": "2026-10-06",
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
+    "certRequired": false,
+    "certNote": "",
+    "payBasis": "hour",
+    "employmentType": "Full Time",
+    "id": 46,
+    "score": 76,
+    "title": "PACU Registered Nurse (RN) | Post-Anesthesia Care Unit",
+    "company": "University of Maryland Medical System",
+    "market": "MD",
+    "city": "Largo, MD",
+    "salary": "$43.30 - $54.90/hr",
+    "payMin": 43.3,
+    "payMax": 54.9,
+    "roleType": "PACU / Pre-Op",
+    "sector": "Health System",
+    "priority": "Medium",
+    "license": "Compact/MD",
+    "url": "https://careers.umms.org/us/en/job/P-102591/PACU-Registered-Nurse-RN-Post-Anesthesia-Care-Unit",
+    "notes": "University of Maryland Medical System - a top-preference employer. Full-time day-shift PACU RN at UM Capital Region Medical Center in Largo: 3 x 12-hour shifts, 7:30a to 8:00p, rotating weekends and holidays. Recovery rather than intraoperative work, so it uses your perioperative background but not your CVOR depth. Band tops out at $54.90/hr. Req P-102591.",
+    "fit": {
+      "specialty": 3,
+      "experience": 4,
+      "location": 3,
+      "pay": 4,
+      "employer": 5
+    },
+    "fitNotes": {
+      "specialty": "PACU - perioperative but post-anesthesia recovery, not the OR floor.",
+      "experience": "Your perioperative and hemodynamic monitoring experience transfers well.",
+      "location": "Largo, in Maryland's DC suburbs.",
+      "pay": "$43.30 - $54.90/hr; can reach your $50/hr floor.",
+      "employer": "UMMS, your top-preference system."
+    },
+    "intel": {
+      "size": "Community teaching hospital",
+      "hq": "Largo, MD",
+      "remotePolicy": "On site - day shift",
+      "news": "Post-anesthesia care unit",
+      "magnet": "UMMS member"
+    }
+  },
+  {
+    "postedDate": "2026-10-09",
+    "posted": "2026-10-09",
+    "lastVerified": "2026-10-09",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
