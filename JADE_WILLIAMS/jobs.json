@@ -55,51 +55,6 @@
     "market": "MD",
     "sector": "Health System",
     "license": "Compact/MD",
-    "id": 3,
-    "score": 90,
-    "title": "Cardiovascular Operating Room Registered Nurse (CVOR RN)",
-    "city": "Largo, MD",
-    "employmentType": "Full Time",
-    "salary": "$43.30 - $54.90/hr",
-    "payMin": 43.3,
-    "payMax": 54.9,
-    "roleType": "CVOR / Cardiac",
-    "priority": "High",
-    "url": "https://careers.umms.org/us/en/job/P-102232/Cardiovascular-Operating-Room-Registered-Nurse-CVOR-RN",
-    "notes": "University of Maryland Medical System - a top-preference employer. CVOR RN at UM Capital Region Medical Center in Largo, full time. Requires 3 years of OR experience, which you exceed; a direct match for your Johns Hopkins CABG, valve and vascular work. The band reaches $54.90, so you clear $50/hr in the upper steps. A second identical CVOR requisition (P-103794) is also open at the same hospital. Req P-102232.",
-    "fit": {
-      "specialty": 5,
-      "experience": 5,
-      "location": 4,
-      "pay": 4,
-      "employer": 5
-    },
-    "fitNotes": {
-      "specialty": "CVOR is your strongest specialty.",
-      "experience": "Nine years periop with open-heart, valve and vascular scrub and circulate clears the 3-year requirement.",
-      "location": "Largo, in the DC-side suburbs of Maryland; a longer commute from central Maryland.",
-      "pay": "$43.30 - $54.90; you need the upper steps to clear $50/hr.",
-      "employer": "UMMS, your top-preference system."
-    },
-    "intel": {
-      "size": "Academic-affiliated regional medical center",
-      "hq": "Largo, MD",
-      "remotePolicy": "On site",
-      "news": "Cardiovascular operating room",
-      "magnet": "UMMS member"
-    }
-  },
-  {
-    "postedDate": "2026-10-13",
-    "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
-    "certRequired": false,
-    "certNote": "",
-    "payBasis": "hour",
-    "company": "University of Maryland Medical System",
-    "market": "MD",
-    "sector": "Health System",
-    "license": "Compact/MD",
     "id": 31,
     "score": 90,
     "title": "Cardiovascular Operating Room Registered Nurse (CVOR RN)",
@@ -1302,6 +1257,96 @@
       "remotePolicy": "On site",
       "news": "Perioperative nursing openings",
       "magnet": "Varies by hospital"
+    }
+  },
+  {
+    "postedDate": "2026-10-15",
+    "posted": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "certRequired": false,
+    "certNote": "",
+    "payBasis": "hour",
+    "company": "University of Maryland Medical System",
+    "market": "MD",
+    "sector": "Health System",
+    "license": "Compact/MD",
+    "id": 51,
+    "score": 74,
+    "title": "Clinical Nurse II, OR, UMMS Staffing Center-Long Term Assignment",
+    "city": "Largo, MD",
+    "employmentType": "PRN",
+    "salary": "$55.00/hr flat",
+    "payMin": 55.0,
+    "payMax": 55.0,
+    "roleType": "OR / Perioperative",
+    "priority": "Medium",
+    "url": "https://careers.umms.org/us/en/job/P-108941/Clinical-Nurse-II-OR-UMMS-Staffing-Center-Long-Term-Assignment",
+    "notes": "University of Maryland Medical System - a top-preference employer. Long-term OR assignment through the UMMS Staffing Center, deployed to UM Capital Region Medical Center, Largo, days. Listed as PRN at a flat $55.00/hr, which clears your $50/hr floor from the start, but PRN means no guaranteed hours against a full-time search, so it scores Medium. Req P-108941.",
+    "fit": {
+      "specialty": 4,
+      "experience": 5,
+      "location": 4,
+      "pay": 5,
+      "employer": 5
+    },
+    "fitNotes": {
+      "specialty": "Operating room staffing assignment; case mix depends on the unit.",
+      "experience": "Deployed on validated unit competencies; your OR experience covers it.",
+      "location": "Largo; longer commute from central Maryland.",
+      "pay": "Flat $55.00/hr is above your $50/hr floor.",
+      "employer": "UMMS, your top-preference system. PRN status is the gap against a full-time search."
+    },
+    "intel": {
+      "size": "Large multi-hospital system",
+      "hq": "Baltimore, MD",
+      "remotePolicy": "On site",
+      "news": "Internal staffing center long-term assignment",
+      "magnet": "Varies by hospital"
+    }
+  },
+  {
+    "postedDate": "2026-10-15",
+    "posted": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "certRequired": false,
+    "certNote": "",
+    "payBasis": "hour",
+    "company": "University of Maryland Medical System",
+    "market": "MD",
+    "sector": "Health System",
+    "license": "Compact/MD",
+    "id": 50,
+    "score": 72,
+    "title": "Surgical Nursing Coordinator, RN",
+    "city": "Largo, MD",
+    "employmentType": "Full Time",
+    "salary": "$43.30 - $54.90/hr",
+    "payMin": 43.3,
+    "payMax": 54.9,
+    "roleType": "Leadership",
+    "priority": "Medium",
+    "url": "https://careers.umms.org/us/en/job/P-107310/Surgical-Nursing-Coordinator-RN",
+    "notes": "University of Maryland Medical System - a top-preference employer. Coordinator role in the Operating Room at UM Capital Region Medical Center, Largo, days. Requires 1 year of surgical circulating and scrub experience, BLS, and 1-3 years of nursing experience, all of which you exceed. Specialty certification is preferred, not required. Clinical leadership and staff development focus, so it is a step toward charge and management. Band reaches $54.90. Req P-107310.",
+    "fit": {
+      "specialty": 4,
+      "experience": 5,
+      "location": 4,
+      "pay": 4,
+      "employer": 5
+    },
+    "fitNotes": {
+      "specialty": "Operating room leadership across cardiac, trauma, ortho and robotics cases.",
+      "experience": "Scrub and circulate experience is required and you have far more; precepting backs the leadership ask.",
+      "location": "Largo; longer commute from central Maryland.",
+      "pay": "$43.30 - $54.90/hr; upper steps clear $50/hr.",
+      "employer": "UMMS, your top-preference system. The title is a step up from staff, so the gap is the title rather than the clinical content."
+    },
+    "intel": {
+      "size": "Academic-affiliated regional medical center",
+      "hq": "Largo, MD",
+      "remotePolicy": "On site",
+      "news": "Level II trauma center with 8 operating rooms",
+      "magnet": "UMMS member"
     }
   }
 ]
