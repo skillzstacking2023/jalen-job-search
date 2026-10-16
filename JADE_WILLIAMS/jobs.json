@@ -2,7 +2,7 @@
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-16",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -47,7 +47,7 @@
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-16",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -92,7 +92,7 @@
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-16",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -177,7 +177,7 @@
     },
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13"
+    "lastVerified": "2026-10-16"
   },
   {
     "postedDate": "2026-10-13",
@@ -227,7 +227,7 @@
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-16",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -272,7 +272,7 @@
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-16",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -317,7 +317,7 @@
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-16",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -362,7 +362,7 @@
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-16",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -407,7 +407,7 @@
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-16",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -452,7 +452,7 @@
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-16",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -537,12 +537,12 @@
     },
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13"
+    "lastVerified": "2026-10-16"
   },
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-16",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -672,57 +672,12 @@
     },
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13"
+    "lastVerified": "2026-10-16"
   },
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
-    "certRequired": false,
-    "certNote": "",
-    "payBasis": "hour",
-    "employmentType": "Full Time",
-    "id": 47,
-    "score": 83,
-    "title": "Registered Nurse II - Operating Room",
-    "company": "Johns Hopkins Medicine",
-    "market": "MD",
-    "city": "Baltimore, MD",
-    "salary": "$39.64 - $61.45/hr",
-    "payMin": 39.64,
-    "payMax": 61.45,
-    "roleType": "OR / Perioperative",
-    "sector": "Health System",
-    "priority": "High",
-    "license": "Compact/MD",
-    "url": "https://jobs.hopkinsmedicine.org/job/103089/registered-nurse-ii-operating-room-nursing-us-md-baltimore-johns-hopkins-bayview-medical-center/",
-    "notes": "Full-time OR RN II at Johns Hopkins Bayview Medical Center in Baltimore. Bayview OR nurses scrub and circulate across a wide range of surgical specialties, which fits your scrub-and-circulate experience, and the band reaches $61.45/hr, well above your $50/hr floor. Your prior Johns Hopkins service is a plus. Req 679791.",
-    "fit": {
-      "specialty": 5,
-      "experience": 5,
-      "location": 5,
-      "pay": 4,
-      "employer": 5
-    },
-    "fitNotes": {
-      "specialty": "General OR across multiple service lines.",
-      "experience": "RN II band fits nine years of progressive periop practice.",
-      "location": "Baltimore.",
-      "pay": "Band reaches $61.45; rotating-shift differentials sit on top of base.",
-      "employer": "Hopkins system hospital; you have prior Hopkins service."
-    },
-    "intel": {
-      "size": "Academic medical center",
-      "hq": "Baltimore, MD",
-      "remotePolicy": "On site, rotating shift",
-      "news": "Main operating room",
-      "magnet": "Johns Hopkins Medicine member"
-    }
-  },
-  {
-    "postedDate": "2026-10-13",
-    "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-16",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -812,7 +767,7 @@
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-16",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -857,7 +812,7 @@
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-16",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -942,7 +897,7 @@
     },
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13"
+    "lastVerified": "2026-10-16"
   },
   {
     "score": 78,
@@ -1037,7 +992,7 @@
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-16",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -1127,7 +1082,7 @@
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-16",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -1172,7 +1127,7 @@
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-16",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -1217,7 +1172,7 @@
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-16",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -1262,7 +1217,7 @@
   {
     "postedDate": "2026-10-15",
     "posted": "2026-10-15",
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-10-16",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -1307,7 +1262,7 @@
   {
     "postedDate": "2026-10-15",
     "posted": "2026-10-15",
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-10-16",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
