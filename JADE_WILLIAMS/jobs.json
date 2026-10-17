@@ -182,7 +182,7 @@
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-17",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -587,7 +587,7 @@
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-17",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -722,7 +722,7 @@
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-17",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -900,54 +900,9 @@
     "lastVerified": "2026-10-16"
   },
   {
-    "score": 78,
-    "title": "Registered Nurse / Operating Room Open Heart",
-    "company": "Cross Country",
-    "market": "Travel",
-    "city": "Farmington, CT",
-    "salary": "$3,494/wk total incl. stipends - 16 wks, 10-hr days (4x10)",
-    "payMin": null,
-    "payMax": null,
-    "roleType": "Travel Contract",
-    "sector": "Travel Agency",
-    "priority": "Medium",
-    "license": "Compact/MD",
-    "certRequired": false,
-    "certNote": "",
-    "employmentType": "Contract",
-    "url": "https://www.crosscountry.com/jobs/details/travel-registered-nurse-operating-room-open-heart-farmington-ct-1852764",
-    "notes": "16-week open-heart OR travel assignment in Farmington, Connecticut, 40 hours a week on 10-hour days. You would scrub and circulate open-heart cases and help on ortho, spine and neuro cases. Starts Nov 16, 2026. Expect mandatory overtime, on-call (at least one weekend a month) and rotating holidays. The posting asks for 4-5 years of OR experience and current Nursys license documentation. Connecticut implemented the Nurse Licensure Compact in Oct 2025, so your Maryland multistate license should apply - confirm with the agency. The weekly figure blends taxable wage and stipends and Cross Country does not publish an hourly wage. Vivian comparison not checked this run.",
-    "fit": {
-      "specialty": 5,
-      "experience": 4,
-      "location": 2,
-      "pay": 3,
-      "employer": 3
-    },
-    "fitNotes": {
-      "specialty": "Open-heart scrub and circulate matches your CVOR background directly.",
-      "experience": "The posting asks for 4-5 years of OR experience; you exceed that overall, with 2 of them in CVOR.",
-      "location": "Out of state with housing needed - a short-term option, not a commute.",
-      "pay": "$3,407/wk total including stipends. That is not an hourly wage - ask for the taxable base rate before comparing it with your $50/hr floor.",
-      "employer": "Large national agency; the facility is not named in the posting."
-    },
-    "intel": {
-      "size": "National staffing agency",
-      "hq": "Boca Raton, FL",
-      "remotePolicy": "16-week contract, on site",
-      "news": "Open-heart OR assignment, 4x10 days",
-      "magnet": "Unknown (facility undisclosed)"
-    },
-    "payBasis": "hour",
-    "id": 24,
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13"
-  },
-  {
-    "postedDate": "2026-10-13",
-    "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-17",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -1037,7 +992,7 @@
   {
     "postedDate": "2026-10-13",
     "posted": "2026-10-13",
-    "lastVerified": "2026-10-13",
+    "lastVerified": "2026-10-17",
     "certRequired": false,
     "certNote": "",
     "payBasis": "hour",
@@ -1302,6 +1257,51 @@
       "remotePolicy": "On site",
       "news": "Level II trauma center with 8 operating rooms",
       "magnet": "UMMS member"
+    }
+  },
+  {
+    "postedDate": "2026-10-17",
+    "posted": "2026-10-17",
+    "lastVerified": "2026-10-17",
+    "certRequired": false,
+    "certNote": "",
+    "payBasis": "hour",
+    "employmentType": "Full Time",
+    "id": 52,
+    "score": 68,
+    "title": "Assistant Nurse Manager- Preop Pacu",
+    "company": "University of Maryland Medical System",
+    "market": "MD",
+    "city": "Towson, MD",
+    "salary": "Pay not published in the posting",
+    "payMin": null,
+    "payMax": null,
+    "roleType": "Leadership",
+    "sector": "Health System",
+    "priority": "Stretch",
+    "license": "Compact/MD",
+    "url": "https://careers.umms.org/us/en/job/UOJUOMUSP107978EXTERNALENUS/Assistant-Nurse-Manager-Preop-Pacu",
+    "notes": "University of Maryland Medical System - a top-preference employer. Assistant Nurse Manager for the Pre-op/PACU area at UM St. Joseph, Towson (req P-107978), full time. BSN, Maryland RN licence and BLS required; two years of progressive leadership experience (charge, team lead, coordinator or ANM) is preferred rather than required, and no CNOR is listed. No pay band is published.",
+    "fit": {
+      "specialty": 4,
+      "experience": 3,
+      "location": 4,
+      "pay": 3,
+      "employer": 5
+    },
+    "fitNotes": {
+      "specialty": "Pre-op and PACU leadership inside a perioperative service - your OR background carries over, though the day-to-day is management rather than intraoperative nursing.",
+      "experience": "Your precepting and training work is real leadership exposure, but you have not held a charge or ANM title, which the posting prefers.",
+      "location": "Towson, commutable from Central Maryland.",
+      "pay": "No band published, so it cannot be checked against your $50/hr floor.",
+      "employer": "Part of University of Maryland Medical System, an employer you have flagged as a priority."
+    },
+    "intel": {
+      "size": "Community hospital in a large health system",
+      "hq": "Towson, MD",
+      "remotePolicy": "On site",
+      "news": "Posted 2026-10-14",
+      "magnet": "See employer"
     }
   }
 ]
