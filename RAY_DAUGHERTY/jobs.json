@@ -451,51 +451,6 @@
   },
   {
     "id": 11,
-    "score": 70,
-    "title": "Contingent Professional - Technology & Communication Services, Systems Help Desk",
-    "company": "Howard County Government",
-    "market": "MD",
-    "city": "Columbia, MD",
-    "salary": "$16.00/hr",
-    "payMin": 33280,
-    "payMax": 33280,
-    "employmentType": "Temporary",
-    "roleType": "Help Desk",
-    "sector": "Government",
-    "priority": "Medium",
-    "url": "https://www.governmentjobs.com/jobs/5495390-0",
-    "reqId": "27-00045",
-    "clearance": "None",
-    "certRequired": false,
-    "certNote": "",
-    "notes": "CLOSES 10/27/2026. Contingent (temporary) help desk role - phone support, device imaging, deployment and asset management. Minimum is a high school diploma plus 3 years related experience or an equivalent combination, so ask HR whether your degree counts toward it. Low hourly pay, but a quick way to get county help desk experience. Core commute.",
-    "postedDate": "2026-10-25",
-    "posted": "2026-10-25",
-    "lastVerified": "2026-10-25",
-    "fit": {
-      "level": 3,
-      "skills": 4,
-      "location": 5,
-      "barrier": 5,
-      "employer": 3
-    },
-    "fitNotes": {
-      "level": "Experience requirement allows an equivalent combination - your degree may count.",
-      "skills": "Core help desk and endpoint support work.",
-      "location": "Columbia - core commute.",
-      "barrier": "No clearance or certification required.",
-      "employer": "County government; contingent means temporary with limited benefits."
-    },
-    "intel": {
-      "size": "County government, about 3,000 employees",
-      "hq": "Ellicott City, MD",
-      "remotePolicy": "On site",
-      "news": "Posted 10/13/2026",
-      "magnet": "Foot in the door with county IT"
-    }
-  },
-  {
-    "id": 12,
     "score": 62,
     "title": "Software Engineer - Entry Level",
     "company": "Boeing",
