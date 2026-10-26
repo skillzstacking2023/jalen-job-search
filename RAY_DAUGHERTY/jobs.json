@@ -361,6 +361,51 @@
   },
   {
     "id": 9,
+    "score": 72,
+    "title": "2027 Graduate - Data Scientist; Computer Scientist; Engineer - Decision Systems",
+    "company": "Johns Hopkins Applied Physics Laboratory",
+    "market": "MD",
+    "city": "Laurel, MD",
+    "salary": "$85,000 - $165,000/yr",
+    "payMin": 85000,
+    "payMax": 165000,
+    "employmentType": "Full Time",
+    "roleType": "Data Analyst",
+    "sector": "Federal",
+    "priority": "Medium",
+    "url": "https://careers.jhuapl.edu/jobs/60569",
+    "reqId": "60569",
+    "clearance": "Eligible/Sponsor",
+    "certRequired": false,
+    "certNote": "",
+    "notes": "Graduate-level early-career role building decision-support software and analytics, rolling applications, posted 10/14/2026. Requires U.S. citizenship and eligibility for an Interim Secret then final Secret clearance, which APL sponsors. Degree list leans toward computer science and math plus Python, Java or JavaScript, so your Java and SQL work is the bridge. On site, no telework. Reach commute: Laurel is roughly 45-60 minutes away.",
+    "postedDate": "2026-10-26",
+    "posted": "2026-10-26",
+    "lastVerified": "2026-10-26",
+    "fit": {
+      "level": 4,
+      "skills": 3,
+      "location": 3,
+      "barrier": 4,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Explicit new-graduate program with a broad pay band.",
+      "skills": "Java and SQL help, but the posting favors computer science and math majors.",
+      "location": "Laurel - reach commute, no telework.",
+      "barrier": "Secret clearance and citizenship required; APL sponsors the clearance.",
+      "employer": "Leading defense research lab known for hiring and developing new graduates."
+    },
+    "intel": {
+      "size": "About 8,000 employees",
+      "hq": "Laurel, MD",
+      "remotePolicy": "On site",
+      "news": "2027 graduate cohort hiring on a rolling basis",
+      "magnet": "Sponsors clearances"
+    }
+  },
+  {
+    "id": 10,
     "score": 71,
     "title": "Data Scientist",
     "company": "Department of the Air Force",
@@ -405,7 +450,7 @@
     }
   },
   {
-    "id": 10,
+    "id": 11,
     "score": 70,
     "title": "Contingent Professional - Technology & Communication Services, Systems Help Desk",
     "company": "Howard County Government",
@@ -450,7 +495,7 @@
     }
   },
   {
-    "id": 11,
+    "id": 12,
     "score": 62,
     "title": "Software Engineer - Entry Level",
     "company": "Boeing",
