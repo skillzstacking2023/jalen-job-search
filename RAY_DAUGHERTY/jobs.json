@@ -496,6 +496,51 @@
   },
   {
     "id": 12,
+    "score": 63,
+    "title": "2027 Graduate - Systems Engineer/Analyst",
+    "company": "Johns Hopkins Applied Physics Laboratory",
+    "market": "MD",
+    "city": "Laurel, MD",
+    "salary": "$85,000 - $165,000/yr",
+    "payMin": 85000,
+    "payMax": 165000,
+    "employmentType": "Full Time",
+    "roleType": "Systems Analyst",
+    "sector": "Federal",
+    "priority": "Stretch",
+    "url": "https://careers.jhuapl.edu/jobs/59373",
+    "reqId": "59373",
+    "clearance": "Eligible/Sponsor",
+    "certRequired": false,
+    "certNote": "",
+    "notes": "Graduate-level early-career role in APL's Health and Human-Machine Systems Group: gather operational needs, write requirements, and support systems analysis and modeling. Rolling applications. Requires U.S. citizenship and eligibility for an Interim Secret then final Secret clearance, which APL sponsors. The degree list names engineering, computer science, math, data science and operations research (plus 'other related technical degree'), and asks for Python, R or Matlab experience, so your Information Systems degree is a stretch match. Reach commute: Laurel is roughly 45-60 minutes away.",
+    "postedDate": "2026-10-28",
+    "posted": "2026-10-28",
+    "lastVerified": "2026-10-28",
+    "fit": {
+      "level": 4,
+      "skills": 3,
+      "location": 3,
+      "barrier": 3,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Explicit 2027 graduate program.",
+      "skills": "Requirements and systems analysis fit your background, but Python/R/Matlab and Cameo modeling are asked for.",
+      "location": "Laurel - reach commute.",
+      "barrier": "Degree list favors engineering and CS majors; Secret clearance is sponsored.",
+      "employer": "Leading defense research lab known for developing new graduates."
+    },
+    "intel": {
+      "size": "About 8,000 employees",
+      "hq": "Laurel, MD",
+      "remotePolicy": "On site",
+      "news": "2027 graduate cohort hiring on a rolling basis",
+      "magnet": "Sponsors clearances"
+    }
+  },
+  {
+    "id": 13,
     "score": 62,
     "title": "Software Engineer - Entry Level",
     "company": "Boeing",
