@@ -14,8 +14,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-tier-i-51572-at-index-analytics-llc-4482787282",
     "notes": "Security+ aligns with role - Clearance-eligible - sponsorship possible - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -54,8 +54,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/service-desk-tier-i-technician-at-leidos-4474415212",
     "notes": "Security+ aligns with role - Clearance-eligible - sponsorship possible - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -93,8 +93,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/help-desk-analyst-i-at-city-of-greenbelt-maryland-4483141950",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -132,8 +132,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-support-tech-i-at-jabil-4478157369",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -171,8 +171,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/junior-it-operations-support-specialist-at-crown-innovations-inc-4470889079",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -210,8 +210,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/service-desk-analyst-i-on-site-at-chesapeake-regional-healthcare-req-%231483-at-eplus-inc-4481931534",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -249,8 +249,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/analyst-i-service-desk-at-womble-bond-dickinson-us-llp-4452859409",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -288,8 +288,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/helpdesk-associate-at-kennedy-krieger-institute-4480274846",
     "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 5,
       "skills": 4,
@@ -315,41 +315,21 @@
   },
   {
     "score": 87,
-    "title": "Tier 1 SOC Analyst",
-    "company": "GDH",
+    "title": "End User Support Specialist - Tier 1",
+    "company": "DMI",
     "market": "MD",
-    "city": "Rockville, MD",
-    "salary": "$58K-$72K/yr",
-    "roleType": "SOC",
+    "city": "Baltimore, MD",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
     "certs": [
-      "sec"
+      "sec",
+      "fed"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/tier-1-soc-analyst-at-gdh-4478717383",
-    "notes": "Security+ aligns with role - Entry-level Tier 1 posting - In the DMV market",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
-    "fit": {
-      "level": 5,
-      "skills": 4,
-      "location": 5,
-      "barrier": 5,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - right where you are now.",
-      "skills": "SOC Tier 1 aligns with your Security+ background.",
-      "location": "In Maryland, your primary DMV market.",
-      "barrier": "No clearance or degree barrier - you can apply today.",
-      "employer": "Solid employer for an entry-level IT hire."
-    },
-    "intel": {
-      "size": "Not determined - check the posting",
-      "hq": "Rockville, MD",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
+    "url": "https://www.linkedin.com/jobs/view/end-user-support-specialist-tier-1-at-dmi-4471652192",
+    "notes": "Security+ aligns with role - Clearance-eligible federal-services track - Entry-level Tier 1 end-user support - In the DMV market",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "id": 9
   },
   {
@@ -367,8 +347,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/it-helpdesk-support-technician-at-thales-defense-security-inc-4481377429",
     "notes": "Security+ aligns with role - Clearance-eligible - sponsorship possible - In the DMV market",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 4,
       "skills": 5,
@@ -407,8 +387,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-at-t-rex-solutions-llc-4481264538",
     "notes": "Security+ aligns with role - Clearance-eligible - sponsorship possible - In the DMV market",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 4,
       "skills": 5,
@@ -447,8 +427,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/help-desk-technician-on-site-at-oesc-oneida-esc-group-4482815328",
     "notes": "Security+ aligns with role - Clearance-eligible - sponsorship possible - In the DMV market",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 4,
       "skills": 5,
@@ -473,6 +453,25 @@
     "id": 12
   },
   {
+    "score": 86,
+    "title": "Help Desk Associate",
+    "company": "Spatial Front, Inc",
+    "market": "VA",
+    "city": "Arlington, VA",
+    "salary": "Competitive",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-associate-at-spatial-front-inc-4440610324",
+    "notes": "Security+ aligns with role - Clearance-eligible / public-trust federal IT contractor - Entry-level help desk - In the DMV market",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
+    "id": 13
+  },
+  {
     "score": 85,
     "title": "Customer Support Specialist (Technical)",
     "company": "Peraton",
@@ -487,8 +486,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/customer-support-specialist-technical-at-peraton-4482938243",
     "notes": "Security+ aligns with role - Clearance-eligible - sponsorship possible - In the DMV market",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 4,
       "skills": 5,
@@ -510,7 +509,7 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Mixed - posts entry through senior roles"
     },
-    "id": 13
+    "id": 14
   },
   {
     "score": 84,
@@ -526,47 +525,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/service-desk-analyst-level-1-at-creo-4473677613",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry-level Tier 1 posting",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 5,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - right where you are now.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "100% remote - open nationwide, no commute.",
-      "barrier": "No clearance or degree barrier - you can apply today.",
-      "employer": "Solid employer for an entry-level IT hire."
-    },
-    "intel": {
-      "size": "Not determined - check the posting",
-      "hq": "Distributed / remote-first",
-      "remotePolicy": "100% remote (nationwide)",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "id": 14
-  },
-  {
-    "score": 84,
-    "title": "IT Support I",
-    "company": "PACS",
-    "market": "Remote",
-    "city": "Remote (US)",
-    "salary": "$42K-$55K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/it-support-i-at-pacs-4471810546",
-    "notes": "100% remote (nationwide) - Security+ aligns with role - Entry-level Tier 1 posting",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -592,8 +552,8 @@
   },
   {
     "score": 84,
-    "title": "Technical Support Specialist Tier I",
-    "company": "Schneider Downs",
+    "title": "IT Support I",
+    "company": "PACS",
     "market": "Remote",
     "city": "Remote (US)",
     "salary": "$42K-$55K/yr",
@@ -602,10 +562,10 @@
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/technical-support-specialist-tier-i-at-schneider-downs-4483352081",
+    "url": "https://www.linkedin.com/jobs/view/it-support-i-at-pacs-4471810546",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry-level Tier 1 posting",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -631,8 +591,8 @@
   },
   {
     "score": 84,
-    "title": "Service Desk Analyst I",
-    "company": "Civil & Environmental Consultants, Inc.",
+    "title": "Technical Support Specialist Tier I",
+    "company": "Schneider Downs",
     "market": "Remote",
     "city": "Remote (US)",
     "salary": "$42K-$55K/yr",
@@ -641,10 +601,10 @@
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/service-desk-analyst-i-at-civil-environmental-consultants-inc-4475167704",
+    "url": "https://www.linkedin.com/jobs/view/technical-support-specialist-tier-i-at-schneider-downs-4483352081",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry-level Tier 1 posting",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -670,8 +630,8 @@
   },
   {
     "score": 84,
-    "title": "Helpdesk I",
-    "company": "Wausau Supply Company",
+    "title": "Service Desk Analyst I",
+    "company": "Civil & Environmental Consultants, Inc.",
     "market": "Remote",
     "city": "Remote (US)",
     "salary": "$42K-$55K/yr",
@@ -680,10 +640,10 @@
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/helpdesk-i-at-wausau-supply-company-4479085132",
+    "url": "https://www.linkedin.com/jobs/view/service-desk-analyst-i-at-civil-environmental-consultants-inc-4475167704",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry-level Tier 1 posting",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -709,8 +669,8 @@
   },
   {
     "score": 84,
-    "title": "Tech Support-Help Desk I-Bilingual",
-    "company": "Uniform Advantage (UA Brands)",
+    "title": "Helpdesk I",
+    "company": "Wausau Supply Company",
     "market": "Remote",
     "city": "Remote (US)",
     "salary": "$42K-$55K/yr",
@@ -719,10 +679,10 @@
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/tech-support-help-desk-i-bilingual-at-uniform-advantage-ua-brands-4471593839",
+    "url": "https://www.linkedin.com/jobs/view/helpdesk-i-at-wausau-supply-company-4479085132",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry-level Tier 1 posting",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -748,8 +708,8 @@
   },
   {
     "score": 84,
-    "title": "Help Desk Analyst I",
-    "company": "Loews Hotels & Co",
+    "title": "Tech Support-Help Desk I-Bilingual",
+    "company": "Uniform Advantage (UA Brands)",
     "market": "Remote",
     "city": "Remote (US)",
     "salary": "$42K-$55K/yr",
@@ -758,10 +718,10 @@
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/help-desk-analyst-i-at-loews-hotels-co-4482824428",
+    "url": "https://www.linkedin.com/jobs/view/tech-support-help-desk-i-bilingual-at-uniform-advantage-ua-brands-4471593839",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry-level Tier 1 posting",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -786,6 +746,63 @@
     "id": 20
   },
   {
+    "score": 84,
+    "title": "Help Desk Analyst I",
+    "company": "Loews Hotels & Co",
+    "market": "Remote",
+    "city": "Remote (US)",
+    "salary": "$42K-$55K/yr",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-analyst-i-at-loews-hotels-co-4482824428",
+    "notes": "100% remote (nationwide) - Security+ aligns with role - Entry-level Tier 1 posting",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Tier 1 / entry-level - right where you are now.",
+      "skills": "Direct match to your help desk and desktop support strengths.",
+      "location": "100% remote - open nationwide, no commute.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Solid employer for an entry-level IT hire."
+    },
+    "intel": {
+      "size": "Not determined - check the posting",
+      "hq": "Distributed / remote-first",
+      "remotePolicy": "100% remote (nationwide)",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    },
+    "id": 21
+  },
+  {
+    "score": 84,
+    "title": "IT Services Specialist I",
+    "company": "Iridium",
+    "market": "VA",
+    "city": "McLean, VA",
+    "salary": "Competitive",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/it-services-specialist-i-at-iridium-4472754783",
+    "notes": "Security+ aligns with role - Entry-level IT Services Specialist I - Commercial employer - In the DMV market",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
+    "id": 22
+  },
+  {
     "score": 79,
     "title": "Service Desk Technician (Journeyman)",
     "company": "CACI International Inc",
@@ -800,8 +817,8 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/service-desk-technician-journeyman-at-caci-international-inc-4477093768",
     "notes": "Security+ aligns with role - Clearance-eligible - sponsorship possible - Tier 2 - slight experience bump - In the DMV market",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 4,
       "skills": 5,
@@ -823,7 +840,7 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Mixed - posts entry through senior roles"
     },
-    "id": 21
+    "id": 23
   },
   {
     "score": 78,
@@ -839,8 +856,8 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/service-desk-analyst-ii-at-sheppard-pratt-4472042814",
     "notes": "Security+ aligns with role - Tier 2 - slight experience bump - In the DMV market",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 4,
       "skills": 5,
@@ -862,7 +879,7 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Mixed - posts entry through senior roles"
     },
-    "id": 22
+    "id": 24
   },
   {
     "score": 78,
@@ -878,8 +895,8 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/service-desk-analyst-im-service-desk-at-christus-health-4478647108",
     "notes": "100% remote (nationwide) - Security+ aligns with role",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 4,
       "skills": 5,
@@ -901,7 +918,7 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Mixed - posts entry through senior roles"
     },
-    "id": 23
+    "id": 25
   },
   {
     "score": 78,
@@ -917,8 +934,8 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/help-desk-technician-at-rhenus-logistics-4479169079",
     "notes": "100% remote (nationwide) - Security+ aligns with role",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 4,
       "skills": 5,
@@ -940,7 +957,7 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Mixed - posts entry through senior roles"
     },
-    "id": 24
+    "id": 26
   },
   {
     "score": 77,
@@ -956,8 +973,8 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/it-support-specialist-ii-at-a3t-agil3-technology-solutions-4475009943",
     "notes": "Security+ aligns with role - Tier 2 - slight experience bump - In the DMV market",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 4,
       "skills": 5,
@@ -979,7 +996,7 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Mixed - posts entry through senior roles"
     },
-    "id": 25
+    "id": 27
   },
   {
     "score": 68,
@@ -996,8 +1013,8 @@
     "priority": "Stretch",
     "url": "https://www.linkedin.com/jobs/view/systems-administrator-level-3-at-grvty-4400255911",
     "notes": "Security+ aligns with role - Clearance-eligible - sponsorship possible - Senior-tagged - tailor your application - In the DMV market",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 3,
       "skills": 3,
@@ -1019,7 +1036,7 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Mixed - posts entry through senior roles"
     },
-    "id": 26
+    "id": 28
   },
   {
     "score": 67,
@@ -1036,8 +1053,8 @@
     "priority": "Stretch",
     "url": "https://www.linkedin.com/jobs/view/information-technology-support-specialist-ts-sci-w-poly-at-general-dynamics-information-technology-4476532794",
     "notes": "Security+ aligns with role - Requires active clearance - In the DMV market",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 4,
       "skills": 5,
@@ -1059,7 +1076,7 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Posts cleared roles; entry-level here is clearance-gated"
     },
-    "id": 27
+    "id": 29
   },
   {
     "score": 67,
@@ -1076,8 +1093,8 @@
     "priority": "Stretch",
     "url": "https://www.linkedin.com/jobs/view/help-desk-technician-ts-sci-w-poly-at-general-dynamics-information-technology-4470244460",
     "notes": "Security+ aligns with role - Requires active clearance - In the DMV market",
-    "postedDate": "2026-10-26",
-    "lastVerified": "2026-10-26",
+    "postedDate": "2026-10-28",
+    "lastVerified": "2026-10-28",
     "fit": {
       "level": 4,
       "skills": 5,
@@ -1099,6 +1116,6 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Posts cleared roles; entry-level here is clearance-gated"
     },
-    "id": 28
+    "id": 30
   }
 ]
