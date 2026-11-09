@@ -39,55 +39,10 @@
       "news": "Recent Graduates announcement open 08/18/2026 to 11/18/2026",
       "magnet": "Sponsors clearances; promotion potential to GG-12"
     },
-    "postedDate": "2026-11-06",
-    "posted": "2026-11-06",
-    "lastVerified": "2026-11-03",
+    "postedDate": "2026-11-09",
+    "posted": "2026-11-09",
+    "lastVerified": "2026-11-09",
     "id": 1
-  },
-  {
-    "score": 86,
-    "title": "IT Cybersecurity Specialist (Recent Graduates)",
-    "company": "Social Security Administration",
-    "market": "MD",
-    "city": "Woodlawn, MD",
-    "salary": "$58,193 - $91,815/yr",
-    "payMin": 58193,
-    "payMax": 91815,
-    "employmentType": "Full Time",
-    "roleType": "Cybersecurity",
-    "sector": "Federal",
-    "priority": "High",
-    "url": "https://www.usajobs.gov/job/891158500",
-    "reqId": "891158500",
-    "clearance": "Eligible/Sponsor",
-    "certRequired": false,
-    "certNote": "",
-    "notes": "Federal Recent Graduates program (Pathways) - open to people who finished a degree within the last 2 years; entry at GS-7 with GS-9 listed, non-competitive conversion possible after the program. Sensitive-position background investigation handled by the agency. USAHire assessment required. Telework eligible. Closes 11/06/2026 - apply immediately.",
-    "fit": {
-      "level": 5,
-      "skills": 4,
-      "location": 5,
-      "barrier": 3,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Explicit Recent Graduates developmental program.",
-      "skills": "Your information security fundamentals and systems coursework map to the cybersecurity series.",
-      "location": "Woodlawn - core commute.",
-      "barrier": "Online assessment and a very short window; background check is sponsored.",
-      "employer": "Large federal agency with a conversion path to permanent roles."
-    },
-    "intel": {
-      "size": "About 57,000 employees",
-      "hq": "Woodlawn, MD",
-      "remotePolicy": "On site with telework eligibility",
-      "news": "Recent Graduates announcement open 11/02/2026 to 11/06/2026",
-      "magnet": "Non-competitive conversion to permanent after the program"
-    },
-    "postedDate": "2026-11-06",
-    "posted": "2026-11-06",
-    "lastVerified": "2026-11-04",
-    "id": 2
   },
   {
     "score": 84,
@@ -129,10 +84,10 @@
       "news": "Posted 09/14/2026",
       "magnet": "Tuition remission and state retirement plans"
     },
-    "postedDate": "2026-11-06",
-    "posted": "2026-11-06",
-    "lastVerified": "2026-11-03",
-    "id": 3
+    "postedDate": "2026-11-09",
+    "posted": "2026-11-09",
+    "lastVerified": "2026-11-09",
+    "id": 2
   },
   {
     "score": 83,
@@ -174,13 +129,13 @@
       "news": "Posted 10/20/2026",
       "magnet": "City benefits package and public service"
     },
-    "postedDate": "2026-11-06",
-    "posted": "2026-11-06",
-    "lastVerified": "2026-11-03",
-    "id": 4
+    "postedDate": "2026-11-09",
+    "posted": "2026-11-09",
+    "lastVerified": "2026-11-09",
+    "id": 3
   },
   {
-    "id": 5,
+    "id": 4,
     "score": 80,
     "title": "Technical Support Analyst",
     "company": "Trimble",
@@ -199,8 +154,8 @@
     "certRequired": false,
     "certNote": "",
     "notes": "Remote technical support for business software - troubleshooting across phone, email and chat, root-cause analysis, and working with SQL, XML and HTML. Bachelor's degree or equivalent in a technology field. Workday lists the location as US - Remote, OH, so confirm Maryland residents are eligible. Applications close 11/21/2026.",
-    "postedDate": "2026-11-06",
-    "posted": "2026-11-06",
+    "postedDate": "2026-11-09",
+    "posted": "2026-11-09",
     "lastVerified": "2026-11-06",
     "fit": {
       "level": 4,
@@ -264,10 +219,10 @@
       "news": "Open through 09/30/2027",
       "magnet": "Sponsors clearances; 3-year training plan with scheduled raises"
     },
-    "postedDate": "2026-11-06",
-    "posted": "2026-11-06",
-    "lastVerified": "2026-11-03",
-    "id": 6
+    "postedDate": "2026-11-09",
+    "posted": "2026-11-09",
+    "lastVerified": "2026-11-09",
+    "id": 5
   },
   {
     "score": 76,
@@ -309,10 +264,10 @@
       "news": "Announcement open 10/28/2026 to 11/12/2026",
       "magnet": "Promotion potential in a small analytic agency"
     },
-    "postedDate": "2026-11-06",
-    "posted": "2026-11-06",
-    "lastVerified": "2026-11-04",
-    "id": 7
+    "postedDate": "2026-11-09",
+    "posted": "2026-11-09",
+    "lastVerified": "2026-11-09",
+    "id": 6
   },
   {
     "score": 74,
@@ -354,10 +309,10 @@
       "news": "Open through 09/30/2027",
       "magnet": "Sponsors clearances; 3-year training plan"
     },
-    "postedDate": "2026-11-06",
-    "posted": "2026-11-06",
-    "lastVerified": "2026-11-03",
-    "id": 8
+    "postedDate": "2026-11-09",
+    "posted": "2026-11-09",
+    "lastVerified": "2026-11-09",
+    "id": 7
   },
   {
     "score": 72,
@@ -399,10 +354,10 @@
       "news": "Posted 10/27/2026",
       "magnet": "Tuition benefits for staff"
     },
-    "postedDate": "2026-11-06",
-    "posted": "2026-11-06",
-    "lastVerified": "2026-11-03",
-    "id": 9
+    "postedDate": "2026-11-09",
+    "posted": "2026-11-09",
+    "lastVerified": "2026-11-09",
+    "id": 8
   },
   {
     "score": 72,
@@ -444,13 +399,13 @@
       "news": "2027 Graduate hiring cycle open",
       "magnet": "Sponsors clearances; strong early-career programs"
     },
-    "postedDate": "2026-11-06",
-    "posted": "2026-11-06",
-    "lastVerified": "2026-11-04",
-    "id": 10
+    "postedDate": "2026-11-09",
+    "posted": "2026-11-09",
+    "lastVerified": "2026-11-09",
+    "id": 9
   },
   {
-    "id": 11,
+    "id": 10,
     "score": 62,
     "title": "Software Engineer - Entry Level",
     "company": "Boeing",
@@ -469,8 +424,8 @@
     "certRequired": false,
     "certNote": "",
     "notes": "Entry-level software role on a defense program - no prior experience required, but it needs an ACTIVE TS/SCI with polygraph (no sponsorship stated) and experience with RF signal processing applications. Bachelor's in computer science or a related field. On site only. Posted 10/14/2026. Keep on the radar for after you hold a clearance.",
-    "postedDate": "2026-11-06",
-    "posted": "2026-11-06",
+    "postedDate": "2026-11-09",
+    "posted": "2026-11-09",
     "lastVerified": "2026-11-06",
     "fit": {
       "level": 5,
@@ -534,9 +489,9 @@
       "news": "Posted on the Leidos Maryland board",
       "magnet": "Sponsors clearances on other roles"
     },
-    "postedDate": "2026-11-06",
-    "posted": "2026-11-06",
-    "lastVerified": "2026-11-03",
-    "id": 12
+    "postedDate": "2026-11-09",
+    "posted": "2026-11-09",
+    "lastVerified": "2026-11-09",
+    "id": 11
   }
 ]
