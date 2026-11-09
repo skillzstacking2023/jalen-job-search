@@ -194,8 +194,26 @@
     "notes": "Full-time client success phone role in debt resolution paying $19.00 to $20.00 per hour - Remote nationwide, and the posting requires a distraction free work from home setup - still listed on the employer board index",
     "postedDate": "2026-11-06",
     "posted": "2026-11-06",
-    "lastVerified": "2026-11-06",
+    "lastVerified": "2026-11-09",
     "key": "beyond-finance--customer-service-representative--remote"
+  },
+  {
+    "market": "Remote",
+    "sector": "Commercial",
+    "postedDate": "2026-11-09",
+    "posted": "2026-11-09",
+    "lastVerified": "2026-11-09",
+    "score": 80,
+    "title": "Customer Experience T3 Specialist",
+    "company": "Instacart",
+    "city": "Remote",
+    "salary": "$17.31 - $21.88/hr",
+    "roleType": "Call Center",
+    "priority": "High",
+    "url": "https://job-boards.greenhouse.io/instacart/jobs/8336883",
+    "notes": "Full-time hourly phone and chat support - Remote US, NY listed in the higher pay tier ($20.67 - $21.88/hr) - shift 2PM-11PM ET, Wed-Sun or Fri-Tue - posting asks for 1+ year customer service or call center experience - confirmed on employer board index",
+    "key": "instacart--customer-experience-t3-specialist--remote",
+    "id": 12
   },
   {
     "score": 76,
@@ -212,7 +230,7 @@
     "postedDate": "2026-11-06",
     "posted": "2026-11-06",
     "lastVerified": "2026-11-06",
-    "id": 12
+    "id": 13
   },
   {
     "score": 76,
@@ -229,7 +247,7 @@
     "postedDate": "2026-11-06",
     "posted": "2026-11-06",
     "lastVerified": "2026-11-06",
-    "id": 13
+    "id": 14
   },
   {
     "score": 75,
@@ -246,7 +264,7 @@
     "postedDate": "2026-11-06",
     "posted": "2026-11-06",
     "lastVerified": "2026-11-06",
-    "id": 14
+    "id": 15
   },
   {
     "score": 74,
@@ -263,7 +281,7 @@
     "postedDate": "2026-11-06",
     "posted": "2026-11-06",
     "lastVerified": "2026-11-06",
-    "id": 15
+    "id": 16
   },
   {
     "score": 74,
@@ -280,7 +298,25 @@
     "postedDate": "2026-11-06",
     "posted": "2026-11-06",
     "lastVerified": "2026-11-06",
-    "id": 16
+    "id": 17
+  },
+  {
+    "market": "Remote",
+    "sector": "Commercial",
+    "postedDate": "2026-11-09",
+    "posted": "2026-11-09",
+    "lastVerified": "2026-11-09",
+    "score": 74,
+    "title": "Customer Service Representative",
+    "company": "APCO Holdings",
+    "city": "Remote",
+    "salary": "Not listed",
+    "roleType": "Customer Service",
+    "priority": "Medium",
+    "url": "https://jobs.lever.co/apcoholdings/aa8d34e5-3888-4688-9776-1291469a059b",
+    "notes": "Full-time hourly remote CSR role - listed as United States with no state restrictions but NY eligibility not explicitly confirmed, check before applying - pay not posted - HS diploma plus prior customer service experience, call center preferred - confirmed on employer board index",
+    "key": "apco-holdings--customer-service-representative--remote",
+    "id": 18
   },
   {
     "score": 72,
@@ -297,6 +333,24 @@
     "postedDate": "2026-11-06",
     "posted": "2026-11-06",
     "lastVerified": "2026-11-06",
-    "id": 17
+    "id": 19
+  },
+  {
+    "market": "NY",
+    "sector": "Commercial",
+    "postedDate": "2026-11-09",
+    "posted": "2026-11-09",
+    "lastVerified": "2026-11-09",
+    "score": 71,
+    "title": "Receptionist",
+    "company": "Ellicott Center for Rehabilitation and Nursing",
+    "city": "Buffalo, NY",
+    "salary": "Not listed",
+    "roleType": "Administrative",
+    "priority": "Medium",
+    "url": "https://jobs.centershealthcare.com/receptionist/job/F6D513F933D02161580540878E3A6898",
+    "notes": "Front desk receptionist at a Buffalo nursing and rehab center - pay and hours not posted - posting asks for HS diploma and prior front desk or office experience - listed on employer careers site",
+    "key": "ellicott-center-for-rehabilitation-and-nursing--receptionist--buffalo-ny",
+    "id": 20
   }
 ]
