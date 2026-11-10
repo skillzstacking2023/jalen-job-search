@@ -39,8 +39,8 @@
       "news": "Recent Graduates announcement open 08/18/2026 to 11/18/2026",
       "magnet": "Sponsors clearances; promotion potential to GG-12"
     },
-    "postedDate": "2026-11-09",
-    "posted": "2026-11-09",
+    "postedDate": "2026-11-10",
+    "posted": "2026-11-10",
     "lastVerified": "2026-11-09",
     "id": 1
   },
@@ -84,8 +84,8 @@
       "news": "Posted 09/14/2026",
       "magnet": "Tuition remission and state retirement plans"
     },
-    "postedDate": "2026-11-09",
-    "posted": "2026-11-09",
+    "postedDate": "2026-11-10",
+    "posted": "2026-11-10",
     "lastVerified": "2026-11-09",
     "id": 2
   },
@@ -129,8 +129,8 @@
       "news": "Posted 10/20/2026",
       "magnet": "City benefits package and public service"
     },
-    "postedDate": "2026-11-09",
-    "posted": "2026-11-09",
+    "postedDate": "2026-11-10",
+    "posted": "2026-11-10",
     "lastVerified": "2026-11-09",
     "id": 3
   },
@@ -153,10 +153,10 @@
     "clearance": "None",
     "certRequired": false,
     "certNote": "",
-    "notes": "Remote technical support for business software - troubleshooting across phone, email and chat, root-cause analysis, and working with SQL, XML and HTML. Bachelor's degree or equivalent in a technology field. Workday lists the location as US - Remote, OH, so confirm Maryland residents are eligible. Applications close 11/21/2026.",
-    "postedDate": "2026-11-09",
-    "posted": "2026-11-09",
-    "lastVerified": "2026-11-06",
+    "notes": "Remote technical support for business software - troubleshooting across phone, email and chat, root-cause analysis, and working with SQL, XML and HTML. Bachelor's degree or equivalent in a technology field. Workday lists the location as US - Remote, OH, so confirm Maryland residents are eligible. Applications close 11/16/2026.",
+    "postedDate": "2026-11-10",
+    "posted": "2026-11-10",
+    "lastVerified": "2026-11-10",
     "fit": {
       "level": 4,
       "skills": 4,
@@ -219,8 +219,8 @@
       "news": "Open through 09/30/2027",
       "magnet": "Sponsors clearances; 3-year training plan with scheduled raises"
     },
-    "postedDate": "2026-11-09",
-    "posted": "2026-11-09",
+    "postedDate": "2026-11-10",
+    "posted": "2026-11-10",
     "lastVerified": "2026-11-09",
     "id": 5
   },
@@ -264,8 +264,8 @@
       "news": "Announcement open 10/28/2026 to 11/12/2026",
       "magnet": "Promotion potential in a small analytic agency"
     },
-    "postedDate": "2026-11-09",
-    "posted": "2026-11-09",
+    "postedDate": "2026-11-10",
+    "posted": "2026-11-10",
     "lastVerified": "2026-11-09",
     "id": 6
   },
@@ -309,8 +309,8 @@
       "news": "Open through 09/30/2027",
       "magnet": "Sponsors clearances; 3-year training plan"
     },
-    "postedDate": "2026-11-09",
-    "posted": "2026-11-09",
+    "postedDate": "2026-11-10",
+    "posted": "2026-11-10",
     "lastVerified": "2026-11-09",
     "id": 7
   },
@@ -354,8 +354,8 @@
       "news": "Posted 10/27/2026",
       "magnet": "Tuition benefits for staff"
     },
-    "postedDate": "2026-11-09",
-    "posted": "2026-11-09",
+    "postedDate": "2026-11-10",
+    "posted": "2026-11-10",
     "lastVerified": "2026-11-09",
     "id": 8
   },
@@ -399,13 +399,103 @@
       "news": "2027 Graduate hiring cycle open",
       "magnet": "Sponsors clearances; strong early-career programs"
     },
-    "postedDate": "2026-11-09",
-    "posted": "2026-11-09",
+    "postedDate": "2026-11-10",
+    "posted": "2026-11-10",
     "lastVerified": "2026-11-09",
     "id": 9
   },
   {
     "id": 10,
+    "score": 72,
+    "title": "2027 Graduate - Cyber Engineer - Capabilities Development",
+    "company": "Johns Hopkins Applied Physics Laboratory",
+    "market": "MD",
+    "city": "Laurel, MD",
+    "salary": "Not published",
+    "payMin": null,
+    "payMax": null,
+    "employmentType": "Full Time",
+    "roleType": "Cybersecurity",
+    "sector": "Commercial",
+    "priority": "Medium",
+    "url": "https://careers.jhuapl.edu/new-grads/jobs/59414",
+    "reqId": "59414",
+    "clearance": "Eligible/Sponsor",
+    "certRequired": false,
+    "certNote": "",
+    "notes": "2027 graduate program role - cyber capability development with mentoring. Needs a bachelor's in computer science, computer engineering, math or a cybersecurity-related field, plus internship, research or project software experience (Java is listed). Must be able to obtain an Interim Secret and ultimately Top Secret clearance; APL sponsors. On site in Laurel, about a 45-75 minute drive from Central Maryland. Pay not published.",
+    "postedDate": "2026-11-10",
+    "posted": "2026-11-10",
+    "lastVerified": "2026-11-10",
+    "fit": {
+      "level": 5,
+      "skills": 3,
+      "location": 3,
+      "barrier": 4,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Explicit new-graduate program.",
+      "skills": "Java and project experience fit; degree field list leans to computer science and cybersecurity.",
+      "location": "Laurel is a reach commute and telework is not available.",
+      "barrier": "Clearance eligibility only - APL sponsors it.",
+      "employer": "Well-known defense research lab with strong graduate development."
+    },
+    "intel": {
+      "size": "About 8,000 employees",
+      "hq": "Laurel, MD",
+      "remotePolicy": "On site - telework not available",
+      "news": "2027 graduate hiring open",
+      "magnet": "Sponsors clearances"
+    }
+  },
+  {
+    "id": 11,
+    "score": 64,
+    "title": "2027 Graduate - Software Developer - Engagement Optimization",
+    "company": "Johns Hopkins Applied Physics Laboratory",
+    "market": "MD",
+    "city": "Laurel, MD",
+    "salary": "Not published",
+    "payMin": null,
+    "payMax": null,
+    "employmentType": "Full Time",
+    "roleType": "Junior Developer",
+    "sector": "Commercial",
+    "priority": "Stretch",
+    "url": "https://careers.jhuapl.edu/jobs/59510",
+    "reqId": "59510",
+    "clearance": "Eligible/Sponsor",
+    "certRequired": false,
+    "certNote": "",
+    "notes": "2027 graduate software role building modeling and simulation software for missile defense. Needs a BS/MS in computer science, engineering, physics, math or related field and fluency in modern C++ and Python, plus ability to obtain Interim and Final Secret clearance (APL sponsors). On site in Laurel, about a 45-75 minute drive from Central Maryland. Pay not published. C++ requirement is a gap against Java and SQL coursework.",
+    "postedDate": "2026-11-10",
+    "posted": "2026-11-10",
+    "lastVerified": "2026-11-10",
+    "fit": {
+      "level": 5,
+      "skills": 2,
+      "location": 3,
+      "barrier": 4,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Explicit new-graduate program.",
+      "skills": "Requires C++ and Python fluency, which is beyond your Java and SQL focus.",
+      "location": "Laurel is a reach commute and telework is not available.",
+      "barrier": "Clearance eligibility only - APL sponsors it.",
+      "employer": "Well-known defense research lab."
+    },
+    "intel": {
+      "size": "About 8,000 employees",
+      "hq": "Laurel, MD",
+      "remotePolicy": "On site - telework not available",
+      "news": "2027 graduate hiring open",
+      "magnet": "Sponsors clearances"
+    }
+  },
+  {
+    "id": 12,
     "score": 62,
     "title": "Software Engineer - Entry Level",
     "company": "Boeing",
@@ -424,9 +514,9 @@
     "certRequired": false,
     "certNote": "",
     "notes": "Entry-level software role on a defense program - no prior experience required, but it needs an ACTIVE TS/SCI with polygraph (no sponsorship stated) and experience with RF signal processing applications. Bachelor's in computer science or a related field. On site only. Posted 10/14/2026. Keep on the radar for after you hold a clearance.",
-    "postedDate": "2026-11-09",
-    "posted": "2026-11-09",
-    "lastVerified": "2026-11-06",
+    "postedDate": "2026-11-10",
+    "posted": "2026-11-10",
+    "lastVerified": "2026-11-10",
     "fit": {
       "level": 5,
       "skills": 2,
@@ -489,9 +579,9 @@
       "news": "Posted on the Leidos Maryland board",
       "magnet": "Sponsors clearances on other roles"
     },
-    "postedDate": "2026-11-09",
-    "posted": "2026-11-09",
+    "postedDate": "2026-11-10",
+    "posted": "2026-11-10",
     "lastVerified": "2026-11-09",
-    "id": 11
+    "id": 13
   }
 ]
