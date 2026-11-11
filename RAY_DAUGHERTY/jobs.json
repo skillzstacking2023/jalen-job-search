@@ -39,10 +39,125 @@
       "news": "Recent Graduates announcement open 08/18/2026 to 11/18/2026",
       "magnet": "Sponsors clearances; promotion potential to GG-12"
     },
-    "postedDate": "2026-11-10",
-    "posted": "2026-11-10",
+    "postedDate": "2026-11-11",
+    "posted": "2026-11-11",
     "lastVerified": "2026-11-09",
     "id": 1
+  },
+  {
+    "score": 90,
+    "title": "Programmer I and Programmer II",
+    "company": "Community College of Baltimore County",
+    "market": "MD",
+    "city": "Catonsville, MD",
+    "salary": "$63,988 - $105,763/yr (Programmer I band)",
+    "payMin": 63988,
+    "payMax": 105763,
+    "employmentType": "Full Time",
+    "roleType": "Junior Developer",
+    "sector": "Government",
+    "url": "https://www.governmentjobs.com/jobs/5500244-0/programmer-i-and-programmer-ii",
+    "reqId": "2026-075",
+    "clearance": "None",
+    "certRequired": false,
+    "certNote": "",
+    "notes": "Combined Programmer I and II posting - apply at the Programmer I level, which the college calls entry-level: a bachelor's degree in information technology or a related field meets the minimum with no experience required. Coursework in SQL, HTML5, CSS, JavaScript, Java and jQuery plus exposure to web servers (Apache, Tomcat, IIS) is expected. Duties include writing and testing code under senior developers, building and scheduling reports, and technical documentation. New hires complete Banner ERP module training within six months. Programmer II requires 4 years and certifications - not the target level. Opened 09/30/2026, no closing date posted.",
+    "keywords": [
+      "SQL",
+      "HTML5",
+      "CSS",
+      "JavaScript",
+      "Java",
+      "jQuery",
+      "Apache Tomcat",
+      "IIS",
+      "Oracle SQL Developer",
+      "Oracle APEX",
+      "technical documentation",
+      "Banner ERP"
+    ],
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Programmer I is explicitly entry-level with no experience required for a bachelor's.",
+      "skills": "Your SQL, Java, HTML/CSS and documentation coursework match the stated requirements almost line for line.",
+      "location": "Catonsville - core commute.",
+      "barrier": "No clearance or certification needed at hire.",
+      "employer": "Public community college with a defined Programmer career ladder."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Baltimore, MD (Catonsville campus)",
+      "remotePolicy": null,
+      "news": "Posting opened 09/30/2026",
+      "magnet": "Defined promotion ladder from Programmer I to Programmer-Analyst II"
+    },
+    "lastVerified": "2026-11-11",
+    "postedDate": "2026-11-11",
+    "posted": "2026-11-11",
+    "priority": "High",
+    "id": 2
+  },
+  {
+    "score": 88,
+    "title": "IT Cybersecurity Specialists (Sysadmin/Infosec) - CES Recent Graduate",
+    "company": "Defense Information Systems Agency",
+    "market": "MD",
+    "city": "Fort Meade, MD",
+    "salary": "$57,736 - $75,059/yr",
+    "payMin": 57736,
+    "payMax": 75059,
+    "employmentType": "Full Time",
+    "roleType": "Cybersecurity",
+    "sector": "Federal",
+    "url": "https://www.usajobs.gov/job/892377900",
+    "reqId": "892377900",
+    "clearance": "Eligible/Sponsor",
+    "certRequired": false,
+    "certNote": "",
+    "notes": "Federal Recent Graduates (Pathways) program - open to applicants within 2 years of finishing a degree; IT Management series 2210 at GG-7 with promotion potential to 13. Formal and on-the-job training in server installation, configuration and maintenance, multi-platform operating systems and COTS software across physical and virtual environments. Top Secret clearance is part of the position and handled through the agency. Telework eligible per agency policy, not remote. Applications close 11/13/2026 - apply now.",
+    "keywords": [
+      "server hardware",
+      "multi-platform operating systems",
+      "COTS software",
+      "virtual environments",
+      "installation",
+      "configuration",
+      "testing",
+      "systems fixes",
+      "briefings"
+    ],
+    "fit": {
+      "level": 5,
+      "skills": 4,
+      "location": 5,
+      "barrier": 4,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Explicit Recent Graduates program with formal training.",
+      "skills": "Your networking and information security fundamentals map to the sysadmin/infosec track.",
+      "location": "Fort Meade - core commute.",
+      "barrier": "Clearance is sponsored through the hiring process.",
+      "employer": "Major DoD IT agency with a structured career ladder."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Fort Meade, MD",
+      "remotePolicy": "On site with telework eligibility",
+      "news": "Recent Graduates announcement open 11/10/2026 to 11/13/2026",
+      "magnet": "Sponsors clearances; promotion potential to GG-13"
+    },
+    "lastVerified": "2026-11-11",
+    "postedDate": "2026-11-11",
+    "posted": "2026-11-11",
+    "priority": "High",
+    "id": 3
   },
   {
     "score": 84,
@@ -84,10 +199,10 @@
       "news": "Posted 09/14/2026",
       "magnet": "Tuition remission and state retirement plans"
     },
-    "postedDate": "2026-11-10",
-    "posted": "2026-11-10",
+    "postedDate": "2026-11-11",
+    "posted": "2026-11-11",
     "lastVerified": "2026-11-09",
-    "id": 2
+    "id": 4
   },
   {
     "score": 83,
@@ -129,13 +244,69 @@
       "news": "Posted 10/20/2026",
       "magnet": "City benefits package and public service"
     },
-    "postedDate": "2026-11-10",
-    "posted": "2026-11-10",
+    "postedDate": "2026-11-11",
+    "posted": "2026-11-11",
     "lastVerified": "2026-11-09",
-    "id": 3
+    "id": 5
   },
   {
-    "id": 4,
+    "score": 82,
+    "title": "Associate Systems Engineer - Enterprise Tools (Remote)",
+    "company": "CareFirst BlueCross BlueShield",
+    "market": "Remote",
+    "city": "Remote",
+    "salary": "$66,168 - $131,417/yr",
+    "payMin": 66168,
+    "payMax": 131417,
+    "employmentType": "Full Time",
+    "roleType": "IT Specialist",
+    "sector": "Commercial",
+    "url": "https://carefirstcareers.ttcportals.com/jobs/18368044",
+    "reqId": "22522",
+    "clearance": "None",
+    "certRequired": false,
+    "certNote": "",
+    "notes": "Associate-level systems engineering role on the enterprise tools team, posted as remote (office of record Washington, DC). Minimum is a bachelor's in information technology or computer science with no years of experience stated. Duties: install, tune, upgrade and troubleshoot systems for supported applications - OS administration, user account management, disaster recovery and network configuration - plus automating installs, root cause analysis and testing new systems. Information systems is adjacent to the listed degree fields; worth applying.",
+    "keywords": [
+      "operating system administration",
+      "user account management",
+      "disaster recovery",
+      "networking configuration",
+      "automation",
+      "root cause analysis",
+      "system requirements",
+      "system engineering tools",
+      "Microsoft Office"
+    ],
+    "fit": {
+      "level": 5,
+      "skills": 3,
+      "location": 5,
+      "barrier": 4,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Associate title with a degree-only minimum.",
+      "skills": "Your networking and systems coursework fit; the admin and automation work is more hands-on than your analysis background.",
+      "location": "Fully remote.",
+      "barrier": "Degree field is listed as IT or computer science - your IS degree is adjacent.",
+      "employer": "Large regional health insurer with an internal IT organization."
+    },
+    "intel": {
+      "size": null,
+      "hq": null,
+      "remotePolicy": "Remote",
+      "news": null,
+      "magnet": "Posts associate-level IT roles with no experience minimum"
+    },
+    "lastVerified": "2026-11-11",
+    "postedDate": "2026-11-11",
+    "posted": "2026-11-11",
+    "priority": "High",
+    "id": 6
+  },
+  {
+    "id": 7,
     "score": 80,
     "title": "Technical Support Analyst",
     "company": "Trimble",
@@ -154,8 +325,8 @@
     "certRequired": false,
     "certNote": "",
     "notes": "Remote technical support for business software - troubleshooting across phone, email and chat, root-cause analysis, and working with SQL, XML and HTML. Bachelor's degree or equivalent in a technology field. Workday lists the location as US - Remote, OH, so confirm Maryland residents are eligible. Applications close 11/16/2026.",
-    "postedDate": "2026-11-10",
-    "posted": "2026-11-10",
+    "postedDate": "2026-11-11",
+    "posted": "2026-11-11",
     "lastVerified": "2026-11-10",
     "fit": {
       "level": 4,
@@ -219,10 +390,10 @@
       "news": "Open through 09/30/2027",
       "magnet": "Sponsors clearances; 3-year training plan with scheduled raises"
     },
-    "postedDate": "2026-11-10",
-    "posted": "2026-11-10",
+    "postedDate": "2026-11-11",
+    "posted": "2026-11-11",
     "lastVerified": "2026-11-09",
-    "id": 5
+    "id": 8
   },
   {
     "score": 76,
@@ -264,10 +435,66 @@
       "news": "Announcement open 10/28/2026 to 11/12/2026",
       "magnet": "Promotion potential in a small analytic agency"
     },
-    "postedDate": "2026-11-10",
-    "posted": "2026-11-10",
+    "postedDate": "2026-11-11",
+    "posted": "2026-11-11",
     "lastVerified": "2026-11-09",
-    "id": 6
+    "id": 9
+  },
+  {
+    "score": 76,
+    "title": "INTERNAL IT HELPDESK (IT Technical Support Specialist I)",
+    "company": "Maryland Department of General Services",
+    "market": "MD",
+    "city": "Baltimore, MD",
+    "salary": "$36.73 - $57.92/hour",
+    "payMin": 76398,
+    "payMax": 120474,
+    "employmentType": "Contract",
+    "roleType": "Help Desk",
+    "sector": "Government",
+    "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?b=&R1=26&R2=004475&R3=0002",
+    "reqId": "26-004475-0002",
+    "clearance": "None",
+    "certRequired": false,
+    "certNote": "",
+    "notes": "Full-time contractual help desk role supporting DGS staff at 301 W Preston Street - first point of contact for IT incidents and requests, hardware/software/connectivity troubleshooting, password resets, MFA and account access, onboarding and offboarding. Minimum is 1 year of operating-system experience, but 30 college credit hours in IT or information systems substitute, so your degree qualifies. Open to outside applicants (the 'internal' in the title is the internal help desk, not an internal-only recruitment). Contractual, not permanent. Filing deadline 11/12/2026 - apply now.",
+    "keywords": [
+      "help desk",
+      "incident management",
+      "service requests",
+      "password resets",
+      "MFA",
+      "account access",
+      "onboarding/offboarding",
+      "hardware troubleshooting",
+      "connectivity"
+    ],
+    "fit": {
+      "level": 4,
+      "skills": 4,
+      "location": 5,
+      "barrier": 4,
+      "employer": 3
+    },
+    "fitNotes": {
+      "level": "Level I class where your degree substitutes for the experience minimum.",
+      "skills": "Your IT support and networking fundamentals match the duties.",
+      "location": "Downtown Baltimore - core commute.",
+      "barrier": "Contractual appointment without permanent-position benefits.",
+      "employer": "State agency; contractual roles can lead to permanent openings."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Baltimore, MD",
+      "remotePolicy": null,
+      "news": "Opened 10/29/2026, filing deadline 11/12/2026",
+      "magnet": null
+    },
+    "lastVerified": "2026-11-11",
+    "postedDate": "2026-11-11",
+    "posted": "2026-11-11",
+    "priority": "Medium",
+    "id": 10
   },
   {
     "score": 74,
@@ -309,10 +536,65 @@
       "news": "Open through 09/30/2027",
       "magnet": "Sponsors clearances; 3-year training plan"
     },
-    "postedDate": "2026-11-10",
-    "posted": "2026-11-10",
+    "postedDate": "2026-11-11",
+    "posted": "2026-11-11",
     "lastVerified": "2026-11-09",
-    "id": 7
+    "id": 11
+  },
+  {
+    "score": 74,
+    "title": "2027 Associate/Software Engineer Pathways Linthicum MA",
+    "company": "Northrop Grumman",
+    "market": "MD",
+    "city": "Linthicum, MD",
+    "salary": "$76,200 - $114,400/yr (Associate level)",
+    "payMin": 76200,
+    "payMax": 114400,
+    "employmentType": "Full Time",
+    "roleType": "Junior Developer",
+    "sector": "Federal",
+    "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Associate-Software-Engineer-Pathways-Dulles-VA_R10256499",
+    "reqId": "R10256499",
+    "clearance": "Eligible/Sponsor",
+    "certRequired": false,
+    "certNote": "",
+    "notes": "New-grad Pathways rotational program in the Space sector at Linthicum - three engineering rotations, then placement on the software engineering team. Apply at the Associate Software Engineer level (completed bachelor's); the Software Engineer level needs a master's. Degree should be computer science, computer engineering, software engineering or a related field, so an IS degree is a stretch on field. No clearance needed to start, but you must be able to obtain one plus Special Access Program access. Application window is about 20 days from the 11/09/2026 posting. Federal contractor.",
+    "keywords": [
+      "software design",
+      "software development",
+      "documentation",
+      "testing",
+      "debugging",
+      "security clearance",
+      "Special Access Program",
+      "rotational program"
+    ],
+    "fit": {
+      "level": 5,
+      "skills": 3,
+      "location": 5,
+      "barrier": 4,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Explicit new-grad Pathways program.",
+      "skills": "Your Java background helps; the posting favors CS or engineering degrees.",
+      "location": "Linthicum - core commute.",
+      "barrier": "Clearance is obtained after hire; degree field is the main gap.",
+      "employer": "Large defense contractor with a structured early-career program."
+    },
+    "intel": {
+      "size": null,
+      "hq": null,
+      "remotePolicy": "On site",
+      "news": "Posted 11/09/2026",
+      "magnet": "Sponsors clearances; relocation assistance may be available"
+    },
+    "lastVerified": "2026-11-11",
+    "postedDate": "2026-11-11",
+    "posted": "2026-11-11",
+    "priority": "Medium",
+    "id": 12
   },
   {
     "score": 72,
@@ -354,10 +636,10 @@
       "news": "Posted 10/27/2026",
       "magnet": "Tuition benefits for staff"
     },
-    "postedDate": "2026-11-10",
-    "posted": "2026-11-10",
+    "postedDate": "2026-11-11",
+    "posted": "2026-11-11",
     "lastVerified": "2026-11-09",
-    "id": 8
+    "id": 13
   },
   {
     "score": 72,
@@ -399,13 +681,13 @@
       "news": "2027 Graduate hiring cycle open",
       "magnet": "Sponsors clearances; strong early-career programs"
     },
-    "postedDate": "2026-11-10",
-    "posted": "2026-11-10",
+    "postedDate": "2026-11-11",
+    "posted": "2026-11-11",
     "lastVerified": "2026-11-09",
-    "id": 9
+    "id": 14
   },
   {
-    "id": 10,
+    "id": 15,
     "score": 72,
     "title": "2027 Graduate - Cyber Engineer - Capabilities Development",
     "company": "Johns Hopkins Applied Physics Laboratory",
@@ -424,8 +706,8 @@
     "certRequired": false,
     "certNote": "",
     "notes": "2027 graduate program role - cyber capability development with mentoring. Needs a bachelor's in computer science, computer engineering, math or a cybersecurity-related field, plus internship, research or project software experience (Java is listed). Must be able to obtain an Interim Secret and ultimately Top Secret clearance; APL sponsors. On site in Laurel, about a 45-75 minute drive from Central Maryland. Pay not published.",
-    "postedDate": "2026-11-10",
-    "posted": "2026-11-10",
+    "postedDate": "2026-11-11",
+    "posted": "2026-11-11",
     "lastVerified": "2026-11-10",
     "fit": {
       "level": 5,
@@ -450,7 +732,60 @@
     }
   },
   {
-    "id": 11,
+    "score": 72,
+    "title": "Associate Software Engineer",
+    "company": "T. Rowe Price",
+    "market": "MD",
+    "city": "Owings Mills, MD",
+    "salary": "$77,500 - $132,000/yr",
+    "payMin": 77500,
+    "payMax": 132000,
+    "employmentType": "Full Time",
+    "roleType": "Junior Developer",
+    "sector": "Commercial",
+    "url": "https://troweprice.wd5.myworkdayjobs.com/TRowePrice/job/Owings-Mills-MD/Associate-Software-Engineer_83767-1",
+    "reqId": "83767",
+    "clearance": "None",
+    "certRequired": false,
+    "certNote": "",
+    "notes": "Associate-level software engineering role at the Owings Mills campus. Requires a BS in a technical discipline and 1+ years of hands-on software engineering experience - internship or substantial project work may be weighed, so confirm before applying. Knowledge of SQL, relational and analytical database concepts and stored procedures, test-driven development and Agile teamwork. Hybrid with up to three days per week from home. Visa sponsorship not offered.",
+    "keywords": [
+      "SQL",
+      "stored procedures",
+      "relational databases",
+      "analytical databases",
+      "test-driven development",
+      "Agile"
+    ],
+    "fit": {
+      "level": 3,
+      "skills": 4,
+      "location": 5,
+      "barrier": 4,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Associate title but asks for 1+ year of hands-on engineering.",
+      "skills": "Your SQL and relational database design are named requirements.",
+      "location": "Owings Mills - core commute.",
+      "barrier": "Experience minimum is the gap; no clearance or certification needed.",
+      "employer": "Large Baltimore-based asset manager with a big technology organization."
+    },
+    "intel": {
+      "size": null,
+      "hq": "Baltimore, MD",
+      "remotePolicy": "Hybrid, up to 3 days from home",
+      "news": null,
+      "magnet": null
+    },
+    "lastVerified": "2026-11-11",
+    "postedDate": "2026-11-11",
+    "posted": "2026-11-11",
+    "priority": "Medium",
+    "id": 16
+  },
+  {
+    "id": 17,
     "score": 64,
     "title": "2027 Graduate - Software Developer - Engagement Optimization",
     "company": "Johns Hopkins Applied Physics Laboratory",
@@ -469,8 +804,8 @@
     "certRequired": false,
     "certNote": "",
     "notes": "2027 graduate software role building modeling and simulation software for missile defense. Needs a BS/MS in computer science, engineering, physics, math or related field and fluency in modern C++ and Python, plus ability to obtain Interim and Final Secret clearance (APL sponsors). On site in Laurel, about a 45-75 minute drive from Central Maryland. Pay not published. C++ requirement is a gap against Java and SQL coursework.",
-    "postedDate": "2026-11-10",
-    "posted": "2026-11-10",
+    "postedDate": "2026-11-11",
+    "posted": "2026-11-11",
     "lastVerified": "2026-11-10",
     "fit": {
       "level": 5,
@@ -495,7 +830,7 @@
     }
   },
   {
-    "id": 12,
+    "id": 18,
     "score": 62,
     "title": "Software Engineer - Entry Level",
     "company": "Boeing",
@@ -514,8 +849,8 @@
     "certRequired": false,
     "certNote": "",
     "notes": "Entry-level software role on a defense program - no prior experience required, but it needs an ACTIVE TS/SCI with polygraph (no sponsorship stated) and experience with RF signal processing applications. Bachelor's in computer science or a related field. On site only. Posted 10/14/2026. Keep on the radar for after you hold a clearance.",
-    "postedDate": "2026-11-10",
-    "posted": "2026-11-10",
+    "postedDate": "2026-11-11",
+    "posted": "2026-11-11",
     "lastVerified": "2026-11-10",
     "fit": {
       "level": 5,
@@ -579,9 +914,9 @@
       "news": "Posted on the Leidos Maryland board",
       "magnet": "Sponsors clearances on other roles"
     },
-    "postedDate": "2026-11-10",
-    "posted": "2026-11-10",
+    "postedDate": "2026-11-11",
+    "posted": "2026-11-11",
     "lastVerified": "2026-11-09",
-    "id": 13
+    "id": 19
   }
 ]
