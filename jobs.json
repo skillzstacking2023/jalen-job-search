@@ -5,7 +5,7 @@
     "company": "VCU Health",
     "market": "VA",
     "city": "Richmond, VA",
-    "salary": "$42K-$55K/yr",
+    "salary": "Not published",
     "roleType": "Help Desk",
     "certs": [
       "sec"
@@ -13,8 +13,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/service-desk-tech-i-at-vcu-health-4483254815",
     "notes": "Security+ aligns with role - Entry / Tier 1 level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -42,53 +42,11 @@
   },
   {
     "score": 93,
-    "title": "Service Desk Tier I Technician",
-    "company": "Leidos",
-    "market": "VA",
-    "city": "Norfolk, VA",
-    "salary": "$42K-$55K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/service-desk-tier-i-technician-at-leidos-4474415212",
-    "notes": "Security+ aligns with role - Clearance-eligible welcome - Entry / Tier 1 level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 4,
-      "employer": 5
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "Federal contractor - clearance-eligible is a plus; confirm clearance needs on the posting.",
-      "employer": "Federal prime - strong brand for an entry-level IT hire."
-    },
-    "intel": {
-      "size": "Large (federal prime, 10k+ employees)",
-      "hq": "Norfolk, VA",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "id": 2,
-    "posted": "2026-10-12",
-    "postedApprox": true
-  },
-  {
-    "score": 93,
     "title": "Tier-1 Network Monitor/Help Desk Support",
     "company": "General Dynamics Information Technology",
     "market": "VA",
     "city": "Langley Forest, VA",
-    "salary": "$42K-$55K/yr",
+    "salary": "Not published",
     "roleType": "Help Desk",
     "certs": [
       "sec",
@@ -97,8 +55,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/tier-1-network-monitor-help-desk-support-at-general-dynamics-information-technology-4482132199",
     "notes": "Security+ aligns with role - Clearance-eligible welcome - Entry / Tier 1 level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -120,7 +78,7 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
     },
-    "id": 3,
+    "id": 2,
     "posted": "2026-10-26",
     "postedApprox": true
   },
@@ -130,7 +88,7 @@
     "company": "Womble Bond Dickinson (US) LLP",
     "market": "VA",
     "city": "Washington, DC",
-    "salary": "$42K-$55K/yr",
+    "salary": "Not published",
     "roleType": "Help Desk",
     "certs": [
       "sec"
@@ -138,8 +96,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/analyst-i-service-desk-at-womble-bond-dickinson-us-llp-4452859409",
     "notes": "Security+ aligns with role - Entry / Tier 1 level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -161,7 +119,7 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
     },
-    "id": 4,
+    "id": 3,
     "posted": "2026-10-26",
     "postedApprox": true
   },
@@ -171,7 +129,7 @@
     "company": "Spatial Front, Inc",
     "market": "VA",
     "city": "Arlington, VA",
-    "salary": "$42K-$55K/yr",
+    "salary": "Not published",
     "roleType": "Help Desk",
     "certs": [
       "sec"
@@ -179,8 +137,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/help-desk-associate-at-spatial-front-inc-4440610324",
     "notes": "Security+ aligns with role - Entry / Tier 1 level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -202,7 +160,7 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
     },
-    "id": 5,
+    "id": 4,
     "posted": "2026-10-30",
     "postedApprox": false
   },
@@ -212,7 +170,7 @@
     "company": "AMERICAN SYSTEMS",
     "market": "VA",
     "city": "McLean, VA",
-    "salary": "$42K-$55K/yr",
+    "salary": "Not published",
     "roleType": "Help Desk",
     "certs": [
       "sec"
@@ -220,8 +178,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/service-desk-agent-i-at-american-systems-4484573660",
     "notes": "Security+ aligns with role - Entry / Tier 1 level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -243,7 +201,7 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
     },
-    "id": 6,
+    "id": 5,
     "posted": "2026-10-30",
     "postedApprox": false
   },
@@ -253,7 +211,7 @@
     "company": "Maximus",
     "market": "MD",
     "city": "Baltimore, MD",
-    "salary": "$42K-$55K/yr",
+    "salary": "Not published",
     "roleType": "Help Desk",
     "certs": [
       "sec",
@@ -262,8 +220,50 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/tier-1-it-support-analyst-at-maximus-4484978472",
     "notes": "Security+ aligns with role - Clearance-eligible welcome - Entry / Tier 1 level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 4,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Tier 1 / entry-level - squarely where you are right now.",
+      "skills": "Direct match to your help desk and desktop support strengths.",
+      "location": "In your primary DMV market - easy commute or hybrid.",
+      "barrier": "Federal contractor - clearance-eligible is a plus; confirm clearance needs on the posting.",
+      "employer": "Federal contractor - good entry point for a clearance-eligible candidate."
+    },
+    "intel": {
+      "size": "Small-to-mid federal contractor",
+      "hq": "Baltimore, MD",
+      "remotePolicy": "Onsite or hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    },
+    "id": 6,
+    "posted": "2026-10-30",
+    "postedApprox": false
+  },
+  {
+    "score": 91,
+    "title": "Help Desk Specialist Tier I (51572)",
+    "company": "Index Analytics LLC",
+    "market": "MD",
+    "city": "Baltimore, MD",
+    "salary": "Not published",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-tier-i-51572-at-index-analytics-llc-4482787282",
+    "notes": "Security+ aligns with role - Clearance-eligible welcome - Entry / Tier 1 level",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -286,91 +286,7 @@
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
     },
     "id": 7,
-    "posted": "2026-10-30",
-    "postedApprox": false
-  },
-  {
-    "score": 91,
-    "title": "Help Desk Specialist Tier I (51572)",
-    "company": "Index Analytics LLC",
-    "market": "MD",
-    "city": "Baltimore, MD",
-    "salary": "$42K-$55K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-tier-i-51572-at-index-analytics-llc-4482787282",
-    "notes": "Security+ aligns with role - Clearance-eligible welcome - Entry / Tier 1 level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 4,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "Federal contractor - clearance-eligible is a plus; confirm clearance needs on the posting.",
-      "employer": "Federal contractor - good entry point for a clearance-eligible candidate."
-    },
-    "intel": {
-      "size": "Small-to-mid federal contractor",
-      "hq": "Baltimore, MD",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "id": 8,
     "posted": "2026-10-26",
-    "postedApprox": true
-  },
-  {
-    "score": 91,
-    "title": "End User Support Specialist - Tier 1",
-    "company": "DMI",
-    "market": "MD",
-    "city": "Baltimore, MD",
-    "salary": "$42K-$55K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec",
-      "fed"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/end-user-support-specialist-tier-1-at-dmi-4471652192",
-    "notes": "Security+ aligns with role - Clearance-eligible welcome - Entry / Tier 1 level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 4,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "In your primary DMV market - easy commute or hybrid.",
-      "barrier": "Federal contractor - clearance-eligible is a plus; confirm clearance needs on the posting.",
-      "employer": "Federal contractor - good entry point for a clearance-eligible candidate."
-    },
-    "intel": {
-      "size": "Small-to-mid federal contractor",
-      "hq": "Baltimore, MD",
-      "remotePolicy": "Onsite or hybrid - confirm on the posting",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "id": 9,
-    "posted": "2026-10-19",
     "postedApprox": true
   },
   {
@@ -379,7 +295,7 @@
     "company": "Koniag Government Services",
     "market": "VA",
     "city": "Washington, DC",
-    "salary": "$42K-$55K/yr",
+    "salary": "Not published",
     "roleType": "Help Desk",
     "certs": [
       "sec",
@@ -388,8 +304,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/tier-1-help-desk-engineer-at-koniag-government-services-4481600302",
     "notes": "Security+ aligns with role - Clearance-eligible welcome - Entry / Tier 1 level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -411,7 +327,7 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
     },
-    "id": 10,
+    "id": 8,
     "posted": "2026-10-26",
     "postedApprox": true
   },
@@ -421,7 +337,7 @@
     "company": "T-Rex Solutions, LLC",
     "market": "MD",
     "city": "Fort Meade, MD",
-    "salary": "Competitive",
+    "salary": "Not published",
     "roleType": "Help Desk",
     "certs": [
       "sec",
@@ -430,9 +346,9 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/help-desk-specialist-at-t-rex-solutions-llc-4481264538",
     "notes": "Security+ a plus - Federal contractor role at Fort Meade - clearance-eligible track - entry-level service desk",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
-    "id": 11,
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
+    "id": 9,
     "fit": {
       "level": 4,
       "skills": 5,
@@ -453,7 +369,135 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "posted": "2026-10-19",
+    "postedApprox": false
+  },
+  {
+    "score": 89,
+    "title": "Help Desk Analyst (Customer Service Rep I)",
+    "company": "Edgewater Federal Solutions, Inc.",
+    "market": "MD",
+    "city": "Frederick, MD",
+    "salary": "Not published",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/help-desk-analyst-customer-service-rep-i-at-edgewater-federal-solutions-inc-4489121271",
+    "notes": "Tier 1 federal help desk - Security+ aligns - Clearance-eligible candidates welcome - On-site DMV",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 4,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Tier 1 / entry help desk - right at your level.",
+      "skills": "Direct match to your help desk and Security+ background.",
+      "location": "In your primary DMV market.",
+      "barrier": "Federal contractor role - clearance-eligible is enough to apply; no active clearance stated.",
+      "employer": "Established federal IT services contractor."
+    },
+    "intel": {
+      "size": "Mid-size federal contractor",
+      "hq": "Frederick, MD",
+      "remotePolicy": "On-site - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    },
+    "posted": "2026-11-09",
+    "postedApprox": false,
+    "id": 10
+  },
+  {
+    "score": 88,
+    "title": "Call Center IT Support Technician",
+    "company": "Amentum",
+    "market": "MD",
+    "city": "Annapolis, MD",
+    "salary": "Not published",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/call-center-it-support-technician-at-amentum-4473534694",
+    "notes": "Tier 1 call-center IT support - Security+ aligns - Federal contractor, clearance-eligible track - On-site DMV",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 4,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Entry-level call-center / Tier 1 support.",
+      "skills": "Phone-based troubleshooting matches your help desk strengths.",
+      "location": "In your primary DMV market.",
+      "barrier": "Clearance-eligible is enough to apply; no active clearance stated.",
+      "employer": "Large federal services contractor."
+    },
+    "intel": {
+      "size": "Large federal contractor",
+      "hq": "Chantilly, VA",
+      "remotePolicy": "On-site - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    },
+    "posted": "2026-11-12",
+    "postedApprox": false,
+    "id": 11
+  },
+  {
+    "score": 88,
+    "title": "Service Desk Analyst",
+    "company": "BAE Systems, Inc.",
+    "market": "VA",
+    "city": "Sterling, VA",
+    "salary": "Not published",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec",
+      "fed"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/service-desk-analyst-at-bae-systems-inc-4479424731",
+    "notes": "Entry service desk at a major defense contractor - Security+ aligns - Clearance-eligible track - On-site DMV",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 4,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Service desk analyst - entry / Tier 1.",
+      "skills": "Service desk ticket work is a direct match to your experience.",
+      "location": "In your primary DMV market.",
+      "barrier": "Clearance-eligible is enough to apply; no active clearance stated.",
+      "employer": "Major defense and aerospace contractor."
+    },
+    "intel": {
+      "size": "Large defense contractor",
+      "hq": "Falls Church, VA",
+      "remotePolicy": "On-site - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    },
+    "posted": "2026-11-12",
+    "postedApprox": false,
+    "id": 12
   },
   {
     "score": 87,
@@ -461,7 +505,7 @@
     "company": "Visa",
     "market": "VA",
     "city": "Ashburn, VA",
-    "salary": "$60K-$78K/yr",
+    "salary": "Not published",
     "roleType": "Cybersecurity",
     "certs": [
       "sec"
@@ -469,8 +513,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/associate-cybersecurity-analyst-junior-local-candidates-at-visa-4476780859",
     "notes": "Security+ aligns with role - Entry / Tier 1 level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
     "fit": {
       "level": 5,
       "skills": 4,
@@ -492,7 +536,7 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
     },
-    "id": 12,
+    "id": 13,
     "posted": "2026-10-29",
     "postedApprox": false
   },
@@ -502,7 +546,7 @@
     "company": "Valiant Solutions",
     "market": "MD",
     "city": "Silver Spring, MD",
-    "salary": "$50K-$64K/yr",
+    "salary": "Not published",
     "roleType": "NOC",
     "certs": [
       "sec"
@@ -510,8 +554,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/jr-network-operations-engineer-at-valiant-solutions-4481786710",
     "notes": "Security+ aligns with role - Entry / Tier 1 level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
     "fit": {
       "level": 5,
       "skills": 4,
@@ -533,7 +577,7 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
     },
-    "id": 13,
+    "id": 14,
     "posted": "2026-10-26",
     "postedApprox": true
   },
@@ -543,7 +587,7 @@
     "company": "Virtual Service Operations",
     "market": "VA",
     "city": "Lorton, VA",
-    "salary": "$50K-$64K/yr",
+    "salary": "Not published",
     "roleType": "NOC",
     "certs": [
       "sec"
@@ -551,8 +595,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/noc-network-analyst-i-at-virtual-service-operations-4483775346",
     "notes": "Security+ aligns with role - Entry / Tier 1 level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
     "fit": {
       "level": 5,
       "skills": 4,
@@ -574,7 +618,7 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
     },
-    "id": 14,
+    "id": 15,
     "posted": "2026-10-27",
     "postedApprox": false
   },
@@ -584,7 +628,7 @@
     "company": "Knox Systems, Inc.",
     "market": "VA",
     "city": "Arlington, VA",
-    "salary": "$58K-$72K/yr",
+    "salary": "Not published",
     "roleType": "SOC",
     "certs": [
       "sec"
@@ -592,8 +636,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/security-operations-analyst-tier-1-at-knox-systems-inc-4476035078",
     "notes": "Security+ aligns with role - Entry / Tier 1 level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
     "fit": {
       "level": 5,
       "skills": 4,
@@ -615,7 +659,7 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
     },
-    "id": 15,
+    "id": 16,
     "posted": "2026-10-19",
     "postedApprox": true
   },
@@ -625,7 +669,7 @@
     "company": "SAIC",
     "market": "MD",
     "city": "Germantown, MD",
-    "salary": "Competitive",
+    "salary": "Not published",
     "roleType": "Help Desk",
     "certs": [
       "sec",
@@ -634,9 +678,9 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/service-desk-specialist-tier-i-ii-at-saic-4487252302",
     "notes": "Tier I/II service desk - Federal contractor - clearance-eligible track - posted this week",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
-    "id": 16,
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
+    "id": 17,
     "fit": {
       "level": 5,
       "skills": 5,
@@ -657,7 +701,9 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "posted": "2026-11-04",
+    "postedApprox": false
   },
   {
     "score": 86,
@@ -665,7 +711,7 @@
     "company": "Leidos",
     "market": "MD",
     "city": "Suitland, MD",
-    "salary": "$45K-$58K/yr",
+    "salary": "Not published",
     "roleType": "Desktop Support",
     "certs": [
       "sec",
@@ -674,8 +720,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/desktop-support-technician-at-leidos-4485246195",
     "notes": "Security+ aligns with role - Clearance-eligible welcome - Early-career level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
     "fit": {
       "level": 4,
       "skills": 5,
@@ -697,7 +743,7 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Mixed - posts entry through senior roles"
     },
-    "id": 17,
+    "id": 18,
     "posted": "2026-10-30",
     "postedApprox": false
   },
@@ -707,7 +753,7 @@
     "company": "CACI International Inc",
     "market": "VA",
     "city": "Arlington, VA",
-    "salary": "$45K-$58K/yr",
+    "salary": "Not published",
     "roleType": "Desktop Support",
     "certs": [
       "sec",
@@ -716,8 +762,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/tier-2-deskside-support-technician-at-caci-international-inc-4483027851",
     "notes": "Security+ aligns with role - Clearance-eligible welcome - Early-career level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
     "fit": {
       "level": 4,
       "skills": 5,
@@ -739,7 +785,7 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Mixed - posts entry through senior roles"
     },
-    "id": 18,
+    "id": 19,
     "posted": "2026-10-29",
     "postedApprox": false
   },
@@ -749,57 +795,16 @@
     "company": "Simmons Bank",
     "market": "Remote",
     "city": "Remote (US)",
-    "salary": "$45K-$58K/yr",
+    "salary": "Not published",
     "roleType": "Help Desk",
     "certs": [
       "sec"
     ],
     "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/it-tac-support-specialist-i-at-simmons-bank-4484947981",
+    "url": "https://www.linkedin.com/jobs/view/it-tac-support-specialist-i-at-simmons-bank-4488152836",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry / Tier 1 level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 5,
-      "employer": 4
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "100% remote (nationwide) - no relocation needed.",
-      "barrier": "No clearance or degree barrier - you can apply today.",
-      "employer": "Large institutional employer - stable entry-level IT environment."
-    },
-    "intel": {
-      "size": "Large institutional employer",
-      "hq": "Distributed / remote-first",
-      "remotePolicy": "100% remote (nationwide)",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "id": 19,
-    "posted": "2026-10-29",
-    "postedApprox": false
-  },
-  {
-    "score": 86,
-    "title": "IT Client Support Specialist I",
-    "company": "University of Central Florida",
-    "market": "Remote",
-    "city": "Remote (US)",
-    "salary": "$45K-$58K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/it-client-support-specialist-i-at-university-of-central-florida-4484570732",
-    "notes": "100% remote (nationwide) - Security+ aligns with role - Entry / Tier 1 level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -822,6 +827,47 @@
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
     },
     "id": 20,
+    "posted": "2026-11-06",
+    "postedApprox": false
+  },
+  {
+    "score": 86,
+    "title": "IT Client Support Specialist I",
+    "company": "University of Central Florida",
+    "market": "Remote",
+    "city": "Remote (US)",
+    "salary": "Not published",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "High",
+    "url": "https://www.linkedin.com/jobs/view/it-client-support-specialist-i-at-university-of-central-florida-4484570732",
+    "notes": "100% remote (nationwide) - Security+ aligns with role - Entry / Tier 1 level",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Tier 1 / entry-level - squarely where you are right now.",
+      "skills": "Direct match to your help desk and desktop support strengths.",
+      "location": "100% remote (nationwide) - no relocation needed.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Large institutional employer - stable entry-level IT environment."
+    },
+    "intel": {
+      "size": "Large institutional employer",
+      "hq": "Distributed / remote-first",
+      "remotePolicy": "100% remote (nationwide)",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    },
+    "id": 21,
     "posted": "2026-10-30",
     "postedApprox": false
   },
@@ -831,7 +877,7 @@
     "company": "Peraton",
     "market": "VA",
     "city": "Sterling, VA",
-    "salary": "Competitive",
+    "salary": "Not published",
     "roleType": "Help Desk",
     "certs": [
       "sec",
@@ -840,9 +886,9 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/customer-support-specialist-technical-at-peraton-4482938243",
     "notes": "Technical customer support - Federal contractor - clearance-eligible track - Security+ preferred",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
-    "id": 21,
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
+    "id": 22,
     "fit": {
       "level": 4,
       "skills": 5,
@@ -863,7 +909,9 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "posted": "2026-10-26",
+    "postedApprox": false
   },
   {
     "score": 85,
@@ -871,7 +919,7 @@
     "company": "Titan Technologies",
     "market": "MD",
     "city": "Derwood, MD",
-    "salary": "$45K-$58K/yr",
+    "salary": "Not published",
     "roleType": "Desktop Support",
     "certs": [
       "sec"
@@ -879,8 +927,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/deskside-technician-at-titan-technologies-4471955669",
     "notes": "Security+ aligns with role - Early-career level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
     "fit": {
       "level": 4,
       "skills": 5,
@@ -902,50 +950,9 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Mixed - posts entry through senior roles"
     },
-    "id": 22,
+    "id": 23,
     "posted": "2026-10-30",
     "postedApprox": false
-  },
-  {
-    "score": 84,
-    "title": "IT Support I",
-    "company": "PACS",
-    "market": "Remote",
-    "city": "Remote (US)",
-    "salary": "$45K-$58K/yr",
-    "roleType": "Help Desk",
-    "certs": [
-      "sec"
-    ],
-    "priority": "High",
-    "url": "https://www.linkedin.com/jobs/view/it-support-i-at-pacs-4471810546",
-    "notes": "100% remote (nationwide) - Security+ aligns with role - Entry / Tier 1 level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
-    "fit": {
-      "level": 5,
-      "skills": 5,
-      "location": 5,
-      "barrier": 5,
-      "employer": 3
-    },
-    "fitNotes": {
-      "level": "Tier 1 / entry-level - squarely where you are right now.",
-      "skills": "Direct match to your help desk and desktop support strengths.",
-      "location": "100% remote (nationwide) - no relocation needed.",
-      "barrier": "No clearance or degree barrier - you can apply today.",
-      "employer": "Established employer for an entry-level IT hire."
-    },
-    "intel": {
-      "size": "Not determined",
-      "hq": "Distributed / remote-first",
-      "remotePolicy": "100% remote (nationwide)",
-      "news": "Not determined - check the posting and company newsroom",
-      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    },
-    "id": 23,
-    "posted": "2026-10-12",
-    "postedApprox": true
   },
   {
     "score": 84,
@@ -953,7 +960,7 @@
     "company": "Schneider Downs",
     "market": "Remote",
     "city": "Remote (US)",
-    "salary": "$45K-$58K/yr",
+    "salary": "Not published",
     "roleType": "Help Desk",
     "certs": [
       "sec"
@@ -961,8 +968,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/technical-support-specialist-tier-i-at-schneider-downs-4483352081",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Entry / Tier 1 level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
     "fit": {
       "level": 5,
       "skills": 5,
@@ -994,7 +1001,7 @@
     "company": "State of Maryland",
     "market": "MD",
     "city": "Maryland, MD",
-    "salary": "Competitive",
+    "salary": "Not published",
     "roleType": "Desktop Support",
     "certs": [
       "sec"
@@ -1002,8 +1009,8 @@
     "priority": "High",
     "url": "https://www.linkedin.com/jobs/view/hcd-end-user-computing-specialist-i-076181-end-user-computing-specialist-i-at-state-of-maryland-4484467604",
     "notes": "State government - entry-level (Specialist I) - no clearance required - note MD executive-branch hiring has been constrained",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
     "id": 25,
     "fit": {
       "level": 5,
@@ -1025,7 +1032,9 @@
       "remotePolicy": "Onsite or hybrid - confirm on the posting",
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
-    }
+    },
+    "posted": "2026-11-02",
+    "postedApprox": true
   },
   {
     "score": 79,
@@ -1033,7 +1042,7 @@
     "company": "University of Miami",
     "market": "Remote",
     "city": "Remote (US)",
-    "salary": "$48K-$61K/yr",
+    "salary": "Not published",
     "roleType": "Desktop Support",
     "certs": [
       "sec"
@@ -1041,8 +1050,8 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/desktop-support-technician-central-a-at-university-of-miami-4484253930",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Early-career level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
     "fit": {
       "level": 4,
       "skills": 5,
@@ -1069,12 +1078,135 @@
     "postedApprox": false
   },
   {
+    "score": 79,
+    "title": "IT Service Support Analyst",
+    "company": "Charles Schwab",
+    "market": "TX",
+    "city": "Austin, TX",
+    "salary": "Not published",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/it-service-support-analyst-at-charles-schwab-4488254735",
+    "notes": "Entry IT service support at a major financial firm - Security+ aligns - Texas (secondary market)",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
+    "fit": {
+      "level": 4,
+      "skills": 5,
+      "location": 3,
+      "barrier": 5,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "Entry service support analyst.",
+      "skills": "Service desk support matches your strengths.",
+      "location": "Austin, TX - your secondary market.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Large commercial financial-services employer."
+    },
+    "intel": {
+      "size": "Large enterprise",
+      "hq": "Westlake, TX",
+      "remotePolicy": "On-site / hybrid - confirm on the posting",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    },
+    "posted": "2026-11-11",
+    "postedApprox": false,
+    "id": 27
+  },
+  {
+    "score": 78,
+    "title": "End User Support Analyst, Specialist",
+    "company": "Vanguard",
+    "market": "Remote",
+    "city": "Remote (US)",
+    "salary": "Not published",
+    "roleType": "Desktop Support",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/end-user-support-analyst-specialist-at-vanguard-4488478907",
+    "notes": "100% remote (nationwide) - End-user / desktop support - Security+ aligns - Commercial employer",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
+    "fit": {
+      "level": 4,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 5
+    },
+    "fitNotes": {
+      "level": "End-user support analyst - entry to early-career.",
+      "skills": "Desktop / end-user support is a direct match.",
+      "location": "100% remote - fits your nationwide-remote preference.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Large commercial investment-management employer."
+    },
+    "intel": {
+      "size": "Large enterprise",
+      "hq": "Malvern, PA",
+      "remotePolicy": "100% remote (nationwide)",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    },
+    "posted": "2026-11-09",
+    "postedApprox": false,
+    "id": 28
+  },
+  {
+    "score": 77,
+    "title": "Service Desk Analyst I",
+    "company": "Republic Services",
+    "market": "Remote",
+    "city": "Remote (US)",
+    "salary": "Not published",
+    "roleType": "Help Desk",
+    "certs": [
+      "sec"
+    ],
+    "priority": "Medium",
+    "url": "https://www.linkedin.com/jobs/view/service-desk-analyst-i-at-republic-services-4487863045",
+    "notes": "100% remote (nationwide) - Tier 1 service desk - Security+ aligns - Commercial employer",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
+    "fit": {
+      "level": 5,
+      "skills": 5,
+      "location": 5,
+      "barrier": 5,
+      "employer": 4
+    },
+    "fitNotes": {
+      "level": "Service desk analyst I - entry / Tier 1.",
+      "skills": "Ticket-based service desk work matches your experience.",
+      "location": "100% remote - fits your nationwide-remote preference.",
+      "barrier": "No clearance or degree barrier - you can apply today.",
+      "employer": "Large commercial environmental-services employer."
+    },
+    "intel": {
+      "size": "Large enterprise",
+      "hq": "Phoenix, AZ",
+      "remotePolicy": "100% remote (nationwide)",
+      "news": "Not determined - check the posting and company newsroom",
+      "levelHistory": "Yes - this listing is a Tier 1 / entry-level posting"
+    },
+    "posted": "2026-11-10",
+    "postedApprox": false,
+    "id": 29
+  },
+  {
     "score": 72,
     "title": "Cybersecurity Analyst",
     "company": "Toshiba",
     "market": "Remote",
     "city": "Remote (US)",
-    "salary": "$63K-$81K/yr",
+    "salary": "Not published",
     "roleType": "Cybersecurity",
     "certs": [
       "sec"
@@ -1082,8 +1214,8 @@
     "priority": "Medium",
     "url": "https://www.linkedin.com/jobs/view/cybersecurity-analyst-at-toshiba-4484406048",
     "notes": "100% remote (nationwide) - Security+ aligns with role - Early-career level",
-    "postedDate": "2026-11-13",
-    "lastVerified": "2026-11-13",
+    "postedDate": "2026-11-16",
+    "lastVerified": "2026-11-16",
     "fit": {
       "level": 4,
       "skills": 4,
@@ -1105,7 +1237,7 @@
       "news": "Not determined - check the posting and company newsroom",
       "levelHistory": "Mixed - posts entry through senior roles"
     },
-    "id": 27,
+    "id": 30,
     "posted": "2026-10-28",
     "postedApprox": false
   }
